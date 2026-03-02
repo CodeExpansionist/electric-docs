@@ -6,6 +6,9 @@ import { OrdersProvider } from "@/lib/orders-context";
 import LayoutWrapper from "@/components/layout/LayoutWrapper";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.currys.co.uk"
+  ),
   title: {
     default: "Currys | Electrical Appliances, TVs, Laptops & More",
     template: "%s | Currys",
@@ -30,8 +33,11 @@ export const metadata: Metadata = {
       "Discover the latest tech with Currys. Shop TVs, laptops, phones, tablets, home appliances and more.",
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/",
   },
 };
 

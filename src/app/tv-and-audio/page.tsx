@@ -1,7 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import HubSidebar from "@/components/category/HubSidebar";
 import tvAudioHub from "../../../data/scrape/tv-audio-hub.json";
+
+export const metadata: Metadata = {
+  title: "TV & Audio | TVs, Soundbars, Headphones & More",
+  description:
+    "Shop the latest TVs, soundbars, speakers, headphones and home cinema from top brands like Samsung, LG and Sony. Free delivery available on orders over £40.",
+  alternates: { canonical: "/tv-and-audio" },
+  openGraph: {
+    title: "TV & Audio | TVs, Soundbars, Headphones & More | Currys",
+    description:
+      "Shop the latest TVs, soundbars, speakers, headphones and home cinema from top brands.",
+  },
+};
 
 const sidebarSections = [
   { title: "Top categories", links: tvAudioHub.sidebar.topCategories },

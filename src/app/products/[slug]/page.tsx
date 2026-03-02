@@ -352,8 +352,43 @@ function ProductPageContent({
     addItem(toProduct(product, slug));
   };
 
+  // JSON-LD structured data for SEO
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.description?.main || product.name,
+    brand: { "@type": "Brand", name: product.brand },
+    image: mainImage || undefined,
+    sku: productId,
+    offers: {
+      "@type": "Offer",
+      url: `https://www.currys.co.uk/products/${slug}`,
+      priceCurrency: "GBP",
+      price: product.price.current,
+      availability: "https://schema.org/InStock",
+      seller: { "@type": "Organization", name: "Currys" },
+    },
+    ...(product.rating.count > 0
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: product.rating.average,
+            reviewCount: product.rating.count,
+            bestRating: 5,
+            worstRating: 1,
+          },
+        }
+      : {}),
+  };
+
   return (
     <div className="container-main py-4">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Sticky header */}
       <StickyProductHeader
         title={product.name}
