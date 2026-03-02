@@ -109,8 +109,8 @@ export default function BuyTogetherBundle({
         </div>
 
         {/* Bundle products */}
-        {bundleProducts.slice(0, 2).map((product, i) => (
-          <div key={i} className="border border-border rounded-lg p-2">
+        {bundleProducts.slice(0, 2).map((product) => (
+          <div key={product.title} className="border border-border rounded-lg p-2">
             <BundleImage src={product.image} alt={product.title} />
             <p className="text-[10px] text-text-primary line-clamp-2 mt-1">
               {product.title}

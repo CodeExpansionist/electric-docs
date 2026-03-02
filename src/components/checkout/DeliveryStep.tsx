@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { DeliveryData } from "@/app/checkout/page";
+import { isValidUKPostcode, isValidUKPhone } from "@/lib/validation";
 
 export default function DeliveryStep({
   initialData,
@@ -24,9 +25,13 @@ export default function DeliveryStep({
   const validate = (): boolean => {
     const newErrors: Partial<Record<keyof DeliveryData, string>> = {};
     if (!form.firstName.trim()) newErrors.firstName = "Required";
+    else if (form.firstName.trim().length < 2) newErrors.firstName = "Min 2 characters";
     if (!form.lastName.trim()) newErrors.lastName = "Required";
+    else if (form.lastName.trim().length < 2) newErrors.lastName = "Min 2 characters";
     if (!form.phone.trim()) newErrors.phone = "Required";
+    else if (!isValidUKPhone(form.phone)) newErrors.phone = "Enter a valid UK phone number";
     if (!form.postcode.trim()) newErrors.postcode = "Required";
+    else if (!isValidUKPostcode(form.postcode)) newErrors.postcode = "Enter a valid UK postcode";
     if (showManual && !form.address1.trim()) newErrors.address1 = "Required";
     if (showManual && !form.city.trim()) newErrors.city = "Required";
     setErrors(newErrors);

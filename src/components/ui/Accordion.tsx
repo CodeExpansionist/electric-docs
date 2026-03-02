@@ -18,7 +18,7 @@ export default function Accordion({ items, defaultOpen }: AccordionProps) {
   return (
     <div className="divide-y divide-border border-t border-b border-border">
       {items.map((item, i) => (
-        <div key={i}>
+        <div key={item.title}>
           <button
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
             className="w-full flex items-center justify-between py-4 px-0 text-left text-sm font-bold text-text-primary hover:text-primary transition-colors"

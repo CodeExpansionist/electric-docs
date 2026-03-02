@@ -86,8 +86,8 @@ export default function CrossSellProducts({
         What you&apos;ll need to make it even better
       </h3>
       <div className="space-y-4">
-        {products.map((product, i) => (
-          <div key={i} className="border border-border rounded-lg p-4">
+        {products.map((product) => (
+          <div key={product.title} className="border border-border rounded-lg p-4">
             {/* Category header with checkbox */}
             <div className="flex items-center gap-2 mb-3">
               <input type="checkbox" className="w-4 h-4 accent-primary rounded" />

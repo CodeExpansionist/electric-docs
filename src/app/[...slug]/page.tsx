@@ -1,6 +1,6 @@
 "use client";
 
-import { useParams } from "next/navigation";
+import { useParams, notFound } from "next/navigation";
 import Link from "next/link";
 
 const pageContent: Record<string, { title: string; sections: { heading: string; text: string }[] }> = {
@@ -245,22 +245,7 @@ const pageContent: Record<string, { title: string; sections: { heading: string; 
 function getPageData(slug: string[]) {
   const path = slug.join("/");
   if (pageContent[path]) return pageContent[path];
-
-  // Generate a title from the last slug segment
-  const lastSegment = slug[slug.length - 1];
-  const title = lastSegment
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
-
-  return {
-    title,
-    sections: [
-      {
-        heading: `About ${title}`,
-        text: `Learn more about ${title.toLowerCase()} and what we offer. For more information, please contact our customer service team.`,
-      },
-    ],
-  };
+  return null;
 }
 
 function buildBreadcrumbs(slug: string[]) {
@@ -279,6 +264,7 @@ export default function FooterPage() {
   const params = useParams();
   const slug = (params.slug as string[]) || [];
   const page = getPageData(slug);
+  if (!page) notFound();
   const crumbs = buildBreadcrumbs(slug);
 
   return (
