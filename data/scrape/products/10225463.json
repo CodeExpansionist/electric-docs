@@ -1,0 +1,93 @@
+{
+  "id": "10225463",
+  "title": "ALPHASON Element Modular 2100 mm TV Stand - Walnut",
+  "brand": "Alphason",
+  "price": {
+    "current": 699,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 28
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10225463?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10225463?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10225463_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Suitable for TVs up to 90\""
+    },
+    {
+      "icon": "",
+      "label": "Modular design"
+    },
+    {
+      "icon": "",
+      "label": "Width: 2100 mm"
+    },
+    {
+      "icon": "",
+      "label": "Walnut finish"
+    }
+  ],
+  "flexpay": {
+    "monthlyAmount": 28.32,
+    "months": 36,
+    "totalPayable": 1019.52,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Colour": "Walnut",
+      "Material": "MDF with real wood veneer",
+      "Maximum TV size": "90\"",
+      "Maximum load": "50 kg"
+    },
+    "Dimensions": {
+      "Width": "2100 mm",
+      "Height": "555 mm",
+      "Depth": "470 mm"
+    },
+    "Guarantee": {
+      "Manufacturer's guarantee": "2 years"
+    }
+  },
+  "description": {
+    "main": "Give your home cinema setup a stylish foundation with the Alphason Element Modular 2100 mm TV Stand. Its modular design lets you configure the stand to suit your space, while the premium walnut finish adds a touch of sophistication. Supporting TVs up to 90 inches and 50 kg, there's plenty of room for your screen, consoles and AV equipment. Cable management channels keep things tidy at the back.",
+    "goodToKnow": [
+      "Maximum supported weight: 50 kg",
+      "Modular design - configure to suit your space",
+      "Cable management channels",
+      "2 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 20,
+    "nextDayDeliveryPrice": 30
+  },
+  "category": "TV Accessories"
+}

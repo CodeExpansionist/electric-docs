@@ -1,0 +1,417 @@
+{
+  "announcementBar": {
+    "text": "Take it home today with free order & collect in as little as an hour! Subject to availability",
+    "url": "https://www.currys.co.uk/store-finder"
+  },
+  "secondaryNav": [
+    { "text": "Help & Support", "url": "/help-and-support.html" },
+    { "text": "Track my order", "url": "/track-your-order" },
+    { "text": "Delivery", "url": "/services/delivery-installation/delivery-collection.html" },
+    { "text": "Returns", "url": "/services/shopping-with-us/returns-refunds.html" },
+    { "text": "Spread the cost", "url": "/services/ways-to-pay/flexible-credit.html" },
+    { "text": "Gift cards", "url": "/services/ways-to-pay/gift-cards.html" },
+    { "text": "TechTalk", "url": "/techtalk.html" },
+    { "text": "Business", "url": "https://business.currys.co.uk/" }
+  ],
+  "header": {
+    "logoUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw12db0942/images/brand-currys-logo.svg",
+    "searchPlaceholder": "Search",
+    "utilityIcons": [
+      { "label": "Stores", "icon": "stores" },
+      { "label": "Account", "icon": "account" },
+      { "label": "Saved items", "icon": "saved-items" },
+      { "label": "Basket", "icon": "basket" }
+    ]
+  },
+  "mainNav": [
+    {
+      "text": "Appliances",
+      "url": "/appliances",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw6d94bf49/images/category-icons/appliances.svg"
+    },
+    {
+      "text": "TV & Audio",
+      "url": "/tv-and-audio",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw0b9dff8d/images/category-icons/tv_1.svg"
+    },
+    {
+      "text": "Computing",
+      "url": "/computing",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwf00b6a86/images/category-icons/computing.svg"
+    },
+    {
+      "text": "Gaming",
+      "url": "/gaming",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwf5168161/images/category-icons/gaming_1.svg"
+    },
+    {
+      "text": "Health & Beauty",
+      "url": "/health-and-beauty",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw64cc7d20/images/category-icons/hairdryer.svg"
+    },
+    {
+      "text": "Phones",
+      "url": "/phones",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw784d512f/images/category-icons/mobile_2.svg"
+    },
+    {
+      "text": "Smart Tech",
+      "url": "/smart-tech",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwf78a4b6e/images/category-icons/smart-tech_2.svg"
+    },
+    {
+      "text": "Home & Outdoor",
+      "url": "/home-and-outdoor",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwe62b304d/images/category-icons/home-outdoor.svg"
+    },
+    {
+      "text": "Gifts",
+      "url": "/gifts",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwd89e864f/images/category-icons/gifting.svg"
+    },
+    {
+      "text": "Clearance",
+      "url": "/clearance",
+      "hasIcon": false,
+      "iconUrl": null
+    },
+    {
+      "text": "Deals",
+      "url": "/deals",
+      "hasIcon": true,
+      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw42b8389d/images/category-icons/deals-icon.svg"
+    },
+    {
+      "text": "Services",
+      "url": "/services",
+      "hasIcon": false,
+      "iconUrl": null
+    },
+    {
+      "text": "Brands",
+      "url": "/brands",
+      "hasIcon": false,
+      "iconUrl": null
+    }
+  ],
+  "uspBar": [
+    {
+      "icon": "store-svg",
+      "text": "Free order & collect",
+      "url": "/services/delivery-installation/delivery-collection.html"
+    },
+    {
+      "icon": "price-promise-svg",
+      "text": "Found it cheaper? We'll match it.",
+      "url": "/services/shopping-with-us/price-promise.html"
+    },
+    {
+      "icon": "recycling-2-svg",
+      "text": "Recycle your old tech",
+      "url": "/services/delivery-installation/recycling.html"
+    },
+    {
+      "icon": "calendar-svg",
+      "text": "Pay at your pace with Currys flexpay",
+      "url": "/services/ways-to-pay/flexible-credit.html"
+    }
+  ],
+  "heroCarousel": [
+    {
+      "imageAlt": "Sony TV trade-in",
+      "url": "/deals-on-tv-and-audio/trade-in-tv-offers",
+      "linkTitle": "Sony TV trade-in"
+    },
+    {
+      "imageAlt": "Mother's Day gifts",
+      "url": "/gifting/gifts-by-occasion/mothers-day-gifts",
+      "linkTitle": "Mother's Day gifts"
+    },
+    {
+      "imageAlt": "Lenovo AI laptops",
+      "url": "/deals-on-computing/deals-on-ai-laptops",
+      "linkTitle": "Lenovo AI laptops"
+    },
+    {
+      "imageAlt": "Epic Deals",
+      "url": "/epic-deals",
+      "linkTitle": "Epic Deals"
+    },
+    {
+      "imageAlt": "Samsung/LG efficiency",
+      "url": "/deals-on-appliances/mda-efficiency-campaign",
+      "linkTitle": "Samsung/LG efficiency"
+    },
+    {
+      "imageAlt": "Samsung Galaxy S26 Ultra",
+      "url": "/deals-on-phones/samsung-galaxy-s26-ultra-deals",
+      "linkTitle": "Samsung Galaxy S26 Ultra"
+    }
+  ],
+  "creditRepresentativeText": "Representative APR 24.9% (variable). Credit subject to status. T&Cs apply.",
+  "shopDealsCategories": [
+    { "name": "Console gaming", "url": "/deals-on-gaming", "imageUrl": null },
+    { "name": "Health & beauty", "url": "/deals-on-appliances/deals-on-health-and-beauty", "imageUrl": null },
+    { "name": "Headphones", "url": "/deals-on-tv-and-audio/deals-on-headphones", "imageUrl": null },
+    { "name": "Vacuum cleaners", "url": "/deals-on-appliances/deals-on-vacuum-cleaners", "imageUrl": null },
+    { "name": "Smart watches", "url": "/deals-on-smart-tech/deals-on-smart-watches", "imageUrl": null },
+    { "name": "Winter essentials", "url": "/deals-on-appliances/winter-essentials", "imageUrl": null },
+    { "name": "Fridge freezers", "url": "/deals-on-appliances/deals-on-fridge-freezers", "imageUrl": null },
+    { "name": "Sports & fitness", "url": "/deals-on-smart-tech/deals-on-sports-and-fitness", "imageUrl": null },
+    { "name": "Mobile phones", "url": "/deals-on-phones", "imageUrl": null },
+    { "name": "TVs", "url": "/deals-on-tv-and-audio/deals-on-tvs", "imageUrl": null },
+    { "name": "Laptops", "url": "/deals-on-computing/deals-on-laptops", "imageUrl": null },
+    { "name": "Laundry", "url": "/deals-on-appliances/deals-on-laundry", "imageUrl": null }
+  ],
+  "discoverOffers": [
+    {
+      "title": "Microsoft Surface from £699",
+      "subtitle": "Copilot+ PCs powered by Snapdragon X Series",
+      "imageAlt": "Microsoft Surface laptop",
+      "url": "/deals-on-computing/copilot-plus-pcs-powered-by-snapdragon-x-series"
+    },
+    {
+      "title": "Samsung TVs & soundbars claim up to £1000",
+      "subtitle": "Claim up to £1000 cashback on selected Samsung TVs & soundbars",
+      "imageAlt": "Samsung TV and soundbar",
+      "url": "/deals-on-tv-and-audio/deals-on-selected-samsung-tvs"
+    },
+    {
+      "title": "Save £200 ASUS Chromebook Plus CX34",
+      "subtitle": "Save £200 on ASUS Chromebook Plus CX34",
+      "imageAlt": "ASUS Chromebook Plus CX34",
+      "url": "/products/asus-chromebook-plus-cx34"
+    },
+    {
+      "title": "75\"+ TVs free delivery",
+      "subtitle": "Free delivery on selected 75\" and above TVs",
+      "imageAlt": "Large screen TV with free delivery",
+      "url": "/deals-on-tv-and-audio/free-delivery-on-selected-tvs"
+    },
+    {
+      "title": "Samsung Galaxy S26/S26+ pre-order",
+      "subtitle": "Pre-order Samsung Galaxy S26 and S26+",
+      "imageAlt": "Samsung Galaxy S26 and S26+",
+      "url": "/deals-on-phones/samsung-galaxy-s26-and-s26-plus-deals"
+    },
+    {
+      "title": "Galaxy Book6 Pro pre-order",
+      "subtitle": "Pre-order Samsung Galaxy Book6 Pro",
+      "imageAlt": "Samsung Galaxy Book6 Pro laptop",
+      "url": "/deals-on-computing/samsung-galaxy-book6"
+    },
+    {
+      "title": "Samsung efficient appliances",
+      "subtitle": "Samsung energy efficient appliances",
+      "imageAlt": "Samsung efficient appliances",
+      "url": "/deals-on-appliances/mda-efficiency-campaign/samsung"
+    },
+    {
+      "title": "Galaxy Buds4 Pro pre-order",
+      "subtitle": "Pre-order Samsung Galaxy Buds4 Pro",
+      "imageAlt": "Samsung Galaxy Buds4 Pro",
+      "url": "/deals-on-tv-and-audio/samsung-galaxy-buds4-offers"
+    },
+    {
+      "title": "Hoover efficient appliances",
+      "subtitle": "Hoover energy efficient appliances",
+      "imageAlt": "Hoover efficient appliances",
+      "url": "/deals-on-appliances/mda-efficiency-campaign/hoover"
+    }
+  ],
+  "bigBrandDeals": [
+    {
+      "title": "Xbox bundles pay later",
+      "subtitle": "Xbox bundles with pay later options",
+      "imageAlt": "Xbox gaming bundles",
+      "url": "/deals-on-gaming/deals-on-xbox-and-microsoft"
+    },
+    {
+      "title": "Galaxy Watch8 Strava",
+      "subtitle": "Samsung Galaxy Watch8 with Strava integration",
+      "imageAlt": "Samsung Galaxy Watch8",
+      "url": "/deals-on-smart-tech/deals-on-samsung-strava"
+    },
+    {
+      "title": "Shark vacuums up to £250 off",
+      "subtitle": "Save up to £250 on Shark vacuum cleaners",
+      "imageAlt": "Shark vacuum cleaner",
+      "url": "/deals-on-appliances/deals-on-all-shark-vacuum-cleaners"
+    },
+    {
+      "title": "MacBook Air save up to £400",
+      "subtitle": "Save up to £400 on Apple MacBook Air",
+      "imageAlt": "Apple MacBook Air laptop",
+      "url": "/computing/laptops/laptops/apple"
+    },
+    {
+      "title": "iPhone save up to £150",
+      "subtitle": "Save up to £150 on Apple iPhone",
+      "imageAlt": "Apple iPhone",
+      "url": "/phones/mobile-phones/mobile-phones/apple"
+    },
+    {
+      "title": "Dyson save up to £150",
+      "subtitle": "Save up to £150 on Dyson appliances",
+      "imageAlt": "Dyson appliance",
+      "url": "/deals-on-appliances/deals-on-dyson-appliances"
+    },
+    {
+      "title": "LG TVs 24 months interest free",
+      "subtitle": "24 months interest free on selected LG TVs",
+      "imageAlt": "LG TV",
+      "url": "/deals-on-tv-and-audio/lg-tv-savings"
+    },
+    {
+      "title": "Hair & beauty save up to 50%",
+      "subtitle": "Save up to 50% on hair and beauty products",
+      "imageAlt": "Hair and beauty products",
+      "url": "/deals-on-appliances/great-savings-on-hair-and-beauty"
+    },
+    {
+      "title": "HP Laser Printer £34.99 off",
+      "subtitle": "Save £34.99 on HP Laser Printer",
+      "imageAlt": "HP Laser Printer",
+      "url": "/products/hp-laser-printer"
+    }
+  ],
+  "sponsoredProducts": [
+    {
+      "name": "TURTLE BEACH Stealth 700 Gen 3 Xbox Wireless Gaming Headset",
+      "price": 129.99,
+      "originalPrice": 179.00,
+      "savings": 49.01,
+      "rating": 4.8,
+      "reviewCount": 27,
+      "url": "/products/turtle-beach-stealth-700-gen-3-xbox",
+      "imageUrl": null
+    },
+    {
+      "name": "FITBIT Charge 6 Fitness Tracker",
+      "price": 139.99,
+      "originalPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 169,
+      "url": "/products/fitbit-charge-6",
+      "imageUrl": null
+    },
+    {
+      "name": "TURTLE BEACH Ear Force Recon 50X Gaming Headset",
+      "price": 14.99,
+      "originalPrice": 19.99,
+      "savings": 5.00,
+      "rating": 4.4,
+      "reviewCount": 183,
+      "url": "/products/turtle-beach-ear-force-recon-50x",
+      "imageUrl": null
+    },
+    {
+      "name": "TURTLE BEACH Recon 70 Gaming Headset",
+      "price": 22.99,
+      "originalPrice": 29.99,
+      "savings": 7.00,
+      "rating": 4.4,
+      "reviewCount": 570,
+      "url": "/products/turtle-beach-recon-70",
+      "imageUrl": null
+    },
+    {
+      "name": "TURTLE BEACH Atlas 200 PlayStation Gaming Headset",
+      "price": 39.99,
+      "originalPrice": 49.99,
+      "savings": 10.00,
+      "rating": null,
+      "reviewCount": null,
+      "url": "/products/turtle-beach-atlas-200-playstation",
+      "imageUrl": null
+    },
+    {
+      "name": "TURTLE BEACH Burst II Pro Wireless Gaming Mouse",
+      "price": 79.99,
+      "originalPrice": 119.00,
+      "savings": 39.01,
+      "rating": null,
+      "reviewCount": null,
+      "url": "/products/turtle-beach-burst-ii-pro",
+      "imageUrl": null
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "heading": "Help & support",
+        "links": [
+          { "text": "Contact us", "url": "/help-and-support/contact-us.html" },
+          { "text": "Stores", "url": "/store-finder" },
+          { "text": "TechTalk", "url": "/techtalk.html" },
+          { "text": "Price Promise", "url": "/services/shopping-with-us/price-promise.html" },
+          { "text": "Product reviews", "url": "/product-reviews" }
+        ]
+      },
+      {
+        "heading": "Services",
+        "links": [
+          { "text": "Track my order", "url": "/track-your-order" },
+          { "text": "Delivery options", "url": "/services/delivery-installation/delivery-collection.html" },
+          { "text": "Order & collect", "url": "/services/delivery-installation/delivery-collection.html" },
+          { "text": "Returns & cancellations", "url": "/services/shopping-with-us/returns-refunds.html" },
+          { "text": "ShopLive", "url": "/services/shoplive.html" }
+        ]
+      },
+      {
+        "heading": "Care Services",
+        "links": [
+          { "text": "Care & Repair", "url": "/services/care-and-repair.html" },
+          { "text": "Instant Replacement", "url": "/services/care-and-repair/instant-replacement.html" },
+          { "text": "Mobile Insurance", "url": "/services/care-and-repair/mobile-insurance.html" },
+          { "text": "Tablet Insurance", "url": "/services/care-and-repair/tablet-insurance.html" }
+        ]
+      },
+      {
+        "heading": "Our websites",
+        "links": [
+          { "text": "Currys Business", "url": "https://business.currys.co.uk/" },
+          { "text": "Currys Ireland", "url": "https://www.currys.ie/" },
+          { "text": "Partmaster", "url": "https://www.partmaster.co.uk/" },
+          { "text": "Carphone Warehouse", "url": "https://www.carphonewarehouse.com/" }
+        ]
+      },
+      {
+        "heading": "About us",
+        "links": [
+          { "text": "Leave review on Trustpilot", "url": "https://uk.trustpilot.com/review/www.currys.co.uk" },
+          { "text": "Corporate site", "url": "https://www.currysplc.com/" },
+          { "text": "Careers", "url": "https://www.currysplc.com/careers/" },
+          { "text": "PR & media", "url": "https://www.currysplc.com/news-media/" },
+          { "text": "Modern slavery statement", "url": "/modern-slavery-statement.html" },
+          { "text": "Corporate social responsibility", "url": "/corporate-social-responsibility.html" }
+        ]
+      }
+    ]
+  },
+  "subFooter": {
+    "privacyLinks": [
+      { "text": "Privacy & cookies policy", "url": "/privacy-cookies-policy.html" },
+      { "text": "Terms & conditions", "url": "/terms-and-conditions.html" },
+      { "text": "Product recalls", "url": "/product-recalls.html" },
+      { "text": "Sitemap", "url": "/sitemap.html" }
+    ],
+    "socialIcons": [
+      { "platform": "Facebook", "url": "https://www.facebook.com/currys", "icon": "facebook" },
+      { "platform": "X (Twitter)", "url": "https://twitter.com/curraborea", "icon": "x-twitter" },
+      { "platform": "Instagram", "url": "https://www.instagram.com/currys/", "icon": "instagram" },
+      { "platform": "YouTube", "url": "https://www.youtube.com/currys", "icon": "youtube" }
+    ],
+    "legalText": "Currys plc registered in England & Wales. Registered number: 07105905. Registered office: 1 Portal Way, London, W3 6RS. VAT number: 927 2556 00."
+  }
+}

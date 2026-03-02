@@ -1,0 +1,51 @@
+{
+  "id": "10268038",
+  "title": "JBL PartyBox Wireless Microphone Set - Black",
+  "brand": "JBL",
+  "price": { "current": 119, "was": 0, "savings": 0 },
+  "rating": { "average": 4.7, "count": 37 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10268038?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10268038?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10268038_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/3075/ol_video_img_url__297021_3075.jpg?m=3075&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Wireless microphone set" },
+    { "icon": "", "label": "Up to 20 hours battery life" },
+    { "icon": "", "label": "2.4 GHz wireless dongle with 30m range" },
+    { "icon": "", "label": "Cardioid pickup pattern" }
+  ],
+  "flexpay": { "monthlyAmount": 4.82, "months": 36, "totalPayable": 173.52, "apr": "29.9%" },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    { "category": "Headphones", "title": "JBL Tune Beam 2 Wireless Bluetooth Noise-Cancelling Earbuds - Black", "price": 79.99, "image": "https://media.currys.biz/i/currysprod/10275479?$s-swatch$&fmt=auto" },
+    { "category": "Cables and accessories", "title": "SANDSTROM S35RCA23 RCA to 3.5 mm Audio Cable - 1.8 m", "price": 10.99, "image": "https://media.currys.biz/i/currysprod/10236884?$s-swatch$&fmt=auto" }
+  ],
+  "offers": ["Get 20% off JBL accessories when bought with selected JBL party speaker. Use code JBLPA20."],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Sing freely with these JBL PartyBox wireless microphones. You can wirelessly connect them straight to your JBL PartyBox speaker (sold separately) or use the included 6.3 mm wireless dongle. They use a cardioid pickup pattern for warm, clear, and crisp vocals. So, whether you're hosting a karaoke night or busking, you'll always sound your best. You won't get unwanted noise ruining your vibe either. The built-in foam pop filter cuts out popping noises while the shock mount system means you can quietly pass the mic without any annoying thumps.",
+    "goodToKnow": [
+      "Keep the party going well into the night with up to 20 hours of battery on the mics",
+      "Each mic can be recharged from the JBL PartyBox's charging port without stopping the music",
+      "The 2.4 GHz wireless dongle has a range of up to 30 metres, so you can work the crowd"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+}

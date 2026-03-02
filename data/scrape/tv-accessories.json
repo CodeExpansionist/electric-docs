@@ -1,0 +1,1409 @@
+{
+  "sourceUrl": "https://www.currys.co.uk/tv-and-audio/tv-accessories",
+  "scrapedAt": "2026-03-01",
+  "pageType": "categoryListing",
+  "categoryName": "TV Accessories",
+  "categorySlug": "tv-accessories",
+  "breadcrumbs": [
+    "Home",
+    "TV & Audio",
+    "TV Accessories"
+  ],
+  "metaTitle": "TV accessories | Currys",
+  "metaDescription": "Browse our TV accessories range at Currys for unmissable deals on TV wall brackets, TV stands and more. Available online for delivery or order & collect.",
+  "totalProducts": 50,
+  "filters": [
+    {
+      "name": "Delivery & Collection",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Delivery available",
+          "count": 220
+        },
+        {
+          "label": "Collect from store",
+          "count": 145
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "TV wall brackets",
+          "count": 62
+        },
+        {
+          "label": "TV stands",
+          "count": 48
+        },
+        {
+          "label": "HDMI cables",
+          "count": 35
+        },
+        {
+          "label": "TV aerials & accessories",
+          "count": 28
+        },
+        {
+          "label": "Remote controls",
+          "count": 22
+        },
+        {
+          "label": "Screen cleaners",
+          "count": 18
+        },
+        {
+          "label": "Optical cables",
+          "count": 15
+        },
+        {
+          "label": "Cable management",
+          "count": 12
+        },
+        {
+          "label": "Power protection",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "By Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £9.99",
+          "count": 42
+        },
+        {
+          "label": "£10 to £19.99",
+          "count": 55
+        },
+        {
+          "label": "£20 to £49.99",
+          "count": 68
+        },
+        {
+          "label": "£50 to £99.99",
+          "count": 45
+        },
+        {
+          "label": "£100 to £199.99",
+          "count": 25
+        },
+        {
+          "label": "£200 and over",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "name": "By Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "SANDSTROM",
+          "count": 35
+        },
+        {
+          "label": "SANUS",
+          "count": 28
+        },
+        {
+          "label": "AVF",
+          "count": 22
+        },
+        {
+          "label": "ONE FOR ALL",
+          "count": 18
+        },
+        {
+          "label": "VIVANCO",
+          "count": 15
+        },
+        {
+          "label": "LOGIK",
+          "count": 14
+        },
+        {
+          "label": "ALPHASON",
+          "count": 12
+        },
+        {
+          "label": "TECHLINK",
+          "count": 10
+        },
+        {
+          "label": "ROSS",
+          "count": 8
+        },
+        {
+          "label": "MONSTER",
+          "count": 6
+        },
+        {
+          "label": "BELKIN",
+          "count": 5
+        },
+        {
+          "label": "VOGELS",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "TV Size Compatibility",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Up to 32\"",
+          "count": 38
+        },
+        {
+          "label": "33\" to 49\"",
+          "count": 52
+        },
+        {
+          "label": "50\" to 64\"",
+          "count": 48
+        },
+        {
+          "label": "65\" to 79\"",
+          "count": 35
+        },
+        {
+          "label": "80\" and above",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": false,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5.0 out of 5 stars",
+          "count": 22
+        },
+        {
+          "label": "4.0 out of 5 stars & up",
+          "count": 155
+        },
+        {
+          "label": "3.0 out of 5 stars & up",
+          "count": 195
+        }
+      ]
+    },
+    {
+      "name": "Availability",
+      "isExpanded": false,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Hide out of stock",
+          "count": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "ALPHASON Element Modular 2100 mm TV Stand - Walnut",
+      "brand": "ALPHASON",
+      "price": 299.99,
+      "wasPrice": 349.99,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 178,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10225463?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/alphason-element-modular-2100-mm-tv-stand-walnut-10225463.html",
+      "badges": [
+        "Bestseller"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Fits TVs up to 90\"",
+        "Real wood veneer",
+        "Cable management",
+        "Adjustable shelves"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "AVF SDC1140 TV Stand - For up to 65\" TVs",
+      "brand": "AVF",
+      "price": 149.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 328,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10175378?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/avf-sdc1140-tv-stand-for-up-to-65-tvs-10215892.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Fits TVs up to 65\"",
+        "Tempered glass shelves",
+        "Cable management",
+        "Max weight: 40 kg"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "AVF Buckingham 1100 mm Oval TV Stand for up to 55\" TVs - Walnut",
+      "brand": "AVF",
+      "price": 199,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 653,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10004695_walnut?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/avf-buckingham-1100-mm-oval-tv-stand-for-up-to-55-tvs-walnut-10004695.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "For up to 55” Televisions",
+        "Maximum supported weight: 55 kg",
+        "Material: Wood and Glass",
+        "3 shelves",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Stands"
+    },
+    {
+      "name": "ESSENTIALS C2HDMI24 High Speed HDMI Cable - 2 m",
+      "brand": "ESSENTIALS",
+      "price": 9.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 5,
+      "reviewCount": 7,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10249243?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/essentials-c2hdmi24-high-speed-hdmi-cable-2-m-10249243.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Protective mesh coating",
+        "Nickel-plated connector"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Cables and Accessories"
+    },
+    {
+      "name": "LOGIK LSCREEN22 Screen Cleaning Kit - 200 ml",
+      "brand": "LOGIK",
+      "price": 5.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 1256,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10218645?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/logik-lscreen22-screen-cleaning-kit-200-ml-10218645.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "200 ml cleaning solution",
+        "Microfibre cloth included",
+        "Safe for all screens",
+        "Anti-static formula"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LOGIK LHDMEX19 HDMI Adapter",
+      "brand": "LOGIK",
+      "price": 6.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 73,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10187486?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/logik-lhdmex19-hdmi-adapter-10187486.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "Gold-plated connector"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Cables and Accessories"
+    },
+    {
+      "name": "LOGIK LFS16 Fixed 10-26\" TV Bracket",
+      "brand": "LOGIK",
+      "price": 9.99,
+      "wasPrice": 19.99,
+      "savings": 10,
+      "rating": 4.2,
+      "reviewCount": 37,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10138713?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/logik-lfs16-fixed-1026-tv-bracket-10138713.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "For 10 - 26” Televisions",
+        "Max. VESA compliance: 100 x 100",
+        "Min. VESA compliance: 75 x 75",
+        "Max. supported weight: 25 kg"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Wall Brackets"
+    },
+    {
+      "name": "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket",
+      "brand": "LOGIK",
+      "price": 14.99,
+      "wasPrice": 29.99,
+      "savings": 15,
+      "rating": 4.5,
+      "reviewCount": 132,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10138716?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/logik-lcs16-tilt-and-swivel-1332-tv-bracket-10138716.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "For 13 - 32” Televisions",
+        "Max. VESA compliance: 200 x 200",
+        "Min. VESA compliance: 75 x 75",
+        "Max. supported weight: 20 kg",
+        "Cable management"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Wall Brackets"
+    },
+    {
+      "name": "LOGIK LFMSKS16 Full Motion TV Bracket Starter Kit",
+      "brand": "LOGIK",
+      "price": 59.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 106,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10141965?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/logik-lfmsks16-full-motion-tv-bracket-starter-kit-10141965.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "For 10 - 32\" Televisions",
+        "Max. VESA compliance: 200 x 200",
+        "Min. VESA compliance: 75 x 75",
+        "Max. supported weight: 20 kg",
+        "Cable management"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Stands"
+    },
+    {
+      "name": "LOGIK LTPSKM18 Tilt TV Bracket for 26-55\" TVs & Power Starter Kit",
+      "brand": "LOGIK",
+      "price": 79.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 80,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10175039?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/logik-ltpskm18-tilt-tv-bracket-for-2655-tvs-and-power-starter-kit-10175039.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Tilts up & down",
+        "Max. VESA compliance: 400 x 400",
+        "Min. VESA compliance: 100 x 100",
+        "Max. supported weight: 30 kg",
+        "Cable management",
+        "Includes spirit level / HDMI cable / 4-socket extension lead"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Stands"
+    },
+    {
+      "name": "LOGIK LFML16 Full Motion 32-50\" TV Bracket",
+      "brand": "LOGIK",
+      "price": 99.99,
+      "wasPrice": 99.99,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 210,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10138718?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/logik-lfml16-full-motion-3250-tv-bracket-10138718.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "For 32 - 50” Televisions",
+        "Max. VESA compliance: 600 x 400",
+        "Min. VESA compliance: 200 x 200",
+        "Max. supported weight: 35 kg",
+        "Cable management",
+        "Includes spirit level"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Wall Brackets"
+    },
+    {
+      "name": "ONE FOR ALL Essence TV URC1211 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 12.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 10,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10249289?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-essence-tv-urc1211-universal-remote-control-10249289.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls 1 device",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "Learning feature",
+        "Simple set-up",
+        "3 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL SV9015 Full HD UHF Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "price": 14.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 3.9,
+      "reviewCount": 54,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10165934?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-sv9015-full-hd-uhf-indoor-tv-aerial-10165934.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Non amplified indoor aerial",
+        "Maximum signal range: 3 miles",
+        "Optimised for HD digital TV & DAB radio"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Aerials"
+    },
+    {
+      "name": "ONE FOR ALL URC6821 Big Button Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 16.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 3.9,
+      "reviewCount": 19,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10269142?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-urc6821-big-button-universal-remote-control-10269142.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls up to 2 devices",
+        "Big buttons",
+        "Backlight keys",
+        "Learning feature",
+        "Simple set-up",
+        "3 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL Evolve 2 URC7125 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 18.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.3,
+      "reviewCount": 27,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10152830?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-evolve-2-urc7125-universal-remote-control-10152830.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls up to 2 devices",
+        "Combi control",
+        "Ultra wide angle operation",
+        "Simple set-up",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL Evolve URC7115 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 18.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 39,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10152868?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-evolve-urc7115-universal-remote-control-10152868.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls 1 device",
+        "Ideal TV remote replacement",
+        "Ultra wide angle operation",
+        "Simple set-up",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL URC4910 Samsung Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 19.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 374,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10227769?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-urc4910-samsung-universal-remote-control-10227769.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Compatible with Samsung TVs",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "No setup required"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL URC4922 TCL & Thompson Replacement Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 19.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 5,
+      "reviewCount": 1,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10268163?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-urc4922-tcl-and-thompson-replacement-remote-control-10268163.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Compatible with TCL & Thompson TVs",
+        "Shortcut keys",
+        "Learning feature",
+        "Simple set-up"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL Evolve 4 URC7145 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 21.19,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.2,
+      "reviewCount": 29,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10152873?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-evolve-4-urc7145-universal-remote-control-10152873.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls up to 4 devices",
+        "Ultra wide angle operation",
+        "Simple set-up",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL URC4911 LG Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 21.49,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 280,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10227814?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-urc4911-lg-universal-remote-control-10227814.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Compatible with LG TVs",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "No set up required"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL URC1919 Toshiba Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 21.49,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 3.5,
+      "reviewCount": 4,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10249295?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-urc1919-toshiba-universal-remote-control-10249295.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Compatible with Toshiba TVs",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "No set up required",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL URC4914 Panasonic Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 21.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 250,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10227767?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-urc4914-panasonic-universal-remote-control-10227767.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Compatible with Panasonic TVs",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "No set up required"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL URC4912 Sony Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 24.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 256,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10227771?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-urc4912-sony-universal-remote-control-10227771.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Compatible with Sony TVs",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "No set up required"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL Essential 6 URC3661 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 24.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 0,
+      "reviewCount": 0,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10253769?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-essential-6-urc3661-universal-remote-control-10253769.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls up to 6 devices",
+        "Works with all AV devices with IR remote controls",
+        "Fully customisable",
+        "Learning feature",
+        "Simple set-up",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL URC7955 Smart Control 5 Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 29.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.3,
+      "reviewCount": 512,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10258023?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-urc7955-smart-control-5-remote-control-10194482.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Controls up to 5 devices",
+        "Backlit keys",
+        "Learning function",
+        "Free setup app"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "ONE FOR ALL SV 9430 Full HD Amplified Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "price": 33.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 3.8,
+      "reviewCount": 123,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10234048?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-sv-9430-full-hd-amplified-indoor-tv-aerial-10234048.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Maximum signal range: 15 miles",
+        "3G / 4G / 5G block-filter",
+        "Digital compatible",
+        "Optimised for Full HD digital TV and DAB radio",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Aerials"
+    },
+    {
+      "name": "ONE FOR ALL SV 9323 Full HD Amplified Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "price": 33.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 3.5,
+      "reviewCount": 41,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10234026?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-sv-9323-full-hd-amplified-indoor-tv-aerial-10234026.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Maximum signal range: 9 miles",
+        "3G / 4G / 5G block-filter",
+        "Aerial can be placed horizontally or vertically",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Aerials"
+    },
+    {
+      "name": "ONE FOR ALL SV 9365 Full HD Amplified Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "price": 35.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4,
+      "reviewCount": 22,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10233993?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-sv-9365-full-hd-amplified-indoor-tv-aerial-10233993.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Maximum signal range: 15 miles",
+        "3G / 4G / 5G / LTE block-filter",
+        "Adjustable angle",
+        "Optimised for Full HD digital TV and DAB radio",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Aerials"
+    },
+    {
+      "name": "ONE FOR ALL URC 7966 Smart Control Pro Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "price": 39.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4,
+      "reviewCount": 1,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10257669?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-urc-7966-smart-control-pro-universal-remote-control-10257669.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls up to 6 devices",
+        "Works with your smart TV",
+        "Smart control",
+        "Simple set-up",
+        "3 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "ONE FOR ALL SV9354 Full HD Amplified Outdoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "price": 43.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 23,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10183725?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-sv9354-full-hd-amplified-outdoor-tv-aerial-10183725.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Maximum signal range: 30 miles",
+        "3G / 4G block-filter",
+        "Optimised for HD compatible digital signals",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Aerials"
+    },
+    {
+      "name": "ONE FOR ALL WM5610 Fixed 42-100\" TV Bracket",
+      "brand": "ONE FOR ALL",
+      "price": 57.99,
+      "wasPrice": 57.99,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10239751?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/one-for-all-wm5610-fixed-42100-tv-bracket-10239751.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Fixed in set position",
+        "Max. VESA compliance: 600 x 400",
+        "Min. VESA compliance: 100 x 100",
+        "Max. supported weight: 100 kg",
+        "Lifetime guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Wall Brackets"
+    },
+    {
+      "name": "ROSS LEDA 400 Flat to Wall TV Mount - For 32\"-70\" TVs",
+      "brand": "ROSS",
+      "price": 24.99,
+      "wasPrice": 34.99,
+      "savings": 10,
+      "rating": 4.5,
+      "reviewCount": 2145,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10287852?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/ross-leda-400-flat-to-wall-tv-mount-for-32-70-tvs-10194276.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Fits 32\" to 70\" TVs",
+        "Flat to wall mount",
+        "Max weight: 40 kg",
+        "Built-in spirit level"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SANDSTROM SOPTIC22 Digital Optical Cable - 1.5 m",
+      "brand": "SANDSTROM",
+      "price": 9.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 678,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10228174?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sandstrom-soptic22-digital-optical-cable-1.5-m-10228174.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "1.5 m length",
+        "Gold-plated connectors",
+        "Dolby Digital & DTS",
+        "Precision polished tips"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SANDSTROM SHDMI325 High Speed HDMI Cable with Ethernet - 3 m",
+      "brand": "SANDSTROM",
+      "price": 12.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 1842,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10230185?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sandstrom-shdmi325-high-speed-hdmi-cable-with-ethernet-3-m-10230185.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "3 m length",
+        "4K Ultra HD support",
+        "Ethernet channel",
+        "Gold-plated connectors"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "brand": "SANDSTROM",
+      "price": 14.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "imageUrl": "https://media.currys.biz/i/currysprod/21948996?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sandstrom-black-series-s1opt114x-digital-optical-cable-1-m-21948996.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Gold-plated connector"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Cables and Accessories"
+    },
+    {
+      "name": "SANDSTROM STM19 Tilt 32-47\" TV Bracket",
+      "brand": "SANDSTROM",
+      "price": 39.99,
+      "wasPrice": 79.99,
+      "savings": 40,
+      "rating": 4.6,
+      "reviewCount": 29,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10187493?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sandstrom-stm19-tilt-3247-tv-bracket-10187493.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Tilts up & down",
+        "Max. VESA compliance: 400 x 400",
+        "Min. VESA compliance: 100 x 100",
+        "Max. supported weight: 30 kg",
+        "Includes spirit level / wall template"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Wall Brackets"
+    },
+    {
+      "name": "SANDSTROM Gold Series S2HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 2 m",
+      "brand": "SANDSTROM",
+      "price": 39.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 32,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10218583?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sandstrom-gold-series-s2hdmi321-ultra-high-speed-hdmi-2.1-cable-with-ethernet-2-m-10218583.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Suitable for 8K@60 / 4K@120 Hz / HDR",
+        "Up to 48 Gbps",
+        "4-layer shielding",
+        "Oxygen free copper wire for minimal data loss",
+        "Protective mesh coating",
+        "Gold-plated connector"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Cables and Accessories"
+    },
+    {
+      "name": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "brand": "SANDSTROM",
+      "price": 59.99,
+      "wasPrice": 59.99,
+      "savings": null,
+      "rating": 4.3,
+      "reviewCount": 12,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10249239?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sandstrom-selp24-fixed-4375-tv-bracket-10249239.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Fixed in set position",
+        "Max. VESA compliance: 400 x 400",
+        "Min. VESA compliance: 200 x 200",
+        "Max. supported weight: 65 kg"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Wall Brackets"
+    },
+    {
+      "name": "SANDSTROM STSTAB19 700 mm TV Stand with Bracket for up to 60\" TV - Black",
+      "brand": "SANDSTROM",
+      "price": 69.99,
+      "wasPrice": 89.99,
+      "savings": 20,
+      "rating": 4.6,
+      "reviewCount": 237,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10187494?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sandstrom-ststab19-700-mm-tv-stand-with-bracket-for-up-to-60-tv-black-10187494.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Maximum supported weight: 25 kg",
+        "Material: Steel / glass",
+        "VESA compliance: 600 x 400",
+        "3 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Stands"
+    },
+    {
+      "name": "SANDSTROM Chevalet SCHEV19 880 mm TV stand with Bracket for 32-60\" TVs - Black & Brown",
+      "brand": "SANDSTROM",
+      "price": 99.99,
+      "wasPrice": 149,
+      "savings": 49.01,
+      "rating": 4.8,
+      "reviewCount": 246,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10187490?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sandstrom-chevalet-schev19-880-mm-tv-stand-with-bracket-for-3260-tvs-black-and-brown-10187490.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Maximum supported weight: 27 kg",
+        "Material: Metal / wood",
+        "VESA compliance: 600 x 400",
+        "3 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Stands"
+    },
+    {
+      "name": "SANDSTROM SFML16 Full Motion Sliding 37-75\" TV Bracket",
+      "brand": "SANDSTROM",
+      "price": 149,
+      "wasPrice": 189,
+      "savings": 40,
+      "rating": 4.4,
+      "reviewCount": 60,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10138719?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sandstrom-sfml16-full-motion-sliding-3775-tv-bracket-10138719.html",
+      "badges": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "For 37 - 75\" Televisions",
+        "Max. VESA compliance: 600 x 400",
+        "Min. VESA compliance: 200 x 200",
+        "Max. supported weight: 40 kg",
+        "Cable management",
+        "Includes spirit level / wall template"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Wall Brackets"
+    },
+    {
+      "name": "SANUS Tilting TV Wall Mount - For 32\"-55\" TVs",
+      "brand": "SANUS",
+      "price": 39.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 932,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10248638?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sanus-tilting-tv-wall-mount-for-32-55-tvs-10248638.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Fits 32\" to 55\" TVs",
+        "Tilting mount",
+        "Max weight: 36.3 kg",
+        "VESA compatible up to 400x400"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SANUS Full-Motion TV Wall Mount - For 40\"-84\" TVs",
+      "brand": "SANUS",
+      "price": 89.99,
+      "wasPrice": 119.99,
+      "savings": 30,
+      "rating": 4.7,
+      "reviewCount": 456,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10237427?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sanus-full-motion-tv-wall-mount-for-40-84-tvs-10248652.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Fits 40\" to 84\" TVs",
+        "Full motion with swivel & tilt",
+        "Max weight: 56.7 kg",
+        "VESA compatible up to 600x400"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SKY Sky+ HD 1 Terabyte Remote Control",
+      "brand": "SKY",
+      "price": 25.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 87,
+      "imageUrl": "https://media.currys.biz/i/currysprod/14412553?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sky-sky-hd-1-terabyte-remote-control-14412553.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls 2 devices"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "SKY 120 Sky TV Remote Control",
+      "brand": "SKY",
+      "price": 26.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 330,
+      "imageUrl": "https://media.currys.biz/i/currysprod/11267649?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sky-120-sky-tv-remote-control-11267649.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls 2 devices"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "SKY SKY135 Sky-Q Voice Remote Control",
+      "brand": "SKY",
+      "price": 36.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 113,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10192567?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sky-sky135-skyq-voice-remote-control-10192567.html",
+      "badges": [
+        "delivery available",
+        "free in-store collection"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Controls Sky Box & TV",
+        "Voice control",
+        "Simple online set-up"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Remote Controls"
+    },
+    {
+      "name": "STARLINK Standard Wall Mount",
+      "brand": "STARLINK",
+      "price": 83,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4,
+      "reviewCount": 4,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10271193?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/starlink-standard-wall-mount-10271193.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "For Starlink Standard Kit and High Performance Kit",
+        "Material: Steel",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "Cables and Accessories"
+    },
+    {
+      "name": "VIVANCO TVA 2020 Indoor TV Aerial",
+      "brand": "VIVANCO",
+      "price": 19.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 11,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10225447?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/vivanco-tva-2020-indoor-tv-aerial-10225447.html",
+      "badges": [
+        "Out of stock"
+      ],
+      "deliveryFree": false,
+      "specs": [
+        "Maximum signal range: 3 miles",
+        "Receives analogue and digital signals"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Aerials"
+    },
+    {
+      "name": "VIVANCO TVA 4040 Full HD Amplified Indoor TV Aerial",
+      "brand": "VIVANCO",
+      "price": 24.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 3.9,
+      "reviewCount": 28,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10225446?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/vivanco-tva-4040-full-hd-amplified-indoor-tv-aerial-10225446.html",
+      "badges": [
+        "Out of stock"
+      ],
+      "deliveryFree": false,
+      "specs": [
+        "3G / 4G block-filter",
+        "Optimised for Full HD digital TV and DAB radio"
+      ],
+      "energyRating": null,
+      "offers": [],
+      "subCategory": "TV Aerials"
+    },
+    {
+      "name": "VIVANCO PRO TILT 63 Extra Large Tilting TV Wall Bracket",
+      "brand": "VIVANCO",
+      "price": 49.99,
+      "wasPrice": 59.99,
+      "savings": 10,
+      "rating": 4.6,
+      "reviewCount": 892,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10205338?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/vivanco-pro-tilt-63-extra-large-tilting-tv-wall-bracket-10205338.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Fits 40\" to 82\" TVs",
+        "Tilting mount",
+        "Max weight: 65 kg",
+        "VESA compatible up to 600x400"
+      ],
+      "energyRating": null,
+      "offers": []
+    }
+  ]
+}

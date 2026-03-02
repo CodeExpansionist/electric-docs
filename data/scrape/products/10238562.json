@@ -1,0 +1,103 @@
+{
+  "id": "10238562",
+  "title": "SAMSUNG HW-S50B/XU 3.0 All-in-One Sound Bar - Dark Grey",
+  "brand": "SAMSUNG",
+  "price": {
+    "current": 189,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 252
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10238562?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_051?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_051?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10238562?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10238562_051?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__269353_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Audio power: 140 W" },
+    { "icon": "", "label": "DTS:X" },
+    { "icon": "", "label": "Adaptive / optimized audio" },
+    { "icon": "", "label": "HDMI" }
+  ],
+  "energyRating": { "class": "A" },
+  "flexpay": {
+    "monthlyAmount": 7.65,
+    "months": 36,
+    "totalPayable": 275.4,
+    "apr": "29.9%"
+  },
+  "wallBracket": {
+    "text": "Add this product to your basket to see wall bracket options.",
+    "product": {
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "savings": 3,
+      "image": "https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto"
+    }
+  },
+  "careAndRepair": [
+    { "plan": "Breakdown support", "price": 2, "period": "per month" }
+  ],
+  "essentialServices": [
+    { "name": "Delivery", "price": 0 },
+    { "name": "Returns", "price": 0 }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "image": "https://media.currys.biz/i/currysprod/21948996?$n-medium$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [
+    { "type": "Best Seller", "image": "https://media.currys.biz/i/currysprod/10238562?$l-large$&fmt=auto" }
+  ],
+  "specifications": {},
+  "description": {
+    "main": "It's great when things work well together \u2013 Samsung Q-Symphony technology is designed to get your Samsung TV synced together with this sound bar. Sound plays from both the sound bar and TV at the same time for rich sound, and it's easy to set up \u2013 all you need is a compatible 2022 Samsung TV.",
+    "goodToKnow": [
+      "3D Surround Sound focuses sound around you for great audio",
+      "Stream music from your phone using the Bluetooth connection or connect wirelessly to your TV",
+      "Music Mode makes sure the acoustics are spot on when you're using it as a speaker",
+      "If you're after 360\u00b0 surround sound and total cinematic immersion, the S50B pairs seamlessly with the SWA-9200S rear speaker kit (sold separately)",
+      "All about that bass? Just add the wireless SWA-510 subwoofer (sold separately) to the mix for powerful, detail-rich audio at low frequencies"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  }
+}

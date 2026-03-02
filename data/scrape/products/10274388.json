@@ -1,0 +1,77 @@
+{
+  "id": "10274388",
+  "title": "LOGIK L32RHE25 Roku 32\" Smart HD Ready HDR LED TV",
+  "brand": "LOGIK",
+  "price": {
+    "current": 119.99,
+    "was": 159.99,
+    "savings": 40
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 1
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10274388?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_007?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10274388?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274388_007?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Screen Size: 32 inch" },
+    { "icon": "", "label": "HD Ready 1366 x 768p" },
+    { "icon": "", "label": "Refresh Rate: 60 Hz" },
+    { "icon": "", "label": "Roku TV" },
+    { "icon": "", "label": "3 HDMI inputs" },
+    { "icon": "", "label": "HDR: HDR10 / HLG" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 6.7,
+    "months": 24,
+    "totalPayable": 160.87,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": ["Freely TV"],
+  "specifications": {},
+  "description": {
+    "main": "You'll never be short of something to watch on this Logik 32\" Roku TV. With access to over 500,000 movies and shows from apps like Netflix, Prime Video and Disney+, it's easy to dive into your favourites or find something new on the customisable home screen. Thanks to HDR10 and HLG, the picture looks great too - bright highlights, deeper shadows, and more detail in every scene.",
+    "goodToKnow": [
+      "Freely lets you stream live and on-demand TV over the internet without paying a penny",
+      "Screen sharing is simple with Apple AirPlay or Miracast",
+      "Three HDMI ports let you connect consoles, set-top boxes and more",
+      "Works with Google Assistant and Alexa devices for easy hands-free control"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "energyRating": "E"
+}

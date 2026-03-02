@@ -1,0 +1,95 @@
+{
+  "id": "10250130",
+  "title": "BEATS Studio Buds + Wireless Bluetooth Noise-Cancelling Earbuds - White",
+  "brand": "BEATS",
+  "price": {
+    "current": 109,
+    "was": 179,
+    "savings": 70
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 320
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10250129_white_011?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_010?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_012?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10250129_white_011?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_010?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10250129_white_012?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    { "icon": "", "label": "True wireless earbuds" },
+    { "icon": "", "label": "Active noise-cancelling with quick attention mode" },
+    { "icon": "", "label": "Battery life: Up to 6 hours (24 hours with case)" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 4.41,
+    "months": 36,
+    "totalPayable": 158.76,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Instant Replacement", "price": 35, "period": "3 years" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "VELD VH30DW Super-Fast 30 W 2-port USB Wall Charger - White",
+      "price": 19.99,
+      "image": "https://media.currys.biz/i/currysprod/10256233?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Accessories",
+      "title": "BELKIN Braided USB-C to USB-A Cable - 1 m",
+      "price": 10.39,
+      "image": "https://media.currys.biz/i/currysprod/10206906?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The Beats Studio Buds + offer a rich, clean sound with fat bass and ultra-low distortion. With Active Noise Cancelling and Transparency mode, enjoy crystal clear calls and up to 36 hours of listening time with the charging case.",
+    "goodToKnow": [
+      "Skip tracks, answer calls and activate your voice assistant with the customisable on-ear controls.",
+      "Need a quick boost? Fast Fuel gives you an extra hour of battery from just 5 minutes of charging.",
+      "Take control of your Apple devices with \"Hey Siri\", one-touch pairing, Find My and Over-the-air updates.",
+      "They're compatible with Android features including Google Fast Pair, Audio Switch and Find my Device.",
+      "Enjoy crystal clear calls with upgraded voice-targeting microphones which filter out annoying background noise.",
+      "They include 4 ear tip sizes (XS, S, M, L) so you can find your perfect fit and listen to your mammoth playlists in comfort."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  }
+}

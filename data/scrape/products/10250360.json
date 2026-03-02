@@ -1,0 +1,80 @@
+{
+  "id": "10250360",
+  "title": "HISENSE 55U7KQTUK 55\" Smart 4K Ultra HD HDR MiniLED TV with Amazon Alexa",
+  "brand": "HISENSE",
+  "price": {
+    "current": 449,
+    "was": 699,
+    "savings": 250
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 312
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10250360?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10250360?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250360_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "MiniLED backlight for stunning contrast and brightness" },
+    { "icon": "", "label": "Refresh rate: 120 Hz" },
+    { "icon": "", "label": "HDMI 2.1 x 2" },
+    { "icon": "", "label": "Amazon Alexa built-in" },
+    { "icon": "", "label": "2 year guarantee" },
+    { "icon": "", "label": "HDR10+ / Dolby Vision / HLG" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 12.47,
+    "months": 48,
+    "totalPayable": 598.56,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Installation", "price": 65, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Experience stunning visuals with the Hisense 55U7KQTUK. MiniLED backlighting brings incredible contrast and brightness to every scene, while the 4K Ultra HD resolution delivers sharp, detailed pictures. With Amazon Alexa built-in, you can control your TV hands-free. The 120 Hz refresh rate keeps fast-moving content smooth and blur-free, making it great for sports and gaming.",
+    "goodToKnow": [
+      "MiniLED technology delivers deeper blacks and brighter highlights than standard LED TVs",
+      "120 Hz refresh rate for smooth, blur-free motion",
+      "Amazon Alexa built-in for hands-free voice control",
+      "Free standard delivery included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TVs"
+}

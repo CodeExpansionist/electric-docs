@@ -1,0 +1,76 @@
+{
+  "id": "10218645",
+  "title": "LOGIK LSCREEN22 Screen Cleaning Kit - 200 ml",
+  "brand": "Logik",
+  "price": {
+    "current": 5.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 312
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10218645?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10218645_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10218645_002?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10218645?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10218645_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10218645_002?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "200 ml cleaning solution"
+    },
+    {
+      "icon": "",
+      "label": "Includes microfibre cloth"
+    },
+    {
+      "icon": "",
+      "label": "Suitable for all screens"
+    },
+    {
+      "icon": "",
+      "label": "Anti-static formula"
+    }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Volume": "200 ml",
+      "Contents": "Cleaning solution and microfibre cloth",
+      "Suitable for": "TVs, monitors, laptops, tablets, smartphones"
+    },
+    "Guarantee": {
+      "Manufacturer's guarantee": "1 year"
+    }
+  },
+  "description": {
+    "main": "Keep your screens spotless with the Logik LSCREEN22 Screen Cleaning Kit. The 200 ml anti-static cleaning solution gently removes fingerprints, dust and smudges from all types of screens, including TVs, monitors, laptops and tablets. The included microfibre cloth ensures a streak-free finish without scratching.",
+    "goodToKnow": [
+      "Anti-static formula helps repel dust",
+      "Safe for all screen types including OLED and LCD",
+      "Includes premium microfibre cloth",
+      "1 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "10242949",
+  "title": "SONY HT-A3000 3.1 All-in-One Sound Bar with Dolby Atmos",
+  "brand": "Sony",
+  "price": {
+    "current": 599,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 453
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10242949_011?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_010?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_011?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10242949?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_001?$t-thumbnail$&fmt=auto",
+      "https://flv.isitetv.com/media/video/2155/ol_video_img_url__263425_2155.jpg?m=2155&r=1048&t=1",
+      "https://flv.isitetv.com/media/video/2155/ol_video_img_url__263427_2155.jpg?m=2155&r=1048&t=1",
+      "https://media.currys.biz/i/currysprod/10242949_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_010?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10242949_011?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Number of speakers: 5" },
+    { "icon": "", "label": "Dolby Atmos / DTS:X / DTS Virtual:X" },
+    { "icon": "", "label": "Built-in subwoofer" },
+    { "icon": "", "label": "Audio power: 240 W" },
+    { "icon": "", "label": "Adaptive / optimized audio" },
+    { "icon": "", "label": "Supports High-Resolution Audio" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 24.27,
+    "months": 36,
+    "totalPayable": 873.72,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 7.19, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 65, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The Sony HT-A3000 Sound Bar brings you 3.1 channels of cinematic sound that'll make movies and TV shows much more immersive. The all-in-one design packs in a trio of X-Balanced front speakers (including a dedicated centre channel for better clarity) and a built-in dual subwoofer. You'll be feeling the full force of the action as it flows all around you with Dolby Atmos and DTS:X, both boosted by Sony's Vertical Surround Engine and S-Force PRO Front Surround. And to help you make the most of your sound bar, Sound Field Optimisation cleverly maps the layout of your room and tunes the sound accordingly.",
+    "goodToKnow": [
+      "Acoustic Center Sync technology perfectly aligns the sound bar with your Sony BRAVIA TV's speakers",
+      "Fall in love with your favourite albums all over again with 360 Reality Audio",
+      "Stream music with Spotify Connect, Chromecast or Apple AirPlay 2"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 0,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars"
+}

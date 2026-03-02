@@ -1,0 +1,95 @@
+{
+  "id": "10194276",
+  "title": "ROSS LEDA 400 Flat to Wall TV Mount - for 32-70\" TVs",
+  "brand": "Ross",
+  "price": {
+    "current": 29.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 476
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10194276?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194276_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194276_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194276_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10194276?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194276_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194276_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194276_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Fits 32\" to 70\" TVs"
+    },
+    {
+      "icon": "",
+      "label": "VESA: 100x100 to 400x400"
+    },
+    {
+      "icon": "",
+      "label": "Max weight: 40 kg"
+    },
+    {
+      "icon": "",
+      "label": "Flat to wall design"
+    }
+  ],
+  "flexpay": null,
+  "careAndRepair": [
+    {
+      "plan": "Installation",
+      "price": 60,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Installation",
+      "price": 60
+    }
+  ],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Colour": "Black",
+      "TV size range": "32\" to 70\"",
+      "Maximum weight": "40 kg",
+      "VESA compatibility": "100x100 to 400x400 mm",
+      "Mount type": "Flat to wall"
+    },
+    "Dimensions": {
+      "Distance from wall": "25 mm"
+    },
+    "Guarantee": {
+      "Manufacturer's guarantee": "2 years"
+    }
+  },
+  "description": {
+    "main": "Mount your TV close to the wall for a clean, modern look with the Ross LEDA 400 Flat to Wall TV Mount. Compatible with screens from 32 to 70 inches, it supports TVs up to 40 kg and is VESA compatible from 100x100 to 400x400 mm. The flat-to-wall design keeps your TV just 25 mm from the wall, creating a sleek appearance. Includes all fixings and a built-in spirit level for easy installation.",
+    "goodToKnow": [
+      "Includes all fixings and a spirit level",
+      "VESA compatible: 100x100 to 400x400 mm",
+      "Maximum supported weight: 40 kg",
+      "Distance from wall: 25 mm",
+      "2 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "10253796",
+  "title": "SONY SRS-XB100 Portable Bluetooth Speaker - Black",
+  "brand": "SONY",
+  "price": { "current": 39.99, "was": null, "savings": null },
+  "rating": { "average": 4.8, "count": 51 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10253772_black_100?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_009?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10253772_black_100?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10253772_black_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2155/ol_video_img_url__275790_2155.jpg"
+  },
+  "keySpecs": [
+    { "icon": "waterproof", "label": "Waterproof" },
+    { "icon": "sound", "label": "X-Balanced Speaker for rich & clear sound" },
+    { "icon": "battery", "label": "Up to 16 hours battery life" },
+    { "icon": "bluetooth", "label": "Bluetooth" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Great music deserves to be heard in all its glory. This Sony XB100's Sound Diffusion Processor blasts crystal-clear sound in all directions, while the full-range speaker kicks out plenty of bass. Your tunes will sound epic wherever you are. It's tough too. The IP67 rating means it's not afraid of a little water or dust, so it's perfect for those slammin' summer parties in the garden. And with a battery that lasts up to 16 hours, you can keep your perfectly curated playlists rolling long into the night.",
+    "goodToKnow": [
+      "It's compact and lightweight so it's the perfect travel companion.",
+      "Connect it to your phone quickly with Bluetooth and stream your music without the pesky wires.",
+      "With Echo Cancelling technology, you can make hands-free calls with no clipping or cutting out."
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "Speakers"
+}

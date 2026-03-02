@@ -1,0 +1,109 @@
+{
+  "id": "10259822",
+  "title": "BEATS Solo 4 Wireless Bluetooth Headphones - Matte Black",
+  "brand": "BEATS",
+  "price": {
+    "current": 129,
+    "was": 199,
+    "savings": 70
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 110
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10263470_black_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_007?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10263470_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10263470_black_007?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "headphones", "label": "On-ear headphones" },
+    { "icon": "noise-isolating", "label": "Passive noise-isolating" },
+    { "icon": "battery", "label": "Battery life: Up to 50 hours" },
+    { "icon": "foldable", "label": "Foldable" },
+    { "icon": "charging", "label": "Quick charging" },
+    { "icon": "controls", "label": "Microphone / volume / playback & functions control" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 5.22,
+    "months": 36,
+    "totalPayable": 187.92,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": ["Epic Deal"],
+  "specifications": {
+    "General": {
+      "Brand": "BEATS",
+      "Colour": "Matte Black",
+      "Type": "On-ear headphones",
+      "Foldable": "Yes"
+    },
+    "Sound": {
+      "Driver size": "40 mm",
+      "Noise cancelling": "Passive noise-isolating"
+    },
+    "Connectivity": {
+      "Wireless": "Bluetooth",
+      "Bluetooth version": "5.3",
+      "Wired option": "USB-C, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery life": "Up to 50 hours",
+      "Quick charge": "5 hours from 10 minutes"
+    },
+    "Controls": {
+      "Controls type": "On-ear controls",
+      "Built-in microphone": "Yes"
+    }
+  },
+  "description": {
+    "main": "Music, movies, games...they'll all sound epic with these Beats Solo 4 headphones. The custom-built 40 mm drivers give you more depth and clarity with a wide frequency range. You'll hear more detail in your music with sparkling highs, punchy mids and heaps of low end.",
+    "goodToKnow": [
+      "You get up to 50 hours of battery on a single charge - perfect for the weekly commute",
+      "Running low on juice? Fast Fuel gives you an extra 5 hours of playback from just 10 minutes on the charger.",
+      "Enjoy high-resolution lossless audio via the USB-C or 3.5 mm jack cables.",
+      "From the flex-grip headband to the customisable sliders and angled ear cups, they're built for comfort.",
+      "Be heard loud and clear on calls, even in busy environments, thanks to the beamforming mic.",
+      "When you're done rocking out, they can be folded down and stored in the included carry case.",
+      "They connect easily to your Apple and Android devices - just power on and hold them near your phone or tablet."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Headphones",
+  "_scrapeMeta": {
+    "scrapedUrl": "https://www.currys.co.uk/products/beats-solo-4-wireless-bluetooth-headphones-black-10263470.html",
+    "currysLiveProductId": "10263470",
+    "scrapedAt": "2026-03-02"
+  }
+}

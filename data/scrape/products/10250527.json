@@ -1,0 +1,85 @@
+{
+  "id": "10250527",
+  "title": "SONY HT-S2000 3.1 All-in-One Sound Bar with Dolby Atmos & DTS Virtual:X",
+  "brand": "Sony",
+  "price": {
+    "current": 399,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 453
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10250527_011?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_010?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_011?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10250527?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_010?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10250527_011?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Number of speakers: 5" },
+    { "icon": "", "label": "Dolby Atmos & DTS Virtual:X" },
+    { "icon": "", "label": "Built-in subwoofer" },
+    { "icon": "", "label": "Audio power: 250 W" },
+    { "icon": "", "label": "Adaptive / optimized audio" },
+    { "icon": "", "label": "HDMI / Optical" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 16.17,
+    "months": 36,
+    "totalPayable": 582.12,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 4.79, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "This all-in-one Sony HT-S2000 sound bar captures the magic of the cinema. Dolby Atmos and DTS Virtual:X create a 3D soundscape, putting you smack dab in the middle of the action. Pop on a blockbuster, and you'll experience the full force of a jet overhead or tank firing. The upmixer adds a 3D audio twist to your stereo content and breathes fresh life into classics. Count on the centre speaker for crisp speech, and let the built-in dual sub awaken the bass. You won't miss a moment when the action moves from glass rattling booms to quiet whispers.",
+    "goodToKnow": [
+      "It's just as good at playing music too - you can stream over Bluetooth or plug in a USB stick",
+      "Setup is simple but Sony's Home Entertainment Connect app is on hand to help if you need it",
+      "It's designed to work perfectly in sync with Sony's wireless rear speakers and BRAVIA TVs (both sold separately)"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 0,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars"
+}

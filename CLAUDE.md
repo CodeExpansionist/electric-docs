@@ -116,6 +116,8 @@ Your primary data source. Use it to:
 - Get footer link structure
 - Scrape individual footer pages for content
 
+**Pagination:** Firecrawl handles pagination automatically — paginated pages don't count toward depth limits. For the full category scrape (400+ TV products), use the `crawl` tool with a reasonable `limit` parameter. If crawl responses are too large and exceed token limits, switch to `map` + `batch_scrape` for better control.
+
 **Usage pattern:**
 ```
 1. Scrape the target URL
@@ -127,6 +129,15 @@ Your primary data source. Use it to:
 ```
 
 **Important:** Scrape each page type ONCE and save the output. Don't re-scrape on every build iteration — reference the saved JSON.
+
+### Checkout Mock Data
+Pre-fill checkout forms with realistic sample UK data:
+- Title: Mr
+- Name: John Smith
+- Phone: 07193190992​3
+- Postcode: NW1 0AE
+- Address: Flat 8, Brehon House, 17-19 Pratt Street, London
+This makes the checkout look realistic for demos and matches the reference screenshots.
 
 ---
 

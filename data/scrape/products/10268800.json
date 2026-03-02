@@ -1,0 +1,51 @@
+{
+  "id": "10268800",
+  "title": "BOSE SoundLink Flex (2nd Gen) Portable Bluetooth Speaker - Blue Dusk",
+  "brand": "BOSE",
+  "price": { "current": 119, "was": 149, "savings": 30 },
+  "rating": { "average": 4.8, "count": 284 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10268793_blue?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10268793_blue_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10268793_blue_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10268793_blue_095?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10268793_blue?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10268793_blue_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10268793_blue_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10268793_blue_095?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2265/ol_video_img_url__284991_2265.jpg?m=2265&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Waterproof" },
+    { "icon": "", "label": "Up to 12 hours battery life" },
+    { "icon": "", "label": "Pair up to 2 speakers" },
+    { "icon": "", "label": "Bluetooth" },
+    { "icon": "", "label": "2 year guarantee" }
+  ],
+  "flexpay": { "monthlyAmount": 4.82, "months": 36, "totalPayable": 173.52, "apr": "29.9%" },
+  "careAndRepair": [{ "plan": "Instant Replacement", "price": 31, "period": "3 years" }],
+  "essentialServices": [],
+  "crossSellProducts": [
+    { "category": "Headphones", "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black", "price": 34.99, "image": "https://media.currys.biz/i/currysprod/M10247634_black?$s-swatch$&fmt=auto" },
+    { "category": "Cables and accessories", "title": "LOGIK L15SAC23 Audio Cable - 1.5 m", "price": 6.99, "image": "https://media.currys.biz/i/currysprod/10234489?$s-swatch$&fmt=auto" }
+  ],
+  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The Bose SoundLink Flex (2nd Gen) throws out surprisingly big, bold sound. Yet it's super-portable, so you can bring the good vibes anywhere. As you'd expect from Bose, you get clear, balanced sound with powerful bass. And you can tweak the audio to your liking with the adjustable EQ in the Bose app. Because it's dust and waterproof, you can bring it along to the beach or pool. It even floats, so no worries if it lands in the deep end.",
+    "goodToKnow": [
+      "With up to 12 hours of battery life, this speaker will keep up with you well into the night",
+      "The tough, silicone-wrapped body can withstand drops, crushing, shocks, and rust",
+      "Take turns playing DJ - multipoint keeps the speaker paired to different phones at the same time",
+      "Pair it with another Bose speaker for bigger sound - choose from Stereo mode or Party mode",
+      "PositionIQ technology knows which way up the speaker is orientated and gives you the best sound",
+      "Make and take calls - or use your phone's voice assistant - with the built-in microphone"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+}

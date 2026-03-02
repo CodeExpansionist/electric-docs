@@ -1,0 +1,115 @@
+{
+  "id": "10274895",
+  "title": "NOTHING Ear (open) Wireless Bluetooth Open-Ear Earbuds - White",
+  "brand": "NOTHING",
+  "price": {
+    "current": 89.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 86
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10274959?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_010?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_009?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10274959?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_010?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10274959_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "earbuds", "label": "True wireless earbuds" },
+    { "icon": "noise-cancelling", "label": "Adjustable active noise-cancelling" },
+    { "icon": "battery", "label": "Battery life: Up to 8 hours (30 hours with case)" },
+    { "icon": "water-resistant", "label": "Water & sweat resistant (IP54)" },
+    { "icon": "audio", "label": "Support for High-Resolution Audio" },
+    { "icon": "controls", "label": "Microphone / playback & functions control" },
+    { "icon": "guarantee", "label": "2 year guarantee" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 5.53,
+    "months": 24,
+    "totalPayable": 132.73,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Brand": "NOTHING",
+      "Colour": "White",
+      "Type": "True wireless earbuds",
+      "Water resistance": "IP54"
+    },
+    "Sound": {
+      "Driver size": "11 mm",
+      "Driver type": "Titanium-coated diaphragm",
+      "Noise cancelling": "Adjustable active noise-cancelling",
+      "Hi-Res Audio": "Yes"
+    },
+    "Connectivity": {
+      "Wireless": "Bluetooth 5.3",
+      "Dual connection": "Yes"
+    },
+    "Battery": {
+      "Battery life (earbuds)": "Up to 8 hours",
+      "Battery life (with case)": "Up to 30 hours",
+      "Quick charge": "Yes"
+    },
+    "Controls": {
+      "Controls type": "Touch controls",
+      "Built-in microphone": "Yes",
+      "Voice assistant": "Yes"
+    }
+  },
+  "description": {
+    "main": "Tune out the world with these Nothing Ear (open) earbuds. Their smart adaptive noise cancellation adjusts to your surroundings. Whether you're on a busy street or relaxing at home, you can enjoy your sound, your way. With an 11 mm titanium-coated diaphragm, you'll get rich audio quality, with deep bass and crisp highs. Every song or call will sound amazing. And with an IP54 rating, they're not afraid of a bit of dust or rain, so you're covered on workouts or rainy commutes.",
+    "goodToKnow": [
+      "Bluetooth 5.3 connectivity makes pairing quick and keeps the connection rock solid, no matter what device you're using",
+      "The user-friendly controls let you easily skip tracks, pause your music, or activate your voice assistant",
+      "Running low on battery? The quick-charge feature means you're back to listening in no time",
+      "They're lightweight and durable, making them comfortable to wear and easy to carry around"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Headphones",
+  "_scrapeMeta": {
+    "scrapedUrl": "https://www.currys.co.uk/products/nothing-ear-open-wireless-bluetooth-noisecancelling-earbuds-white-10274959.html",
+    "currysLiveProductId": "10274959",
+    "note": "Original URL (10274895) redirected to pizza oven. Scraped from live product page 10274959. Gallery images use 10274959 IDs.",
+    "scrapedAt": "2026-03-02"
+  }
+}

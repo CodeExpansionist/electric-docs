@@ -7,7 +7,16 @@ High-fidelity, pixel-perfect clone of Curry's TV & Audio section (currys.co.uk).
 **Repo:** github.com/CodeExpansionist/electric
 **Stack:** Next.js 14 (App Router) + Tailwind CSS
 **Data:** Firecrawl MCP scrape of currys.co.uk → static JSON files
-**Checkout:** Form validation + mock data (no real payments)
+**Checkout:** Form validation + mock data (no real payments), pre-filled with sample UK data (e.g. John Smith, NW1 0AE)
+
+### Important Notes
+
+- **Firecrawl pagination:** Firecrawl handles pagination automatically — paginated pages don't count toward depth limits. Use the `crawl` tool for the full category scrape (400+ products). Set a reasonable `limit` parameter to avoid token overflow. If crawl responses are too large, use `map` + `batch_scrape` for better control.
+- **Product page template:** Use whatever product appears first in the category scrape as the template. Don't specifically look for the Samsung U8000F from the screenshots — any TV product works.
+- **Checkout mock data:** Pre-fill checkout forms with realistic sample UK data for demo purposes (e.g. John Smith, 07123456789, NW1 0AE, Flat 8, 1-3 Pratt Street, London).
+- **Repo state:** Check the repo before scaffolding. If it's empty, use `create-next-app`. If code exists, adapt around it.
+- **Review method:** The site will be reviewed locally via `npm run dev`. No deployment setup needed for MVP.
+- **Mega-menu:** A screenshot of the mega-menu dropdown will be added to `reference-screenshots/` separately. If it's not there yet when you reach the nav build, scrape the mega-menu structure from the site and build from scrape data — the screenshot will be added for verification later.
 
 ---
 

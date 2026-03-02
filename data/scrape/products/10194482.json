@@ -1,0 +1,85 @@
+{
+  "id": "10194482",
+  "title": "ONE FOR ALL URC7955 Smart Control 5 Remote Control",
+  "brand": "One For All",
+  "price": {
+    "current": 34.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.1,
+    "count": 245
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10194482?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194482_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194482_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194482_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10194482?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194482_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194482_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10194482_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Controls up to 5 devices"
+    },
+    {
+      "icon": "",
+      "label": "Works with all brands"
+    },
+    {
+      "icon": "",
+      "label": "Smart activities"
+    },
+    {
+      "icon": "",
+      "label": "Free setup app"
+    }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Number of devices": "5",
+      "Compatible devices": "TV, Sat/Cable, SKY Q, Blu-ray, Media players, Game consoles, Audio",
+      "Setup": "Free setup app (iOS & Android)",
+      "Battery type": "2x AAA (included)"
+    },
+    "Features": {
+      "Smart Activities": "One-touch activity control",
+      "Learning function": "Yes",
+      "Backlit keys": "Yes"
+    },
+    "Guarantee": {
+      "Manufacturer's guarantee": "2 years"
+    }
+  },
+  "description": {
+    "main": "Simplify your home entertainment with the One For All URC7955 Smart Control 5 Remote Control. Replace up to 5 remotes with one sleek device that works with all brands of TV, satellite, cable, Blu-ray, media players and audio equipment. The free setup app makes configuration quick and easy, while Smart Activities let you set up one-touch commands for complex tasks like watching a movie or listening to music.",
+    "goodToKnow": [
+      "Works with all brands - no compatibility issues",
+      "Free setup app for iOS and Android",
+      "Backlit keys for use in the dark",
+      "Batteries included",
+      "2 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories"
+}

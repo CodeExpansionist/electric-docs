@@ -1,0 +1,53 @@
+{
+  "id": "10283852",
+  "title": "MAJORITY Pulse 5 Portable Bluetooth Megasound Party Speaker - Black",
+  "brand": "MAJORITY",
+  "price": { "current": 499, "was": null, "savings": null },
+  "rating": { "average": 4.8, "count": 63 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10283852_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10283852_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283852_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "bluetooth", "label": "Bluetooth" },
+    { "icon": "lights", "label": "LED party lights / Karaoke mode" },
+    { "icon": "power", "label": "Output power: 600 W" },
+    { "icon": "battery", "label": "Up to 8 hours battery life" }
+  ],
+  "flexpay": { "monthlyAmount": 20.79, "months": 24, "totalPayable": 499, "apr": "0%" },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Turn your living room into a dance floor with the Majority Pulse 5 speaker. Dual 12\" speaker drivers and 3\" tweeters fill your space with a whopping 600 W of rich, powerful sound. Crisp highs, punchy mids and bass that thumps - your playlist has never sounded so good. Need more oomph? Hit the Bass Boost and feel the floor shake. Perfect for dance tracks, drum & bass, or anything with a drop.",
+    "goodToKnow": [
+      "Turn up the energy with a dynamic light show that pulses to the beat",
+      "Channel your inner pop star with karaoke mode and the included wireless microphone",
+      "Listen how you like - there's Bluetooth, a USB port and microSD card slot",
+      "Up to 8 hours of battery life will see you well into the night",
+      "Double the fun by linking up a second speaker for True Wireless Stereo (TWS) sound"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "Speakers"
+}

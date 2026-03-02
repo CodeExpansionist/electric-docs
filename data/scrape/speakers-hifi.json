@@ -1,0 +1,1011 @@
+{
+  "sourceUrl": "https://www.currys.co.uk/tv-and-audio/speakers-and-hi-fi-systems",
+  "scrapedAt": "2026-03-01",
+  "pageType": "categoryListing",
+  "categoryName": "Speakers & Hi-Fi Systems",
+  "categorySlug": "speakers-and-hi-fi-systems",
+  "breadcrumbs": [
+    "Home",
+    "TV & Audio",
+    "Speakers & Hi-Fi Systems"
+  ],
+  "metaTitle": "Sound systems - Cheap Speaker and Hi-Fi system deals | Currys",
+  "metaDescription": "Shop speakers and sound systems at Currys for amazing deals on portable Bluetooth speakers, Hi-Fi & more. Order online for delivery or collect in-store.",
+  "totalProducts": 35,
+  "filters": [
+    {
+      "name": "Delivery & Collection",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Delivery available",
+          "count": 320
+        },
+        {
+          "label": "Collect from store",
+          "count": 185
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Bluetooth speakers",
+          "count": 178
+        },
+        {
+          "label": "Portable speakers",
+          "count": 145
+        },
+        {
+          "label": "Party speakers",
+          "count": 62
+        },
+        {
+          "label": "Hi-Fi systems",
+          "count": 38
+        },
+        {
+          "label": "Multi-room speakers",
+          "count": 35
+        },
+        {
+          "label": "Smart speakers",
+          "count": 28
+        },
+        {
+          "label": "Turntables",
+          "count": 22
+        },
+        {
+          "label": "Stereo systems",
+          "count": 15
+        },
+        {
+          "label": "Car speakers",
+          "count": 12
+        },
+        {
+          "label": "Desktop speakers",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "name": "By Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 68
+        },
+        {
+          "label": "£40 to £59.99",
+          "count": 55
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 82
+        },
+        {
+          "label": "£100 to £199.99",
+          "count": 94
+        },
+        {
+          "label": "£200 to £499.99",
+          "count": 62
+        },
+        {
+          "label": "£500 and over",
+          "count": 26
+        }
+      ]
+    },
+    {
+      "name": "By Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "JBL",
+          "count": 48
+        },
+        {
+          "label": "SONY",
+          "count": 38
+        },
+        {
+          "label": "SONOS",
+          "count": 28
+        },
+        {
+          "label": "MARSHALL",
+          "count": 22
+        },
+        {
+          "label": "BOSE",
+          "count": 18
+        },
+        {
+          "label": "LG",
+          "count": 16
+        },
+        {
+          "label": "MAJORITY",
+          "count": 15
+        },
+        {
+          "label": "PANASONIC",
+          "count": 14
+        },
+        {
+          "label": "BEATS",
+          "count": 12
+        },
+        {
+          "label": "AMAZON",
+          "count": 10
+        },
+        {
+          "label": "DENON",
+          "count": 9
+        },
+        {
+          "label": "AUDIO PRO",
+          "count": 8
+        },
+        {
+          "label": "JVC",
+          "count": 8
+        },
+        {
+          "label": "GROOV-E",
+          "count": 7
+        },
+        {
+          "label": "SAMSUNG",
+          "count": 6
+        },
+        {
+          "label": "STREETZ",
+          "count": 6
+        },
+        {
+          "label": "IN PHASE",
+          "count": 5
+        },
+        {
+          "label": "SANDSTROM",
+          "count": 4
+        },
+        {
+          "label": "TRUST",
+          "count": 3
+        },
+        {
+          "label": "HISENSE",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": false,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5.0 out of 5 stars",
+          "count": 18
+        },
+        {
+          "label": "4.0 out of 5 stars & up",
+          "count": 245
+        },
+        {
+          "label": "3.0 out of 5 stars & up",
+          "count": 310
+        }
+      ]
+    },
+    {
+      "name": "Connectivity",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Bluetooth",
+          "count": 298
+        },
+        {
+          "label": "Wi-Fi",
+          "count": 65
+        },
+        {
+          "label": "AUX / 3.5mm",
+          "count": 112
+        },
+        {
+          "label": "USB",
+          "count": 68
+        },
+        {
+          "label": "NFC",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "name": "Water Resistance",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "IP67",
+          "count": 42
+        },
+        {
+          "label": "IPX7",
+          "count": 38
+        },
+        {
+          "label": "IPX5",
+          "count": 25
+        },
+        {
+          "label": "IPX4",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "name": "Availability",
+      "isExpanded": false,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Hide out of stock",
+          "count": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "BEATS Pill Bluetooth Speaker - Matte Black",
+      "brand": "BEATS",
+      "price": 99,
+      "wasPrice": 149,
+      "savings": 50,
+      "rating": 4.9,
+      "reviewCount": 52,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10265808_black?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/beats-pill-bluetooth-speaker-matte-black-10265808.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE SoundLink Flex (2nd Gen) Portable Bluetooth Speaker - Blue Dusk",
+      "brand": "BOSE",
+      "price": 119,
+      "wasPrice": 149,
+      "savings": 30,
+      "rating": 4.8,
+      "reviewCount": 284,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10268793_blue?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/bose-soundlink-flex-2nd-gen-portable-bluetooth-speaker-blue-dusk-10268800.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Portable Bluetooth speaker",
+        "Water resistant (IP67)",
+        "Battery life: Up to 12 hours",
+        "USB-C charging",
+        "PositionIQ technology"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE SoundLink Flex (2nd Gen) Portable Bluetooth Speaker - Black",
+      "brand": "BOSE",
+      "price": 119,
+      "wasPrice": 149,
+      "savings": 30,
+      "rating": 4.8,
+      "reviewCount": 284,
+      "productUrl": "https://www.currys.co.uk/products/bose-soundlink-flex-2nd-gen-portable-bluetooth-speaker-black-10268804.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/M10268793_black?$g-small$&fmt=auto",
+      "specs": [
+        "Waterproof",
+        "Up to 12 hours battery life",
+        "Pair up to 2 speakers",
+        "Bluetooth",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "DENON DM-41DAB Wireless Traditional Hi-Fi System - Black",
+      "brand": "DENON",
+      "price": 399,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 797,
+      "imageUrl": "https://www.currys.biz/i/currysprod/M10164499_black?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/denon-dm41dab-wireless-traditional-hifi-system-black-10193373.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "CD player",
+        "DAB / FM radio",
+        "Bluetooth",
+        "Output power: 60 W",
+        "Aux-in / RCA / Optical",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "HISENSE Party Storm Bluetooth Megasound Party Speaker - Black",
+      "brand": "HISENSE",
+      "price": 169,
+      "wasPrice": 249,
+      "savings": 80,
+      "rating": 3.8,
+      "reviewCount": 5,
+      "productUrl": "https://www.currys.co.uk/products/hisense-party-storm-bluetooth-megasound-party-speaker-black-10284343.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/10284343?$g-small$&fmt=auto",
+      "specs": [
+        "Bluetooth",
+        "LED party lights / Karaoke mode / DJ mode",
+        "Output power: 300 W",
+        "Up to 15 hours battery life",
+        "USB / Aux-in / Mic"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "IN PHASE XTC13.2 Car Speakers - Black & Yellow",
+      "brand": "IN PHASE",
+      "price": 49.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 0,
+      "reviewCount": 0,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10278447?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/in-phase-xtc13.2-car-speakers-black-and-yellow-10278447.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL Go 4 Portable Bluetooth Speaker - Black",
+      "brand": "JBL",
+      "price": 39.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.9,
+      "reviewCount": 309,
+      "productUrl": "https://www.currys.co.uk/products/jbl-go-4-portable-bluetooth-speaker-black-10261760.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/M10261760_black?$g-small$&fmt=auto",
+      "specs": [
+        "Waterproof",
+        "JBL Pro Sound for powerful audio",
+        "Up to 7 hours battery life",
+        "Bluetooth",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL PartyLight Stick - Black",
+      "brand": "JBL",
+      "price": 79.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 36,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10268457?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jbl-partylight-stick-black-10268457.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL Flip 7 Portable Bluetooth Speaker - Black",
+      "brand": "JBL",
+      "price": 113,
+      "wasPrice": 129,
+      "savings": 16,
+      "rating": 4.9,
+      "reviewCount": 167,
+      "productUrl": "https://www.currys.co.uk/products/jbl-flip-7-portable-bluetooth-speaker-black-10278564.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/M10278544_black?$g-small$&fmt=auto",
+      "specs": [
+        "Waterproof",
+        "JBL Pro Sound with AI Sound Boost",
+        "Up to 14 hours battery life",
+        "Pair 100+ speakers",
+        "Bluetooth",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL PartyBox Wireless Microphone Set - Black",
+      "brand": "JBL",
+      "price": 119,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 37,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10268038?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jbl-partybox-wireless-microphone-set-black-10268038.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Wireless microphone set",
+        "Rechargeable",
+        "Up to 6 hours battery",
+        "Compatible with JBL PartyBox speakers"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL Charge 6 Portable Bluetooth Speaker - Black",
+      "brand": "JBL",
+      "price": 169,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.9,
+      "reviewCount": 1191,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10278540_black?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jbl-charge-6-portable-bluetooth-speaker-black-10278540.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Portable Bluetooth speaker",
+        "Water & dust resistant (IP67)",
+        "Battery life: Up to 24 hours",
+        "USB-C charging",
+        "PartyBoost for linking speakers"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL Xtreme 3 Portable Bluetooth Speaker - Black",
+      "brand": "JBL",
+      "price": 179,
+      "wasPrice": 249,
+      "savings": 70,
+      "rating": 4.8,
+      "reviewCount": 239,
+      "productUrl": "https://www.currys.co.uk/products/jbl-xtreme-3-portable-bluetooth-speaker-black-10283954.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/10283954?$g-small$&fmt=auto",
+      "specs": [
+        "Waterproof",
+        "JBL Pro Sound for powerful audio",
+        "Up to 15 hours battery life",
+        "Bluetooth",
+        "USB smartphone charging",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL Boombox 3 WiFi Portable Wireless Speaker - Black",
+      "brand": "JBL",
+      "price": 329.97,
+      "wasPrice": 549,
+      "savings": 219.03,
+      "rating": 4.8,
+      "reviewCount": 870,
+      "productUrl": "https://www.currys.co.uk/products/jbl-boombox-3-wifi-portable-wireless-speaker-black-10251399.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/10251399?$g-small$&fmt=auto",
+      "specs": [
+        "Waterproof",
+        "Up to 24 hours battery life",
+        "Wirelessly connect to other Chromecast speakers",
+        "WiFi / Bluetooth / Apple AirPlay",
+        "USB smartphone charging",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL Partybox Club 120 Bluetooth Megasound Party Speaker - Black",
+      "brand": "JBL",
+      "price": 349,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.9,
+      "reviewCount": 196,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10261827_black?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jbl-partybox-club-120-bluetooth-megasound-party-speaker-black-10261827.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Water resistant",
+        "JBL Original Pro Sound for powerful audio",
+        "LED party lights / Karaoke mode",
+        "Up to 12 hours battery life",
+        "Pair up to 100 speakers",
+        "Bluetooth",
+        "Aux-in / 1/4 jack / USB smartphone charging",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL Partybox 320 Bluetooth Megasound Party Speaker - Black",
+      "brand": "JBL",
+      "price": 529,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.9,
+      "reviewCount": 189,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10261824_black?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jbl-partybox-320-bluetooth-megasound-party-speaker-black-10261824.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Water resistant",
+        "JBL Original Pro Sound for powerful audio",
+        "LED party lights / Karaoke mode",
+        "Up to 18 hours battery life",
+        "Pair up to 100 speakers",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JVC UX-D327B Wireless Traditional Hi-Fi System - Black",
+      "brand": "JVC",
+      "price": 79,
+      "wasPrice": 99,
+      "savings": 20,
+      "rating": 4.5,
+      "reviewCount": 1016,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10156009?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jvc-uxd327b-wireless-traditional-hifi-system-black-10156009.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Hi-Fi system",
+        "Bluetooth",
+        "CD player",
+        "FM/DAB radio",
+        "USB playback"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JVC RD-D325B Bluetooth Flat Panel Hi-Fi System - Dark Grey",
+      "brand": "JVC",
+      "price": 99,
+      "wasPrice": 129,
+      "savings": 30,
+      "rating": 4.8,
+      "reviewCount": 11,
+      "productUrl": "https://www.currys.co.uk/products/jvc-rdd325b-bluetooth-flat-panel-hifi-system-dark-grey-10275671.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/10275671?$g-small$&fmt=auto",
+      "specs": [
+        "CD player & DAB+ / FM radio",
+        "Bluetooth",
+        "Output power: 10 W",
+        "USB / RCA"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JVC XS-D629BM 2.0 Bluetooth Bookshelf Speakers - Walnut",
+      "brand": "JVC",
+      "price": 99.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 485,
+      "productUrl": "https://www.currys.co.uk/products/jvc-xsd629bm-2.0-bluetooth-bookshelf-speakers-walnut-10189179.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/10189179?$g-small$&fmt=auto",
+      "specs": [
+        "Output power: 60 W",
+        "Bluetooth",
+        "RCA / USB",
+        "Bass & treble EQ",
+        "Includes remote control"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG xboom Grab Portable Bluetooth Speaker - Black",
+      "brand": "LG",
+      "price": 79,
+      "wasPrice": 129,
+      "savings": 50,
+      "rating": 4.9,
+      "reviewCount": 17,
+      "productUrl": "https://www.currys.co.uk/products/lg-xboom-grab-portable-bluetooth-speaker-black-10282591.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/M10282591_black?$g-small$&fmt=auto",
+      "specs": [
+        "Water resistant",
+        "Up to 20 hours battery life",
+        "Wirelessly connect to other Auracast speakers",
+        "Bluetooth",
+        "Aux-in"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG XBOOM DXL5 Bluetooth Megasound Party Speaker - Black",
+      "brand": "LG",
+      "price": 249,
+      "wasPrice": 349,
+      "savings": 100,
+      "rating": 5,
+      "reviewCount": 3,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10284264?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/lg-xboom-dxl5-bluetooth-megasound-party-speaker-black-10284264.html",
+      "badges": [
+        "Epic Deal"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Bluetooth party speaker",
+        "LED lighting effects",
+        "Megasound audio",
+        "Microphone input"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MAJORITY Pulse 1 Portable Bluetooth Megasound Party Speaker - Black",
+      "brand": "MAJORITY",
+      "price": 49.99,
+      "wasPrice": 99.99,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 79,
+      "productUrl": "https://www.currys.co.uk/products/majority-pulse-1-portable-bluetooth-megasound-party-speaker-black-10283837.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10283837?$g-small$&fmt=auto",
+      "specs": [
+        "LED party lights / Karaoke mode",
+        "Up to 10 hours battery life",
+        "Bluetooth",
+        "Aux-in / USB",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MAJORITY Pulse 2 Portable Bluetooth Megasound Party Speaker - Black",
+      "brand": "MAJORITY",
+      "price": 69,
+      "wasPrice": 149,
+      "savings": 80,
+      "rating": 4.8,
+      "reviewCount": 73,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10283847?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/majority-pulse-2-portable-bluetooth-megasound-party-speaker-black-10283847.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Portable party speaker",
+        "Bluetooth",
+        "LED lights",
+        "Battery life: Up to 12 hours"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MAJORITY Pulse 3 Portable Bluetooth Megasound Party Speaker - Black",
+      "brand": "MAJORITY",
+      "price": 99,
+      "wasPrice": 199,
+      "savings": 100,
+      "rating": 4.7,
+      "reviewCount": 70,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10283851?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/majority-pulse-3-portable-bluetooth-megasound-party-speaker-black-10283851.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Bluetooth",
+        "LED party lights / Karaoke mode",
+        "Output power: 200 W",
+        "Up to 6 hours battery life",
+        "USB / Aux-in",
+        "3 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MAJORITY Pulse 5 Portable Bluetooth Megasound Party Speaker - Black",
+      "brand": "MAJORITY",
+      "price": 499,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 63,
+      "productUrl": "https://www.currys.co.uk/products/majority-pulse-5-portable-bluetooth-megasound-party-speaker-black-10283852.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/10283852?$g-small$&fmt=auto",
+      "specs": [
+        "Bluetooth",
+        "LED party lights / Karaoke mode",
+        "Output power: 600 W",
+        "Up to 8 hours battery life",
+        "USB / Aux-in",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MARSHALL Middleton Portable Bluetooth Speaker - Black",
+      "brand": "MARSHALL",
+      "price": 139.97,
+      "wasPrice": 259,
+      "savings": 119.03,
+      "rating": 5,
+      "reviewCount": 14,
+      "productUrl": "https://www.currys.co.uk/products/marshall-middleton-portable-bluetooth-speaker-black-10248002.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10248002?$g-small$&fmt=auto",
+      "specs": [
+        "Water resistant",
+        "Up to 20 hours battery life",
+        "Pair 100+ speakers",
+        "Bluetooth",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MARSHALL Emberton III Portable Bluetooth Speaker - Black & Brass",
+      "brand": "MARSHALL",
+      "price": 149,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 318,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10267026?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/marshall-emberton-iii-portable-bluetooth-speaker-black-and-brass-10267026.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MARSHALL Acton III Bluetooth Speaker - Midnight Blue",
+      "brand": "MARSHALL",
+      "price": 259,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 5,
+      "reviewCount": 1,
+      "productUrl": "https://www.currys.co.uk/products/marshall-acton-iii-bluetooth-speaker-midnight-blue-10283846.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/M10240152_blue?$g-small$&fmt=auto",
+      "specs": [
+        "Dynamic Loudness for rich & clear sound",
+        "Bluetooth",
+        "Aux-in",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "PANASONIC SC-UX100E-K Bluetooth Megasound Party Hi-Fi System - Black",
+      "brand": "PANASONIC",
+      "price": 129,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 329,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10191412?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/panasonic-scux100ek-bluetooth-megasound-party-hifi-system-black-10191412.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Bluetooth Hi-Fi system",
+        "Audio power: 300 W",
+        "CD player",
+        "FM radio",
+        "USB input"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "PANASONIC SC-DM202 Bluetooth All-in-One Stereo System - Black",
+      "brand": "PANASONIC",
+      "price": 169,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 1040,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10252795?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/panasonic-scdm202-bluetooth-allinone-stereo-system-black-10252795.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONOS Roam 2 Portable Wireless Multi-room Speaker with Amazon Alexa - Black",
+      "brand": "SONOS",
+      "price": 179,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 324,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10263677?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sonos-roam-2-portable-wireless-multiroom-speaker-with-amazon-alexa-black-10263677.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Portable multi-room speaker",
+        "Bluetooth & Wi-Fi",
+        "Voice control (Alexa & Google)",
+        "Water resistant (IP67)",
+        "Battery life: Up to 10 hours"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONOS Era 100 Wireless Multi-room Speaker with Amazon Alexa - White",
+      "brand": "SONOS",
+      "price": 199,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 86,
+      "productUrl": "https://www.currys.co.uk/products/sonos-era-100-wireless-multiroom-speaker-with-amazon-alexa-white-10247701.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/10247701?$g-small$&fmt=auto",
+      "specs": [
+        "Wirelessly connect to other Sonos speakers",
+        "WiFi / Bluetooth / Apple AirPlay 2",
+        "USB Type-C port",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY SRS-XB100 Portable Bluetooth Speaker - Blue",
+      "brand": "SONY",
+      "price": 39.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 625,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10253772_blue?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sony-srsxb100-portable-bluetooth-speaker-blue-10253779.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Portable Bluetooth speaker",
+        "Water resistant (IP67)",
+        "Battery life: Up to 16 hours",
+        "USB-C charging"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY SRS-XB100 Portable Bluetooth Speaker - Black",
+      "brand": "SONY",
+      "price": 39.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 51,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10253772_black?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sony-srsxb100-portable-bluetooth-speaker-black-10253796.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY ULT FIELD 1 Portable Bluetooth Speaker - Black",
+      "brand": "SONY",
+      "price": 89.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 185,
+      "productUrl": "https://www.currys.co.uk/products/sony-ult-field-1-portable-bluetooth-speaker-black-10262651.html",
+      "imageUrl": "https://www.currys.biz/i/currysprod/M10262624_black?$g-small$&fmt=auto",
+      "specs": [
+        "Waterproof",
+        "Up to 12 hours battery life",
+        "Pair up to 2 speakers",
+        "Bluetooth"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "STREETZ CMB-110 Portable Bluetooth Speaker - Black",
+      "brand": "STREETZ",
+      "price": 59.99,
+      "wasPrice": 69.99,
+      "savings": 10,
+      "rating": 0,
+      "reviewCount": 0,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10258738?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/streetz-cmb110-portable-bluetooth-speaker-black-10258738.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [],
+      "energyRating": null,
+      "offers": []
+    }
+  ]
+}

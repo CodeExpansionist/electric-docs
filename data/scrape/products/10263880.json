@@ -1,0 +1,71 @@
+{
+  "id": "10263880",
+  "title": "SAMSUNG HW-S60D/XU 5.0 All-in-One Sound Bar with Dolby Atmos, DTS Virtual:X & Amazon Alexa - Black",
+  "brand": "Samsung",
+  "price": {
+    "current": 389,
+    "was": 399,
+    "savings": 10
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 197
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10263880_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263880?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263880_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263880_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263880_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10263880?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263880_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263880_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263880_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263880_004?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Number of speakers: 7" },
+    { "icon": "", "label": "Dolby Atmos & DTS Virtual:X" },
+    { "icon": "", "label": "Built-in subwoofer" },
+    { "icon": "", "label": "Audio power: 200 W" },
+    { "icon": "", "label": "Adaptive / optimized audio" },
+    { "icon": "", "label": "HDMI" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 15.76,
+    "months": 36,
+    "totalPayable": 567.36,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 4.67, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Take movie night up a notch with this Samsung S60D sound bar. With Wireless Dolby Atmos, you'll hear every whoosh, bang and spine-chilling creak in 3D surround sound, just like the director intended. And there's not a cable in sight either. Your favourite entertainment will sound better than ever with Samsung Q-Symphony - the sounds come at you from both your soundbar and TV speakers. And SpaceFit Sound-Pro is like having your own personal sound guy at home. The built-in microphone analyses the acoustics of your room, then fine-tunes the EQ of the sound bar so it's optimised for your space.",
+    "goodToKnow": [
+      "The all-in-one design has 7 speakers and a built-in subwoofer, carefully tuned by the Samsung Audio Lab",
+      "Control your sound bar using just your voice with Amazon Alexa built-in",
+      "The built-in centre speaker lets you hear every word of dialogue clearly",
+      "With WiFi and Bluetooth connectivity, play music straight from your favourite apps"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 0,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars"
+}

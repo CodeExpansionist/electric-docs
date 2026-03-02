@@ -1,0 +1,85 @@
+{
+  "id": "10283424",
+  "title": "PHILIPS Ambilight 32PFS6900/05 32\" Smart Full HD HDR LED TV",
+  "brand": "Philips",
+  "price": {
+    "current": 229,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 6
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10283424?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10283424?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283424_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "ambilight", "label": "Ambilight LED lighting for immersive entertainment" },
+    { "icon": "audio", "label": "Cinematic sound with Dolby Atmos" },
+    { "icon": "screen-size", "label": "Screen size: 32\"" },
+    { "icon": "resolution", "label": "Resolution: Full HD 1920 x 1080p" },
+    { "icon": "hdmi", "label": "HDMI 2.0 x 3" },
+    { "icon": "refresh-rate", "label": "Refresh rate: 60 Hz" },
+    { "icon": "guarantee", "label": "2 year guarantee" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 9.71,
+    "months": 36,
+    "totalPayable": 349.52,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 2.75, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": ["Dolby Atmos", "Freely TV"],
+  "specifications": {},
+  "description": {
+    "main": "This Philips Ambilight 32\u201d TV splashes your walls with colour for super immersive entertainment. LED lights on the back of the TV dance along to whatever's showing, stretching the action beyond the frame. The Pixel Plus Full HD engine works tirelessly to boost the sharpness, motion, and vibrancy of every scene. Plus, HDR10 and HLG support mean you'll get to see all the detail, from the darkest scenes to the brightest lights. The high dynamic range (HDR) boosts colour and contrast so everything will look as good as you expect.",
+    "goodToKnow": [
+      "Dolby Atmos brings you crystal clear sound, great for everything from tense dialogue to action soundtracks",
+      "It plays nicely with other Matter devices, like lights and thermostats, for a seamless smart home experience",
+      "Freely brings you live TV channels and on-demand content over WiFi \u2013 no aerial, no fees, no hassle",
+      "TITAN OS gives you recommendations on the hottest action and drama, so it's easy to find TV shows and movies",
+      "Vocal Boost makes sure you hear every word clearly, so you never miss a crucial moment"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99
+  },
+  "category": "TVs",
+  "energyRating": "F"
+}

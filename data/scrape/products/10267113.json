@@ -1,0 +1,79 @@
+{
+  "id": "10267113",
+  "title": "PANASONIC TV-65Z85AEB 65\" Smart 4K Ultra HD HDR OLED TV with Amazon Alexa",
+  "brand": "Panasonic",
+  "price": {
+    "current": 1199.99,
+    "was": 1399.99,
+    "savings": 200
+  },
+  "rating": {
+    "average": 3,
+    "count": 4
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10267113?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10267113?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10267113_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/1043/ol_video_img_url__289326_1043.jpg?m=1043&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "screen-size", "label": "Screen size: 65\"" },
+    { "icon": "hdr", "label": "HDR: Dolby Vision IQ / HDR10+ / HDR10 / Hybrid Log-Gamma" },
+    { "icon": "refresh-rate", "label": "Refresh rate: 120 Hz" },
+    { "icon": "audio", "label": "Audio power: 50 W" },
+    { "icon": "guarantee", "label": "5 year guarantee" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 33.33,
+    "months": 36,
+    "totalPayable": 1199.99,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Installation", "price": 65, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": ["Epic Deal"],
+  "specifications": {},
+  "description": {
+    "main": "What's better than OLED? How about OLED with AI? Each pixel on this Panasonic Z85 TV is self-illuminating for natural colours and brilliant contrast. The HCX Pro AI Processor MKII cleverly analyses each scene for the best possible picture, tweaking colours and contrast on the fly. Plus, Auto AI mode knows when you're watching sport and adapts the picture and sound for you. Dolby have brought their expertise into the mix too. Dolby Vision IQ adapts the picture to the ambient light of your room. So, whether it's the midday match or movie night, you'll get the perfect viewing experience. And then there's Dolby Atmos. It adds virtual surround sound to your experience, making you feel like you're in the middle of the action.",
+    "goodToKnow": [
+      "Pick from a selection of Theatre Surround Pro sound modes for magnificent film scores and clear speech",
+      "Game Mode Extreme offers epic speed, resolution, and motion for every game, so you can stay on top of the action",
+      "Fire TV has plenty of apps to keep everyone happy, including Prime TV, Netflix, and Disney+",
+      "Freely brings you live TV channels and on-demand content over WiFi \u2013 no aerial, no fees, no hassle"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99
+  },
+  "category": "TVs"
+}

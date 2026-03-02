@@ -1,0 +1,59 @@
+{
+  "id": "10258738",
+  "title": "STREETZ CMB-110 Portable Bluetooth Speaker - Black",
+  "brand": "STREETZ",
+  "price": { "current": 59.99, "was": 69.99, "savings": 10 },
+  "rating": { "average": 5, "count": 1 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10258738?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_100?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10258738?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10258738_100?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "waterproof", "label": "Water resistant" },
+    { "icon": "lights", "label": "LED party lighting" },
+    { "icon": "battery", "label": "Up to 4 hours battery life" },
+    { "icon": "bluetooth", "label": "Bluetooth" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "No wires, no fuss - stream music from your phone or tablet with this Streetz Bluetooth speaker. It kicks out a decent 15 W of sound power, so it's great for small groups. No one needs to miss out - you can connect 2 speakers to fill larger spaces. Its built-in LED light adds a little sparkle to your musical get-together. Listen to all of your favourite pick-me-up songs with up to 4 hours of playtime.",
+    "goodToKnow": [
+      "Water resistant",
+      "LED party lighting",
+      "Up to 4 hours battery life",
+      "Pair up to 2 speakers",
+      "Bluetooth",
+      "Aux-in / USB",
+      "3 year guarantee"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "Speakers"
+}

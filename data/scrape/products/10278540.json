@@ -1,0 +1,62 @@
+{
+  "id": "10278540",
+  "title": "JBL Charge 6 Portable Bluetooth Speaker - Black",
+  "brand": "JBL",
+  "price": { "current": 169, "was": 0, "savings": 0 },
+  "rating": { "average": 4.9, "count": 1191 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10278540_black?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_Black_008?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10278540_black?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10278540_Black_008?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/3075/ol_video_img_url__293926_3075.jpg?m=3075&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Waterproof" },
+    { "icon": "", "label": "JBL Pro Sound with AI Sound Boost" },
+    { "icon": "", "label": "Up to 24 hours battery life" },
+    { "icon": "", "label": "Pair 100+ speakers" },
+    { "icon": "", "label": "Bluetooth" },
+    { "icon": "", "label": "USB smartphone charging" },
+    { "icon": "", "label": "2 year guarantee" }
+  ],
+  "flexpay": { "monthlyAmount": 6.84, "months": 36, "totalPayable": 246.24, "apr": "29.9%" },
+  "careAndRepair": [{ "plan": "Care & Repair", "price": 1.25, "period": "month" }],
+  "essentialServices": [],
+  "crossSellProducts": [
+    { "category": "Headphones", "title": "JBL Tune 520BT Wireless Bluetooth Headphones - Black", "price": 29.99, "image": "https://media.currys.biz/i/currysprod/M10248384_black?$s-swatch$&fmt=auto" },
+    { "category": "Cables and accessories", "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m", "price": 11.99, "image": "https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto" }
+  ],
+  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Dive deeper into your favourite tunes with the JBL Charge 6. Its powerful JBL Pro Sound with AI Sound Boost technology gives you rich bass, punchy mids and sparkling highs. Your music will sound amazing with minimal distortion. You get up to 24 hours of use on a single charge, so the party can go on all day and night. Plus, JBL Playtime Boost squeezes an extra 4 hours out of the battery when you're really in a pinch. It's also waterproof, dustproof and drop-proof, so you can use it in the garden without worrying.",
+    "goodToKnow": [
+      "A 10 minute quick charge gives you up to 150 minutes of playtime",
+      "The sturdy, removable handle strap makes it easy to carry around",
+      "The JBL Portable app has customisable controls so you can tailor the sound to your mood",
+      "Connect multiple Charge 6 speakers with Auracast and create a wide, stereo image",
+      "It supports lossless audio so you can enjoy your music exactly as the artist intended"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+}

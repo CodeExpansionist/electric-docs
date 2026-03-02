@@ -1,0 +1,1291 @@
+{
+  "sourceUrl": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
+  "scrapedAt": "2026-03-01",
+  "pageType": "categoryListing",
+  "categoryName": "Sound Bars",
+  "categorySlug": "sound-bars",
+  "breadcrumbs": [
+    "Home",
+    "TV & Audio",
+    "DVD, Blu-ray & Home Cinema",
+    "Home Cinema Systems & Soundbars",
+    "Sound Bars"
+  ],
+  "metaTitle": "Sound Bars - Best Sound Bar Deals | Currys",
+  "metaDescription": "Bring the cinema home with the best sound bars at Currys, from Bose and Sonos to other top-of-the-range brands. Shop online or order & collect in store.",
+  "totalProducts": 45,
+  "filters": [
+    {
+      "name": "Delivery & Collection",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Delivery available",
+          "count": 130
+        },
+        {
+          "label": "Collect from store",
+          "count": 94
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Sound bars",
+          "count": 126
+        },
+        {
+          "label": "Bluetooth soundbars",
+          "count": 113
+        },
+        {
+          "label": "Wall mounted soundbars",
+          "count": 74
+        },
+        {
+          "label": "Dolby Atmos soundbars",
+          "count": 69
+        },
+        {
+          "label": "Wireless soundbars",
+          "count": 66
+        },
+        {
+          "label": "Soundbar subwoofers",
+          "count": 22
+        },
+        {
+          "label": "All in one soundbars",
+          "count": 20
+        },
+        {
+          "label": "5.1 surround sound soundbars",
+          "count": 17
+        },
+        {
+          "label": "AV separates",
+          "count": 16
+        },
+        {
+          "label": "Home cinema speakers",
+          "count": 9
+        },
+        {
+          "label": "Home cinema systems",
+          "count": 6
+        },
+        {
+          "label": "Wired soundbars",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "By Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 4
+        },
+        {
+          "label": "£40 to £59.99",
+          "count": 10
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 21
+        },
+        {
+          "label": "£100 to £499",
+          "count": 71
+        },
+        {
+          "label": "£500 to £999",
+          "count": 30
+        },
+        {
+          "label": "£1000 and over",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "name": "By Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "SHARP",
+          "count": 19
+        },
+        {
+          "label": "SONY",
+          "count": 19
+        },
+        {
+          "label": "SONOS",
+          "count": 16
+        },
+        {
+          "label": "SAMSUNG",
+          "count": 15
+        },
+        {
+          "label": "LG",
+          "count": 12
+        },
+        {
+          "label": "HISENSE",
+          "count": 9
+        },
+        {
+          "label": "MAJORITY",
+          "count": 9
+        },
+        {
+          "label": "KANTO AUDIO",
+          "count": 8
+        },
+        {
+          "label": "BOSE",
+          "count": 7
+        },
+        {
+          "label": "JBL",
+          "count": 7
+        },
+        {
+          "label": "PANASONIC",
+          "count": 7
+        },
+        {
+          "label": "GROOV-E",
+          "count": 5
+        },
+        {
+          "label": "DENON",
+          "count": 3
+        },
+        {
+          "label": "JVC",
+          "count": 3
+        },
+        {
+          "label": "MARSHALL",
+          "count": 3
+        },
+        {
+          "label": "TCL",
+          "count": 3
+        },
+        {
+          "label": "KLIPSCH",
+          "count": 2
+        },
+        {
+          "label": "DELL",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5.0 out of 5 stars",
+          "count": 9
+        },
+        {
+          "label": "4.0 out of 5 stars & up",
+          "count": 108
+        },
+        {
+          "label": "3.0 out of 5 stars & up",
+          "count": 114
+        },
+        {
+          "label": "2.0 out of 5 stars & up",
+          "count": 114
+        },
+        {
+          "label": "1.0 out of 5 stars & up",
+          "count": 115
+        }
+      ]
+    },
+    {
+      "name": "Connectivity",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Bluetooth",
+          "count": 113
+        },
+        {
+          "label": "HDMI",
+          "count": 98
+        },
+        {
+          "label": "Optical",
+          "count": 85
+        },
+        {
+          "label": "Wi-Fi",
+          "count": 42
+        },
+        {
+          "label": "USB",
+          "count": 28
+        },
+        {
+          "label": "AUX / 3.5mm",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "name": "Surround Sound",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Dolby Atmos",
+          "count": 69
+        },
+        {
+          "label": "DTS:X",
+          "count": 45
+        },
+        {
+          "label": "DTS Virtual:X",
+          "count": 32
+        },
+        {
+          "label": "Dolby Digital",
+          "count": 78
+        }
+      ]
+    },
+    {
+      "name": "Availability",
+      "isExpanded": false,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Hide out of stock",
+          "count": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "BOSE TV Speaker",
+      "brand": "BOSE",
+      "price": 269,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 502,
+      "productUrl": "https://www.currys.co.uk/products/bose-tv-speaker-10207493.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10207493?$g-small$&fmt=auto",
+      "specs": [
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE Smart Compact Sound Bar with Dolby Atmos & Amazon Alexa",
+      "brand": "BOSE",
+      "price": 499,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.1,
+      "reviewCount": 18,
+      "productUrl": "https://www.currys.co.uk/products/bose-smart-compact-sound-bar-with-dolby-atmos-and-amazon-alexa-10269117.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10269117?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Compatible with other Bose speakers / Chromecast / AirPlay",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa - Black",
+      "brand": "BOSE",
+      "price": 629,
+      "wasPrice": 899,
+      "savings": 270,
+      "rating": 4.6,
+      "reviewCount": 32,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10254944_black?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-black-10254954.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Chromecast built-in",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa - White",
+      "brand": "BOSE",
+      "price": 629,
+      "wasPrice": 899,
+      "savings": 270,
+      "rating": 4.6,
+      "reviewCount": 32,
+      "productUrl": "https://www.currys.co.uk/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-white-10254944.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10254944_white?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Chromecast built-in",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE Smart Compact Sound Bar & Bass Module 500 Bundle",
+      "brand": "BOSE",
+      "price": 948,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 0,
+      "reviewCount": 0,
+      "productUrl": "https://www.currys.co.uk/products/bose-smart-compact-sound-bar-and-bass-module-500-bundle-10291032.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10291032?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Compatible with other Bose speakers / Chromecast / AirPlay",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE Smart Ultra 5.1.2 Soundbar & Bass Module 700 (Black) Bundle",
+      "brand": "BOSE",
+      "price": 1698,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 0,
+      "reviewCount": 0,
+      "productUrl": "https://www.currys.co.uk/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-and-bass-module-700-black-bundle-10261769.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10261769?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Chromecast built-in",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE Smart Ultra 5.1.2 Soundbar & Bass Module 700 (White) Bundle",
+      "brand": "BOSE",
+      "price": 1698,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 0,
+      "reviewCount": 0,
+      "productUrl": "https://www.currys.co.uk/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-and-bass-module-700-white-bundle-10261770.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10261770?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Chromecast built-in",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "brand": "HISENSE",
+      "price": 69,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 271,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10244299?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/hisense-hs214-2.1-allinone-sound-bar-10244299.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 3",
+        "Built-in subwoofer",
+        "Audio power: 108 W",
+        "HDMI / Optical / Coaxial"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "HISENSE HS3100 3.1 Wireless Compact Sound Bar with DTS Virtual:X",
+      "brand": "HISENSE",
+      "price": 99,
+      "wasPrice": 149,
+      "savings": 50,
+      "rating": 4.7,
+      "reviewCount": 89,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10266538?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/hisense-hs3100-3.1-wireless-compact-sound-bar-with-dts-virtualx-10266538.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 6",
+        "DTS Virtual:X",
+        "Wireless subwoofer",
+        "Audio power: 480 W",
+        "Adaptive / optimized audio",
+        "HDMI / Optical"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "HISENSE HS2100 2.1 Wireless Compact Sound Bar with DTS Virtual:X",
+      "brand": "HISENSE",
+      "price": 99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 142,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10257243?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/hisense-hs2100-2.1-wireless-compact-sound-bar-with-dts-virtualx-10257243.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 3",
+        "DTS Virtual:X",
+        "Wireless subwoofer",
+        "Audio power: 240 W"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
+      "brand": "HISENSE",
+      "price": 179,
+      "wasPrice": 229,
+      "savings": 50,
+      "rating": 4.5,
+      "reviewCount": 33,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10280658?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/hisense-ax5100q-5.1-wireless-sound-bar-with-dolby-atmos-10280658.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 8",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 580 W",
+        "Adaptive / optimized audio",
+        "4K pass-through",
+        "HDMI / Optical"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "HISENSE AX5125H 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "HISENSE",
+      "price": 249,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 104,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10262409?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/hisense-ax5125h-5.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10262409.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Dolby Atmos / DTS:X / DTS Virtual:X",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 500 W",
+        "4K pass-through",
+        "HDMI / Optical / Coaxial"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL BAR 1000 7.1.4 Wireless Sound Bar with Dolby Atmos",
+      "brand": "JBL",
+      "price": 849.97,
+      "wasPrice": 899,
+      "savings": 49.03,
+      "rating": 4.8,
+      "reviewCount": 116,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10244363?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jbl-bar-1000-7.1.4-wireless-sound-bar-with-dolby-atmos-10244363.html",
+      "badges": [
+        "Epic Deal"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 15",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer",
+        "Audio power: 880 W",
+        "4K pass-through",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JVC TH-D325B 2.0 Compact Sound Bar",
+      "brand": "JVC",
+      "price": 34.99,
+      "wasPrice": 44.99,
+      "savings": 10,
+      "rating": 3.3,
+      "reviewCount": 4,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10276400?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jvc-thd325b-2.0-compact-sound-bar-10276400.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 30 W RMS",
+        "HDMI / Optical"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JVC TH-D625B 2.0 Compact Sound Bar",
+      "brand": "JVC",
+      "price": 49.99,
+      "wasPrice": 59.99,
+      "savings": 10,
+      "rating": 4.8,
+      "reviewCount": 4,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10276273?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jvc-thd625b-2.0-compact-sound-bar-10276273.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 40 W",
+        "HDMI / Optical"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG SQM1 2.0 Compact Sound Bar",
+      "brand": "LG",
+      "price": 59.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 37,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10267031?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/lg-sqm1-2.0-compact-sound-bar-10267031.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 40 W",
+        "Adaptive / optimized audio",
+        "Optical"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US20A 2.0 Compact Sound Bar",
+      "brand": "LG",
+      "price": 79.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 19,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10282047?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/lg-us20a-2.0-compact-sound-bar-10282047.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 50 W Peak / 50 W RMS",
+        "Adaptive / optimized audio",
+        "HDMI"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG SQC1 2.1 Wireless Compact Sound Bar",
+      "brand": "LG",
+      "price": 129.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 88,
+      "productUrl": "https://www.currys.co.uk/products/lg-sqc1-2.1-wireless-compact-sound-bar-10248390.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10248390?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 3",
+        "Wireless subwoofer",
+        "Audio power: 160 W RMS",
+        "Adaptive / optimized audio",
+        "Optical"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US40T 2.1 Wireless Sound Bar",
+      "brand": "LG",
+      "price": 199,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 69,
+      "productUrl": "https://www.currys.co.uk/products/lg-us40t-2.1-wireless-sound-bar-10262742.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10262742?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 3",
+        "Wireless subwoofer",
+        "Audio power: 300 W",
+        "Adaptive / optimized audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US40TR 4.1 Wireless Sound Bar",
+      "brand": "LG",
+      "price": 249,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 9,
+      "productUrl": "https://www.currys.co.uk/products/lg-us40tr-4.1-wireless-sound-bar-10281503.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10281503?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 5",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 400 W",
+        "Adaptive / optimized audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US60TR 5.1 Wireless Sound Bar",
+      "brand": "LG",
+      "price": 299,
+      "wasPrice": 399,
+      "savings": 100,
+      "rating": 4.6,
+      "reviewCount": 83,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10262669?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/lg-us60tr-5.1-wireless-sound-bar-10262669.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 6",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 440 W",
+        "Adaptive / optimized audio",
+        "HDMI / Optical"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US77TY 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "price": 599,
+      "wasPrice": 899,
+      "savings": 300,
+      "rating": 4.8,
+      "reviewCount": 5,
+      "productUrl": "https://www.currys.co.uk/products/lg-us77ty-3.1.3-wireless-sound-bar-with-dolby-atmos-10262666.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10262666?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 9",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer",
+        "Audio power: 400 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US70TR 5.1.1 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "price": 699,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 49,
+      "productUrl": "https://www.currys.co.uk/products/lg-us70tr-5.1.1-wireless-sound-bar-with-dolby-atmos-10262662.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10262662?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 9",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 500 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG USC9S 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "price": 799,
+      "wasPrice": 999,
+      "savings": 200,
+      "rating": 4.6,
+      "reviewCount": 76,
+      "productUrl": "https://www.currys.co.uk/products/lg-usc9s-3.1.3-wireless-sound-bar-with-dolby-atmos-10248732.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10248732?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 9",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer",
+        "Audio power: 400 W",
+        "Meridian technology",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "Chromecast / AirPlay built-in",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG USG10TY 3.1 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "price": 999,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 30,
+      "productUrl": "https://www.currys.co.uk/products/lg-usg10ty-3.1-wireless-sound-bar-with-dolby-atmos-10262670.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10262670?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 8",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer",
+        "Audio power: 420 W",
+        "Adaptive / optimized audio",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US80TR 5.1.3 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "price": 1099,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 48,
+      "productUrl": "https://www.currys.co.uk/products/lg-us80tr-5.1.3-wireless-sound-bar-with-dolby-atmos-10281500.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10281500?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 11",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 580 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "Compatible with AirPlay / Chromecast / Spotify Connect"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US95TR 9.1.5 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "price": 1399,
+      "wasPrice": 1499,
+      "savings": 100,
+      "rating": 5,
+      "reviewCount": 24,
+      "productUrl": "https://www.currys.co.uk/products/lg-us95tr-9.1.5-wireless-sound-bar-with-dolby-atmos-10262748.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10262748?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 17",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 810 W",
+        "Noise-distortion cancelling technology",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar",
+      "brand": "SAMSUNG",
+      "price": 99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 36,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10282182?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/samsung-hwb400fxu-2.0-allinone-sound-bar-10282182.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Number of speakers: 4",
+        "Built-in subwoofer",
+        "Audio power: 40 W",
+        "HDMI / Optical"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG HW-S50B/XU 3.0 All-in-One Sound Bar - Dark Grey",
+      "brand": "SAMSUNG",
+      "price": 189,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 252,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10238562?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/samsung-hws50bxu-3.0-allinone-sound-bar-dark-grey-10238562.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "DTS:X",
+        "Audio power: 140 W",
+        "Adaptive / optimized audio",
+        "HDMI"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG HW-B450F/XU 2.1 Wireless Sound Bar with DTS Virtual:X",
+      "brand": "SAMSUNG",
+      "price": 219,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 5,
+      "reviewCount": 5,
+      "productUrl": "https://www.currys.co.uk/products/samsung-hwb450fxu-2.1-wireless-sound-bar-with-dts-virtualx-10282179.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10282179?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 3",
+        "DTS Virtual:X",
+        "Wireless subwoofer",
+        "Audio power: 300 W",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG HW-S60D/XU 5.0 All-in-One Sound Bar with Dolby Atmos, DTS Virtual:X & Amazon Alexa - Black",
+      "brand": "SAMSUNG",
+      "price": 389,
+      "wasPrice": 399,
+      "savings": 10,
+      "rating": 4.6,
+      "reviewCount": 197,
+      "productUrl": "https://www.currys.co.uk/products/samsung-hws60dxu-5.0-allinone-sound-bar-with-dolby-atmos-dts-virtualx-and-amazon-alexa-black-10263880.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10263880?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 7",
+        "Dolby Atmos & DTS Virtual:X",
+        "Built-in subwoofer",
+        "Audio power: 200 W",
+        "Adaptive / optimized audio",
+        "HDMI"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG HW-Q600F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos",
+      "brand": "SAMSUNG",
+      "price": 499,
+      "wasPrice": 549,
+      "savings": 50,
+      "rating": 4.9,
+      "reviewCount": 20,
+      "productUrl": "https://www.currys.co.uk/products/samsung-hwq600fxu-3.1.2-wireless-sound-bar-with-dolby-atmos-10282181.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10282181?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 9",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer",
+        "Audio power: 380 W",
+        "Adaptive / optimized audio",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG HW-Q930F/XU 9.1.4 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "SAMSUNG",
+      "price": 999,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 5,
+      "reviewCount": 14,
+      "productUrl": "https://www.currys.co.uk/products/samsung-hwq930fxu-9.1.4-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10282178.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10282178?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 17",
+        "Dolby Atmos & DTS Virtual:X",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 580 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONOS Ray Compact Sound Bar - Black",
+      "brand": "SONOS",
+      "price": 199,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 60,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10238584_black?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sonos-ray-compact-sound-bar-black-10238584.html",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 4",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "Optical",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONOS Beam (Gen 2) Compact Sound Bar with Dolby Atmos, Alexa & Google Assistant - Black",
+      "brand": "SONOS",
+      "price": 449,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 334,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10230379?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sonos-beam-gen-2-compact-sound-bar-with-dolby-atmos-alexa-and-google-assistant-black-10230379.html",
+      "badges": [
+        "Epic Deal"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "HDMI",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONOS Arc Ultra Sound Bar with Dolby Atmos & Amazon Alexa - Black",
+      "brand": "SONOS",
+      "price": 999,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 308,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10270732_black_001?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sonos-arc-ultra-sound-bar-with-dolby-atmos-and-amazon-alexa-black-10270746.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Dolby Atmos",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "HDMI",
+        "2 year guarantee"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY HT-SF150 2.0 Sound Bar",
+      "brand": "SONY",
+      "price": 129,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 548,
+      "productUrl": "https://www.currys.co.uk/products/sony-htsf150-2.0-sound-bar-10176938.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10176938?$g-small$&fmt=auto",
+      "specs": [
+        "Audio power: 120 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY HT-S20R 5.1 Sound Bar",
+      "brand": "SONY",
+      "price": 249,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 226,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10207764?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sony-hts20r-5.1-sound-bar-10207764.html",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Bluetooth",
+        "Wired subwoofer & rear speakers",
+        "Audio power: 400 W",
+        "4K pass-through",
+        "HDMI / Optical"
+      ],
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY HT-S400 2.1 Wireless Sound Bar",
+      "brand": "SONY",
+      "price": 249,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 51,
+      "productUrl": "https://www.currys.co.uk/products/sony-hts400-2.1-wireless-sound-bar-10236857.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10236857?$g-small$&fmt=auto",
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power: 330 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY HT-S40R 5.1 Sound Bar",
+      "brand": "SONY",
+      "price": 349,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 198,
+      "productUrl": "https://www.currys.co.uk/products/sony-hts40r-5.1-sound-bar-10222525.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10222525?$g-small$&fmt=auto",
+      "specs": [
+        "Wired subwoofer & rear speakers",
+        "Audio power: 600 W",
+        "4K pass-through",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY HT-S2000 3.1 All-in-One Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "SONY",
+      "price": 399,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 453,
+      "productUrl": "https://www.currys.co.uk/products/sony-hts2000-3.1-allinone-sound-bar-with-dolby-atmos-and-dts-virtualx-10250527.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10250527?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos & DTS Virtual:X",
+        "Built-in subwoofer",
+        "Audio power: 250 W",
+        "Adaptive / optimized audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY BRAVIA Theatre Bar 60 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "SONY",
+      "price": 499,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 21,
+      "productUrl": "https://www.currys.co.uk/products/sony-bravia-theatre-bar-60-3.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10282356.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10282356?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 6",
+        "Dolby Atmos & DTS Virtual:X",
+        "Wireless subwoofer",
+        "Audio power: 350 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY HT-A3000 3.1 All-in-One Sound Bar with Dolby Atmos",
+      "brand": "SONY",
+      "price": 599,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 453,
+      "productUrl": "https://www.currys.co.uk/products/sony-hta3000-3.1-allinone-sound-bar-with-dolby-atmos-10242949.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10242949?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos / DTS:X",
+        "Built-in subwoofer",
+        "Audio power: 240 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY BRAVIA Theatre Bar 8 (HT-A8000) 11.0 Sound Bar with Dolby Atmos",
+      "brand": "SONY",
+      "price": 999,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 9,
+      "productUrl": "https://www.currys.co.uk/products/sony-bravia-theatre-bar-8-11.0-sound-bar-with-dolby-atmos-10264002.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10264002?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 13",
+        "Dolby Atmos & DTS:X",
+        "Audio power: 495 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 8K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY BRAVIA Theatre Bar 9 (HT-A9000) 13.0 Sound Bar with Dolby Atmos",
+      "brand": "SONY",
+      "price": 1399,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 48,
+      "productUrl": "https://www.currys.co.uk/products/sony-bravia-theatre-bar-9-13.0-sound-bar-with-dolby-atmos-10264006.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10264006?$g-small$&fmt=auto",
+      "specs": [
+        "Number of speakers: 13",
+        "Dolby Atmos & DTS:X",
+        "Audio power: 585 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 8K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    }
+  ]
+}

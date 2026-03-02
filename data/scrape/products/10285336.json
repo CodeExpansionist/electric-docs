@@ -1,0 +1,51 @@
+{
+  "id": "10285336",
+  "title": "GROOV-E GVDP01BK Portable DVD Player - Black",
+  "brand": "GROOV-E",
+  "price": { "current": 69, "was": 79.99, "savings": 10.99 },
+  "rating": { "average": 3.5, "count": 2 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10285336?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_007?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10285336?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10285336_007?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "screen", "label": "7\" screen" },
+    { "icon": "battery", "label": "Up to 2.5 hours battery life" },
+    { "icon": "connectivity", "label": "USB / Memory card slot" },
+    { "icon": "car", "label": "Includes car charger" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Take your favourite films on the road with the Groov-e portable DVD player and its handy 7\" display. Running low on battery? Just top it up with the included car charger. Plug in your headphones if you're watching alone, or use the speakers when you've got company. The swivel screen lets you adjust the angle for a comfy view, wherever you're sitting.",
+    "goodToKnow": [
+      "Free standard delivery on orders over \u00a340"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "DVD Blu-ray"
+}

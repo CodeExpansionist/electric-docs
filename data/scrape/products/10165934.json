@@ -1,0 +1,92 @@
+{
+  "id": "10165934",
+  "title": "ONE FOR ALL SV9015 Full HD UHF Indoor TV Aerial",
+  "brand": "One For All",
+  "price": {
+    "current": 14.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 3.9,
+    "count": 54
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10165934?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10165934_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10165934_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10165934?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10165934_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10165934_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Non amplified indoor aerial" },
+    { "icon": "", "label": "Maximum signal range: 3 miles" },
+    { "icon": "", "label": "Optimised for HD digital TV & DAB radio" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 0,
+    "months": 0,
+    "totalPayable": 0,
+    "apr": ""
+  },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Batteries",
+      "title": "DURACELL Plus AA Alkaline Batteries - Pack of 8",
+      "price": 6.66,
+      "image": "https://media.currys.biz/i/currysprod/10230769?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Remote controls",
+      "title": "ONE FOR ALL Essence TV URC1211 Universal Remote Control",
+      "price": 12.99,
+      "image": "https://media.currys.biz/i/currysprod/10249289?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Spread the cost on orders £99 & over.",
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {
+    "OVERVIEW": {
+      "Type": "Indoor",
+      "Maximum signal range": "3 miles / 4.82 km",
+      "Frequency range": "UHF, VHF, FM",
+      "Suitable for": "Freeview, DVB-T, DVB-T2",
+      "Power": "Mains"
+    },
+    "FEATURES": {
+      "Signal booster": "No",
+      "Range extender": "No",
+      "Dimensions": "150 x 155 x 45 mm (H x W x D)",
+      "Weight": "0.25 kg",
+      "Manufacturer's guarantee": "1 year",
+      "Colour": "Black",
+      "Box contents": "One for All SV9015 Full HD UHF Indoor TV Aerial"
+    }
+  },
+  "description": {
+    "main": "The One for All SV9015 Full HD UHF Indoor TV Aerial is fully adjustable, which means you can tweak it to find the best reception for excellent viewing. Ready to receive Freeview with over 70 digital TV channels.",
+    "goodToKnow": [
+      "Fully adjustable aerial for clearest signal",
+      "Ready to receive Freeview with 70+ digital TV channels",
+      "Up to 3 miles reception range",
+      "Up to 15 HD channels on Freeview"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "10299090",
+  "title": "SAMSUNG Galaxy Buds4 Wireless Bluetooth Noise-Cancelling Earbuds - White",
+  "brand": "SAMSUNG",
+  "price": {
+    "current": 159,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 0
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10299090_white_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10299090_white?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299090_white_006?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "https://www.currys.co.uk/images/svg-icons/icon-sound.svg",
+      "label": "True wireless earbuds"
+    },
+    {
+      "icon": "https://www.currys.co.uk/images/svg-icons/icon-noise-cancelling.svg",
+      "label": "Active noise-cancelling"
+    },
+    {
+      "icon": "https://www.currys.co.uk/images/svg-icons/icon-battery.svg",
+      "label": "Battery life: Up to 6 hours (30 hours with case)"
+    },
+    {
+      "icon": "https://www.currys.co.uk/images/svg-icons/icon-water-resistant.svg",
+      "label": "Water & sweat resistant (IP54)"
+    }
+  ],
+  "flexpay": {
+    "monthlyAmount": 6.44,
+    "months": 36,
+    "totalPayable": 231.84,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    {
+      "plan": "Breakdown support",
+      "price": 1.5,
+      "period": "monthly"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "SAMSUNG 45w USB-C Fast Charger & USB-C Cable",
+      "price": 31.99
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "SAMSUNG 45w USB-C Fast Charger & USB-C Cable",
+      "price": 31.99,
+      "image": "https://media.currys.biz/i/currysprod/10271743?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get 30% off Samsung Galaxy Buds4 and Buds4 Pro When Bought With any new Samsung S26 mobile phone"
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Enjoy clear, balanced sound with the Galaxy Buds4. Ultra-High Quality (UHQ) audio brings you rich detail that reveals every subtle layer of your favourite tracks. Active Noise Cancellation keeps the noisy world where it belongs - outside - so you can get stuck into your playlist. The Buds4 are tuned in to more than just sound, they sense movement too.",
+    "goodToKnow": [
+      "Live Translate lets you receive real-time translations in 22 languages",
+      "Super wideband calling locks onto your voice to keep conversations crisp",
+      "The metal blade design houses responsive touch controls for volume and playback",
+      "The Galaxy Wearable app lets you customise controls, get updates and check battery levels",
+      "IP54 resistance is built to handle dust, splashes and drizzle",
+      "The charging case gives you up to 30 hours of battery life"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  }
+}

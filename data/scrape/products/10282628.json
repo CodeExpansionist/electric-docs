@@ -1,0 +1,25 @@
+{
+  "id": "10282628",
+  "title": "SAMSUNG Q8F 55\" QLED 4K Vision AI Smart TV 2025 - QE55Q8F",
+  "brand": "Samsung",
+  "price": { "current": 599, "was": 0, "savings": 0 },
+  "rating": { "average": 4.4, "count": 41 },
+  "images": {
+    "gallery": ["https://media.currys.biz/i/currysprod/10282628?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_010?$l-large$&fmt=auto"],
+    "thumbnails": ["https://media.currys.biz/i/currysprod/10282628?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282628_010?$t-thumbnail$&fmt=auto"],
+    "video": ""
+  },
+  "keySpecs": [{"icon":"screen","label":"Screen Size: 55\""},{"icon":"energy","label":"Energy Class: E"},{"icon":"hdmi","label":"HDMI 2.1 x 3"},{"icon":"4k","label":"4K Resolution"}],
+  "sizeOptions": [{"size":"55\"","selected":true,"url":"https://www.currys.co.uk/products/samsung-q8f-55-qled-4k-vision-ai-smart-tv-2025-qe55q8f-10282628.html"},{"size":"65\"","selected":false,"url":"#"}],
+  "energyRating": { "class": "E" },
+  "flexpay": {"monthlyAmount":24.27,"months":36,"totalPayable":873.72,"apr":"29.9%","buyNowPayLater":[{"months":6,"settleBy":"01 September 2026"}]},
+  "wallBracket": {"text":"Add a wall bracket","product":{"title":"SANDSTROM SELP24 Fixed 43-75\" TV Bracket","price":35.99,"savings":24,"separatePrice":59.99,"image":"https://media.currys.biz/i/currysprod/10249239?$s-swatch$&fmt=auto"}},
+  "careAndRepair": [{"plan":"Breakdown support","price":2.7,"period":"per month"}],
+  "essentialServices": [{"name":"Install TV to stand","price":45},{"name":"Installation to wall (bracket not included)","price":135},{"name":"Recycle my old TV","price":20}],
+  "crossSellProducts": [{"category":"Sound Bar","title":"SAMSUNG HW-S60D/XU 5.0 Sound Bar","price":389,"image":"https://media.currys.biz/i/currysprod/10263880?$s-swatch$&fmt=auto"},{"category":"Screen Cleaner","title":"SANDSTROM S150AVC20 Screen Cleaner","price":7.99,"image":"https://media.currys.biz/i/currysprod/10211694?$s-swatch$&fmt=auto"}],
+  "offers": ["Get 10% off marked price on this product. Just enter code TV10 at checkout."],
+  "badges": [{"type":"10% Off","image":"https://media.currys.biz/i/currysprod/bwoffmarkedpricecoresticker10percent-95818?fmt=auto"}],
+  "specifications": {},
+  "description": {"main":"Your content gets the VIP treatment with this Samsung Q8F 55\" TV. Quantum Dots transform light into lifelike, accurate colour for natural looking scenes.","goodToKnow":["AI Sound adjusts audio based on what you're watching.","Quantum HDR+ for lifelike picture quality.","Samsung Smart TV with rich selection of apps."]},
+  "deliveryInfo": {"freeDelivery":false,"standardDeliveryPrice":20,"nextDayDeliveryPrice":30}
+}

@@ -1,0 +1,105 @@
+{
+  "id": "10238584",
+  "title": "SONOS Ray Compact Sound Bar - Black",
+  "brand": "SONOS",
+  "price": {
+    "current": 199,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 60
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10238584_black_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_008?$l-large$&fmt=auto",
+      "https://flv.isitetv.com/media/video/1048/ol_video_img_url__262137_1048.jpg?m=2544&r=1048&t=1"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10238584_black?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10238584_black_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/1048/ol_video_img_url__262137_1048.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Number of speakers: 4" },
+    { "icon": "", "label": "Supports High-Resolution Audio" },
+    { "icon": "", "label": "Compatible with SONOS multi-room" },
+    { "icon": "", "label": "Optical" },
+    { "icon": "", "label": "2 year guarantee" }
+  ],
+  "energyRating": { "class": "" },
+  "flexpay": {
+    "monthlyAmount": 8.06,
+    "months": 36,
+    "totalPayable": 290.16,
+    "apr": "29.9%"
+  },
+  "wallBracket": {
+    "text": "Wall Mount",
+    "product": {
+      "title": "SONOS Ray Wall Mount",
+      "price": 0,
+      "savings": 0,
+      "image": ""
+    }
+  },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "DVD Player",
+      "title": "SONY DVPSR760HB DVD Player",
+      "price": 39,
+      "image": "https://media.currys.biz/i/currysprod/12872098?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Speaker",
+      "title": "SONOS Roam 2 Portable Wireless Multi-room Speaker with Amazon Alexa - Black",
+      "price": 179,
+      "image": "https://media.currys.biz/i/currysprod/10263677?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Cable",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "image": "https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Elevate your movie watching experience to cinematic levels with the Sonos Ray. This tiny sound bar packs a serious punch \u2013 it has 4 speakers that will fill your living room with immersive sound. It'll put your right in the middle of the action with crisp dialogue and punchy explosions.",
+    "goodToKnow": [
+      "Use Apple AirPlay 2 to stream directly from your Apple device",
+      "The Sonos Ray can sync to your TV, so you can easily control it with your TV remote",
+      "It takes just two cables to connect to your TV, and there's a handy step by step app"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  }
+}

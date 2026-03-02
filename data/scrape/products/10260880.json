@@ -1,0 +1,73 @@
+{
+  "id": "10260880",
+  "title": "TOSHIBA Fire TV 32WF2F53DB 32\" Smart HD Ready HDR LED TV with Amazon Alexa",
+  "brand": "Toshiba",
+  "price": {
+    "current": 129,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 252
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10260880?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_006?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10260880?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10260880_006?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Refresh rate: 60 Hz" },
+    { "icon": "", "label": "HDMI 2.1 x 2" },
+    { "icon": "", "label": "HDR: HDR10+ / HDR10 / Hybrid Log-Gamma (HLG)" },
+    { "icon": "", "label": "Freeview HD with Freeview Play" },
+    { "icon": "", "label": "2 year guarantee" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 7.21,
+    "months": 24,
+    "totalPayable": 172.95,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Forget endless scrolling, Fire TV on this Toshiba LED TV brings your recommendations, favourites, and currently watching together in one place. Each family member can have their own profile, so you can keep your shows separate from your kid's favourites. You'll really see the difference when watching HDR content - it displays a wider range of colours with enhanced contrast. And you can enjoy darker blacks and brighter whites across the whole screen thanks to Micro Dimming - you'll see more detail in every scene.",
+    "goodToKnow": [
+      "Tru Resolution upscales older content into HD, so those classic movies will look better than ever.",
+      "Control your TV using just your voice \u2013 just use the Alexa voice remote.",
+      "Freeview Play makes it easy to catch up on episodes you've missed from the past week \u2013 all on demand and in one place."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "energyRating": "E"
+}

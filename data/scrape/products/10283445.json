@@ -1,0 +1,85 @@
+{
+  "id": "10283445",
+  "title": "PHILIPS Ambilight 55PUS8500/05 55\" Smart 4K Ultra HD HDR QLED TV",
+  "brand": "Philips",
+  "price": {
+    "current": 419,
+    "was": 489,
+    "savings": 70
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 346
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10283445?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_010?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_011?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10283445?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_010?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283445_011?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "screen-size", "label": "Screen size: 55\"" },
+    { "icon": "resolution", "label": "Resolution: 4K Ultra HD 3840 x 2160p" },
+    { "icon": "hdr", "label": "HDR: HDR10+" },
+    { "icon": "audio", "label": "Audio power: 20 W" },
+    { "icon": "refresh-rate", "label": "Refresh rate: 60 Hz" },
+    { "icon": "audio", "label": "Dolby Atmos" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 17.76,
+    "months": 36,
+    "totalPayable": 639.51,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 5.03, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": ["Dolby Atmos", "Freely TV"],
+  "specifications": {},
+  "description": {
+    "main": "This Philips Ambilight 55\u201d TV splashes your walls with colour for super immersive entertainment. LED lights on the back of the TV dance along to whatever's showing, stretching the action beyond the frame. The Pixel Precise Ultra HD engine works tirelessly to boost the sharpness, motion, and vibrancy of every scene. Plus, TITAN OS gives you recommendations on the hottest action and drama, so it's easy to find TV shows and movies. It brings you all the good stuff without any fuss.",
+    "goodToKnow": [
+      "Dolby Atmos and DTS:X bring a 3D sound experience.",
+      "Freely brings you live TV channels and on-demand content over WiFi.",
+      "It plays nicely with other Matter devices for a seamless smart home experience.",
+      "HDR10+ boosts colour and contrast."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99
+  },
+  "category": "TVs",
+  "energyRating": "F"
+}

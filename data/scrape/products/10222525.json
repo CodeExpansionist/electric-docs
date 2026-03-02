@@ -1,0 +1,80 @@
+{
+  "id": "10222525",
+  "title": "SONY HT-S40R 5.1 Sound Bar",
+  "brand": "Sony",
+  "price": {
+    "current": 349,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 198
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10222525?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_009?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10222525?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10222525_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Wired subwoofer & rear speakers" },
+    { "icon": "", "label": "Audio power: 600 W" },
+    { "icon": "", "label": "4K pass-through" },
+    { "icon": "", "label": "HDMI / Optical" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 14.14,
+    "months": 36,
+    "totalPayable": 509.04,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 4.19, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Upgrade your TV sound with the Sony HT-S40R 5.1 Sound Bar. This Wireless Sound System features a subwoofer that adds tension with crystal clear low frequency sound. The HT-S40R also includes two rear speakers to deliver a dynamic three-dimensional audio experience that transforms films, TV and music. They use a wireless receiver so that you don't have cables going through the middle of your room. The Sony HT-S40R isn't just a great home cinema setup, it's also a great sound system for your music. Simply connect your phone or any other device using Bluetooth in a 10-metre range to play your music wirelessly. And if you prefer cabled connection, use the audio cable or connect your flash drive in the USB slot. Whatever you watch or listen to, the Sony HT-S40R 5.1 Sound Bar delivers the perfect sound balance. With preset modes including Cinema, Music, and even Voice to make dialogue clearer you can hear the finer details in that stirring movie score or concept album.",
+    "goodToKnow": [
+      "Wired subwoofer & rear speakers",
+      "Audio power: 600 W",
+      "4K pass-through",
+      "HDMI / Optical",
+      "Free standard delivery on orders over £40"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 0,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars"
+}

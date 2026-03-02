@@ -1,0 +1,88 @@
+{
+  "id": "10282706",
+  "title": "SAMSUNG S90F 65\" OLED 4K Vision AI Smart TV 2025 - QE65S90F",
+  "brand": "Samsung",
+  "price": { "current": 1599, "was": 0, "savings": 0 },
+  "rating": { "average": 4.8, "count": 126 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10282706?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_000?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_010?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_011?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10282706?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_000?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282706_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__295922_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "energy", "label": "Energy Efficiency: F" },
+    { "icon": "screen", "label": "Screen Size: 65 inches" },
+    { "icon": "resolution", "label": "Resolution: 4K" },
+    { "icon": "hdr", "label": "HDR: Yes" }
+  ],
+  "sizeOptions": [
+    { "size": "65\"", "selected": true, "url": "/products/samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html" },
+    { "size": "42\"", "selected": false, "url": "/products/samsung-s90f-42-led-4k-vision-ai-smart-tv-2025-qe42s90f-10282704.html" },
+    { "size": "55\"", "selected": false, "url": "/products/samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html" }
+  ],
+  "energyRating": { "class": "F" },
+  "flexpay": {
+    "monthlyAmount": 64.8,
+    "months": 36,
+    "totalPayable": 2332.8,
+    "apr": "29.9%",
+    "buyNowPayLater": [{ "months": 12, "settleBy": "01 March 2027" }]
+  },
+  "wallBracket": {
+    "text": "Add a wall bracket for £35.99, save £24.00",
+    "product": {
+      "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 35.99,
+      "savings": 24,
+      "separatePrice": 59.99,
+      "image": "https://media.currys.biz/i/currysprod/10249239?$s-swatch$&fmt=auto"
+    }
+  },
+  "careAndRepair": [{ "plan": "Get breakdown support", "price": 5.4, "period": "per month" }],
+  "essentialServices": [
+    { "name": "Install TV to stand", "price": 45 },
+    { "name": "Install TV to wall (bracket not included)", "price": 135 },
+    { "name": "Recycle my old TV", "price": 20 }
+  ],
+  "crossSellProducts": [
+    { "category": "Cleaning Products", "title": "SANDSTROM S150AVC20 Screen Cleaner", "price": 7.99, "image": "https://media.currys.biz/i/currysprod/10211694?$n-medium$&fmt=auto" }
+  ],
+  "offers": ["Get £150 off this TV when you trade-in any old TV. Use TRADETV150 and select Recycling at checkout."],
+  "badges": [
+    { "type": "Loved by Currys", "image": "https://media.currys.biz/i/currysprod/loved_by_currys-68562.jpg" },
+    { "type": "Award: Trusted Reviews Recommended", "image": "https://media.currys.biz/i/currysprod/trusted_reviews_badge_recommended-55868.jpg" }
+  ],
+  "specifications": {},
+  "description": {
+    "main": "The OLED display on this Samsung S90F 65\" TV brings a bit of cinema magic to your living room. Because the pixels are self-lit, the TV can accurately control the shadows and highlights. Everything looks much more real with deep blacks and billions of colours that burst from the screen.",
+    "goodToKnow": [
+      "Dolby Atmos uses the TV's speakers to create an immersive surround sound effect",
+      "AI Motion Enhancer Pro turns fast-action blur into super smooth movement",
+      "With its LaserSlim design and almost no bezel, this TV looks great from every angle.",
+      "Sound is more realistic with Object Tracking Sound"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 20, "nextDayDeliveryPrice": 30 }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "10238558",
+  "title": "SENNHEISER Momentum 4 Wireless Bluetooth Noise-Cancelling Headphones - Black",
+  "brand": "SENNHEISER",
+  "price": {
+    "current": 199,
+    "was": 349.99,
+    "savings": 150.99
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 28
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10242518_black_100?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10242518_black?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10242518_black_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10242518_black_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10242518_black_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10242518_black_100?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10242518_black?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10242518_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10242518_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10242518_black_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "headphones", "label": "Over-ear headphones" },
+    { "icon": "noise-cancelling", "label": "Adjustable active noise-cancelling" },
+    { "icon": "battery", "label": "Battery life: Up to 60 hours" },
+    { "icon": "auto-pause", "label": "Auto-pause & auto-play function" },
+    { "icon": "controls", "label": "Microphone / volume / playback & functions control" },
+    { "icon": "guarantee", "label": "2 year guarantee" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 8.06,
+    "months": 36,
+    "totalPayable": 290.16,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 2.99, "period": "per month", "mostPopular": true },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Brand": "SENNHEISER",
+      "Colour": "Black",
+      "Type": "Over-ear headphones",
+      "Foldable": "Yes"
+    },
+    "Sound": {
+      "Driver size": "42 mm",
+      "Driver type": "Transducer system",
+      "Noise cancelling": "Adaptive noise cancellation",
+      "EQ": "Customisable EQ with presets",
+      "Sound Personalisation": "Yes"
+    },
+    "Connectivity": {
+      "Wireless": "Bluetooth",
+      "Bluetooth version": "5.2",
+      "Multipoint": "Yes",
+      "Codec support": "aptX, aptX Adaptive, AAC, SBC"
+    },
+    "Battery": {
+      "Battery life": "Up to 60 hours",
+      "Battery life (with ANC)": "Up to 60 hours",
+      "Quick charge": "6 hours from 10 minutes"
+    },
+    "Features": {
+      "Smart Pause": "Auto-pause when removed, auto-play when worn",
+      "Transparency Mode": "Yes",
+      "Built-in microphone": "Yes"
+    }
+  },
+  "description": {
+    "main": "There's something special about falling in love with an album for the first time. Well, get ready to do it all over again with the Sennheiser Momentum 4 Headphones. Songs have a renewed vibrancy and energy thanks to Sennheiser's Signature Sound with 42 mm transducer system for maximised dynamics and clarity. Looking for tighter mids or thumping bass? Customise your experience using the built-in EQ, presets, sound modes, and Sound Personalisation feature which tailors the audio to your individual hearing. Adaptive Noise Cancellation automatically adapts the sound to your surroundings, so the conversation across the aisle won't distract you from your ultimate 80s playlist. And the cherry on top? Up to 60 hours of battery life (even with ANC switched on) that won't have you reaching for your charger every night.",
+    "goodToKnow": [
+      "Switch on Transparency Mode to let the outside world in and listen out for your train announcement",
+      "Made for comfort with a lightweight design, padded headband, and deep, yet soft cushioned earpads",
+      "Fast charging will give you up to 6 hours of battery in just 10 minutes - perfect when you're in a rush",
+      "Smart Pause halts playback when you take them off - and automatically resumes when you put them back on"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Headphones",
+  "_scrapeMeta": {
+    "scrapedUrl": "https://www.currys.co.uk/products/sennheiser-momentum-4-wireless-bluetooth-noisecancelling-headphones-black-10242526.html",
+    "currysLiveProductId": "10242526",
+    "note": "Original URL (10238558) redirected to gaming laptops category. Scraped from live product page 10242526. Gallery images use M10242518_black IDs from live page.",
+    "scrapedAt": "2026-03-02"
+  }
+}

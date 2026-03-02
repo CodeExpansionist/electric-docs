@@ -1,0 +1,25 @@
+{
+  "id": "10282666",
+  "title": "SAMSUNG U8000F 43\" Crystal UHD 4K HDR Smart TV 2025 - UE43U8000F",
+  "brand": "Samsung",
+  "price": { "current": 259, "was": 0, "savings": 0 },
+  "rating": { "average": 4.8, "count": 701 },
+  "images": {
+    "gallery": ["https://media.currys.biz/i/currysprod/10282666?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_010?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_009?$l-large$&fmt=auto"],
+    "thumbnails": ["https://media.currys.biz/i/currysprod/10282666?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282666_009?$t-thumbnail$&fmt=auto"],
+    "video": "https://flv.isitetv.com/media/video/3256/ol_video_img_url__295439_3256.jpg?m=3256&r=1048&t=1"
+  },
+  "keySpecs": [{"icon":"hdmi","label":"HDMI 1.4 x 3"},{"icon":"refresh","label":"Refresh rate: 60 Hz"},{"icon":"hdr","label":"HDR10+ / HDR10 / Hybrid Log-Gamma (HLG)"}],
+  "sizeOptions": [{"size":"43\"","selected":true,"url":"https://www.currys.co.uk/products/samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html"},{"size":"50\"","selected":false,"url":"https://www.currys.co.uk/products/samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html"},{"size":"55\"","selected":false,"url":"https://www.currys.co.uk/products/samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html"},{"size":"65\"","selected":false,"url":"https://www.currys.co.uk/products/samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html"},{"size":"75\"","selected":false,"url":"#"},{"size":"85\"","selected":false,"url":"#"}],
+  "energyRating": { "class": "G" },
+  "flexpay": {"monthlyAmount":10.49,"months":36,"totalPayable":377.64,"apr":"29.9%","buyNowPayLater":[{"months":6,"settleBy":"01 September 2026"}]},
+  "wallBracket": {"text":"Add a wall bracket","product":{"title":"SANDSTROM STM19 Tilt 32-47\" TV Bracket","price":23.99,"savings":56,"separatePrice":39.99,"image":"https://media.currys.biz/i/currysprod/10187493?$s-swatch$&fmt=auto"}},
+  "careAndRepair": [{"plan":"Care & Repair","price":3.38,"period":"mo"}],
+  "essentialServices": [{"name":"Breakdown support","price":3.38}],
+  "crossSellProducts": [{"category":"Soundbar","title":"SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar","price":99,"image":"https://media.currys.biz/i/currysprod/10282182?$s-swatch$&fmt=auto"}],
+  "offers": ["Save 20% on selected TV Accessories when bought with this TV. Use code SAVE20TVACCS."],
+  "badges": [],
+  "specifications": {},
+  "description": {"main":"You'll love how good movies and shows look on the Samsung U8000F 43\" TV. The Crystal Processor 4K is hard at work in the background boosting the picture and sound of everything you watch in real-time.","goodToKnow":["Samsung Account required to access network-based smart services and apps."]},
+  "deliveryInfo": {"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":5.99}
+}

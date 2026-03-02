@@ -1,0 +1,48 @@
+{
+  "id": "10191412",
+  "title": "PANASONIC SC-UX100E-K Bluetooth Megasound Party Hi-Fi System - Black",
+  "brand": "Panasonic",
+  "price": { "current": 129, "was": 0, "savings": 0 },
+  "rating": { "average": 4.7, "count": 329 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10191412?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10191412_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10191412_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10191412_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10191412?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10191412_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10191412_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10191412_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__268582_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "", "label": "CD player" },
+    { "icon": "", "label": "FM radio" },
+    { "icon": "", "label": "Bluetooth" },
+    { "icon": "", "label": "Output power: 300 W" },
+    { "icon": "", "label": "USB / Aux-in" }
+  ],
+  "flexpay": { "monthlyAmount": 5.22, "months": 36, "totalPayable": 187.92, "apr": "29.9%" },
+  "careAndRepair": [{ "plan": "Instant Replacement", "price": 40, "period": "3 years" }],
+  "essentialServices": [],
+  "crossSellProducts": [
+    { "category": "Headphones", "title": "JBL Tune 720BT Wireless Bluetooth Headphones - Black", "price": 38, "image": "https://media.currys.biz/i/currysprod/M10254754_black?$s-swatch$&fmt=auto" },
+    { "category": "Cables and accessories", "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m", "price": 6.99, "image": "https://media.currys.biz/i/currysprod/10234488?$s-swatch$&fmt=auto" }
+  ],
+  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Crank up your party playlist on a sound system that'll do it justice, with the Panasonic SC-UX100E-K Bluetooth Megasound Party Hi-Fi System. Packed with 300 W of power, you'll hear everything from the catchy bassline to the crisp percussion crystal clear and distortion free.",
+    "goodToKnow": [
+      "Manage your music wirelessly with Bluetooth and MAX Juke app",
+      "Local Preset Equalizer lets you match the sound to what you're listening to",
+      "D.Bass Beat adds depth to your party tracks"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+}

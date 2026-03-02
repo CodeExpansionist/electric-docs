@@ -1,0 +1,114 @@
+{
+  "id": "10270517",
+  "title": "Apple AirPods 4 - White",
+  "brand": "Apple",
+  "price": {
+    "current": 119,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 749
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10270517?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_007?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10270517?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10270517_007?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-pound.svg",
+      "label": "True wireless earbuds"
+    },
+    {
+      "icon": "",
+      "label": "Battery life: Up to 5 hours (30 hours with case)"
+    },
+    {
+      "icon": "",
+      "label": "Water & sweat resistant (IP54)"
+    },
+    {
+      "icon": "",
+      "label": "Quick charging"
+    },
+    {
+      "icon": "",
+      "label": "Microphone / playback & functions control"
+    }
+  ],
+  "flexpay": {
+    "monthlyAmount": 4.82,
+    "months": 36,
+    "totalPayable": 173.52,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement",
+      "price": 35,
+      "period": "3 years"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Apple Music",
+      "price": 0
+    },
+    {
+      "name": "Apple Fitness+",
+      "price": 0
+    },
+    {
+      "name": "Apple Arcade",
+      "price": 0
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "APPLE Lightning to USB cable - 1 m",
+      "price": 19,
+      "image": "https://media.currys.biz/i/currysprod/10182600?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Save with Flexpay options available.",
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The Apple AirPods 4 bring you a totally transformed audio experience. Voice Isolation makes sure you're heard loud and clear in noisy places. With Siri Interactions, you can respond by simply nodding your head for yes and shaking your head for no. Personalised Spatial Audio with dynamic head tracking places sound all around you and creates a 3D listening experience. And an updated fit means they're comfy from AM to PM.",
+    "goodToKnow": [
+      "REBUILT FOR COMFORT — AirPods 4 have been redesigned for exceptional all-day comfort and greater stability.",
+      "PERSONALISED SPATIAL AUDIO — Personalised Spatial Audio with dynamic head tracking places sound all around you, creating a cinema-like listening experience.",
+      "IMPROVED SOUND AND CALL QUALITY — AirPods 4 feature the Apple-designed H2 chip. Voice Isolation improves the quality of phone calls in loud conditions.",
+      "MAGICAL EXPERIENCE — With Siri Interactions, now you can respond to Siri by simply nodding your head yes or shaking your head no."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  }
+}

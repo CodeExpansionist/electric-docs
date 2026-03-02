@@ -1,0 +1,84 @@
+{
+  "id": "10282138",
+  "title": "LG NANO81A 75\" NanoCell AI 4K HDR Smart TV 2025 - 75NANO81A6A",
+  "brand": "LG",
+  "price": {
+    "current": 729,
+    "was": 799,
+    "savings": 70
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 5
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10282138?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10282138?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282138_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Intelligent a7 AI processor with AI Super Upscaling" },
+    { "icon": "", "label": "Filmmaker Mode for a stunning movie viewing experience" },
+    { "icon": "", "label": "Refresh rate: 60 Hz" },
+    { "icon": "", "label": "HDMI 2.0 x 3" },
+    { "icon": "", "label": "LG's webOS gives you easy access to all your must-have apps" },
+    { "icon": "", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 26.21,
+    "months": 48,
+    "totalPayable": 1257.89,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 8.75, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 65, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": ["Loved by Currys", "Freesat"],
+  "specifications": {},
+  "description": {
+    "main": "You'll love how good everything looks on the LG NANO81A 75\" TV. NanoCell technology makes colours pop - and they're not just vibrant, they're true-to-life. All delivered in sharp 4K Ultra HD resolution. The a7 AI Processor is the brain of the TV. It's hard at work in the background, intelligently boosting the picture and sound of everything you watch.",
+    "goodToKnow": [
+      "Enjoy apps like Netflix, Disney+, NOW and Apple TV on LG's webOS smart platform",
+      "Filmmaker Mode turns off any picture processing that can make movies look unnatural",
+      "AI Sound Pro transforms 2-channel audio into cinematic virtual 9.1.2 surround sound",
+      "WOW Orchestra makes this TV and a compatible LG soundbar work together for amazing audio"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "energyRating": "F"
+}

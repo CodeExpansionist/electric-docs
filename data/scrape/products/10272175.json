@@ -1,0 +1,80 @@
+{
+  "id": "10272175",
+  "title": "TOSHIBA Fire TV 50UF3F53DB 50\" Smart 4K Ultra HD HDR LED TV with Amazon Alexa",
+  "brand": "Toshiba",
+  "price": {
+    "current": 249,
+    "was": 299,
+    "savings": 50
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 329
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10272175?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_006?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10272175?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10272175_006?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Refresh rate: 60 Hz" },
+    { "icon": "", "label": "HDMI 2.1 x 3" },
+    { "icon": "", "label": "Enjoy apps / Alexa skills / channels with Fire TV" },
+    { "icon": "", "label": "HDR: Dolby Vision / HDR10 / Hybrid Log-Gamma (HLG)" },
+    { "icon": "", "label": "Freeview HD with Freeview Play" },
+    { "icon": "", "label": "2 year guarantee" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 10.56,
+    "months": 36,
+    "totalPayable": 380.05,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 2.99, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [
+    { "type": "deal", "label": "Save \u00a350" }
+  ],
+  "specifications": {},
+  "description": {
+    "main": "Forget endless scrolling. Fire TV on this Toshiba LED TV brings your recommendations, favourites, and currently watching together in one place. Each family member can have their own profile, so you can keep your shows separate from your kid's favourites. You'll really see the difference when watching Dolby Vision and HDR10 content - it displays a wider range of colours with increased contrast. And you can enjoy darker blacks and brighter whites across the whole screen thanks to TRU Micro Dimming - you'll see more detail in every scene.",
+    "goodToKnow": [
+      "To make the most of those film scores, Dolby Atmos creates a room-filling 3D surround sound effect",
+      "Even non-Atmos content sounds great on the Onkyo speakers",
+      "Tru Resolution upscales older content into HD, so those classic movies will look better than ever",
+      "TRU Flow makes it easier to keep up with the action when watching sports or fast-moving scenes",
+      "Use the Alexa voice remote to search on your TV or control your smart home",
+      "Freeview Play makes it easy to catch up on episodes you've missed from the past week."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "energyRating": "E"
+}

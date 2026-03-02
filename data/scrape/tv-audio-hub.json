@@ -1,0 +1,530 @@
+{
+  "breadcrumbs": [
+    "Home",
+    "TV & Audio"
+  ],
+  "pageTitle": "TV & Audio",
+  "subcategoryIcons": [
+    {
+      "name": "Televisions",
+      "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs",
+      "iconUrl": "https://media.currys.biz/i/currysprod/top-cat-tvs-all-new?fmt=auto&$q-large$"
+    },
+    {
+      "name": "DVD, Blu-ray & home cinema",
+      "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema",
+      "iconUrl": "https://media.currys.biz/i/currysprod/top-cat-dvd-bluray-cinema?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Soundbars",
+      "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
+      "iconUrl": "https://media.currys.biz/i/currysprod/top-uni-sound-bars?fmt=auto&$q-large$"
+    },
+    {
+      "name": "HiFi & Speakers",
+      "url": "https://www.currys.co.uk/tv-and-audio/speakers-and-hi-fi-systems",
+      "iconUrl": "https://media.currys.biz/i/currysprod/top-cat-hifi-speakers?fmt=auto&$q-large$"
+    },
+    {
+      "name": "TV accessories",
+      "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories",
+      "iconUrl": "https://media.currys.biz/i/currysprod/top-cat-tv-acc?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Digital & smart TV",
+      "url": "https://www.currys.co.uk/tv-and-audio/digital-and-smart-tv",
+      "iconUrl": "https://media.currys.biz/i/currysprod/top-cat-digital-smart-tv?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Headphones",
+      "url": "https://www.currys.co.uk/tv-and-audio/headphones/headphones",
+      "iconUrl": "https://media.currys.biz/i/currysprod/top-cat-headphones?fmt=auto&$q-large$"
+    }
+  ],
+  "sidebar": {
+    "topCategories": [
+      {
+        "text": "TVs",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs"
+      },
+      {
+        "text": "Airpods",
+        "url": "https://www.currys.co.uk/tv-and-audio/headphones/headphones/airpods"
+      },
+      {
+        "text": "Headphones and earphones",
+        "url": "https://www.currys.co.uk/tv-and-audio/headphones/headphones"
+      },
+      {
+        "text": "Smart TVs",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/smart-tvs"
+      },
+      {
+        "text": "Wireless headphones",
+        "url": "https://www.currys.co.uk/tv-and-audio/headphones/headphones/wireless-and-bluetooth-headphones"
+      },
+      {
+        "text": "DAB radios",
+        "url": "https://www.currys.co.uk/tv-and-audio/radios/radios/dab-radios"
+      },
+      {
+        "text": "Soundbars",
+        "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars"
+      }
+    ],
+    "popularLinks": [
+      {
+        "text": "39\" - 45\" TVs",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/39-45"
+      },
+      {
+        "text": "55\" - 64\" TVs",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/55-64"
+      },
+      {
+        "text": "32\" - 38\" TVs",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/32-38"
+      },
+      {
+        "text": "46\" - 54\" TVs",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/46-54"
+      },
+      {
+        "text": "24\" - 31\" TVs",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/24-31"
+      },
+      {
+        "text": "Portable speakers",
+        "url": "https://www.currys.co.uk/tv-and-audio/speakers-and-hi-fi-systems/speakers/portable-bluetooth-speakers"
+      },
+      {
+        "text": "Blu-ray and DVD players",
+        "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players"
+      }
+    ],
+    "buyingGuides": [
+      {
+        "text": "TV buying guide",
+        "url": "https://www.currys.co.uk/buying-guides/tv-buying-guide.html"
+      },
+      {
+        "text": "Audio buying guide",
+        "url": "https://www.currys.co.uk/buying-guides/audio-buying-guide.html"
+      },
+      {
+        "text": "Projector buying guide",
+        "url": "https://www.currys.co.uk/buying-guides/projector-buying-guide.html"
+      }
+    ],
+    "newsAndReviews": [
+      {
+        "text": "TV advice",
+        "url": "https://www.currys.co.uk/techtalk/tv-advice"
+      },
+      {
+        "text": "Audio tips",
+        "url": "https://www.currys.co.uk/techtalk/audio"
+      }
+    ]
+  },
+  "topDeals": [
+    {
+      "title": "Shop selected LG TVs",
+      "subtitle": "Claim up to £500 cashback! T&Cs apply",
+      "url": "https://www.currys.co.uk/deals-on-tv-and-audio/lg-tvs-offers",
+      "imageUrl": "https://media.currys.biz/i/currysprod/wk40-block-LG-Cashback?fmt=auto&$q-large$",
+      "imageAlt": "LG TVs. Claim up to £500 cashback!"
+    },
+    {
+      "title": "Shop selected Samsung TVs & soundbars",
+      "subtitle": "Claim up to £1000 of Samsung tech. T&Cs apply",
+      "url": "https://www.currys.co.uk/deals-on-tv-and-audio/deals-on-selected-samsung-tvs",
+      "imageUrl": "https://media.currys.biz/i/currysprod/wk43-block-Samsung-Your-Gift-v1?fmt=auto&$q-large$",
+      "imageAlt": "Samsung TVs & soundbars."
+    },
+    {
+      "title": "Shop selected 75\"+ TVs now",
+      "subtitle": "Get free delivery. You're welcome!",
+      "url": "https://www.currys.co.uk/deals-on-tv-and-audio/free-delivery-on-selected-tvs",
+      "imageUrl": "https://media.currys.biz/i/currysprod/wk42-block-Free-Delivery-v1?fmt=auto&$q-large$",
+      "imageAlt": "Shop selected 75\"+ TVs now  Get free delivery. You're welcome!"
+    },
+    {
+      "title": "Pre-order the new Galaxy Buds4 Pro now!",
+      "subtitle": "You've got 100 days to return. T&Cs apply.",
+      "url": "https://www.currys.co.uk/deals-on-tv-and-audio/samsung-galaxy-buds4-offers",
+      "imageUrl": "",
+      "imageAlt": "Image of Samsung Galaxy Buds4 Pro with Samsung logo."
+    }
+  ],
+  "aiOnTv": {
+    "heading": "Ai on TV. The next big thing!",
+    "cards": [
+      {
+        "title": "Subtitling",
+        "description": "Mumbling movie stars? Dodgy dialogue? No worries. Ai generates spot-on subtitles in real time, meaning you'll never miss a word. Even when things drop to a hush.",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs?prefn1=searchFilter29&prefv1=2025&pmin=1000.0&pmax=30000.0",
+        "imageAlt": "A woman on a TV screen holding a microphone with subtitles displayed"
+      },
+      {
+        "title": "Ai sound",
+        "description": "Ai fine-tunes audio to bring voices to the front, and smooth out background noise. Dialogue sounds clearer, so there's no need to keep reaching for that remote.",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs?prefn1=searchFilter10&prefv1=AI%20sound%20enhancement",
+        "imageAlt": "A TV in a room with circles illustrating the sound filling the room"
+      },
+      {
+        "title": "Ai picture",
+        "description": "Scene-by-scene, frame-by-frame, Ai fine-tunes your picture. It makes everything look cinematic, with colour and details that (almost) leap out of the screen.",
+        "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs?prefn1=searchFilter6&prefv1=AI%20picture%20enhancement",
+        "imageAlt": "A lizard on a TV with half shown pixelated and half clear"
+      }
+    ]
+  },
+  "filmmakerMode": {
+    "heading": "Filmmaker Mode. Pure cinema, no filters.",
+    "description": "This is movie night done right. Filmmaker Mode turns off all the added effects, so you see the film exactly as the director meant it to be seen. Legendary film critic Mark Kermode breaks it down in this short video. If anyone knows what makes a film truly cinematic, it's him.",
+    "ctaText": "Shop now",
+    "ctaUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs?prefn1=searchFilter29&prefv1=2025&pmin=1000.0&pmax=30000.0",
+    "videoUrl": ""
+  },
+  "buyingGuidesVisual": [
+    {
+      "title": "Discover your perfect TV",
+      "description": "Switching up your TV? Tune into our buying guide & turn over to your ideal model today.",
+      "url": "https://www.currys.co.uk/buying-guides/tv-buying-guide.html",
+      "imageAlt": "TV buying guide"
+    },
+    {
+      "title": "Discover your perfect audio tech",
+      "description": "Looking to make movie night amazing? Sound out your options with our buying guide & find incredible audio now.",
+      "url": "https://www.currys.co.uk/buying-guides/audio-buying-guide.html",
+      "imageAlt": "Audio buying guide"
+    },
+    {
+      "title": "Discover your perfect projector",
+      "description": "Wanna take movie night to the next level? Look to our buying guide to find the projector right for you.",
+      "url": "https://www.currys.co.uk/buying-guides/projector-buying-guide.html",
+      "imageAlt": "Projector buying guide"
+    }
+  ],
+  "tvSizeFinder": {
+    "heading": "Find your perfect TV size",
+    "description": "Enter the distance between your sofa and your TV to find the perfect screen size for you:",
+    "sizeOptions": [
+      "24\" - 31\"",
+      "32\" - 38\"",
+      "39\" - 45\"",
+      "46\" - 54\"",
+      "55\" - 64\"",
+      "65\" - 74\"",
+      "75\" - 79\"",
+      "80\" - 84\"",
+      "85\" - 89\"",
+      "90\" or more"
+    ],
+    "assets": {
+      "tvImage": "https://static.isitetv.com/clients/currys/tv-size-finder/images/tv.png",
+      "cabinetImage": "https://static.isitetv.com/clients/currys/tv-size-finder/images/cabinet_small.png",
+      "sofaImage": "https://static.isitetv.com/clients/currys/tv-size-finder/images/sofa_small.png",
+      "rugLeft": "https://static.isitetv.com/clients/currys/tv-size-finder/images/rug-left.png",
+      "rugCenter": "https://static.isitetv.com/clients/currys/tv-size-finder/images/rug-center.png",
+      "rugRight": "https://static.isitetv.com/clients/currys/tv-size-finder/images/rug-right.png"
+    }
+  },
+  "promoBanners": [
+    {
+      "imageAlt": "Introducing the new Sky Glass Air TV",
+      "imageUrl": "https://media.currys.biz/i/currysprod/wk35-tv-sky-glass-save-25-air-desktop?fmt=auto&$q-large$",
+      "url": "https://www.currys.co.uk/brand/sky/sky-glass-air.html"
+    },
+    {
+      "imageAlt": "It pays to trade-in. Trade-in your used tech to get money off your next piece of kit. Magic.",
+      "imageUrl": "",
+      "url": "https://www.currys.co.uk/services/ways-to-pay/trade-in.html"
+    },
+    {
+      "imageAlt": "Cash for trash.",
+      "imageUrl": "",
+      "url": "https://www.currys.co.uk/store-finder"
+    },
+    {
+      "imageAlt": "Do you need TVs for your business? Check out the wide range at Currys Business",
+      "imageUrl": "",
+      "url": "https://business.currys.co.uk/catalogue/tv-entertainment/tvs/all-tvs?&from=currysb2c&utm_medium=referral=currysb2c"
+    },
+    {
+      "imageAlt": "Tech now, pay later Pay as much or as little as you like for 6 months.",
+      "imageUrl": "",
+      "url": "https://www.currys.co.uk/buy-now-pay-later/buy-now-pay-later-tvs"
+    },
+    {
+      "imageAlt": "Get your TV on your wall. Need a hand? Our expert installers will mount your TV to the wall for you.",
+      "imageUrl": "",
+      "url": "https://www.currys.co.uk/services/delivery-installation/home-installation.html"
+    },
+    {
+      "imageAlt": "Save 10% off Care & Repair on selected Large Screen TVs and Small Screen TVs.",
+      "imageUrl": "",
+      "url": "https://www.currys.co.uk/deals-on-tv-and-audio/savings-on-tvs"
+    }
+  ],
+  "brandRow": [
+    {
+      "brand": "Samsung",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/samsung",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/samsung",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/samsung/samsung.html"
+    },
+    {
+      "brand": "LG",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/lg",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/lg",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/lg/lg.html"
+    },
+    {
+      "brand": "Panasonic",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/panasonic",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/panasonic",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/panasonic/panasonic.html"
+    },
+    {
+      "brand": "Sony",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/sony",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/sony",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/sony/sony.html"
+    },
+    {
+      "brand": "Hisense",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/hisense",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/hisense",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/hisense/hisense.html"
+    },
+    {
+      "brand": "Bose",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/bose",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/bose",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/bose/bose-home.html"
+    },
+    {
+      "brand": "Philips",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/philips",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/philips",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/philips/philips-tv.html"
+    },
+    {
+      "brand": "JVC",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/jvc",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/jvc",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/jvc/jvc-televisions.html"
+    },
+    {
+      "brand": "TCL",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/tcl",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/televisions/tvs/tcl",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/tcl/tcl-homepage.html"
+    },
+    {
+      "brand": "Apple",
+      "logoUrl": "",
+      "ctaUrl": "https://www.currys.co.uk/tv-and-audio/digital-and-smart-tv/digital-and-smart-tv/apple",
+      "shopNowUrl": "https://www.currys.co.uk/tv-and-audio/digital-and-smart-tv/digital-and-smart-tv/apple",
+      "learnMoreUrl": "https://www.currys.co.uk/brand/apple/apple.html"
+    }
+  ],
+  "seoContent": {
+    "heading": "Discover our range of TV & Audio essentials",
+    "columns": [
+      {
+        "heading": "Discover our range of TV & Audio essentials",
+        "text": "Upgrade your home entertainment with our huge range of TV and audio essentials. From large screen TVs to soundbars that pump out room-filling sound, we've got the lot."
+      },
+      {
+        "heading": "The best TVs for epic entertainment",
+        "text": "You can find the ideal television for your home with a wide range of screen sizes available. Smart TVs let you explore catch-up TV and streaming services, and come with apps and games to keep the family entertained. 4K Ultra HD TVs and 8K TVs deliver incredible picture quality, bringing your home entertainment to life with immersive visuals. OLED screens offer improved colour and contrast, while Samsung QLED TVs include state of the art Quantum dot technology to create true-to-life images."
+      },
+      {
+        "heading": "Enjoy incredible audio around the home",
+        "text": "We've got the audio tech you need to boost your sound, from headphones and Hi-Fi systems to soundbars and speakers. A great TV needs sound to match, so add a soundbar to your setup and get ready for epic movie nights. With Bluetooth connectivity, you can even control them from your phone and use them as wireless speakers! Our speakers come in all shapes and sizes. Bluetooth speakers let you ditch the wires and stream your fave playlists from your phone or laptop. Browse our range of headphones to find the ones that suit you best."
+      },
+      {
+        "heading": "Improve your setup with TV accessories",
+        "text": "We've got lots of TV accessories to help you get set up, including wall brackets and TV stands. And to put you in complete control, we've also got a selection of universal remotes. Our set top boxes give you even more choice, with access to Freeview or Freesat for subscription-free entertainment, including digital channels and radio stations."
+      }
+    ]
+  },
+  "popularProducts": [
+    {
+      "name": "LG 32LQ63006LA 32\" Smart Full HD HDR LED TV",
+      "url": "https://www.currys.co.uk/products/lg-32lq63006la-32-smart-full-hd-hdr-led-tv-10235449.html",
+      "price": "169.00",
+      "rating": "4.6",
+      "reviewCount": "951",
+      "savings": null,
+      "wasPrice": null
+    },
+    {
+      "name": "LG G5 55\" OLED evo AI 4K HDR Smart TV 2025 (Stand Version) - OLED55G56LS",
+      "url": "https://www.currys.co.uk/products/lg-g5-55-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled55g56ls-10282094.html",
+      "price": "1,799.00",
+      "rating": "4.8",
+      "reviewCount": "335",
+      "savings": null,
+      "wasPrice": null
+    },
+    {
+      "name": "APPLE AirPods Pro 3 - White",
+      "url": "https://www.currys.co.uk/products/apple-airpods-pro-3-white-10291174.html",
+      "price": "219.00",
+      "rating": "4.7",
+      "reviewCount": "231",
+      "savings": null,
+      "wasPrice": null
+    },
+    {
+      "name": "SAMSUNG U8000F 65\" Crystal UHD 4K HDR Smart TV 2025 - UE65U8000F",
+      "url": "https://www.currys.co.uk/products/samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+      "price": "469.00",
+      "rating": "4.8",
+      "reviewCount": "693",
+      "savings": null,
+      "wasPrice": null
+    },
+    {
+      "name": "LG B5 77\" OLED AI 4K HDR Smart TV 2025 - OLED77B56LA",
+      "url": "https://www.currys.co.uk/products/lg-b5-77-oled-ai-4k-hdr-smart-tv-2025-oled77b56la-10281774.html",
+      "price": "1,999.99",
+      "rating": "4.8",
+      "reviewCount": "177",
+      "savings": "1,099.01",
+      "wasPrice": "3,099.00"
+    },
+    {
+      "name": "APPLE AirPods 4 - White",
+      "url": "https://www.currys.co.uk/products/apple-airpods-4-white-10270517.html",
+      "price": "119.00",
+      "rating": "4.8",
+      "reviewCount": "748",
+      "savings": null,
+      "wasPrice": null
+    },
+    {
+      "name": "SAMSUNG S90F 65\" OLED 4K Vision AI Smart TV 2025 - QE65S90F",
+      "url": "https://www.currys.co.uk/products/samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
+      "price": "1,699.00",
+      "rating": "4.8",
+      "reviewCount": "126",
+      "savings": null,
+      "wasPrice": null
+    },
+    {
+      "name": "APPLE AirPods 4 with Active Noise Cancellation - White",
+      "url": "https://www.currys.co.uk/products/apple-airpods-4-with-active-noise-cancellation-white-10270519.html",
+      "price": "169.00",
+      "rating": "4.7",
+      "reviewCount": "301",
+      "savings": null,
+      "wasPrice": null
+    },
+    {
+      "name": "JVC LT-32CR250 Roku TV 32\" Smart HD Ready HDR LED TV",
+      "url": "https://www.currys.co.uk/products/jvc-lt32cr250-roku-tv-32-smart-hd-ready-hdr-led-tv-10274389.html",
+      "price": "119.00",
+      "rating": "4.7",
+      "reviewCount": "15",
+      "savings": "20.00",
+      "wasPrice": "139.00"
+    },
+    {
+      "name": "HISENSE E7Q PRO 100\" QLED 4K HDR Smart TV with Freely - 100E7QTUK PRO",
+      "url": "https://www.currys.co.uk/products/hisense-e7q-pro-100-qled-4k-hdr-smart-tv-with-freely-100e7qtuk-pro-10284355.html",
+      "price": "1,495.00",
+      "rating": "4.8",
+      "reviewCount": "929",
+      "savings": "504.00",
+      "wasPrice": "1,999.00"
+    },
+    {
+      "name": "PHILIPS Ambilight 75PUS8500/05 75\" Smart 4K Ultra HD HDR QLED TV",
+      "url": "https://www.currys.co.uk/products/philips-ambilight-75pus850005-75-smart-4k-ultra-hd-hdr-qled-tv-10283482.html",
+      "price": "729.00",
+      "rating": "4.7",
+      "reviewCount": "345",
+      "savings": "120.00",
+      "wasPrice": "849.00"
+    },
+    {
+      "name": "TCL C7K 85\" QD-Mini LED 4K HDR Smart Google TV - 85C7K",
+      "url": "https://www.currys.co.uk/products/tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+      "price": "1,499.00",
+      "rating": "5.0",
+      "reviewCount": "1",
+      "savings": null,
+      "wasPrice": null
+    },
+    {
+      "name": "HISENSE E7Q 75\" QLED 4K Smart AI TV with Freely - 75E7QTUK",
+      "url": "https://www.currys.co.uk/products/hisense-e7q-75-qled-4k-smart-ai-tv-with-freely-75e7qtuk-10284235.html",
+      "price": "649.00",
+      "rating": "4.8",
+      "reviewCount": "26",
+      "savings": "100.00",
+      "wasPrice": "749.00"
+    },
+    {
+      "name": "LG QNED70 65\" QNED AI 4K HDR Smart TV 2025 - 65QNED70A6A",
+      "url": "https://www.currys.co.uk/products/lg-qned70-65-qned-ai-4k-hdr-smart-tv-2025-65qned70a6a-10291881.html",
+      "price": "599.00",
+      "rating": "4.8",
+      "reviewCount": "65",
+      "savings": "100.00",
+      "wasPrice": "699.00"
+    },
+    {
+      "name": "TCL SF560 43\" QLED Full HD Smart Fire TV - 43SF560-UK",
+      "url": "https://www.currys.co.uk/products/tcl-sf560-43%E2%80%9D-qled-full-hd-smart-fire-tv-43sf560uk-10289019.html",
+      "price": "175.00",
+      "rating": "4.4",
+      "reviewCount": "36",
+      "savings": "4.00",
+      "wasPrice": "179.00"
+    },
+    {
+      "name": "TOSHIBA Fire TV 40LF2F53DB 40\" Smart Full HD HDR LED TV with Amazon Alexa",
+      "url": "https://www.currys.co.uk/products/toshiba-fire-tv-40lf2f53db-40-smart-full-hd-hdr-led-tv-with-amazon-alexa-10273755.html",
+      "price": "169.00",
+      "rating": "4.5",
+      "reviewCount": "86",
+      "savings": null,
+      "wasPrice": null
+    },
+    {
+      "name": "LG C5 48\" OLED evo AI 4K HDR Smart TV 2025 - OLED48C54LA",
+      "url": "https://www.currys.co.uk/products/lg-c5-48-oled-evo-ai-4k-hdr-smart-tv-2025-oled48c54la-10281782.html",
+      "price": "999.00",
+      "rating": "4.8",
+      "reviewCount": "528",
+      "savings": "200.00",
+      "wasPrice": "1,199.00"
+    },
+    {
+      "name": "SAMSUNG S85F 55\" OLED 4K Vision AI Smart TV 2025 - QE55S85F",
+      "url": "https://www.currys.co.uk/products/samsung-s85f-55-oled-4k-vision-ai-smart-tv-2025-qe55s85f-10283612.html",
+      "price": "999.00",
+      "rating": "4.9",
+      "reviewCount": "51",
+      "savings": null,
+      "wasPrice": null
+    }
+  ],
+  "newsCards": [],
+  "footer": "same as homepage"
+}

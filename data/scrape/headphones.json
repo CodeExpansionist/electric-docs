@@ -1,0 +1,1087 @@
+{
+  "sourceUrl": "https://www.currys.co.uk/tv-and-audio/headphones/headphones",
+  "scrapedAt": "2026-03-01",
+  "pageType": "categoryListing",
+  "categoryName": "Headphones",
+  "categorySlug": "headphones",
+  "breadcrumbs": [
+    "Home",
+    "TV & Audio",
+    "Headphones",
+    "Headphones"
+  ],
+  "metaTitle": "Headphones and earphones - Cheap headphone deals | Currys",
+  "metaDescription": "Take advantage of cheap deals on headphones and earphones here at Currys. Available online for delivery or order & collect.",
+  "totalProducts": 29,
+  "filters": [
+    {
+      "name": "Delivery & Collection",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Delivery available",
+          "count": 588
+        },
+        {
+          "label": "Collect from store",
+          "count": 261
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "True wireless earbuds",
+          "count": 285
+        },
+        {
+          "label": "Over-ear headphones",
+          "count": 198
+        },
+        {
+          "label": "On-ear headphones",
+          "count": 72
+        },
+        {
+          "label": "In-ear headphones",
+          "count": 118
+        },
+        {
+          "label": "Sports headphones",
+          "count": 85
+        },
+        {
+          "label": "Kids headphones",
+          "count": 52
+        },
+        {
+          "label": "Gaming headsets",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "name": "By Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 336
+        },
+        {
+          "label": "£40 to £59.99",
+          "count": 132
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 129
+        },
+        {
+          "label": "£100 to £499",
+          "count": 232
+        },
+        {
+          "label": "£500 to £999",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "By Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "SONY",
+          "count": 64
+        },
+        {
+          "label": "FRESH N REBEL",
+          "count": 54
+        },
+        {
+          "label": "JVC",
+          "count": 54
+        },
+        {
+          "label": "JBL",
+          "count": 44
+        },
+        {
+          "label": "JLAB",
+          "count": 32
+        },
+        {
+          "label": "STREETZ",
+          "count": 31
+        },
+        {
+          "label": "SOUNDCORE",
+          "count": 28
+        },
+        {
+          "label": "BOSE",
+          "count": 26
+        },
+        {
+          "label": "HAPPY PLUGS",
+          "count": 26
+        },
+        {
+          "label": "BEATS",
+          "count": 24
+        },
+        {
+          "label": "BELKIN",
+          "count": 24
+        },
+        {
+          "label": "GROOV-E",
+          "count": 24
+        },
+        {
+          "label": "NOTHING",
+          "count": 20
+        },
+        {
+          "label": "SKULLCANDY",
+          "count": 19
+        },
+        {
+          "label": "HOUSE OF MARLEY",
+          "count": 17
+        },
+        {
+          "label": "LEXIBOOK",
+          "count": 17
+        },
+        {
+          "label": "HUAWEI",
+          "count": 15
+        },
+        {
+          "label": "1MORE",
+          "count": 14
+        },
+        {
+          "label": "KEYBUDZ",
+          "count": 14
+        },
+        {
+          "label": "GOJI",
+          "count": 13
+        },
+        {
+          "label": "SENNHEISER",
+          "count": 13
+        },
+        {
+          "label": "SHOKZ",
+          "count": 13
+        },
+        {
+          "label": "VQ",
+          "count": 13
+        },
+        {
+          "label": "NOISE",
+          "count": 12
+        },
+        {
+          "label": "APPLE",
+          "count": 11
+        },
+        {
+          "label": "ALTEC LANSING",
+          "count": 10
+        },
+        {
+          "label": "BEYERDYNAMIC",
+          "count": 9
+        },
+        {
+          "label": "CANYON",
+          "count": 9
+        },
+        {
+          "label": "FINAL AUDIO",
+          "count": 9
+        },
+        {
+          "label": "SOUNDMAGIC",
+          "count": 9
+        },
+        {
+          "label": "AIAIAI",
+          "count": 8
+        },
+        {
+          "label": "AUSOUNDS",
+          "count": 8
+        },
+        {
+          "label": "GOOGLE",
+          "count": 8
+        },
+        {
+          "label": "LAZERBUILT",
+          "count": 8
+        },
+        {
+          "label": "SAMSUNG",
+          "count": 8
+        },
+        {
+          "label": "STORYPHONES",
+          "count": 8
+        },
+        {
+          "label": "DAEWOO",
+          "count": 7
+        },
+        {
+          "label": "DYSON",
+          "count": 7
+        },
+        {
+          "label": "HAMA",
+          "count": 7
+        },
+        {
+          "label": "JLAB AUDIO",
+          "count": 7
+        },
+        {
+          "label": "OUR PURE PLANET",
+          "count": 7
+        },
+        {
+          "label": "MARSHALL",
+          "count": 6
+        },
+        {
+          "label": "PIONEER DJ",
+          "count": 6
+        },
+        {
+          "label": "JUICE",
+          "count": 5
+        },
+        {
+          "label": "TONIES",
+          "count": 5
+        },
+        {
+          "label": "AKG",
+          "count": 4
+        },
+        {
+          "label": "BOWERS & WILKINS",
+          "count": 4
+        },
+        {
+          "label": "FAIRPHONE",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": false,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5.0 out of 5 stars",
+          "count": 42
+        },
+        {
+          "label": "4.0 out of 5 stars & up",
+          "count": 520
+        },
+        {
+          "label": "3.0 out of 5 stars & up",
+          "count": 625
+        }
+      ]
+    },
+    {
+      "name": "Noise Cancellation",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Active noise cancelling",
+          "count": 248
+        },
+        {
+          "label": "Passive noise isolation",
+          "count": 185
+        },
+        {
+          "label": "Transparency mode",
+          "count": 142
+        }
+      ]
+    },
+    {
+      "name": "Battery Life",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Up to 10 hours",
+          "count": 195
+        },
+        {
+          "label": "10 to 20 hours",
+          "count": 168
+        },
+        {
+          "label": "20 to 30 hours",
+          "count": 142
+        },
+        {
+          "label": "30+ hours",
+          "count": 98
+        }
+      ]
+    },
+    {
+      "name": "Connectivity",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Bluetooth",
+          "count": 685
+        },
+        {
+          "label": "Wired (3.5mm)",
+          "count": 125
+        },
+        {
+          "label": "USB-C",
+          "count": 42
+        },
+        {
+          "label": "Multipoint",
+          "count": 168
+        }
+      ]
+    },
+    {
+      "name": "Water Resistance",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "IPX4",
+          "count": 85
+        },
+        {
+          "label": "IPX5",
+          "count": 62
+        },
+        {
+          "label": "IP54",
+          "count": 48
+        },
+        {
+          "label": "IP55",
+          "count": 38
+        },
+        {
+          "label": "IP57",
+          "count": 22
+        },
+        {
+          "label": "IP67",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "name": "Availability",
+      "isExpanded": false,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Hide out of stock",
+          "count": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "APPLE EarPods with Lightning Connector - White",
+      "brand": "APPLE",
+      "price": 19,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 505,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10152976?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "In-ear headphones",
+        "Microphone / remote / volume control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/apple-earpods-with-lightning-connector-white-10152976.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "APPLE AirPods 4 - White",
+      "brand": "APPLE",
+      "price": 119,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 749,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10270517?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "True wireless earbuds",
+        "Battery life: Up to 5 hours (30 hours with case)",
+        "Water & sweat resistant (IP54)",
+        "Quick charging",
+        "Microphone / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/apple-airpods-4-white-10270517.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "APPLE AirPods 4 with Active Noise Cancellation - White",
+      "brand": "APPLE",
+      "price": 169,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 302,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10270519?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "True wireless earbuds",
+        "Adjustable active noise-cancelling",
+        "Battery life: Up to 4 hours (20 hours with case)",
+        "Water & sweat resistant (IP54)",
+        "Qi wireless charging compatible",
+        "Microphone / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/apple-airpods-4-with-active-noise-cancellation-white-10270519.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "APPLE AirPods Pro 3 - White",
+      "brand": "APPLE",
+      "price": 219,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 233,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10291174?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "True wireless earbuds",
+        "Adjustable active noise-cancelling",
+        "Battery life: Up to 8 hours",
+        "Water & sweat resistant (IP57)",
+        "Qi wireless charging compatible",
+        "Quick charging",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/apple-airpods-pro-3-white-10291174.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "APPLE AirPods Max Wireless Bluetooth Noise-Cancelling Headphones - Midnight",
+      "brand": "APPLE",
+      "price": 499,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 47,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10270520_graphite?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling",
+        "Battery life: Up to 20 hours",
+        "Auto-pause & auto-play function",
+        "Quick charging"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/apple-airpods-max-wireless-bluetooth-noisecancelling-headphones-midnight-10270525.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BEATS Studio Buds + Wireless Bluetooth Noise-Cancelling Earbuds - White",
+      "brand": "BEATS",
+      "price": 109,
+      "wasPrice": 179,
+      "savings": 70,
+      "rating": 4.4,
+      "reviewCount": 320,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10250130_white_011?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "True wireless earbuds",
+        "Active noise-cancelling with quick attention mode",
+        "Battery life: Up to 6 hours (24 hours with case)",
+        "Water & sweat resistant (IPX4)",
+        "Bluetooth multipoint for switching between devices",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/beats-studio-buds-wireless-bluetooth-noisecancelling-earbuds-white-10250130.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BEATS Solo 4 Wireless Bluetooth Headphones - Matte Black",
+      "brand": "BEATS",
+      "price": 129,
+      "wasPrice": 199.99,
+      "savings": 70.99,
+      "rating": 4.7,
+      "reviewCount": 342,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10263470_black?$g-small$&fmt=auto",
+      "badges": [
+        "Epic Deal"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "On-ear headphones",
+        "Battery life: Up to 50 hours",
+        "Spatial audio",
+        "USB-C & 3.5mm",
+        "Fast charging"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/beats-solo-4-wireless-bluetooth-headphones-matte-black-10259822.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "Beats Solo 4 Wireless Bluetooth Headphones - Black",
+      "brand": "BEATS",
+      "price": 129,
+      "wasPrice": 199,
+      "savings": 70,
+      "rating": 4.7,
+      "reviewCount": 110,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10263470_black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "On-ear headphones",
+        "Passive noise-isolating",
+        "Battery life: Up to 50 hours",
+        "Foldable",
+        "Quick charging",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/beats-solo-4-wireless-bluetooth-headphones-black-10263470.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BEATS Studio Pro Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "brand": "BEATS",
+      "price": 199,
+      "wasPrice": 349,
+      "savings": 150,
+      "rating": 4.9,
+      "reviewCount": 198,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10251946_black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling",
+        "Battery life: Up to 24 hours",
+        "Quick setup with Google Fast Pair",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/beats-studio-pro-wireless-bluetooth-noisecancelling-headphones-black-10251946.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BEATS Studio Pro Wireless Bluetooth Noise-Cancelling Headphones - Sandstone",
+      "brand": "BEATS",
+      "price": 199,
+      "wasPrice": 349,
+      "savings": 150,
+      "rating": 4.9,
+      "reviewCount": 198,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10251948_white-cream?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling",
+        "Battery life: Up to 24 hours",
+        "Quick setup with Google Fast Pair",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/beats-studio-pro-wireless-bluetooth-noisecancelling-headphones-sandstone-10251948.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE QuietComfort SC Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "brand": "BOSE",
+      "price": 189,
+      "wasPrice": 289,
+      "savings": 100,
+      "rating": 4.8,
+      "reviewCount": 210,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10261099?$g-small$&fmt=auto",
+      "badges": [
+        "Loved by Currys"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling with quick attention mode",
+        "Battery life: Up to 24 hours",
+        "Noise-cancelling mics for clear calls",
+        "Extra controls on the app",
+        "Microphone / volume / playback & functions control",
+        "2 year guarantee"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/bose-quietcomfort-sc-wireless-bluetooth-noisecancelling-headphones-black-10261099.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE QuietComfort Ultra Wireless Bluetooth Noise-Cancelling Earbuds - Black",
+      "brand": "BOSE",
+      "price": 199,
+      "wasPrice": 299,
+      "savings": 100,
+      "rating": 4.7,
+      "reviewCount": 487,
+      "productUrl": "https://www.currys.co.uk/products/bose-quietcomfort-ultra-wireless-bluetooth-noisecancelling-earbuds-black-10254893.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10254893_black?$g-small$&fmt=auto",
+      "specs": [
+        "True wireless earbuds",
+        "Adjustable active noise-cancelling",
+        "Battery life: Up to 6 hours (24 hours with case)",
+        "Water & sweat resistant (IPX4)",
+        "Extra controls on the app",
+        "Noise-cancelling mics for clear calls",
+        "Microphone / volume / playback & functions control",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE QuietComfort Ultra Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "brand": "BOSE",
+      "price": 299,
+      "wasPrice": 449,
+      "savings": 150,
+      "rating": 4.7,
+      "reviewCount": 487,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10254905_black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling with quick attention mode",
+        "Battery life: Up to 24 hours",
+        "Noise-cancelling mics for clear calls",
+        "Foldable",
+        "Microphone / volume / playback & functions control",
+        "2 year guarantee"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/bose-quietcomfort-ultra-wireless-bluetooth-noisecancelling-headphones-black-10254908.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "BOSE QuietComfort Ultra Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "brand": "BOSE",
+      "price": 349,
+      "wasPrice": 449.95,
+      "savings": 100.95,
+      "rating": 4.5,
+      "reviewCount": 892,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10254905_black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling",
+        "Battery life: Up to 24 hours",
+        "Spatial audio",
+        "Bluetooth multipoint"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/bose-quietcomfort-ultra-wireless-bluetooth-noisecancelling-headphones-black-10254951.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL Tune 720BT Wireless Bluetooth Headphones - Black",
+      "brand": "JBL",
+      "price": 38,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 242,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10254754_black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Over-ear headphones",
+        "Battery life: Up to 76 hours",
+        "Bluetooth multipoint for switching between devices",
+        "Microphone / volume / playback & functions control",
+        "2 year guarantee"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/jbl-tune-720bt-wireless-bluetooth-headphones-black-10254754.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JBL Live Beam 3 Wireless Bluetooth Noise-Cancelling Earbuds - Black",
+      "brand": "JBL",
+      "price": 149,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 111,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10275466_black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "True wireless earbuds",
+        "Active noise-cancelling with quick attention mode",
+        "Battery life: Up to 10 hours (40 hours with case)",
+        "Water & sweat resistant (IP55)",
+        "Bluetooth multipoint for switching between devices",
+        "Microphone / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/jbl-live-beam-3-wireless-bluetooth-noisecancelling-earbuds-black-10275466.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "NOTHING Ear (open) Wireless Bluetooth Open-Ear Earbuds - White",
+      "brand": "NOTHING",
+      "price": 99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 86,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10274895?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Open-ear earbuds",
+        "Battery life: Up to 8 hours (30 hours with case)",
+        "Water & sweat resistant (IP54)",
+        "Bluetooth 5.3",
+        "Dual connection"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/nothing-ear-open-wireless-bluetooth-open-ear-earbuds-white-10274895.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG Galaxy Buds3 FE Wireless Bluetooth Noise-Cancelling Earbuds - Black",
+      "brand": "SAMSUNG",
+      "price": 129,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 5,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10290068_black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "True wireless earbuds",
+        "Active noise-cancelling",
+        "Battery life: Up to 10 hours (30 hours with case)",
+        "Water & sweat resistant (IP57)",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/samsung-galaxy-buds3-fe-wireless-bluetooth-noisecancelling-earbuds-black-10290068.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG Galaxy Buds4 Wireless Bluetooth Noise-Cancelling Earbuds - White",
+      "brand": "SAMSUNG",
+      "price": 159,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 179,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10299090_white?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "True wireless earbuds",
+        "Active noise-cancelling",
+        "Battery life: Up to 6 hours (30 hours with case)",
+        "Water & sweat resistant (IP54)",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/samsung-galaxy-buds4-wireless-bluetooth-noisecancelling-earbuds-white-10299090.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG Galaxy Buds4 Pro Wireless Bluetooth Noise-Cancelling Earbuds - Black",
+      "brand": "SAMSUNG",
+      "price": 219,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 175,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10299058_black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "True wireless earbuds",
+        "Active noise-cancelling",
+        "Battery life: Up to 7 hours (30 hours with case)",
+        "Water & sweat resistant (IP57)",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/samsung-galaxy-buds4-pro-wireless-bluetooth-noisecancelling-earbuds-black-10299058.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SENNHEISER Momentum 4 Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "brand": "SENNHEISER",
+      "price": 249,
+      "wasPrice": 349.99,
+      "savings": 100.99,
+      "rating": 4.6,
+      "reviewCount": 558,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10238558?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Over-ear headphones",
+        "Adaptive noise cancelling",
+        "Battery life: Up to 60 hours",
+        "Hi-Res Audio",
+        "Bluetooth multipoint"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/sennheiser-momentum-4-wireless-bluetooth-noisecancelling-headphones-black-10238558.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY WH-CH520C Wireless Bluetooth Headphones - Beige",
+      "brand": "SONY",
+      "price": 34.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 222,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10247634_Cream?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "On-ear headphones",
+        "Passive noise-isolating",
+        "Battery life: Up to 50 hours",
+        "Bluetooth multipoint for switching between devices",
+        "Quick charging",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/sony-whch520c-wireless-bluetooth-headphones-beige-10247635.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY WH-CH520L Wireless Bluetooth Headphones - Blue",
+      "brand": "SONY",
+      "price": 34.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 303,
+      "productUrl": "https://www.currys.co.uk/products/sony-whch520l-wireless-bluetooth-headphones-blue-10247634.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10247634_blue?$g-small$&fmt=auto",
+      "specs": [
+        "On-ear headphones",
+        "Passive noise-isolating",
+        "Battery life: Up to 50 hours",
+        "Bluetooth multipoint for switching between devices",
+        "Quick charging",
+        "Microphone / volume / playback & functions control"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY WH-CH720N Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "brand": "SONY",
+      "price": 69.99,
+      "wasPrice": 74.99,
+      "savings": 5,
+      "rating": 4.5,
+      "reviewCount": 1970,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10247673_Black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling with quick attention mode",
+        "Battery life: Up to 35 hours",
+        "Bluetooth multipoint for switching between devices",
+        "Quick charging",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/sony-whch720n-wireless-bluetooth-noisecancelling-headphones-black-10247676.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY WH-CH720N Wireless Bluetooth Noise-Cancelling Headphones - Pink",
+      "brand": "SONY",
+      "price": 79.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 1970,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10247673_pink?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling",
+        "Battery life: Up to 35 hours",
+        "Bluetooth multipoint for switching between devices",
+        "Quick charging",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/sony-whch720n-wireless-bluetooth-noisecancelling-headphones-pink-10280290.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY WH-1000XM6 Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "brand": "SONY",
+      "price": 399,
+      "wasPrice": 499,
+      "savings": 100,
+      "rating": 4.6,
+      "reviewCount": 175,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10282426_black?$g-small$&fmt=auto",
+      "badges": [
+        "Loved by Currys",
+        "Award: What HiFi 5 Star"
+      ],
+      "deliveryFree": true,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling",
+        "Battery life: Up to 30 hours",
+        "Quick charging",
+        "Microphone / volume / playback & functions control"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/sony-wh1000xm6-wireless-bluetooth-noisecancelling-headphones-black-10282441.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SOUNDCORE Q21i Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "brand": "SOUNDCORE",
+      "price": 59.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 494,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10280657?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "Over-ear headphones",
+        "Active noise-cancelling",
+        "Battery life: Up to 40 hours",
+        "Bluetooth multipoint for switching between devices",
+        "Support for High-Resolution Audio",
+        "Microphone / volume / playback & functions control",
+        "2 year guarantee"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/soundcore-q21i-wireless-bluetooth-noisecancelling-headphones-black-10280657.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SOUNDCORE Space One Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "brand": "SOUNDCORE",
+      "price": 89.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 465,
+      "imageUrl": "https://media.currys.biz/i/currysprod/M10268830_black?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": true,
+      "specs": [
+        "Over-ear headphones",
+        "Adjustable active noise-cancelling",
+        "Battery life: Up to 40 hours",
+        "Waterproof",
+        "Bluetooth multipoint for switching between devices",
+        "Microphone / volume / playback & functions control",
+        "2 year guarantee"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/soundcore-space-one-wireless-bluetooth-noisecancelling-headphones-black-10268830.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SOUNDCORE AeroClip Wireless Bluetooth Earbuds - White",
+      "brand": "SOUNDCORE",
+      "price": 129.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4,
+      "reviewCount": 26,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10294392?$g-small$&fmt=auto",
+      "badges": [],
+      "deliveryFree": false,
+      "specs": [
+        "True wireless open-ear clip-on earbuds",
+        "Battery life: Up to 8 hours (32 hours with case)",
+        "Water & sweat resistant (IPX4)",
+        "Bluetooth multipoint for switching between devices",
+        "Support for High-Resolution Audio",
+        "Microphone / volume / playback & functions control",
+        "2 year guarantee"
+      ],
+      "productUrl": "https://www.currys.co.uk/products/soundcore-aeroclip-wireless-bluetooth-earbuds-white-10294392.html",
+      "energyRating": null,
+      "offers": []
+    }
+  ]
+}

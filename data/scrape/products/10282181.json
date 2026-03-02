@@ -1,0 +1,84 @@
+{
+  "id": "10282181",
+  "title": "SAMSUNG HW-Q600F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos",
+  "brand": "Samsung",
+  "price": {
+    "current": 499,
+    "was": 549,
+    "savings": 50
+  },
+  "rating": {
+    "average": 4.9,
+    "count": 20
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10282181_011?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10282181?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_010?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10282181_011?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Number of speakers: 9" },
+    { "icon": "", "label": "Dolby Atmos & DTS:X" },
+    { "icon": "", "label": "Wireless subwoofer" },
+    { "icon": "", "label": "Audio power: 380 W" },
+    { "icon": "", "label": "Adaptive / optimized audio" },
+    { "icon": "", "label": "4K pass-through" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 20.22,
+    "months": 36,
+    "totalPayable": 727.92,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 5.99, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Enjoy the sound of the cinema at home with this Samsung Q600F soundbar. With 9 built-in speakers your favourite movies, games and TV shows sound epic. Your ears won't know what's hit them. Dolby Atmos lets you hear every whoosh, bang and spine-chilling creak in 3D surround sound. It's like being at the movies without the sticky floors and never-ending trailers. And Samsung's Q-Symphony technology pairs your TV and soundbar for a perfectly harmonised sound. It's really easy to set up too, so you can just sit back and lose yourself in the story.",
+    "goodToKnow": [
+      "The 6.5\" wireless subwoofer kicks out powerful bass, making action scenes more thrilling",
+      "Adaptive Sound uses AI to optimise audio in real-time so every scene sounds as good as it looks",
+      "Connect wirelessly with Bluetooth, or use HDMI and Optical inputs for your devices",
+      "Game Pro mode uses directional audio to put you smack bang in the middle of the action",
+      "Voice Enhancement mode boosts the dialogue so it's easier to hear over the music or sound effects"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 0,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars"
+}

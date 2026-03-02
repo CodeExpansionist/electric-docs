@@ -1,0 +1,85 @@
+{
+  "id": "10263127",
+  "title": "LG QNED91 86\" QNED Mini LED AI 4K HDR Smart TV 2024 - 86QNED91T6A",
+  "brand": "LG",
+  "price": {
+    "current": 1799.97,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 5,
+    "count": 2
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10263127?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10263127?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10263127_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Quantum Dot NanoCell technology for richer colours in 4K" },
+    { "icon": "", "label": "MiniLED with Precision Dimming Pro for amazing contrast" },
+    { "icon": "", "label": "Refresh rate: 120 Hz" },
+    { "icon": "", "label": "HDMI 2.1 x 4 / HDMI 2.0 x 2" },
+    { "icon": "", "label": "5 year guarantee" },
+    { "icon": "", "label": "LG's webOS gives you easy access to all your must-have apps" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 49.99,
+    "months": 48,
+    "totalPayable": 2399.52,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Care & Repair", "price": 11.99, "period": "per month", "mostPopular": true },
+    { "plan": "Installation", "price": 65, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The grass really is greener with the LG QNED91 TV. Quantum Dot Nanocell technology makes your entertainment pop with 100% colour volume. It's not just vibrant, it's true-to-life with a full spectrum of tones that LCD TVs didn't quite nail before. With MiniLED technology you get perfectly balanced contrast with deep blacks and brilliant brightness. It makes nature documentaries go from 'okay' to 'wow'. The a8 AI Processor is the brains behind the operation. It's borrowed some tricks from the big-league OLED TVs to bring you super sharp images and sound that feels like it's all around you. Even older entertainment is given a new lease of life with AI Super Upscaling.",
+    "goodToKnow": [
+      "AI Sound Pro transforms 2-channel audio into virtual 9.1.2 surround sound for that cinema experience",
+      "Filmmaker Mode turns off any picture processing that can make movies look unnatural, so it's closer to cinema-quality",
+      "Sound flows all around you with Dolby Atmos, making you feel like you're at the heart of the action",
+      "Dolby Vision HDR brings more depth to every scene with incredible contrast and vivid colours",
+      "The slim profile looks good in any space whether you're using the stand or wall mounting (mount sold separately)",
+      "Get the most out of your console with support for 4K@120 Hz and more gaming tech than you can shake a controller at"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs"
+}

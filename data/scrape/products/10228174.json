@@ -1,0 +1,81 @@
+{
+  "id": "10228174",
+  "title": "SANDSTROM SOPTIC22 Digital Optical Cable - 1.5 m",
+  "brand": "Sandstrom",
+  "price": {
+    "current": 14.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 89
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10228174?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10228174_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10228174_002?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10228174?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10228174_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10228174_002?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Length: 1.5 m"
+    },
+    {
+      "icon": "",
+      "label": "TOSLINK to TOSLINK"
+    },
+    {
+      "icon": "",
+      "label": "24K gold-plated connectors"
+    },
+    {
+      "icon": "",
+      "label": "Supports surround sound"
+    }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Cable length": "1.5 m",
+      "Connector type": "TOSLINK to TOSLINK",
+      "Connector plating": "24K gold-plated",
+      "Audio support": "5.1 / 7.1 surround sound, Dolby Digital, DTS"
+    },
+    "Features": {
+      "Mini-TOSLINK adapter": "Included",
+      "Shielding": "Multi-layer"
+    },
+    "Guarantee": {
+      "Manufacturer's guarantee": "Lifetime"
+    }
+  },
+  "description": {
+    "main": "Connect your soundbar or AV receiver with the Sandstrom SOPTIC22 Digital Optical Cable. This 1.5 m TOSLINK cable delivers lossless digital audio with support for surround sound formats including Dolby Digital and DTS. The 24K gold-plated connectors ensure a reliable connection, while the included mini-TOSLINK adapter adds versatility for connecting to laptops and other devices.",
+    "goodToKnow": [
+      "24K gold-plated connectors for reliable connection",
+      "Includes mini-TOSLINK adapter",
+      "Supports Dolby Digital and DTS",
+      "Lifetime guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories"
+}

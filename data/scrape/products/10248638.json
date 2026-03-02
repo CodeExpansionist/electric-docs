@@ -1,0 +1,99 @@
+{
+  "id": "10248638",
+  "title": "SANUS Tilting TV Wall Mount - for 32-55\" TVs",
+  "brand": "Sanus",
+  "price": {
+    "current": 49.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 203
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10248638?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10248638_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10248638_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10248638_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10248638_004?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10248638?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10248638_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10248638_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10248638_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10248638_004?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Fits 32\" to 55\" TVs"
+    },
+    {
+      "icon": "",
+      "label": "Max weight: 36 kg (80 lbs)"
+    },
+    {
+      "icon": "",
+      "label": "Tilt: +5\u00b0 / -10\u00b0"
+    },
+    {
+      "icon": "",
+      "label": "Low profile design"
+    }
+  ],
+  "flexpay": null,
+  "careAndRepair": [
+    {
+      "plan": "Installation",
+      "price": 60,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Installation",
+      "price": 60
+    }
+  ],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Colour": "Black",
+      "TV size range": "32\" to 55\"",
+      "Maximum weight": "36 kg (80 lbs)",
+      "VESA compatibility": "100x100 to 400x400 mm",
+      "Mount type": "Tilting"
+    },
+    "Features": {
+      "Tilt range": "+5\u00b0 / -10\u00b0",
+      "Lateral shift": "Yes",
+      "Cable management": "Built-in"
+    },
+    "Guarantee": {
+      "Manufacturer's guarantee": "10 years"
+    }
+  },
+  "description": {
+    "main": "Mount your TV with confidence using the SANUS Tilting TV Wall Mount. Designed for screens from 32 to 55 inches and up to 36 kg, this mount features a low-profile design that keeps your TV close to the wall. The tilting function (+5 to -10 degrees) helps reduce glare, while the lateral shift allows you to perfectly centre your TV on the wall. Easy DIY installation with all hardware included.",
+    "goodToKnow": [
+      "Universal design fits most TV brands",
+      "Easy DIY installation - all hardware included",
+      "Built-in cable management",
+      "Lateral shift for perfect centering",
+      "10 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories"
+}

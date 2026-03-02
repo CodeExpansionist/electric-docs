@@ -1,0 +1,84 @@
+{
+  "id": "10230185",
+  "title": "SANDSTROM SHDMI325 High Speed HDMI Cable with Ethernet - 3 m",
+  "brand": "Sandstrom",
+  "price": {
+    "current": 24.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 156
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10230185?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10230185_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10230185_002?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10230185?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10230185_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10230185_002?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Length: 3 m"
+    },
+    {
+      "icon": "",
+      "label": "Supports 4K Ultra HD"
+    },
+    {
+      "icon": "",
+      "label": "Up to 18 Gbps"
+    },
+    {
+      "icon": "",
+      "label": "4-layer shielding"
+    }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Cable length": "3 m",
+      "Connector type": "HDMI to HDMI",
+      "Transfer speed": "Up to 18 Gbps",
+      "Resolution support": "4K Ultra HD, Full HD 1080p, 3D"
+    },
+    "Features": {
+      "Ethernet channel": "Yes",
+      "Audio Return Channel (ARC)": "Yes",
+      "Shielding": "4-layer",
+      "Connector plating": "Gold-plated"
+    },
+    "Guarantee": {
+      "Manufacturer's guarantee": "Lifetime"
+    }
+  },
+  "description": {
+    "main": "Get the best from your home entertainment setup with the Sandstrom SHDMI325 High Speed HDMI Cable. With a transfer speed of up to 18 Gbps and support for 4K Ultra HD, this 3 m cable delivers stunning picture quality and immersive audio. The built-in Ethernet channel removes the need for a separate network cable, while 4-layer shielding ensures a clean, interference-free signal.",
+    "goodToKnow": [
+      "Gold-plated connectors for reliable connection",
+      "Supports 4K Ultra HD at 60fps",
+      "Built-in Ethernet channel",
+      "Audio Return Channel (ARC) support",
+      "Lifetime guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories"
+}

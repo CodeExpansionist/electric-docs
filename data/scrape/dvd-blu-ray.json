@@ -1,0 +1,725 @@
+{
+  "sourceUrl": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema",
+  "scrapedAt": "2026-03-01",
+  "pageType": "categoryListing",
+  "categoryName": "Home Cinema, DVD & Blu-ray",
+  "categorySlug": "dvd-blu-ray-and-home-cinema",
+  "breadcrumbs": [
+    "Home",
+    "TV & Audio",
+    "DVD, Blu-ray & Home Cinema"
+  ],
+  "metaTitle": "Home entertainment - Home Cinema, Soundbars, DVD & Blu-ray | Currys",
+  "metaDescription": "Browse our DVD, Blu-ray and home cinema range at Currys for unmissable deals on Soundbars, Dolby Atmos soundbars and more. Available online for delivery or order & collect.",
+  "totalProducts": 26,
+  "filters": [
+    {
+      "name": "Delivery & Collection",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Delivery available",
+          "count": 36
+        },
+        {
+          "label": "Collect from store",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Sound bars",
+          "count": 18
+        },
+        {
+          "label": "Blu-ray & DVD players",
+          "count": 8
+        },
+        {
+          "label": "Home cinema systems",
+          "count": 6
+        },
+        {
+          "label": "AV receivers",
+          "count": 5
+        },
+        {
+          "label": "Projectors",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "By Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £99.99",
+          "count": 8
+        },
+        {
+          "label": "£100 to £199.99",
+          "count": 10
+        },
+        {
+          "label": "£200 to £499.99",
+          "count": 12
+        },
+        {
+          "label": "£500 to £999.99",
+          "count": 7
+        },
+        {
+          "label": "£1000 and over",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "By Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "SAMSUNG",
+          "count": 5
+        },
+        {
+          "label": "SONY",
+          "count": 5
+        },
+        {
+          "label": "SONOS",
+          "count": 5
+        },
+        {
+          "label": "LG",
+          "count": 5
+        },
+        {
+          "label": "HISENSE",
+          "count": 4
+        },
+        {
+          "label": "PANASONIC",
+          "count": 4
+        },
+        {
+          "label": "BOSE",
+          "count": 3
+        },
+        {
+          "label": "DENON",
+          "count": 3
+        },
+        {
+          "label": "JBL",
+          "count": 3
+        },
+        {
+          "label": "JVC",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": false,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5.0 out of 5 stars",
+          "count": 3
+        },
+        {
+          "label": "4.0 out of 5 stars & up",
+          "count": 30
+        },
+        {
+          "label": "3.0 out of 5 stars & up",
+          "count": 36
+        }
+      ]
+    },
+    {
+      "name": "Availability",
+      "isExpanded": false,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Hide out of stock",
+          "count": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "DENON AVR-S670H 5.2 Channel AV Receiver - Black",
+      "brand": "DENON",
+      "price": 449,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 89,
+      "specs": [
+        "5.2 channel",
+        "Dolby Atmos & DTS:X",
+        "8K/60Hz & 4K/120Hz pass-through",
+        "HEOS built-in",
+        "6 HDMI inputs"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10250001?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/denon-avrs670h-5.2-channel-av-receiver-black-10250001.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "GROOV-E GVDP03BK Multi Regional DVD Player",
+      "brand": "GROOV-E",
+      "price": 33.98,
+      "wasPrice": 33.99,
+      "savings": 0.01,
+      "rating": 2.6,
+      "reviewCount": 7,
+      "productUrl": "https://www.currys.co.uk/products/groove-gvdp03bk-multi-regional-dvd-player-10285338.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10285338?$g-small$&fmt=auto",
+      "specs": [
+        "Plays DVDs",
+        "HDMI / USB"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "GROOV-E GVDP01BK Portable DVD Player - Black",
+      "brand": "GROOV-E",
+      "price": 69,
+      "wasPrice": 79.99,
+      "savings": 10.99,
+      "rating": 3.5,
+      "reviewCount": 2,
+      "productUrl": "https://www.currys.co.uk/products/groove-gvdp01bk-portable-dvd-player-black-10285336.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10285336?$g-small$&fmt=auto",
+      "specs": [
+        "7\" screen",
+        "Up to 2.5 hours battery life",
+        "USB / Memory card slot",
+        "Includes car charger"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "GROOV-E GVDP02BK Portable DVD Player - Black",
+      "brand": "GROOV-E",
+      "price": 89.99,
+      "wasPrice": 100,
+      "savings": 10.01,
+      "rating": 0,
+      "reviewCount": 0,
+      "productUrl": "https://www.currys.co.uk/products/groove-gvdp02bk-portable-dvd-player-black-10285337.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10285337?$g-small$&fmt=auto",
+      "specs": [
+        "10.1\" screen",
+        "Up to 2.5 hours battery life",
+        "USB / Memory card slot",
+        "Includes car charger"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "HISENSE AX5125H 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "HISENSE",
+      "price": 249,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 104,
+      "specs": [
+        "10 speakers",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer",
+        "Audio power: 420 W",
+        "4K pass-through",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10262409?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/hisense-ax5125h-5.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10262409.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "JVC TH-D625B 2.0 Compact Sound Bar",
+      "brand": "JVC",
+      "price": 49.99,
+      "wasPrice": 59.99,
+      "savings": 10,
+      "rating": 4.8,
+      "reviewCount": 4,
+      "specs": [
+        "2 speakers",
+        "Audio power: 40 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10276273?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/jvc-thd625b-2.0-compact-sound-bar-10276273.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LEXIBOOK DVDP6PA Portable DVD Player - Paw Patrol",
+      "brand": "LEXIBOOK",
+      "price": 84.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 0,
+      "reviewCount": 0,
+      "productUrl": "https://www.currys.co.uk/products/lexibook-dvdp6pa-portable-dvd-player-paw-patrol-10218845.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10218845?$g-small$&fmt=auto",
+      "specs": [
+        "7\" screen",
+        "USB port",
+        "Includes car charger"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LEXIBOOK DVDP6AV Portable DVD Player - Avengers",
+      "brand": "LEXIBOOK",
+      "price": 95,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 5,
+      "reviewCount": 2,
+      "productUrl": "https://www.currys.co.uk/products/lexibook-dvdp6av-portable-dvd-player-avengers-10218847.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10218847?$g-small$&fmt=auto",
+      "specs": [
+        "7\" screen",
+        "USB port",
+        "Includes car charger",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US20A 2.0 Compact Sound Bar",
+      "brand": "LG",
+      "price": 79.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 19,
+      "specs": [
+        "2 speakers",
+        "Audio power: 50 W Peak / 50 W RMS",
+        "Adaptive / optimized audio",
+        "HDMI"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10282047?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/lg-us20a-2.0-compact-sound-bar-10282047.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "LG US60TR 5.1 Wireless Sound Bar",
+      "brand": "LG",
+      "price": 299,
+      "wasPrice": 399,
+      "savings": 100,
+      "rating": 4.6,
+      "reviewCount": 83,
+      "specs": [
+        "6 speakers",
+        "DTS Virtual:X",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 360 W",
+        "4K pass-through",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10262669?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/lg-us60tr-5.1-wireless-sound-bar-10262669.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MAJORITY Scholars SCH-DVD-BLK UK DVD Player",
+      "brand": "MAJORITY",
+      "price": 27.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.9,
+      "reviewCount": 885,
+      "productUrl": "https://www.currys.co.uk/products/majority-scholars-schdvdblk-uk-dvd-player-10241742.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10241742?$g-small$&fmt=auto",
+      "specs": [
+        "Plays DVDs",
+        "HDMI / USB",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "OAKCASTLE DVD120 Portable DVD Player - Black",
+      "brand": "OAKCASTLE",
+      "price": 90,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 5,
+      "reviewCount": 32,
+      "productUrl": "https://www.currys.co.uk/products/oakcastle-dvd120-portable-dvd-player-black-10258693.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10258693?$g-small$&fmt=auto",
+      "specs": [
+        "10.5\" screen",
+        "Up to 5 hours battery life",
+        "USB / Memory card slot",
+        "Includes car charger",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "OAKCASTLE DVD175 Portable DVD Player - Black",
+      "brand": "OAKCASTLE",
+      "price": 119,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 5,
+      "reviewCount": 41,
+      "productUrl": "https://www.currys.co.uk/products/oakcastle-dvd175-portable-dvd-player-black-10258694.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10258694?$g-small$&fmt=auto",
+      "specs": [
+        "15.6\" screen",
+        "Up to 6 hours battery life",
+        "USB / Memory card slot",
+        "Includes car charger",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "PANASONIC DMP-BDT167EB Smart 3D Blu-ray & DVD Player",
+      "brand": "PANASONIC",
+      "price": 79.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 1023,
+      "productUrl": "https://www.currys.co.uk/products/panasonic-dmpbdt167eb-smart-3d-bluray-and-dvd-player-10143726.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10143726?$g-small$&fmt=auto",
+      "specs": [
+        "Plays Blu-ray discs / DVDs",
+        "Catch-up TV & Streaming",
+        "Ethernet"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "PANASONIC DP-UB159EB 4K Ultra HD Blu-ray & DVD Player",
+      "brand": "PANASONIC",
+      "price": 149.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 235,
+      "productUrl": "https://www.currys.co.uk/products/panasonic-dpub159eb-4k-ultra-hd-bluray-and-dvd-player-10191562.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10191562?$g-small$&fmt=auto",
+      "specs": [
+        "Plays 4K Blu-ray discs / DVDs",
+        "HDR: HDR10+ / HDR10 / Hybrid Log-Gamma (HLG)",
+        "Supports Dolby Atmos / DTS: X / High-Resolution Audio",
+        "Ethernet",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "PANASONIC DP-UB450EB 4K Ultra HD Blu-ray & DVD Player",
+      "brand": "PANASONIC",
+      "price": 199,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 206,
+      "specs": [
+        "Plays 4K Blu-ray discs / DVDs",
+        "HDR: Dolby Vision / HDR10+ / HDR10 / Hybrid Log-Gamma (HLG)",
+        "Supports Dolby Atmos / DTS: X / High-Resolution Audio",
+        "Ethernet",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10191561?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/panasonic-dpub450eb-4k-ultra-hd-bluray-and-dvd-player-10191561.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "PANASONIC DMR-EX97EB-K DVD Player with Freeview HD Recorder - 500 GB HDD",
+      "brand": "PANASONIC",
+      "price": 279,
+      "wasPrice": 319,
+      "savings": 40,
+      "rating": 4.5,
+      "reviewCount": 888,
+      "productUrl": "https://www.currys.co.uk/products/panasonic-dmrex97ebk-dvd-player-with-freeview-hd-recorder-500-gb-hdd-10138707.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10138707?$g-small$&fmt=auto",
+      "specs": [
+        "Plays DVDs",
+        "Records to HDD",
+        "Up to 258 hours of SD / 129 hours HD recording",
+        "Ethernet"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "PANASONIC DP-UB820EBK Smart 4K Ultra HD Blu-ray & DVD Player",
+      "brand": "PANASONIC",
+      "price": 349,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 616,
+      "productUrl": "https://www.currys.co.uk/products/panasonic-dpub820ebk-smart-4k-ultra-hd-bluray-and-dvd-player-10179416.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10179416?$g-small$&fmt=auto",
+      "specs": [
+        "Plays 4K Blu-ray discs / DVDs",
+        "HDR: Dolby Vision",
+        "Supports High-Resolution Audio",
+        "Catch-up TV & 4K Streaming",
+        "WiFi / Bluetooth",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "PANASONIC DMR-PWT655EB Smart 3D Blu-ray & DVD Player with Freeview Play Recorder - 1 TB HDD",
+      "brand": "PANASONIC",
+      "price": 359,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 438,
+      "productUrl": "https://www.currys.co.uk/products/panasonic-dmrpwt655eb-smart-3d-bluray-and-dvd-player-with-freeview-play-recorder-1-tb-hdd-10139364.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10139364?$g-small$&fmt=auto",
+      "specs": [
+        "Plays Blu-ray discs / DVDs with upscaling",
+        "Records to HDD",
+        "Up to 518 hours of SD / 259 hours HD recording",
+        "Catch-up TV & Streaming",
+        "WiFi / Ethernet"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "PANASONIC DMR-BWT850EB Smart 3D Blu-ray & DVD Player - 1 TB HDD",
+      "brand": "PANASONIC",
+      "price": 549,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 370,
+      "productUrl": "https://www.currys.co.uk/products/panasonic-dmrbwt850eb-smart-3d-bluray-and-dvd-player-1-tb-hdd-10143734.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10143734?$g-small$&fmt=auto",
+      "specs": [
+        "Plays Blu-ray discs / DVDs with upscaling",
+        "Records to HDD",
+        "Up to 518 hours of SD / 259 hours HD recording",
+        "Catch-up TV & Streaming",
+        "WiFi / Ethernet"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SAMSUNG HW-Q930F/XU 9.1.4 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "SAMSUNG",
+      "price": 999,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 5,
+      "reviewCount": 14,
+      "specs": [
+        "14 speakers",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 540 W",
+        "4K pass-through",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10282178?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/samsung-hwq930fxu-9.1.4-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10282178.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONOS Ray Compact Sound Bar - Black",
+      "brand": "SONOS",
+      "price": 199,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 60,
+      "specs": [
+        "4 speakers",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10238584?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sonos-ray-compact-sound-bar-black-10238584.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONOS Beam (Gen 2) Compact Sound Bar with Dolby Atmos, Alexa & Google Assistant - Black",
+      "brand": "SONOS",
+      "price": 449,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 334,
+      "specs": [
+        "5 speakers",
+        "Dolby Atmos",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "HDMI",
+        "2 year guarantee"
+      ],
+      "badges": [
+        "Epic Deal"
+      ],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10230379?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sonos-beam-gen-2-compact-sound-bar-with-dolby-atmos-alexa-and-google-assistant-black-10230379.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY DVPSR760HB DVD Player",
+      "brand": "SONY",
+      "price": 39,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 2873,
+      "productUrl": "https://www.currys.co.uk/products/sony-dvpsr760hb-dvd-player-12872098.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/12872098?$g-small$&fmt=auto",
+      "specs": [
+        "Plays DVDs",
+        "HDMI"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY BDP-S1700/K Blu-ray & DVD Player",
+      "brand": "SONY",
+      "price": 79,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 33,
+      "specs": [
+        "Full HD 1080p",
+        "TRILUMINOS Colour",
+        "Dolby TrueHD & DTS-HD",
+        "HDMI & USB",
+        "Ethernet"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10284401?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/sony-bdps1700k-bluray-and-dvd-player-10284401.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "SONY UBPX700KB.CEK Smart 4K Ultra HD Blu-ray & DVD Player",
+      "brand": "SONY",
+      "price": 269,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.9,
+      "reviewCount": 9,
+      "productUrl": "https://www.currys.co.uk/products/sony-ubpx700kb.cek-smart-4k-ultra-hd-bluray-and-dvd-player-10284393.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10284393?$g-small$&fmt=auto",
+      "specs": [
+        "Plays Blu-ray discs / DVDs with upscaling",
+        "HDR: Dolby Vision / HDR10",
+        "Supports Dolby Atmos / DTS: X / High-Resolution Audio",
+        "HDMI / USB",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    }
+  ]
+}

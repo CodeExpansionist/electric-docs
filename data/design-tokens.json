@@ -1,0 +1,119 @@
+{
+  "colors": {
+    "primary": "#4C12A1",
+    "primaryLight": "#7B2BFC",
+    "primaryDark": "#2D0A6E",
+    "announcement": "#007D8A",
+    "background": "#FFFFFF",
+    "surface": "#F5F5F5",
+    "text": {
+      "primary": "#213038",
+      "secondary": "#666666",
+      "muted": "#999999",
+      "inverse": "#FFFFFF"
+    },
+    "border": "#E0E0E0",
+    "borderLight": "#CDD8DF",
+    "error": "#CC0000",
+    "success": "#008A00",
+    "sale": "#CC0000",
+    "tagEpicDeal": "#CC0000",
+    "footer": "#333333",
+    "ratingStars": "#E8A317",
+    "ctaPrimary": "#4C12A1",
+    "ctaOutline": "#4C12A1",
+    "checkoutComplete": "#008A00",
+    "inputText": "#495057",
+    "inputBorder": "#CDD8DF"
+  },
+  "typography": {
+    "fontFamily": {
+      "heading": "'Currys Sans Headline', 'CurrysSans-Regular', sans-serif",
+      "body": "'Currys Sans', 'CurrysSans-Regular', sans-serif"
+    },
+    "sizes": {
+      "xs": "12px",
+      "sm": "14px",
+      "base": "16px",
+      "lg": "18px",
+      "xl": "20px",
+      "2xl": "24px",
+      "3xl": "32px"
+    },
+    "weights": {
+      "normal": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    }
+  },
+  "spacing": {
+    "containerMaxWidth": "1280px",
+    "containerPadding": "16px",
+    "sectionGap": "32px",
+    "cardGap": "16px"
+  },
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "24px",
+    "pill": "999px",
+    "input": "30px"
+  },
+  "breakpoints": {
+    "sm": "640px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px"
+  },
+  "components": {
+    "buttonPrimary": {
+      "background": "#4C12A1",
+      "color": "#FFFFFF",
+      "borderRadius": "999px",
+      "fontWeight": "600",
+      "padding": "12px 24px"
+    },
+    "buttonOutline": {
+      "background": "#FFFFFF",
+      "color": "#4C12A1",
+      "border": "2px solid #4C12A1",
+      "borderRadius": "999px",
+      "fontWeight": "600",
+      "padding": "12px 24px"
+    },
+    "input": {
+      "background": "#FFFFFF",
+      "color": "#495057",
+      "borderColor": "#CDD8DF",
+      "borderRadius": "30px"
+    },
+    "card": {
+      "background": "#FFFFFF",
+      "borderRadius": "8px",
+      "shadow": "0 1px 3px rgba(0,0,0,0.1)"
+    },
+    "pillLink": {
+      "background": "#FFFFFF",
+      "border": "1px solid #E0E0E0",
+      "borderRadius": "999px",
+      "padding": "8px 16px"
+    }
+  },
+  "assets": {
+    "logo": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw12db0942/images/brand-currys-logo.svg",
+    "favicon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw2dbb4f18/images/favicons/favicon.ico",
+    "uspIcons": {
+      "store": "https://currysprod.a.bigcontent.io/v1/static/store-svg",
+      "pricePromise": "https://currysprod.a.bigcontent.io/v1/static/price-promise-svg",
+      "recycling": "https://currysprod.a.bigcontent.io/v1/static/recycling-2-svg",
+      "calendar": "https://currysprod.a.bigcontent.io/v1/static/calendar-svg"
+    },
+    "socialIcons": {
+      "facebook": "https://currysprod.a.bigcontent.io/v1/static/facebook",
+      "x": "https://currysprod.a.bigcontent.io/v1/static/x",
+      "instagram": "https://currysprod.a.bigcontent.io/v1/static/insta",
+      "youtube": "https://currysprod.a.bigcontent.io/v1/static/footer-youtube-icon"
+    }
+  }
+}

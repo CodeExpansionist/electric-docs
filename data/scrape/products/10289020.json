@@ -1,0 +1,80 @@
+{
+  "id": "10289020",
+  "title": "TCL SF560 32\u201d QLED Full HD Smart Fire TV - 32SF560-UK",
+  "brand": "TCL",
+  "price": {
+    "current": 137,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.3,
+    "count": 87
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10289020?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_009?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10289020?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10289020_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Screen size: 32\"" },
+    { "icon": "", "label": "Refresh rate: 60 Hz" },
+    { "icon": "", "label": "HDMI 1.4 x 2" },
+    { "icon": "", "label": "2 year guarantee" },
+    { "icon": "", "label": "HDR: HDR10+ / Hybrid Log-Gamma (HLG)" },
+    { "icon": "", "label": "Enjoy apps / Alexa skills / channels with Fire TV" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 7.65,
+    "months": 24,
+    "totalPayable": 183.67,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Quantum Dot Technology delivers vibrant colours and lifelike detail that pop off the screen. HDR10 intelligently boosts contrast and brightness, so every scene looks cinematic. Fire TV gives you access to over 400,000 movies and shows from your favourite streaming services. Control your telly or smart home with your voice using the included Alexa remote. Share your holiday snaps or stream your shows using Miracast or AirPlay 2.",
+    "goodToKnow": [
+      "Free standard delivery on orders over \u00a340",
+      "Some apps & services (including tuner) are only available in the UK",
+      "Some apps & services may be removed or no longer supported by third party content providers at any time."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "energyRating": "F"
+}

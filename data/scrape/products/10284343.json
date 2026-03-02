@@ -1,0 +1,44 @@
+{
+  "id": "10284343",
+  "title": "HISENSE Party Storm Bluetooth Megasound Party Speaker - Black",
+  "brand": "Hisense",
+  "price": { "current": 169, "was": 249, "savings": 80 },
+  "rating": { "average": 3.8, "count": 5 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10284343?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284343_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284343_002?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10284343?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284343_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284343_002?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "bluetooth", "label": "Bluetooth" },
+    { "icon": "lights", "label": "LED party lights / Karaoke mode / DJ mode" },
+    { "icon": "power", "label": "Output power: 300 W" },
+    { "icon": "battery", "label": "Up to 15 hours battery life" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "This Hisense Party Storm speaker is your ultimate sidekick for unforgettable nights, garden parties, and spontaneous karaoke sessions. With a mighty 300 W of sound power, it delivers room-filling sound and deep, thumping bass that gets everyone on their feet. No plug? No problem. With up to 15 hours of battery life, you can keep the music going all day and well into the night. And if you fancy a sing-along, switch to karaoke mode for an epic solo or fun duet.",
+    "goodToKnow": [
+      "Thanks to its water-resistant (IPX4) top panel, a few splashes or spills won't ruin the fun",
+      "If you're running low on battery, just pop your phone on top and charge it wirelessly",
+      "Built-in lighting pulses and grooves to the beat to add to the party vibe",
+      "Add your own twist to the music with five DJ effects"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "Speakers"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "10178725",
+  "title": "MANHATTAN SX Freesat HD Set Top Box",
+  "brand": "MANHATTAN",
+  "price": {
+    "current": 72.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 1090
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10178725?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10178725?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10178725_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__217004_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Ethernet" },
+    { "icon": "", "label": "HDMI / SCART" },
+    { "icon": "", "label": "2 year guarantee" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Enjoy subscription-free TV with the Manhattan SX Freesat HD Set Top Box. Receive over 200 satellite channels, 13 HD channels, and 36 radio stations without the need for a subscription. With a Full HD resolution, watch your programs in the quality they deserve. The 8-day program guide lets you browse by channel or genre, set reminders and keep watching your current show with its mini screen. Compact design allows easy integration into your existing TV setup, fitting effortlessly into your home without the need for additional equipment.",
+    "goodToKnow": [
+      "Free standard delivery on orders over £40",
+      "Subscription-free TV",
+      "Compact design",
+      "8-day program guide available"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Digital Smart TV"
+}

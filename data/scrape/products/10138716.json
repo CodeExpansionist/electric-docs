@@ -1,0 +1,52 @@
+{
+  "id": "10138716",
+  "title": "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket",
+  "brand": "LOGIK",
+  "price": {
+    "current": 14.99,
+    "was": 29.99,
+    "savings": 15
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 132
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10138716?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10138716_001?$l-large$&fmt=auto",
+      "https://flv.isitetv.com/media/video/2544/ol_video_img_url__183609_2544.jpg?m=2544&r=1048&t=1"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10138716?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10138716_001?$t-thumbnail$&fmt=auto",
+      "https://flv.isitetv.com/media/video/2544/ol_video_img_url__183609_2544.jpg?m=2544&r=1048&t=1"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__183609_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "VESA compliance", "label": "Max: 200 x 200, Min: 75 x 75" },
+    { "icon": "Max supported weight", "label": "20 kg" },
+    { "icon": "Cable management", "label": "Yes" }
+  ],
+  "flexpay": { "monthlyAmount": 0, "months": 0, "totalPayable": 0, "apr": "" },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    { "category": "Cables", "title": "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m", "price": 11.99, "image": "https://media.currys.biz/i/currysprod/21948968?$s-swatch$&fmt=auto" },
+    { "category": "Cables", "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m", "price": 19.99, "image": "https://media.currys.biz/i/currysprod/10175000?$s-swatch$&fmt=auto" }
+  ],
+  "offers": ["Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Mount your TV or monitor to the wall and save space. Swivel and tilt your screen for the perfect angle. Built-in cable management to keep cords tidy. Suitable for screens between 13\" to 32\" that weigh up to 20 kg.",
+    "goodToKnow": [
+      "For 13 - 32\" Televisions",
+      "Max. supported weight: 20 kg",
+      "Cable management available"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 },
+  "category": "TV Accessories"
+}

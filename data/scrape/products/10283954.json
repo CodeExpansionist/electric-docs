@@ -1,0 +1,58 @@
+{
+  "id": "10283954",
+  "title": "JBL Xtreme 3 Portable Bluetooth Speaker - Black",
+  "brand": "JBL",
+  "price": { "current": 179, "was": 249, "savings": 70 },
+  "rating": { "average": 4.8, "count": 239 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10283954?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_009?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10283954?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283954_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "waterproof", "label": "Waterproof" },
+    { "icon": "sound", "label": "JBL Pro Sound for powerful audio" },
+    { "icon": "battery", "label": "Up to 15 hours battery life" },
+    { "icon": "bluetooth", "label": "Bluetooth" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Get ready to groove with the JBL Xtreme 3 portable speaker. Blast your tunes loud and proud with JBL Pro Sound. With four drivers and dual JBL bass radiators, any space becomes a party zone. You can wirelessly link up extra speakers using JBL PartyBoost and get the music pumping loud. All managed through the super easy JBL Portable app.",
+    "goodToKnow": [
+      "Up to 15 hours of battery life will see you from sundown to sunrise",
+      "With its handy carry strap, you can take your beats anywhere, anytime",
+      "The built-in power bank lets you charge your devices without pausing the music",
+      "It's built tough with an IP67 rating - the waterproof and dustproof design is ready for any adventure"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "Speakers"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "10284860",
+  "title": "SAMSUNG S90F 55\" OLED 4K Vision AI Smart TV 2025 - QE55S90F",
+  "brand": "Samsung",
+  "price": { "current": 1199, "was": 1299, "savings": 100 },
+  "rating": { "average": 4.8, "count": 126 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10284860?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_010?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_011?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10284860?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_010?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284860_011?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__295922_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "processor", "label": "NQ4 AI Gen3 Processor" },
+    { "icon": "oled", "label": "OLED HDR+ Pure blacks & vivid color" },
+    { "icon": "refresh", "label": "120 Hz (up to 144 Hz)" },
+    { "icon": "hdmi", "label": "HDMI 2.1 x 4" },
+    { "icon": "guarantee", "label": "5 year guarantee" },
+    { "icon": "smart", "label": "Samsung Smart TV" }
+  ],
+  "sizeOptions": [
+    { "size": "42\"", "selected": false, "url": "/products/samsung-s90f-42-oled-4k-vision-ai-smart-tv-2025-qe42s90f-10284860.html" },
+    { "size": "48\"", "selected": false, "url": "/products/samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10284860.html" },
+    { "size": "55\"", "selected": true, "url": "/products/samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html" },
+    { "size": "65\"", "selected": false, "url": "/products/samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html" },
+    { "size": "77\"", "selected": false, "url": "/products/samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284860.html" },
+    { "size": "83\"", "selected": false, "url": "/products/samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284860.html" }
+  ],
+  "energyRating": { "class": "G" },
+  "flexpay": {
+    "monthlyAmount": 48.59,
+    "months": 36,
+    "totalPayable": 1749.24,
+    "apr": "29.9%",
+    "buyNowPayLater": [{ "months": 12, "settleBy": "01 March 2027" }]
+  },
+  "wallBracket": {
+    "text": "Add a wall bracket now and Save £24.00",
+    "product": {
+      "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 35.99,
+      "savings": 24,
+      "separatePrice": 59.99,
+      "image": "https://media.currys.biz/i/currysprod/10249239?$s-swatch$&fmt=auto"
+    }
+  },
+  "careAndRepair": [{ "plan": "Breakdown support", "price": 4.05, "period": "monthly" }],
+  "essentialServices": [
+    { "name": "Install TV to stand", "price": 45 },
+    { "name": "Install TV to wall (bracket not included)", "price": 135 },
+    { "name": "Recycle my old TV", "price": 20 }
+  ],
+  "crossSellProducts": [
+    { "category": "Sound Systems", "title": "SAMSUNG HW-S800D/XU 3.1.2 Wireless Sound Bar", "price": 589, "image": "https://media.currys.biz/i/currysprod/10263675?$s-swatch$&fmt=auto" },
+    { "category": "Extension Leads", "title": "LOGIK L4WAY2M18 4-Socket Extension Lead", "price": 19.99, "image": "https://media.currys.biz/i/currysprod/10175000?$s-swatch$&fmt=auto" },
+    { "category": "Cleaning Products", "title": "SANDSTROM S150AVC20 Screen Cleaner", "price": 7.99, "image": "https://media.currys.biz/i/currysprod/10211694?$s-swatch$&fmt=auto" }
+  ],
+  "offers": ["Get £100 off this TV when you trade-in any old TV. Use TRADETV100 and select Recycling at checkout."],
+  "badges": [
+    { "type": "Recommended", "image": "https://media.currys.biz/i/currysprod/trusted_reviews_badge_recommended-55868.jpg?fmt=auto" },
+    { "type": "Loved by Currys", "image": "https://media.currys.biz/i/currysprod/loved_by_currys-68562.jpg?fmt=auto" }
+  ],
+  "specifications": {},
+  "description": {
+    "main": "The OLED display on this Samsung S90F 55\" TV brings a bit of cinema magic to your living room. Because the pixels are self-lit, the TV can accurately control the shadows and highlights.",
+    "goodToKnow": [
+      "Dolby Atmos uses the TV's speakers to create an immersive surround sound effect",
+      "AI Motion Enhancer Pro turns fast-action blur into super smooth movement",
+      "With its LaserSlim design and almost no bezel, this TV looks great from every angle.",
+      "Sound is more realistic with Object Tracking Sound",
+      "Enjoy ultra-smooth gameplay with up to 4K 144 Hz motion for lag-free, clear visuals."
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 20, "nextDayDeliveryPrice": 30 }
+}

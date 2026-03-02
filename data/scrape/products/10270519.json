@@ -1,0 +1,18 @@
+{
+  "id": "10270519",
+  "title": "Apple AirPods 4 with Active Noise Cancellation",
+  "brand": "Apple",
+  "price": {"current": 169, "was": 0, "savings": 0},
+  "rating": {"average": 4.7, "count": 302},
+  "images": {"gallery": ["https://media.currys.biz/i/currysprod/10270519?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_008?$l-large$&fmt=auto"], "thumbnails": ["https://media.currys.biz/i/currysprod/10270519?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10270519_008?$t-thumbnail$&fmt=auto"], "video": ""},
+  "keySpecs": [{"icon": "", "label": "True wireless earbuds"}, {"icon": "", "label": "Adjustable active noise-cancelling"}, {"icon": "", "label": "Battery life: Up to 4 hours (20 hours with case)"}, {"icon": "", "label": "Water & sweat resistant (IP54)"}, {"icon": "", "label": "Qi wireless charging compatible"}, {"icon": "", "label": "Microphone / playback & functions control"}],
+  "flexpay": {"monthlyAmount": 6.84, "months": 36, "totalPayable": 246.24, "apr": "29.9% variable"},
+  "careAndRepair": [{"plan": "Breakdown support", "price": 1.5, "period": "per month"}],
+  "essentialServices": [],
+  "crossSellProducts": [{"category": "Accessories", "title": "APPLE 20 W USB Type-C Power Adapter", "price": 19, "image": "https://media.currys.biz/i/currysprod/10216759?$s-swatch$&fmt=auto"}],
+  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "badges": [],
+  "specifications": {},
+  "description": {"main": "The Apple AirPods 4 with Active Noise Cancellation bring you a totally transformed audio experience. Adaptive Audio tweaks the noise control to your changing environment as you go about your day. Transparency mode is ideal when you're out on a run – you can stay connected to your surroundings while you listen. And an updated fit means they're comfy from AM to PM.", "goodToKnow": ["Rebuilt for comfort — redesigned for exceptional all-day comfort.", "Active Noise Cancellation helps reduce outside noise.", "Hear the world around you with Adaptive Audio.", "Improved sound and call quality with Voice Isolation.", "Magical experience via Siri voice commands.", "Personalised Spatial Audio for a cinema-like experience.", "Redesigned charging case with wireless charging.", "Dust, sweat and water resistant (IP54)."]},
+  "deliveryInfo": {"freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99}
+}

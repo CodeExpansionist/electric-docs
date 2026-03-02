@@ -1,0 +1,52 @@
+{
+  "id": "10283846",
+  "title": "MARSHALL Acton III Bluetooth Speaker - Midnight Blue",
+  "brand": "MARSHALL",
+  "price": { "current": 259, "was": null, "savings": null },
+  "rating": { "average": 5, "count": 1 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10240152_blue?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_007?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10240152_blue?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10240152_blue_007?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "sound", "label": "Dynamic Loudness for rich & clear sound" },
+    { "icon": "bluetooth", "label": "Bluetooth" },
+    { "icon": "connectivity", "label": "Aux-in" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Bring some rock 'n' roll into your home with the Marshall Acton III. Or Metal, or K-Pop. Whatever you're into, it'll sound amazing coming from this iconic speaker. Its woofer and 2 tweeters create a wide sound stage that will fill your room with music. No matter where you put it, the Placement Compensation feature will make sure it sounds its best. And the brass knobs on top let you tweak the volume, bass, and treble exactly how you like it.",
+    "goodToKnow": [
+      "Choose between the 3.5 mm jack or Bluetooth 5.2 for effortless connection",
+      "Dynamic Loudness will make sure your music sounds great at any volume",
+      "The Marshall Bluetooth app lets you control the speaker and download updates"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "Speakers"
+}

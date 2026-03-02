@@ -1,0 +1,88 @@
+{
+  "id": "10215892",
+  "title": "AVF SDC1140 TV Stand - for up to 65\" TVs",
+  "brand": "AVF",
+  "price": {
+    "current": 89.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.3,
+    "count": 187
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10215892?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10215892_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10215892_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10215892_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10215892_004?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10215892?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10215892_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10215892_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10215892_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10215892_004?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Suitable for TVs up to 65\""
+    },
+    {
+      "icon": "",
+      "label": "Tempered safety glass"
+    },
+    {
+      "icon": "",
+      "label": "3 shelves"
+    },
+    {
+      "icon": "",
+      "label": "Max load: 45 kg"
+    }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Colour": "Black",
+      "Material": "Tempered glass and chrome",
+      "Maximum TV size": "65\"",
+      "Maximum load": "45 kg",
+      "Number of shelves": "3"
+    },
+    "Dimensions": {
+      "Width": "1140 mm",
+      "Height": "500 mm",
+      "Depth": "420 mm"
+    },
+    "Guarantee": {
+      "Manufacturer's guarantee": "2 years"
+    }
+  },
+  "description": {
+    "main": "Display your TV in style with the AVF SDC1140 TV Stand. It supports screens up to 65 inches and has a maximum weight capacity of 45 kg. Constructed with tempered safety glass and chrome legs, this stand provides a modern look for your living room. The three shelves offer ample space for your set-top box, games console and other AV equipment.",
+    "goodToKnow": [
+      "Maximum supported weight: 45 kg",
+      "Tempered safety glass (BS6206a)",
+      "3 shelves for AV equipment",
+      "Easy to assemble",
+      "2 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 20,
+    "nextDayDeliveryPrice": 30
+  },
+  "category": "TV Accessories"
+}

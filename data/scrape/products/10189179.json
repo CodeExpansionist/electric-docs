@@ -1,0 +1,44 @@
+{
+  "id": "10189179",
+  "title": "JVC XS-D629BM 2.0 Bluetooth Bookshelf Speakers - Walnut",
+  "brand": "JVC",
+  "price": { "current": 99.99, "was": null, "savings": null },
+  "rating": { "average": 4.7, "count": 485 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10189179?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10189179_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10189179_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10189179_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10189179?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10189179_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10189179_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10189179_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__268275_2544.jpg"
+  },
+  "keySpecs": [
+    { "icon": "power", "label": "Output power: 60 W" },
+    { "icon": "bluetooth", "label": "Bluetooth" },
+    { "icon": "connectivity", "label": "RCA / USB" },
+    { "icon": "eq", "label": "Bass & treble EQ" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Experience the powerful, balanced sound of the JVC XS-D629BM 2.0 Bluetooth Bookshelf Speakers. With an elegant walnut finish, the speakers are a perfect addition for your living room or office. There's a variety of ways to listen to your music on the JVC XS-D629BM. Wirelessly stream your favourite Spotify playlist from your phone or tablet using Bluetooth. Give those old vinyls a spin and hook the speakers up to your record player with the RCA connection. Or plug your phone into the USB port to enjoy your MP3s offline - it will charge your phone too.",
+    "goodToKnow": [
+      "Free standard delivery on orders over \u00a340",
+      "Includes remote control"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "Speakers"
+}

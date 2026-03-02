@@ -1,0 +1,52 @@
+{
+  "id": "10138718",
+  "title": "LOGIK LFML16 Full Motion 32-50\" TV Bracket",
+  "brand": "LOGIK",
+  "price": {
+    "current": 99.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 210
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10138718?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10138718_001?$l-large$&fmt=auto",
+      "https://flv.isitetv.com/media/video/2544/ol_video_img_url__184391_2544.jpg?m=2544&r=1048&t=1"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10138718?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10138718_001?$t-thumbnail$&fmt=auto",
+      "https://flv.isitetv.com/media/video/2544/ol_video_img_url__184391_2544.jpg?m=2544&r=1048&t=1"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__184391_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Max supported weight: 35 kg" },
+    { "icon": "", "label": "Max. VESA compliance: 600 x 400" },
+    { "icon": "", "label": "Min. VESA compliance: 200 x 200" }
+  ],
+  "flexpay": { "monthlyAmount": 4.05, "months": 36, "totalPayable": 145.8, "apr": "29.9%" },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    { "category": "Cables", "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m", "price": 19.99, "image": "https://media.currys.biz/i/currysprod/10132171?$s-swatch$&fmt=auto" },
+    { "category": "Cables", "title": "LOGIK L6WAY2M18 6-Socket Extension Lead - 2 m", "price": 17.99, "image": "https://media.currys.biz/i/currysprod/10175007?$s-swatch$&fmt=auto" }
+  ],
+  "offers": ["Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The LFML16 TV Bracket can be adjusted with ease, allowing you to find the most convenient position to allow you to watch your TV.",
+    "goodToKnow": [
+      "Suitable for screen sizes up to 50\"",
+      "Full motion allows you to find the most convenient position with vertical adjustments between -19 degrees to 9 degrees.",
+      "Compatible with most VESA sizes from 200 x 200 to 600 x 400."
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 },
+  "category": "TV Accessories"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "10187493",
+  "title": "SANDSTROM STM19 Tilt 32-47\" TV Bracket",
+  "brand": "SANDSTROM",
+  "price": {
+    "current": 39.99,
+    "was": 79.99,
+    "savings": 40
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 29
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10187493_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10187493?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10187493_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10187493_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10187493_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10187493?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10187493_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10187493_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10187493_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10187493_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Tilts up & down" },
+    { "icon": "", "label": "Max. VESA compliance: 400 x 400" },
+    { "icon": "", "label": "Min. VESA compliance: 100 x 100" },
+    { "icon": "", "label": "Max. supported weight: 30 kg" },
+    { "icon": "", "label": "Includes spirit level / wall template" }
+  ],
+  "flexpay": { "monthlyAmount": 0, "months": 0, "totalPayable": 0, "apr": "" },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    { "category": "Cables and accessories", "title": "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m", "price": 11.99, "image": "https://media.currys.biz/i/currysprod/21948968?$s-swatch$&fmt=auto" },
+    { "category": "Cables and accessories", "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m", "price": 19.99, "image": "https://media.currys.biz/i/currysprod/10175000?$s-swatch$&fmt=auto" }
+  ],
+  "offers": ["Spread the cost on orders £99 & over.", "Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Mount your TV securely to the wall - this bracket is ideal for screens up to 47\" with a maximum load of 30 kg. If you've got your TV mounted high up, you can tilt it forward to get a comfortable viewing angle. It comes with a wall template and spirit level to make the installation easier.",
+    "goodToKnow": [
+      "Max. supported weight: 30 kg",
+      "Included wall template helps in installation",
+      "Tilts for better viewing angle"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 },
+  "category": "TV Accessories"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "10275671",
+  "title": "JVC RD-D325B Bluetooth Flat Panel Hi-Fi System - Dark Grey",
+  "brand": "JVC",
+  "price": { "current": 99, "was": 129, "savings": 30 },
+  "rating": { "average": 4.8, "count": 11 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10275671_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10275671?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10275671_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10275671_002?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10275671_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10275671?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10275671_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10275671_002?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "cd", "label": "CD player & DAB+ / FM radio" },
+    { "icon": "bluetooth", "label": "Bluetooth" },
+    { "icon": "power", "label": "Output power: 10 W" },
+    { "icon": "connectivity", "label": "USB / RCA" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "This flat-panel hi-fi delivers 10 W of crisp, room-filling sound that's perfect for everyday listening. Wirelessly play music or podcasts from your phone, tablet or laptop using Bluetooth. There's a built-in CD player, so you can enjoy your classic albums in high quality. Tune into DAB+ and FM stations and save your favourites as presets.",
+    "goodToKnow": [
+      "Free standard delivery on orders over \u00a340",
+      "Pay as much or as little as you like for 6 months, settle in full by 01 September 2026 & pay no interest"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "Speakers"
+}

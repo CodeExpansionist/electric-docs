@@ -1,0 +1,472 @@
+{
+  "sourceUrl": "https://www.currys.co.uk/tv-and-audio/digital-and-smart-tv",
+  "scrapedAt": "2026-03-01",
+  "pageType": "categoryListing",
+  "categoryName": "Digital & Smart TV",
+  "categorySlug": "digital-and-smart-tv",
+  "breadcrumbs": [
+    "Home",
+    "TV & Audio",
+    "Digital & Smart TV"
+  ],
+  "metaTitle": "Digital and smart TV | Best deals on Digital and smart TV, Set top boxes and more",
+  "metaDescription": "Browse our Digital and smart TV range at Currys for unmissable deals on Digital and smart TV, Set top boxes and more. Available online for delivery or order & collect.",
+  "totalProducts": 15,
+  "filters": [
+    {
+      "name": "Delivery & Collection",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Delivery available",
+          "count": 30
+        },
+        {
+          "label": "Collect from store",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Streaming devices",
+          "count": 14
+        },
+        {
+          "label": "Set top boxes",
+          "count": 8
+        },
+        {
+          "label": "Digital TV recorders",
+          "count": 6
+        },
+        {
+          "label": "Freeview boxes",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "By Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 6
+        },
+        {
+          "label": "£40 to £69.99",
+          "count": 10
+        },
+        {
+          "label": "£70 to £99.99",
+          "count": 6
+        },
+        {
+          "label": "£100 to £199.99",
+          "count": 6
+        },
+        {
+          "label": "£200 and over",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "By Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "AMAZON",
+          "count": 8
+        },
+        {
+          "label": "FREESAT",
+          "count": 4
+        },
+        {
+          "label": "HUMAX",
+          "count": 4
+        },
+        {
+          "label": "MANHATTAN",
+          "count": 4
+        },
+        {
+          "label": "ROKU",
+          "count": 4
+        },
+        {
+          "label": "APPLE",
+          "count": 3
+        },
+        {
+          "label": "GOOGLE",
+          "count": 3
+        },
+        {
+          "label": "NOW",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Resolution",
+      "isExpanded": false,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "4K Ultra HD",
+          "count": 20
+        },
+        {
+          "label": "Full HD (1080p)",
+          "count": 8
+        },
+        {
+          "label": "HD (720p)",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": false,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5.0 out of 5 stars",
+          "count": 2
+        },
+        {
+          "label": "4.0 out of 5 stars & up",
+          "count": 22
+        },
+        {
+          "label": "3.0 out of 5 stars & up",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "name": "Availability",
+      "isExpanded": false,
+      "type": "toggle",
+      "options": [
+        {
+          "label": "Hide out of stock",
+          "count": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "AMAZON Fire TV Stick HD with Alexa Voice Remote (2024)",
+      "brand": "AMAZON",
+      "price": 39.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 36,
+      "specs": [
+        "Full HD 1080p streaming",
+        "Alexa voice control",
+        "Dolby Atmos audio",
+        "8 GB storage"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10272322?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/amazon-fire-tv-stick-hd-with-alexa-voice-remote-2024-10272322.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "AMAZON Fire TV Stick 4K Select (2025) with Alexa Voice Remote",
+      "brand": "AMAZON",
+      "price": 49.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 3.7,
+      "reviewCount": 20,
+      "specs": [
+        "4K Ultra HD streaming",
+        "Alexa voice control",
+        "Dolby Vision",
+        "8 GB storage"
+      ],
+      "badges": [
+        "New"
+      ],
+      "deliveryFree": false,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10292571?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/amazon-fire-tv-stick-4k-select-2025-with-alexa-voice-remote-10292571.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "AMAZON Fire TV Stick 4K Plus (2nd Gen) with Alexa Voice Remote",
+      "brand": "AMAZON",
+      "price": 59.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 0,
+      "reviewCount": 0,
+      "productUrl": "https://www.currys.co.uk/products/amazon-fire-tv-stick-4k-plus-2nd-gen-with-alexa-voice-remote-10297976.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10297976?$g-small$&fmt=auto",
+      "specs": [],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "AMAZON Fire TV Stick 4K with Alexa Voice Remote (2024)",
+      "brand": "AMAZON",
+      "price": 59.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 2357,
+      "productUrl": "https://www.currys.co.uk/products/amazon-fire-tv-stick-4k-with-alexa-voice-remote-2024-10272200.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10272200?$g-small$&fmt=auto",
+      "specs": [],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "AMAZON Fire TV Stick 4K Max (2025) with Alexa Voice Remote",
+      "brand": "AMAZON",
+      "price": 69.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 2357,
+      "specs": [
+        "4K Ultra HD streaming",
+        "Wi-Fi 6E support",
+        "Alexa voice control",
+        "Dolby Vision & Atmos",
+        "16 GB storage"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10275955?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/amazon-fire-tv-stick-4k-max-2025-with-alexa-voice-remote-10275955.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "APPLE TV 4K (3rd generation) - 64 GB",
+      "brand": "APPLE",
+      "price": 139,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 161,
+      "specs": [
+        "4K Ultra HD with HDR",
+        "A15 Bionic chip",
+        "Dolby Vision & Atmos",
+        "64 GB storage",
+        "Siri remote included"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10244890?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/apple-tv-4k-3rd-generation-64-gb-10244890.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "FREESAT UHD-X Smart 4K Ultra HD Set Top Box",
+      "brand": "FREESAT",
+      "price": 99,
+      "wasPrice": 129.99,
+      "savings": 30.99,
+      "rating": 4.3,
+      "reviewCount": 4130,
+      "specs": [
+        "4K Ultra HD",
+        "200+ channels",
+        "On Demand apps",
+        "HDMI output",
+        "Ethernet & Wi-Fi"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10207047?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/freesat-uhdx-smart-4k-ultra-hd-set-top-box-10207047.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "FREESAT UHD-4X Smart 4K Ultra HD Digital TV Recorder - 500 GB",
+      "brand": "FREESAT",
+      "price": 229.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.3,
+      "reviewCount": 4130,
+      "productUrl": "https://www.currys.co.uk/products/freesat-uhd4x-smart-4k-ultra-hd-digital-tv-recorder-500-gb-10207036.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10207036?$g-small$&fmt=auto",
+      "specs": [],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "GOOGLE TV Streamer 4K - Porcelain",
+      "brand": "GOOGLE",
+      "price": 99.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 27,
+      "specs": [
+        "4K Ultra HD with HDR",
+        "Google TV interface",
+        "Google Assistant built-in",
+        "Dolby Vision & Atmos",
+        "32 GB storage"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10271847?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/google-tv-streamer-4k-porcelain-10271847.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "HUMAX Aura EZ FHR-6000T Freely Smart 4K Ultra HD Digital TV Recorder - 2 TB",
+      "brand": "HUMAX",
+      "price": 249.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.5,
+      "reviewCount": 12,
+      "specs": [
+        "4K Ultra HD",
+        "2 TB storage",
+        "Freely smart platform",
+        "Freeview Play",
+        "Wi-Fi built-in"
+      ],
+      "badges": [
+        "New"
+      ],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10290616?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/humax-aura-ez-fhr6000t-freely-smart-4k-ultra-hd-digital-tv-recorder-2-tb-10290616.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MANHATTAN T4 Freeview Play Smart 4K Ultra HD Set Top Box",
+      "brand": "MANHATTAN",
+      "price": 69.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.4,
+      "reviewCount": 27,
+      "specs": [
+        "4K Ultra HD",
+        "Freeview Play",
+        "On Demand apps",
+        "HDMI output"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10250515?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/manhattan-t4-freeview-play-smart-4k-ultra-hd-set-top-box-10250515.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MANHATTAN SX Freesat HD Set Top Box",
+      "brand": "MANHATTAN",
+      "price": 72.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 1090,
+      "productUrl": "https://www.currys.co.uk/products/manhattan-sx-freesat-hd-set-top-box-10178725.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10178725?$g-small$&fmt=auto",
+      "specs": [],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "MANHATTAN T4-R Freeview Play 4K Ultra HD Digital TV Recorder - 500 GB",
+      "brand": "MANHATTAN",
+      "price": 169.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.6,
+      "reviewCount": 131,
+      "specs": [
+        "4K Ultra HD",
+        "500 GB storage",
+        "Freeview Play",
+        "Twin tuner for recording",
+        "HDMI & USB"
+      ],
+      "badges": [],
+      "deliveryFree": true,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10251001?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/manhattan-t4r-freeview-play-4k-ultra-hd-digital-tv-recorder-500-gb-10251001.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "ROKU HD Streaming Stick",
+      "brand": "ROKU",
+      "price": 29.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 33,
+      "specs": [
+        "HD streaming",
+        "Dual-band Wi-Fi",
+        "Voice remote",
+        "Simple setup"
+      ],
+      "badges": [],
+      "deliveryFree": false,
+      "imageUrl": "https://media.currys.biz/i/currysprod/10286603?$g-small$&fmt=auto",
+      "productUrl": "https://www.currys.co.uk/products/roku-hd-streaming-stick-10286603.html",
+      "energyRating": null,
+      "offers": []
+    },
+    {
+      "name": "ROKU Streaming Stick 4K",
+      "brand": "ROKU",
+      "price": 49.99,
+      "wasPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 1105,
+      "productUrl": "https://www.currys.co.uk/products/roku-streaming-stick-4k-10234065.html",
+      "imageUrl": "https://media.currys.biz/i/currysprod/10234065?$g-small$&fmt=auto",
+      "specs": [],
+      "badges": [],
+      "deliveryFree": false,
+      "energyRating": null,
+      "offers": []
+    }
+  ]
+}

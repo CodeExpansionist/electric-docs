@@ -1,0 +1,91 @@
+{
+  "id": "10244299",
+  "title": "HISENSE HS214 2.1 All-in-one Sound Bar",
+  "brand": "Hisense",
+  "price": {
+    "current": 69,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 271
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10244299_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10244299?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10244299_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Number of speakers: 3" },
+    { "icon": "", "label": "Built-in subwoofer" },
+    { "icon": "", "label": "Audio power: 108 W" },
+    { "icon": "", "label": "HDMI / Optical / Coaxial" }
+  ],
+  "energyRating": { "class": "" },
+  "flexpay": {
+    "monthlyAmount": 0,
+    "months": 0,
+    "totalPayable": 0,
+    "apr": ""
+  },
+  "wallBracket": {
+    "text": "Add Instant Replacement",
+    "product": {
+      "title": "Instant Replacement Plan",
+      "price": 21,
+      "savings": 0,
+      "image": ""
+    }
+  },
+  "careAndRepair": [
+    { "plan": "Instant Replacement", "price": 21, "period": "3 years" }
+  ],
+  "essentialServices": [
+    { "name": "Delivery", "price": 0 },
+    { "name": "In-store collection", "price": 0 }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "image": "https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Give your TV's speakers a facelift with this Hisense HS214 soundbar. With 108 W of audio power, you can enjoy your favourite TV shows and movies with crystal clear, room-filling sound. The built-in subwoofer brings movies to life with heaps of bone-rattling bass, so you won't just hear those ominous footsteps, you'll feel them. And thanks to Dolby Digital Audio and a 3 mode equaliser, you'll hear every little detail with the perfect settings, no matter what you're listening to.",
+    "goodToKnow": [
+      "Connect it to your TV via Bluetooth and keep your living space neat and tidy and cable free",
+      "Link your phone, tablet or laptop and stream your favourite music right to the soundbar",
+      "It's compact design gives you an all-in-one home entertainment system without all the clutter",
+      "With HDMI ARC, Optical, Coaxial, USB and AUX connections, you can hook up all your devices",
+      "Compatible with Roku TV, so you can control everything with just one remote."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "10225447",
+  "title": "VIVANCO TVA 2020 Indoor TV Aerial",
+  "brand": "Vivanco",
+  "price": {
+    "current": 19.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 11
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10225447?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10225447?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Maximum signal range: 3 miles" },
+    { "icon": "", "label": "Receives analogue and digital signals" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 0,
+    "months": 0,
+    "totalPayable": 0,
+    "apr": ""
+  },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [
+    "Spread the cost on orders £99 & over.",
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [
+    { "type": "Online Only", "image": "https://media.currys.biz/i/currysprod/bwonlineonlysticker-79649?fmt=auto" }
+  ],
+  "specifications": {
+    "OVERVIEW": {
+      "Type": "Indoor aerial",
+      "Suitable for": "Digital, Analogue, Radio, HDTV, DVB-T, DVB-T2, DAB, DAB+",
+      "Cable length": "1.2 m",
+      "Other features": "Omni-directional",
+      "Dimensions": "330 x 75 x 45 mm (H x W x D)",
+      "Weight": "206 g",
+      "Manufacturer's guarantee": "2 years",
+      "Colour": "Black & white",
+      "Box contents": "Vivanco TVA 2020 Indoor TV Aerial, Aerial cable - 1.2 m"
+    }
+  },
+  "description": {
+    "main": "Improve your TV or radio signal with the Vivanco TVA 2020 Indoor TV Aerial. Optimised for both analogue and digital TV reception with omni-directional design that receives signals from anywhere you place it.",
+    "goodToKnow": [
+      "Omni-directional design receives signals from any position",
+      "Reaches signals up to 5 kilometres away",
+      "Optimised for analogue and digital TV reception"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories",
+  "outOfStock": true
+}

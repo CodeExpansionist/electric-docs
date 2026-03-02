@@ -1,0 +1,72 @@
+{
+  "id": "10234065",
+  "title": "ROKU Streaming Stick 4K",
+  "brand": "ROKU",
+  "price": {
+    "current": 49.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 1105
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10234065?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10234065?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10234065_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Stream 4K HDR content to your TV" },
+    { "icon": "", "label": "Works with Amazon Alexa / Google Assistant / Siri" },
+    { "icon": "", "label": "WiFi" },
+    { "icon": "", "label": "Screen casting" },
+    { "icon": "", "label": "2 year guarantee" }
+  ],
+  "flexpay": null,
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The Roku Streaming Stick makes watching movies and shows in 4K and HDR amazingly simple - it puts your favourite streaming services all in one place, so you can quickly pick the show you want to watch.",
+    "goodToKnow": [
+      "It's small enough to hide behind your TV, so it won't be spoiling your living room's aesthetics",
+      "It's compatible with Alexa, Siri and Google Assistant - you can just tell your speaker or phone what you want to watch",
+      "The WiFi has a wide range and it's lightning fast to help prevent frustrating buffering",
+      "Setting it up is super quick and easy - all you need to do is plug it in and connect it to your WiFi"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Digital Smart TV"
+}

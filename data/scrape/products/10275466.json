@@ -1,0 +1,133 @@
+{
+  "id": "10275466",
+  "title": "JBL Live Beam 3 Wireless Bluetooth Noise-Cancelling Earbuds - Black",
+  "brand": "JBL",
+  "price": {
+    "current": 149,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 111
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10275466_black_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_008?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10275466_black?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10275466_black_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/3075/ol_video_img_url__293928_3075.jpg?m=3075&r=1048&t=1"
+  },
+  "keySpecs": [
+    {
+      "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-pound.svg",
+      "label": "True wireless earbuds"
+    },
+    {
+      "icon": "",
+      "label": "Active noise-cancelling with quick attention mode"
+    },
+    {
+      "icon": "",
+      "label": "Battery life: Up to 10 hours (40 hours with case)"
+    },
+    {
+      "icon": "",
+      "label": "Water & sweat resistant (IP55)"
+    },
+    {
+      "icon": "",
+      "label": "Bluetooth multipoint for switching between devices"
+    },
+    {
+      "icon": "",
+      "label": "Quick charging"
+    },
+    {
+      "icon": "",
+      "label": "Microphone / playback & functions control"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "flexpay": {
+    "monthlyAmount": 6.03,
+    "months": 36,
+    "totalPayable": 217.08,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement",
+      "price": 40,
+      "period": "3 years"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Apple Music",
+      "price": 0
+    },
+    {
+      "name": "Apple Fitness+",
+      "price": 0
+    },
+    {
+      "name": "Apple Arcade",
+      "price": 0
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "accessories",
+      "title": "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black",
+      "price": 11.99,
+      "image": "https://media.currys.biz/i/currysprod/10278348?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [],
+  "badges": [
+    {
+      "type": "Loved by Currys",
+      "image": "https://media.currys.biz/i/currysprod/loved_by_currys-68562.jpg?fmt=auto"
+    }
+  ],
+  "specifications": {},
+  "description": {
+    "main": "The JBL Live Beam 3 earbuds give you great sound and noise-cancelling features, with controls available on the charging case. Perfect for immersive experiences, they provide up to 10 hours of battery life and come with a convenient charging case.",
+    "goodToKnow": [
+      "Games and movies feel more immersive with JBL Spatial Sound – like you're in the middle of the action",
+      "Six beamforming mics reduce wind and background noise so you'll be heard loud and clear on calls",
+      "Load up the JBL Headphones app to tweak the EQ, check your settings, or chill out with relaxing sounds",
+      "If you lost your earbuds, find them quickly with the Google Finder service",
+      "Multi-point connection lets you switch between devices effortlessly"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  }
+}

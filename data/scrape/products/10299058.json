@@ -1,0 +1,93 @@
+{
+  "id": "10299058",
+  "title": "SAMSUNG Galaxy Buds4 Pro Wireless Bluetooth Noise-Cancelling Earbuds - Black",
+  "brand": "SAMSUNG",
+  "price": {
+    "current": 219,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 0,
+    "count": 0
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10299058_black?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10299058_black?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10299058_black_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-pound.svg",
+      "label": "True wireless earbuds"
+    },
+    {
+      "icon": "",
+      "label": "Active noise-cancelling"
+    },
+    {
+      "icon": "",
+      "label": "Battery life: Up to 7 hours (30 hours with case)"
+    },
+    {
+      "icon": "",
+      "label": "Water & sweat resistant (IP57)"
+    }
+  ],
+  "flexpay": {
+    "monthlyAmount": 8.87,
+    "months": 36,
+    "totalPayable": 319.32,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    {
+      "plan": "Breakdown support",
+      "price": 2,
+      "period": "per month"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "SAMSUNG 45w USB-C Fast Charger & USB-C Cable",
+      "price": 31.99,
+      "image": "https://media.currys.biz/i/currysprod/10271743?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get 30% off Samsung Galaxy Buds4 and Buds4 Pro When Bought With any new Samsung S26 mobile phone"
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Enjoy clear, balanced sound with the Galaxy Buds4 Pro. Ultra-High Quality (UHQ) audio gives your favourite albums the space to shine, handling rich detail beautifully so you can pick up subtle layers you might've missed before. The two-way speakers with finely tuned tweeters and woofers make everything sounds fuller, punchier and more alive. Adaptive Noise Cancellation automatically adjusts to your surroundings, shutting out the external chatter and helping you focus on your playlist.",
+    "goodToKnow": [
+      "Live Translate lets you receive real-time translations in 22 languages",
+      "Super wideband calling locks onto your voice to keep conversations crisp",
+      "The metal blade design houses responsive touch controls for volume and playback",
+      "The Galaxy Wearable app lets you customise controls, get updates and check battery levels",
+      "IP57 resistance is built to handle dust, splashes and downpours"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  }
+}

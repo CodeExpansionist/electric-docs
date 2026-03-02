@@ -1,0 +1,88 @@
+{
+  "id": "10283830",
+  "title": "SHARP 1T-C24HD2725KB Roku TV 24\" Smart HD Ready HDR LED TV",
+  "brand": "Sharp",
+  "price": {
+    "current": 119.99,
+    "was": 129.99,
+    "savings": 10
+  },
+  "rating": {
+    "average": 3.8,
+    "count": 23
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10283830?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_010?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_011?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_012?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_013?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_014?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10283830?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_010?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_011?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_012?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_013?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10283830_014?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "screen-size", "label": "Screen size: 24\"" },
+    { "icon": "resolution", "label": "HD Ready 1366 x 768p" },
+    { "icon": "refresh-rate", "label": "Refresh rate: 60 Hz" },
+    { "icon": "hdmi", "label": "HDMI 1.4 x 3" },
+    { "icon": "hdr", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 6.7,
+    "months": 24,
+    "totalPayable": 160.87,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": ["Freely TV"],
+  "specifications": {},
+  "description": {
+    "main": "Discover a world of endless entertainment on this Sharp 24\u201d Roku TV. It's home to your favourite streaming apps, like Netflix, Amazon Prime and Disney+. The simple home screen and easy-to-use remote means you can jump straight into your TV shows and movies. And you can enjoy live TV channels and on-demand with Freely. Because it streams over the internet, there's no aerial, no fees and no hassle. Plus, you can enjoy ultra-smooth action with Active Motion 200, perfect for fast-paced sports and blockbusters.",
+    "goodToKnow": [
+      "Dolby Digital sound tech adds some oomph to movies and TV shows by adding extra channels",
+      "You're sorted for hooking up set top boxes or consoles with HDMI and USB connections",
+      "Catch-up on shows you've missed straight from the TV guide with Freeview Play."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TVs",
+  "energyRating": "E"
+}

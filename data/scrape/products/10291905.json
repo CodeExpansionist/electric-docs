@@ -1,0 +1,81 @@
+{
+  "id": "10291905",
+  "title": "LG QNED70 50\" QNED AI 4K HDR Smart TV 2025 - 50QNED70A6A",
+  "brand": "LG",
+  "price": {
+    "current": 392.41,
+    "was": 399.99,
+    "savings": 7.58
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 65
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10291905?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_009?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10291905?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10291905_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Screen size: 50\"" },
+    { "icon": "", "label": "Refresh rate: 60 Hz" },
+    { "icon": "", "label": "Dynamic QNED colour technology" },
+    { "icon": "", "label": "Smart a7 AI Processor" },
+    { "icon": "", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" },
+    { "icon": "", "label": "HDMI 2.0 x 3" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 10.9,
+    "months": 48,
+    "totalPayable": 523.2,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Installation", "price": 65, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The grass really is greener with the LG QNED70 TV. Colours really pop thanks to Dynamic QNED technology with 100% colour volume. It's not just vibrant, it's true-to-life with a full spectrum of hues that LCD TVs didn't quite nail before. The a7 AI Processor is the brain of the TV. It's hard at work in the background, intelligently boosting the picture and sound of everything you watch. Plus, you'll always get the best picture with AI Brightness Control - it uses the TV's ambient sensor to adapt to the light in the room.",
+    "goodToKnow": [
+      "Enjoy apps like Netflix, Disney+, NOW and Apple TV+ on LG's webOS smart platform",
+      "Easily navigate using the AI Magic Remote and change settings with help from the AI Chatbot",
+      "Filmmaker Mode turns off any picture processing that can make movies look unnatural",
+      "AI Sound Pro transforms 2-channel audio into cinematic virtual 9.1.2 surround sound",
+      "Game Optimiser fine tunes your settings, so your games look and sound their best"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "10286602",
+  "title": "SAMSUNG UE24F6000FKXXU 24\" Smart Full HD HDR LED TV",
+  "brand": "Samsung",
+  "price": {
+    "current": 149,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 59
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10286602?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_006?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_007?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_008?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_009?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10286602?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_006?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_007?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_008?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_009?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10286602_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "screen-size", "label": "Screen size: 24\"" },
+    { "icon": "resolution", "label": "Resolution: Full HD 1920 x 1080p" },
+    { "icon": "refresh-rate", "label": "Refresh rate: 60 Hz" },
+    { "icon": "audio", "label": "Sound technology: Object Tracking Sound Lite" },
+    { "icon": "hdmi", "label": "HDMI ports: 2" }
+  ],
+  "flexpay": {
+    "monthlyAmount": 8.32,
+    "months": 24,
+    "totalPayable": 199.76,
+    "apr": "29.9%"
+  },
+  "careAndRepair": [
+    { "plan": "Installation", "price": 45, "period": "One-time fee" },
+    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "You'll never be stuck for something to watch on this Samsung H6000 24\u201d TV. You'll find films, TV shows, and all your favourite catch-up apps on Samsung's Tizen OS. It all looks great too. Even the blandest of scenes are given a makeover with PurColour, which boosts colours while keeping them looking natural. Plus, sound is more realistic with Object Tracking Sound Lite \u2013 the TV speakers follow the on-screen action.",
+    "goodToKnow": [
+      "Samsung TV Plus gives you instant access to live TV and 1000s shows and movies, for free",
+      "With HDR powered by HDR10+, you'll see more detail, even in extra gloomy or brightly lit scenes",
+      "The modern Slim Look design fits right into your decor",
+      "With Adaptive Sound, audio is customised to what you're watching, from whispered dialogue to explosive action"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TVs",
+  "energyRating": "E"
+}

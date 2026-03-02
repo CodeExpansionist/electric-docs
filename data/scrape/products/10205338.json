@@ -1,0 +1,97 @@
+{
+  "id": "10205338",
+  "title": "VIVANCO Pro Tilt 63 Extra Large Tilting TV Wall Bracket",
+  "brand": "Vivanco",
+  "price": {
+    "current": 56.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 142
+  },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10205338?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10205338_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10205338_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10205338_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10205338?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10205338_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10205338_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10205338_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Fits up to 63\" TVs"
+    },
+    {
+      "icon": "",
+      "label": "Max weight: 45 kg"
+    },
+    {
+      "icon": "",
+      "label": "Tilt: -12\u00b0 to 0\u00b0"
+    },
+    {
+      "icon": "",
+      "label": "VESA up to 600x400"
+    }
+  ],
+  "flexpay": null,
+  "careAndRepair": [
+    {
+      "plan": "Installation",
+      "price": 60,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Installation",
+      "price": 60
+    }
+  ],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "General": {
+      "Colour": "Black",
+      "Maximum TV size": "63\"",
+      "Maximum weight": "45 kg",
+      "VESA compatibility": "Up to 600x400 mm",
+      "Mount type": "Tilting"
+    },
+    "Features": {
+      "Tilt range": "-12\u00b0 to 0\u00b0",
+      "Distance from wall": "56 mm",
+      "Spirit level": "Included"
+    },
+    "Guarantee": {
+      "Manufacturer's guarantee": "2 years"
+    }
+  },
+  "description": {
+    "main": "The Vivanco Pro Tilt 63 Extra Large Tilting TV Wall Bracket provides a secure and stylish mounting solution for TVs up to 63 inches and 45 kg. The tilting function allows you to angle your screen downward by up to 12 degrees to reduce glare and improve viewing comfort. VESA compatible up to 600x400 mm, it fits most large flat-panel TVs. The bracket includes a built-in spirit level and all necessary fixings for straightforward installation.",
+    "goodToKnow": [
+      "Maximum supported weight: 45 kg",
+      "VESA compatible up to 600x400 mm",
+      "Built-in spirit level for easy installation",
+      "All fixings included",
+      "2 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories"
+}

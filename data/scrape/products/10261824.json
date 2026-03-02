@@ -1,0 +1,53 @@
+{
+  "id": "10261824",
+  "title": "JBL Partybox 320 Bluetooth Megasound Party Speaker - Black",
+  "brand": "JBL",
+  "price": { "current": 529, "was": null, "savings": null },
+  "rating": { "average": 4.9, "count": 189 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/M10261824_black?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_005?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_006?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/M10261824_black?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/M10261824_black_006?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    { "icon": "waterproof", "label": "Water resistant" },
+    { "icon": "sound", "label": "JBL Original Pro Sound for powerful audio" },
+    { "icon": "lights", "label": "LED party lights / Karaoke mode" },
+    { "icon": "battery", "label": "Up to 18 hours battery life" }
+  ],
+  "flexpay": { "monthlyAmount": 22.04, "months": 24, "totalPayable": 529, "apr": "0%" },
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "A decent playlist makes a BBQ better. Fact. Indoor or outside, this JBL Partybox gives your music the depth it deserves thanks to its deep bass and JBL Original Pro Sound. When it starts to get dark, it can even put on a lightshow \u2013 the futuristic LED lights sync to the beat of your tunes. You can also customise the strobes and patterns to really get the party vibe going. And even if you lose track of time, it can keep up with you with 18 hours of battery life.",
+    "goodToKnow": [
+      "The IPX4 splashproof rating means you won't need to worry if there's a bit of rain",
+      "Ramp the party up \u2013 the dual mic and guitar inputs mean you can show off your talents",
+      "Customise colours, patterns and update settings with the JBL PartyBox app",
+      "Pair two speakers wirelessly with Auracast for a massive stereo sound",
+      "There's loads of connection options \u2013 choose from Bluetooth, USB or aux-in"
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "category": "Speakers"
+}

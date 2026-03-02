@@ -1,0 +1,54 @@
+{
+  "id": "10284264",
+  "title": "LG XBOOM DXL5 Bluetooth Megasound Party Speaker - Black",
+  "brand": "LG",
+  "price": { "current": 249, "was": 349, "savings": 100 },
+  "rating": { "average": 5, "count": 3 },
+  "images": {
+    "gallery": [
+      "https://media.currys.biz/i/currysprod/10284264?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_001?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_002?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_003?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_004?$l-large$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.currys.biz/i/currysprod/10284264?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_001?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_002?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_003?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_004?$t-thumbnail$&fmt=auto",
+      "https://media.currys.biz/i/currysprod/10284264_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    { "icon": "", "label": "Bluetooth connectivity" },
+    { "icon": "", "label": "Enhances bass for powerful sound" },
+    { "icon": "", "label": "LED party lights / Karaoke mode / DJ mode" },
+    { "icon": "", "label": "200 W output power" },
+    { "icon": "", "label": "Up to 12 hours battery life" },
+    { "icon": "", "label": "USB / Mic input" }
+  ],
+  "flexpay": { "monthlyAmount": 10.09, "months": 36, "totalPayable": 363.24, "apr": "29.9%" },
+  "careAndRepair": [{ "plan": "Breakdown Support", "price": 2, "period": "per month" }],
+  "essentialServices": [],
+  "crossSellProducts": [
+    { "category": "Headphones", "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black", "price": 34.99, "image": "https://media.currys.biz/i/currysprod/M10247634_black?$s-swatch$&fmt=auto" },
+    { "category": "Cables", "title": "SANDSTROM S35RCA23 RCA to 3.5 mm Audio Cable - 1.8 m", "price": 10.99, "image": "https://media.currys.biz/i/currysprod/10236884?$s-swatch$&fmt=auto" }
+  ],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Get the party started with the LG XBOOM DXL5 - a portable speaker that packs a serious punch. With 200 W of output power, it fills any room with rich, body-shaking sound that keeps the energy high. The 6.5\" Giant Woofer gives you deep, powerful bass, while the Dynamic Bass Optimiser keeps it punchy, even at low volume. And add some colour to your tunes with multi colour ring lighting that pulses to the beat, creating a full-on party vibe.",
+    "goodToKnow": [
+      "Plug in a mic or guitar and host your own karaoke night or acoustic set",
+      "Built to go with a rugged build, ergonomic handle, and IPX4 rating",
+      "With up to 12 hours of battery life, the music doesn't stop until you do.",
+      "Fine tune EQ and lighting settings on the LG XBOOM app."
+    ]
+  },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+}

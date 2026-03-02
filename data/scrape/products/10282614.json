@@ -1,0 +1,25 @@
+{
+  "id": "10282614",
+  "title": "SAMSUNG Q7F 43\" QLED 4K Vision AI Smart TV 2025 - QE43Q7F",
+  "brand": "Samsung",
+  "price": { "current": 324.99, "was": 399, "savings": 74.01 },
+  "rating": { "average": 4.7, "count": 591 },
+  "images": {
+    "gallery": ["https://media.currys.biz/i/currysprod/10282614?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_000?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_010?$l-large$&fmt=auto"],
+    "thumbnails": ["https://media.currys.biz/i/currysprod/10282614?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_000?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282614_010?$t-thumbnail$&fmt=auto"],
+    "video": ""
+  },
+  "keySpecs": [{"icon":"ai","label":"Q4 AI Processor"},{"icon":"quantum","label":"100% Colour Volume with real Quantum Dot"},{"icon":"refresh","label":"Refresh rate: 60 Hz"},{"icon":"hdmi","label":"HDMI 1.4 x 3"},{"icon":"smart","label":"Samsung Smart TV has a large choice of apps & services"}],
+  "sizeOptions": [{"size":"43\"","selected":true,"url":"https://www.currys.co.uk/products/samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html"},{"size":"50\"","selected":false,"url":"#"},{"size":"55\"","selected":false,"url":"#"},{"size":"65\"","selected":false,"url":"#"},{"size":"75\"","selected":false,"url":"#"},{"size":"85\"","selected":false,"url":"#"}],
+  "energyRating": { "class": "G" },
+  "flexpay": {"monthlyAmount":13.17,"months":36,"totalPayable":474.12,"apr":"29.9%","buyNowPayLater":[{"months":6,"settleBy":"01 September 2026"}]},
+  "wallBracket": {"text":"Add a wall bracket","product":{"title":"SANDSTROM SELP24 Fixed 43-75\" TV Bracket","price":35.99,"savings":24,"separatePrice":59.99,"image":"https://media.currys.biz/i/currysprod/10249239?$s-swatch$&fmt=auto"}},
+  "careAndRepair": [{"plan":"Breakdown support","price":3.83,"period":"per month"}],
+  "essentialServices": [{"name":"Delivery","price":5.99}],
+  "crossSellProducts": [{"category":"Sound Bar","title":"SAMSUNG HW-B450F/XU 2.1 Wireless Sound Bar with DTS Virtual:X","price":219,"image":"https://media.currys.biz/i/currysprod/10282179?$s-swatch$&fmt=auto"},{"category":"Extension Lead","title":"LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m","price":19.99,"image":"https://media.currys.biz/i/currysprod/10175000?$s-swatch$&fmt=auto"},{"category":"Screen Cleaner","title":"SANDSTROM S150AVC20 Screen Cleaner","price":7.99,"image":"https://media.currys.biz/i/currysprod/10211694?$s-swatch$&fmt=auto"}],
+  "offers": ["Save 20% on selected TV Accessories when bought with this TV. Use code SAVE20TVACCS."],
+  "badges": [],
+  "specifications": {},
+  "description": {"main":"Your content gets the VIP treatment with this Samsung Q7F 43\" TV. Quantum Dots transform light into lifelike, accurate colour for natural looking scenes.","goodToKnow":["Sound is more realistic with Object Tracking Sound Lite.","With Quantum HDR, you can enjoy natural details and depth, even in the darkest of scenes.","You'll find films, TV shows, and all your favourite catch-up apps on Samsung's Tizen OS."]},
+  "deliveryInfo": {"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99}
+}

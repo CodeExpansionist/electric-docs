@@ -1,0 +1,24 @@
+{
+  "id": "10280658",
+  "title": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
+  "brand": "Hisense",
+  "price": { "current": 179, "was": 229, "savings": 50 },
+  "rating": { "average": 4.5, "count": 33 },
+  "images": {
+    "gallery": ["https://media.currys.biz/i/currysprod/10280658?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_011?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_010?$l-large$&fmt=auto"],
+    "thumbnails": ["https://media.currys.biz/i/currysprod/10280658?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_010?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10280658_011?$t-thumbnail$&fmt=auto"],
+    "video": ""
+  },
+  "keySpecs": [{"icon":"","label":"Number of speakers: 8"},{"icon":"","label":"Dolby Atmos & DTS:X"},{"icon":"","label":"Wireless subwoofer & rear speakers"},{"icon":"","label":"Audio power: 580 W"},{"icon":"","label":"Adaptive / optimized audio"},{"icon":"","label":"4K pass-through"},{"icon":"","label":"HDMI / Optical"}],
+  "energyRating": { "class": "" },
+  "flexpay": { "monthlyAmount": 7.25, "months": 36, "totalPayable": 261, "apr": "29.9%" },
+  "wallBracket": { "text": "Upgrade your sound experience", "product": { "title": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos", "price": 179, "savings": 50, "image": "https://media.currys.biz/i/currysprod/10280658?$l-large$&fmt=auto" } },
+  "careAndRepair": [{ "plan": "Breakdown support when you need it", "price": 2, "period": "per month" }],
+  "essentialServices": [],
+  "crossSellProducts": [{"category":"Blu-ray players","title":"PANASONIC DP-UB159EB 4K Ultra HD Blu-ray & DVD Player","price":149.99,"image":"https://media.currys.biz/i/currysprod/10191562?$s-swatch$&fmt=auto"},{"category":"Cables and accessories","title":"SANDSTROM Black Series S2HDM115 High Speed HDMI Cable with Ethernet - 2 m","price":24.99,"image":"https://media.currys.biz/i/currysprod/10132172?$s-swatch$&fmt=auto"}],
+  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "badges": [],
+  "specifications": {},
+  "description": { "main": "The Hisense AX5100Q soundbar delivers a true 5.1 channel surround sound experience, making movies, music, and games more immersive.", "goodToKnow": ["Semi-wireless rear speakers add depth to your audio.","Seven EQ modes let you tailor the sound to your content.","EzPlay lets you control the soundbar with your TV remote."] },
+  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+}
