@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 const data = {
-  text: "Free delivery on orders over \u00A340! Next day delivery available 7 days a week",
+  text: "Take it home today with free order & collect in as little as an hour! Subject to availability.",
   url: "/services/delivery",
 };
 

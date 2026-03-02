@@ -59,21 +59,32 @@ function USPIcon({ type }: { type: string }) {
 
 export default function USPBar() {
   return (
-    <div className="bg-surface border-b border-border pb-0 mb-4">
+    <div className="bg-surface border-b border-border">
       <div className="container-main">
         <div className="flex items-center gap-4 md:gap-0 md:justify-between py-2.5 overflow-x-auto scrollbar-hide">
-          {uspItems.map((item) => (
-            <Link
-              key={item.icon}
-              href={item.url}
-              className="flex items-center gap-2 text-text-primary no-underline hover:text-primary transition-colors flex-shrink-0"
-            >
-              <span className="text-primary flex-shrink-0">
-                <USPIcon type={item.icon} />
-              </span>
-              <span className="text-xs whitespace-nowrap">{item.text}</span>
-            </Link>
-          ))}
+          <div className="flex items-center gap-4 md:gap-6 flex-shrink-0">
+            {uspItems.map((item) => (
+              <Link
+                key={item.icon}
+                href={item.url}
+                className="flex items-center gap-2 text-text-primary no-underline hover:text-primary transition-colors flex-shrink-0"
+              >
+                <span className="text-primary flex-shrink-0">
+                  <USPIcon type={item.icon} />
+                </span>
+                <span className="text-xs whitespace-nowrap">{item.text}</span>
+              </Link>
+            ))}
+          </div>
+          <Link
+            href="#"
+            className="hidden lg:flex items-center gap-2 text-text-primary no-underline hover:text-primary transition-colors flex-shrink-0"
+          >
+            <span className="text-primary flex-shrink-0">
+              <USPIcon type="calendar" />
+            </span>
+            <span className="text-xs whitespace-nowrap">Pay at your pace with Currys flexpay 29.9% APR</span>
+          </Link>
         </div>
       </div>
     </div>

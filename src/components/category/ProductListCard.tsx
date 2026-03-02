@@ -241,16 +241,21 @@ export default function ProductListCard({
           )}
 
           {/* Delivery info */}
-          <div className="space-y-1.5 mb-4">
-            <div className="flex items-center gap-1.5 bg-surface rounded-md px-2.5 py-2">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#007D8A" strokeWidth="2" className="flex-shrink-0">
-                <rect x="1" y="3" width="15" height="13" rx="2" />
-                <path d="M16 8h4l3 3v5h-7V8z" />
-                <circle cx="5.5" cy="18.5" r="2.5" />
-                <circle cx="18.5" cy="18.5" r="2.5" />
+          <div className="space-y-1 mb-4">
+            <div className="flex items-center gap-1.5">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="2.5" className="flex-shrink-0">
+                <polyline points="20 6 9 17 4 12" />
               </svg>
-              <span className="text-xs font-semibold text-text-primary">
-                {deliveryFree ? "Free delivery" : "Delivery available"}
+              <span className="text-xs text-text-secondary">
+                {deliveryFree ? "Delivery available" : "Delivery available"}
+              </span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="2.5" className="flex-shrink-0">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span className="text-xs text-text-secondary">
+                <span className="font-semibold text-text-primary">FREE</span> in-store collection in as little as 1 Hour
               </span>
             </div>
           </div>

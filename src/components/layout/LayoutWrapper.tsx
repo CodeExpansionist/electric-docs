@@ -20,11 +20,11 @@ export default function LayoutWrapper({
 
   if (isCheckout) {
     return (
-      <>
+      <div className="min-h-screen bg-surface">
         <AnnouncementBar />
         <CheckoutHeader />
         <main>{children}</main>
-      </>
+      </div>
     );
   }
 

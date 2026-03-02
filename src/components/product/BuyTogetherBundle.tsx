@@ -168,7 +168,7 @@ export default function BuyTogetherBundle({
             Separate selling price £{separateTotal.toFixed(2)}
           </p>
         </div>
-        <button className="btn-outlined text-sm px-5 py-2.5">
+        <button className="btn-outline text-sm px-5 py-2.5">
           Add bundle to basket
         </button>
       </div>

@@ -40,7 +40,7 @@ function SocialIcon({ platform }: { platform: string }) {
 
 export default function SubFooter() {
   return (
-    <div className="bg-[#2a2a2a] text-gray-400">
+    <div className="bg-[#292929] text-gray-400">
       <div className="container-main py-5">
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-4">
           {/* Privacy links */}

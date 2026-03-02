@@ -3,46 +3,58 @@ import Image from "next/image";
 
 const subcategories = [
   {
-    name: "Televisions",
+    name: "Mobile phones",
+    url: "/tv-and-audio",
+    image: "https://media.currys.biz/i/currysprod/top-cat-mobile-phones-new?fmt=auto&$q-large$",
+  },
+  {
+    name: "TVs",
     url: "/tv-and-audio/televisions/tvs",
     image: "https://media.currys.biz/i/currysprod/top-cat-tvs-all-new?fmt=auto&$q-large$",
   },
   {
-    name: "DVD, Blu-ray & home cinema",
-    url: "/tv-and-audio/dvd-blu-ray-and-home-cinema",
-    image: "https://media.currys.biz/i/currysprod/top-cat-dvd-bluray-cinema?fmt=auto&$q-large$",
+    name: "Laptops",
+    url: "/tv-and-audio",
+    image: "https://media.currys.biz/i/currysprod/top-cat-laptops?fmt=auto&$q-large$",
   },
   {
-    name: "Soundbars",
-    url: "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
-    image: "https://media.currys.biz/i/currysprod/top-uni-sound-bars?fmt=auto&$q-large$",
+    name: "Laundry",
+    url: "/tv-and-audio",
+    image: "https://media.currys.biz/i/currysprod/top-cat-laundry?fmt=auto&$q-large$",
   },
   {
-    name: "HiFi & Speakers",
-    url: "/tv-and-audio/speakers-and-hi-fi-systems",
-    image: "https://media.currys.biz/i/currysprod/top-cat-hifi-speakers?fmt=auto&$q-large$",
+    name: "Console gaming",
+    url: "/tv-and-audio",
+    image: "https://media.currys.biz/i/currysprod/top-cat-console-gaming?fmt=auto&$q-large$",
   },
   {
-    name: "TV accessories",
-    url: "/tv-and-audio/tv-accessories",
-    image: "https://media.currys.biz/i/currysprod/top-cat-tv-acc?fmt=auto&$q-large$",
-  },
-  {
-    name: "Digital & smart TV",
-    url: "/tv-and-audio/digital-and-smart-tv",
-    image: "https://media.currys.biz/i/currysprod/top-cat-digital-smart-tv?fmt=auto&$q-large$",
+    name: "Health & beauty",
+    url: "/tv-and-audio",
+    image: "https://media.currys.biz/i/currysprod/top-cat-health-beauty?fmt=auto&$q-large$",
   },
   {
     name: "Headphones",
     url: "/tv-and-audio/headphones/headphones",
     image: "https://media.currys.biz/i/currysprod/top-cat-headphones?fmt=auto&$q-large$",
   },
+  {
+    name: "Vacuum cleaners",
+    url: "/tv-and-audio",
+    image: "https://media.currys.biz/i/currysprod/top-cat-vacuum-cleaners?fmt=auto&$q-large$",
+  },
 ];
 
 export default function ShopDeals() {
   return (
-    <section className="py-6 md:py-8 border-b border-border">
+    <section className="py-6 md:py-8">
       <div className="container-main">
+        {/* Flexpay credit line */}
+        <p className="text-[10px] text-text-muted text-center mb-5 leading-tight">
+          *Representative example based on the use of your ongoing credit account: 29.9% APR Representative (variable). 29.9% interest rate (variable). Assumed credit limit: £1,200.
+        </p>
+
+        <h2 className="text-xl md:text-2xl font-bold text-text-primary text-center mb-6">Shop deals</h2>
+
         {/* Mobile: horizontal scroll showing ~4.5 items. Desktop: all items fit in a row */}
         <div className="flex items-start gap-2 sm:gap-3 md:gap-4 overflow-x-auto scrollbar-hide
                         md:overflow-visible md:justify-between px-1">
