@@ -1,0 +1,291 @@
+{
+  "categoryName": "TV Wall Brackets",
+  "categorySlug": "tv-accessories/tv-wall-brackets-and-stands/tv-wall-brackets",
+  "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories/tv-wall-brackets",
+  "scrapedAt": "2026-03-06T15:46:54.086Z",
+  "totalProducts": 9,
+  "siteReportedTotal": 345,
+  "coverageNote": "SPA pagination: site reports 345, captured 9 from first page",
+  "filters": [],
+  "products": [
+    {
+      "productId": "10138713",
+      "name": "LOGIK LFS16 Fixed 10-26\" TV Bracket",
+      "brand": "LOGIK",
+      "url": "https://www.currys.co.uk/products/logik-lfs16-fixed-1026-tv-bracket-10138713.html",
+      "price": {
+        "current": 9.99,
+        "was": 19.99,
+        "savings": 10,
+        "savingsPercent": 50,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.2,
+        "count": 37
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10138713?$g-small$&fmt=auto",
+      "keySpecs": [
+        "For 10 - 26\" Televisions",
+        "Max. VESA compliance: 100 x 100",
+        "Min. VESA compliance: 75 x 75",
+        "Max. supported weight: 25 kg"
+      ],
+      "badges": [
+        "Save 20% on selected TV Accessories when bought with any TV."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10138716",
+      "name": "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket",
+      "brand": "LOGIK",
+      "url": "https://www.currys.co.uk/products/logik-lcs16-tilt-and-swivel-1332-tv-bracket-10138716.html",
+      "price": {
+        "current": 14.99,
+        "was": 29.99,
+        "savings": 15,
+        "savingsPercent": 50,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 132
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10138716?$g-small$&fmt=auto",
+      "keySpecs": [
+        "For 13 - 32\" Televisions",
+        "Max. VESA compliance: 200 x 200",
+        "Min. VESA compliance: 75 x 75",
+        "Max. supported weight: 20 kg",
+        "Cable management"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 20% on selected TV Accessories when bought with any TV."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10138718",
+      "name": "LOGIK LFML16 Full Motion 32-50\" TV Bracket",
+      "brand": "LOGIK",
+      "url": "https://www.currys.co.uk/products/logik-lfml16-full-motion-3250-tv-bracket-10138718.html",
+      "price": {
+        "current": 99.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 4.05
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 210
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10138718?$g-small$&fmt=auto",
+      "keySpecs": [
+        "For 32 - 50\" Televisions",
+        "Max. VESA compliance: 600 x 400",
+        "Min. VESA compliance: 200 x 200",
+        "Max. supported weight: 35 kg",
+        "Cable management",
+        "Includes spirit level"
+      ],
+      "badges": [
+        "Save 20% on selected TV Accessories when bought with any TV."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10187493",
+      "name": "SANDSTROM STM19 Tilt 32-47\" TV Bracket",
+      "brand": "SANDSTROM",
+      "url": "https://www.currys.co.uk/products/sandstrom-stm19-tilt-3247-tv-bracket-10187493.html",
+      "price": {
+        "current": 39.99,
+        "was": 79.99,
+        "savings": 40,
+        "savingsPercent": 50,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 29
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10187493?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Tilts up & down",
+        "Max. VESA compliance: 400 x 400",
+        "Min. VESA compliance: 100 x 100",
+        "Max. supported weight: 30 kg",
+        "Includes spirit level / wall template"
+      ],
+      "badges": [
+        "Save 20% on selected TV Accessories when bought with any TV."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10174997",
+      "name": "SANDSTROM SFMGM18 Full Motion 32-55\" TV Bracket",
+      "brand": "SANDSTROM",
+      "url": "https://www.currys.co.uk/products/sandstrom-sfmgm18-full-motion-3255-tv-bracket-10174997.html",
+      "price": {
+        "current": 79.99,
+        "was": 149,
+        "savings": 69.01,
+        "savingsPercent": 46.27,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 102
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10174997?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Extends / tilts / pans / swivels in all directions",
+        "Max. VESA compliance: 400 x 400",
+        "Min. VESA compliance: 100 x 100",
+        "Max. supported weight: 20 kg",
+        "Cable management",
+        "3 year guarantee"
+      ],
+      "badges": [
+        "Save 20% on selected TV Accessories when bought with any TV."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "21899164",
+      "name": "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket",
+      "brand": "SANDSTROM",
+      "url": "https://www.currys.co.uk/products/sandstrom-stl14-tilt-42-75-tv-bracket-21899164.html",
+      "price": {
+        "current": 49.99,
+        "was": 99.99,
+        "savings": 50,
+        "savingsPercent": 50,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 333
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/21899164?$g-small$&fmt=auto",
+      "keySpecs": [
+        "For 42 - 75\" Televisions",
+        "Max. VESA compliance: 600 x 400",
+        "Max. supported weight: 50 kg",
+        "Cable management"
+      ],
+      "badges": [
+        "Save 20% on selected TV Accessories when bought with any TV."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10138712",
+      "name": "LOGIK LFM16 Fixed TV Bracket for up to 43\" TVs",
+      "brand": "LOGIK",
+      "url": "https://www.currys.co.uk/products/logik-lfm16-fixed-tv-bracket-for-up-to-43-tvs-10138712.html",
+      "price": {
+        "current": 19.99,
+        "was": 39.99,
+        "savings": 20,
+        "savingsPercent": 50,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 210
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10138712?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Max. VESA compliance: 400 x 400",
+        "Min. VESA compliance: 75 x 75",
+        "Max. supported weight: 15 kg",
+        "Includes spirit level"
+      ],
+      "badges": [
+        "Save 20% on selected TV Accessories when bought with any TV."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10249239",
+      "name": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "brand": "SANDSTROM",
+      "url": "https://www.currys.co.uk/products/sandstrom-selp24-fixed-4375-tv-bracket-10249239.html",
+      "price": {
+        "current": 59.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 12
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10249239?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Fixed in set position",
+        "Max. VESA compliance: 400 x 400",
+        "Min. VESA compliance: 200 x 200",
+        "Max. supported weight: 65 kg"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 20% on selected TV Accessories when bought with any TV."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10258024",
+      "name": "ONE FOR ALL Ultraslim WM6454 Full Motion 32-77\" TV Bracket",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-ultraslim-wm6454-full-motion-3277-tv-bracket-10258024.html",
+      "price": {
+        "current": 169.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 6.88
+      },
+      "rating": {
+        "average": 5,
+        "count": 3
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10258024?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Extends / tilts / swivels in all directions",
+        "Max. VESA compliance: 400 x 400",
+        "Min. VESA compliance: 200 x 100",
+        "Max. supported weight: 40 kg",
+        "Cable management",
+        "Includes spirit level / drill template",
+        "Lifetime guarantee"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    }
+  ]
+}

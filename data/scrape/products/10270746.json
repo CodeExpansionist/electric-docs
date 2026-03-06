@@ -4,8 +4,8 @@
   "brand": "Sonos",
   "price": {
     "current": 999,
-    "was": 999,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.8,
@@ -13,47 +13,55 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10270732_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_012?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_012?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10270732_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10270732_black_011?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10270732_black_011?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
-    { "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-dolby-atmos.svg", "label": "Dolby Atmos" },
-    { "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-audio.svg", "label": "Adaptive / optimized audio" },
-    { "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-high-res-audio.svg", "label": "Supports High-Resolution Audio" },
-    { "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-multi-room.svg", "label": "Compatible with SONOS multi-room" }
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-dolby-atmos.svg",
+      "label": "Dolby Atmos"
+    },
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-audio.svg",
+      "label": "Adaptive / optimized audio"
+    },
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-high-res-audio.svg",
+      "label": "Supports High-Resolution Audio"
+    },
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-multi-room.svg",
+      "label": "Compatible with SONOS multi-room"
+    }
   ],
-  "energyRating": { "class": "" },
-  "flexpay": {
-    "monthlyAmount": 40.48,
-    "months": 36,
-    "totalPayable": 1457.28,
-    "apr": "29.9%"
+  "energyRating": {
+    "class": ""
   },
   "wallBracket": {
     "text": "Recommended Wall Mount",
@@ -65,24 +73,34 @@
     }
   },
   "careAndRepair": [
-    { "plan": "Breakdown support", "price": 3.5, "period": "monthly" }
+    {
+      "plan": "Breakdown support",
+      "price": 3.5,
+      "period": "monthly"
+    }
   ],
   "essentialServices": [
-    { "name": "Delivery", "price": 5.99 },
-    { "name": "Collection from store", "price": 0 }
+    {
+      "name": "Delivery",
+      "price": 5.99
+    },
+    {
+      "name": "Collection from store",
+      "price": 0
+    }
   ],
   "crossSellProducts": [
     {
       "category": "Soundbars",
       "title": "SONOS Era 100 Wireless Multi-room Speaker with Amazon Alexa - White",
       "price": 199,
-      "image": "https://media.currys.biz/i/currysprod/10247701?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10247701?$s-swatch$&fmt=auto"
     },
     {
       "category": "Cables",
       "title": "SANDSTROM Gold Series S3HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 3 m",
       "price": 49.99,
-      "image": "https://media.currys.biz/i/currysprod/10218584?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10218584?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -103,5 +121,6 @@
     "freeDelivery": true,
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
-  }
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

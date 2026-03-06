@@ -1,0 +1,31 @@
+{
+  "url": "/services/mobile-insurance",
+  "pageTitle": "Mobile Insurance",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Services",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "Mobile Insurance",
+      "url": "/services/mobile-insurance"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Protect your mobile",
+      "content": "Comprehensive mobile phone insurance covering accidental damage, theft, loss, and breakdown. Worldwide cover included as standard.",
+      "type": "text"
+    },
+    {
+      "heading": "What's included",
+      "content": "Cracked screen repair, accidental damage, theft and loss cover, worldwide protection, and unlimited claims. Same-day screen repair available at selected stores.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

@@ -1,0 +1,62 @@
+{
+  "url": "/services/delivery",
+  "pageTitle": "Delivery & collection",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Services",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "Delivery & collection",
+      "url": "/services/delivery"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Collect from your local store in as little as an hour or book a delivery slot",
+      "content": "Subject to availability.",
+      "type": "text"
+    },
+    {
+      "heading": "Small items",
+      "content": "Just about everything but the kitchen sink! Doesn't include major kitchen & laundry appliances, and TVs over 43\".\n\nStandard delivery — get it in 3-5 working days:\n• Orders over £40: All-day delivery, FREE\n• Orders under £40: All-day delivery, £3.99\n\nNext-day delivery — get it next-day, 7 days a week:\n• All-day delivery, order by 9pm: £5.99\n• Weekday time slot from 12noon-5pm, order by 9pm: £9.99\n• Weekend all-day delivery, order by 9pm: £6.99\n• Weekend time slot, morning before noon, order by 9pm: £10.99\n\nYour delivery courier will let you know once your order is dispatched. Deliveries are between 8am & 8pm. We don't deliver on bank holidays.",
+      "type": "text"
+    },
+    {
+      "heading": "Large items",
+      "content": "Major appliances like dishwashers, washing machines, fridge freezers, and TVs over 43\".\n\nStandard delivery — get it in 4 working days:\n• All-day delivery from 7am-8pm, order anytime: From £20\n• Choose a time slot: 7am-11am, 9am-1pm, 11am-3pm, 1pm-5pm, order anytime: From £35\n\nNext-day delivery — get it next day, 7 days a week:\n• All-day delivery from 7am-8pm, order by 7pm: From £30\n• Choose a time slot, order by 7pm: From £45\n\nWe don't deliver on bank holidays. Sometimes, because of things like bad weather, your delivery may be delayed.",
+      "type": "text"
+    },
+    {
+      "heading": "Collection",
+      "content": "Not around to accept a delivery? With almost 300 stores nationwide, you can order online and pick up your item(s) for FREE. If it's in stock, you can pick it up on the same day. If it's not in stock at your selected store, you can send it there for pick-up on a day that suits you.",
+      "type": "text"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I speak to someone about my Electriz order?",
+      "answer": "You can track your order via your order confirmation. You can also go to your online account, and track it here. If you still need help, you can use our Webchat."
+    },
+    {
+      "question": "Can I change my delivery date or address after I placed my Electriz order?",
+      "answer": "You can't change your delivery address after you've placed your order. But if you've ordered a large item, you can change your delivery date."
+    },
+    {
+      "question": "My Electriz order hasn't arrived yet. Where is it?",
+      "answer": "You can track your large-item order via your order confirmation. You can also go to your online account, and track it here."
+    },
+    {
+      "question": "What should I do if I miss my Electriz delivery?",
+      "answer": "For large-item delivery, we'll contact you when we're near you. If you're not in when we arrive, we'll wait a few minutes for you."
+    },
+    {
+      "question": "Do you deliver on public holidays?",
+      "answer": "For large items, we deliver to most areas 7 days a week (except Easter Sunday, Christmas Day, Boxing Day, and New Year's Day). For small items, a courier delivers on our behalf to most areas 7 days a week (except bank holidays)."
+    }
+  ]
+}

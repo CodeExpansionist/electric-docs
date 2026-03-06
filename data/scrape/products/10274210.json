@@ -1,0 +1,113 @@
+{
+  "id": "10274210",
+  "title": "HISENSE C2TUK 4K Smart Mini Projector - Grey",
+  "brand": "Hisense",
+  "price": {
+    "current": 999,
+    "was": 1299,
+    "savings": 300
+  },
+  "rating": {
+    "average": 5,
+    "count": 2
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10274210?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10274210?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274210_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "IMAX Enhanced"
+    },
+    {
+      "icon": "",
+      "label": "Built-in JBL speaker & DTS Virtual:"
+    },
+    {
+      "icon": "",
+      "label": "Screen size:"
+    },
+    {
+      "icon": "",
+      "label": "Catch-up TV & streaming on VIDAA OS"
+    },
+    {
+      "icon": "",
+      "label": "HDR:"
+    },
+    {
+      "icon": "",
+      "label": "Connectivity:"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 11.99,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [
+    "Get £100 off this TV when you trade-in any old TV. Use TRADETV100 and select Recycling at checkout.+3 more offers"
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Experience stunning visuals with the HISENSE C2TUK 4K Smart Mini Projector - Grey. Featuring imax enhanced, built-in jbl speaker & dts virtual:, screen size:, this Hisense TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

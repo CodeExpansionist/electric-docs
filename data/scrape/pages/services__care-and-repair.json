@@ -1,0 +1,57 @@
+{
+  "url": "/services/care-and-repair",
+  "pageTitle": "Care & Repair",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Services",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "Care & Repair",
+      "url": "/services/care-and-repair"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Why Care & Repair",
+      "content": "Breakdown support when you need it. Whether it's a fault or electrical problem - if your tech breaks down, we'll fix it. The 7 Day Fix Promise ensures that if it takes more than 7 calendar days, you can request a replacement. If we can't repair it, we'll give you an Electriz gift card to replace it. If your tech has already had two repairs and breaks down again, you can ask for a replacement. No extra costs for parts, labour, and call outs!",
+      "type": "info"
+    },
+    {
+      "heading": "Price breakdown",
+      "content": "Care & Repair offers a variety of plans to support your product for a set period of time - 2, 3 or 5 years. You can also set up a monthly direct debit, which can be canceled at any time. Benefits vary by product category.",
+      "type": "info"
+    },
+    {
+      "heading": "Offers",
+      "content": "Save with our latest Care & Repair offers. Unmissable offers are available to keep your tech amazing!",
+      "type": "info"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why Care & Repair?",
+      "answer": "Care & Repair provides support in the event of unexpected mechanical or electrical breakdown affecting the product's operation."
+    },
+    {
+      "question": "What is the 7 Day Fix Promise?",
+      "answer": "If it takes us more than 7 calendar days to repair your product, you can request a replacement."
+    },
+    {
+      "question": "How long after buying a product do I have to take out a Care & Repair?",
+      "answer": "Care & Repair can be offered in-store for products up to 12 months old, provided they are fully functional."
+    },
+    {
+      "question": "Can I pay in instalments?",
+      "answer": "Yes, for Pay Monthly plans, a direct debit runs continuously until canceled, or upfront plans can be paid in full or over 10 instalments."
+    },
+    {
+      "question": "Are there any excess charges?",
+      "answer": "No, no additional charges are associated with Care & Repair plans."
+    }
+  ]
+}

@@ -1,1 +1,103 @@
-{"id":"10289112","title":"PHILIPS The Xtra MLED950 65\" QD-Mini LED 4K HDR Ambilight Smart TV with Freely - 65MLED950/12","brand":"PHILIPS","price":{"current":1199,"was":1299,"savings":100},"rating":{"average":4.8,"count":4},"images":{"gallery":["https://media.currys.biz/i/currysprod/10289112?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10289112?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10289112_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"Refresh rate: 144 Hz"},{"icon":"","label":"HDMI 2.1 x 4"},{"icon":"","label":"2 year guarantee"},{"icon":"","label":"Discover new shows & stream content on Titan OS"}],"flexpay":{"monthlyAmount":43.1,"months":48,"totalPayable":2068.87,"apr":"29.9%"},"careAndRepair":[{"plan":"Care & Repair","price":14.39,"period":"per month","mostPopular":true},{"plan":"Installation","price":65,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":["Dolby Vision Atmos","Freely TV"],"specifications":{},"description":{"main":"Experience stunning visuals with the PHILIPS The Xtra MLED950 65\" QD-Mini LED 4K HDR Ambilight Smart TV with Freely - 65MLED950/12. Featuring refresh rate: 144 hz, hdmi 2.1 x 4, 2 year guarantee, this PHILIPS TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":9.99,"standardDeliveryDays":"3-5"},"category":"TVs","energyRating":"F"}
+{
+  "id": "10289112",
+  "title": "PHILIPS The Xtra MLED950 65\" QD-Mini LED 4K HDR Ambilight Smart TV with Freely - 65MLED950/12",
+  "brand": "PHILIPS",
+  "price": {
+    "current": 1199,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 4
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10289112?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10289112?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10289112_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Refresh rate: 144 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.1 x 4"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    },
+    {
+      "icon": "",
+      "label": "Discover new shows & stream content on Titan OS"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 14.39,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [
+    "Dolby Vision Atmos",
+    "Freely TV"
+  ],
+  "specifications": {},
+  "description": {
+    "main": "Experience stunning visuals with the PHILIPS The Xtra MLED950 65\" QD-Mini LED 4K HDR Ambilight Smart TV with Freely - 65MLED950/12. Featuring refresh rate: 144 hz, hdmi 2.1 x 4, 2 year guarantee, this PHILIPS TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "energyRating": "F",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

@@ -1,0 +1,22 @@
+{
+  "url": "/carphone-warehouse",
+  "pageTitle": "Carphone Warehouse",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Carphone Warehouse",
+      "url": "/carphone-warehouse"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Carphone Warehouse",
+      "content": "Find the latest mobile phone deals, SIM-only contracts, and accessories. Compare deals from all major UK networks and find the perfect plan for you.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

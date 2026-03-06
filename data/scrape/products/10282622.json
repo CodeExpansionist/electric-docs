@@ -3,9 +3,9 @@
   "title": "SAMSUNG Q8F 65\" QLED 4K Vision AI Smart TV 2025 - QE65Q8F",
   "brand": "Samsung",
   "price": {
-    "current": 849,
-    "was": 0,
-    "savings": 0
+    "current": 749,
+    "was": 849,
+    "savings": 100
   },
   "rating": {
     "average": 4.4,
@@ -13,53 +13,78 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10282622?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_000?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10282622?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_000?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10282622?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_000?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282622_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10282622?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_000?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282622_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "screen-size", "label": "Screen size: 65\"" },
-    { "icon": "processor", "label": "Q4 AI Processor" },
-    { "icon": "display", "label": "100% Colour Volume with real Quantum Dot" },
-    { "icon": "refresh-rate", "label": "Refresh rate: 60 Hz" },
-    { "icon": "hdmi", "label": "HDMI 2.1 x 3" },
-    { "icon": "guarantee", "label": "5 year guarantee" }
+    {
+      "icon": "screen-size",
+      "label": "Screen size: 65\""
+    },
+    {
+      "icon": "processor",
+      "label": "Q4 AI Processor"
+    },
+    {
+      "icon": "display",
+      "label": "100% Colour Volume with real Quantum Dot"
+    },
+    {
+      "icon": "refresh-rate",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "hdmi",
+      "label": "HDMI 2.1 x 3"
+    },
+    {
+      "icon": "guarantee",
+      "label": "5 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 30.52,
-    "months": 48,
-    "totalPayable": 1464.95,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 10.19, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 65, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 10.19,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -73,7 +98,7 @@
       "The AirSlim Design is made to look good from any angle with a clean back and simple cable solution",
       "Quantum HDR+ throws you right into lifelike action and lets you see every little detail in amazing clarity",
       "You'll find films, TV shows, and all your favourite catch-up apps on Samsung's Tizen OS",
-      "Play 1000s of Xbox titles and other games on the Samsung Gaming Hub \u2013 no downloads, no console, no fuss"
+      "Play 1000s of Xbox titles and other games on the Samsung Gaming Hub – no downloads, no console, no fuss"
     ]
   },
   "deliveryInfo": {
@@ -81,5 +106,6 @@
     "standardDeliveryPrice": 0,
     "nextDayDeliveryPrice": 9.99
   },
-  "category": "TVs"
+  "category": "TVs",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

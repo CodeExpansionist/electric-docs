@@ -13,49 +13,65 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10250360?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10250360?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10250360?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250360_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10250360?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250360_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "MiniLED backlight for stunning contrast and brightness" },
-    { "icon": "", "label": "Refresh rate: 120 Hz" },
-    { "icon": "", "label": "HDMI 2.1 x 2" },
-    { "icon": "", "label": "Amazon Alexa built-in" },
-    { "icon": "", "label": "2 year guarantee" },
-    { "icon": "", "label": "HDR10+ / Dolby Vision / HLG" }
+    {
+      "icon": "",
+      "label": "MiniLED backlight for stunning contrast and brightness"
+    },
+    {
+      "icon": "",
+      "label": "Refresh rate: 120 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.1 x 2"
+    },
+    {
+      "icon": "",
+      "label": "Amazon Alexa built-in"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    },
+    {
+      "icon": "",
+      "label": "HDR10+ / Dolby Vision / HLG"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 12.47,
-    "months": 48,
-    "totalPayable": 598.56,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Installation", "price": 65, "period": "One-time fee" }
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],

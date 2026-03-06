@@ -13,20 +13,20 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10225463?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_005?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10225463?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_005?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10225463?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10225463_005?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10225463?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10225463_005?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
@@ -48,12 +48,6 @@
       "label": "Walnut finish"
     }
   ],
-  "flexpay": {
-    "monthlyAmount": 28.32,
-    "months": 36,
-    "totalPayable": 1019.52,
-    "apr": "29.9%"
-  },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],

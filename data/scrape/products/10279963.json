@@ -1,0 +1,41 @@
+{
+  "brand": "IFI",
+  "url": "/products/ifi-ipower2-power-supply-adapter-2.0amps-10279963.html",
+  "price": {
+    "current": 79.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": null,
+    "count": null
+  },
+  "images": {
+    "gallery": [
+      "https://cdn.media.amplience.net/i/electrizprod/10279963?$g-small$&fmt=auto"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [
+    "Approved third-party delivery - estimated 3-5 working days",
+    "Collection not available"
+  ],
+  "badges": [],
+  "energyRating": null,
+  "id": "10279963",
+  "title": "IFI iPower2 Power Supply Adapter - 2.0Amps"
+}

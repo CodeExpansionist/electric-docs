@@ -1,85 +1,78 @@
 {
-  "id": "10289651",
-  "title": "HISENSE UX 116\" Tri-Chroma RGB Mini LED Smart AI TV with Freely - 116UXQTUK",
-  "brand": "HISENSE",
+  "brand": "Hisense",
   "price": {
     "current": 19999,
     "was": 24999,
     "savings": 5000
   },
   "rating": {
-    "average": 5,
-    "count": 2
+    "average": 0,
+    "count": 0
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10289651?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_011?$l-large$&fmt=auto"
+      "https://cdn.media.amplience.net/i/electrizprod/10289651?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_001?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_002?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_003?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_004?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_005?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_006?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_007?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_008?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_009?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_010?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_011?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10289651?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10289651_011?$t-thumbnail$&fmt=auto"
-    ],
-    "video": null
+      "https://cdn.media.amplience.net/i/electrizprod/10289651?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_001?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_002?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_003?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_004?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_005?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_006?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_007?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_008?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_009?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_010?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10289651_011?$t-thumbnail$&fmt=auto"
+    ]
   },
-  "keySpecs": [
-    { "icon": "", "label": "RGB Mini-LED with up to 8000 nits peak brightness" },
-    { "icon": "", "label": "Powerful AI processing with Hi-View AI Engine X" },
-    { "icon": "", "label": "Refresh rate: 120 Hz (up to 165 Hz)" },
-    { "icon": "", "label": "HDMI 2.1 x 3" },
-    { "icon": "", "label": "Claim a 5 year guarantee" },
-    { "icon": "", "label": "Freely: Stream live & on demand TV for free" }
-  ],
-  "flexpay": {
-    "monthlyAmount": 555.53,
-    "months": 48,
-    "totalPayable": 26665.44,
-    "apr": "29.9%"
-  },
+  "keySpecs": [],
   "careAndRepair": [
-    { "plan": "Installation", "price": 65, "period": "One-time fee" }
+    {
+      "plan": "Install TV to stand",
+      "price": 45,
+      "period": "one-time",
+      "mostPopular": false
+    }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
-  "offers": [],
+  "crossSellProducts": [
+    {
+      "productId": "10280628",
+      "name": "HISENSE HT Saturn 4.1.2 Sound Bar",
+      "price": 999
+    }
+  ],
+  "offers": [
+    "Get £250 off this TV when you trade-in any old TV."
+  ],
   "badges": [],
   "specifications": {},
   "description": {
-    "main": "Experience colour like never before with this Hisense UX 116\" TV. RGB MiniLED technology pushes brightness and contrast to new heights, creating vivid, lifelike visuals. With peak brightness hitting 8000 nits, it's perfect for movies, gaming, and everything in between. The Hi-View AI Engine X learns as it goes, tweaking picture and sound for whatever you're watching.",
-    "goodToKnow": [
-      "The 165 Hz Game Mode Ultra with FreeSync Premium Pro keeps gameplay ultra-smooth",
-      "Anti-Reflection PRO keeps the picture crisp and clear, day or night",
-      "The 116 degree wide viewing angle means everyone gets the best view, wherever they're sitting",
-      "Dolby Atmos creates a 3D audio experience, so every whisper, beat, and explosion feels real",
-      "Dynamic Tone Mapping PRO delivers deeper contrast, sharper clarity, and richer depth",
-      "Freely brings you live TV channels and on-demand content over WiFi - no aerial needed"
-    ]
+    "main": "Experience colour like never before with this Hisense UX 116\" TV."
   },
   "deliveryInfo": {
-    "freeDelivery": true,
-    "standardDeliveryPrice": 0,
-    "nextDayDeliveryPrice": 9.99,
-    "standardDeliveryDays": "3-5"
+    "freeDelivery": true
   },
-  "category": "TVs"
+  "category": "TVs",
+  "energyRating": "D",
+  "id": "10289651",
+  "title": "HISENSE UX 116\" Tri-Chroma RGB Mini LED Smart AI TV with Freely - 116UXQTUK",
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "galleryImages": [
+    "https://cdn.media.amplience.net/i/electrizprod/10289651?$l-large$&fmt=auto"
+  ]
 }

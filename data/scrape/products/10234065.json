@@ -4,50 +4,64 @@
   "brand": "ROKU",
   "price": {
     "current": 49.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.7,
-    "count": 1105
+    "count": 105
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10234065?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10234065?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10234065?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234065_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10234065?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234065_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Stream 4K HDR content to your TV" },
-    { "icon": "", "label": "Works with Amazon Alexa / Google Assistant / Siri" },
-    { "icon": "", "label": "WiFi" },
-    { "icon": "", "label": "Screen casting" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "",
+      "label": "Stream 4K HDR content to your TV"
+    },
+    {
+      "icon": "",
+      "label": "Works with Amazon Alexa / Google Assistant / Siri"
+    },
+    {
+      "icon": "",
+      "label": "WiFi"
+    },
+    {
+      "icon": "",
+      "label": "Screen casting"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -68,5 +82,6 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "Digital Smart TV"
+  "category": "Digital & Smart TV",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

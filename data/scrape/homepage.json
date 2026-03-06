@@ -1,7 +1,7 @@
 {
   "announcementBar": {
     "text": "Take it home today with free order & collect in as little as an hour! Subject to availability",
-    "url": "https://www.currys.co.uk/store-finder"
+    "url": "https://www.electriz.co.uk/store-finder"
   },
   "secondaryNav": [
     { "text": "Help & Support", "url": "/help-and-support.html" },
@@ -11,10 +11,10 @@
     { "text": "Spread the cost", "url": "/services/ways-to-pay/flexible-credit.html" },
     { "text": "Gift cards", "url": "/services/ways-to-pay/gift-cards.html" },
     { "text": "TechTalk", "url": "/techtalk.html" },
-    { "text": "Business", "url": "https://business.currys.co.uk/" }
+    { "text": "Business", "url": "https://business.electriz.co.uk/" }
   ],
   "header": {
-    "logoUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw12db0942/images/brand-currys-logo.svg",
+    "logoUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dw12db0942/images/brand-electriz-logo.svg",
     "searchPlaceholder": "Search",
     "utilityIcons": [
       { "label": "Stores", "icon": "stores" },
@@ -28,55 +28,55 @@
       "text": "Appliances",
       "url": "/appliances",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw6d94bf49/images/category-icons/appliances.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dw6d94bf49/images/category-icons/appliances.svg"
     },
     {
       "text": "TV & Audio",
       "url": "/tv-and-audio",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw0b9dff8d/images/category-icons/tv_1.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dw0b9dff8d/images/category-icons/tv_1.svg"
     },
     {
       "text": "Computing",
       "url": "/computing",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwf00b6a86/images/category-icons/computing.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dwf00b6a86/images/category-icons/computing.svg"
     },
     {
       "text": "Gaming",
       "url": "/gaming",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwf5168161/images/category-icons/gaming_1.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dwf5168161/images/category-icons/gaming_1.svg"
     },
     {
       "text": "Health & Beauty",
       "url": "/health-and-beauty",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw64cc7d20/images/category-icons/hairdryer.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dw64cc7d20/images/category-icons/hairdryer.svg"
     },
     {
       "text": "Phones",
       "url": "/phones",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw784d512f/images/category-icons/mobile_2.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dw784d512f/images/category-icons/mobile_2.svg"
     },
     {
       "text": "Smart Tech",
       "url": "/smart-tech",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwf78a4b6e/images/category-icons/smart-tech_2.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dwf78a4b6e/images/category-icons/smart-tech_2.svg"
     },
     {
       "text": "Home & Outdoor",
       "url": "/home-and-outdoor",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwe62b304d/images/category-icons/home-outdoor.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dwe62b304d/images/category-icons/home-outdoor.svg"
     },
     {
       "text": "Gifts",
       "url": "/gifts",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dwd89e864f/images/category-icons/gifting.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dwd89e864f/images/category-icons/gifting.svg"
     },
     {
       "text": "Clearance",
@@ -88,7 +88,7 @@
       "text": "Deals",
       "url": "/deals",
       "hasIcon": true,
-      "iconUrl": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw42b8389d/images/category-icons/deals-icon.svg"
+      "iconUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dw42b8389d/images/category-icons/deals-icon.svg"
     },
     {
       "text": "Services",
@@ -121,56 +121,63 @@
     },
     {
       "icon": "calendar-svg",
-      "text": "Pay at your pace with Currys flexpay",
+      "text": "Pay at your pace with Electriz flexpay",
       "url": "/services/ways-to-pay/flexible-credit.html"
     }
   ],
   "heroCarousel": [
     {
-      "imageAlt": "Sony TV trade-in",
-      "url": "/deals-on-tv-and-audio/trade-in-tv-offers",
-      "linkTitle": "Sony TV trade-in"
+      "imageUrl": "https://media.currys.biz/i/currysprod/apple-to-macbook-neo-logo",
+      "imageAlt": "MacBook Neo logo",
+      "headline": "Amazing Mac. Surprising price.",
+      "subheadline": "Pre-order MacBook Neo from £599.",
+      "ctaText": "Pre-order Apple MacBook Neo",
+      "url": "/deals-on-computing/apple-macbook-neo",
+      "linkTitle": "MacBook Neo"
     },
     {
-      "imageAlt": "Mother's Day gifts",
-      "url": "/gifting/gifts-by-occasion/mothers-day-gifts",
-      "linkTitle": "Mother's Day gifts"
+      "imageUrl": "https://media.currys.biz/i/currysprod/wk44-apple-to-macbook-air-desktop.png?v7",
+      "imageAlt": "Might takes flight. Save up to £400 when you trade in your old Mac",
+      "headline": "Might takes flight.",
+      "subheadline": "Save up to £400 when you trade in your old Mac.",
+      "ctaText": "Pre-order now",
+      "url": "/deals-on-computing/apple-macbook-air-2026",
+      "linkTitle": "MacBook Air"
     },
     {
-      "imageAlt": "Lenovo AI laptops",
-      "url": "/deals-on-computing/deals-on-ai-laptops",
-      "linkTitle": "Lenovo AI laptops"
+      "imageUrl": "https://media.currys.biz/i/currysprod/wk44-apple-to-macbook-pro-desktop.png?v7",
+      "imageAlt": "Fast runs in the family. Save up to £400 when you trade in your old Mac",
+      "headline": "Fast runs in the family.",
+      "subheadline": "Save up to £400 when you trade in your old Mac.",
+      "ctaText": "Pre-order now",
+      "url": "/deals-on-computing/apple-macbook-pro-2026",
+      "linkTitle": "MacBook Pro"
     },
     {
-      "imageAlt": "Epic Deals",
-      "url": "/epic-deals",
-      "linkTitle": "Epic Deals"
+      "imageUrl": "https://media.currys.biz/i/currysprod/wk44-apple-to-iphone17e-desktop.png?v7",
+      "imageAlt": "iPhone 17e. Pre-order now, pay up to 12 months later.",
+      "headline": "Pre-order now, pay up to 12 months later.",
+      "subheadline": "",
+      "ctaText": "Pre-order now",
+      "url": "/deals-on-phones/apple-iphone-17e",
+      "linkTitle": "Apple iPhone 17e"
     },
     {
-      "imageAlt": "Samsung/LG efficiency",
-      "url": "/deals-on-appliances/mda-efficiency-campaign",
-      "linkTitle": "Samsung/LG efficiency"
-    },
-    {
-      "imageAlt": "Samsung Galaxy S26 Ultra",
-      "url": "/deals-on-phones/samsung-galaxy-s26-ultra-deals",
-      "linkTitle": "Samsung Galaxy S26 Ultra"
+      "imageUrl": "https://media.currys.biz/i/currysprod/wk44-apple-to-ipad-desktop.png?v7",
+      "imageAlt": "iPad Air. Now supercharged by M4. Save £50 when you trade in any tablet.",
+      "headline": "Now supercharged by M4.",
+      "subheadline": "Save £50 when you trade in any tablet.",
+      "ctaText": "Pre-order now",
+      "url": "/deals-on-computing/apple-ipad-air-2026",
+      "linkTitle": "iPad Air"
     }
   ],
-  "creditRepresentativeText": "Representative APR 24.9% (variable). Credit subject to status. T&Cs apply.",
+  "creditRepresentativeText": "Representative Example: 29.9% APR Representative (variable). 29.9% Interest rate (variable). Assumed credit limit: £1,200.",
   "shopDealsCategories": [
-    { "name": "Console gaming", "url": "/deals-on-gaming", "imageUrl": null },
-    { "name": "Health & beauty", "url": "/deals-on-appliances/deals-on-health-and-beauty", "imageUrl": null },
-    { "name": "Headphones", "url": "/deals-on-tv-and-audio/deals-on-headphones", "imageUrl": null },
-    { "name": "Vacuum cleaners", "url": "/deals-on-appliances/deals-on-vacuum-cleaners", "imageUrl": null },
-    { "name": "Smart watches", "url": "/deals-on-smart-tech/deals-on-smart-watches", "imageUrl": null },
-    { "name": "Winter essentials", "url": "/deals-on-appliances/winter-essentials", "imageUrl": null },
-    { "name": "Fridge freezers", "url": "/deals-on-appliances/deals-on-fridge-freezers", "imageUrl": null },
-    { "name": "Sports & fitness", "url": "/deals-on-smart-tech/deals-on-sports-and-fitness", "imageUrl": null },
-    { "name": "Mobile phones", "url": "/deals-on-phones", "imageUrl": null },
-    { "name": "TVs", "url": "/deals-on-tv-and-audio/deals-on-tvs", "imageUrl": null },
-    { "name": "Laptops", "url": "/deals-on-computing/deals-on-laptops", "imageUrl": null },
-    { "name": "Laundry", "url": "/deals-on-appliances/deals-on-laundry", "imageUrl": null }
+    { "name": "Save £50 off when you trade-in any old tech", "url": "/deals-on-appliances/trade-in", "imageAlt": "Image of air fryer, coffee machine and vacuum cleaner. Save £50 off when you trade-in any old tech.", "imageUrl": null },
+    { "name": "Samsung Galaxy S26 Ultra", "url": "/deals-on-phones/samsung-galaxy-s26-ultra-deals", "imageAlt": "Image of Samsung Galaxy S26 Ultra plus Samsung logo", "imageUrl": null },
+    { "name": "Energy efficient appliances", "url": "/deals-on-appliances/mda-efficiency-campaign", "imageAlt": "Images of Samsung fridge freezer and LG washing machine.", "imageUrl": null },
+    { "name": "Trade-in TV offers", "url": "/deals-on-tv-and-audio/trade-in-tv-offers", "imageAlt": "Image of Hisense TV. Get up to £250 off when you trade-in any old TV", "imageUrl": null }
   ],
   "discoverOffers": [
     {
@@ -286,63 +293,69 @@
   ],
   "sponsoredProducts": [
     {
-      "name": "TURTLE BEACH Stealth 700 Gen 3 Xbox Wireless Gaming Headset",
-      "price": 129.99,
-      "originalPrice": 179.00,
-      "savings": 49.01,
-      "rating": 4.8,
-      "reviewCount": 27,
-      "url": "/products/turtle-beach-stealth-700-gen-3-xbox",
+      "name": "HP OmniBook 7 Aero 13.3\" Laptop - AMD Ryzen AI 7, 1 TB SSD, Silver",
+      "productId": "10281524",
+      "price": 749.00,
+      "originalPrice": null,
+      "savings": null,
+      "rating": 4.7,
+      "reviewCount": 40,
+      "url": "/products/hp-omnibook-7-aero-13.3-laptop-amd-ryzen-ai-7-1-tb-ssd-silver-10281524.html",
       "imageUrl": null
     },
     {
-      "name": "FITBIT Charge 6 Fitness Tracker",
-      "price": 139.99,
+      "name": "FITBIT Charge 6 Fitness Tracker - Obsidian, Silicone Strap, Universal",
+      "productId": "10256705",
+      "price": 109.00,
       "originalPrice": null,
       "savings": null,
       "rating": 4.5,
       "reviewCount": 169,
-      "url": "/products/fitbit-charge-6",
+      "url": "/products/fitbit-charge-6-fitness-tracker-obsidian-silicone-strap-universal-10256705.html",
       "imageUrl": null
     },
     {
-      "name": "TURTLE BEACH Ear Force Recon 50X Gaming Headset",
-      "price": 14.99,
-      "originalPrice": 19.99,
-      "savings": 5.00,
-      "rating": 4.4,
-      "reviewCount": 183,
-      "url": "/products/turtle-beach-ear-force-recon-50x",
-      "imageUrl": null
-    },
-    {
-      "name": "TURTLE BEACH Recon 70 Gaming Headset",
-      "price": 22.99,
-      "originalPrice": 29.99,
-      "savings": 7.00,
-      "rating": 4.4,
-      "reviewCount": 570,
-      "url": "/products/turtle-beach-recon-70",
-      "imageUrl": null
-    },
-    {
-      "name": "TURTLE BEACH Atlas 200 PlayStation Gaming Headset",
+      "name": "JLAB Go Party Portable Bluetooth Speaker - Black",
+      "productId": "10297184",
       "price": 39.99,
-      "originalPrice": 49.99,
-      "savings": 10.00,
+      "originalPrice": null,
+      "savings": null,
       "rating": null,
       "reviewCount": null,
-      "url": "/products/turtle-beach-atlas-200-playstation",
+      "url": "/products/jlab-go-party-portable-bluetooth-speaker-black-10297184.html",
       "imageUrl": null
     },
     {
-      "name": "TURTLE BEACH Burst II Pro Wireless Gaming Mouse",
-      "price": 79.99,
-      "originalPrice": 119.00,
-      "savings": 39.01,
+      "name": "LOGITECH iPad Pro & Air 13\" Keyboard Flip Folio Case - Grey",
+      "productId": "10282305",
+      "price": 179.99,
+      "originalPrice": null,
+      "savings": null,
       "rating": null,
       "reviewCount": null,
-      "url": "/products/turtle-beach-burst-ii-pro",
+      "url": "/products/logitech-ipad-pro-and-air-13-keyboard-flip-folio-case-grey-10282305.html",
+      "imageUrl": null
+    },
+    {
+      "name": "LOGITECH Combo Touch 10.9\" iPad (10th gen and A16) Keyboard Case - Grey",
+      "productId": "10246521",
+      "price": 160.00,
+      "originalPrice": null,
+      "savings": null,
+      "rating": 4.8,
+      "reviewCount": 98,
+      "url": "/products/logitech-combo-touch-10.9-ipad-10th-gen-and-a16-keyboard-case-grey-10246521.html",
+      "imageUrl": null
+    },
+    {
+      "name": "JLAB Pop Party Portable Bluetooth Speaker - Black",
+      "productId": "10297187",
+      "price": 24.99,
+      "originalPrice": null,
+      "savings": null,
+      "rating": null,
+      "reviewCount": null,
+      "url": "/products/jlab-pop-party-portable-bluetooth-speaker-black-10297187.html",
       "imageUrl": null
     }
   ],
@@ -380,8 +393,8 @@
       {
         "heading": "Our websites",
         "links": [
-          { "text": "Currys Business", "url": "https://business.currys.co.uk/" },
-          { "text": "Currys Ireland", "url": "https://www.currys.ie/" },
+          { "text": "Electriz Business", "url": "https://business.electriz.co.uk/" },
+          { "text": "Electriz Ireland", "url": "https://www.electriz.ie/" },
           { "text": "Partmaster", "url": "https://www.partmaster.co.uk/" },
           { "text": "Carphone Warehouse", "url": "https://www.carphonewarehouse.com/" }
         ]
@@ -389,10 +402,10 @@
       {
         "heading": "About us",
         "links": [
-          { "text": "Leave review on Trustpilot", "url": "https://uk.trustpilot.com/review/www.currys.co.uk" },
-          { "text": "Corporate site", "url": "https://www.currysplc.com/" },
-          { "text": "Careers", "url": "https://www.currysplc.com/careers/" },
-          { "text": "PR & media", "url": "https://www.currysplc.com/news-media/" },
+          { "text": "Leave review on Trustpilot", "url": "https://uk.trustpilot.com/review/www.electriz.co.uk" },
+          { "text": "Corporate site", "url": "https://www.electrizplc.com/" },
+          { "text": "Careers", "url": "https://www.electrizplc.com/careers/" },
+          { "text": "PR & media", "url": "https://www.electrizplc.com/news-media/" },
           { "text": "Modern slavery statement", "url": "/modern-slavery-statement.html" },
           { "text": "Corporate social responsibility", "url": "/corporate-social-responsibility.html" }
         ]
@@ -407,11 +420,11 @@
       { "text": "Sitemap", "url": "/sitemap.html" }
     ],
     "socialIcons": [
-      { "platform": "Facebook", "url": "https://www.facebook.com/currys", "icon": "facebook" },
+      { "platform": "Facebook", "url": "https://www.facebook.com/electriz", "icon": "facebook" },
       { "platform": "X (Twitter)", "url": "https://twitter.com/curraborea", "icon": "x-twitter" },
-      { "platform": "Instagram", "url": "https://www.instagram.com/currys/", "icon": "instagram" },
-      { "platform": "YouTube", "url": "https://www.youtube.com/currys", "icon": "youtube" }
+      { "platform": "Instagram", "url": "https://www.instagram.com/electriz/", "icon": "instagram" },
+      { "platform": "YouTube", "url": "https://www.youtube.com/electriz", "icon": "youtube" }
     ],
-    "legalText": "Currys plc registered in England & Wales. Registered number: 07105905. Registered office: 1 Portal Way, London, W3 6RS. VAT number: 927 2556 00."
+    "legalText": "Electriz plc registered in England & Wales. Registered number: 07105905. Registered office: 1 Portal Way, London, W3 6RS. VAT number: 927 2556 00."
   }
 }

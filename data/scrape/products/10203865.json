@@ -1,0 +1,38 @@
+{
+  "brand": "LOGIK",
+  "price": {
+    "current": 59.99,
+    "was": 69.99,
+    "savings": 10
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 333
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/logik-l75dab20-portable-dabfm-bluetooth-radio-silver-and-wood.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10203865",
+  "title": "LOGIK L75DAB20 Portable DAB/FM Bluetooth Radio - Silver & Wood"
+}

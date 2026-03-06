@@ -1,0 +1,107 @@
+{
+  "id": "10294836",
+  "title": "JBL BAR 1000 MK2 7.1.4 Wireless Sound Bar with Dolby Atmos & DTS:X",
+  "brand": "JBL",
+  "price": {
+    "current": 999,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 0,
+    "count": 0
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10294836?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10294836?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294836_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Number of speakers:"
+    },
+    {
+      "icon": "",
+      "label": "Dolby Atmos & DTS:"
+    },
+    {
+      "icon": "",
+      "label": "Wireless subwoofer"
+    },
+    {
+      "icon": "",
+      "label": "Audio power:"
+    },
+    {
+      "icon": "",
+      "label": "4K pass-through"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 11.99,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Upgrade your audio with the JBL BAR 1000 MK2 7.1.4 Wireless Sound Bar with Dolby Atmos & DTS:X. With number of speakers:, dolby atmos & dts:, wireless subwoofer, this soundbar brings cinematic sound quality to your living room.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

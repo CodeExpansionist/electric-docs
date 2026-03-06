@@ -1,0 +1,32 @@
+{
+  "url": "/techtalk",
+  "pageTitle": "TechTalk",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "TechTalk",
+      "url": "/techtalk"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The latest tech, tips and inspiration",
+      "content": "Welcome to TechTalk — your go-to blog for the latest tech tips, product guides, and inspiration. Whether you're looking for advice on your next TV, tips on setting up your smart home, or the latest gaming news, we've got you covered.",
+      "type": "text"
+    },
+    {
+      "heading": "Browse article categories",
+      "content": "Audio, Computing, Smart tech, How to, Kitchen & Home, Mobile, Photography, Gaming news, TV Advice",
+      "type": "categories"
+    },
+    {
+      "heading": "Trending articles",
+      "content": "10 best gaming phones in 2026, 5 Mother's Day gifts that last longer than flowers, Apple's new AirTag 2 for 2026: key features and should you upgrade?, 7 smart lighting tips to brighten your home this winter",
+      "type": "articles"
+    }
+  ],
+  "faqs": []
+}

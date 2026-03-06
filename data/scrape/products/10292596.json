@@ -1,1 +1,43 @@
-{"id":"10292596","title":"JVC LT-32CT250 32\" Smart HD Ready HDR LED TV with Freely","brand":"JVC","price":{"current":219.99,"was":0,"savings":0},"rating":{"average":0,"count":0},"images":{"gallery":["https://media.currys.biz/i/currysprod/10292596?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10292596?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10292596_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"Refresh rate: 60 Hz"},{"icon":"","label":"HDMI 1.4 x 3"},{"icon":"","label":"Discover new shows & stream content on Titan OS"},{"icon":"","label":"HDR: HDR10 / Hybrid Log-Gamma (HLG)"},{"icon":"","label":"Freely: Stream live & on demand TV for free"},{"icon":"","label":"2 year guarantee"}],"flexpay":{"monthlyAmount":9.33,"months":36,"totalPayable":335.77,"apr":"29.9%"},"careAndRepair":[{"plan":"Care & Repair","price":2.64,"period":"per month","mostPopular":true},{"plan":"Installation","price":45,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":["Freely TV"],"specifications":{},"description":{"main":"Experience stunning visuals with the JVC LT-32CT250 32\" Smart HD Ready HDR LED TV with Freely. Featuring refresh rate: 60 hz, hdmi 1.4 x 3, discover new shows & stream content on titan os, this JVC TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":9.99,"standardDeliveryDays":"3-5"},"category":"TVs","energyRating":"E"}
+{
+  "id": "10292596",
+  "brand": "JVC",
+  "price": {
+    "current": 219.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 0,
+    "count": 0
+  },
+  "description": {
+    "main": "",
+    "features": [],
+    "goodToKnow": []
+  },
+  "images": {
+    "gallery": [
+      "https://cdn.media.amplience.net/i/electrizprod/10292596?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://cdn.media.amplience.net/i/electrizprod/10292596?$t-thumbnail$&fmt=auto"
+    ]
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "sizeVariants": [],
+  "crossSellProducts": [],
+  "careAndRepair": [],
+  "offers": [],
+  "badges": [],
+  "energyRating": "",
+  "category": "TVs",
+  "_needsEnrichment": true,
+  "title": "JVC LT-32CT250 32\" Smart HD Ready HDR LED TV with Freely",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

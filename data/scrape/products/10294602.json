@@ -4,56 +4,73 @@
   "brand": "Sharp",
   "price": {
     "current": 149,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
-    "average": 5,
-    "count": 1
+    "average": 0,
+    "count": 0
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10294602?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_009?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10294602?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_009?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10294602?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294602_009?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10294602?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294602_009?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Refresh rate: 60 Hz" },
-    { "icon": "", "label": "HDMI 1.4 x 3" },
-    { "icon": "", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" },
-    { "icon": "", "label": "Energy consumption (SDR): 26 W" },
-    { "icon": "", "label": "Audio power: 20 W" }
+    {
+      "icon": "",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 1.4 x 3"
+    },
+    {
+      "icon": "",
+      "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)"
+    },
+    {
+      "icon": "",
+      "label": "Energy consumption (SDR): 26 W"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 20 W"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 8.32,
-    "months": 24,
-    "totalPayable": 199.76,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -61,9 +78,9 @@
   "badges": [],
   "specifications": {},
   "description": {
-    "main": "TiVo OS brings live TV, streaming apps, intelligent search and personalised recommendations together in one place. Enjoy crisp dialogue and balanced sound with Dolby Audio \u2013 perfect for smaller living spaces where clarity matters.",
+    "main": "TiVo OS brings live TV, streaming apps, intelligent search and personalised recommendations together in one place. Enjoy crisp dialogue and balanced sound with Dolby Audio – perfect for smaller living spaces where clarity matters.",
     "goodToKnow": [
-      "Free standard delivery on orders over \u00a340.",
+      "Free standard delivery on orders over £40.",
       "Some apps & services may require a firmware update before becoming available."
     ]
   },
@@ -74,5 +91,6 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "energyRating": "E"
+  "energyRating": "E",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

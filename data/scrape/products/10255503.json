@@ -1,1 +1,147 @@
-{"id":"10255503","title":"LG 27TQ615S-PZ 27\" Smart Full HD LED TV Monitor","brand":"LG","price":{"current":179.99,"was":179.99,"savings":0},"rating":{"average":4.5,"count":330},"images":{"gallery":["https://media.currys.biz/i/currysprod/10255503?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10255503?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10255503_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"Refresh rate: 60 Hz"},{"icon":"","label":"HDMI 1.4 x 2"},{"icon":"","label":"2 year guarantee"},{"icon":"","label":"LG’s webOS gives you easy access to all your must-have apps"},{"icon":"","label":"Freeview HD with Freeview Play / Freesat HD"}],"flexpay":{"monthlyAmount":10.05,"months":24,"totalPayable":241.31,"apr":"29.9%"},"careAndRepair":[{"plan":"Installation","price":45,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Experience stunning visuals with the LG 27TQ615S-PZ 27\" Smart Full HD LED TV Monitor. Featuring refresh rate: 60 hz, hdmi 1.4 x 2, 2 year guarantee, this LG TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":5.99,"standardDeliveryDays":"3-5"},"category":"TVs","energyRating":"E"}
+{
+  "id": "10255503",
+  "brand": "LG",
+  "price": {
+    "current": 179.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 331
+  },
+  "description": {
+    "main": "Flip between work and play with this LG 27\" TV Monitor. It won't take up much space, so it's ideal for your home office or uni dorm. You can switch between using it as a monitor for coursework and streaming must-see shows from the likes of Netflix and Disney+ via LG's webOS smart platform. Its Full HD resolution gives you sharp detail and vibrant colours so you can enjoy your favourite films to the fullest.",
+    "features": [],
+    "goodToKnow": [
+      "It has a wide viewing angle so you won't need to bunch together to see the screen",
+      "Share your Android phone screen with Miracast or Apple AirPlay",
+      "Built-in stereo speakers mean there's less clutter on your desk",
+      "Catch-up on shows you've missed straight from the TV guide with Freeview Play",
+      "Works with LG's Magic Remote (sold separately) for motion and voice control"
+    ]
+  },
+  "images": {
+    "gallery": [
+      "https://cdn.media.amplience.net/i/electrizprod/10255503?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_001?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_002?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_003?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_004?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_005?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_006?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_007?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_008?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_009?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_010?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_011?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_012?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://cdn.media.amplience.net/i/electrizprod/10255503?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_001?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_002?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_003?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_004?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_005?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_006?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_007?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_008?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_009?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_010?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_011?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10255503_012?$t-thumbnail$&fmt=auto"
+    ]
+  },
+  "keySpecs": [],
+  "specifications": {
+    "ENERGY CONSUMPTION": {
+      "Energy efficiency class (SDR)": "E",
+      "On mode power demand (SDR)": "22 W"
+    },
+    "AUDIO": {
+      "Audio power": "10 W",
+      "Sound technology": "AI Sound",
+      "Speakers": "2",
+      "Sound processing": "Dolby Audio",
+      "Other features": "Auto Volume (AVL)"
+    },
+    "CONNECTIVITY": {
+      "Audio output": "Optical digital x 1",
+      "Connections": "- HDMI 1.4 x 2 ( (ARC compatible)\n- USA 2.0 x 2",
+      "WiFi": "Yes",
+      "Ethernet": "Yes",
+      "Bluetooth": "Yes"
+    },
+    "SCREEN": {
+      "Screen technology": "LED directlit",
+      "Resolution": "Full HD 1920 x 1080p",
+      "Screen size": "27\""
+    },
+    "PICTURE QUALITY": {
+      "Dynamic contrast ratio": "Mega",
+      "Native contrast ratio": "1000:1",
+      "Response time": "14 ms",
+      "Contrast": "Peak brightness: 250 nits",
+      "Refresh rate": "60 Hz",
+      "Netflix Calibrated Mode": "Yes",
+      "Other features": "- Picture Mode: Vivid, Standard, Eco (APS), Cinema, Sports\n- Filmmaker mode\n- Game Optimizer"
+    },
+    "TUNER": {
+      "Electronic programme guide": "7-day EPG and 7-day catch up with Freeview Play",
+      "TV tuner": "- Freeview HD (DVB-T2)\n- Freesat HD (DVB-S2)"
+    },
+    "FEATURES": {
+      "Table-top stand": "Yes",
+      "VESA mount": "75 x 75",
+      "Other features": "- Sleep timer\n- Parental lock\n- Apple AirPlay"
+    },
+    "SMART": {
+      "Smart TV services": "- Catch up TV: BBC iPlayer, ITVX, Channel 4, 5, U\n- Streaming: Prime Video, Apple TV, Disney+, Netflix, NOW TV, TNT Sports, YouTube\n- Music: Amazon Music, Apple Music, Deezer, Spotify\n- App store: LG Content Store",
+      "Screen mirroring": "Miracast (Android / iOS)",
+      "Smartphone app": "LG ThinQ app",
+      "Other smart features": "- Google Assistant via Magic Remote (sold separately)\n- Amazon Alexa via Magic Remote (sold separately)",
+      "Smart platform": "webOS 22"
+    },
+    "GENERAL": {
+      "Colour": "Black",
+      "Guarantee": "2 years",
+      "Weight": "- TV with stand: 3.716 kg\n- TV: 3.5 kg\n- Boxed: 5.6 kg",
+      "Dimensions": "- TV with stand: 423.1 x 612 x 152.5 mm (H x W x D)\n- TV: 368.5 x 612 x 73.9 mm (H x W x D)\n- Boxed: 447 x 748 x 160 mm (H x W x D)",
+      "Box contents": "- LG 27TQ615S-PZ 27\" Smart Full HD LED TV Monitor\n- Power adapter\n- Cable\n- Remote\n- Batteries\n- Quick start guide",
+      "Material": "- TV: Plastic\n- Stand: Metal"
+    }
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "sizeVariants": [],
+  "crossSellProducts": [
+    {
+      "id": "10138716",
+      "name": "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket"
+    },
+    {
+      "id": "10211694",
+      "name": "SANDSTROM S150AVC20 Screen Cleaner"
+    },
+    {
+      "id": "10218648",
+      "name": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 1 m"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "type": "Care & Repair",
+      "pricePerMonth": 2
+    }
+  ],
+  "offers": [],
+  "badges": [],
+  "energyRating": "E",
+  "category": "TVs",
+  "title": "LG 27TQ615S-PZ 27\" Smart Full HD LED TV Monitor",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

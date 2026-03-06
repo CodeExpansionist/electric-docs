@@ -4,8 +4,8 @@
   "brand": "Logik",
   "price": {
     "current": 6.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.7,
@@ -13,24 +13,27 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10187486?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10187486?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10187486?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10187486?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
-    { "icon": "", "label": "Suitable for 4K Ultra HD" },
-    { "icon": "", "label": "Up to 10.2 Gbps" },
-    { "icon": "", "label": "Gold-plated connector" }
+    {
+      "icon": "",
+      "label": "Suitable for 4K Ultra HD"
+    },
+    {
+      "icon": "",
+      "label": "Up to 10.2 Gbps"
+    },
+    {
+      "icon": "",
+      "label": "Gold-plated connector"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 0,
-    "months": 0,
-    "totalPayable": 0,
-    "apr": ""
-  },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [
@@ -38,7 +41,7 @@
       "category": "Cables & adaptors",
       "title": "LOGIK LCMK123 Cable Management Kit",
       "price": 9.99,
-      "image": "https://media.currys.biz/i/currysprod/10245806?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10245806?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -79,5 +82,6 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "TV Accessories"
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

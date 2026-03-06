@@ -1,1 +1,104 @@
-{"id":"10276400","title":"JVC TH-D325B 2.0 Compact Sound Bar","brand":"JVC","price":{"current":34.99,"was":44.99,"savings":10},"rating":{"average":3.3,"count":4},"images":{"gallery":["https://media.currys.biz/i/currysprod/10276400_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10276400?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10276400_001?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10276400?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10276400_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10276400_002?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Number of speakers: 2"},{"icon":"","label":"Audio power: 30 W RMS"},{"icon":"","label":"HDMI / Optical"}],"energyRating":{"class":""},"flexpay":{"monthlyAmount":0,"months":0,"totalPayable":0,"apr":""},"wallBracket":{"text":"Optional Wall Bracket","product":{"title":"Universal Wall Bracket","price":19.99,"savings":0,"image":""}},"careAndRepair":[{"plan":"Instant Replacement","price":11,"period":"3 years"}],"essentialServices":[{"name":"Delivery","price":3.99},{"name":"Extended Warranty","price":20}],"crossSellProducts":[{"category":"Cables","title":"SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m","price":11.99,"image":"https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto"},{"category":"Players","title":"SONY DVPSR760HB DVD Player","price":39,"image":"https://media.currys.biz/i/currysprod/12872098?$s-swatch$&fmt=auto"}],"offers":["Free standard delivery on orders over \u00a340","Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],"badges":[],"specifications":{},"description":{"main":"Designed to fit TVs from 17\" and up, this compact JVC sound bar delivers rich stereo audio without taking up much room.","goodToKnow":["Enjoy clear, balanced sound with 15 W full-range speakers.","Stream via Bluetooth without messy cables.","Includes optical audio cable to plug in and play."]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99}}
+{
+  "id": "10276400",
+  "title": "JVC TH-D325B 2.0 Compact Sound Bar",
+  "brand": "JVC",
+  "price": {
+    "current": 34.99,
+    "was": 44.99,
+    "savings": 10
+  },
+  "rating": {
+    "average": 3.3,
+    "count": 4
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10276400_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276400?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276400_001?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10276400?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276400_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276400_002?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Number of speakers: 2"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 30 W RMS"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical"
+    }
+  ],
+  "energyRating": {
+    "class": ""
+  },
+  "wallBracket": {
+    "text": "Optional Wall Bracket",
+    "product": {
+      "title": "Universal Wall Bracket",
+      "price": 19.99,
+      "savings": 0,
+      "image": ""
+    }
+  },
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement",
+      "price": 11,
+      "period": "3 years"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Delivery",
+      "price": 3.99
+    },
+    {
+      "name": "Extended Warranty",
+      "price": 20
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "image": "https://media.electriz.biz/i/electrizprod/21948996?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Players",
+      "title": "SONY DVPSR760HB DVD Player",
+      "price": 39,
+      "image": "https://media.electriz.biz/i/electrizprod/12872098?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Free standard delivery on orders over £40",
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Designed to fit TVs from 17\" and up, this compact JVC sound bar delivers rich stereo audio without taking up much room.",
+    "goodToKnow": [
+      "Enjoy clear, balanced sound with 15 W full-range speakers.",
+      "Stream via Bluetooth without messy cables.",
+      "Includes optical audio cable to plug in and play."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

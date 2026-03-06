@@ -13,16 +13,16 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10205338?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10205338_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10205338_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10205338_003?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10205338?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10205338_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10205338_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10205338_003?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10205338?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10205338_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10205338_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10205338_003?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10205338?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10205338_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10205338_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10205338_003?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
@@ -37,14 +37,13 @@
     },
     {
       "icon": "",
-      "label": "Tilt: -12\u00b0 to 0\u00b0"
+      "label": "Tilt: -12° to 0°"
     },
     {
       "icon": "",
       "label": "VESA up to 600x400"
     }
   ],
-  "flexpay": null,
   "careAndRepair": [
     {
       "plan": "Installation",
@@ -70,7 +69,7 @@
       "Mount type": "Tilting"
     },
     "Features": {
-      "Tilt range": "-12\u00b0 to 0\u00b0",
+      "Tilt range": "-12° to 0°",
       "Distance from wall": "56 mm",
       "Spirit level": "Included"
     },

@@ -1,0 +1,379 @@
+{
+  "categoryName": "Radios",
+  "categorySlug": "radios",
+  "url": "https://www.currys.co.uk/tv-and-audio/radios",
+  "scrapedAt": "2026-03-06T15:51:31.171Z",
+  "totalProducts": 16,
+  "siteReportedTotal": 20,
+  "filters": [],
+  "products": [
+    {
+      "productId": "10246472",
+      "name": "JVC RC-D322B DAB+/FM Bluetooth Boombox - Black",
+      "brand": "JVC",
+      "url": "https://www.currys.co.uk/products/jvc-rcd322b-dabfm-bluetooth-boombox-black-10246472.html",
+      "price": {
+        "current": 79.99,
+        "was": 99.99,
+        "savings": 20,
+        "savingsPercent": 20,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 100
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/jvc-rcd322b-dabfm-bluetooth-boombox-black.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10291335",
+      "name": "PURE Elan One 2 DAB+/FM Bluetooth Radio - Charcoal",
+      "brand": "PURE",
+      "url": "https://www.currys.co.uk/products/pure-elan-one-2-dabfm-bluetooth-radio-charcoal-10291335.html",
+      "price": {
+        "current": 29.99,
+        "was": 34.99,
+        "savings": 5,
+        "savingsPercent": 14.29,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 11
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/pure-elan-one-2-dabfm-bluetooth-radio-charcoal.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10203865",
+      "name": "LOGIK L75DAB20 Portable DAB/FM Bluetooth Radio - Silver & Wood",
+      "brand": "LOGIK",
+      "url": "https://www.currys.co.uk/products/logik-l75dab20-portable-dabfm-bluetooth-radio-silver-and-wood-10203865.html",
+      "price": {
+        "current": 59.99,
+        "was": 69.99,
+        "savings": 10,
+        "savingsPercent": 14.29,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 333
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/logik-l75dab20-portable-dabfm-bluetooth-radio-silver-and-wood.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10246468",
+      "name": "JVC RA-D32H DAB+/FM Clock Radio - Grey",
+      "brand": "JVC",
+      "url": "https://www.currys.co.uk/products/jvc-rad32h-dabfm-clock-radio-grey-10246468.html",
+      "price": {
+        "current": 39.99,
+        "was": 49.99,
+        "savings": 10,
+        "savingsPercent": 20,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 94
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/jvc-rad32h-dabfm-clock-radio-grey.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10133862",
+      "name": "ROBERTS PLAY10 Portable DAB+/FM Radio - Black",
+      "brand": "ROBERTS",
+      "url": "https://www.currys.co.uk/products/roberts-play10-portable-dabfm-radio-black-10133862.html",
+      "price": {
+        "current": 39.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 1549
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/roberts-play10-portable-dabfm-radio-black.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10246329",
+      "name": "LOGIK L2DAB23 Portable DAB+/FM Radio - Black",
+      "brand": "LOGIK",
+      "url": "https://www.currys.co.uk/products/logik-l2dab23-portable-dabfm-radio-black-10246329.html",
+      "price": {
+        "current": 39.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 48
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/logik-l2dab23-portable-dabfm-radio-black.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "13611112",
+      "name": "ROBERTS Vintage Portable DAB Radio - Black",
+      "brand": "ROBERTS",
+      "url": "https://www.currys.co.uk/products/roberts-vintage-portable-dab-radio-black-13611112.html",
+      "price": {
+        "current": 129,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 292
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/roberts-vintage-portable-dab-radio-black.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10246467",
+      "name": "LOGIK L45DABW23 Portable DAB+/FM Radio - White & Brown",
+      "brand": "LOGIK",
+      "url": "https://www.currys.co.uk/products/logik-l45dabw23-portable-dabfm-radio-white-and-brown-10246467.html",
+      "price": {
+        "current": 49.99,
+        "was": 59.99,
+        "savings": 10,
+        "savingsPercent": 16.67,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 46
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/logik-l45dabw23-portable-dabfm-radio-white-and-brown.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10218141",
+      "name": "GROOV-E Traditional GV-PS833 Portable FM Boombox - Black",
+      "brand": "GROOV-E",
+      "url": "https://www.currys.co.uk/products/groove-traditional-gvps833-portable-fm-boombox-black-10218141.html",
+      "price": {
+        "current": 43.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 53
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/groove-traditional-gvps833-portable-fm-boombox-black.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10263496",
+      "name": "ROBERTS Revival Petite 2 DAB+/FM Retro Bluetooth Radio - Duck Egg",
+      "brand": "ROBERTS",
+      "url": "https://www.currys.co.uk/products/roberts-revival-petite-2-dabfm-retro-bluetooth-radio-duck-egg-10263496.html",
+      "price": {
+        "current": 99.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 150
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/roberts-revival-petite-2-dabfm-retro-bluetooth-radio-duck-egg.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10202068",
+      "name": "GROOV-E Original Boombox GV-PS733 Portable FM/AM Boombox - Black",
+      "brand": "GROOV-E",
+      "url": "https://www.currys.co.uk/products/groove-original-boombox-gvps733-portable-fmam-boombox-black-10202068.html",
+      "price": {
+        "current": 32.99,
+        "was": 36.99,
+        "savings": 4,
+        "savingsPercent": 10.81,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.2,
+        "count": 177
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/groove-original-boombox-gvps733-portable-fmam-boombox-black.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10239452",
+      "name": "GROOV-E Roma GV-CR03 DAB/FM Clock Radio - Black",
+      "brand": "GROOV-E",
+      "url": "https://www.currys.co.uk/products/groove-roma-gvcr03-dabfm-clock-radio-black-10239452.html",
+      "price": {
+        "current": 43.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 22
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/groove-roma-gvcr03-dabfm-clock-radio-black.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10241740",
+      "name": "MAJORITY Homerton 2 DAB+/FM Smart Bluetooth Radio - Oak",
+      "brand": "MAJORITY",
+      "url": "https://www.currys.co.uk/products/majority-homerton-2-dabfm-smart-bluetooth-radio-oak-10241740.html",
+      "price": {
+        "current": 124,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 400
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/majority-homerton-2-dabfm-smart-bluetooth-radio-oak.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10250893",
+      "name": "SHARP Tokyo DR-P420 Portable DAB+/FM Bluetooth Radio - Midnight Black",
+      "brand": "SHARP",
+      "url": "https://www.currys.co.uk/products/sharp-tokyo-drp420-portable-dabfm-bluetooth-radio-midnight-black-10250893.html",
+      "price": {
+        "current": 34.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 8
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/sharp-tokyo-drp420-portable-dabfm-bluetooth-radio-midnight-black.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10248409",
+      "name": "ROAD ANGEL RA-X721DAB DAB+/FM/AM Bluetooth Car Stereo with Apple CarPlay & Android Auto",
+      "brand": "ROAD ANGEL",
+      "url": "https://www.currys.co.uk/products/road-angel-rax721dab-dabfmam-bluetooth-car-stereo-with-apple-carplay-and-android-auto-10248409.html",
+      "price": {
+        "current": 299,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 33
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/road-angel-rax721dab-dabfmam-bluetooth-car-stereo-with-apple-carplay-and-android-auto.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10234928",
+      "name": "I-BOX Dawn 79224PI/03 FM Bluetooth Clock Radio - White",
+      "brand": "I-BOX",
+      "url": "https://www.currys.co.uk/products/ibox-dawn-79224pi03-fm-bluetooth-clock-radio-white-10234928.html",
+      "price": {
+        "current": 36.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.7,
+        "count": 10
+      },
+      "imageUrl": "https://media.currys.biz/i/currysprod/ibox-dawn-79224pi03-fm-bluetooth-clock-radio-white.jpg",
+      "keySpecs": [],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    }
+  ]
+}

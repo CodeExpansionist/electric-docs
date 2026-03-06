@@ -1,1 +1,135 @@
-{"id":"10282093","title":"LG G5 65\" OLED evo AI 4K HDR Smart TV 2025 (Stand Version) - OLED65G56LS","brand":"LG","price":{"current":2499,"was":0,"savings":0},"rating":{"average":4.9,"count":45},"images":{"gallery":["https://media.currys.biz/i/currysprod/10282093?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10282093?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282093_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"Advanced OLED α9 AI processor Gen2"},{"icon":"","label":"MLA technology for ultimate brightness"},{"icon":"","label":"Refresh rate: 120 Hz"},{"icon":"","label":"HDMI 2.1 x 4"},{"icon":"","label":"5 year guarantee"},{"icon":"","label":"LG's webOS gives you easy access to all your must-have apps"}],"flexpay":{"monthlyAmount":89.83,"months":48,"totalPayable":4312.02,"apr":"29.9%"},"careAndRepair":[{"plan":"Care & Repair","price":29.99,"period":"per month","mostPopular":true},{"plan":"Installation","price":65,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Experience stunning visuals with the LG G5 65\" OLED evo AI 4K HDR Smart TV 2025 (Stand Version) - OLED65G56LS. Featuring advanced oled α9 ai processor gen2, mla technology for ultimate brightness, refresh rate: 120 hz, this LG TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":9.99,"standardDeliveryDays":"3-5"},"category":"TVs"}
+{
+  "id": "10282093",
+  "title": "LG G5 65\" OLED evo AI 4K HDR Smart TV 2025 (Stand Version) - OLED65G56LS",
+  "brand": "LG",
+  "price": {
+    "current": 2599,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 335
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10282093?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10282093?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282093_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Advanced OLED α11 AI processor with AI Super Upscaling"
+    },
+    {
+      "icon": "",
+      "label": "Stunning brightness with Brightness Booster Ultimate"
+    },
+    {
+      "icon": "",
+      "label": "Refresh rate: 120 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.1 x 4"
+    },
+    {
+      "icon": "",
+      "label": "5 year guarantee"
+    },
+    {
+      "icon": "",
+      "label": "LG's webOS gives you easy access to all your must-have apps"
+    },
+    {
+      "icon": "",
+      "label": "HDR: Dolby Vision IQ / Dolby Vision / HDR10 / HLG / Cinema HDR"
+    },
+    {
+      "icon": "",
+      "label": "Audio: 60W Dolby Atmos α11 AI Sound Pro"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 29.99,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [
+    "Dolby Vision Atmos"
+  ],
+  "specifications": {
+    "Screen Size": "65\"",
+    "Resolution": "4K UHD",
+    "Panel Type": "OLED",
+    "Processor": "α11 AI 4K Gen2",
+    "Refresh Rate": "120Hz",
+    "HDR": "Dolby Vision IQ / Dolby Vision / HDR10 / HLG / Cinema HDR",
+    "Audio": "60W Dolby Atmos α11 AI Sound Pro",
+    "Smart Platform": "webOS 25",
+    "HDMI": "HDMI 2.1 x 4",
+    "Colour": "Satin silver",
+    "Weight": "26.6kg",
+    "Dimensions (HxWxD)": "865/910 x 1441 x 263 mm",
+    "Energy Rating (SDR)": "E",
+    "Energy Rating (HDR)": "G",
+    "Guarantee": "5 years",
+    "Size Variants": "48\", 55\", 65\""
+  },
+  "description": {
+    "main": "The LG G5 65\" TV is designed to look good from every angle. Powered by the α11 AI Processor 4K Gen2 with Brightness Booster Ultimate, this OLED evo TV delivers stunning 4K HDR visuals with Dolby Vision IQ and 60W Dolby Atmos α11 AI Sound Pro for an immersive viewing experience.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "5 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "energyRating": "E",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

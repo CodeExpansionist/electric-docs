@@ -1,1 +1,43 @@
-{"id":"10284341","title":"HISENSE U7Q PRO 100\" Mini LED 4K 165Hz Smart AI TV with Freely - 100U7QTUK PRO","brand":"HISENSE","price":{"current":2499,"was":2999,"savings":500},"rating":{"average":4.7,"count":230},"images":{"gallery":["https://media.currys.biz/i/currysprod/10284341?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10284341?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10284341_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"Hi-View Engine X for stunning picture quality"},{"icon":"","label":"Mini LED with 1000+ local dimming zones"},{"icon":"","label":"Refresh rate: 165 Hz"},{"icon":"","label":"HDMI 2.1 x 2"},{"icon":"","label":"2 year guarantee"},{"icon":"","label":"VIDAA smart platform with Freely built-in"}],"flexpay":{"monthlyAmount":89.83,"months":48,"totalPayable":4312.02,"apr":"29.9%"},"careAndRepair":[{"plan":"Care & Repair","price":29.99,"period":"per month","mostPopular":true},{"plan":"Installation","price":65,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Experience stunning visuals with the HISENSE U7Q PRO 100\" Mini LED 4K 165Hz Smart AI TV with Freely - 100U7QTUK PRO. Featuring hi-view engine x for stunning picture quality, mini led with 1000+ local dimming zones, refresh rate: 165 hz, this HISENSE TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":9.99,"standardDeliveryDays":"3-5"},"category":"TVs"}
+{
+  "id": "10284341",
+  "brand": "Hisense",
+  "price": {
+    "current": 2499,
+    "was": 2999,
+    "savings": 500
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 504
+  },
+  "description": {
+    "main": "",
+    "features": [],
+    "goodToKnow": []
+  },
+  "images": {
+    "gallery": [
+      "https://cdn.media.amplience.net/i/electrizprod/10284341?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://cdn.media.amplience.net/i/electrizprod/10284341?$t-thumbnail$&fmt=auto"
+    ]
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "sizeVariants": [],
+  "crossSellProducts": [],
+  "careAndRepair": [],
+  "offers": [],
+  "badges": [],
+  "energyRating": "",
+  "category": "TVs",
+  "_needsEnrichment": true,
+  "title": "HISENSE U7Q PRO 100\" Mini LED 4K 165Hz Smart AI TV with Freely - 100U7QTUK PRO",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

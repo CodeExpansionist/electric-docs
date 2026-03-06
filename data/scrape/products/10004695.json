@@ -1,1 +1,104 @@
-{"id":"10004695","title":"AVF Buckingham 1100 mm Oval TV Stand for up to 55\" TVs - Walnut","brand":"AVF","price":{"current":199,"was":0,"savings":0},"rating":{"average":4.6,"count":653},"images":{"gallery":["https://media.currys.biz/i/currysprod/M10004695_walnut?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_009?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/M10004695_walnut?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10004695_walnut_009?$t-thumbnail$&fmt=auto"],"video":"https://flv.isitetv.com/media/video/2738/ol_video_img_url_120263_2738.jpg?m=2738&r=1048&t=1"},"keySpecs":[{"icon":"","label":"Colour: Walnut"},{"icon":"","label":"Number of shelves: 3"},{"icon":"","label":"Max Load: 55kg"}],"flexpay":{"monthlyAmount":8.06,"months":36,"totalPayable":290.16,"apr":"29.9%"},"careAndRepair":[{"plan":"Installation","price":45,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[{"name":"Installation","price":45},{"name":"Recycling","price":20}],"crossSellProducts":[{"category":"TV Accessories","title":"SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m","price":19.99,"image":"https://media.currys.biz/i/currysprod/10132171?$s-swatch$&fmt=auto"}],"offers":[],"badges":[],"specifications":{},"description":{"main":"The open-shelf AVF Buckingham 1100 TV Stand has a wood veneer and black glass design that adds a touch of style to your living area. It's suitable for screens up to 55\" and 55 kg, along with your consoles, set top boxes and sound equipment. With its gentle curves, this stand fits nicely in a corner or up against a wall.","goodToKnow":["Maximum supported weight: 55 kg","Material: Wood and Glass","3 shelves","2 year guarantee"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":20,"nextDayDeliveryPrice":30},"category":"TV Accessories"}
+{
+  "id": "10004695",
+  "title": "AVF Buckingham 1100 mm Oval TV Stand for up to 55\" TVs - Walnut",
+  "brand": "AVF",
+  "price": {
+    "current": 199,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 653
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_009?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10004695_walnut_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2738/ol_video_img_url_120263_2738.jpg?m=2738&r=1048&t=1"
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Colour: Walnut"
+    },
+    {
+      "icon": "",
+      "label": "Number of shelves: 3"
+    },
+    {
+      "icon": "",
+      "label": "Max Load: 55kg"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Installation",
+      "price": 45
+    },
+    {
+      "name": "Recycling",
+      "price": 20
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10132171?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The open-shelf AVF Buckingham 1100 TV Stand has a wood veneer and black glass design that adds a touch of style to your living area. It's suitable for screens up to 55\" and 55 kg, along with your consoles, set top boxes and sound equipment. With its gentle curves, this stand fits nicely in a corner or up against a wall.",
+    "goodToKnow": [
+      "Maximum supported weight: 55 kg",
+      "Material: Wood and Glass",
+      "3 shelves",
+      "2 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 20,
+    "nextDayDeliveryPrice": 30
+  },
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

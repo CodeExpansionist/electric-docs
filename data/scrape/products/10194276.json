@@ -13,16 +13,16 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10194276?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10194276_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10194276_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10194276_003?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10194276?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10194276_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10194276_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10194276_003?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10194276?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10194276_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10194276_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10194276_003?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10194276?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10194276_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10194276_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10194276_003?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
@@ -44,7 +44,6 @@
       "label": "Flat to wall design"
     }
   ],
-  "flexpay": null,
   "careAndRepair": [
     {
       "plan": "Installation",

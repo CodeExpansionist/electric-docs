@@ -9,57 +9,70 @@
   },
   "rating": {
     "average": 4.6,
-    "count": 258
+    "count": 259
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10288505?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10288505?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10288505?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10288505_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10288505?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10288505_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "QD-OLED with wider & cinematic colour" },
-    { "icon": "", "label": "AI XR Processor for superior clarity" },
-    { "icon": "", "label": "Refresh rate: 120 Hz" },
-    { "icon": "", "label": "HDMI 2.1 x 2 / HDMI 2.0 x 2" }
+    {
+      "icon": "",
+      "label": "QD-OLED with wider & cinematic colour"
+    },
+    {
+      "icon": "",
+      "label": "AI XR Processor for superior clarity"
+    },
+    {
+      "icon": "",
+      "label": "Refresh rate: 120 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.1 x 2 / HDMI 2.0 x 2"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 90.75,
-    "months": 24,
-    "totalPayable": 2178,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Installation", "price": 65, "period": "One-time fee" }
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
   "badges": [
-    { "type": "deal", "label": "Save \u00a3320" }
+    {
+      "type": "deal",
+      "label": "Save £320"
+    }
   ],
   "specifications": {},
   "description": {
@@ -78,5 +91,6 @@
     "nextDayDeliveryPrice": 5.99,
     "standardDeliveryDays": "3-5"
   },
-  "category": "TVs"
+  "category": "TVs",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

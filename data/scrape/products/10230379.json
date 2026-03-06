@@ -4,8 +4,8 @@
   "brand": "SONOS",
   "price": {
     "current": 449,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.7,
@@ -13,38 +13,49 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10230379?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_007?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10230379?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_007?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10230379?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10230379_007?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10230379?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10230379_007?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__255511_2544.jpg?m=2544&r=1048&t=1"
   },
   "keySpecs": [
-    { "icon": "https://media.currys.biz/i/currysprod/dolby_atmos-43408.png?fmt=auto", "label": "Dolby Atmos" },
-    { "icon": "", "label": "Number of speakers: 5" },
-    { "icon": "", "label": "Supports High-Resolution Audio" },
-    { "icon": "", "label": "Compatible with SONOS multi-room" },
-    { "icon": "", "label": "HDMI" }
+    {
+      "icon": "https://media.electriz.biz/i/electrizprod/dolby_atmos-43408.png?fmt=auto",
+      "label": "Dolby Atmos"
+    },
+    {
+      "icon": "",
+      "label": "Number of speakers: 5"
+    },
+    {
+      "icon": "",
+      "label": "Supports High-Resolution Audio"
+    },
+    {
+      "icon": "",
+      "label": "Compatible with SONOS multi-room"
+    },
+    {
+      "icon": "",
+      "label": "HDMI"
+    }
   ],
-  "energyRating": { "class": "" },
-  "flexpay": {
-    "monthlyAmount": 18.19,
-    "months": 36,
-    "totalPayable": 654.84,
-    "apr": "29.9%"
+  "energyRating": {
+    "class": ""
   },
   "wallBracket": {
     "text": "Add this item",
@@ -52,28 +63,38 @@
       "title": "SONOS Beam (Gen 2) Compact Sound Bar with Dolby Atmos, Alexa & Google Assistant - Black",
       "price": 449,
       "savings": 0,
-      "image": "https://media.currys.biz/i/currysprod/10230379?$l-large$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10230379?$l-large$&fmt=auto"
     }
   },
   "careAndRepair": [
-    { "plan": "Breakdown support when you need it", "price": 3.5, "period": "per month" }
+    {
+      "plan": "Breakdown support when you need it",
+      "price": 3.5,
+      "period": "per month"
+    }
   ],
   "essentialServices": [
-    { "name": "Delivery", "price": 3.99 },
-    { "name": "Installation", "price": 0 }
+    {
+      "name": "Delivery",
+      "price": 3.99
+    },
+    {
+      "name": "Installation",
+      "price": 0
+    }
   ],
   "crossSellProducts": [
     {
       "category": "Speakers",
       "title": "SONOS Era 100 Wireless Multi-room Speaker with Amazon Alexa - White",
       "price": 199,
-      "image": "https://media.currys.biz/i/currysprod/10247701?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10247701?$s-swatch$&fmt=auto"
     },
     {
       "category": "Cables and accessories",
       "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
       "price": 19.99,
-      "image": "https://media.currys.biz/i/currysprod/10132171?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10132171?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -96,5 +117,6 @@
     "freeDelivery": true,
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
-  }
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

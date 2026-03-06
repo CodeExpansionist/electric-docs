@@ -1,0 +1,27 @@
+{
+  "url": "/trustpilot",
+  "pageTitle": "Leave a review on Trustpilot",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Trustpilot",
+      "url": "/trustpilot"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Share your experience",
+      "content": "Had a great experience with Electriz? We'd love to hear about it! Leave us a review on Trustpilot to help other customers make informed decisions.",
+      "type": "text"
+    },
+    {
+      "heading": "Our commitment",
+      "content": "We value your feedback and use it to continuously improve our products and services. Every review is read by our customer experience team.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

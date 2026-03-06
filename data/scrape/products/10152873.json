@@ -4,8 +4,8 @@
   "brand": "One For All",
   "price": {
     "current": 21.19,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.2,
@@ -13,33 +13,39 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10152873?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10152873_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10152873_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10152873_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10152873_004?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10152873?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152873_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152873_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152873_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152873_004?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10152873?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10152873_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10152873_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10152873_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10152873_004?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10152873?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152873_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152873_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152873_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152873_004?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
-    { "icon": "", "label": "Controls up to 4 devices" },
-    { "icon": "", "label": "Ultra wide angle operation" },
-    { "icon": "", "label": "Simple set-up" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "",
+      "label": "Controls up to 4 devices"
+    },
+    {
+      "icon": "",
+      "label": "Ultra wide angle operation"
+    },
+    {
+      "icon": "",
+      "label": "Simple set-up"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 0,
-    "months": 0,
-    "totalPayable": 0,
-    "apr": ""
-  },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -79,5 +85,6 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "TV Accessories"
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

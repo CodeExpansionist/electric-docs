@@ -4,69 +4,85 @@
   "brand": "Sony",
   "price": {
     "current": 69.99,
-    "was": 74.99,
-    "savings": 5
+    "was": 99.99,
+    "savings": 15
   },
   "rating": {
     "average": 4.5,
-    "count": 1970
+    "count": 970
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10247673_pink_015?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_012?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_013?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_014?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_015?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_015?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_012?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_013?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_014?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_015?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10247673_pink?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_012?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_013?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_014?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10247673_pink_015?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_012?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_013?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_014?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10247673_pink_015?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2155/ol_video_img_url__268951_2155.jpg?m=2155&r=1048&t=1"
   },
   "keySpecs": [
-    { "icon": "", "label": "Over-ear headphones" },
-    { "icon": "", "label": "Active noise-cancelling" },
-    { "icon": "", "label": "Battery life: Up to 35 hours" },
-    { "icon": "", "label": "Bluetooth multipoint for switching between devices" },
-    { "icon": "", "label": "Quick charging" },
-    { "icon": "", "label": "Microphone / volume / playback & functions control" }
+    {
+      "icon": "",
+      "label": "Over-ear headphones"
+    },
+    {
+      "icon": "",
+      "label": "Active noise-cancelling"
+    },
+    {
+      "icon": "",
+      "label": "Battery life: Up to 35 hours"
+    },
+    {
+      "icon": "",
+      "label": "Bluetooth multipoint for switching between devices"
+    },
+    {
+      "icon": "",
+      "label": "Quick charging"
+    },
+    {
+      "icon": "",
+      "label": "Microphone / volume / playback & functions control"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 24,
-    "months": 3,
-    "totalPayable": 72,
-    "apr": "0%"
-  },
   "careAndRepair": [
-    { "plan": "Instant Replacement", "price": 24, "period": "3 years" }
+    {
+      "plan": "Instant Replacement",
+      "price": 24,
+      "period": "3 years"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [
@@ -74,7 +90,7 @@
       "category": "Headphones",
       "title": "SONY WH-CH520C Wireless Bluetooth Headphones - Beige",
       "price": 34.99,
-      "image": "https://media.currys.biz/i/currysprod/M10247634_Cream?$n-medium$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/M10247634_Cream?$n-medium$&fmt=auto"
     }
   ],
   "offers": [
@@ -83,7 +99,7 @@
   "badges": [
     {
       "type": "What HiFi 5 Star",
-      "image": "https://media.currys.biz/i/currysprod/what_hifi_5_star-6658.jpg?fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/what_hifi_5_star-6658.jpg?fmt=auto"
     }
   ],
   "specifications": {},
@@ -102,5 +118,6 @@
     "freeDelivery": true,
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
-  }
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

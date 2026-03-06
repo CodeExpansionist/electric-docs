@@ -1,1 +1,78 @@
-{"id":"10143734","title":"PANASONIC DMR-BWT850EB Smart 3D Blu-ray & DVD Player - 1 TB HDD","brand":"Panasonic","price":{"current":549,"was":null,"savings":null},"rating":{"average":4.4,"count":370},"images":{"gallery":["https://media.currys.biz/i/currysprod/10143734?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_007?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10143734?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143734_007?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"disc","label":"Plays Blu-ray discs / DVDs with upscaling"},{"icon":"recorder","label":"Records to HDD"},{"icon":"storage","label":"Up to 518 hours SD / 259 hours HD recording"},{"icon":"smart","label":"Catch-up TV & Streaming"}],"flexpay":{"monthlyAmount":22.88,"months":24,"totalPayable":549,"apr":"0%"},"careAndRepair":[],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Enjoy stunning quality, 3D movies and Freeview Play catch-up with the Panasonic DMR-BWT850EB Smart 3D Blu-ray & DVD Player. Catch up with all your favourite shows whenever you want with Freeview Play, which lets you view programmes from the last week without even having to record them. Access Freeview Play in seconds using the designated button on the remote control, for one-touch access to all the catch-up you want.","goodToKnow":["Free standard delivery on orders over \u00a340","1 TB HDD storage","Freeview Play catch-up"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":5.99},"category":"DVD Blu-ray"}
+{
+  "id": "10143734",
+  "title": "PANASONIC DMR-BWT850EB Smart 3D Blu-ray & DVD Player - 1 TB HDD",
+  "brand": "Panasonic",
+  "price": {
+    "current": 549,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 370
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10143734?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_007?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10143734?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143734_007?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "disc",
+      "label": "Plays Blu-ray discs / DVDs with upscaling"
+    },
+    {
+      "icon": "recorder",
+      "label": "Records to HDD"
+    },
+    {
+      "icon": "storage",
+      "label": "Up to 518 hours SD / 259 hours HD recording"
+    },
+    {
+      "icon": "smart",
+      "label": "Catch-up TV & Streaming"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Enjoy stunning quality, 3D movies and Freeview Play catch-up with the Panasonic DMR-BWT850EB Smart 3D Blu-ray & DVD Player. Catch up with all your favourite shows whenever you want with Freeview Play, which lets you view programmes from the last week without even having to record them. Access Freeview Play in seconds using the designated button on the remote control, for one-touch access to all the catch-up you want.",
+    "goodToKnow": [
+      "Free standard delivery on orders over £40",
+      "1 TB HDD storage",
+      "Freeview Play catch-up"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "DVD Blu-ray",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

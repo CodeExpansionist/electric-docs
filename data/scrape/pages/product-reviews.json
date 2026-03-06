@@ -1,0 +1,27 @@
+{
+  "url": "/product-reviews",
+  "pageTitle": "Product reviews",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Product reviews",
+      "url": "/product-reviews"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Trusted reviews from verified customers",
+      "content": "Read honest reviews from verified customers to help you make informed purchasing decisions. Our reviews are collected independently to ensure authenticity.",
+      "type": "text"
+    },
+    {
+      "heading": "Leave a review",
+      "content": "Purchased a product from us? Share your experience by leaving a review. Your feedback helps other customers and helps us improve our service.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

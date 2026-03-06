@@ -1,6 +1,5 @@
 {
   "id": "10275816",
-  "title": "JVC LT-24CT150 24\" Smart HD Ready HDR LED TV",
   "brand": "JVC",
   "price": {
     "current": 129.99,
@@ -11,64 +10,34 @@
     "average": 4.5,
     "count": 128
   },
+  "description": {
+    "main": "",
+    "features": [],
+    "goodToKnow": []
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10275816?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_006?$l-large$&fmt=auto"
+      "https://cdn.media.amplience.net/i/electrizprod/10275816?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10275816?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275816_006?$t-thumbnail$&fmt=auto"
-    ],
-    "video": null
-  },
-  "keySpecs": [
-    { "icon": "", "label": "Screen size: 24\"" },
-    { "icon": "", "label": "Resolution: HD Ready 1366 x 768p" },
-    { "icon": "", "label": "HDR support: HDR10, HLG" },
-    { "icon": "", "label": "Refresh rate: 60 Hz" },
-    { "icon": "", "label": "USB port: Yes" },
-    { "icon": "", "label": "HDMI 1.4 x 2" }
-  ],
-  "flexpay": {
-    "monthlyAmount": 7.26,
-    "months": 24,
-    "totalPayable": 174.27,
-    "apr": "29.9%"
-  },
-  "careAndRepair": [
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
-  ],
-  "essentialServices": [],
-  "crossSellProducts": [],
-  "offers": [],
-  "badges": ["Freely TV"],
-  "specifications": {},
-  "description": {
-    "main": "Discover something new on the JVC LT-24CT150 24\" TV. TITAN OS serves up recommendations on the hottest action and drama, so it's easy to find TV shows and movies. It brings you all the good stuff without any fuss. Plus, Freely makes TV simple. You can watch live and on-demand telly over the internet without spending a penny, no aerial needed.",
-    "goodToKnow": [
-      "Brilliant sound is brought to you by DTS Virtual:X and Dolby Audio - perfect for those movie marathons",
-      "Support for HDR10 and HLG HDR for better content appearance",
-      "USB port available for sharing content"
+      "https://cdn.media.amplience.net/i/electrizprod/10275816?$t-thumbnail$&fmt=auto"
     ]
   },
+  "keySpecs": [],
+  "specifications": {},
   "deliveryInfo": {
     "freeDelivery": true,
-    "standardDeliveryPrice": 0,
-    "nextDayDeliveryPrice": 5.99,
-    "standardDeliveryDays": "3-5"
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
   },
+  "sizeVariants": [],
+  "crossSellProducts": [],
+  "careAndRepair": [],
+  "offers": [],
+  "badges": [],
+  "energyRating": "",
   "category": "TVs",
-  "energyRating": "D"
+  "_needsEnrichment": true,
+  "title": "JVC LT-24CT150 24\" Smart HD Ready HDR LED TV",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

@@ -4,8 +4,8 @@
   "brand": "Panasonic",
   "price": {
     "current": 799.99,
-    "was": 1499.99,
-    "savings": 700
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.6,
@@ -13,61 +13,89 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10284840?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10284840?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10284840?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284840_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10284840?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284840_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "processor", "label": "HCX Pro AI Processor for cinematic contrast & clarity" },
-    { "icon": "audio", "label": "Cinematic sound with Dolby Atmos" },
-    { "icon": "refresh-rate", "label": "Refresh rate: 120 Hz (up to 144 Hz)" },
-    { "icon": "hdmi", "label": "HDMI 2.1 x 4" },
-    { "icon": "guarantee", "label": "5 year guarantee" },
-    { "icon": "smart-tv", "label": "Enjoy apps / Alexa skills / channels with Fire TV" }
+    {
+      "icon": "processor",
+      "label": "HCX Pro AI Processor for cinematic contrast & clarity"
+    },
+    {
+      "icon": "audio",
+      "label": "Cinematic sound with Dolby Atmos"
+    },
+    {
+      "icon": "refresh-rate",
+      "label": "Refresh rate: 120 Hz (up to 144 Hz)"
+    },
+    {
+      "icon": "hdmi",
+      "label": "HDMI 2.1 x 4"
+    },
+    {
+      "icon": "guarantee",
+      "label": "5 year guarantee"
+    },
+    {
+      "icon": "smart-tv",
+      "label": "Enjoy apps / Alexa skills / channels with Fire TV"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 28.76,
-    "months": 48,
-    "totalPayable": 1380.38,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 9.6, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 65, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 9.6,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
-  "badges": ["Dolby Atmos", "Freely TV Badge"],
+  "badges": [
+    "Dolby Atmos",
+    "Freely TV Badge"
+  ],
   "specifications": {},
   "description": {
-    "main": "Popcorn at the ready. The Panasonic W95B 75\" TV brings big screen magic to your living room. Thanks to Mini LED technology, you'll enjoy dazzling brightness and deep contrast. There's no annoying halo effect here, everything looks crisp and vibrant, even in the darkest scenes. Dolby Vision IQ makes sure your shows and films look spot-on, no matter how bright your room is. And with the clever HCX Pro AI MK II Processor, colours pop, action is smooth, and the contrast is on point \u2013 whether you're watching the footie, gaming, or just catching up on your favourite series.",
+    "main": "Popcorn at the ready. The Panasonic W95B 75\" TV brings big screen magic to your living room. Thanks to Mini LED technology, you'll enjoy dazzling brightness and deep contrast. There's no annoying halo effect here, everything looks crisp and vibrant, even in the darkest scenes. Dolby Vision IQ makes sure your shows and films look spot-on, no matter how bright your room is. And with the clever HCX Pro AI MK II Processor, colours pop, action is smooth, and the contrast is on point – whether you're watching the footie, gaming, or just catching up on your favourite series.",
     "goodToKnow": [
-      "Dynamic Theatre Sound and Dolby Atmos wrap you in rich, immersive audio \u2013 perfect for blockbusters",
+      "Dynamic Theatre Sound and Dolby Atmos wrap you in rich, immersive audio – perfect for blockbusters",
       "Game Mode Extreme delivers silky-smooth graphics with a 144 Hz panel, and dedicated RPG and FPS modes fine-tune the visuals and sound",
       "With Fire TV built-in, you've got instant access to all your favourite apps and streaming services",
       "Freely lets you watch live and on-demand telly over the internet without spending a penny"
@@ -79,5 +107,6 @@
     "nextDayDeliveryPrice": 9.99
   },
   "category": "TVs",
-  "energyRating": "F"
+  "energyRating": "F",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

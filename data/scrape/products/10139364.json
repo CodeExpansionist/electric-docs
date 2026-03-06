@@ -1,1 +1,78 @@
-{"id":"10139364","title":"PANASONIC DMR-PWT655EB Smart 3D Blu-ray & DVD Player with Freeview Play Recorder - 1 TB HDD","brand":"Panasonic","price":{"current":359,"was":null,"savings":null},"rating":{"average":4.6,"count":438},"images":{"gallery":["https://media.currys.biz/i/currysprod/10139364_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10139364?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_007?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10139364_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10139364?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10139364_007?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"disc","label":"Plays Blu-ray discs / DVDs with upscaling"},{"icon":"recorder","label":"Records to HDD"},{"icon":"storage","label":"Up to 518 hours SD / 259 hours HD recording"},{"icon":"smart","label":"Catch-up TV & Streaming"}],"flexpay":{"monthlyAmount":14.96,"months":24,"totalPayable":359,"apr":"0%"},"careAndRepair":[],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"The PANASONIC DMR-PWT655EB Smart 3D Blu-ray & DVD Player with Freeview Play Recorder offers twin Freeview Play tuners, a large 1 TB hard drive, and Smart TV features. Enjoy Freeview Play that lets you watch TV programmes from the last seven days and has a large hard drive to store your favorite shows and movies.","goodToKnow":["Free standard delivery on orders over \u00a340","Order collection available in as little as 1 hour","1 TB HDD storage"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":5.99},"category":"DVD Blu-ray"}
+{
+  "id": "10139364",
+  "title": "PANASONIC DMR-PWT655EB Smart 3D Blu-ray & DVD Player with Freeview Play Recorder - 1 TB HDD",
+  "brand": "Panasonic",
+  "price": {
+    "current": 359,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 438
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10139364_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_007?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10139364_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10139364_007?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "disc",
+      "label": "Plays Blu-ray discs / DVDs with upscaling"
+    },
+    {
+      "icon": "recorder",
+      "label": "Records to HDD"
+    },
+    {
+      "icon": "storage",
+      "label": "Up to 518 hours SD / 259 hours HD recording"
+    },
+    {
+      "icon": "smart",
+      "label": "Catch-up TV & Streaming"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The PANASONIC DMR-PWT655EB Smart 3D Blu-ray & DVD Player with Freeview Play Recorder offers twin Freeview Play tuners, a large 1 TB hard drive, and Smart TV features. Enjoy Freeview Play that lets you watch TV programmes from the last seven days and has a large hard drive to store your favorite shows and movies.",
+    "goodToKnow": [
+      "Free standard delivery on orders over £40",
+      "Order collection available in as little as 1 hour",
+      "1 TB HDD storage"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "DVD Blu-ray",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

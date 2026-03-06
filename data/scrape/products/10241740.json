@@ -1,0 +1,38 @@
+{
+  "brand": "MAJORITY",
+  "price": {
+    "current": 124,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.9,
+    "count": 400
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/majority-homerton-2-dabfm-smart-bluetooth-radio-oak.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10241740",
+  "title": "MAJORITY Homerton 2 DAB+/FM Smart Bluetooth Radio - Oak"
+}

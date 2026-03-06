@@ -1,184 +1,71 @@
 {
-  "sourceUrl": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
-  "scrapedAt": "2026-03-01",
-  "pageType": "categoryListing",
   "categoryName": "Sound Bars",
-  "categorySlug": "sound-bars",
-  "breadcrumbs": [
-    "Home",
-    "TV & Audio",
-    "DVD, Blu-ray & Home Cinema",
-    "Home Cinema Systems & Soundbars",
-    "Sound Bars"
-  ],
-  "metaTitle": "Sound Bars - Best Sound Bar Deals | Currys",
-  "metaDescription": "Bring the cinema home with the best sound bars at Currys, from Bose and Sonos to other top-of-the-range brands. Shop online or order & collect in store.",
-  "totalProducts": 45,
+  "categorySlug": "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
+  "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
+  "scrapedAt": "2026-03-06T15:49:25.851Z",
+  "totalProducts": 147,
   "filters": [
     {
-      "name": "Delivery & Collection",
+      "name": "Hide out of stock",
       "isExpanded": true,
       "type": "toggle",
-      "options": [
-        {
-          "label": "Delivery available",
-          "count": 130
-        },
-        {
-          "label": "Collect from store",
-          "count": 94
-        }
-      ]
+      "options": []
     },
     {
-      "name": "Type",
+      "name": "Brand",
       "isExpanded": true,
       "type": "checkbox",
       "options": [
         {
-          "label": "Sound bars",
-          "count": 126
-        },
-        {
-          "label": "Bluetooth soundbars",
-          "count": 113
-        },
-        {
-          "label": "Wall mounted soundbars",
-          "count": 74
-        },
-        {
-          "label": "Dolby Atmos soundbars",
-          "count": 69
-        },
-        {
-          "label": "Wireless soundbars",
-          "count": 66
-        },
-        {
-          "label": "Soundbar subwoofers",
-          "count": 22
-        },
-        {
-          "label": "All in one soundbars",
-          "count": 20
-        },
-        {
-          "label": "5.1 surround sound soundbars",
-          "count": 17
-        },
-        {
-          "label": "AV separates",
-          "count": 16
-        },
-        {
-          "label": "Home cinema speakers",
-          "count": 9
-        },
-        {
-          "label": "Home cinema systems",
-          "count": 6
-        },
-        {
-          "label": "Wired soundbars",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "By Price",
-      "isExpanded": true,
-      "type": "range",
-      "options": [
-        {
-          "label": "Up to £39.99",
-          "count": 4
-        },
-        {
-          "label": "£40 to £59.99",
-          "count": 10
-        },
-        {
-          "label": "£60 to £99.99",
-          "count": 21
-        },
-        {
-          "label": "£100 to £499",
-          "count": 71
-        },
-        {
-          "label": "£500 to £999",
-          "count": 30
-        },
-        {
-          "label": "£1000 and over",
-          "count": 12
-        }
-      ]
-    },
-    {
-      "name": "By Brand",
-      "isExpanded": true,
-      "type": "checkbox",
-      "options": [
-        {
-          "label": "SHARP",
+          "label": "Sony",
           "count": 19
         },
         {
-          "label": "SONY",
+          "label": "Sharp",
           "count": 19
         },
         {
-          "label": "SONOS",
+          "label": "Sonos",
           "count": 16
         },
         {
-          "label": "SAMSUNG",
+          "label": "Samsung",
           "count": 15
         },
         {
           "label": "LG",
-          "count": 12
+          "count": 13
         },
         {
-          "label": "HISENSE",
+          "label": "Majority",
           "count": 9
         },
         {
-          "label": "MAJORITY",
-          "count": 9
+          "label": "Hisense",
+          "count": 8
         },
         {
           "label": "KANTO AUDIO",
           "count": 8
         },
         {
-          "label": "BOSE",
-          "count": 7
-        },
-        {
           "label": "JBL",
           "count": 7
         },
         {
-          "label": "PANASONIC",
+          "label": "Bose",
           "count": 7
         },
         {
-          "label": "GROOV-E",
+          "label": "Panasonic",
+          "count": 7
+        },
+        {
+          "label": "Groov-e",
           "count": 5
         },
         {
-          "label": "DENON",
-          "count": 3
-        },
-        {
           "label": "JVC",
-          "count": 3
-        },
-        {
-          "label": "MARSHALL",
           "count": 3
         },
         {
@@ -186,7 +73,15 @@
           "count": 3
         },
         {
+          "label": "Marshall",
+          "count": 3
+        },
+        {
           "label": "KLIPSCH",
+          "count": 2
+        },
+        {
+          "label": "Denon",
           "count": 2
         },
         {
@@ -196,478 +91,522 @@
       ]
     },
     {
-      "name": "Customer Rating",
+      "name": "Price",
       "isExpanded": true,
-      "type": "rating",
-      "options": [
-        {
-          "label": "5.0 out of 5 stars",
-          "count": 9
-        },
-        {
-          "label": "4.0 out of 5 stars & up",
-          "count": 108
-        },
-        {
-          "label": "3.0 out of 5 stars & up",
-          "count": 114
-        },
-        {
-          "label": "2.0 out of 5 stars & up",
-          "count": 114
-        },
-        {
-          "label": "1.0 out of 5 stars & up",
-          "count": 115
-        }
-      ]
-    },
-    {
-      "name": "Connectivity",
-      "isExpanded": false,
       "type": "checkbox",
       "options": [
         {
-          "label": "Bluetooth",
-          "count": 113
+          "label": "Up to £100",
+          "count": 35
         },
         {
-          "label": "HDMI",
-          "count": 98
+          "label": "£100 to £300",
+          "count": 43
         },
         {
-          "label": "Optical",
-          "count": 85
-        },
-        {
-          "label": "Wi-Fi",
-          "count": 42
-        },
-        {
-          "label": "USB",
+          "label": "£300 to £500",
           "count": 28
         },
         {
-          "label": "AUX / 3.5mm",
-          "count": 22
+          "label": "£500 to £1,000",
+          "count": 30
+        },
+        {
+          "label": "£1,000 and above",
+          "count": 11
         }
       ]
     },
     {
-      "name": "Surround Sound",
+      "name": "Customer Rating",
       "isExpanded": false,
-      "type": "checkbox",
+      "type": "rating",
       "options": [
         {
-          "label": "Dolby Atmos",
-          "count": 69
+          "label": "5 stars & above",
+          "count": 8
         },
         {
-          "label": "DTS:X",
-          "count": 45
+          "label": "4 stars & above",
+          "count": 110
         },
         {
-          "label": "DTS Virtual:X",
-          "count": 32
-        },
-        {
-          "label": "Dolby Digital",
-          "count": 78
-        }
-      ]
-    },
-    {
-      "name": "Availability",
-      "isExpanded": false,
-      "type": "toggle",
-      "options": [
-        {
-          "label": "Hide out of stock",
-          "count": null
+          "label": "3 stars & above",
+          "count": 116
         }
       ]
     }
   ],
   "products": [
     {
-      "name": "BOSE TV Speaker",
-      "brand": "BOSE",
-      "price": 269,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.6,
-      "reviewCount": 502,
-      "productUrl": "https://www.currys.co.uk/products/bose-tv-speaker-10207493.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10207493?$g-small$&fmt=auto",
-      "specs": [
-        "HDMI / Optical",
-        "2 year guarantee"
-      ],
-      "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "BOSE Smart Compact Sound Bar with Dolby Atmos & Amazon Alexa",
-      "brand": "BOSE",
-      "price": 499,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.1,
-      "reviewCount": 18,
-      "productUrl": "https://www.currys.co.uk/products/bose-smart-compact-sound-bar-with-dolby-atmos-and-amazon-alexa-10269117.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10269117?$g-small$&fmt=auto",
+      "productId": "10230379",
+      "name": "SONOS Beam (Gen 2) Compact Sound Bar with Dolby Atmos, Alexa & Google Assistant - Black",
+      "brand": "Sonos",
+      "url": "/products/sonos-beam-gen-2-compact-sound-bar-with-dolby-atmos-alexa-and-google-assistant-black-10230379.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10230379?$g-small$&fmt=auto",
+      "price": {
+        "current": 449,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 334
+      },
       "specs": [
         "Number of speakers: 5",
         "Dolby Atmos",
-        "Compatible with other Bose speakers / Chromecast / AirPlay",
-        "HDMI / Optical",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "HDMI",
         "2 year guarantee"
       ],
       "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa - Black",
-      "brand": "BOSE",
-      "price": 629,
-      "wasPrice": 899,
-      "savings": 270,
-      "rating": 4.6,
-      "reviewCount": 32,
-      "imageUrl": "https://media.currys.biz/i/currysprod/M10254944_black?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-black-10254954.html",
-      "badges": [],
-      "deliveryFree": false,
-      "specs": [
-        "Number of speakers: 5",
-        "Dolby Atmos",
-        "Chromecast built-in",
-        "HDMI / Optical",
-        "2 year guarantee"
-      ],
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa - White",
-      "brand": "BOSE",
-      "price": 629,
-      "wasPrice": 899,
-      "savings": 270,
-      "rating": 4.6,
-      "reviewCount": 32,
-      "productUrl": "https://www.currys.co.uk/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-white-10254944.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/M10254944_white?$g-small$&fmt=auto",
-      "specs": [
-        "Number of speakers: 5",
-        "Dolby Atmos",
-        "Chromecast built-in",
-        "HDMI / Optical",
-        "2 year guarantee"
-      ],
-      "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "BOSE Smart Compact Sound Bar & Bass Module 500 Bundle",
-      "brand": "BOSE",
-      "price": 948,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 0,
-      "reviewCount": 0,
-      "productUrl": "https://www.currys.co.uk/products/bose-smart-compact-sound-bar-and-bass-module-500-bundle-10291032.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10291032?$g-small$&fmt=auto",
-      "specs": [
-        "Number of speakers: 5",
-        "Dolby Atmos",
-        "Compatible with other Bose speakers / Chromecast / AirPlay",
-        "HDMI / Optical",
-        "2 year guarantee"
-      ],
-      "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "BOSE Smart Ultra 5.1.2 Soundbar & Bass Module 700 (Black) Bundle",
-      "brand": "BOSE",
-      "price": 1698,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 0,
-      "reviewCount": 0,
-      "productUrl": "https://www.currys.co.uk/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-and-bass-module-700-black-bundle-10261769.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10261769?$g-small$&fmt=auto",
-      "specs": [
-        "Number of speakers: 5",
-        "Dolby Atmos",
-        "Chromecast built-in",
-        "HDMI / Optical",
-        "2 year guarantee"
-      ],
-      "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "BOSE Smart Ultra 5.1.2 Soundbar & Bass Module 700 (White) Bundle",
-      "brand": "BOSE",
-      "price": 1698,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 0,
-      "reviewCount": 0,
-      "productUrl": "https://www.currys.co.uk/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-and-bass-module-700-white-bundle-10261770.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10261770?$g-small$&fmt=auto",
-      "specs": [
-        "Number of speakers: 5",
-        "Dolby Atmos",
-        "Chromecast built-in",
-        "HDMI / Optical",
-        "2 year guarantee"
-      ],
-      "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "HISENSE HS214 2.1 All-in-one Sound Bar",
-      "brand": "HISENSE",
-      "price": 69,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.6,
-      "reviewCount": 271,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10244299?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/hisense-hs214-2.1-allinone-sound-bar-10244299.html",
-      "badges": [],
+      "offers": [],
       "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10244299",
+      "name": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "brand": "Hisense",
+      "url": "/products/hisense-hs214-2.1-allinone-sound-bar-10244299.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10244299?$g-small$&fmt=auto",
+      "price": {
+        "current": 69,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 271
+      },
       "specs": [
         "Number of speakers: 3",
         "Built-in subwoofer",
         "Audio power: 108 W",
         "HDMI / Optical / Coaxial"
       ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "HISENSE HS3100 3.1 Wireless Compact Sound Bar with DTS Virtual:X",
-      "brand": "HISENSE",
-      "price": 99,
-      "wasPrice": 149,
-      "savings": 50,
-      "rating": 4.7,
-      "reviewCount": 89,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10266538?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/hisense-hs3100-3.1-wireless-compact-sound-bar-with-dts-virtualx-10266538.html",
+      "productId": "10238584",
+      "name": "SONOS Ray Compact Sound Bar - Black",
+      "brand": "Sonos",
+      "url": "/products/sonos-ray-compact-sound-bar-black-10238584.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/M10238584_black?$g-small$&fmt=auto",
+      "price": {
+        "current": 199,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 60
+      },
+      "specs": [
+        "Number of speakers: 4",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "Optical",
+        "2 year guarantee"
+      ],
       "badges": [],
+      "offers": [],
       "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10270746",
+      "name": "SONOS Arc Ultra Sound Bar with Dolby Atmos & Amazon Alexa - Black",
+      "brand": "Sonos",
+      "url": "/products/sonos-arc-ultra-sound-bar-with-dolby-atmos-and-amazon-alexa-black-10270746.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/M10270732_black_001?$g-small$&fmt=auto",
+      "price": {
+        "current": 999,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 308
+      },
+      "specs": [
+        "Dolby Atmos",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "HDMI",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10238562",
+      "name": "SAMSUNG HW-S50B/XU 3.0 All-in-One Sound Bar - Dark Grey",
+      "brand": "Samsung",
+      "url": "/products/samsung-hws50bxu-3.0-allinone-sound-bar-dark-grey-10238562.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10238562?$g-small$&fmt=auto",
+      "price": {
+        "current": 189,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 254
+      },
+      "specs": [
+        "DTS: X",
+        "Audio power: 140 W",
+        "Adaptive / optimized audio",
+        "HDMI"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10244363",
+      "name": "JBL BAR 1000 7.1.4 Wireless Sound Bar with Dolby Atmos",
+      "brand": "JBL",
+      "url": "/products/jbl-bar-1000-7.1.4-wireless-sound-bar-with-dolby-atmos-10244363.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10244363?$g-small$&fmt=auto",
+      "price": {
+        "current": 849.97,
+        "was": 899,
+        "savings": 49.03
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 116
+      },
+      "specs": [
+        "Number of speakers: 15",
+        "Dolby Atmos & DTS: X",
+        "Wireless subwoofer",
+        "Audio power: 880 W",
+        "4K pass-through",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10266538",
+      "name": "HISENSE HS3100 3.1 Wireless Compact Sound Bar with DTS Virtual:X",
+      "brand": "Hisense",
+      "url": "/products/hisense-hs3100-3.1-wireless-compact-sound-bar-with-dts-virtualx-10266538.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10266538?$g-small$&fmt=auto",
+      "price": {
+        "current": 99,
+        "was": 149,
+        "savings": 50
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 89
+      },
       "specs": [
         "Number of speakers: 6",
-        "DTS Virtual:X",
+        "DTS Virtual: X",
         "Wireless subwoofer",
         "Audio power: 480 W",
         "Adaptive / optimized audio",
         "HDMI / Optical"
       ],
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "HISENSE HS2100 2.1 Wireless Compact Sound Bar with DTS Virtual:X",
-      "brand": "HISENSE",
-      "price": 99,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.7,
-      "reviewCount": 142,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10257243?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/hisense-hs2100-2.1-wireless-compact-sound-bar-with-dts-virtualx-10257243.html",
       "badges": [],
+      "offers": [],
       "deliveryFree": true,
-      "specs": [
-        "Number of speakers: 3",
-        "DTS Virtual:X",
-        "Wireless subwoofer",
-        "Audio power: 240 W"
-      ],
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
+      "productId": "10280658",
       "name": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
-      "brand": "HISENSE",
-      "price": 179,
-      "wasPrice": 229,
-      "savings": 50,
-      "rating": 4.5,
-      "reviewCount": 33,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10280658?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/hisense-ax5100q-5.1-wireless-sound-bar-with-dolby-atmos-10280658.html",
-      "badges": [],
-      "deliveryFree": true,
+      "brand": "Hisense",
+      "url": "/products/hisense-ax5100q-5.1-wireless-sound-bar-with-dolby-atmos-10280658.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10280658?$g-small$&fmt=auto",
+      "price": {
+        "current": 179,
+        "was": 229,
+        "savings": 50
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 35
+      },
       "specs": [
         "Number of speakers: 8",
-        "Dolby Atmos & DTS:X",
+        "Dolby Atmos & DTS: X",
         "Wireless subwoofer & rear speakers",
         "Audio power: 580 W",
         "Adaptive / optimized audio",
         "4K pass-through",
         "HDMI / Optical"
       ],
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "HISENSE AX5125H 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
-      "brand": "HISENSE",
-      "price": 249,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.8,
-      "reviewCount": 104,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10262409?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/hisense-ax5125h-5.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10262409.html",
       "badges": [],
+      "offers": [],
       "deliveryFree": true,
-      "specs": [
-        "Dolby Atmos / DTS:X / DTS Virtual:X",
-        "Wireless subwoofer & rear speakers",
-        "Audio power: 500 W",
-        "4K pass-through",
-        "HDMI / Optical / Coaxial"
-      ],
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "JBL BAR 1000 7.1.4 Wireless Sound Bar with Dolby Atmos",
-      "brand": "JBL",
-      "price": 849.97,
-      "wasPrice": 899,
-      "savings": 49.03,
-      "rating": 4.8,
-      "reviewCount": 116,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10244363?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/jbl-bar-1000-7.1.4-wireless-sound-bar-with-dolby-atmos-10244363.html",
-      "badges": [
-        "Epic Deal"
-      ],
-      "deliveryFree": true,
+      "productId": "10282182",
+      "name": "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar",
+      "brand": "Samsung",
+      "url": "/products/samsung-hwb400fxu-2.0-allinone-sound-bar-10282182.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10282182?$g-small$&fmt=auto",
+      "price": {
+        "current": 99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 37
+      },
       "specs": [
-        "Number of speakers: 15",
-        "Dolby Atmos & DTS:X",
-        "Wireless subwoofer",
-        "Audio power: 880 W",
-        "4K pass-through",
-        "2 year guarantee"
-      ],
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "JVC TH-D325B 2.0 Compact Sound Bar",
-      "brand": "JVC",
-      "price": 34.99,
-      "wasPrice": 44.99,
-      "savings": 10,
-      "rating": 3.3,
-      "reviewCount": 4,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10276400?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/jvc-thd325b-2.0-compact-sound-bar-10276400.html",
-      "badges": [],
-      "deliveryFree": true,
-      "specs": [
-        "Number of speakers: 2",
-        "Audio power: 30 W RMS",
-        "HDMI / Optical"
-      ],
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "JVC TH-D625B 2.0 Compact Sound Bar",
-      "brand": "JVC",
-      "price": 49.99,
-      "wasPrice": 59.99,
-      "savings": 10,
-      "rating": 4.8,
-      "reviewCount": 4,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10276273?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/jvc-thd625b-2.0-compact-sound-bar-10276273.html",
-      "badges": [],
-      "deliveryFree": true,
-      "specs": [
-        "Number of speakers: 2",
+        "Number of speakers: 4",
+        "Built-in subwoofer",
         "Audio power: 40 W",
         "HDMI / Optical"
       ],
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "LG SQM1 2.0 Compact Sound Bar",
-      "brand": "LG",
-      "price": 59.99,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.6,
-      "reviewCount": 37,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10267031?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/lg-sqm1-2.0-compact-sound-bar-10267031.html",
       "badges": [],
-      "deliveryFree": false,
-      "specs": [
-        "Number of speakers: 2",
-        "Audio power: 40 W",
-        "Adaptive / optimized audio",
-        "Optical"
-      ],
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
+      "productId": "10282047",
       "name": "LG US20A 2.0 Compact Sound Bar",
       "brand": "LG",
-      "price": 79.99,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.7,
-      "reviewCount": 19,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10282047?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/lg-us20a-2.0-compact-sound-bar-10282047.html",
-      "badges": [],
-      "deliveryFree": false,
+      "url": "/products/lg-us20a-2.0-compact-sound-bar-10282047.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10282047?$g-small$&fmt=auto",
+      "price": {
+        "current": 79.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 19
+      },
       "specs": [
         "Number of speakers: 2",
         "Audio power: 50 W Peak / 50 W RMS",
         "Adaptive / optimized audio",
         "HDMI"
       ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
+      "productId": "10276400",
+      "name": "JVC TH-D325B 2.0 Compact Sound Bar",
+      "brand": "JVC",
+      "url": "/products/jvc-thd325b-2.0-compact-sound-bar-10276400.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10276400?$g-small$&fmt=auto",
+      "price": {
+        "current": 34.99,
+        "was": 44.99,
+        "savings": 10
+      },
+      "rating": {
+        "average": 3.3,
+        "count": 4
+      },
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 30 W RMS",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10276273",
+      "name": "JVC TH-D625B 2.0 Compact Sound Bar",
+      "brand": "JVC",
+      "url": "/products/jvc-thd625b-2.0-compact-sound-bar-10276273.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10276273?$g-small$&fmt=auto",
+      "price": {
+        "current": 49.99,
+        "was": 59.99,
+        "savings": 10
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 4
+      },
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 40 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10276401",
+      "name": "JVC TH-D565B 3.1.2 All-in-One Sound Bar with Dolby Atmos",
+      "brand": "JVC",
+      "url": "/products/jvc-thd565b-3.1.2-allinone-sound-bar-with-dolby-atmos-10276401.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10276401?$g-small$&fmt=auto",
+      "price": {
+        "current": 119,
+        "was": 149,
+        "savings": 30
+      },
+      "rating": {
+        "average": 4.2,
+        "count": 9
+      },
+      "specs": [
+        "5 speakers",
+        "Dolby Atmos",
+        "Built-in subwoofer",
+        "270 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10280615",
+      "name": "HISENSE AX3120Q 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Hisense",
+      "url": "/products/hisense-ax3120q-3.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10280615.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10280615?$g-small$&fmt=auto",
+      "price": {
+        "current": 399,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 8
+      },
+      "specs": [
+        "Number of speakers: 8",
+        "Dolby Atmos & DTS Virtual: X",
+        "Wireless subwoofer",
+        "Audio power: 440 W",
+        "Adaptive / optimized audio",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "offers": [
+        "Get 50% off selected soundbars when bought with any Hisense TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282181",
+      "name": "SAMSUNG HW-Q600F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos",
+      "brand": "Samsung",
+      "url": "/products/samsung-hwq600fxu-3.1.2-wireless-sound-bar-with-dolby-atmos-10282181.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282181?$g-small$&fmt=auto",
+      "price": {
+        "current": 499,
+        "was": 549,
+        "savings": 9.11
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 20
+      },
+      "specs": [
+        "Number of speakers: 9",
+        "Dolby Atmos & DTS: X",
+        "Wireless subwoofer",
+        "Audio power: 380 W",
+        "Adaptive / optimized audio",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "offers": [
+        "Claim £130 of Samsung tech when you buy this soundbar."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10262742",
+      "name": "LG US40T 2.1 Wireless Sound Bar",
+      "brand": "LG",
+      "url": "/products/lg-us40t-2.1-wireless-sound-bar-10262742.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10262742?$g-small$&fmt=auto",
+      "price": {
+        "current": 149,
+        "was": 199,
+        "savings": 25.13
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 69
+      },
+      "specs": [
+        "Number of speakers: 3",
+        "Wireless subwoofer",
+        "Audio power: 300 W",
+        "Adaptive / optimized audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get 20% off LG US40T 2.1 Wireless Sound Bar when bought with any LG TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10248390",
       "name": "LG SQC1 2.1 Wireless Compact Sound Bar",
       "brand": "LG",
-      "price": 129.99,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.4,
-      "reviewCount": 88,
-      "productUrl": "https://www.currys.co.uk/products/lg-sqc1-2.1-wireless-compact-sound-bar-10248390.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10248390?$g-small$&fmt=auto",
+      "url": "/products/lg-sqc1-2.1-wireless-compact-sound-bar-10248390.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10248390?$g-small$&fmt=auto",
+      "price": {
+        "current": 129.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 88
+      },
       "specs": [
         "Number of speakers: 3",
         "Wireless subwoofer",
@@ -676,364 +615,2814 @@
         "Optical"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "LG US40T 2.1 Wireless Sound Bar",
-      "brand": "LG",
-      "price": 199,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.7,
-      "reviewCount": 69,
-      "productUrl": "https://www.currys.co.uk/products/lg-us40t-2.1-wireless-sound-bar-10262742.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10262742?$g-small$&fmt=auto",
+      "productId": "10176938",
+      "name": "SONY HT-SF150 2.0 Sound Bar",
+      "brand": "Sony",
+      "url": "/products/sony-htsf150-2.0-sound-bar-10176938.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10176938?$g-small$&fmt=auto",
+      "price": {
+        "current": 129,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 549
+      },
       "specs": [
-        "Number of speakers: 3",
+        "120 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10207764",
+      "name": "SONY HT-S20R 5.1 Sound Bar",
+      "brand": "Sony",
+      "url": "/products/sony-hts20r-5.1-sound-bar-10207764.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10207764?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 226
+      },
+      "specs": [
+        "Bluetooth",
+        "Wired subwoofer & rear speakers",
+        "400 W",
+        "4K pass-through",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10229190",
+      "name": "SONY SA-SW3 Wireless Subwoofer",
+      "brand": "Sony",
+      "url": "/products/sony-sasw3-wireless-subwoofer-10229190.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10229190?$g-small$&fmt=auto",
+      "price": {
+        "current": 449,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 26
+      },
+      "specs": [
+        "Output power: 200 W",
+        "Pairs with Sony HT-A7000 Sound Bar"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar"
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10271087",
+      "name": "TCL Q75HK 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS:X",
+      "brand": "TCL",
+      "url": "/products/tcl-q75hk-5.1.2-wireless-sound-bar-with-dolby-atmos-and-dtsx-10271087.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10271087?$g-small$&fmt=auto",
+      "price": {
+        "current": 349,
+        "was": 399,
+        "savings": 12.53
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 3
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
         "Wireless subwoofer",
-        "Audio power: 300 W",
+        "Audio power:",
         "Adaptive / optimized audio",
-        "HDMI / Optical"
+        "Supports High-Resolution Audio with 4K pass-through",
+        "Compatible with Apple AirPlay",
+        "HDMI / Optical / Coaxial"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "LG US40TR 4.1 Wireless Sound Bar",
-      "brand": "LG",
-      "price": 249,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.8,
-      "reviewCount": 9,
-      "productUrl": "https://www.currys.co.uk/products/lg-us40tr-4.1-wireless-sound-bar-10281503.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10281503?$g-small$&fmt=auto",
+      "productId": "10262409",
+      "name": "HISENSE AX5125H 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Hisense",
+      "url": "/products/hisense-ax5125h-5.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10262409.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10262409?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 104
+      },
       "specs": [
-        "Number of speakers: 5",
+        "Number of speakers:",
+        "Dolby Atmos / DTS:",
         "Wireless subwoofer & rear speakers",
-        "Audio power: 400 W",
+        "Audio power:",
         "Adaptive / optimized audio",
-        "HDMI / Optical"
+        "4K pass-through",
+        "HDMI / Optical / Coaxial"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
+      "productId": "10262669",
       "name": "LG US60TR 5.1 Wireless Sound Bar",
       "brand": "LG",
-      "price": 299,
-      "wasPrice": 399,
-      "savings": 100,
-      "rating": 4.6,
-      "reviewCount": 83,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10262669?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/lg-us60tr-5.1-wireless-sound-bar-10262669.html",
-      "badges": [],
-      "deliveryFree": true,
+      "url": "/products/lg-us60tr-5.1-wireless-sound-bar-10262669.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10262669?$g-small$&fmt=auto",
+      "price": {
+        "current": 299,
+        "was": 399,
+        "savings": 25.06
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 83
+      },
       "specs": [
-        "Number of speakers: 6",
+        "Number of speakers:",
         "Wireless subwoofer & rear speakers",
-        "Audio power: 440 W",
+        "Audio power:",
         "Adaptive / optimized audio",
         "HDMI / Optical"
       ],
+      "badges": [],
+      "offers": [
+        "Get 50% off selected soundbars when bought with any LG TV."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "LG US77TY 3.1.3 Wireless Sound Bar with Dolby Atmos",
-      "brand": "LG",
-      "price": 599,
-      "wasPrice": 899,
-      "savings": 300,
-      "rating": 4.8,
-      "reviewCount": 5,
-      "productUrl": "https://www.currys.co.uk/products/lg-us77ty-3.1.3-wireless-sound-bar-with-dolby-atmos-10262666.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10262666?$g-small$&fmt=auto",
+      "productId": "10282179",
+      "name": "SAMSUNG HW-B450F/XU 2.1 Wireless Sound Bar with DTS Virtual:X",
+      "brand": "Samsung",
+      "url": "/products/samsung-hwb450fxu-2.1-wireless-sound-bar-with-dts-virtualx-10282179.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282179?$g-small$&fmt=auto",
+      "price": {
+        "current": 199,
+        "was": 219,
+        "savings": 9.13
+      },
+      "rating": {
+        "average": 5,
+        "count": 5
+      },
       "specs": [
-        "Number of speakers: 9",
-        "Dolby Atmos & DTS:X",
+        "Number of speakers:",
+        "DTS Virtual:",
         "Wireless subwoofer",
-        "Audio power: 400 W",
-        "Adaptive / optimized audio",
-        "Supports High-Resolution Audio with 4K pass-through"
+        "Audio power:",
+        "HDMI / Optical / USB"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "LG US70TR 5.1.1 Wireless Sound Bar with Dolby Atmos",
-      "brand": "LG",
-      "price": 699,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.8,
-      "reviewCount": 49,
-      "productUrl": "https://www.currys.co.uk/products/lg-us70tr-5.1.1-wireless-sound-bar-with-dolby-atmos-10262662.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10262662?$g-small$&fmt=auto",
+      "productId": "10257243",
+      "name": "HISENSE HS2100 2.1 Wireless Compact Sound Bar with DTS Virtual:X",
+      "brand": "Hisense",
+      "url": "/products/hisense-hs2100-2.1-wireless-compact-sound-bar-with-dts-virtualx-10257243.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10257243?$g-small$&fmt=auto",
+      "price": {
+        "current": 84,
+        "was": 99,
+        "savings": 15.15
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 143
+      },
       "specs": [
-        "Number of speakers: 9",
-        "Dolby Atmos & DTS:X",
-        "Wireless subwoofer & rear speakers",
-        "Audio power: 500 W",
+        "Number of speakers:",
+        "DTS Virtual:",
+        "Wireless subwoofer",
+        "Audio power:",
         "Adaptive / optimized audio",
-        "Supports High-Resolution Audio with 4K pass-through"
+        "HDMI / Optical"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "LG USC9S 3.1.3 Wireless Sound Bar with Dolby Atmos",
-      "brand": "LG",
-      "price": 799,
-      "wasPrice": 999,
-      "savings": 200,
-      "rating": 4.6,
-      "reviewCount": 76,
-      "productUrl": "https://www.currys.co.uk/products/lg-usc9s-3.1.3-wireless-sound-bar-with-dolby-atmos-10248732.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10248732?$g-small$&fmt=auto",
+      "productId": "10254954",
+      "name": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa - Black",
+      "brand": "Bose",
+      "url": "/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-black-10254954.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/M10254944_black?$g-small$&fmt=auto",
+      "price": {
+        "current": 899,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 32
+      },
       "specs": [
-        "Number of speakers: 9",
-        "Dolby Atmos & DTS:X",
-        "Wireless subwoofer",
-        "Audio power: 400 W",
-        "Meridian technology",
-        "Supports High-Resolution Audio with 4K pass-through",
-        "Chromecast / AirPlay built-in",
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Chromecast built-in",
         "HDMI / Optical",
         "2 year guarantee"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "LG USG10TY 3.1 Wireless Sound Bar with Dolby Atmos",
-      "brand": "LG",
-      "price": 999,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.6,
-      "reviewCount": 30,
-      "productUrl": "https://www.currys.co.uk/products/lg-usg10ty-3.1-wireless-sound-bar-with-dolby-atmos-10262670.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10262670?$g-small$&fmt=auto",
+      "productId": "10263880",
+      "name": "SAMSUNG HW-S60D/XU 5.0 All-in-One Sound Bar with Dolby Atmos, DTS Virtual:X & Amazon Alexa - Black",
+      "brand": "Samsung",
+      "url": "/products/samsung-hws60dxu-5.0-allinone-sound-bar-with-dolby-atmos-dts-virtualx-and-amazon-alexa-black-10263880.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10263880?$g-small$&fmt=auto",
+      "price": {
+        "current": 389,
+        "was": 399,
+        "savings": 2.51
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 198
+      },
       "specs": [
-        "Number of speakers: 8",
-        "Dolby Atmos & DTS:X",
-        "Wireless subwoofer",
-        "Audio power: 420 W",
+        "Number of speakers:",
+        "Dolby Atmos & DTS Virtual:",
+        "Built-in subwoofer",
+        "Audio power:",
         "Adaptive / optimized audio",
+        "HDMI"
+      ],
+      "badges": [],
+      "offers": [
+        "Claim £130 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282234",
+      "name": "SAMSUNG HW-B750F/ XU 5.1 Wireless Sound Bar with DTS Virtual:X",
+      "brand": "Samsung",
+      "url": "/products/samsung-hwb750f-xu-5.1-wireless-sound-bar-with-dts-virtualx-10282234.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282234?$g-small$&fmt=auto",
+      "price": {
+        "current": 299,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 2
+      },
+      "specs": [
+        "Number of speakers:",
+        "DTS Virtual:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10207493",
+      "name": "BOSE TV Speaker",
+      "brand": "Bose",
+      "url": "/products/bose-tv-speaker-10207493.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10207493?$g-small$&fmt=auto",
+      "price": {
+        "current": 199,
+        "was": 269,
+        "savings": 26.02
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 502
+      },
+      "specs": [
+        "HDMI / Optical",
         "2 year guarantee"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "LG US80TR 5.1.3 Wireless Sound Bar with Dolby Atmos",
+      "productId": "10267031",
+      "name": "LG SQM1 2.0 Compact Sound Bar",
       "brand": "LG",
-      "price": 1099,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.5,
-      "reviewCount": 48,
-      "productUrl": "https://www.currys.co.uk/products/lg-us80tr-5.1.3-wireless-sound-bar-with-dolby-atmos-10281500.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10281500?$g-small$&fmt=auto",
+      "url": "/products/lg-sqm1-2.0-compact-sound-bar-10267031.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10267031?$g-small$&fmt=auto",
+      "price": {
+        "current": 59.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 37
+      },
       "specs": [
-        "Number of speakers: 11",
-        "Dolby Atmos & DTS:X",
-        "Wireless subwoofer & rear speakers",
-        "Audio power: 580 W",
+        "Number of speakers: 2",
+        "Audio power: 40 W",
         "Adaptive / optimized audio",
-        "Supports High-Resolution Audio with 4K pass-through",
-        "Compatible with AirPlay / Chromecast / Spotify Connect"
+        "Optical"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
+      "productId": "10250527",
+      "name": "SONY HT-S2000 3.1 All-in-One Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Sony",
+      "url": "/products/sony-hts2000-3.1-allinone-sound-bar-with-dolby-atmos-and-dts-virtualx-10250527.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10250527?$g-small$&fmt=auto",
+      "price": {
+        "current": 399,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 454
+      },
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos & DTS Virtual: X",
+        "Built-in subwoofer",
+        "Audio power: 250 W",
+        "Adaptive / optimized audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on this Sony soundbar when bought with any Sony TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10244365",
+      "name": "JBL BAR 2.0 MK II Compact Sound Bar",
+      "brand": "JBL",
+      "url": "/products/jbl-bar-2.0-mk-ii-compact-sound-bar-10244365.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10244365?$g-small$&fmt=auto",
+      "price": {
+        "current": 119,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 101
+      },
+      "specs": [
+        "Audio power:",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get £20 off JBL BAR 2."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10262662",
+      "name": "LG US70TR 5.1.1 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "url": "/products/lg-us70tr-5.1.1-wireless-sound-bar-with-dolby-atmos-10262662.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10262662?$g-small$&fmt=auto",
+      "price": {
+        "current": 699,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 49
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Wireless subwoofer & rear speakers",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through"
+      ],
+      "badges": [],
+      "offers": [
+        "Get 50% off selected soundbars when bought with any LG TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10262748",
       "name": "LG US95TR 9.1.5 Wireless Sound Bar with Dolby Atmos",
       "brand": "LG",
-      "price": 1399,
-      "wasPrice": 1499,
-      "savings": 100,
-      "rating": 5,
-      "reviewCount": 24,
-      "productUrl": "https://www.currys.co.uk/products/lg-us95tr-9.1.5-wireless-sound-bar-with-dolby-atmos-10262748.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10262748?$g-small$&fmt=auto",
+      "url": "/products/lg-us95tr-9.1.5-wireless-sound-bar-with-dolby-atmos-10262748.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10262748?$g-small$&fmt=auto",
+      "price": {
+        "current": 1399,
+        "was": 1499,
+        "savings": 6.67
+      },
+      "rating": {
+        "average": 5,
+        "count": 24
+      },
       "specs": [
-        "Number of speakers: 17",
-        "Dolby Atmos & DTS:X",
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
         "Wireless subwoofer & rear speakers",
-        "Audio power: 810 W",
+        "Audio power:",
         "Noise-distortion cancelling technology",
         "Supports High-Resolution Audio with 4K pass-through",
         "2 year guarantee"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get 50% off selected soundbars when bought with any LG TV."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar",
-      "brand": "SAMSUNG",
-      "price": 99,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.6,
-      "reviewCount": 36,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10282182?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/samsung-hwb400fxu-2.0-allinone-sound-bar-10282182.html",
-      "badges": [],
-      "deliveryFree": false,
+      "productId": "10262666",
+      "name": "LG US77TY 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "url": "/products/lg-us77ty-3.1.3-wireless-sound-bar-with-dolby-atmos-10262666.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10262666?$g-small$&fmt=auto",
+      "price": {
+        "current": 599,
+        "was": 899,
+        "savings": 33.37
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 5
+      },
       "specs": [
-        "Number of speakers: 4",
-        "Built-in subwoofer",
-        "Audio power: 40 W",
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through"
+      ],
+      "badges": [],
+      "offers": [
+        "Get 50% off selected soundbars when bought with any LG TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10243120",
+      "name": "SONOS SUB Mini Wireless Subwoofer - Black",
+      "brand": "Sonos",
+      "url": "/products/sonos-sub-mini-wireless-subwoofer-black-10243120.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10243120?$g-small$&fmt=auto",
+      "price": {
+        "current": 429,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 586
+      },
+      "specs": [
+        "Pairs with Sonos Speakers",
+        "WiFi / NFC",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282183",
+      "name": "SAMSUNG HW-Q800F/XU 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Samsung",
+      "url": "/products/samsung-hwq800fxu-5.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10282183.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282183?$g-small$&fmt=auto",
+      "price": {
+        "current": 699,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 30
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS Virtual:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
         "HDMI / Optical"
       ],
+      "badges": [],
+      "offers": [
+        "Claim £200 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SAMSUNG HW-S50B/XU 3.0 All-in-One Sound Bar - Dark Grey",
-      "brand": "SAMSUNG",
-      "price": 189,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.5,
-      "reviewCount": 252,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10238562?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/samsung-hws50bxu-3.0-allinone-sound-bar-dark-grey-10238562.html",
-      "badges": [],
-      "deliveryFree": false,
+      "productId": "10263675",
+      "name": "SAMSUNG HW-S800D/XU 3.1.2 Wireless Sound Bar with Dolby Atmos, DTS Virtual:X & Amazon Alexa - Black",
+      "brand": "Samsung",
+      "url": "/products/samsung-hws800dxu-3.1.2-wireless-sound-bar-with-dolby-atmos-dts-virtualx-and-amazon-alexa-black-10263675.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10263675?$g-small$&fmt=auto",
+      "price": {
+        "current": 589,
+        "was": 649,
+        "savings": 9.24
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 52
+      },
       "specs": [
-        "DTS:X",
-        "Audio power: 140 W",
+        "Number of speakers:",
+        "Dolby Atmos & DTS Virtual:",
+        "Wireless subwoofer",
+        "Audio power:",
         "Adaptive / optimized audio",
         "HDMI"
       ],
+      "badges": [],
+      "offers": [
+        "Claim £200 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SAMSUNG HW-B450F/XU 2.1 Wireless Sound Bar with DTS Virtual:X",
-      "brand": "SAMSUNG",
-      "price": 219,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 5,
-      "reviewCount": 5,
-      "productUrl": "https://www.currys.co.uk/products/samsung-hwb450fxu-2.1-wireless-sound-bar-with-dts-virtualx-10282179.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10282179?$g-small$&fmt=auto",
+      "productId": "10248732",
+      "name": "LG USC9S 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "url": "/products/lg-usc9s-3.1.3-wireless-sound-bar-with-dolby-atmos-10248732.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10248732?$g-small$&fmt=auto",
+      "price": {
+        "current": 799,
+        "was": 999,
+        "savings": 20.02
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 76
+      },
       "specs": [
-        "Number of speakers: 3",
-        "DTS Virtual:X",
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
         "Wireless subwoofer",
-        "Audio power: 300 W",
-        "HDMI / Optical / USB"
+        "Audio power:",
+        "Meridian technology",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "Chromecast / AirPlay built-in",
+        "HDMI / Optical"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get 50% off selected soundbars when bought with any LG TV."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SAMSUNG HW-S60D/XU 5.0 All-in-One Sound Bar with Dolby Atmos, DTS Virtual:X & Amazon Alexa - Black",
-      "brand": "SAMSUNG",
-      "price": 389,
-      "wasPrice": 399,
-      "savings": 10,
-      "rating": 4.6,
-      "reviewCount": 197,
-      "productUrl": "https://www.currys.co.uk/products/samsung-hws60dxu-5.0-allinone-sound-bar-with-dolby-atmos-dts-virtualx-and-amazon-alexa-black-10263880.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10263880?$g-small$&fmt=auto",
+      "productId": "10236857",
+      "name": "SONY HT-S400 2.1 Wireless Sound Bar",
+      "brand": "Sony",
+      "url": "/products/sony-hts400-2.1-wireless-sound-bar-10236857.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10236857?$g-small$&fmt=auto",
+      "price": {
+        "current": 279,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 51
+      },
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power:",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with this Sony soundbar+1 more offers](https://www."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10264006",
+      "name": "SONY BRAVIA Theatre Bar 9 (HT-A9000) 13.0 Sound Bar with Dolby Atmos",
+      "brand": "Sony",
+      "url": "/products/sony-bravia-theatre-bar-9-13.0-sound-bar-with-dolby-atmos-10264006.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10264006?$g-small$&fmt=auto",
+      "price": {
+        "current": 1399,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 48
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 8K pass-through",
+        "Compatible with Apple AirPlay & Spotify Connect",
+        "**29.9% APR**",
+        "**29.9%**"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on this Sony soundbar when bought with any Sony TV+2 more offers](https://www."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294843",
+      "name": "JBL BAR 300 MK2 5.0 Wireless All-in-One Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "JBL",
+      "url": "/products/jbl-bar-300-mk2-5.0-wireless-allinone-sound-bar-with-dolby-atmos-and-dts-virtualx-10294843.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294843?$g-small$&fmt=auto",
+      "price": {
+        "current": 349,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 9
+      },
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos & DTS Virtual:X",
+        "Audio power: 450 W",
+        "4K pass-through",
+        "Compatible with AirPlay / Chromecast / Spotify Connect",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10269117",
+      "name": "BOSE Smart Compact Sound Bar with Dolby Atmos & Amazon Alexa",
+      "brand": "Bose",
+      "url": "/products/bose-smart-compact-sound-bar-with-dolby-atmos-and-amazon-alexa-10269117.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10269117?$g-small$&fmt=auto",
+      "price": {
+        "current": 399,
+        "was": 499,
+        "savings": 20.04
+      },
+      "rating": {
+        "average": 4.1,
+        "count": 18
+      },
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Compatible with other Bose speakers / Chromecast / AirPlay",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10263914",
+      "name": "SAMSUNG HW-S700D/XU 3.1 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X - Black",
+      "brand": "Samsung",
+      "url": "/products/samsung-hws700dxu-3.1-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-black-10263914.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10263914?$g-small$&fmt=auto",
+      "price": {
+        "current": 489,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 44
+      },
       "specs": [
         "Number of speakers: 7",
         "Dolby Atmos & DTS Virtual:X",
+        "Wireless subwoofer",
+        "Audio power: 250 W",
+        "Chromecast built-in",
+        "HDMI"
+      ],
+      "badges": [],
+      "offers": [
+        "Claim £130 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282356",
+      "name": "SONY BRAVIA Theatre Bar 60 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Sony",
+      "url": "/products/sony-bravia-theatre-bar-60-3.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10282356.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282356?$g-small$&fmt=auto",
+      "price": {
+        "current": 499,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 21
+      },
+      "specs": [
+        "Number of speakers: 6",
+        "Dolby Atmos & DTS Virtual:X",
+        "Wireless subwoofer",
+        "Audio power: 350 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on this Sony soundbar when bought with any Sony TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10290073",
+      "name": "MARSHALL Heston 60 5.1 All-in-One Sound Bar - Black",
+      "brand": "Marshall",
+      "url": "/products/marshall-heston-60-5.1-allinone-sound-bar-black-10290073.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10290073?$g-small$&fmt=auto",
+      "price": {
+        "current": 499,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Built-in subwoofer",
+        "Audio power:",
+        "Compatible with Apple AirPlay & Spotify Connect",
+        "HDMI"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10242949",
+      "name": "SONY HT-A3000 3.1 All-in-One Sound Bar with Dolby Atmos",
+      "brand": "Sony",
+      "url": "/products/sony-hta3000-3.1-allinone-sound-bar-with-dolby-atmos-10242949.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10242949?$g-small$&fmt=auto",
+      "price": {
+        "current": 599,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 454
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos / DTS:",
+        "Built-in subwoofer",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on this Sony soundbar when bought with any Sony TV+2 more offers](https://www."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10244353",
+      "name": "JBL BAR 500 5.1 Wireless Sound Bar with Dolby Atmos",
+      "brand": "JBL",
+      "url": "/products/jbl-bar-500-5.1-wireless-sound-bar-with-dolby-atmos-10244353.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10244353?$g-small$&fmt=auto",
+      "price": {
+        "current": 499.97,
+        "was": 549,
+        "savings": 8.93
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 90
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Wireless subwoofer",
+        "Audio power:",
+        "4K pass-through",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10262670",
+      "name": "LG USG10TY 3.1 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "url": "/products/lg-usg10ty-3.1-wireless-sound-bar-with-dolby-atmos-10262670.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10262670?$g-small$&fmt=auto",
+      "price": {
+        "current": 999,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 30
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get 50% off selected soundbars when bought with any LG TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282184",
+      "name": "SAMSUNG HW-QS700F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Samsung",
+      "url": "/products/samsung-hwqs700fxu-3.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10282184.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282184?$g-small$&fmt=auto",
+      "price": {
+        "current": 599,
+        "was": 649,
+        "savings": 7.7
+      },
+      "rating": {
+        "average": 5,
+        "count": 8
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS Virtual:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "Compatible with AirPlay / Chromecast / Spotify Connect",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Claim £200 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10264002",
+      "name": "SONY BRAVIA Theatre Bar 8 (HT-A8000) 11.0 Sound Bar with Dolby Atmos",
+      "brand": "Sony",
+      "url": "/products/sony-bravia-theatre-bar-8-11.0-sound-bar-with-dolby-atmos-10264002.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10264002?$g-small$&fmt=auto",
+      "price": {
+        "current": 999,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 9
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 8K pass-through",
+        "Compatible with Apple AirPlay & Spotify Connect"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on this Sony soundbar when bought with any Sony TV+2 more offers](https://www."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10230392",
+      "name": "SONOS Beam (Gen 2) Compact Sound Bar with Dolby Atmos, Alexa & Google Assistant - White",
+      "brand": "Sonos",
+      "url": "/products/sonos-beam-gen-2-compact-sound-bar-with-dolby-atmos-alexa-and-google-assistant-white-10230392.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10230392?$g-small$&fmt=auto",
+      "price": {
+        "current": 449,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 777
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "HDMI",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10290074",
+      "name": "MARSHALL Heston 120 5.1.2 All-in-One Sound Bar - Black",
+      "brand": "Marshall",
+      "url": "/products/marshall-heston-120-5.1.2-allinone-sound-bar-black-10290074.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10290074?$g-small$&fmt=auto",
+      "price": {
+        "current": 899,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Built-in subwoofer",
+        "Audio power:",
+        "Compatible with Apple AirPlay & Spotify Connect",
+        "HDMI"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10290075",
+      "name": "MARSHALL Heston 200 Wireless Subwoofer - Black",
+      "brand": "Marshall",
+      "url": "/products/marshall-heston-200-wireless-subwoofer-black-10290075.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10290075?$g-small$&fmt=auto",
+      "price": {
+        "current": 429,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Output power:",
+        "Pairs with Marshall Sound Bars",
+        "Bluetooth"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10297584",
+      "name": "LG Sound Suite H7 5.1.3 All-in-One Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "url": "/products/lg-sound-suite-h7-5.1.3-allinone-sound-bar-with-dolby-atmos-10297584.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10297584?$g-small$&fmt=auto",
+      "price": {
+        "current": 899,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Built-in subwoofer",
+        "Audio power:",
+        "Chromecast / AirPlay built-in",
+        "HDMI"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10178262",
+      "name": "PANASONIC SC-HTB208EBK 2.0 Wireless Compact Sound Bar",
+      "brand": "Panasonic",
+      "url": "/products/panasonic-schtb208ebk-2.0-wireless-compact-sound-bar-10178262.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10178262?$g-small$&fmt=auto",
+      "price": {
+        "current": 39.99,
+        "was": 59.99,
+        "savings": 33.34
+      },
+      "rating": {
+        "average": 4,
+        "count": 413
+      },
+      "specs": [
+        "Audio power:",
+        "Supports High-Resolution Audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10267478",
+      "name": "HISENSE HS2000 2.1 Compact Sound Bar with DTS Virtual:X",
+      "brand": "Hisense",
+      "url": "/products/hisense-hs2000-2.1-compact-sound-bar-with-dts-virtualx-10267478.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10267478?$g-small$&fmt=auto",
+      "price": {
+        "current": 89,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.2,
+        "count": 18
+      },
+      "specs": [
+        "Number of speakers:",
+        "DTS Virtual:",
+        "Built-in subwoofer",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282353",
+      "name": "SONY BRAVIA Theatre System 6 5.1 Home Cinema System with Dolby Atmos & DTS Virtual:X",
+      "brand": "Sony",
+      "url": "/products/sony-bravia-theatre-system-6-5.1-home-cinema-system-with-dolby-atmos-and-dts-virtualx-10282353.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282353?$g-small$&fmt=auto",
+      "price": {
+        "current": 549,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 53
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS Virtual:",
+        "Wireless subwoofer & rear speakers",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with this Sony soundbar+1 more offers](https://www."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10281500",
+      "name": "LG US80TR 5.1.3 Wireless Sound Bar with Dolby Atmos",
+      "brand": "LG",
+      "url": "/products/lg-us80tr-5.1.3-wireless-sound-bar-with-dolby-atmos-10281500.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10281500?$g-small$&fmt=auto",
+      "price": {
+        "current": 499,
+        "was": 1099,
+        "savings": 54.59
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 48
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Wireless subwoofer & rear speakers",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "Compatible with AirPlay / Chromecast / Spotify Connect"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10240694",
+      "name": "PANASONIC SC-HTB100EBK 2.0 Compact Sound Bar - Black",
+      "brand": "Panasonic",
+      "url": "/products/panasonic-schtb100ebk-2.0-compact-sound-bar-black-10240694.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10240694?$g-small$&fmt=auto",
+      "price": {
+        "current": 49.99,
+        "was": 69.99,
+        "savings": 28.58
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 108
+      },
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 45 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10269549",
+      "name": "SONOS Sub 4 Wireless Subwoofer - Black",
+      "brand": "Sonos",
+      "url": "/products/sonos-sub-4-wireless-subwoofer-black-10269549.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/M10269544_black?$g-small$&fmt=auto",
+      "price": {
+        "current": 799,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 586
+      },
+      "specs": [
+        "Pairs with Sonos Speakers",
+        "WiFi",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10221218",
+      "name": "MAJORITY Bowfell 2.1 Compact Sound Bar",
+      "brand": "Majority",
+      "url": "/products/majority-bowfell-2.1-compact-sound-bar-10221218.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10221218?$g-small$&fmt=auto",
+      "price": {
+        "current": 43,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 1134
+      },
+      "specs": [
+        "Built-in subwoofer",
+        "Audio power: 50 W RMS",
+        "Optical / Coaxial"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10281503",
+      "name": "LG US40TR 4.1 Wireless Sound Bar",
+      "brand": "LG",
+      "url": "/products/lg-us40tr-4.1-wireless-sound-bar-10281503.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10281503?$g-small$&fmt=auto",
+      "price": {
+        "current": 199,
+        "was": 249,
+        "savings": 20.08
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 9
+      },
+      "specs": [
+        "Number of speakers: 5",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 400 W"
+      ],
+      "badges": [],
+      "offers": [
+        "Get £50 off LG US40TR 4.1 Wireless Sound Bar when bought with any LG TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10238727",
+      "name": "SONOS Ray Compact Sound Bar - White",
+      "brand": "Sonos",
+      "url": "/products/sonos-ray-compact-sound-bar-white-10238727.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/M10238584_white?$g-small$&fmt=auto",
+      "price": {
+        "current": 199,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 60
+      },
+      "specs": [
+        "Number of speakers: 4",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10240681",
+      "name": "PANASONIC SC-HTB150EBK 2.1 Wireless Compact Sound Bar - Black",
+      "brand": "Panasonic",
+      "url": "/products/panasonic-schtb150ebk-2.1-wireless-compact-sound-bar-black-10240681.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10240681?$g-small$&fmt=auto",
+      "price": {
+        "current": 79,
+        "was": 89,
+        "savings": 11.24
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 46
+      },
+      "specs": [
+        "Number of speakers: 3",
+        "Wireless subwoofer",
+        "Audio power: 100 W"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10276191",
+      "name": "SONOS Arc Ultra Sound Bar & Sub 4 Wireless Subwoofer Bundle - Black",
+      "brand": "Sonos",
+      "url": "/products/sonos-arc-ultra-sound-bar-and-sub-4-wireless-subwoofer-bundle-black-10276191.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10276191?$g-small$&fmt=auto",
+      "price": {
+        "current": 1798,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 308
+      },
+      "specs": [
+        "Dolby Atmos",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10263711",
+      "name": "SAMSUNG HW-S801D/XU 3.1.2 Wireless Sound Bar with Dolby Atmos, DTS Virtual:X & Amazon Alexa - White",
+      "brand": "Samsung",
+      "url": "/products/samsung-hws801dxu-3.1.2-wireless-sound-bar-with-dolby-atmos-dts-virtualx-and-amazon-alexa-white-10263711.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10263711?$g-small$&fmt=auto",
+      "price": {
+        "current": 589,
+        "was": 649,
+        "savings": 9.24
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 52
+      },
+      "specs": [
+        "Number of speakers: 10",
+        "Dolby Atmos & DTS Virtual:X",
+        "Wireless subwoofer"
+      ],
+      "badges": [],
+      "offers": [
+        "Claim £200 of Samsung tech when you buy this soundbar."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294608",
+      "name": "SHARP HT-SB121 2.0 Compact Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsb121-2.0-compact-sound-bar-10294608.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294608?$g-small$&fmt=auto",
+      "price": {
+        "current": 59.99,
+        "was": 69.99,
+        "savings": 14.29
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Audio power: 120 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10222525",
+      "name": "SONY HT-S40R 5.1 Sound Bar",
+      "brand": "Sony",
+      "url": "/products/sony-hts40r-5.1-sound-bar-10222525.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10222525?$g-small$&fmt=auto",
+      "price": {
+        "current": 349,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 198
+      },
+      "specs": [
+        "Wired subwoofer & rear speakers",
+        "Audio power: 600 W",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with this Sony soundbar."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282976",
+      "name": "MAJORITY Naga 60 2.1 Wireless Sound Bar",
+      "brand": "Majority",
+      "url": "/products/majority-naga-60-2.1-wireless-sound-bar-10282976.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282976?$g-small$&fmt=auto",
+      "price": {
+        "current": 69.99,
+        "was": 84,
+        "savings": 16.68
+      },
+      "rating": {
+        "average": 5,
+        "count": 7
+      },
+      "specs": [
+        "Number of speakers: 2",
+        "Built-in subwoofer",
+        "Audio power: 120 W RMS"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10264007",
+      "name": "SONY BRAVIA Theatre Quad (HTA9M2) 4.0.4 Home Cinema System with Dolby Atmos - Grey",
+      "brand": "Sony",
+      "url": "/products/sony-bravia-theatre-quad-4.0.4-home-cinema-system-with-dolby-atmos-grey-10264007.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10264007?$g-small$&fmt=auto",
+      "price": {
+        "current": 2499,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 6
+      },
+      "specs": [
+        "Number of speakers: 16",
+        "Dolby Atmos & DTS:X",
+        "Audio power: 504 W"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on this Sony soundbar when bought with any Sony TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10275280",
+      "name": "SHARP HT-SB700 2.0.2 Compact Sound Bar with Dolby Atmos - Black",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsb700-2.0.2-compact-sound-bar-with-dolby-atmos-black-10275280.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10275280?$g-small$&fmt=auto",
+      "price": {
+        "current": 99.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3.3,
+        "count": 4
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Audio power:",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10245676",
+      "name": "GROOV-E GV-SB01-BK 2.0 Portable Bluetooth Sound Bar - Black",
+      "brand": "Groov-e",
+      "url": "/products/groove-gvsb01bk-2.0-portable-bluetooth-sound-bar-black-10245676.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10245676?$g-small$&fmt=auto",
+      "price": {
+        "current": 27.99,
+        "was": 34,
+        "savings": 17.68
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers:",
+        "Audio power:"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294610",
+      "name": "SHARP HT-SB304 2.0 Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsb304-2.0-sound-bar-with-dolby-atmos-and-dts-virtualx-10294610.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294610?$g-small$&fmt=auto",
+      "price": {
+        "current": 99.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Dolby Atmos & DTS Virtual:",
+        "Audio power:",
+        "Supports High-Resolution Audio",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10281495",
+      "name": "SONY BRAVIA Theatre Bar 6 3.1.2 Sound Bar with Dolby Atmos",
+      "brand": "Sony",
+      "url": "/products/sony-bravia-theatre-bar-6-3.1.2-sound-bar-with-dolby-atmos-10281495.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10281495?$g-small$&fmt=auto",
+      "price": {
+        "current": 499,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 21
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on this Sony soundbar when bought with any Sony TV+2 more offers](https://www."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10270732",
+      "name": "SONOS Arc Ultra Sound Bar with Dolby Atmos & Amazon Alexa - White",
+      "brand": "Sonos",
+      "url": "/products/sonos-arc-ultra-sound-bar-with-dolby-atmos-and-amazon-alexa-white-10270732.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/M10270732_white?$g-small$&fmt=auto",
+      "price": {
+        "current": 999,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 308
+      },
+      "specs": [
+        "Dolby Atmos",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "HDMI",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10254944",
+      "name": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa - White",
+      "brand": "Bose",
+      "url": "/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-white-10254944.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/M10254944_white?$g-small$&fmt=auto",
+      "price": {
+        "current": 899,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 32
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Chromecast built-in",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294612",
+      "name": "SHARP HT-SBW310 2.1 Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsbw310-2.1-sound-bar-with-dolby-atmos-and-dts-virtualx-10294612.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294612?$g-small$&fmt=auto",
+      "price": {
+        "current": 129,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Dolby Atmos & DTS Virtual:X",
+        "Audio power: 120 W",
+        "Supports High-Resolution Audio"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10261769",
+      "name": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa & Bass Module 700 (Black) Bundle",
+      "brand": "Bose",
+      "url": "/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-and-bass-module-700-black-bundle-10261769.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10261769?$g-small$&fmt=auto",
+      "price": {
+        "current": 1698,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 20
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Chromecast built-in",
+        "HDMI / Optical",
+        "2 year guarantee",
+        "**29.9% APR**",
+        "**29.9%**",
+        "**£1,200**"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294609",
+      "name": "SHARP HT-SB145 2.0 Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsb145-2.0-sound-bar-10294609.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294609?$g-small$&fmt=auto",
+      "price": {
+        "current": 64.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 2
+      },
+      "specs": [
+        "Audio power: 150 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10263882",
+      "name": "SAMSUNG HW-S61D/XU 5.0 All-in-One Sound Bar with Dolby Atmos, DTS Virtual:X & Amazon Alexa - White",
+      "brand": "Samsung",
+      "url": "/products/samsung-hws61dxu-5.0-allinone-sound-bar-with-dolby-atmos-dts-virtualx-and-amazon-alexa-white-10263882.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10263882?$g-small$&fmt=auto",
+      "price": {
+        "current": 389,
+        "was": 399,
+        "savings": 2.51
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 198
+      },
+      "specs": [
+        "Number of speakers: 7",
+        "Dolby Atmos & DTS Virtual: X",
         "Built-in subwoofer",
         "Audio power: 200 W",
         "Adaptive / optimized audio",
         "HDMI"
       ],
       "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "SAMSUNG HW-Q600F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos",
-      "brand": "SAMSUNG",
-      "price": 499,
-      "wasPrice": 549,
-      "savings": 50,
-      "rating": 4.9,
-      "reviewCount": 20,
-      "productUrl": "https://www.currys.co.uk/products/samsung-hwq600fxu-3.1.2-wireless-sound-bar-with-dolby-atmos-10282181.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10282181?$g-small$&fmt=auto",
-      "specs": [
-        "Number of speakers: 9",
-        "Dolby Atmos & DTS:X",
-        "Wireless subwoofer",
-        "Audio power: 380 W",
-        "Adaptive / optimized audio",
-        "4K pass-through"
+      "offers": [
+        "Claim £130 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
       ],
-      "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "SAMSUNG HW-Q930F/XU 9.1.4 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
-      "brand": "SAMSUNG",
-      "price": 999,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 5,
-      "reviewCount": 14,
-      "productUrl": "https://www.currys.co.uk/products/samsung-hwq930fxu-9.1.4-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10282178.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10282178?$g-small$&fmt=auto",
-      "specs": [
-        "Number of speakers: 17",
-        "Dolby Atmos & DTS Virtual:X",
-        "Wireless subwoofer & rear speakers",
-        "Audio power: 580 W",
-        "Adaptive / optimized audio",
-        "Supports High-Resolution Audio with 4K pass-through"
-      ],
-      "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "SONOS Ray Compact Sound Bar - Black",
-      "brand": "SONOS",
-      "price": 199,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.7,
-      "reviewCount": 60,
-      "imageUrl": "https://media.currys.biz/i/currysprod/M10238584_black?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/sonos-ray-compact-sound-bar-black-10238584.html",
-      "badges": [],
       "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10178957",
+      "name": "PANASONIC SC-HTB258EBK 2.1 Wireless Compact Sound Bar",
+      "brand": "Panasonic",
+      "url": "/products/panasonic-schtb258ebk-2.1-wireless-compact-sound-bar-10178957.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10178957?$g-small$&fmt=auto",
+      "price": {
+        "current": 179,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 150
+      },
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power: 120 W RMS",
+        "Supports High-Resolution Audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10236860",
+      "name": "SONY HT-SD40 2.1 Wireless Sound Bar",
+      "brand": "Sony",
+      "url": "/products/sony-htsd40-2.1-wireless-sound-bar-10236860.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10236860?$g-small$&fmt=auto",
+      "price": {
+        "current": 279,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 21
+      },
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power: 330 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with this Sony soundbar."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10237529",
+      "name": "SHARP HT-SB147 2.0 Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsb147-2.0-sound-bar-10237529.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10237529?$g-small$&fmt=auto",
+      "price": {
+        "current": 74.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 7
+      },
+      "specs": [
+        "Audio power: 150 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294622",
+      "name": "SHARP Q HT-SBW53121 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS:X",
+      "brand": "Sharp",
+      "url": "/products/sharp-q-htsbw53121-3.1.2-wireless-sound-bar-with-dolby-atmos-and-dtsx-10294622.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294622?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Dolby Atmos / DTS: X / DTS Virtual:X",
+        "Wireless subwoofer",
+        "Audio power: 550 W",
+        "4K pass-through",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10292171",
+      "name": "SONY HT-A3000 All-in-one Sound Bar, BRAVIA Theatre Rear Wireless Speakers & SA-SW3 Wireless Subwoofer Bundle",
+      "brand": "Sony",
+      "url": "/products/sony-hta3000-allinone-sound-bar-bravia-theatre-rear-wireless-speakers-and-sasw3-wireless-subwoofer-bundle-10292171.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10292171?$g-small$&fmt=auto",
+      "price": {
+        "current": 1489,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Built-in subwoofer",
+        "Audio power: 240 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282593",
+      "name": "SONY BRAVIA Theatre Sub 7 SASW7 Wireless Subwoofer",
+      "brand": "Sony",
+      "url": "/products/sony-bravia-theatre-sub-7-sasw7-wireless-subwoofer-10282593.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282593?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 1
+      },
+      "specs": [
+        "Output power: 100 W",
+        "Pairs with Sony BRAVIA Theatre"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294611",
+      "name": "SHARP HT-SBW121K 2.1 Wireless Compact Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsbw121k-2.1-wireless-compact-sound-bar-10294611.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294611?$g-small$&fmt=auto",
+      "price": {
+        "current": 99.99,
+        "was": 119,
+        "savings": 16
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power: 240 W",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10243117",
+      "name": "SONOS SUB Mini Wireless Subwoofer - White",
+      "brand": "Sonos",
+      "url": "/products/sonos-sub-mini-wireless-subwoofer-white-10243117.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10243117?$g-small$&fmt=auto",
+      "price": {
+        "current": 429,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 586
+      },
+      "specs": [
+        "Pairs with Sonos Speakers",
+        "WiFi / NFC",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294849",
+      "name": "JBL BAR 500 MK2 5.1 Wireless Sound Bar with Dolby Atmos & DTS:X",
+      "brand": "JBL",
+      "url": "/products/jbl-bar-500-mk2-5.1-wireless-sound-bar-with-dolby-atmos-and-dtsx-10294849.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294849?$g-small$&fmt=auto",
+      "price": {
+        "current": 579,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "4K pass-through",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get £100 off the JBL BAR 500 MK2 5."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10208581",
+      "name": "PANASONIC SC-HTB600EBK 2.1 Wireless Sound Bar with Dolby Atmos",
+      "brand": "Panasonic",
+      "url": "/products/panasonic-schtb600ebk-2.1-wireless-sound-bar-with-dolby-atmos-10208581.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10208581?$g-small$&fmt=auto",
+      "price": {
+        "current": 399,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 89
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos / DTS:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10263680",
+      "name": "SAMSUNG HW-S701D/XU 3.1 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X - White",
+      "brand": "Samsung",
+      "url": "/products/samsung-hws701dxu-3.1-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-white-10263680.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10263680?$g-small$&fmt=auto",
+      "price": {
+        "current": 489,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 1,
+        "count": 2
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS Virtual:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "Chromecast built-in",
+        "HDMI"
+      ],
+      "badges": [],
+      "offers": [
+        "Claim £130 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294836",
+      "name": "JBL BAR 1000 MK2 7.1.4 Wireless Sound Bar with Dolby Atmos & DTS:X",
+      "brand": "JBL",
+      "url": "/products/jbl-bar-1000-mk2-7.1.4-wireless-sound-bar-with-dolby-atmos-and-dtsx-10294836.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294836?$g-small$&fmt=auto",
+      "price": {
+        "current": 999,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos & DTS:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "4K pass-through",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get £150 off the JBL BAR 1000 MK2 7."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10236687",
+      "name": "SHARP HT-SB110 2.0 Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsb110-2.0-sound-bar-10236687.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10236687?$g-small$&fmt=auto",
+      "price": {
+        "current": 64.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 7
+      },
+      "specs": [
+        "Audio power:",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282975",
+      "name": "MAJORITY Naga 40 2.1 Wireless Sound Bar",
+      "brand": "Majority",
+      "url": "/products/majority-naga-40-2.1-wireless-sound-bar-10282975.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282975?$g-small$&fmt=auto",
+      "price": {
+        "current": 49.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3,
+        "count": 2
+      },
+      "specs": [
+        "Number of speakers:",
+        "Built-in subwoofer",
+        "Audio power:",
+        "HDMI / Optical / USB",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282977",
+      "name": "MAJORITY Naga 80 2.1 Wireless Sound Bar",
+      "brand": "Majority",
+      "url": "/products/majority-naga-80-2.1-wireless-sound-bar-10282977.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282977?$g-small$&fmt=auto",
+      "price": {
+        "current": 89.99,
+        "was": 104,
+        "savings": 13.47
+      },
+      "rating": {
+        "average": 5,
+        "count": 3
+      },
+      "specs": [
+        "Number of speakers:",
+        "Built-in subwoofer",
+        "Audio power:",
+        "HDMI / Optical / USB",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10237531",
+      "name": "SHARP HT-SBW460 3.1 Wireless Sound Bar with Dolby Atmos",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsbw460-3.1-wireless-sound-bar-with-dolby-atmos-10237531.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10237531?$g-small$&fmt=auto",
+      "price": {
+        "current": 189,
+        "was": 194,
+        "savings": 2.58
+      },
+      "rating": {
+        "average": 4,
+        "count": 4
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Wireless subwoofer",
+        "Audio power:",
+        "4K pass-through",
+        "HDMI / Optical / Coaxial"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10194853",
+      "name": "PANASONIC SC-HTB900EBK 3.1 Wireless Sound Bar with Dolby Atmos",
+      "brand": "Panasonic",
+      "url": "/products/panasonic-schtb900ebk-3.1-wireless-sound-bar-with-dolby-atmos-10194853.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10194853?$g-small$&fmt=auto",
+      "price": {
+        "current": 749,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3.9,
+        "count": 23
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Wireless subwoofer",
+        "Audio power:",
+        "4K pass-through",
+        "Chromecast built-in"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10234514",
+      "name": "MAJORITY Sierra Plus 2.1.2 Wireless Sound Bar with Dolby Atmos - Black",
+      "brand": "Majority",
+      "url": "/products/majority-sierra-plus-2.1.2-wireless-sound-bar-with-dolby-atmos-black-10234514.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10234514?$g-small$&fmt=auto",
+      "price": {
+        "current": 280,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 201
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Wireless subwoofer",
+        "Audio power:",
+        "HDMI / Optical",
+        "3 year guarantee",
+        "**29.9% APR**",
+        "**29.9%**"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10236689",
+      "name": "SHARP HT-SBW110 2.1 Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsbw110-2.1-sound-bar-10236689.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10236689?$g-small$&fmt=auto",
+      "price": {
+        "current": 89.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 21
+      },
+      "specs": [
+        "Wired subwoofer",
+        "Audio power: 180 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294613",
+      "name": "SHARP HT-SBW320 2.1 Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsbw320-2.1-sound-bar-with-dolby-atmos-and-dts-virtualx-10294613.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294613?$g-small$&fmt=auto",
+      "price": {
+        "current": 149,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 13
+      },
+      "specs": [
+        "Dolby Atmos / DTS: X / DTS Virtual:X",
+        "Audio power: 360 W",
+        "Supports High-Resolution Audio",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10236688",
+      "name": "SHARP HT-SB140 2.0 Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsb140-2.0-sound-bar-10236688.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10236688?$g-small$&fmt=auto",
+      "price": {
+        "current": 69.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 33
+      },
+      "specs": [
+        "Audio power: 150 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10237528",
+      "name": "SHARP HT-SB107 2.0 Compact Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsb107-2.0-compact-sound-bar-10237528.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10237528?$g-small$&fmt=auto",
+      "price": {
+        "current": 59.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 3
+      },
+      "specs": [
+        "Audio power: 90 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10245679",
+      "name": "GROOV-E GV-SB04-BK 2.2 Portable Bluetooth All-in-One Sound Bar - Black",
+      "brand": "Groov-e",
+      "url": "/products/groove-gvsb04bk-2.2-portable-bluetooth-allinone-sound-bar-black-10245679.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10245679?$g-small$&fmt=auto",
+      "price": {
+        "current": 67,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 11
+      },
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 110 W RMS",
+        "Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294624",
+      "name": "SHARP Q HT-SBW55121 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS:X",
+      "brand": "Sharp",
+      "url": "/products/sharp-q-htsbw55121-5.1.2-wireless-sound-bar-with-dolby-atmos-and-dtsx-10294624.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294624?$g-small$&fmt=auto",
+      "price": {
+        "current": 399,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 12
+      },
+      "specs": [
+        "Dolby Atmos / DTS: X / DTS Virtual:X",
+        "Wireless subwoofer",
+        "Audio power: 650 W",
+        "4K pass-through",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10245677",
+      "name": "GROOV-E GV-SB02-BK 2.0 Portable Bluetooth Sound Bar - Black",
+      "brand": "Groov-e",
+      "url": "/products/groove-gvsb02bk-2.0-portable-bluetooth-sound-bar-black-10245677.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10245677?$g-small$&fmt=auto",
+      "price": {
+        "current": 42.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3.5,
+        "count": 2
+      },
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 50 W RMS",
+        "Optical / Coaxial"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10245678",
+      "name": "GROOV-E GV-SB03-BK 2.0 Portable Bluetooth Sound Bar - Black",
+      "brand": "Groov-e",
+      "url": "/products/groove-gvsb03bk-2.0-portable-bluetooth-sound-bar-black-10245678.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10245678?$g-small$&fmt=auto",
+      "price": {
+        "current": 55,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 5
+      },
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 75 W RMS",
+        "Optical / Coaxial"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10252183",
+      "name": "SONOS Beam (Gen 2) Compact Sound Bar & SUB Mini Wireless Subwoofer Bundle - Black",
+      "brand": "Sonos",
+      "url": "/products/sonos-beam-gen-2-compact-sound-bar-and-sub-mini-wireless-subwoofer-bundle-black-10252183.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10252183?$g-small$&fmt=auto",
+      "price": {
+        "current": 928,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 173
+      },
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "HDMI",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10261770",
+      "name": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa & Bass Module 700 (White) Bundle",
+      "brand": "Bose",
+      "url": "/products/bose-smart-ultra-5.1.2-soundbar-with-dolby-atmos-and-amazon-alexa-and-bass-module-700-white-bundle-10261770.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10261770?$g-small$&fmt=auto",
+      "price": {
+        "current": 1698,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Chromecast built-in",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10269544",
+      "name": "SONOS Sub 4 Wireless Subwoofer - White",
+      "brand": "Sonos",
+      "url": "/products/sonos-sub-4-wireless-subwoofer-white-10269544.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/M10269544_white?$g-small$&fmt=auto",
+      "price": {
+        "current": 799,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 586
+      },
+      "specs": [
+        "Pairs with Sonos Speakers",
+        "WiFi",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10293512",
+      "name": "KANTO AUDIO SUB6 Subwoofer - Vinyl Black",
+      "brand": "KANTO AUDIO",
+      "url": "/products/kanto-audio-sub6-subwoofer-vinyl-black-10293512.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10293512?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Wired subwoofer",
+        "Audio power: 100 W",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10276192",
+      "name": "SONOS Arc Ultra Sound Bar & Sub 4 Wireless Subwoofer Bundle - White",
+      "brand": "Sonos",
+      "url": "/products/sonos-arc-ultra-sound-bar-and-sub-4-wireless-subwoofer-bundle-white-10276192.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10276192?$g-small$&fmt=auto",
+      "price": {
+        "current": 1798,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 308
+      },
+      "specs": [
+        "Dolby Atmos",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "HDMI",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10252185",
+      "name": "SONOS Ray Compact Sound Bar & SUB Mini Wireless Subwoofer Bundle - Black",
+      "brand": "Sonos",
+      "url": "/products/sonos-ray-compact-sound-bar-and-sub-mini-wireless-subwoofer-bundle-black-10252185.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10252185?$g-small$&fmt=auto",
+      "price": {
+        "current": 708,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 586
+      },
       "specs": [
         "Number of speakers: 4",
         "Supports High-Resolution Audio",
@@ -1041,23 +3430,224 @@
         "Optical",
         "2 year guarantee"
       ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SONOS Beam (Gen 2) Compact Sound Bar with Dolby Atmos, Alexa & Google Assistant - Black",
-      "brand": "SONOS",
-      "price": 449,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.7,
-      "reviewCount": 334,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10230379?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/sonos-beam-gen-2-compact-sound-bar-with-dolby-atmos-alexa-and-google-assistant-black-10230379.html",
-      "badges": [
-        "Epic Deal"
+      "productId": "10236690",
+      "name": "SHARP HT-SBW182 2.1 Wireless Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsbw182-2.1-wireless-sound-bar-10236690.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10236690?$g-small$&fmt=auto",
+      "price": {
+        "current": 96.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power: 160 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
       ],
       "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294623",
+      "name": "SHARP Q HT-SBW53121 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS:X - Silver",
+      "brand": "Sharp",
+      "url": "/products/sharp-q-htsbw53121-3.1.2-wireless-sound-bar-with-dolby-atmos-and-dtsx-silver-10294623.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294623?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Dolby Atmos / DTS:",
+        "Wireless subwoofer",
+        "Audio power:",
+        "4K pass-through",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10252621",
+      "name": "SONOS Ray Compact Sound Bar & SUB Mini Wireless Subwoofer Bundle - White",
+      "brand": "Sonos",
+      "url": "/products/sonos-ray-compact-sound-bar-and-sub-mini-wireless-subwoofer-bundle-white-10252621.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10252621?$g-small$&fmt=auto",
+      "price": {
+        "current": 708,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 586
+      },
+      "specs": [
+        "Number of speakers:",
+        "Supports High-Resolution Audio",
+        "Compatible with SONOS multi-room",
+        "Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10245680",
+      "name": "GROOV-E GV-SB05-BK 2.1 Portable Bluetooth All-in-One Sound Bar - Black",
+      "brand": "Groov-e",
+      "url": "/products/groove-gvsb05bk-2.1-portable-bluetooth-allinone-sound-bar-black-10245680.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10245680?$g-small$&fmt=auto",
+      "price": {
+        "current": 92,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3,
+        "count": 1
+      },
+      "specs": [
+        "Number of speakers:",
+        "Built-in subwoofer",
+        "Audio power:",
+        "Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10293518",
+      "name": "KANTO AUDIO SUB8 Subwoofer - Matte White",
+      "brand": "KANTO AUDIO",
+      "url": "/products/kanto-audio-sub8-subwoofer-matte-white-10293518.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10293518?$g-small$&fmt=auto",
+      "price": {
+        "current": 269,
+        "was": 279,
+        "savings": 3.58
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Wired subwoofer",
+        "Audio power:",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10280345",
+      "name": "KLIPSCH Flexus Sub 100 Wireless Subwoofer",
+      "brand": "KLIPSCH",
+      "url": "/products/klipsch-flexus-sub-100-wireless-subwoofer-10280345.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10280345?$g-small$&fmt=auto",
+      "price": {
+        "current": 329,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 20
+      },
+      "specs": [
+        "Output power:",
+        "Pairs with Klipsch Flexus sound ecosystem",
+        "**29.9% APR**",
+        "**29.9%**",
+        "**£1,200**"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294625",
+      "name": "SHARP Q HT-SBW55121 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS:X - Silver",
+      "brand": "Sharp",
+      "url": "/products/sharp-q-htsbw55121-5.1.2-wireless-sound-bar-with-dolby-atmos-and-dtsx-silver-10294625.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294625?$g-small$&fmt=auto",
+      "price": {
+        "current": 399,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Dolby Atmos / DTS:X / DTS Virtual:X",
+        "Wireless subwoofer",
+        "Audio power: 650 W",
+        "4K pass-through",
+        "HDMI / Optical / USB"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10252184",
+      "name": "SONOS Beam (Gen 2) Compact Sound Bar & SUB Mini Wireless Subwoofer Bundle - White",
+      "brand": "Sonos",
+      "url": "/products/sonos-beam-gen-2-compact-sound-bar-and-sub-mini-wireless-subwoofer-bundle-white-10252184.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10252184?$g-small$&fmt=auto",
+      "price": {
+        "current": 928,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 777
+      },
       "specs": [
         "Number of speakers: 5",
         "Dolby Atmos",
@@ -1066,226 +3656,756 @@
         "HDMI",
         "2 year guarantee"
       ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SONOS Arc Ultra Sound Bar with Dolby Atmos & Amazon Alexa - Black",
-      "brand": "SONOS",
-      "price": 999,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.8,
-      "reviewCount": 308,
-      "imageUrl": "https://media.currys.biz/i/currysprod/M10270732_black_001?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/sonos-arc-ultra-sound-bar-with-dolby-atmos-and-amazon-alexa-black-10270746.html",
-      "badges": [],
-      "deliveryFree": false,
+      "productId": "10293517",
+      "name": "KANTO AUDIO SUB8 Subwoofer - Vinyl Grey",
+      "brand": "KANTO AUDIO",
+      "url": "/products/kanto-audio-sub8-subwoofer-vinyl-grey-10293517.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10293517?$g-small$&fmt=auto",
+      "price": {
+        "current": 279,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
       "specs": [
-        "Dolby Atmos",
-        "Adaptive / optimized audio",
-        "Supports High-Resolution Audio",
-        "Compatible with SONOS multi-room",
-        "HDMI",
+        "Wired subwoofer",
+        "Audio power: 150 W",
         "2 year guarantee"
       ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SONY HT-SF150 2.0 Sound Bar",
-      "brand": "SONY",
-      "price": 129,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.4,
-      "reviewCount": 548,
-      "productUrl": "https://www.currys.co.uk/products/sony-htsf150-2.0-sound-bar-10176938.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10176938?$g-small$&fmt=auto",
+      "productId": "10293514",
+      "name": "KANTO AUDIO SUB6 Subwoofer - Matte White",
+      "brand": "KANTO AUDIO",
+      "url": "/products/kanto-audio-sub6-subwoofer-matte-white-10293514.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10293514?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
       "specs": [
-        "Audio power: 120 W",
+        "Wired subwoofer",
+        "Audio power: 100 W",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10293519",
+      "name": "KANTO AUDIO SUB8 Subwoofer - Vinyl White",
+      "brand": "KANTO AUDIO",
+      "url": "/products/kanto-audio-sub8-subwoofer-vinyl-white-10293519.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10293519?$g-small$&fmt=auto",
+      "price": {
+        "current": 279,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Wired subwoofer",
+        "Audio power:",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10293516",
+      "name": "KANTO AUDIO SUB8 Subwoofer - Matte Black",
+      "brand": "KANTO AUDIO",
+      "url": "/products/kanto-audio-sub8-subwoofer-matte-black-10293516.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10293516?$g-small$&fmt=auto",
+      "price": {
+        "current": 269,
+        "was": 279,
+        "savings": 3.58
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Wired subwoofer",
+        "Audio power:",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10293515",
+      "name": "KANTO AUDIO SUB6 Subwoofer - Vinyl White",
+      "brand": "KANTO AUDIO",
+      "url": "/products/kanto-audio-sub6-subwoofer-vinyl-white-10293515.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10293515?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Wired subwoofer",
+        "Audio power:",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10293513",
+      "name": "KANTO AUDIO SUB6 Subwoofer - Matte Grey",
+      "brand": "KANTO AUDIO",
+      "url": "/products/kanto-audio-sub6-subwoofer-matte-grey-10293513.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10293513?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Wired subwoofer",
+        "Audio power:",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10282185",
+      "name": "SAMSUNG HW-Q990F/XU 11.1.4 Wireless Sound Bar with Dolby Atmos",
+      "brand": "Samsung",
+      "url": "/products/samsung-hwq990fxu-11.1.4-wireless-sound-bar-with-dolby-atmos-10282185.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282185?$g-small$&fmt=auto",
+      "price": {
+        "current": 1199,
+        "was": 1399,
+        "savings": 14.3
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 15
+      },
+      "specs": [
+        "Number of speakers: 23",
+        "Dolby Atmos",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 756 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "Chromecast / AirPlay built-in",
         "HDMI / Optical"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SONY HT-S20R 5.1 Sound Bar",
-      "brand": "SONY",
-      "price": 249,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.5,
-      "reviewCount": 226,
-      "imageUrl": "https://media.currys.biz/i/currysprod/10207764?$g-small$&fmt=auto",
-      "productUrl": "https://www.currys.co.uk/products/sony-hts20r-5.1-sound-bar-10207764.html",
-      "badges": [],
-      "deliveryFree": false,
+      "productId": "10280624",
+      "name": "HISENSE AX5140Q 5.1.4 Wireless Sound Bar with Dolby Atmos",
+      "brand": "Hisense",
+      "url": "/products/hisense-ax5140q-5.1.4-wireless-sound-bar-with-dolby-atmos-10280624.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10280624?$g-small$&fmt=auto",
+      "price": {
+        "current": 499,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 20
+      },
       "specs": [
-        "Bluetooth",
-        "Wired subwoofer & rear speakers",
-        "Audio power: 400 W",
-        "4K pass-through",
-        "HDMI / Optical"
-      ],
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "SONY HT-S400 2.1 Wireless Sound Bar",
-      "brand": "SONY",
-      "price": 249,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.7,
-      "reviewCount": 51,
-      "productUrl": "https://www.currys.co.uk/products/sony-hts400-2.1-wireless-sound-bar-10236857.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10236857?$g-small$&fmt=auto",
-      "specs": [
-        "Wireless subwoofer",
-        "Audio power: 330 W",
-        "HDMI / Optical"
-      ],
-      "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "SONY HT-S40R 5.1 Sound Bar",
-      "brand": "SONY",
-      "price": 349,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.4,
-      "reviewCount": 198,
-      "productUrl": "https://www.currys.co.uk/products/sony-hts40r-5.1-sound-bar-10222525.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10222525?$g-small$&fmt=auto",
-      "specs": [
-        "Wired subwoofer & rear speakers",
+        "Number of speakers: 13",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer & rear speakers",
         "Audio power: 600 W",
+        "Adaptive / optimized audio",
         "4K pass-through",
-        "HDMI / Optical"
+        "HDMI / Optical / USB"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SONY HT-S2000 3.1 All-in-One Sound Bar with Dolby Atmos & DTS Virtual:X",
-      "brand": "SONY",
-      "price": 399,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.4,
-      "reviewCount": 453,
-      "productUrl": "https://www.currys.co.uk/products/sony-hts2000-3.1-allinone-sound-bar-with-dolby-atmos-and-dts-virtualx-10250527.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10250527?$g-small$&fmt=auto",
+      "productId": "10286618",
+      "name": "TCL Q65H 5.1 Wireless Soundbar with Dolby Atmos & DTS:X",
+      "brand": "TCL",
+      "url": "/products/tcl-q65h-5.1-wireless-soundbar-with-dolby-atmos-and-dtsx-10286618.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10286618?$g-small$&fmt=auto",
+      "price": {
+        "current": 199,
+        "was": 299,
+        "savings": 33.44
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 7
+      },
       "specs": [
-        "Number of speakers: 5",
-        "Dolby Atmos & DTS Virtual:X",
-        "Built-in subwoofer",
-        "Audio power: 250 W",
-        "Adaptive / optimized audio",
-        "HDMI / Optical"
-      ],
-      "badges": [],
-      "deliveryFree": false,
-      "energyRating": null,
-      "offers": []
-    },
-    {
-      "name": "SONY BRAVIA Theatre Bar 60 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
-      "brand": "SONY",
-      "price": 499,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.5,
-      "reviewCount": 21,
-      "productUrl": "https://www.currys.co.uk/products/sony-bravia-theatre-bar-60-3.1.2-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10282356.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10282356?$g-small$&fmt=auto",
-      "specs": [
-        "Number of speakers: 6",
-        "Dolby Atmos & DTS Virtual:X",
+        "Number of speakers: 9",
+        "Dolby Atmos & DTS:X",
         "Wireless subwoofer",
-        "Audio power: 350 W",
+        "Audio power: 580 W",
         "Adaptive / optimized audio",
-        "Supports High-Resolution Audio"
+        "Compatible with Apple AirPlay",
+        "HDMI / Optical",
+        "2 year guarantee"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SONY HT-A3000 3.1 All-in-One Sound Bar with Dolby Atmos",
-      "brand": "SONY",
-      "price": 599,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.4,
-      "reviewCount": 453,
-      "productUrl": "https://www.currys.co.uk/products/sony-hta3000-3.1-allinone-sound-bar-with-dolby-atmos-10242949.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10242949?$g-small$&fmt=auto",
+      "productId": "10282178",
+      "name": "SAMSUNG HW-Q930F/XU 9.1.4 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "brand": "Samsung",
+      "url": "/products/samsung-hwq930fxu-9.1.4-wireless-sound-bar-with-dolby-atmos-and-dts-virtualx-10282178.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10282178?$g-small$&fmt=auto",
+      "price": {
+        "current": 999,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 16
+      },
       "specs": [
-        "Number of speakers: 5",
-        "Dolby Atmos / DTS:X",
+        "Number of speakers:",
+        "Dolby Atmos & DTS Virtual:",
+        "Wireless subwoofer & rear speakers",
+        "Audio power:",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "Compatible with AirPlay / Chromecast / Spotify Connect",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Claim £300 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10229199",
+      "name": "SONY SA-SW5 Wireless Subwoofer",
+      "brand": "Sony",
+      "url": "/products/sony-sasw5-wireless-subwoofer-10229199.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10229199?$g-small$&fmt=auto",
+      "price": {
+        "current": 699,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 63
+      },
+      "specs": [
+        "Output power:",
+        "Pairs with Sony HT-A7000 Sound Bar"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar+1 more offers](https://www."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10234512",
+      "name": "MAJORITY Everest 5.1 Wireless Sound Bar - Black",
+      "brand": "Majority",
+      "url": "/products/majority-everest-5.1-wireless-sound-bar-black-10234512.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10234512?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 175
+      },
+      "specs": [
+        "Wireless subwoofer & rear speakers",
+        "Audio power:",
+        "4K pass-through",
+        "HDMI / Optical / Coaxial",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10207297",
+      "name": "PANASONIC SC-HTB400EBK 2.1 All-in-One Soundbar",
+      "brand": "Panasonic",
+      "url": "/products/panasonic-schtb400ebk-2.1-allinone-soundbar-10207297.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10207297?$g-small$&fmt=auto",
+      "price": {
+        "current": 219,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.1,
+        "count": 107
+      },
+      "specs": [
         "Built-in subwoofer",
-        "Audio power: 240 W",
-        "Adaptive / optimized audio",
-        "Supports High-Resolution Audio"
+        "Audio power:",
+        "HDMI / Optical"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SONY BRAVIA Theatre Bar 8 (HT-A8000) 11.0 Sound Bar with Dolby Atmos",
-      "brand": "SONY",
-      "price": 999,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.8,
-      "reviewCount": 9,
-      "productUrl": "https://www.currys.co.uk/products/sony-bravia-theatre-bar-8-11.0-sound-bar-with-dolby-atmos-10264002.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10264002?$g-small$&fmt=auto",
+      "productId": "10271103",
+      "name": "TCL S55HK 2.1 Wireless Compact Sound Bar with Dolby Atmos & DTS Virtual:X - Dark Titanium",
+      "brand": "TCL",
+      "url": "/products/tcl-s55hk-2.1-wireless-compact-sound-bar-with-dolby-atmos-and-dts-virtualx-dark-titanium-10271103.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10271103?$g-small$&fmt=auto",
+      "price": {
+        "current": 129,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 21
+      },
       "specs": [
-        "Number of speakers: 13",
-        "Dolby Atmos & DTS:X",
-        "Audio power: 495 W",
+        "Number of speakers:",
+        "Dolby Atmos & DTS Virtual:",
+        "Wireless subwoofer",
+        "Audio power:",
         "Adaptive / optimized audio",
-        "Supports High-Resolution Audio with 8K pass-through"
+        "Supports High-Resolution Audio",
+        "HDMI / Optical",
+        "2 year guarantee"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
     },
     {
-      "name": "SONY BRAVIA Theatre Bar 9 (HT-A9000) 13.0 Sound Bar with Dolby Atmos",
-      "brand": "SONY",
-      "price": 1399,
-      "wasPrice": null,
-      "savings": null,
-      "rating": 4.4,
-      "reviewCount": 48,
-      "productUrl": "https://www.currys.co.uk/products/sony-bravia-theatre-bar-9-13.0-sound-bar-with-dolby-atmos-10264006.html",
-      "imageUrl": "https://media.currys.biz/i/currysprod/10264006?$g-small$&fmt=auto",
+      "productId": "10244359",
+      "name": "JBL BAR 300 Compact Sound Bar with Dolby Atmos",
+      "brand": "JBL",
+      "url": "/products/jbl-bar-300-compact-sound-bar-with-dolby-atmos-10244359.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10244359?$g-small$&fmt=auto",
+      "price": {
+        "current": 249.97,
+        "was": 299,
+        "savings": 16.39
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 93
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Built-in subwoofer",
+        "Audio power:",
+        "4K pass-through",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get £70 off JBL BAR 300 Compact Sound Bar with Dolby Atmos when bought with any TV."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10294673",
+      "name": "DENON DHT-S218 All‑in‑One Sound Bar with Dolby Atmos - Black",
+      "brand": "Denon",
+      "url": "/products/denon-dhts218-all%E2%80%91in%E2%80%91one-sound-bar-with-dolby-atmos-black-10294673.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294673?$g-small$&fmt=auto",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers:",
+        "Dolby Atmos",
+        "Built-in subwoofer",
+        "Audio power:",
+        "4K pass-through",
+        "HDMI / Optical / USB",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10267366",
+      "name": "MAJORITY Bowfell 2.1 Compact Sound Bar - White",
+      "brand": "Majority",
+      "url": "/products/majority-bowfell-2.1-compact-sound-bar-white-10267366.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10267366?$g-small$&fmt=auto",
+      "price": {
+        "current": 39.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 134
+      },
+      "specs": [
+        "Built-in subwoofer",
+        "Audio power:",
+        "Optical",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10292169",
+      "name": "SONY BRAVIA Theatre Bar 9 13.0 Sound Bar, SA-SW5 Wireless Subwoofer & SA-RS5 2.0.2 Wireless Rear Speaker Kit Bundle",
+      "brand": "Sony",
+      "url": "/products/sony-bravia-theatre-bar-9-13.0-sound-bar-sasw5-wireless-subwoofer-and-sars5-2.0.2-wireless-rear-speaker-kit-bundle-10292169.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10292169?$g-small$&fmt=auto",
+      "price": {
+        "current": 2797,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
       "specs": [
         "Number of speakers: 13",
-        "Dolby Atmos & DTS:X",
+        "Dolby Atmos",
         "Audio power: 585 W",
         "Adaptive / optimized audio",
-        "Supports High-Resolution Audio with 8K pass-through"
+        "Supports High-Resolution Audio with 8K pass-through",
+        "Compatible with Apple AirPlay & Spotify Connect"
       ],
       "badges": [],
-      "deliveryFree": false,
+      "offers": [],
+      "deliveryFree": true,
       "energyRating": null,
-      "offers": []
+      "inStock": true
+    },
+    {
+      "productId": "10280343",
+      "name": "KLIPSCH Flexus Core 200 3.1.2 Compact Sound Bar with Dolby Atmos - Black",
+      "brand": "KLIPSCH",
+      "url": "/products/klipsch-flexus-core-200-3.1.2-compact-sound-bar-with-dolby-atmos-black-10280343.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10280343?$g-small$&fmt=auto",
+      "price": {
+        "current": 449,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers: 9",
+        "Dolby Atmos",
+        "Built-in subwoofer",
+        "Audio power: 185 W RMS",
+        "HDMI / Optical / USB",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10267364",
+      "name": "MAJORITY Teton Plus 2.1 Wireless Sound Bar",
+      "brand": "Majority",
+      "url": "/products/majority-teton-plus-2.1-wireless-sound-bar-10267364.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10267364?$g-small$&fmt=auto",
+      "price": {
+        "current": 89.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 12
+      },
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power: 180 W",
+        "HDMI / Optical",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10292170",
+      "name": "SONY BRAVIA Theatre Bar 8 Sound Bar with Dolby Atmos, Wireless Subwoofer & Wireless Rear Speaker Kit Bundle",
+      "brand": "Sony",
+      "url": "/products/sony-bravia-theatre-bar-8-sound-bar-with-dolby-atmos-wireless-subwoofer-and-wireless-rear-speaker-kit-bundle-10292170.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10292170?$g-small$&fmt=auto",
+      "price": {
+        "current": 2389,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers: 13",
+        "Dolby Atmos",
+        "Audio power: 495 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 8K pass-through",
+        "Compatible with Apple AirPlay & Spotify Connect"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10236691",
+      "name": "SHARP HT-SBW202 2.1 Wireless Sound Bar",
+      "brand": "Sharp",
+      "url": "/products/sharp-htsbw202-2.1-wireless-sound-bar-10236691.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10236691?$g-small$&fmt=auto",
+      "price": {
+        "current": 129,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 5
+      },
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power: 200 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10296386",
+      "name": "DENON DHT-S316 Wireless Sound Bar with Dolby Digital - Black",
+      "brand": "Denon",
+      "url": "/products/denon-dhts316-wireless-sound-bar-with-dolby-digital-black-10296386.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10296386?$g-small$&fmt=auto",
+      "price": {
+        "current": 259,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power: 160 W",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10291032",
+      "name": "BOSE Smart Compact Sound Bar & Bass Module 500 Bundle",
+      "brand": "Bose",
+      "url": "/products/bose-smart-compact-sound-bar-and-bass-module-500-bundle-10291032.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10291032?$g-small$&fmt=auto",
+      "price": {
+        "current": 948,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers: 5",
+        "Dolby Atmos",
+        "Compatible with other Bose speakers / Chromecast / AirPlay",
+        "HDMI / Optical",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10261591",
+      "name": "DELL SB521A 2.0 Sound Bar - Black",
+      "brand": "DELL",
+      "url": "/products/dell-sb521a-2.0-sound-bar-black-10261591.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10261591?$g-small$&fmt=auto",
+      "price": {
+        "current": 56.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "specs": [
+        "Number of speakers: 2",
+        "Audio power: 3.6 W RMS"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
+    },
+    {
+      "productId": "10221219",
+      "name": "MAJORITY K2 2.1 Wireless Sound Bar - Black",
+      "brand": "Majority",
+      "url": "/products/majority-k2-2.1-wireless-sound-bar-black-10221219.html",
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/M10221219_black?$g-small$&fmt=auto",
+      "price": {
+        "current": 110,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 57
+      },
+      "specs": [
+        "Wireless subwoofer",
+        "Audio power: 225 W",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null,
+      "inStock": true
     }
   ]
 }

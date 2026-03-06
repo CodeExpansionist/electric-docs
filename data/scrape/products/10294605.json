@@ -4,8 +4,8 @@
   "brand": "Sharp",
   "price": {
     "current": 219,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.2,
@@ -13,50 +13,72 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10294605?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10294605?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10294605?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10294605_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10294605?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294605_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Refresh rate: 60 Hz" },
-    { "icon": "", "label": "HDMI 2.1 x 3" },
-    { "icon": "", "label": "Catch-up TV & streaming" },
-    { "icon": "", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.1 x 3"
+    },
+    {
+      "icon": "",
+      "label": "Catch-up TV & streaming"
+    },
+    {
+      "icon": "",
+      "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 9.28,
-    "months": 36,
-    "totalPayable": 334.26,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 2.63, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 2.63,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -78,5 +100,6 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "energyRating": "G"
+  "energyRating": "G",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

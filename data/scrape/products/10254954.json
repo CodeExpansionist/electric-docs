@@ -2,23 +2,125 @@
   "id": "10254954",
   "title": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa - Black",
   "brand": "BOSE",
-  "price": { "current": 629, "was": 899, "savings": 270 },
-  "rating": { "average": 4.6, "count": 32 },
+  "price": {
+    "current": 899,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 32
+  },
   "images": {
-    "gallery": ["https://media.currys.biz/i/currysprod/M10254944_black?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_095?$l-large$&fmt=auto"],
-    "thumbnails": ["https://media.currys.biz/i/currysprod/M10254944_black?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10254944_black_095?$t-thumbnail$&fmt=auto"],
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/M10254944_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_095?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/M10254944_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254944_black_095?$t-thumbnail$&fmt=auto"
+    ],
     "video": "https://flv.isitetv.com/media/video/2265/ol_video_img_url__277867_2265.jpg?m=2265&r=1048&t=1"
   },
-  "keySpecs": [{"icon":"","label":"Dolby Atmos"},{"icon":"","label":"5.1.2 Channels"},{"icon":"","label":"Chromecast built-in"},{"icon":"","label":"HDMI / Optical"},{"icon":"","label":"2 year guarantee"}],
-  "energyRating": { "class": "" },
-  "flexpay": { "monthlyAmount": 25.49, "months": 36, "totalPayable": 917.64, "apr": "29.9%" },
-  "wallBracket": { "text": "Add compatible wall bracket", "product": { "title": "Compatible Wall Bracket", "price": 34.99, "savings": 10, "image": "https://media.currys.biz/i/currysprod/197367?$l-large$&fmt=auto" } },
-  "careAndRepair": [{ "plan": "Breakdown Support", "price": 3.5, "period": "per month" }],
-  "essentialServices": [{ "name": "Delivery Service", "price": 5.99 },{ "name": "Set-up Service", "price": 30 }],
-  "crossSellProducts": [{ "category": "Cables", "title": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI Cable - 1 m", "price": 34.99, "image": "https://media.currys.biz/i/currysprod/10218648?$s-swatch$&fmt=auto" }],
-  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
-  "badges": [{ "type": "on-sale", "image": "https://media.currys.biz/i/currysprod/onsale.png" }],
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Dolby Atmos"
+    },
+    {
+      "icon": "",
+      "label": "5.1.2 Channels"
+    },
+    {
+      "icon": "",
+      "label": "Chromecast built-in"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "energyRating": {
+    "class": ""
+  },
+  "wallBracket": {
+    "text": "Add compatible wall bracket",
+    "product": {
+      "title": "Compatible Wall Bracket",
+      "price": 34.99,
+      "savings": 10,
+      "image": "https://media.electriz.biz/i/electrizprod/197367?$l-large$&fmt=auto"
+    }
+  },
+  "careAndRepair": [
+    {
+      "plan": "Breakdown Support",
+      "price": 3.5,
+      "period": "per month"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Delivery Service",
+      "price": 5.99
+    },
+    {
+      "name": "Set-up Service",
+      "price": 30
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI Cable - 1 m",
+      "price": 34.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10218648?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [
+    {
+      "type": "on-sale",
+      "image": "https://media.electriz.biz/i/electrizprod/onsale.png"
+    }
+  ],
   "specifications": {},
-  "description": { "main": "Hear your favourite movies like never before with this Bose Smart Ultra soundbar. It's loaded with Dolby Atmos which separates dialogue, music and sound effects for an epic 3-dimensional spatial sound.", "goodToKnow": ["Hook it up to your TV easily with the HDMI eARC or optical audio connections","Pair it with your compatible Bose headphones and Bluetooth speakers (sold separately) with SimpleSync technology","Upward-firing dipole speakers, a centre tweeter and speaker arrays fill your space with crystal-clear sound","Control your soundbar using just your voice \u2013 it's got Amazon Alexa built in","Stream your music from almost any device with Wi-Fi, Bluetooth, Apple AirPlay 2, Spotify Connect and Chromecast"] },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 }
+  "description": {
+    "main": "Hear your favourite movies like never before with this Bose Smart Ultra soundbar. It's loaded with Dolby Atmos which separates dialogue, music and sound effects for an epic 3-dimensional spatial sound.",
+    "goodToKnow": [
+      "Hook it up to your TV easily with the HDMI eARC or optical audio connections",
+      "Pair it with your compatible Bose headphones and Bluetooth speakers (sold separately) with SimpleSync technology",
+      "Upward-firing dipole speakers, a centre tweeter and speaker arrays fill your space with crystal-clear sound",
+      "Control your soundbar using just your voice – it's got Amazon Alexa built in",
+      "Stream your music from almost any device with Wi-Fi, Bluetooth, Apple AirPlay 2, Spotify Connect and Chromecast"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

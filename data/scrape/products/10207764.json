@@ -2,23 +2,138 @@
   "id": "10207764",
   "title": "SONY HT-S20R 5.1 Sound Bar",
   "brand": "Sony",
-  "price": { "current": 249, "was": 0, "savings": 0 },
-  "rating": { "average": 4.5, "count": 226 },
+  "price": {
+    "current": 249,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 226
+  },
   "images": {
-    "gallery": ["https://media.currys.biz/i/currysprod/10207764_014?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_010?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_011?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_012?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_013?$l-large$&fmt=auto"],
-    "thumbnails": ["https://media.currys.biz/i/currysprod/10207764?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_010?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_011?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_012?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207764_013?$t-thumbnail$&fmt=auto"],
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10207764_014?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_012?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_013?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10207764?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_012?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207764_013?$t-thumbnail$&fmt=auto"
+    ],
     "video": "https://flv.isitetv.com/media/video/1053/ol_video_img_url__225484_1053.jpg?m=1053&r=1048&t=1"
   },
-  "keySpecs": [{"icon":"","label":"Bluetooth Connectivity"},{"icon":"","label":"Includes Subwoofer"},{"icon":"","label":"Total Power Output 400W"},{"icon":"","label":"Supports 4K"},{"icon":"","label":"Multiple Connectivity Options"}],
-  "energyRating": { "class": "" },
-  "flexpay": { "monthlyAmount": 10.09, "months": 36, "totalPayable": 363.24, "apr": "29.9%" },
-  "wallBracket": { "text": "Add a wall bracket for easy installation.", "product": { "title": "Sony Wall Bracket", "price": 29.99, "savings": 0, "image": "" } },
-  "careAndRepair": [{ "plan": "Breakdown Support", "price": 2.5, "period": "per month" }],
-  "essentialServices": [{ "name": "Delivery", "price": 3.99 },{ "name": "Installation", "price": 20 }],
-  "crossSellProducts": [{"category":"Accessories","title":"Sony DVPSR760HB DVD Player","price":39,"image":"https://media.currys.biz/i/currysprod/12872098?$s-swatch$&fmt=auto"},{"category":"Cables & Accessories","title":"Sandstrom Black Series S1OPT114X Digital Optical Cable - 1 m","price":11.99,"image":"https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto"}],
-  "offers": ["Save 50% on Sony Home Cinema Accessories when bought with this Sony soundbar."],
-  "badges": [{ "type": "Best Seller", "image": "" }],
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Bluetooth Connectivity"
+    },
+    {
+      "icon": "",
+      "label": "Includes Subwoofer"
+    },
+    {
+      "icon": "",
+      "label": "Total Power Output 400W"
+    },
+    {
+      "icon": "",
+      "label": "Supports 4K"
+    },
+    {
+      "icon": "",
+      "label": "Multiple Connectivity Options"
+    }
+  ],
+  "energyRating": {
+    "class": ""
+  },
+  "wallBracket": {
+    "text": "Add a wall bracket for easy installation.",
+    "product": {
+      "title": "Sony Wall Bracket",
+      "price": 29.99,
+      "savings": 0,
+      "image": ""
+    }
+  },
+  "careAndRepair": [
+    {
+      "plan": "Breakdown Support",
+      "price": 2.5,
+      "period": "per month"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Delivery",
+      "price": 3.99
+    },
+    {
+      "name": "Installation",
+      "price": 20
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "Sony DVPSR760HB DVD Player",
+      "price": 39,
+      "image": "https://media.electriz.biz/i/electrizprod/12872098?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Cables & Accessories",
+      "title": "Sandstrom Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "image": "https://media.electriz.biz/i/electrizprod/21948996?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Save 50% on Sony Home Cinema Accessories when bought with this Sony soundbar."
+  ],
+  "badges": [
+    {
+      "type": "Best Seller",
+      "image": ""
+    }
+  ],
   "specifications": {},
-  "description": { "main": "Lose yourself in cinema-style sound with the Sony HT-S20R 5.1 Sound Bar. It features a wired subwoofer with two rear speakers, enhancing your audio experience.", "goodToKnow": ["Easy to set up with HDMI ARC or optical input.","Bluetooth compatibility for streaming music.","Multiple sound modes for optimized listening."] },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+  "description": {
+    "main": "Lose yourself in cinema-style sound with the Sony HT-S20R 5.1 Sound Bar. It features a wired subwoofer with two rear speakers, enhancing your audio experience.",
+    "goodToKnow": [
+      "Easy to set up with HDMI ARC or optical input.",
+      "Bluetooth compatibility for streaming music.",
+      "Multiple sound modes for optimized listening."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

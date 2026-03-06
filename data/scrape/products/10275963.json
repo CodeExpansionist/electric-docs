@@ -13,57 +13,85 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10275963?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10275963?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10275963?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10275963_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10275963?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10275963_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "4K HDR for precise colours and dazzling details" },
-    { "icon": "", "label": "Dolby Vision HDR inspired by cinema technology" },
-    { "icon": "", "label": "Refresh rate: 120 Hz" },
-    { "icon": "", "label": "HDMI 2.1 x 4" },
-    { "icon": "", "label": "2 year guarantee" },
-    { "icon": "", "label": "Personalised content & new entertainment with Google TV" }
+    {
+      "icon": "",
+      "label": "4K HDR for precise colours and dazzling details"
+    },
+    {
+      "icon": "",
+      "label": "Dolby Vision HDR inspired by cinema technology"
+    },
+    {
+      "icon": "",
+      "label": "Refresh rate: 120 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.1 x 4"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    },
+    {
+      "icon": "",
+      "label": "Personalised content & new entertainment with Google TV"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 16.06,
-    "months": 36,
-    "totalPayable": 578.26,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 4.49, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 65, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 4.49,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
   "badges": [
-    { "type": "deal", "label": "Save \u00a370" }
+    {
+      "type": "deal",
+      "label": "Save £70"
+    }
   ],
   "specifications": {},
   "description": {
@@ -83,5 +111,6 @@
     "nextDayDeliveryPrice": 9.99,
     "standardDeliveryDays": "3-5"
   },
-  "category": "TVs"
+  "category": "TVs",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

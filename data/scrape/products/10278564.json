@@ -2,36 +2,54 @@
   "id": "10278564",
   "title": "JBL Flip 7 Portable Bluetooth Speaker - Black",
   "brand": "JBL",
-  "price": { "current": 113, "was": 129, "savings": 16 },
-  "rating": { "average": 4.9, "count": 167 },
+  "price": {
+    "current": 113,
+    "was": 129,
+    "savings": 16
+  },
+  "rating": {
+    "average": 4.9,
+    "count": 167
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10278544_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_006?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10278544_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_006?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10278544_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10278544_black_006?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10278544_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10278544_black_006?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "waterproof", "label": "Waterproof" },
-    { "icon": "sound", "label": "JBL Pro Sound with AI Sound Boost" },
-    { "icon": "battery", "label": "Up to 14 hours battery life" },
-    { "icon": "bluetooth", "label": "Bluetooth" }
+    {
+      "icon": "waterproof",
+      "label": "Waterproof"
+    },
+    {
+      "icon": "sound",
+      "label": "JBL Pro Sound with AI Sound Boost"
+    },
+    {
+      "icon": "battery",
+      "label": "Up to 14 hours battery life"
+    },
+    {
+      "icon": "bluetooth",
+      "label": "Bluetooth"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -47,6 +65,11 @@
       "It supports lossless audio so you can enjoy your music exactly as the artist intended."
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

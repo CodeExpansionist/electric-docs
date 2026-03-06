@@ -4,8 +4,8 @@
   "brand": "One For All",
   "price": {
     "current": 24.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 0,
@@ -13,41 +13,53 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10253769?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10253769_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10253769_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10253769_003?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10253769?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10253769_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10253769_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10253769_003?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10253769?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10253769_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10253769_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10253769_003?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10253769?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10253769_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10253769_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10253769_003?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
-    { "icon": "", "label": "Controls up to 6 devices" },
-    { "icon": "", "label": "Works with all AV devices with IR remote controls" },
-    { "icon": "", "label": "Fully customisable" },
-    { "icon": "", "label": "Learning feature" },
-    { "icon": "", "label": "Simple set-up" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "",
+      "label": "Controls up to 6 devices"
+    },
+    {
+      "icon": "",
+      "label": "Works with all AV devices with IR remote controls"
+    },
+    {
+      "icon": "",
+      "label": "Fully customisable"
+    },
+    {
+      "icon": "",
+      "label": "Learning feature"
+    },
+    {
+      "icon": "",
+      "label": "Simple set-up"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 0,
-    "months": 0,
-    "totalPayable": 0,
-    "apr": ""
-  },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [
     {
       "category": "Batteries",
       "title": "ENERGIZER Max AA Alkaline Batteries - Pack of 8",
-      "price": 7.00,
-      "image": "https://media.currys.biz/i/currysprod/10267967?$s-swatch$&fmt=auto"
+      "price": 7,
+      "image": "https://media.electriz.biz/i/electrizprod/10267967?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -88,5 +100,6 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "TV Accessories"
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

@@ -2,46 +2,64 @@
   "id": "10193373",
   "title": "DENON DM-41DAB Wireless Traditional Hi-Fi System - Black",
   "brand": "Denon",
-  "price": { "current": 399, "was": null, "savings": null },
-  "rating": { "average": 4.7, "count": 797 },
+  "price": {
+    "current": 399,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 797
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10164499_black_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_011?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_011?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10164499_black_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10164499_black_011?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10164499_black_011?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__259659_2544.jpg"
   },
   "keySpecs": [
-    { "icon": "cd", "label": "CD player" },
-    { "icon": "radio", "label": "DAB / FM radio" },
-    { "icon": "bluetooth", "label": "Bluetooth" },
-    { "icon": "power", "label": "Output power: 60 W" }
+    {
+      "icon": "cd",
+      "label": "CD player"
+    },
+    {
+      "icon": "radio",
+      "label": "DAB / FM radio"
+    },
+    {
+      "icon": "bluetooth",
+      "label": "Bluetooth"
+    },
+    {
+      "icon": "power",
+      "label": "Output power: 60 W"
+    }
   ],
-  "flexpay": { "monthlyAmount": 16.63, "months": 24, "totalPayable": 399, "apr": "0%" },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -49,12 +67,21 @@
   "badges": [],
   "specifications": {},
   "description": {
-    "main": "If you're running low on space but still want big sound, you'll love the Denon DM-41DAB Wireless Traditional Hi-Fi System. It delivers a powerful 60 W of audio from two speakers, for sound that fills small and medium-sized rooms. You'll be surprised at how loud a small hi-fi can be. Expand your music options with multiple ways to listen. This hi-fi system has a CD player and FM, DAB and DAB+ radio stations to listen to. Built-in Bluetooth means you can wirelessly stream music from your smartphone, tablet or PC. So you're not just restricted to your CD collection, or what's on the radio.",
-    "goodToKnow": [
-      "Free standard delivery on orders over £40",
-      "Enjoy up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product"
+    "main": "Powerful 60 W sound hi-fi system.",
+    "features": [
+      "CD player",
+      "DAB / FM radio",
+      "Bluetooth"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "galleryImages": [
+    "https://cdn.media.amplience.net/i/electrizprod/M10164499_black?$l-large$&fmt=auto"
+  ]
 }

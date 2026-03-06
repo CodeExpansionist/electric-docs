@@ -13,20 +13,20 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10248652?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_005?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10248652?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_005?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10248652?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248652_005?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10248652?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248652_005?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
@@ -48,7 +48,6 @@
       "label": "Super slim design"
     }
   ],
-  "flexpay": null,
   "careAndRepair": [
     {
       "plan": "Installation",
@@ -74,8 +73,8 @@
       "Mount type": "Full motion"
     },
     "Features": {
-      "Tilt range": "+5\u00b0 / -15\u00b0",
-      "Swivel range": "60\u00b0",
+      "Tilt range": "+5° / -15°",
+      "Swivel range": "60°",
       "Extension from wall": "Up to 546 mm",
       "Cable management": "Built-in concealed",
       "Tool-free tilt and swivel": "Yes"

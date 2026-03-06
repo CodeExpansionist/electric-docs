@@ -4,8 +4,8 @@
   "brand": "Sandstrom",
   "price": {
     "current": 149,
-    "was": 0,
-    "savings": 0
+    "was": 29.99,
+    "savings": 15
   },
   "rating": {
     "average": 4.4,
@@ -13,37 +13,68 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10138719_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10138719?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10138719_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10138719_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10138719_003?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10138719_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10138719?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10138719_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10138719_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10138719_003?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10138719?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10138719_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10138719_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10138719_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10138719_004?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10138719?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10138719_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10138719_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10138719_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10138719_004?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__197849_2544.jpg?m=2544&r=1048&t=1"
   },
   "keySpecs": [
-    { "icon": "", "label": "Max. VESA compliance: 600 x 400" },
-    { "icon": "", "label": "Min. VESA compliance: 200 x 200" },
-    { "icon": "", "label": "Max. supported weight: 40 kg" },
-    { "icon": "", "label": "Cable management" },
-    { "icon": "", "label": "Includes spirit level / wall template" }
+    {
+      "icon": "",
+      "label": "Max. VESA compliance: 600 x 400"
+    },
+    {
+      "icon": "",
+      "label": "Min. VESA compliance: 200 x 200"
+    },
+    {
+      "icon": "",
+      "label": "Max. supported weight: 40 kg"
+    },
+    {
+      "icon": "",
+      "label": "Cable management"
+    },
+    {
+      "icon": "",
+      "label": "Includes spirit level / wall template"
+    }
   ],
-  "flexpay": { "monthlyAmount": 6.03, "months": 36, "totalPayable": 217.08, "apr": "29.9%" },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [
-    { "category": "TV Accessories", "title": "SANDSTROM Black Series S3HDM115 High Speed HDMI Cable with Ethernet - 3 m", "price": 29.99, "image": "https://media.currys.biz/i/currysprod/10132209?$s-swatch$&fmt=auto" },
-    { "category": "TV Accessories", "title": "LOGIK LFMSKM16 Full Motion TV Bracket Starter Kit", "price": 53.99, "image": "https://media.currys.biz/i/currysprod/10141964?$s-swatch$&fmt=auto" },
-    { "category": "Cables and Adapters", "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m", "price": 19.99, "image": "https://media.currys.biz/i/currysprod/10175000?$s-swatch$&fmt=auto" }
+    {
+      "category": "TV Accessories",
+      "title": "SANDSTROM Black Series S3HDM115 High Speed HDMI Cable with Ethernet - 3 m",
+      "price": 29.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10132209?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "LOGIK LFMSKM16 Full Motion TV Bracket Starter Kit",
+      "price": 53.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10141964?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Cables and Adapters",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
+    }
   ],
-  "offers": ["Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."],
+  "offers": [
+    "Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."
+  ],
   "badges": [],
   "specifications": {},
   "description": {
@@ -54,6 +85,11 @@
       "With a wall template and spirit level included, installing your Sandstrom Full Motion TV Bracket is easy."
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 },
-  "category": "TV Accessories"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

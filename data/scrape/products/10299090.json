@@ -4,58 +4,52 @@
   "brand": "SAMSUNG",
   "price": {
     "current": 159,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
-    "average": 4.6,
+    "average": 0,
     "count": 0
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10299090_white_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_005?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_005?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10299090_white?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10299090_white_006?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10299090_white?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10299090_white_006?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
     {
-      "icon": "https://www.currys.co.uk/images/svg-icons/icon-sound.svg",
+      "icon": "https://www.electriz.co.uk/images/svg-icons/icon-sound.svg",
       "label": "True wireless earbuds"
     },
     {
-      "icon": "https://www.currys.co.uk/images/svg-icons/icon-noise-cancelling.svg",
+      "icon": "https://www.electriz.co.uk/images/svg-icons/icon-noise-cancelling.svg",
       "label": "Active noise-cancelling"
     },
     {
-      "icon": "https://www.currys.co.uk/images/svg-icons/icon-battery.svg",
+      "icon": "https://www.electriz.co.uk/images/svg-icons/icon-battery.svg",
       "label": "Battery life: Up to 6 hours (30 hours with case)"
     },
     {
-      "icon": "https://www.currys.co.uk/images/svg-icons/icon-water-resistant.svg",
+      "icon": "https://www.electriz.co.uk/images/svg-icons/icon-water-resistant.svg",
       "label": "Water & sweat resistant (IP54)"
     }
   ],
-  "flexpay": {
-    "monthlyAmount": 6.44,
-    "months": 36,
-    "totalPayable": 231.84,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
     {
       "plan": "Breakdown support",
@@ -74,7 +68,7 @@
       "category": "Accessories",
       "title": "SAMSUNG 45w USB-C Fast Charger & USB-C Cable",
       "price": 31.99,
-      "image": "https://media.currys.biz/i/currysprod/10271743?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10271743?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -97,5 +91,6 @@
     "freeDelivery": true,
     "standardDeliveryPrice": 0,
     "nextDayDeliveryPrice": 5.99
-  }
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

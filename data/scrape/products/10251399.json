@@ -2,43 +2,63 @@
   "id": "10251399",
   "title": "JBL Boombox 3 WiFi Portable Wireless Speaker - Black",
   "brand": "JBL",
-  "price": { "current": 329.97, "was": 549, "savings": 219.03 },
-  "rating": { "average": 4.8, "count": 870 },
+  "price": {
+    "current": 329.97,
+    "was": 549,
+    "savings": 219.03
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 870
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10251399?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_007?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10251399?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_007?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10251399?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10251399_007?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10251399?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10251399_007?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "waterproof", "label": "Waterproof" },
-    { "icon": "battery", "label": "Up to 24 hours battery life" },
-    { "icon": "wifi", "label": "WiFi / Bluetooth / Apple AirPlay" },
-    { "icon": "charging", "label": "USB smartphone charging" }
+    {
+      "icon": "waterproof",
+      "label": "Waterproof"
+    },
+    {
+      "icon": "battery",
+      "label": "Up to 24 hours battery life"
+    },
+    {
+      "icon": "wifi",
+      "label": "WiFi / Bluetooth / Apple AirPlay"
+    },
+    {
+      "icon": "charging",
+      "label": "USB smartphone charging"
+    }
   ],
-  "flexpay": { "monthlyAmount": 13.75, "months": 24, "totalPayable": 329.97, "apr": "0%" },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
-  "badges": ["Epic Deal"],
+  "badges": [
+    "Epic Deal"
+  ],
   "specifications": {},
   "description": {
     "main": "Let's face it, your phone speaker isn't going to get anyone in the party mood. The JBL Boombox 3 is here to save the day. And now that it's got WiFi, the dancing doesn't have to stop when your phone rings. Relax, leave your notifications on, and just stream music straight from Spotify Connect, Apple AirPlay and more. Blast it loud with 3-way speakers, including a dedicated subwoofer. You'll hear every song loud, clear and with absolutely booming bass. It's dust and waterproof, so that's a yes to music on the beach or in the rain. And it'll even work overtime as a powerbank, so you can charge your phone if you need a taxi home.",
@@ -51,6 +71,10 @@
       "Customise EQs, playlists, and all that jazz using the JBL One app"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
   "category": "Speakers"
 }

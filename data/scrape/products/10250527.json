@@ -9,58 +9,83 @@
   },
   "rating": {
     "average": 4.4,
-    "count": 453
+    "count": 454
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10250527_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_011?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10250527_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_011?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10250527?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10250527_011?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10250527?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10250527_011?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Number of speakers: 5" },
-    { "icon": "", "label": "Dolby Atmos & DTS Virtual:X" },
-    { "icon": "", "label": "Built-in subwoofer" },
-    { "icon": "", "label": "Audio power: 250 W" },
-    { "icon": "", "label": "Adaptive / optimized audio" },
-    { "icon": "", "label": "HDMI / Optical" }
+    {
+      "icon": "",
+      "label": "Number of speakers: 5"
+    },
+    {
+      "icon": "",
+      "label": "Dolby Atmos & DTS Virtual:X"
+    },
+    {
+      "icon": "",
+      "label": "Built-in subwoofer"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 250 W"
+    },
+    {
+      "icon": "",
+      "label": "Adaptive / optimized audio"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 16.17,
-    "months": 36,
-    "totalPayable": 582.12,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 4.79, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 4.79,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -81,5 +106,6 @@
     "nextDayDeliveryPrice": 0,
     "standardDeliveryDays": "3-5"
   },
-  "category": "Soundbars"
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

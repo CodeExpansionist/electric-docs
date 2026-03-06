@@ -1,0 +1,32 @@
+{
+  "url": "/terms-and-conditions",
+  "pageTitle": "Terms & conditions",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Terms & conditions",
+      "url": "/terms-and-conditions"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "General terms",
+      "content": "These terms and conditions govern your use of the Electriz website and your purchases from us. By using our website or making a purchase, you agree to these terms.",
+      "type": "text"
+    },
+    {
+      "heading": "Ordering & payment",
+      "content": "All orders are subject to availability and acceptance. Prices are shown in pounds sterling and include VAT where applicable. We accept major debit cards, credit cards, PayPal, and Electriz gift cards.",
+      "type": "text"
+    },
+    {
+      "heading": "Delivery & returns",
+      "content": "Delivery timescales are estimates and may vary. You have the right to cancel most orders within 14 days of receiving your goods. Certain items are excluded from our returns policy — see our Returns page for full details.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

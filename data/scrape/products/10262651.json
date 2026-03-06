@@ -2,52 +2,70 @@
   "id": "10262651",
   "title": "SONY ULT FIELD 1 Portable Bluetooth Speaker - Black",
   "brand": "Sony",
-  "price": { "current": 89.99, "was": null, "savings": null },
-  "rating": { "average": 4.8, "count": 185 },
+  "price": {
+    "current": 89.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 185
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10262624_black_100?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_012?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_013?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_014?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_015?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_016?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_017?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_018?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_019?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_020?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_100?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_100?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_012?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_013?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_014?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_015?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_016?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_017?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_018?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_019?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_020?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_100?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10262624_black_100?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10262624_black_005?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_100?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10262624_black_005?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/1053/ol_video_img_url__282497_1053.jpg"
   },
   "keySpecs": [
-    { "icon": "waterproof", "label": "Waterproof" },
-    { "icon": "battery", "label": "Up to 12 hours battery life" },
-    { "icon": "speaker-pair", "label": "Pair up to 2 speakers" },
-    { "icon": "bluetooth", "label": "Bluetooth" }
+    {
+      "icon": "waterproof",
+      "label": "Waterproof"
+    },
+    {
+      "icon": "battery",
+      "label": "Up to 12 hours battery life"
+    },
+    {
+      "icon": "speaker-pair",
+      "label": "Pair up to 2 speakers"
+    },
+    {
+      "icon": "bluetooth",
+      "label": "Bluetooth"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -64,6 +82,11 @@
       "Linking it with your Android phone is a breeze with Fast Pair"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

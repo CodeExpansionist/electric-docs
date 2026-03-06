@@ -1,0 +1,146 @@
+{
+  "scrapedAt": "2026-03-06",
+  "titlePattern": "{Category Name} - {Qualifier} | Currys",
+  "descriptionPatterns": [
+    "Take advantage of amazing deals on our {Category} range here at Currys. Available online for delivery or order & collect.",
+    "Find the perfect {Category} for you in our full {Parent Category} range here at Currys. Shop online for delivery or order & collect.",
+    "Bring the cinema home with the best {Category} at Currys, from {Brand} and {Brand} to other top-of-the-range brands. Shop online or order & collect in store."
+  ],
+  "pages": [
+    {
+      "slug": "televisions/tvs",
+      "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs",
+      "title": "TVs - Cheap Television Deals | Currys",
+      "metaDescription": "Take advantage of amazing deals on our TVs range here at Currys. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/televisions/tvs",
+      "robots": "index",
+      "openGraph": {
+        "title": "TVs - Cheap Television Deals | Currys",
+        "description": "Take advantage of amazing deals on our TVs range here at Currys. Available online for delivery or order & collect.",
+        "image": "https://cdn.media.amplience.net/i/currysprod/10281549?$g-small$&fmt=auto",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "h1": "TVs"
+    },
+    {
+      "slug": "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
+      "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
+      "title": "Sound Bars - Best Sound Bar Deals | Currys",
+      "metaDescription": "Bring the cinema home with the best sound bars at Currys, from Bose and Sonos to other top-of-the-range brands. Shop online or order & collect in store.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
+      "robots": "index",
+      "openGraph": {
+        "title": "Sound Bars - Best Sound Bar Deals | Currys",
+        "description": "Bring the cinema home with the best sound bars at Currys, from Bose and Sonos to other top-of-the-range brands. Shop online or order & collect in store.",
+        "image": "https://cdn.media.amplience.net/i/currysprod/10230379?$g-small$&fmt=auto",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "h1": "Sound Bars"
+    },
+    {
+      "slug": "headphones/headphones",
+      "url": "https://www.currys.co.uk/tv-and-audio/headphones/headphones",
+      "title": "Headphones and earphones - Cheap headphone deals | Currys",
+      "metaDescription": "Take advantage of cheap deals on headphones and earphones here at Currys. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/headphones/headphones",
+      "robots": "index",
+      "openGraph": {
+        "title": "Headphones and earphones - Cheap headphone deals | Currys",
+        "description": "Take advantage of cheap deals on headphones and earphones here at Currys. Available online for delivery or order & collect.",
+        "image": "https://cdn.media.amplience.net/i/currysprod/M10299058_black?$g-small$&fmt=auto",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "h1": "All Headphones and Earphones"
+    },
+    {
+      "slug": "tv-accessories/tv-wall-brackets-and-stands/tv-wall-brackets",
+      "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories/tv-wall-brackets-and-stands/tv-wall-brackets",
+      "title": "N/A - 404 page",
+      "metaDescription": "N/A - 404 page",
+      "statusCode": 404,
+      "note": "This URL returned a 404 on the reference site. The category may have been restructured or removed."
+    },
+    {
+      "slug": "tv-accessories/cables-and-accessories",
+      "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories/cables-and-accessories",
+      "title": "Cables and accessories - Cheap Cables and accessories Deals | Currys",
+      "metaDescription": "Take advantage of amazing deals on our Cables and accessories range here at Currys. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/tv-accessories/cables-and-accessories",
+      "robots": "index",
+      "openGraph": {
+        "title": "Cables and accessories - Cheap Cables and accessories Deals | Currys",
+        "description": "Take advantage of amazing deals on our Cables and accessories range here at Currys. Available online for delivery or order & collect.",
+        "image": "https://cdn.media.amplience.net/i/currysprod/10249243?$g-small$&fmt=auto",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "h1": "Cables and accessories"
+    },
+    {
+      "slug": "tv-accessories/remote-controls",
+      "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories/remote-controls",
+      "title": "TV remote controls | Currys",
+      "metaDescription": "Take advantage of amazing deals on our TV remote controls range here at Currys. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/tv-accessories/remote-controls",
+      "robots": "index",
+      "openGraph": {
+        "title": "TV remote controls | Currys",
+        "description": "Take advantage of amazing deals on our TV remote controls range here at Currys. Available online for delivery or order & collect.",
+        "image": "https://cdn.media.amplience.net/i/currysprod/10192567?$g-small$&fmt=auto",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "h1": "TV remote controls"
+    },
+    {
+      "slug": "tv-accessories/tv-aerials",
+      "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories/tv-aerials",
+      "title": "TV aerials - Cheap TV aerials Deals | Currys",
+      "metaDescription": "Take advantage of amazing deals on our TV aerials range here at Currys. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/tv-accessories/tv-aerials",
+      "robots": "index",
+      "openGraph": {
+        "title": "TV aerials - Cheap TV aerials Deals | Currys",
+        "description": "Take advantage of amazing deals on our TV aerials range here at Currys. Available online for delivery or order & collect.",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "h1": "TV aerials"
+    },
+    {
+      "slug": "dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players",
+      "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players",
+      "title": "Blu-ray and DVD players - Cheap Blu-ray and DVD players Deals | Currys",
+      "metaDescription": "Take advantage of amazing deals on our Blu-ray and DVD players range here at Currys. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players",
+      "robots": "index",
+      "openGraph": {
+        "title": "Blu-ray and DVD players - Cheap Blu-ray and DVD players Deals | Currys",
+        "description": "Take advantage of amazing deals on our Blu-ray and DVD players range here at Currys. Available online for delivery or order & collect.",
+        "image": "https://cdn.media.amplience.net/i/currysprod/12872098?$g-small$&fmt=auto",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "h1": "Blu-ray and DVD players"
+    },
+    {
+      "slug": "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems",
+      "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems",
+      "title": "Home cinema systems - Cheap Home theatre system Deals | Currys",
+      "metaDescription": "Find the perfect Home cinema systems for you in our full Home cinema systems and soundbars range here at Currys. Shop online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems",
+      "robots": "index",
+      "openGraph": {
+        "title": "Home cinema systems - Cheap Home theatre system Deals | Currys",
+        "description": "Find the perfect Home cinema systems for you in our full Home cinema systems and soundbars range here at Currys. Shop online for delivery or order & collect.",
+        "image": "https://cdn.media.amplience.net/i/currysprod/10207764?$g-small$&fmt=auto",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "h1": "Home cinema systems"
+    }
+  ]
+}

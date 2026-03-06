@@ -1,0 +1,78 @@
+{
+  "id": "10293938",
+  "title": "GADHOUSE Wesley Headphones - Black",
+  "brand": "GADHOUSE",
+  "price": {
+    "current": 47.99,
+    "was": 49.99,
+    "savings": 2
+  },
+  "rating": {
+    "average": 5,
+    "count": 1
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10293938?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10293938?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10293938_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "On-ear headphones"
+    },
+    {
+      "icon": "",
+      "label": "Microphone / playback & functions control"
+    },
+    {
+      "icon": "",
+      "label": "True wireless earbu"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Enjoy premium audio with the GADHOUSE Wesley Headphones - Black. Featuring on-ear headphones, microphone / playback & functions control, true wireless earbu, these headphones deliver exceptional sound quality for music, calls, and entertainment.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Headphones",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

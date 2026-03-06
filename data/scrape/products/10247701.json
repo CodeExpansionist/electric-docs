@@ -2,35 +2,50 @@
   "id": "10247701",
   "title": "SONOS Era 100 Wireless Multi-room Speaker with Amazon Alexa - White",
   "brand": "SONOS",
-  "price": { "current": 199, "was": null, "savings": null },
-  "rating": { "average": 4.6, "count": 86 },
+  "price": {
+    "current": 199,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 86
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10247701_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_005?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10247701_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_005?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10247701_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10247701_005?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10247701_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10247701_005?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "multiroom", "label": "Wirelessly connect to other Sonos speakers" },
-    { "icon": "wifi", "label": "WiFi / Bluetooth / Apple AirPlay 2" },
-    { "icon": "connectivity", "label": "USB Type-C port" }
+    {
+      "icon": "multiroom",
+      "label": "Wirelessly connect to other Sonos speakers"
+    },
+    {
+      "icon": "wifi",
+      "label": "WiFi / Bluetooth / Apple AirPlay 2"
+    },
+    {
+      "icon": "connectivity",
+      "label": "USB Type-C port"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -42,12 +57,17 @@
     "goodToKnow": [
       "With WiFi and Bluetooth, you can easily stream from any of your devices with no ugly cables in sight",
       "Pair it with additional Sonos speakers (sold separately) for a wider stereo sound, or create your own surround sound system for movie night",
-      "It's super-simple to set up \u2013 just plug it in, connect your device, open the Sonos app and you're good to go",
+      "It's super-simple to set up – just plug it in, connect your device, open the Sonos app and you're good to go",
       "There's loads of free music, original content and live stations on Sonos Radio",
       "With Sonos Voice Control and Amazon Alexa built in, you can control the speaker using just your voice",
       "Feeling old-school? Plug in your turntable using an aux cable and Sonos line-in adapter (both sold separately) and jam to your favourite vinyl"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

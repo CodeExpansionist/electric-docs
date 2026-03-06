@@ -1,0 +1,605 @@
+{
+  "categoryName": "Home Cinema Systems",
+  "categorySlug": "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems",
+  "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems",
+  "scrapedAt": "2026-03-06T15:51:31.171Z",
+  "totalProducts": 20,
+  "siteReportedTotal": 22,
+  "filters": [],
+  "products": [
+    {
+      "productId": "10207764",
+      "name": "SONY HT-S20R 5.1 Sound Bar",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-hts20r-5.1-sound-bar-10207764.html",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 10.09
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 226
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10207764?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Bluetooth",
+        "Wired subwoofer & rear speakers",
+        "Audio power: 400 W",
+        "4K pass-through",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with this Sony soundbar"
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10229190",
+      "name": "SONY SA-SW3 Wireless Subwoofer",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-sasw3-wireless-subwoofer-10229190.html",
+      "price": {
+        "current": 449,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 18.19
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 27
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10229190?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Output power: 200 W",
+        "Pairs with Sony HT-A7000 Sound Bar"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar"
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10185053",
+      "name": "BOSE Bass Module 700 - Black",
+      "brand": "BOSE",
+      "url": "https://www.currys.co.uk/products/bose-bass-module-700-black-10185053.html",
+      "price": {
+        "current": 799,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 32.38
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 73
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/M10185053_black?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Pairs wirelessly with selected Bose soundbars",
+        "Aux-in",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10282357",
+      "name": "SONY BRAVIA Theatre Rear 8 SARS8 Wireless Speakers - Black",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-bravia-theatre-rear-8-sars8-wireless-speakers-black-10282357.html",
+      "price": {
+        "current": 449,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 18.19
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 136
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10282357?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Output power: 100 W",
+        "360 Spatial Sound Mapping",
+        "Pairs with Sony BRAVIA Theatre Bar",
+        "Bluetooth"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar"
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10185057",
+      "name": "BOSE Bass Module 500 - Black",
+      "brand": "BOSE",
+      "url": "https://www.currys.co.uk/products/bose-bass-module-500-black-10185057.html",
+      "price": {
+        "current": 349,
+        "was": 449,
+        "savings": 100,
+        "savingsPercent": 22.25,
+        "monthlyPayment": 14.14
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 103
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10185057?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Pairs wirelessly with selected Bose soundbars",
+        "Aux-in",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10290075",
+      "name": "MARSHALL Heston 200 Wireless Subwoofer - Black",
+      "brand": "MARSHALL",
+      "url": "https://www.currys.co.uk/products/marshall-heston-200-wireless-subwoofer-black-10290075.html",
+      "price": {
+        "current": 429,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 17.38
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10290075?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Output power: 236 W",
+        "Pairs with Marshall Sound Bars",
+        "Bluetooth",
+        "RCA"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10282353",
+      "name": "SONY BRAVIA Theatre System 6 5.1 Home Cinema System with Dolby Atmos & DTS Virtual:X",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-bravia-theatre-system-6-5.1-home-cinema-system-with-dolby-atmos-and-dts-virtualx-10282353.html",
+      "price": {
+        "current": 549,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 22.25
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 54
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10282353?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Number of speakers: 10",
+        "Dolby Atmos & DTS Virtual:X",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 1000 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with this Sony soundbar"
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10269549",
+      "name": "SONOS Sub 4 Wireless Subwoofer - Black",
+      "brand": "SONOS",
+      "url": "https://www.currys.co.uk/products/sonos-sub-4-wireless-subwoofer-black-10269549.html",
+      "price": {
+        "current": 799,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 32.38
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 586
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/M10269544_black?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Pairs with Sonos Speakers",
+        "WiFi",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10185250",
+      "name": "BOSE Surround Speakers - Black",
+      "brand": "BOSE",
+      "url": "https://www.currys.co.uk/products/bose-surround-speakers-black-10185250.html",
+      "price": {
+        "current": 299,
+        "was": 349,
+        "savings": 50,
+        "savingsPercent": 14.34,
+        "monthlyPayment": 12.11
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 182
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10185250?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Pairs with Bose Soundbar 500 / Soundbar 700 / Bass Modules",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10222525",
+      "name": "SONY HT-S40R 5.1 Sound Bar",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-hts40r-5.1-sound-bar-10222525.html",
+      "price": {
+        "current": 349,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 14.14
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 198
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10222525?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Wired subwoofer & rear speakers",
+        "Audio power: 600 W",
+        "4K pass-through",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with this Sony soundbar"
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10264007",
+      "name": "SONY BRAVIA Theatre Quad (HTA9M2) 4.0.4 Home Cinema System with Dolby Atmos - Grey",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-bravia-theatre-quad-4.0.4-home-cinema-system-with-dolby-atmos-grey-10264007.html",
+      "price": {
+        "current": 2499,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 101.28
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 6
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10264007?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Number of speakers: 16",
+        "Dolby Atmos & DTS:X",
+        "Audio power: 504 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 8K pass-through",
+        "Compatible with Apple AirPlay & Spotify Connect"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on this Sony soundbar when bought with any Sony TV"
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10185251",
+      "name": "BOSE Surround Speakers - White",
+      "brand": "BOSE",
+      "url": "https://www.currys.co.uk/products/bose-surround-speakers-white-10185251.html",
+      "price": {
+        "current": 299,
+        "was": 349,
+        "savings": 50,
+        "savingsPercent": 14.34,
+        "monthlyPayment": 12.11
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 14
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10185251?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Pairs with Bose Soundbar 500 / Soundbar 700 / Bass Modules",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10240489",
+      "name": "SONY SA-RS5 2.0.2 Wireless Rear Speaker Kit",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-sars5-2.0.2-wireless-rear-speaker-kit-10240489.html",
+      "price": {
+        "current": 699,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 28.32
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 41
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10240489?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Output power: 180 W",
+        "Pairs with Sony A-Series sound bars"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar"
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10294836",
+      "name": "JBL BAR 1000 MK2 7.1.4 Wireless Sound Bar with Dolby Atmos & DTS:X",
+      "brand": "JBL",
+      "url": "https://www.currys.co.uk/products/jbl-bar-1000-mk2-7.1.4-wireless-sound-bar-with-dolby-atmos-and-dtsx-10294836.html",
+      "price": {
+        "current": 999,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 40.48
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10294836?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Number of speakers: 14",
+        "Dolby Atmos & DTS:X",
+        "Wireless subwoofer",
+        "Audio power: 960 W RMS",
+        "4K pass-through",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get £150 off the JBL BAR 1000 MK2 7.1.4 Wireless Sound Bar with Dolby Atmos when bought with any TV."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10186716",
+      "name": "BOSE Bass Module 700 - White",
+      "brand": "BOSE",
+      "url": "https://www.currys.co.uk/products/bose-bass-module-700-white-10186716.html",
+      "price": {
+        "current": 799,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 32.38
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 73
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10186716?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Pairs wirelessly with selected Bose soundbars",
+        "Aux-in",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10282593",
+      "name": "SONY BRAVIA Theatre Sub 7 SASW7 Wireless Subwoofer",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-bravia-theatre-sub-7-sasw7-wireless-subwoofer-10282593.html",
+      "price": {
+        "current": 249,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 10.09
+      },
+      "rating": {
+        "average": 4,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10282593?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Output power: 100 W",
+        "Pairs with Sony BRAVIA Theatre"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar"
+      ],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10269544",
+      "name": "SONOS Sub 4 Wireless Subwoofer - White",
+      "brand": "SONOS",
+      "url": "https://www.currys.co.uk/products/sonos-sub-4-wireless-subwoofer-white-10269544.html",
+      "price": {
+        "current": 799,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 32.38
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 586
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10269544?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Pairs with Sonos Speakers",
+        "WiFi",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10280345",
+      "name": "KLIPSCH Flexus Sub 100 Wireless Subwoofer",
+      "brand": "KLIPSCH",
+      "url": "https://www.currys.co.uk/products/klipsch-flexus-sub-100-wireless-subwoofer-10280345.html",
+      "price": {
+        "current": 329,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 13.33
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10280345?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Output power: 80 W",
+        "Pairs with Klipsch Flexus sound ecosystem",
+        "RCA"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10282185",
+      "name": "SAMSUNG HW-Q990F/XU 11.1.4 Wireless Sound Bar with Dolby Atmos",
+      "brand": "SAMSUNG",
+      "url": "https://www.currys.co.uk/products/samsung-hwq990fxu-11.1.4-wireless-sound-bar-with-dolby-atmos-10282185.html",
+      "price": {
+        "current": 1199,
+        "was": 1399,
+        "savings": 200,
+        "savingsPercent": 14.34,
+        "monthlyPayment": 48.59
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 15
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10282185?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Number of speakers: 23",
+        "Dolby Atmos",
+        "Wireless subwoofer & rear speakers",
+        "Audio power: 756 W",
+        "Adaptive / optimized audio",
+        "Supports High-Resolution Audio with 4K pass-through",
+        "Chromecast / AirPlay built-in",
+        "HDMI / Optical"
+      ],
+      "badges": [],
+      "offers": [
+        "Claim £400 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10229199",
+      "name": "SONY SA-SW5 Wireless Subwoofer",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-sasw5-wireless-subwoofer-10229199.html",
+      "price": {
+        "current": 699,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 28.32
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 63
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10229199?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Output power: 300 W",
+        "Pairs with Sony HT-A7000 Sound Bar"
+      ],
+      "badges": [],
+      "offers": [
+        "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar"
+      ],
+      "inStock": false,
+      "energyRating": null
+    }
+  ]
+}

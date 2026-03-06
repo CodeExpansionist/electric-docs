@@ -1,0 +1,22 @@
+{
+  "url": "/sitemap",
+  "pageTitle": "Sitemap",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Sitemap",
+      "url": "/sitemap"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Browse our site",
+      "content": "Use the links below to navigate to different sections of the Electriz website. Find products, services, and support across all our departments.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

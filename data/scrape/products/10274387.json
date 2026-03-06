@@ -8,65 +8,123 @@
     "savings": 40
   },
   "rating": {
-    "average": 5,
-    "count": 1
+    "average": 0,
+    "count": 0
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10274387?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_012?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10274387?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_012?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10274387?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274387_012?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10274387?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10274387_012?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Refresh rate: 60 Hz" },
-    { "icon": "", "label": "HDMI 1.4 x 3" },
-    { "icon": "", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" },
-    { "icon": "", "label": "Access to 500,000+ movies & TV shows" },
-    { "icon": "", "label": "Freely: Stream live & on demand TV for free" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "screen-size",
+      "label": "Screen size: 40\""
+    },
+    {
+      "icon": "resolution",
+      "label": "Full HD 1920 x 1080p"
+    },
+    {
+      "icon": "refresh-rate",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "smart-tv",
+      "label": "Roku TV"
+    },
+    {
+      "icon": "hdmi",
+      "label": "HDMI 1.4 x 3"
+    },
+    {
+      "icon": "hdr",
+      "label": "HDR: HDR10 / HLG"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 8.94,
-    "months": 24,
-    "totalPayable": 214.49,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
-  "badges": ["Freely TV"],
-  "specifications": {},
+  "badges": [
+    "Freely TV"
+  ],
+  "specifications": {
+    "Display": {
+      "Screen size": "40\"",
+      "Resolution": "Full HD (1920 x 1080)",
+      "Refresh rate": "60 Hz",
+      "HDR": "HDR10 / HLG",
+      "Panel technology": "LED"
+    },
+    "Sound": {
+      "Audio power": "8W",
+      "Speakers": "2 speakers",
+      "Audio technology": "Dolby Audio"
+    },
+    "Connectivity": {
+      "HDMI": "HDMI 1.4 x 3"
+    },
+    "Smart TV": {
+      "Platform": "Roku TV"
+    },
+    "Processing": {
+      "Processor": "Roxton"
+    },
+    "Physical": {
+      "Colour": "Black",
+      "Weight": "5.2 kg",
+      "Dimensions": "568.7 x 892.2 x 218.5 mm"
+    },
+    "Energy": {
+      "Energy rating (SDR)": "E",
+      "Energy rating (HDR)": "G"
+    },
+    "General": {
+      "Guarantee": "1 year",
+      "Freely": "Yes",
+      "Voice assistants": "Google Assistant / Alexa compatible"
+    }
+  },
   "description": {
     "main": "You'll never be short of something to watch on this Logik 40\" Roku TV. With access to over 500,000 movies and shows from apps like Netflix, Prime Video and Disney+, it's easy to dive into your favourites or find something new on the customisable home screen. And thanks to HDR10 and HLG, the picture looks great too - bright highlights, deeper shadows, and more detail in every scene.",
     "goodToKnow": [
@@ -83,5 +141,6 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "energyRating": "E"
+  "energyRating": "E",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

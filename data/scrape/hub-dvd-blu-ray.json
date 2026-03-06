@@ -1,0 +1,240 @@
+{
+  "categoryName": "Home cinema, DVD & Blu-ray",
+  "categorySlug": "dvd-blu-ray-and-home-cinema",
+  "breadcrumbs": ["Home", "TV & Audio", "Home cinema, DVD & Blu-ray"],
+  "carouselBanners": [
+    {
+      "imageAlt": "Shop Sony TVs now and get loads off selected Sony Dolby Atmos soundbars!",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk40-slide-DVD-Sony-soundbars-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#f9d2e5",
+      "url": "/deals-on-tv-and-audio/sony-bravia-savings",
+      "buttons": [{ "text": "Shop now", "url": "/deals-on-tv-and-audio/sony-bravia-savings" }]
+    },
+    {
+      "imageAlt": "Hisense soundbars when you shop any Hisense TV or laser cinema system.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk39-slide-DVD-Hisense-soundbars-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#f9d2e5",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/hisense",
+      "buttons": [{ "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/hisense" }]
+    },
+    {
+      "imageAlt": "LG's new sound suite. Premium Dolby Atmos FlexConnect system with customisable speaker combination.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk44-slide-Speaker-LG-Sound-Suite-launch-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#cae7e6",
+      "url": "/deals-on-tv-and-audio/lg-sound-suite-deal",
+      "buttons": [{ "text": "Shop now", "url": "/deals-on-tv-and-audio/lg-sound-suite-deal" }]
+    },
+    {
+      "imageAlt": "LG logo, Buy any LG TV & save up to 50% on selected LG soundbars.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk13-slide-TV-LG-soundbars-WBW-promo-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#f9d2e5",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/lg/sound-bars",
+      "buttons": [{ "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/lg/sound-bars" }]
+    },
+    {
+      "imageAlt": "Shop selected Samsung soundbars now & claim up to £400 of Samsung tech.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk43-slide-DVD-Samsung-Tech-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#ffecb7",
+      "url": "/deals-on-tv-and-audio/samsung-dolby-soundbars-offers",
+      "buttons": [{ "text": "Shop now", "url": "/deals-on-tv-and-audio/samsung-dolby-soundbars-offers" }]
+    }
+  ],
+  "subcategoryIcons": [
+    {
+      "name": "Soundbars",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-soundbars?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Blu-ray & DVD players",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-bluray-dvd-players?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Home cinema systems",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-home-cinema?fmt=auto&$q-large$"
+    }
+  ],
+  "sidebar": {
+    "topCategories": [
+      { "text": "Soundbars", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars" },
+      { "text": "Blu-ray and DVD players", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players" },
+      { "text": "Portable DVD players", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players/portable-dvd-players" },
+      { "text": "Home cinema and soundbars", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars" },
+      { "text": "Samsung soundbars", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/samsung/sound-bars" },
+      { "text": "Blu-ray players", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players/blu-ray-players" },
+      { "text": "4K ultra HD blu-ray players", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players/4k-ultra-hd-blu-ray-players" }
+    ],
+    "popularLinks": [
+      { "text": "DVD players", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players/dvd-players" },
+      { "text": "LG sound bars", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/lg/sound-bars" },
+      { "text": "Home cinema systems", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems" },
+      { "text": "Dolby Atmos soundbars", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/dolby-atmos-soundbars" },
+      { "text": "Sonos soundbars", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sonos/sound-bars" },
+      { "text": "Bose soundbars", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/bose/sound-bars" },
+      { "text": "DVD recorders", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players/dvd-recorders" }
+    ]
+  },
+  "brandCarousel": [
+    {
+      "brand": "Samsung",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Samsung-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/samsung",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/samsung" },
+        { "text": "Learn more", "url": "/brand/samsung/samsung.html" }
+      ]
+    },
+    {
+      "brand": "LG",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/LG-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/lg",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/lg" },
+        { "text": "Learn more", "url": "/brand/lg/lg.html" }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Sony-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sony",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sony" },
+        { "text": "Learn more", "url": "/brand/sony/sony.html" }
+      ]
+    },
+    {
+      "brand": "Bose",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Bose-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/bose",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/bose" },
+        { "text": "Learn more", "url": "/brand/bose/bose-home.html" }
+      ]
+    },
+    {
+      "brand": "Sonos",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Sonos-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sonos",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sonos" },
+        { "text": "Learn more", "url": "/brand/sonos/sonos.html" }
+      ]
+    },
+    {
+      "brand": "Denon",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Denon-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/denon",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/denon" },
+        { "text": "Denon speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/denon/speakers" }
+      ]
+    },
+    {
+      "brand": "JBL",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/JBL-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/jbl",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/jbl" },
+        { "text": "Learn more", "url": "/brand/jbl/jbl-home-audio.html" }
+      ]
+    },
+    {
+      "brand": "Panasonic",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Panasonic-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/panasonic",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/panasonic" },
+        { "text": "Learn more", "url": "/brand/panasonic/panasonic.html" }
+      ]
+    },
+    {
+      "brand": "Hisense",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Hisense-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/hisense",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/hisense" },
+        { "text": "Learn more", "url": "/brand/hisense/hisense.html" }
+      ]
+    },
+    {
+      "brand": "JVC",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/JVC-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/jvc",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/jvc" },
+        { "text": "Learn more", "url": "/brand/jvc/jvc-home-audio.html" }
+      ]
+    }
+  ],
+  "helpCards": [
+    {
+      "title": "Soundbars",
+      "description": "A great TV deserves great sound. Boost your audio with a soundbar for seriously impressive movie nights. And with Bluetooth connectivity you can connect your phone and use it as a wireless speaker too.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/Home-cinema-DVD-Blu-ray-high-sounbar?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars"
+    },
+    {
+      "title": "Subwoofers",
+      "description": "Add extra bass and give your sound some oomph. Connecting a subwoofer to your soundbar will really ramp up your favourite playlists, and make those big movie moments even bigger.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/Home-cinema-DVD-Blu-ray-high-subwoofer-new?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/soundbar-subwoofers"
+    },
+    {
+      "title": "High-resolution audio",
+      "description": "Hi-res audio has superior quality and sounds as close to the original recording as possible. If you're after seriously good sound, hi-res audio is the way to go.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/Home-cinema-DVD-Blu-ray-high-resolution-audio?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars"
+    },
+    {
+      "title": "Voice-activated sound systems",
+      "description": "Play your favourite songs without pressing a single button. Speakers with built-in voice assistants, like Alexa or Google, let you fill your home with music using simple voice commands.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/Home-cinema-DVD-Blu-ray-high-voice-activated?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars"
+    }
+  ],
+  "helpCardsHeading": "Home cinema tech explained",
+  "helpCardsCta": {
+    "text": "Discover our TV buying guide",
+    "url": "/buying-guides/tv-buying-guide.html"
+  },
+  "serviceCards": [
+    {
+      "title": "ShopLive",
+      "description": "Talk to an in-store expert from the comfort of your home to find your perfect new appliance.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/brand-blocks-shoplive?fmt=auto&$q-large$",
+      "url": "/services/expert-advice/shoplive.html"
+    },
+    {
+      "title": "Found it cheaper? We'll match it.",
+      "description": "We'll price match against any other UK retailer, online or in-store.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/brand-blocks-price-promise?fmt=auto&$q-large$",
+      "url": "/services/shopping-with-us/price-promise.html"
+    },
+    {
+      "title": "Keep it working like magic!",
+      "description": "Add Care & Repair and if your tech breaks down, we'll fix it fast. If not we'll replace it on request.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/brand-blocks-care-repair?fmt=auto&$q-large$",
+      "url": "/services/care-services/care-repair.html"
+    }
+  ],
+  "serviceCardsHeading": "Discover DVD, Blu-ray & home cinema at Currys",
+  "seoContent": {
+    "heading": "",
+    "columns": [
+      {
+        "heading": "Picking the right home cinema setup",
+        "text": "Soundbars are the perfect foundation for your home cinema system. Most come with subwoofers for deeper bass, but if you want seriously cinematic sound, you can add wireless speakers too. All-in-One Soundbars have a subwoofer already built-in, so you won't need to worry about buying anything additional."
+      },
+      {
+        "heading": "Multi-room and smart sound",
+        "text": "Play the same song on multiple speakers, or control a dozen different speakers around your home with multi-room and smart sound speakers. You can connect to your sound bar, subwoofer, TV, and rear speakers to create a true surround sound experience."
+      },
+      {
+        "heading": "DVD and Blu-ray players",
+        "text": "Finish your home cinema setup with a DVD or Blu-ray player to watch your favourite films. If you want to really bring the big screen home, a 4K Blu-ray player is the perfect choice for great quality movie nights."
+      }
+    ]
+  }
+}

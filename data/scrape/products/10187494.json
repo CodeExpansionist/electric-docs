@@ -2,15 +2,75 @@
   "id": "10187494",
   "title": "SANDSTROM STSTAB19 700 mm TV Stand with Bracket for up to 60\" TV - Black",
   "brand": "SANDSTROM",
-  "price": { "current": 69.99, "was": 89.99, "savings": 20 },
-  "rating": { "average": 4.6, "count": 237 },
-  "images": { "gallery": ["https://media.currys.biz/i/currysprod/10187494?$l-large$&fmt=auto", "https://media.currys.biz/i/currysprod/10187494_004?$l-large$&fmt=auto", "https://media.currys.biz/i/currysprod/10187494_005?$l-large$&fmt=auto", "https://media.currys.biz/i/currysprod/10187494_006?$l-large$&fmt=auto"], "thumbnails": ["https://media.currys.biz/i/currysprod/10187494?$t-thumbnail$&fmt=auto", "https://media.currys.biz/i/currysprod/10187494_004?$t-thumbnail$&fmt=auto", "https://media.currys.biz/i/currysprod/10187494_005?$t-thumbnail$&fmt=auto", "https://media.currys.biz/i/currysprod/10187494_006?$t-thumbnail$&fmt=auto"], "video": "" },
-  "keySpecs": [{ "icon": "", "label": "For up to 60\" Televisions" }, { "icon": "", "label": "Maximum supported weight: 25 kg" }, { "icon": "", "label": "Steel / glass" }, { "icon": "", "label": "VESA compliance: 600 x 400" }, { "icon": "", "label": "3 year guarantee" }],
-  "flexpay": { "monthlyAmount": 0, "months": 0, "totalPayable": 0, "apr": "" },
-  "careAndRepair": [], "essentialServices": [], "crossSellProducts": [],
-  "offers": ["Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."],
-  "badges": [], "specifications": {},
-  "description": { "main": "The Sandstrom STSTAB19 700 mm TV Stand with Bracket creates the sleek look of a mounted TV without the need to drill holes in your wall.", "goodToKnow": ["Maximum TV weight: 25 kg", "Materials: Steel / Glass", "Screen size: Up to 60\"", "Assembly: Flat pack", "3 year guarantee"] },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "TV Accessories"
+  "price": {
+    "current": 69.99,
+    "was": 149,
+    "savings": 49.01
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 237
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10187494?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10187494_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10187494_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10187494_006?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10187494?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10187494_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10187494_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10187494_006?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "For up to 60\" Televisions"
+    },
+    {
+      "icon": "",
+      "label": "Maximum supported weight: 25 kg"
+    },
+    {
+      "icon": "",
+      "label": "Steel / glass"
+    },
+    {
+      "icon": "",
+      "label": "VESA compliance: 600 x 400"
+    },
+    {
+      "icon": "",
+      "label": "3 year guarantee"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [
+    "Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The Sandstrom STSTAB19 700 mm TV Stand with Bracket creates the sleek look of a mounted TV without the need to drill holes in your wall.",
+    "goodToKnow": [
+      "Maximum TV weight: 25 kg",
+      "Materials: Steel / Glass",
+      "Screen size: Up to 60\"",
+      "Assembly: Flat pack",
+      "3 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

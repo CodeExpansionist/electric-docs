@@ -13,59 +13,107 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10282138?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10282138?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10282138?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282138_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10282138?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282138_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Intelligent a7 AI processor with AI Super Upscaling" },
-    { "icon": "", "label": "Filmmaker Mode for a stunning movie viewing experience" },
-    { "icon": "", "label": "Refresh rate: 60 Hz" },
-    { "icon": "", "label": "HDMI 2.0 x 3" },
-    { "icon": "", "label": "LG's webOS gives you easy access to all your must-have apps" },
-    { "icon": "", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" }
+    {
+      "icon": "",
+      "label": "Intelligent α7 AI processor with AI Super Upscaling"
+    },
+    {
+      "icon": "",
+      "label": "Filmmaker Mode for a stunning movie viewing experience"
+    },
+    {
+      "icon": "",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.0 x 3"
+    },
+    {
+      "icon": "",
+      "label": "LG's webOS gives you easy access to all your must-have apps"
+    },
+    {
+      "icon": "",
+      "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)"
+    },
+    {
+      "icon": "",
+      "label": "1 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 26.21,
-    "months": 48,
-    "totalPayable": 1257.89,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 8.75, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 65, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 8.75,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
-  "badges": ["Loved by Currys", "Freesat"],
-  "specifications": {},
+  "badges": [
+    "Loved by Currys",
+    "Freesat"
+  ],
+  "specifications": {
+    "Screen size": "75\"",
+    "Resolution": "4K UHD 3840 x 2160",
+    "Panel technology": "NanoCell",
+    "Processor": "α7 Gen8 AI Processor 4K",
+    "Refresh rate": "60 Hz",
+    "HDR": "HDR10, HLG, Active HDR",
+    "Smart platform": "webOS 25",
+    "Audio": "20W AI Sound Pro",
+    "HDMI": "HDMI 2.0 x 3",
+    "Colour": "Charcoal black",
+    "Weight": "31.4 kg",
+    "Dimensions": "964 x 1678 x 59.9 mm",
+    "Energy rating": "F (SDR) / G (HDR)",
+    "Guarantee": "1 year",
+    "Available sizes": "43\", 50\", 55\", 65\", 75\", 86\""
+  },
   "description": {
-    "main": "You'll love how good everything looks on the LG NANO81A 75\" TV. NanoCell technology makes colours pop - and they're not just vibrant, they're true-to-life. All delivered in sharp 4K Ultra HD resolution. The a7 AI Processor is the brain of the TV. It's hard at work in the background, intelligently boosting the picture and sound of everything you watch.",
+    "main": "You'll love how good everything looks on the LG NANO81A 75\" TV. NanoCell technology makes colours pop - and they're not just vibrant, they're true-to-life. All delivered in sharp 4K Ultra HD resolution. The α7 AI Processor is the brain of the TV. It's hard at work in the background, intelligently boosting the picture and sound of everything you watch.",
     "goodToKnow": [
       "Enjoy apps like Netflix, Disney+, NOW and Apple TV on LG's webOS smart platform",
       "Filmmaker Mode turns off any picture processing that can make movies look unnatural",
@@ -80,5 +128,6 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "energyRating": "F"
+  "energyRating": "F",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

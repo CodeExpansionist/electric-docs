@@ -1,0 +1,38 @@
+{
+  "brand": "JVC",
+  "price": {
+    "current": 39.99,
+    "was": 49.99,
+    "savings": 10
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 94
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/jvc-rad32h-dabfm-clock-radio-grey.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10246468",
+  "title": "JVC RA-D32H DAB+/FM Clock Radio - Grey"
+}

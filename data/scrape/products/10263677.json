@@ -2,37 +2,65 @@
   "id": "10263677",
   "title": "SONOS Roam 2 Portable Wireless Multi-room Speaker with Amazon Alexa - Black",
   "brand": "SONOS",
-  "price": { "current": 179, "was": 0, "savings": 0 },
-  "rating": { "average": 4.7, "count": 324 },
+  "price": {
+    "current": 179,
+    "was": 199,
+    "savings": 100
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 324
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10263677?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10263677_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10263677_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10263677_100?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10263677?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10263677_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10263677_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10263677_100?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10263677?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10263677_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10263677_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10263677_100?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10263677?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10263677_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10263677_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10263677_100?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
-    { "icon": "", "label": "Water resistant" },
-    { "icon": "", "label": "Up to 10 hours battery life" },
-    { "icon": "", "label": "WiFi / Bluetooth / Apple AirPlay 2" },
-    { "icon": "", "label": "2 year guarantee" },
-    { "icon": "", "label": "Works with Amazon Alexa" }
+    {
+      "icon": "",
+      "label": "Water resistant"
+    },
+    {
+      "icon": "",
+      "label": "Up to 10 hours battery life"
+    },
+    {
+      "icon": "",
+      "label": "WiFi / Bluetooth / Apple AirPlay 2"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    },
+    {
+      "icon": "",
+      "label": "Works with Amazon Alexa"
+    }
   ],
-  "flexpay": { "monthlyAmount": 7.25, "months": 36, "totalPayable": 261, "apr": "29.9%" },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [
-    { "category": "Accessories", "title": "SANDSTROM Black Series S3HDM115 High Speed HDMI Cable with Ethernet - 3 m", "price": 29.99, "image": "https://media.currys.biz/i/currysprod/10132209?$s-swatch$&fmt=auto" }
+    {
+      "category": "Accessories",
+      "title": "SANDSTROM Black Series S3HDM115 High Speed HDMI Cable with Ethernet - 3 m",
+      "price": 29.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10132209?$s-swatch$&fmt=auto"
+    }
   ],
-  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
   "badges": [],
   "specifications": {},
   "description": {
@@ -45,5 +73,10 @@
       "Enjoy fast wireless charging by dropping it on a Qi charger or the custom-designed Sonos Roam 2 charger (both sold separately)"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

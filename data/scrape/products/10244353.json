@@ -1,0 +1,107 @@
+{
+  "id": "10244353",
+  "title": "JBL BAR 500 5.1 Wireless Sound Bar with Dolby Atmos",
+  "brand": "JBL",
+  "price": {
+    "current": 499.97,
+    "was": 549,
+    "savings": 8.93
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 90
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10244353?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10244353?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244353_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Number of speakers:"
+    },
+    {
+      "icon": "",
+      "label": "Dolby Atmos"
+    },
+    {
+      "icon": "",
+      "label": "Wireless subwoofer"
+    },
+    {
+      "icon": "",
+      "label": "Audio power:"
+    },
+    {
+      "icon": "",
+      "label": "4K pass-through"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 6,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Upgrade your audio with the JBL BAR 500 5.1 Wireless Sound Bar with Dolby Atmos. With number of speakers:, dolby atmos, wireless subwoofer, this soundbar brings cinematic sound quality to your living room.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

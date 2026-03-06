@@ -1,0 +1,226 @@
+{
+  "categoryName": "TV accessories",
+  "categorySlug": "tv-accessories",
+  "breadcrumbs": ["Home", "TV & Audio", "TV accessories"],
+  "carouselBanners": [
+    {
+      "imageAlt": "Tech now, pay later.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk40-slide-BNPL6-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#ffecb7",
+      "url": "/buy-now-pay-later",
+      "buttons": [
+        { "text": "Find out more", "url": "/services/ways-to-pay/flexible-credit.html" },
+        { "text": "Shop now", "url": "/buy-now-pay-later" }
+      ]
+    },
+    {
+      "imageAlt": "Save up to 20%! On selected TV stands & brackets when bought with any TV",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk08-slide-TV-acc-TV-Brackets-and-stands-desktop-v1?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#cae7e6",
+      "url": "/tv-and-audio/tv-accessories/tv-stands",
+      "buttons": [
+        { "text": "Shop TV Stands", "url": "/tv-and-audio/tv-accessories/tv-stands" },
+        { "text": "Shop TV Brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets" }
+      ]
+    }
+  ],
+  "subcategoryIcons": [
+    {
+      "name": "TV stands",
+      "url": "/tv-and-audio/tv-accessories/tv-stands",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-tv-stands?fmt=auto&$q-large$"
+    },
+    {
+      "name": "TV wall brackets",
+      "url": "/tv-and-audio/tv-accessories/tv-wall-brackets",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-tv-wall-brackets?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Remote controls",
+      "url": "/tv-and-audio/tv-accessories/remote-controls",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-remote-controls?fmt=auto&$q-large$"
+    },
+    {
+      "name": "TV aerials",
+      "url": "/tv-and-audio/tv-accessories/tv-aerials",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-tv-aerials?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Cables and accessories",
+      "url": "/tv-and-audio/tv-accessories/cables-and-accessories",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-tv-cables-and-accessories?fmt=auto&$q-large$"
+    }
+  ],
+  "sidebar": {
+    "topCategories": [
+      { "text": "TV wall brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets" },
+      { "text": "TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands" },
+      { "text": "Indoor TV aerials", "url": "/tv-and-audio/tv-accessories/tv-aerials/indoor-tv-aerials" },
+      { "text": "HDMI cables", "url": "/tv-and-audio/tv-accessories/cables-and-accessories/hdmi-cables" },
+      { "text": "TV remote controls", "url": "/tv-and-audio/tv-accessories/remote-controls" },
+      { "text": "Adapters & splitters", "url": "/tv-and-audio/tv-accessories/cables-and-accessories/adapters-and-splitters" },
+      { "text": "Tilt & swivel TV brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/tilt-and-swivel-tv-brackets" }
+    ],
+    "popularLinks": [
+      { "text": "Sky remotes", "url": "/tv-and-audio/tv-accessories/remote-controls/sky-remotes" },
+      { "text": "TV aerials", "url": "/tv-and-audio/tv-accessories/tv-aerials" },
+      { "text": "Corner TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands/corner-tv-stands" },
+      { "text": "SCART cables", "url": "/tv-and-audio/tv-accessories/cables-and-accessories/scart-cables" },
+      { "text": "TV stands with mounts", "url": "/tv-and-audio/tv-accessories/tv-stands/tv-stands-with-mounts" },
+      { "text": "Universal remotes", "url": "/tv-and-audio/tv-accessories/remote-controls/universal-remotes" },
+      { "text": "Aerial cables", "url": "/tv-and-audio/tv-accessories/cables-and-accessories/aerial-cables" }
+    ]
+  },
+  "brandCarousel": [
+    {
+      "brand": "Alphason",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Alphason-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/tv-accessories/tv-stands/alphason",
+      "subcategoryLinks": [
+        { "text": "TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands/alphason" },
+        { "text": "Standard TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands/alphason/standard-tv-stands" }
+      ]
+    },
+    {
+      "brand": "One For All",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/One-for-all-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/tv-accessories/remote-controls/one-for-all",
+      "subcategoryLinks": [
+        { "text": "Remote controls", "url": "/tv-and-audio/tv-accessories/remote-controls/one-for-all" },
+        { "text": "TV wall brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/one-for-all" }
+      ]
+    },
+    {
+      "brand": "AVF",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Avf-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/tv-accessories/tv-stands/avf",
+      "subcategoryLinks": [
+        { "text": "TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands/avf" },
+        { "text": "TV wall brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/avf" }
+      ]
+    },
+    {
+      "brand": "Sandstrom",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/sandstrom-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/tv-accessories/tv-stands/sandstrom",
+      "subcategoryLinks": [
+        { "text": "TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands/sandstrom" },
+        { "text": "TV wall brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/sandstrom" }
+      ]
+    },
+    {
+      "brand": "LOGIK",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Logik-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/tv-accessories/tv-stands/logik",
+      "subcategoryLinks": [
+        { "text": "TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands/logik" },
+        { "text": "TV wall brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/logik" }
+      ]
+    },
+    {
+      "brand": "Vogel's",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Vogels-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/tv-accessories/tv-stands/vogels",
+      "subcategoryLinks": [
+        { "text": "TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands/vogels" },
+        { "text": "TV wall brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/vogels" }
+      ]
+    },
+    {
+      "brand": "Vivanco",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Vivanco-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/vivanco",
+      "subcategoryLinks": [
+        { "text": "TV wall brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/vivanco" },
+        { "text": "Remote controls", "url": "/tv-and-audio/tv-accessories/remote-controls/vivanco" }
+      ]
+    },
+    {
+      "brand": "TTAP",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/ttap-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/tv-accessories/tv-stands/ttap",
+      "subcategoryLinks": [
+        { "text": "TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands/ttap" },
+        { "text": "TV wall brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/ttap" }
+      ]
+    },
+    {
+      "brand": "Multibrackets",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Multibrackets-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/tv-accessories/tv-stands/multibrackets",
+      "subcategoryLinks": [
+        { "text": "TV stands", "url": "/tv-and-audio/tv-accessories/tv-stands/multibrackets" },
+        { "text": "TV wall brackets", "url": "/tv-and-audio/tv-accessories/tv-wall-brackets/multibrackets" }
+      ]
+    }
+  ],
+  "helpCards": [
+    {
+      "title": "TV screen size",
+      "description": "TV screen size is measured diagonally from the bottom left corner to the top right. Use the same method to measure how much space you have, then shop by screen size.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/televisions-screen-size-new?fmt=auto&$q-large$",
+      "url": "/techtalk/tv-advice/tv-technology/what-size-tv-should-i-buy.html"
+    },
+    {
+      "title": "What is a smart TV?",
+      "description": "A smart TV has catch-up and on-demand streaming services built-in, so you don't need any extra sticks or boxes. Some also let you use social media, Spotify and games.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/televisions-smart-tv?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/televisions/tvs/smart-tvs"
+    },
+    {
+      "title": "Audio set-up",
+      "description": "Want a better listening experience than your in-built TV speaker? Look out for sound bars and other audio systems with surround sound, clear voice tech and object tracking.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/televisions-audio-set-up?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars"
+    },
+    {
+      "title": "What is 4K Ultra HD?",
+      "description": "4K Ultra HD is the name of the screen resolution four times clearer than a Full HD TV. It delivers a cinema quality picture, with crisp images and accurate colours.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/televisions-4k-ultra-hd-new?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/televisions/tvs/4k-ultra-hd-tvs"
+    }
+  ],
+  "helpCardsHeading": "Help finding the right television",
+  "helpCardsCta": {
+    "text": "Discover our TV buying guide",
+    "url": "/buying-guides/tv-buying-guide.html"
+  },
+  "serviceCards": [
+    {
+      "title": "ShopLive",
+      "description": "Talk to an in-store expert from the comfort of your home to find your perfect new appliance.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/brand-blocks-shoplive?fmt=auto&$q-large$",
+      "url": "/services/expert-advice/shoplive.html"
+    },
+    {
+      "title": "Found it cheaper? We'll match it.",
+      "description": "We'll price match against any other UK retailer, online or in-store.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/brand-blocks-price-promise?fmt=auto&$q-large$",
+      "url": "/services/shopping-with-us/price-promise.html"
+    },
+    {
+      "title": "The tech you want, when you want it",
+      "description": "Order your tech online and collect in-store in just one hour. *Subject to store availability",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/brand-blocks-order-collect?fmt=auto&$q-large$",
+      "url": "/services/delivery-installation/delivery-collection.html"
+    }
+  ],
+  "serviceCardsHeading": "Discover TV accessories at Currys",
+  "seoContent": {
+    "heading": "",
+    "columns": [
+      {
+        "heading": "How do I choose the right TV?",
+        "text": "There's lots of incredible TV tech out there, but it can be tough to make sense of it all. So, if you want some help deciding between OLED and QLED, or HDR and HDR 10 (or if you just want to know what those initials stand for) then check out the help and advice in our handy TV buying guide."
+      },
+      {
+        "heading": "What TV resolution do I need?",
+        "text": "Higher TV resolutions give you more pixels, for greater depth and detail on-screen. Full HD TVs are bright and clear, but 4K Ultra HD TVs give you 4x the quality of Full HD to deliver much crisper picture quality. And if you really want next-level entertainment you could go for an 8K TV, with 4x the pixels of a 4K television."
+      },
+      {
+        "heading": "What's the difference between OLED and QLED?",
+        "text": "OLED and QLED are premium screen technologies that offer amazing viewing experiences. OLED TV screens are on LG TVs, and they always deliver spectacular colours and contrast. QLED TV screens are on Samsung TVs, and they use state of the art Quantum dot technology to create true-to-life images."
+      }
+    ]
+  }
+}

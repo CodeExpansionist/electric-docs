@@ -1,0 +1,74 @@
+{
+  "id": "10267770",
+  "title": "APPLE EarPods (3.5 mm Headphone Plug) - White",
+  "brand": "Apple",
+  "price": {
+    "current": 19,
+    "was": 79.99,
+    "savings": 20.99
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 505
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10267770?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10267770?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267770_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "In-ear headphones"
+    },
+    {
+      "icon": "",
+      "label": "Microphone / remote / volume control"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Enjoy premium audio with the APPLE EarPods (3.5 mm Headphone Plug) - White. Featuring in-ear headphones, microphone / remote / volume control, these headphones deliver exceptional sound quality for music, calls, and entertainment.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Headphones",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

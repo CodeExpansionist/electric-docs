@@ -2,40 +2,58 @@
   "id": "10252795",
   "title": "PANASONIC SC-DM202 Bluetooth All-in-One Stereo System - Black",
   "brand": "Panasonic",
-  "price": { "current": 169, "was": null, "savings": null },
-  "rating": { "average": 4.6, "count": 1040 },
+  "price": {
+    "current": 169,
+    "was": 99,
+    "savings": 20
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 43
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10252795?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_008?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10252795?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_008?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10252795?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10252795_008?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10252795?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10252795_008?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "cd", "label": "CD player & DAB+ / FM radio" },
-    { "icon": "bluetooth", "label": "Bluetooth" },
-    { "icon": "power", "label": "Output power: 24 W" },
-    { "icon": "connectivity", "label": "USB / Aux-in" }
+    {
+      "icon": "cd",
+      "label": "CD player & DAB+ / FM radio"
+    },
+    {
+      "icon": "bluetooth",
+      "label": "Bluetooth"
+    },
+    {
+      "icon": "power",
+      "label": "Output power: 24 W"
+    },
+    {
+      "icon": "connectivity",
+      "label": "USB / Aux-in"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -51,6 +69,11 @@
       "The twin 9 cm speakers give you a rich stereo sound with a nice amount of bass"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

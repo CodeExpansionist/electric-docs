@@ -1,0 +1,38 @@
+{
+  "brand": "GROOV-E",
+  "price": {
+    "current": 43.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.3,
+    "count": 53
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/groove-traditional-gvps833-portable-fm-boombox-black.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10218141",
+  "title": "GROOV-E Traditional GV-PS833 Portable FM Boombox - Black"
+}

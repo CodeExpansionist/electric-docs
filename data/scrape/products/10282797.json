@@ -1,94 +1,105 @@
 {
-  "id": "10282797",
-  "title": "HISENSE E7Q PRO 65\" QLED 4K HDR Smart TV with Freely - 65E7QTUK PRO",
-  "brand": "HISENSE",
+  "brand": "Hisense",
   "price": {
-    "current": 599,
-    "was": 699,
-    "savings": 100
+    "current": 749,
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.8,
     "count": 929
   },
-  "images": {
-    "gallery": [
-      "https://media.currys.biz/i/currysprod/10282797?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_012?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_013?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_014?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_015?$l-large$&fmt=auto"
-    ],
-    "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10282797?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_012?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_013?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_014?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10282797_015?$t-thumbnail$&fmt=auto"
-    ],
-    "video": null
-  },
-  "keySpecs": [
-    { "icon": "", "label": "Quantum Dot: Experience over one billion shades of colour" },
-    { "icon": "", "label": "Hi-View Engine: continuously optimises and enhances content" },
-    { "icon": "", "label": "Refresh rate: 120 Hz (up to 144 Hz)" },
-    { "icon": "", "label": "HDMI 2.1 x 4" },
-    { "icon": "", "label": "5 year guarantee" },
-    { "icon": "", "label": "Freely: Stream live & on demand TV for free" }
-  ],
-  "flexpay": {
-    "monthlyAmount": 21.53,
-    "months": 48,
-    "totalPayable": 1033.57,
-    "apr": "29.9%"
-  },
-  "careAndRepair": [
-    { "plan": "Care & Repair", "price": 7.19, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 65, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
-  ],
-  "essentialServices": [],
-  "crossSellProducts": [],
-  "offers": [],
-  "badges": ["Freely TV Badge", "Dolby Vision Atmos"],
-  "specifications": {},
   "description": {
-    "main": "Over a billion shades are brought to life with Quantum Dot Colour on this Hisense E7Q 65\" TV. It's not just vibrant, colours are served up in a true and natural way. The Hi-View AI engine boosts the resolution, brightness, contrast, and colour frame by frame - even older content gets an upgrade. And you can enjoy smooth, lag-free gaming with 144 Hz Game Mode PRO and AMD Freesync Premium Pro. It automatically matches the TV's refresh rate to your console's output for the best performance.",
+    "main": "Experience over a billion shades of colour with Quantum Dot technology.",
+    "features": [
+      "Quantum Dot Colour",
+      "Hi-View AI Engine",
+      "144 Hz Game Mode PRO",
+      "Dolby Vision",
+      "Dolby Atmos"
+    ],
     "goodToKnow": [
-      "The Game Bar gives you quick access to settings without leaving your teammates stranded",
-      "Dolby Vision gaming boosts the brightness and contrast, revealing hidden details in shadows",
-      "Dolby Atmos serves up a virtual surround sound experience, so you'll feel like you're in the heat of the action",
-      "Stream content from the likes of Netflix, Disney+, and NOW on the VIDAA smart platform"
+      "5 year guarantee.",
+      "Stream live & on-demand TV for free with Freely.",
+      "Supports HDMI 2.1"
     ]
   },
-  "deliveryInfo": {
-    "freeDelivery": true,
-    "standardDeliveryPrice": 0,
-    "nextDayDeliveryPrice": 9.99,
-    "standardDeliveryDays": "3-5"
+  "images": {
+    "gallery": [
+      "https://cdn.media.amplience.net/i/electrizprod/10282797?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_001?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_002?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_003?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_004?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_005?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_006?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_007?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_008?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_009?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_010?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_011?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_012?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_013?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_014?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_015?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://cdn.media.amplience.net/i/electrizprod/10282797?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_001?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_002?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_003?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_004?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_005?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_006?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_007?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_008?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_009?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_010?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_011?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_012?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_013?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_014?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10282797_015?$t-thumbnail$&fmt=auto"
+    ]
   },
+  "keySpecs": [
+    "Screen size: 65 inch",
+    "Display Type: QLED",
+    "Resolution: 4K Ultra HD",
+    "Refresh Rate: 120 Hz (up to 144 Hz)",
+    "Audio Power: 20 W",
+    "HDMI: 4"
+  ],
+  "specifications": {},
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 20,
+    "nextDayDeliveryPrice": 30
+  },
+  "sizeVariants": [
+    {
+      "size": "65\"",
+      "price": 749
+    }
+  ],
+  "crossSellProducts": [],
+  "careAndRepair": [
+    {
+      "name": "Breakdown support",
+      "price": 3.5,
+      "description": "Monthly plan for fast repairs and replacements."
+    }
+  ],
+  "offers": [
+    "Get 20% off marked price on this product. Just enter code 20OFFVIS at checkout."
+  ],
+  "badges": [
+    "Free standard delivery on orders over £40",
+    "FREE recycling on selected TVs"
+  ],
+  "energyRating": "E",
   "category": "TVs",
-  "energyRating": "E"
+  "id": "10282797",
+  "title": "HISENSE E7Q PRO 65\" QLED 4K HDR Smart TV with Freely - 65E7QTUK PRO",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

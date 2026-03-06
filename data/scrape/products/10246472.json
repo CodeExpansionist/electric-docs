@@ -1,0 +1,38 @@
+{
+  "brand": "JVC",
+  "price": {
+    "current": 79.99,
+    "was": 99.99,
+    "savings": 20
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 100
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/jvc-rcd322b-dabfm-bluetooth-boombox-black.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10246472",
+  "title": "JVC RC-D322B DAB+/FM Bluetooth Boombox - Black"
+}

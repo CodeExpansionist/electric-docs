@@ -1,0 +1,38 @@
+{
+  "brand": "ROAD ANGEL",
+  "price": {
+    "current": 299,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 33
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/road-angel-rax721dab-dabfmam-bluetooth-car-stereo-with-apple-carplay-and-android-auto.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10248409",
+  "title": "ROAD ANGEL RA-X721DAB DAB+/FM/AM Bluetooth Car Stereo with Apple CarPlay & Android Auto"
+}

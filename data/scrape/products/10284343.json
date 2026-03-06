@@ -2,28 +2,46 @@
   "id": "10284343",
   "title": "HISENSE Party Storm Bluetooth Megasound Party Speaker - Black",
   "brand": "Hisense",
-  "price": { "current": 169, "was": 249, "savings": 80 },
-  "rating": { "average": 3.8, "count": 5 },
+  "price": {
+    "current": 249,
+    "was": null,
+    "savings": 80
+  },
+  "rating": {
+    "average": 3.8,
+    "count": 5
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10284343?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284343_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284343_002?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10284343?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284343_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284343_002?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10284343?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284343_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284343_002?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10284343?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284343_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284343_002?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "bluetooth", "label": "Bluetooth" },
-    { "icon": "lights", "label": "LED party lights / Karaoke mode / DJ mode" },
-    { "icon": "power", "label": "Output power: 300 W" },
-    { "icon": "battery", "label": "Up to 15 hours battery life" }
+    {
+      "icon": "bluetooth",
+      "label": "Bluetooth"
+    },
+    {
+      "icon": "lights",
+      "label": "LED party lights / Karaoke mode / DJ mode"
+    },
+    {
+      "icon": "power",
+      "label": "Output power: 300 W"
+    },
+    {
+      "icon": "battery",
+      "label": "Up to 15 hours battery life"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -39,6 +57,11 @@
       "Add your own twist to the music with five DJ effects"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

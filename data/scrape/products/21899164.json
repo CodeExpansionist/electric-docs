@@ -13,40 +13,53 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/21899164?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_005?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/21899164?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_005?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/21899164?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/21899164_005?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/21899164?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/21899164_005?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__207495_2544.jpg?m=2544&r=1048&t=1"
   },
   "keySpecs": [
-    { "icon": "tv-size", "label": "For 42 - 75\" Televisions" },
-    { "icon": "vesa", "label": "Max. VESA compliance: 600 x 400" },
-    { "icon": "weight", "label": "Max. supported weight: 50 kg" },
-    { "icon": "cable", "label": "Cable management" }
+    {
+      "icon": "tv-size",
+      "label": "For 42 - 75\" Televisions"
+    },
+    {
+      "icon": "vesa",
+      "label": "Max. VESA compliance: 600 x 400"
+    },
+    {
+      "icon": "weight",
+      "label": "Max. supported weight: 50 kg"
+    },
+    {
+      "icon": "cable",
+      "label": "Cable management"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
-  "badges": ["Epic Deal"],
+  "badges": [
+    "Epic Deal"
+  ],
   "specifications": {},
   "description": {
     "main": "Watch your large screen TV from the wall with the Sandstrom STL14 Tilt TV Bracket. Enjoy unrestricted views and free up floor space by mounting your set on the wall with this extremely low profile tilting bracket. Protruding just 24 mm from the wall, the STL14 is suitable for screens from 42\" to 75\" with a maximum load of 50 kg making it a quick and easy way to wall mount your television. Choose how you want to watch your television with options to position it flat to the wall or tilted forward to provide you with the most comfortable viewing angle. Spring self locking means that your TV is always safe and stable and can be easily adjusted with the touch of a finger. Cable management at the rear of the bracket keeps things tidy, grouping all trailing wires together to keep things more streamlined and tidy as you enjoy your favourite programming. Keep your TV safe and secure on the wall with the Sandstrom STL14 Tilt TV Bracket.",
     "goodToKnow": [
-      "Free standard delivery on orders over \u00a340",
+      "Free standard delivery on orders over £40",
       "Save 20% on selected TV accessories when bought with any TV"
     ]
   },
@@ -55,5 +68,6 @@
     "standardDeliveryPrice": 0,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "TV Accessories"
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

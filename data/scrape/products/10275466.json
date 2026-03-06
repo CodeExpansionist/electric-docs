@@ -4,8 +4,8 @@
   "brand": "JBL",
   "price": {
     "current": 149,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.8,
@@ -13,34 +13,34 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10275466_black_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_008?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_008?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10275466_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10275466_black_009?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10275466_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10275466_black_009?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/3075/ol_video_img_url__293928_3075.jpg?m=3075&r=1048&t=1"
   },
   "keySpecs": [
     {
-      "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-pound.svg",
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-pound.svg",
       "label": "True wireless earbuds"
     },
     {
@@ -72,12 +72,6 @@
       "label": "2 year guarantee"
     }
   ],
-  "flexpay": {
-    "monthlyAmount": 6.03,
-    "months": 36,
-    "totalPayable": 217.08,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
     {
       "plan": "Instant Replacement",
@@ -104,14 +98,14 @@
       "category": "accessories",
       "title": "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black",
       "price": 11.99,
-      "image": "https://media.currys.biz/i/currysprod/10278348?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10278348?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [],
   "badges": [
     {
       "type": "Loved by Currys",
-      "image": "https://media.currys.biz/i/currysprod/loved_by_currys-68562.jpg?fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/loved_by_electriz-68562.jpg?fmt=auto"
     }
   ],
   "specifications": {},
@@ -129,5 +123,6 @@
     "freeDelivery": true,
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
-  }
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

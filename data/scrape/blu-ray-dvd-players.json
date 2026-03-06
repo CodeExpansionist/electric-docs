@@ -1,0 +1,612 @@
+{
+  "categoryName": "Blu-ray & DVD Players",
+  "categorySlug": "dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players",
+  "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players",
+  "scrapedAt": "2026-03-06T15:51:31.171Z",
+  "totalProducts": 20,
+  "siteReportedTotal": 20,
+  "filters": [],
+  "products": [
+    {
+      "productId": "12872098",
+      "name": "SONY DVPSR760HB DVD Player",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-dvpsr760hb-dvd-player-12872098.html",
+      "price": {
+        "current": 39,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 2875
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/12872098?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays DVDs",
+        "HDMI"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10191562",
+      "name": "PANASONIC DP-UB159EB 4K Ultra HD Blu-ray & DVD Player",
+      "brand": "PANASONIC",
+      "url": "https://www.currys.co.uk/products/panasonic-dpub159eb-4k-ultra-hd-bluray-and-dvd-player-10191562.html",
+      "price": {
+        "current": 169,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 6.84
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 235
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10191562?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays 4K Blu-ray discs / DVDs",
+        "HDR: HDR10+ / HDR10 / Hybrid Log-Gamma (HLG)",
+        "Supports Dolby Atmos / DTS: X / High-Resolution Audio",
+        "Ethernet",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10138707",
+      "name": "PANASONIC DMR-EX97EB-K DVD Player with Freeview HD Recorder - 500 GB HDD",
+      "brand": "PANASONIC",
+      "url": "https://www.currys.co.uk/products/panasonic-dmrex97ebk-dvd-player-with-freeview-hd-recorder-500-gb-hdd-10138707.html",
+      "price": {
+        "current": 279,
+        "was": 319,
+        "savings": 40,
+        "savingsPercent": 12.53,
+        "monthlyPayment": 11.3
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 888
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10138707?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays DVDs",
+        "Records to HDD",
+        "Up to 258 hours of SD / 129 hours HD recording",
+        "Ethernet"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10284393",
+      "name": "SONY UBPX700KB.CEK Smart 4K Ultra HD Blu-ray & DVD Player",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-ubpx700kb.cek-smart-4k-ultra-hd-bluray-and-dvd-player-10284393.html",
+      "price": {
+        "current": 269,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 10.9
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 9
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10284393?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays Blu-ray discs / DVDs with upscaling",
+        "HDR: Dolby Vision / HDR10",
+        "Supports Dolby Atmos / DTS: X / High-Resolution Audio",
+        "HDMI / USB",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10139364",
+      "name": "PANASONIC DMR-PWT655EB Smart 3D Blu-ray & DVD Player with Freeview Play Recorder - 1 TB HDD",
+      "brand": "PANASONIC",
+      "url": "https://www.currys.co.uk/products/panasonic-dmrpwt655eb-smart-3d-bluray-and-dvd-player-with-freeview-play-recorder-1-tb-hdd-10139364.html",
+      "price": {
+        "current": 359,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 14.54
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 438
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10139364?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays Blu-ray discs / DVDs with upscaling",
+        "Records to HDD",
+        "Up to 518 hours of SD / 259 hours HD recording",
+        "Catch-up TV & Streaming",
+        "WiFi / Ethernet"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10241742",
+      "name": "MAJORITY Scholars SCH-DVD-BLK UK DVD Player",
+      "brand": "MAJORITY",
+      "url": "https://www.currys.co.uk/products/majority-scholars-schdvdblk-uk-dvd-player-10241742.html",
+      "price": {
+        "current": 27.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 885
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10241742?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays DVDs",
+        "HDMI / USB",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10285336",
+      "name": "GROOV-E GVDP01BK Portable DVD Player - Black",
+      "brand": "GROOV-E",
+      "url": "https://www.currys.co.uk/products/groove-gvdp01bk-portable-dvd-player-black-10285336.html",
+      "price": {
+        "current": 69,
+        "was": 79.99,
+        "savings": 10.99,
+        "savingsPercent": 13.75,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.5,
+        "count": 2
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10285336?$g-small$&fmt=auto",
+      "keySpecs": [
+        "7\" screen",
+        "Up to 2.5 hours battery life",
+        "USB / Memory card slot",
+        "Includes car charger"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10285338",
+      "name": "GROOV-E GVDP03BK Multi Regional DVD Player",
+      "brand": "GROOV-E",
+      "url": "https://www.currys.co.uk/products/groove-gvdp03bk-multi-regional-dvd-player-10285338.html",
+      "price": {
+        "current": 33.98,
+        "was": 33.99,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 2.6,
+        "count": 7
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10285338?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays DVDs",
+        "HDMI / USB"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10285337",
+      "name": "GROOV-E GVDP02BK Portable DVD Player - Black",
+      "brand": "GROOV-E",
+      "url": "https://www.currys.co.uk/products/groove-gvdp02bk-portable-dvd-player-black-10285337.html",
+      "price": {
+        "current": 89.99,
+        "was": 100,
+        "savings": 10.01,
+        "savingsPercent": 10.01,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 0
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10285337?$g-small$&fmt=auto",
+      "keySpecs": [
+        "10.1\" screen",
+        "Up to 2.5 hours battery life",
+        "USB / Memory card slot",
+        "Includes car charger"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10143734",
+      "name": "PANASONIC DMR-BWT850EB Smart 3D Blu-ray & DVD Player - 1 TB HDD",
+      "brand": "PANASONIC",
+      "url": "https://www.currys.co.uk/products/panasonic-dmrbwt850eb-smart-3d-bluray-and-dvd-player-1-tb-hdd-10143734.html",
+      "price": {
+        "current": 549,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 22.25
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 370
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10143734?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays Blu-ray discs / DVDs with upscaling",
+        "Records to HDD",
+        "Up to 518 hours of SD / 259 hours HD recording",
+        "Catch-up TV & Streaming",
+        "WiFi / Ethernet"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10218845",
+      "name": "LEXIBOOK DVDP6PA Portable DVD Player - Paw Patrol",
+      "brand": "LEXIBOOK",
+      "url": "https://www.currys.co.uk/products/lexibook-dvdp6pa-portable-dvd-player-paw-patrol-10218845.html",
+      "price": {
+        "current": 84.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10218845?$g-small$&fmt=auto",
+      "keySpecs": [
+        "7\" screen",
+        "USB port",
+        "Includes car charger"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10143726",
+      "name": "PANASONIC DMP-BDT167EB Smart 3D Blu-ray & DVD Player",
+      "brand": "PANASONIC",
+      "url": "https://www.currys.co.uk/products/panasonic-dmpbdt167eb-smart-3d-bluray-and-dvd-player-10143726.html",
+      "price": {
+        "current": 79.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 1023
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10143726?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays Blu-ray discs / DVDs",
+        "Catch-up TV & Streaming",
+        "Ethernet"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10284401",
+      "name": "SONY BDP-S1700/K Blu-ray & DVD Player",
+      "brand": "SONY",
+      "url": "https://www.currys.co.uk/products/sony-bdps1700k-bluray-and-dvd-player-10284401.html",
+      "price": {
+        "current": 79,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 33
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10284401?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays Blu-ray discs / DVDs with upscaling",
+        "Supports High-Resolution Audio",
+        "HDMI / USB"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10191561",
+      "name": "PANASONIC DP-UB450EB 4K Ultra HD Blu-ray & DVD Player",
+      "brand": "PANASONIC",
+      "url": "https://www.currys.co.uk/products/panasonic-dpub450eb-4k-ultra-hd-bluray-and-dvd-player-10191561.html",
+      "price": {
+        "current": 199,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 8.06
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 206
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10191561?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays 4K Blu-ray discs / DVDs",
+        "HDR: Dolby Vision / HDR10+ / HDR10 / Hybrid Log-Gamma (HLG)",
+        "Supports Dolby Atmos / DTS: X / High-Resolution Audio",
+        "Ethernet",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10179416",
+      "name": "PANASONIC DP-UB820EBK Smart 4K Ultra HD Blu-ray & DVD Player",
+      "brand": "PANASONIC",
+      "url": "https://www.currys.co.uk/products/panasonic-dpub820ebk-smart-4k-ultra-hd-bluray-and-dvd-player-10179416.html",
+      "price": {
+        "current": 349,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 14.14
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 616
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10179416?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Plays 4K Blu-ray discs / DVDs",
+        "HDR: Dolby Vision",
+        "Supports High-Resolution Audio",
+        "Catch-up TV & 4K Streaming",
+        "WiFi / Bluetooth",
+        "4K pass-through"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10258694",
+      "name": "OAKCASTLE DVD175 Portable DVD Player - Black",
+      "brand": "OAKCASTLE",
+      "url": "https://www.currys.co.uk/products/oakcastle-dvd175-portable-dvd-player-black-10258694.html",
+      "price": {
+        "current": 119,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": 4.82
+      },
+      "rating": {
+        "average": 5,
+        "count": 41
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10258694?$g-small$&fmt=auto",
+      "keySpecs": [
+        "15.6\" screen",
+        "Up to 6 hours battery life",
+        "USB / Memory card slot",
+        "Includes car charger",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10258693",
+      "name": "OAKCASTLE DVD120 Portable DVD Player - Black",
+      "brand": "OAKCASTLE",
+      "url": "https://www.currys.co.uk/products/oakcastle-dvd120-portable-dvd-player-black-10258693.html",
+      "price": {
+        "current": 90,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 32
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10258693?$g-small$&fmt=auto",
+      "keySpecs": [
+        "10.5\" screen",
+        "Up to 5 hours battery life",
+        "USB / Memory card slot",
+        "Includes car charger",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10218839",
+      "name": "LEXIBOOK DVDP6FZ Portable DVD Player - Frozen",
+      "brand": "LEXIBOOK",
+      "url": "https://www.currys.co.uk/products/lexibook-dvdp6fz-portable-dvd-player-frozen-10218839.html",
+      "price": {
+        "current": 74.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10218839?$g-small$&fmt=auto",
+      "keySpecs": [
+        "7\" screen",
+        "USB port",
+        "Includes car charger"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10255466",
+      "name": "LEXIBOOK Disney Princess Portable DVD Player - Pink & White",
+      "brand": "LEXIBOOK",
+      "url": "https://www.currys.co.uk/products/lexibook-disney-princess-portable-dvd-player-pink-and-white-10255466.html",
+      "price": {
+        "current": 85,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10255466?$g-small$&fmt=auto",
+      "keySpecs": [
+        "7\" screen",
+        "Up to 2.5 hours battery life",
+        "USB port",
+        "Includes car charger",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10218847",
+      "name": "LEXIBOOK DVDP6AV Portable DVD Player - Avengers",
+      "brand": "LEXIBOOK",
+      "url": "https://www.currys.co.uk/products/lexibook-dvdp6av-portable-dvd-player-avengers-10218847.html",
+      "price": {
+        "current": 95,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 2
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10218847?$g-small$&fmt=auto",
+      "keySpecs": [
+        "7\" screen",
+        "USB port",
+        "Includes car charger",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": false,
+      "energyRating": null
+    }
+  ]
+}

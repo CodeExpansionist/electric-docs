@@ -1,0 +1,31 @@
+{
+  "url": "/services/shoplive",
+  "pageTitle": "ShopLive",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Services",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "ShopLive",
+      "url": "/services/shoplive"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Shop from home with an expert",
+      "content": "ShopLive connects you with an Electriz expert via video call. Get personalised product demonstrations, comparisons, and advice from the comfort of your home.",
+      "type": "text"
+    },
+    {
+      "heading": "Book a session",
+      "content": "Choose a product category and book a convenient time slot. Our experts will guide you through features, answer your questions, and help you find the perfect product.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

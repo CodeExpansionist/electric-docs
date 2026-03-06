@@ -1,0 +1,101 @@
+{
+  "id": "10276401",
+  "title": "JVC TH-D565B 3.1.2 All-in-One Sound Bar with Dolby Atmos",
+  "brand": "JVC",
+  "price": {
+    "current": 119,
+    "was": 149,
+    "savings": 30
+  },
+  "rating": {
+    "average": 4.2,
+    "count": 9
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10276401?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10276401?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10276401_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Number of speakers:"
+    },
+    {
+      "icon": "",
+      "label": "Dolby Atmos"
+    },
+    {
+      "icon": "",
+      "label": "Built-in subwoofer"
+    },
+    {
+      "icon": "",
+      "label": "Audio power:"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Upgrade your audio with the JVC TH-D565B 3.1.2 All-in-One Sound Bar with Dolby Atmos. With number of speakers:, dolby atmos, built-in subwoofer, this soundbar brings cinematic sound quality to your living room.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

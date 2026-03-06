@@ -1,0 +1,464 @@
+{
+  "categoryName": "Remote Controls",
+  "categorySlug": "tv-accessories/remote-controls",
+  "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories/remote-controls",
+  "scrapedAt": "2026-03-06T15:51:31.171Z",
+  "totalProducts": 15,
+  "siteReportedTotal": 25,
+  "filters": [],
+  "products": [
+    {
+      "productId": "10192567",
+      "name": "SKY SKY135 Sky-Q Voice Remote Control",
+      "brand": "SKY",
+      "url": "https://www.currys.co.uk/products/sky-sky135-skyq-voice-remote-control-10192567.html",
+      "price": {
+        "current": 36.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 113
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10192567?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls Sky Box & TV",
+        "Voice control",
+        "Simple online set-up"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10227769",
+      "name": "ONE FOR ALL URC4910 Samsung Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-urc4910-samsung-universal-remote-control-10227769.html",
+      "price": {
+        "current": 19.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 374
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10227769?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Compatible with Samsung TVs",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "No set up required"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10249289",
+      "name": "ONE FOR ALL Essence TV URC1211 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-essence-tv-urc1211-universal-remote-control-10249289.html",
+      "price": {
+        "current": 12.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 10
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10249289?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls 1 device",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "Learning feature",
+        "Simple set-up",
+        "3 year guarantee"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10227814",
+      "name": "ONE FOR ALL URC4911 LG Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-urc4911-lg-universal-remote-control-10227814.html",
+      "price": {
+        "current": 21.49,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 280
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10227814?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Compatible with LG TVs",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "No set up required"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10268163",
+      "name": "ONE FOR ALL URC4922 TCL & Thompson Replacement Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-urc4922-tcl-and-thompson-replacement-remote-control-10268163.html",
+      "price": {
+        "current": 19.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10268163?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Compatible with TCL & Thompson TVs",
+        "Shortcut keys",
+        "Learning feature",
+        "Simple set-up"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10249295",
+      "name": "ONE FOR ALL URC1919 Toshiba Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-urc1919-toshiba-universal-remote-control-10249295.html",
+      "price": {
+        "current": 21.49,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.5,
+        "count": 4
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10249295?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Compatible with Toshiba TVs",
+        "Ideal TV remote replacement",
+        "Fully customisable",
+        "No set up required",
+        "2 year guarantee"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10152868",
+      "name": "ONE FOR ALL Evolve URC7115 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-evolve-urc7115-universal-remote-control-10152868.html",
+      "price": {
+        "current": 18.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 39
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10152868?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls 1 device",
+        "Ideal TV remote replacement",
+        "Ultra wide angle operation",
+        "Simple set-up",
+        "2 year guarantee"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10152830",
+      "name": "ONE FOR ALL Evolve 2 URC7125 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-evolve-2-urc7125-universal-remote-control-10152830.html",
+      "price": {
+        "current": 18.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.3,
+        "count": 27
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10152830?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls up to 2 devices",
+        "Combi control",
+        "Ultra wide angle operation",
+        "Simple set-up",
+        "2 year guarantee"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10269142",
+      "name": "ONE FOR ALL URC6821 Big Button Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-urc6821-big-button-universal-remote-control-10269142.html",
+      "price": {
+        "current": 16.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.9,
+        "count": 19
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10269142?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls up to 2 devices",
+        "Big buttons",
+        "Backlight keys",
+        "Learning feature",
+        "Simple set-up",
+        "3 year guarantee"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10249310",
+      "name": "ONE FOR ALL Essence 4 URC1241 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-essence-4-urc1241-universal-remote-control-10249310.html",
+      "price": {
+        "current": 14.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10249310?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls up to 4 devices",
+        "Works with all AV devices with IR remote controls",
+        "Fully customisable",
+        "Learning feature",
+        "Simple set-up",
+        "3 year guarantee"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10152873",
+      "name": "ONE FOR ALL Evolve 4 URC7145 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-evolve-4-urc7145-universal-remote-control-10152873.html",
+      "price": {
+        "current": 21.19,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.2,
+        "count": 29
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10152873?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls up to 4 devices",
+        "Ultra wide angle operation",
+        "Simple set-up",
+        "2 year guarantee"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10257669",
+      "name": "ONE FOR ALL URC 7966 Smart Control Pro Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-urc-7966-smart-control-pro-universal-remote-control-10257669.html",
+      "price": {
+        "current": 39.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10257669?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls up to 6 devices",
+        "Works with your smart TV",
+        "Smart control",
+        "Simple set-up",
+        "3 year guarantee"
+      ],
+      "badges": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10268156",
+      "name": "ONE FOR ALL URC 1110 Apple Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-urc-1110-apple-remote-control-10268156.html",
+      "price": {
+        "current": 34.97,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10268156?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls up to 3 devices",
+        "Siri voice control",
+        "Backlight keys"
+      ],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10253769",
+      "name": "ONE FOR ALL Essential 6 URC3661 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-essential-6-urc3661-universal-remote-control-10253769.html",
+      "price": {
+        "current": 24.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10253769?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls up to 6 devices",
+        "Works with all AV devices with IR remote controls",
+        "Fully customisable",
+        "Learning feature",
+        "Simple set-up",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10249267",
+      "name": "ONE FOR ALL URC1917 Universal Remote Control",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-urc1917-universal-remote-control-10249267.html",
+      "price": {
+        "current": 16.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 0,
+        "count": 0
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10249267?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Controls 3 devices",
+        "Backlight",
+        "Easy set-up"
+      ],
+      "badges": [],
+      "offers": [],
+      "inStock": true,
+      "energyRating": null
+    }
+  ]
+}

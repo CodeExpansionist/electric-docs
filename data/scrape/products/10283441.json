@@ -1,0 +1,105 @@
+{
+  "id": "10283441",
+  "title": "PHILIPS 55PUS7800/05 55\\\" Smart 4K Ultra HD HDR QLED TV",
+  "brand": "Philips",
+  "price": {
+    "current": 439,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.1,
+    "count": 36
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10283441?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10283441?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283441_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Cinematic sound with Dolby Atmos"
+    },
+    {
+      "icon": "",
+      "label": "Refresh rate:"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.0a x 3"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    },
+    {
+      "icon": "",
+      "label": "Discover new shows & stream content on Titan OS"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 5.27,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [
+    "Save 20% on selected TV Accessories when bought with this TV. Use code SAVE20TVACCS.+2 more offers"
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Experience stunning visuals with the PHILIPS 55PUS7800/05 55\\\" Smart 4K Ultra HD HDR QLED TV. Featuring cinematic sound with dolby atmos, refresh rate:, hdmi 2.0a x 3, this Philips TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

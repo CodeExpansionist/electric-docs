@@ -1,6 +1,5 @@
 {
   "id": "10274414",
-  "title": "JVC LT-43CR350 43\" Roku Smart Full HD LED TV with Freely",
   "brand": "JVC",
   "price": {
     "current": 189,
@@ -8,68 +7,37 @@
     "savings": 30
   },
   "rating": {
-    "average": 4.8,
-    "count": 4
+    "average": 0,
+    "count": 0
+  },
+  "description": {
+    "main": "",
+    "features": [],
+    "goodToKnow": []
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10274414?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_006?$l-large$&fmt=auto"
+      "https://cdn.media.amplience.net/i/electrizprod/10274414?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10274414?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10274414_006?$t-thumbnail$&fmt=auto"
-    ],
-    "video": null
-  },
-  "keySpecs": [
-    { "icon": "", "label": "Screen size: 43\"" },
-    { "icon": "", "label": "Resolution: Full HD 1920 x 1080p" },
-    { "icon": "", "label": "Refresh rate: 60 Hz" },
-    { "icon": "", "label": "Smart platform: Roku TV" },
-    { "icon": "", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" },
-    { "icon": "", "label": "Freely: Stream live & on demand TV for free" }
-  ],
-  "flexpay": {
-    "monthlyAmount": 10.56,
-    "months": 24,
-    "totalPayable": 253.39,
-    "apr": "29.9%"
-  },
-  "careAndRepair": [
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
-  ],
-  "essentialServices": [],
-  "crossSellProducts": [],
-  "offers": [],
-  "badges": ["Freely TV"],
-  "specifications": {},
-  "description": {
-    "main": "You'll find all your favourites in one place on this JVC 43\" smart TV. Roku OS brings together your apps, shows and streaming platforms into a single, easy-to-use hub. No faffing about - just smooth navigation, smart recommendations and quick access to what you love. Catch live TV and on-demand shows from all the big channels with Freely. Because it works over WiFi, you won't need a dish, box or aerial. Plug in, power up and dive straight into free entertainment.",
-    "goodToKnow": [
-      "Dolby Audio makes everything sound richer, clearer and more immersive",
-      "HDR makes sure the light and dark parts of every scene are on point",
-      "Hook up consoles, soundbars and other gear with three HDMI ports and an optical output",
-      "Pop in a USB drive and enjoy your own photos, videos and music on the big screen"
+      "https://cdn.media.amplience.net/i/electrizprod/10274414?$t-thumbnail$&fmt=auto"
     ]
   },
+  "keySpecs": [],
+  "specifications": {},
   "deliveryInfo": {
     "freeDelivery": true,
-    "standardDeliveryPrice": 0,
-    "nextDayDeliveryPrice": 5.99,
-    "standardDeliveryDays": "3-5"
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
   },
+  "sizeVariants": [],
+  "crossSellProducts": [],
+  "careAndRepair": [],
+  "offers": [],
+  "badges": [],
+  "energyRating": "",
   "category": "TVs",
-  "energyRating": "D"
+  "_needsEnrichment": true,
+  "title": "JVC LT-43CR350 43\" Roku Smart Full HD LED TV with Freely",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

@@ -1,0 +1,53 @@
+{
+  "url": "/services/returns",
+  "pageTitle": "Returns, refunds & exchanges",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Services",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "Returns & Refunds",
+      "url": "/services/returns"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Returns, refunds & exchanges",
+      "content": "Want to return an item? No problem! We're happy to offer you an exchange, a refund, or something else — just let us know why you're returning your item and which solution you'd prefer, and we'll go from there.",
+      "type": "text"
+    },
+    {
+      "heading": "Faulty items",
+      "content": "If your item is faulty, we're happy to offer you an exchange or a refund. You can do this within 30 days from when you bought it or had it delivered.\n\nIf more than 30 days have passed since you bought or received your item, we might be able to repair it as long as it's still within its guarantee period (usually 12 months from when you bought it).\n\nWe can't exchange, refund, or repair items that are faulty due to accidental damage, neglect, misuse, or normal wear and tear.",
+      "type": "text"
+    },
+    {
+      "heading": "Changed your mind?",
+      "content": "If you bought your item online, you can return it within 30 days — even if you've opened it for inspection. To get a full refund, the item must be returned like new and in a resaleable condition. This means you must not use it. You must also keep it in its original box and return it with all its accessories.\n\nMost items bought online can be returned in our stores if they meet these conditions. Use our handy returns journey guide to find the quickest way to return your item.\n\nIf you bought your item in store, you can return it within 30 days. It must be in its unopened and sealed packaging. You also need your proof of purchase.",
+      "type": "text"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What can I do if I want a refund?",
+      "answer": "If you want a refund, you can request this within 30 days of purchase or delivery."
+    },
+    {
+      "question": "Can I return an item if I changed my mind?",
+      "answer": "Yes, you can return it within 30 days, even if opened, as long as it's in new condition and includes all accessories."
+    },
+    {
+      "question": "What if my item is faulty?",
+      "answer": "If faulty, you can return it for a refund or exchange within 30 days of purchase."
+    },
+    {
+      "question": "Are there any items I cannot return?",
+      "answer": "Yes, some items cannot be returned if the seal is broken, usually for hygiene reasons."
+    }
+  ]
+}

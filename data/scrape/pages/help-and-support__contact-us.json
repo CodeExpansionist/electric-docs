@@ -1,0 +1,41 @@
+{
+  "url": "/help-and-support/contact-us",
+  "pageTitle": "Contact us",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Help & Support",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "Contact us",
+      "url": "/help-and-support/contact-us"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Get in touch",
+      "content": "Our customer service team is available 7 days a week. You can reach us by phone, email, or live chat. We aim to respond to all enquiries within 24 hours.",
+      "type": "text"
+    },
+    {
+      "heading": "Phone support",
+      "content": "Call us on 0344 561 1234. Our lines are open Monday to Friday 8am-8pm, Saturday 8am-6pm, and Sunday 10am-4pm.",
+      "type": "text"
+    },
+    {
+      "heading": "Live chat",
+      "content": "Chat with one of our agents online for quick answers to your questions. Available Monday to Saturday 8am-8pm and Sunday 10am-4pm.",
+      "type": "text"
+    },
+    {
+      "heading": "Email",
+      "content": "Send us an email and we'll get back to you within 24 hours. Please include your order number if your query relates to an existing order.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

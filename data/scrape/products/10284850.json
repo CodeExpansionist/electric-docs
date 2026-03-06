@@ -3,9 +3,9 @@
   "title": "PANASONIC Z90B 65\" OLED 4K HDR Smart Fire TV with Freely - TV-65Z90BEB",
   "brand": "Panasonic",
   "price": {
-    "current": 1299.99,
-    "was": 1799.99,
-    "savings": 500
+    "current": 1299,
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.6,
@@ -13,63 +13,91 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10284850?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_012?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10284850?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_012?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10284850?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10284850_012?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10284850?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284850_012?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "processor", "label": "HCX Pro AI Processor for cinematic contrast & clarity" },
-    { "icon": "audio", "label": "Cinematic sound with Dolby Atmos" },
-    { "icon": "refresh-rate", "label": "Refresh rate: 120 Hz (up to 144 Hz)" },
-    { "icon": "hdmi", "label": "HDMI 2.1 x 4" },
-    { "icon": "guarantee", "label": "5 year guarantee" },
-    { "icon": "smart-tv", "label": "Enjoy apps / Alexa skills / channels with Fire TV" }
+    {
+      "icon": "processor",
+      "label": "HCX Pro AI Processor for cinematic contrast & clarity"
+    },
+    {
+      "icon": "audio",
+      "label": "Cinematic sound with Dolby Atmos"
+    },
+    {
+      "icon": "refresh-rate",
+      "label": "Refresh rate: 120 Hz (up to 144 Hz)"
+    },
+    {
+      "icon": "hdmi",
+      "label": "HDMI 2.1 x 4"
+    },
+    {
+      "icon": "guarantee",
+      "label": "5 year guarantee"
+    },
+    {
+      "icon": "smart-tv",
+      "label": "Enjoy apps / Alexa skills / channels with Fire TV"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 46.73,
-    "months": 48,
-    "totalPayable": 2243.13,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 15.6, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 65, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 15.6,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
-  "badges": ["Dolby Vision Atmos", "Freely TV Badge"],
+  "badges": [
+    "Dolby Vision Atmos",
+    "Freely TV Badge"
+  ],
   "specifications": {},
   "description": {
-    "main": "You'll love how brilliant entertainment looks on this Panasonic Z90B 65\u201d OLED TV. Each pixel is self-illuminating for natural colours and brilliant contrast. With the clever HCX Pro AI MK II Processor, colours pop, action is smooth, and the contrast is on point \u2013 whether you're watching the footie, gaming, or just catching up on your favourite series. Dolby have brought their expertise into the mix too. Dolby Vision IQ makes sure your shows and films look spot-on, no matter how bright your room is. And then there's Dolby Atmos. It adds virtual surround sound to your experience, making you feel like you're in the middle of the action.",
+    "main": "You'll love how brilliant entertainment looks on this Panasonic Z90B 65” OLED TV. Each pixel is self-illuminating for natural colours and brilliant contrast. With the clever HCX Pro AI MK II Processor, colours pop, action is smooth, and the contrast is on point – whether you're watching the footie, gaming, or just catching up on your favourite series. Dolby have brought their expertise into the mix too. Dolby Vision IQ makes sure your shows and films look spot-on, no matter how bright your room is. And then there's Dolby Atmos. It adds virtual surround sound to your experience, making you feel like you're in the middle of the action.",
     "goodToKnow": [
       "Dynamic Theater Surround Pro and the built-in sub will have you feeling the full force of every explosion",
       "Game Mode Extreme makes sure games run smooth and lag-free",
@@ -84,5 +112,6 @@
     "nextDayDeliveryPrice": 9.99
   },
   "category": "TVs",
-  "energyRating": "G"
+  "energyRating": "G",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

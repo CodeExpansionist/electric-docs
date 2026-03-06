@@ -2,48 +2,92 @@
   "id": "10253779",
   "title": "SONY SRS-XB100 Portable Bluetooth Speaker - Blue",
   "brand": "Sony",
-  "price": { "current": 39.99, "was": 0, "savings": 0 },
-  "rating": { "average": 4.7, "count": 625 },
+  "price": {
+    "current": 39.99,
+    "was": 69.99,
+    "savings": 10
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 625
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10253772_blue_100?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_007?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_100?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_007?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10253772_blue?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10253772_blue_007?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10253772_blue_007?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2155/ol_video_img_url__275790_2155.jpg?m=2155&r=1048&t=1"
   },
   "keySpecs": [
-    { "icon": "", "label": "Waterproof" },
-    { "icon": "", "label": "X-Balanced Speaker for rich & clear sound" },
-    { "icon": "", "label": "Up to 16 hours battery life" },
-    { "icon": "", "label": "Bluetooth" },
-    { "icon": "", "label": "Pair up to 2 speakers" }
+    {
+      "icon": "",
+      "label": "Waterproof"
+    },
+    {
+      "icon": "",
+      "label": "X-Balanced Speaker for rich & clear sound"
+    },
+    {
+      "icon": "",
+      "label": "Up to 16 hours battery life"
+    },
+    {
+      "icon": "",
+      "label": "Bluetooth"
+    },
+    {
+      "icon": "",
+      "label": "Pair up to 2 speakers"
+    }
   ],
-  "flexpay": { "monthlyAmount": 0, "months": 0, "totalPayable": 0, "apr": "0%" },
-  "careAndRepair": [{ "plan": "Instant Replacement", "price": 11, "period": "3 years" }],
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement",
+      "price": 11,
+      "period": "3 years"
+    }
+  ],
   "essentialServices": [],
   "crossSellProducts": [
-    { "category": "Accessories", "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black", "price": 34.99, "image": "https://media.currys.biz/i/currysprod/M10247634_black?$s-swatch$&fmt=auto" },
-    { "category": "Accessories", "title": "LOGIK L15SAC23 Audio Cable - 1.5 m", "price": 6.99, "image": "https://media.currys.biz/i/currysprod/10234489?$s-swatch$&fmt=auto" }
+    {
+      "category": "Accessories",
+      "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black",
+      "price": 34.99,
+      "image": "https://media.electriz.biz/i/electrizprod/M10247634_black?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Accessories",
+      "title": "LOGIK L15SAC23 Audio Cable - 1.5 m",
+      "price": 6.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10234489?$s-swatch$&fmt=auto"
+    }
   ],
-  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
-  "badges": [{ "type": "Loved by Currys", "image": "https://media.currys.biz/i/currysprod/loved_by_currys-68562.jpg?fmt=auto" }],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [
+    {
+      "type": "Loved by Currys",
+      "image": "https://media.electriz.biz/i/electrizprod/loved_by_electriz-68562.jpg?fmt=auto"
+    }
+  ],
   "specifications": {},
   "description": {
     "main": "Great music deserves to be heard in all its glory. This Sony XB100's Sound Diffusion Processor blasts crystal-clear sound in all directions, while the full-range speaker kicks out plenty of bass. Your tunes will sound epic wherever you are. It's tough too. The IP67 rating means it's not afraid of a little water or dust, so it's perfect for those slammin' summer parties in the garden. And with a battery that lasts up to 16 hours, you can keep your perfectly curated playlists rolling long into the night.",
@@ -53,5 +97,10 @@
       "With Echo Cancelling technology, you can make hands-free calls with no clipping or cutting out"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 }
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

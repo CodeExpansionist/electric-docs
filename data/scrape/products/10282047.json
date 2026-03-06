@@ -2,23 +2,107 @@
   "id": "10282047",
   "title": "LG US20A 2.0 Compact Sound Bar",
   "brand": "LG",
-  "price": { "current": 79.99, "was": 0, "savings": 0 },
-  "rating": { "average": 4.7, "count": 19 },
+  "price": {
+    "current": 79.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 19
+  },
   "images": {
-    "gallery": ["https://media.currys.biz/i/currysprod/10282047_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282047?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_006?$l-large$&fmt=auto"],
-    "thumbnails": ["https://media.currys.biz/i/currysprod/10282047?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282047_007?$t-thumbnail$&fmt=auto"],
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10282047_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_006?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10282047?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282047_007?$t-thumbnail$&fmt=auto"
+    ],
     "video": "https://assets-jpcust.jwpsrv.com/thumbs/YRVwdzOU-1280.jpg"
   },
-  "keySpecs": [{"icon":"","label":"Number of speakers: 2"},{"icon":"","label":"Audio power: 50 W Peak / 50 W RMS"},{"icon":"","label":"Adaptive / optimized audio"},{"icon":"","label":"HDMI"}],
-  "energyRating": { "class": "" },
-  "flexpay": { "monthlyAmount": 0, "months": 0, "totalPayable": 0, "apr": "" },
-  "wallBracket": { "text": "Add this item", "product": { "title": "Wall Bracket for Sound Bar", "price": 19.99, "savings": 0, "image": "" } },
-  "careAndRepair": [{ "plan": "Instant Replacement Plan", "price": 17, "period": "3 years" }],
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Number of speakers: 2"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 50 W Peak / 50 W RMS"
+    },
+    {
+      "icon": "",
+      "label": "Adaptive / optimized audio"
+    },
+    {
+      "icon": "",
+      "label": "HDMI"
+    }
+  ],
+  "energyRating": {
+    "class": ""
+  },
+  "wallBracket": {
+    "text": "Add this item",
+    "product": {
+      "title": "Wall Bracket for Sound Bar",
+      "price": 19.99,
+      "savings": 0,
+      "image": ""
+    }
+  },
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement Plan",
+      "price": 17,
+      "period": "3 years"
+    }
+  ],
   "essentialServices": [],
-  "crossSellProducts": [{"category":"media_player","title":"SONY DVPSR760HB DVD Player","price":39,"image":"https://media.currys.biz/i/currysprod/12872098?$s-swatch$&fmt=auto"},{"category":"cables","title":"ESSENTIALS C2HDMI24 High Speed HDMI Cable - 2 m","price":9.99,"image":"https://media.currys.biz/i/currysprod/10249243?$s-swatch$&fmt=auto"}],
-  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "crossSellProducts": [
+    {
+      "category": "media_player",
+      "title": "SONY DVPSR760HB DVD Player",
+      "price": 39,
+      "image": "https://media.electriz.biz/i/electrizprod/12872098?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "cables",
+      "title": "ESSENTIALS C2HDMI24 High Speed HDMI Cable - 2 m",
+      "price": 9.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10249243?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
   "badges": [],
   "specifications": {},
-  "description": { "main": "Give your TV's sound a boost with 50 W of rich stereo sound and Dolby Audio. Its compact design sits neatly below most screens.", "goodToKnow": ["With AI Sound Pro, every bit of audio is crisply adjusted.","Pair with compatible LG TVs for seamless control with WOW Interface.","Stream music, podcasts, and more from your phone using Bluetooth."] },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+  "description": {
+    "main": "Give your TV's sound a boost with 50 W of rich stereo sound and Dolby Audio. Its compact design sits neatly below most screens.",
+    "goodToKnow": [
+      "With AI Sound Pro, every bit of audio is crisply adjusted.",
+      "Pair with compatible LG TVs for seamless control with WOW Interface.",
+      "Stream music, podcasts, and more from your phone using Bluetooth."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

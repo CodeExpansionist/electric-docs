@@ -2,17 +2,93 @@
   "id": "10261099",
   "title": "BOSE QuietComfort SC Wireless Bluetooth Noise-Cancelling Headphones - Black",
   "brand": "BOSE",
-  "price": {"current": 189, "was": 289, "savings": 100},
-  "rating": {"average": 4.8, "count": 210},
-  "images": {"gallery": ["https://media.currys.biz/i/currysprod/10261099?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_095?$l-large$&fmt=auto"], "thumbnails": ["https://media.currys.biz/i/currysprod/10261099?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10261099_095?$t-thumbnail$&fmt=auto"], "video": "https://flv.isitetv.com/media/video/2265/ol_video_img_url__282623_2265.jpg?m=2265&r=1048&t=1"},
-  "keySpecs": [{"icon": "Over-ear headphones", "label": "Type"}, {"icon": "Active noise-cancelling with quick attention mode", "label": "Noise Cancelling"}, {"icon": "Battery life: Up to 24 hours", "label": "Battery Life"}, {"icon": "Noise-cancelling mics for clear calls", "label": "Microphone"}, {"icon": "Extra controls on the app", "label": "App Control"}, {"icon": "2 year guarantee", "label": "Warranty"}],
-  "flexpay": {"monthlyAmount": 7.65, "months": 36, "totalPayable": 275.4, "apr": "29.9%"},
-  "careAndRepair": [{"plan": "2 Year Guarantee", "price": 1.25, "period": "monthly"}],
+  "price": {
+    "current": 189,
+    "was": 289,
+    "savings": 100
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 210
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10261099?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_095?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10261099?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261099_095?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2265/ol_video_img_url__282623_2265.jpg?m=2265&r=1048&t=1"
+  },
+  "keySpecs": [
+    {
+      "icon": "Over-ear headphones",
+      "label": "Type"
+    },
+    {
+      "icon": "Active noise-cancelling with quick attention mode",
+      "label": "Noise Cancelling"
+    },
+    {
+      "icon": "Battery life: Up to 24 hours",
+      "label": "Battery Life"
+    },
+    {
+      "icon": "Noise-cancelling mics for clear calls",
+      "label": "Microphone"
+    },
+    {
+      "icon": "Extra controls on the app",
+      "label": "App Control"
+    },
+    {
+      "icon": "2 year guarantee",
+      "label": "Warranty"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "2 Year Guarantee",
+      "price": 1.25,
+      "period": "monthly"
+    }
+  ],
   "essentialServices": [],
-  "crossSellProducts": [{"category": "Accessories", "title": "BELKIN 10000 mAh Portable Power Bank - Black", "price": 15.99, "image": "https://media.currys.biz/i/currysprod/10220891?$s-swatch$&fmt=auto"}],
-  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "BELKIN 10000 mAh Portable Power Bank - Black",
+      "price": 15.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10220891?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
   "badges": [],
   "specifications": {},
-  "description": {"main": "Get your head banging with these Bose QuietComfort Bluetooth headphones. Active noise cancelling blocks out all of the chaos around you so you can lose yourself in your favourite tracks. The Bose Music app lets you fine tune your music just the way you like it.", "goodToKnow": ["Choose how much of the world you want to block out or let in with Quiet Mode and Aware Mode.", "Enjoy epic playlists with up to 24 hours of battery from a single charge using the USB-C cable.", "With quick charge, you can get an extra 2.5 hours of battery from just 15 minutes of charging."]},
-  "deliveryInfo": {"freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99}
+  "description": {
+    "main": "Get your head banging with these Bose QuietComfort Bluetooth headphones. Active noise cancelling blocks out all of the chaos around you so you can lose yourself in your favourite tracks. The Bose Music app lets you fine tune your music just the way you like it.",
+    "goodToKnow": [
+      "Choose how much of the world you want to block out or let in with Quiet Mode and Aware Mode.",
+      "Enjoy epic playlists with up to 24 hours of battery from a single charge using the USB-C cable.",
+      "With quick charge, you can get an extra 2.5 hours of battery from just 15 minutes of charging."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

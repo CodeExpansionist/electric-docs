@@ -1,0 +1,22 @@
+{
+  "url": "/pr-media",
+  "pageTitle": "PR & media",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "PR & media",
+      "url": "/pr-media"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Press & media enquiries",
+      "content": "For all press and media enquiries, please contact our communications team. We're happy to provide comments, expert spokespeople, and product information for editorial features.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

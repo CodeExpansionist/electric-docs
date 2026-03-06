@@ -1,0 +1,61 @@
+{
+  "url": "/services/gift-cards",
+  "pageTitle": "Gift cards",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Services",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "Gift cards",
+      "url": "/services/gift-cards"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Can't decide on the perfect gift? Give the gift of tech with an Electriz gift card",
+      "content": "The perfect gift for any occasion. A great range of designs to choose from and any load value available up to £1,000. Shop now online or in-store.",
+      "type": "text"
+    },
+    {
+      "heading": "Where can I purchase gift cards?",
+      "content": "Gift cards can be purchased online or in-store, with a maximum load value of £1,000. Corporate self-service options are also available for bulk purchases.",
+      "type": "text"
+    },
+    {
+      "heading": "Terms and conditions",
+      "content": "Gift cards can be redeemed in Electriz stores or online, but cannot be used to purchase airtime or certain mobile phones and accessories.",
+      "type": "text"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I use my gift card or eGift card?",
+      "answer": "All Electriz gift cards can be redeemed in store or online at electriz.co.uk as full or part payment towards our products or services. If you're shopping online, you'll be asked to enter your gift card number at the checkout."
+    },
+    {
+      "question": "What will happen if I return something I bought with a gift card?",
+      "answer": "If a transaction paid for by gift card is refunded, the value will be refunded back onto a gift card."
+    },
+    {
+      "question": "How many gift cards can I use online?",
+      "answer": "You are able to use up to 10 gift cards per transaction."
+    },
+    {
+      "question": "Gift cards and Electriz flexpay",
+      "answer": "Gift cards cannot be used towards Electriz flexpay purchases when you purchase online."
+    },
+    {
+      "question": "When will my gift card balance expire?",
+      "answer": "Upon 2 years non-use, the card will expire and any balance will be deducted."
+    },
+    {
+      "question": "Can I check the balance on my gift card?",
+      "answer": "Yes! Check your gift card balance on the gift card balance checker page."
+    }
+  ]
+}

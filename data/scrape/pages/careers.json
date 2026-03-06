@@ -1,0 +1,27 @@
+{
+  "url": "/careers",
+  "pageTitle": "Careers",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Careers",
+      "url": "/careers"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Join the Electriz team",
+      "content": "We're always looking for talented people to join our team. Whether you're passionate about technology, customer service, or retail, we have opportunities across the UK.",
+      "type": "text"
+    },
+    {
+      "heading": "Current vacancies",
+      "content": "Browse our latest job openings across stores, head office, distribution centres, and engineering teams. We offer competitive salaries, staff discounts, and career development opportunities.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

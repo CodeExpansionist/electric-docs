@@ -1,0 +1,393 @@
+{
+  "categoryName": "TV Aerials",
+  "categorySlug": "tv-accessories/tv-aerials",
+  "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories/tv-aerials",
+  "scrapedAt": "2026-03-06T15:51:31.171Z",
+  "totalProducts": 12,
+  "siteReportedTotal": 16,
+  "filters": [
+    {
+      "name": "Price",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 11
+        },
+        {
+          "label": "£40 to £59.99",
+          "count": 3
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "productId": "10165934",
+      "name": "ONE FOR ALL SV9015 Full HD UHF Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv9015-full-hd-uhf-indoor-tv-aerial-10165934.html",
+      "price": {
+        "current": 14.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.9,
+        "count": 54
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10165934?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Non amplified indoor aerial",
+        "Maximum signal range: 3 miles",
+        "Optimised for HD digital TV & DAB radio"
+      ],
+      "badges": [
+        "New"
+      ],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10233993",
+      "name": "ONE FOR ALL SV 9365 Full HD Amplified Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv-9365-full-hd-amplified-indoor-tv-aerial-10233993.html",
+      "price": {
+        "current": 35.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 22
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10233993?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 15 miles",
+        "3G / 4G / 5G / LTE block-filter",
+        "Adjustable angle",
+        "Optimised for Full HD digital TV and DAB radio",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10234022",
+      "name": "ONE FOR ALL SV 9420 Full HD Amplified Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv-9420-full-hd-amplified-indoor-tv-aerial-10234022.html",
+      "price": {
+        "current": 26.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.2,
+        "count": 255
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10234022?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 9 miles",
+        "3G / 4G / 5G block-filter",
+        "Digital compatible",
+        "Optimised for Full HD digital TV and DAB radio",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10234048",
+      "name": "ONE FOR ALL SV 9430 Full HD Amplified Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv-9430-full-hd-amplified-indoor-tv-aerial-10234048.html",
+      "price": {
+        "current": 33.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.8,
+        "count": 123
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10234048?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 15 miles",
+        "3G / 4G / 5G block-filter",
+        "Digital compatible",
+        "Optimised for Full HD digital TV and DAB radio",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10234012",
+      "name": "ONE FOR ALL SV 9215 Full HD Amplified Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv-9215-full-hd-amplified-indoor-tv-aerial-10234012.html",
+      "price": {
+        "current": 36.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.4,
+        "count": 171
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10234012?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 15 miles",
+        "3G / 4G / 5G block-filter",
+        "Flat design",
+        "Optimised for Full HD digital TV and DAB radio",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10249303",
+      "name": "ONE FOR ALL SV 9436 4K Ultra HD Amplified Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv-9436-4k-ultra-hd-amplified-indoor-tv-aerial-10249303.html",
+      "price": {
+        "current": 62.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.8,
+        "count": 12
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10249303?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 15 miles",
+        "3G / 4G / 5G / LTE block-filter",
+        "Signal level indicator",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10225447",
+      "name": "VIVANCO TVA 2020 Indoor TV Aerial",
+      "brand": "VIVANCO",
+      "url": "https://www.currys.co.uk/products/vivanco-tva-2020-indoor-tv-aerial-10225447.html",
+      "price": {
+        "current": 19.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 11
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10225447?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 3 miles",
+        "Receives analogue and digital signals"
+      ],
+      "badges": [
+        "Out of stock"
+      ],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10225446",
+      "name": "VIVANCO TVA 4040 Full HD Amplified Indoor TV Aerial",
+      "brand": "VIVANCO",
+      "url": "https://www.currys.co.uk/products/vivanco-tva-4040-full-hd-amplified-indoor-tv-aerial-10225446.html",
+      "price": {
+        "current": 24.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.9,
+        "count": 28
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10225446?$g-small$&fmt=auto",
+      "keySpecs": [
+        "3G / 4G block-filter",
+        "Optimised for Full HD digital TV and DAB radio"
+      ],
+      "badges": [
+        "Out of stock"
+      ],
+      "offers": [],
+      "inStock": false,
+      "energyRating": null
+    },
+    {
+      "productId": "10249291",
+      "name": "ONE FOR ALL SV9492 Full HD Amplified Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv9492-full-hd-amplified-indoor-tv-aerial-10249291.html",
+      "price": {
+        "current": 52.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10249291?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 15 miles",
+        "3G / 4G / 5G block-filter",
+        "Signal level indicator",
+        "Freestanding or wall mountable",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10182768",
+      "name": "ONE FOR ALL SV9405 UHF Indoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv9405-uhf-indoor-tv-aerial-10182768.html",
+      "price": {
+        "current": 22.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 3.7,
+        "count": 23
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10182768?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 3 miles",
+        "3G / 4G block-filter",
+        "Optimised for Full HD digital TV and DAB radio",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10288034",
+      "name": "ONE FOR ALL SV 9450 4K Ultra HD Amplified Outdoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv-9450-4k-ultra-hd-amplified-outdoor-tv-aerial-10288034.html",
+      "price": {
+        "current": 49.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 1,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10288034?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 15 miles",
+        "3G / 4G / 5G block-filter",
+        "Weatherproof",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    },
+    {
+      "productId": "10183725",
+      "name": "ONE FOR ALL SV9354 Full HD Amplified Outdoor TV Aerial",
+      "brand": "ONE FOR ALL",
+      "url": "https://www.currys.co.uk/products/one-for-all-sv9354-full-hd-amplified-outdoor-tv-aerial-10183725.html",
+      "price": {
+        "current": 43.99,
+        "was": null,
+        "savings": null,
+        "savingsPercent": null,
+        "monthlyPayment": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 23
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/currysprod/10183725?$g-small$&fmt=auto",
+      "keySpecs": [
+        "Maximum signal range: 30 miles",
+        "3G / 4G block-filter",
+        "Optimised for HD compatible digital signals",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "inStock": true,
+      "energyRating": null
+    }
+  ]
+}

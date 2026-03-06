@@ -1,1 +1,82 @@
-{"id":"10271847","title":"GOOGLE TV Streamer 4K - Porcelain","brand":"Google","price":{"current":99.99,"was":0,"savings":0},"rating":{"average":4.7,"count":27},"images":{"gallery":["https://media.currys.biz/i/currysprod/10271847?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10271847_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10271847_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10271847_003?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10271847?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10271847_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10271847_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10271847_003?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Stream 4K HDR content to your TV"},{"icon":"","label":"Voice search via remote"},{"icon":"","label":"WiFi / Ethernet / Bluetooth"},{"icon":"","label":"Chromecast"}],"flexpay":{"monthlyAmount":4.05,"months":36,"totalPayable":145.8,"apr":"29.9%"},"careAndRepair":[],"essentialServices":[],"crossSellProducts":[{"category":"Cables and accessories","title":"LOGIK LHDMEX19 HDMI Adapter","price":6.99,"image":"https://media.currys.biz/i/currysprod/10187486?$s-swatch$&fmt=auto"},{"category":"Remote controls","title":"ONE FOR ALL Essence TV URC1211 Universal Remote Control","price":12.99,"image":"https://media.currys.biz/i/currysprod/10249289?$s-swatch$&fmt=auto"}],"offers":["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],"badges":[],"specifications":{},"description":{"main":"Stream 4K HDR content to your TV with Chromecast built-in. Voice search via remote.","goodToKnow":["WiFi / Ethernet / Bluetooth","Chromecast"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99},"category":"Digital & Smart TV"}
+{
+  "id": "10271847",
+  "title": "GOOGLE TV Streamer 4K - Porcelain",
+  "brand": "Google",
+  "price": {
+    "current": 99.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 27
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10271847?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10271847_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10271847_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10271847_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10271847?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10271847_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10271847_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10271847_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Stream 4K HDR content to your TV"
+    },
+    {
+      "icon": "",
+      "label": "Voice search via remote"
+    },
+    {
+      "icon": "",
+      "label": "WiFi / Ethernet / Bluetooth"
+    },
+    {
+      "icon": "",
+      "label": "Chromecast"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and accessories",
+      "title": "LOGIK LHDMEX19 HDMI Adapter",
+      "price": 6.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10187486?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Remote controls",
+      "title": "ONE FOR ALL Essence TV URC1211 Universal Remote Control",
+      "price": 12.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10249289?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Stream 4K HDR content to your TV with Chromecast built-in. Voice search via remote.",
+    "goodToKnow": [
+      "WiFi / Ethernet / Bluetooth",
+      "Chromecast"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Digital & Smart TV",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

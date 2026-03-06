@@ -13,18 +13,18 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10215892?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10215892_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10215892_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10215892_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10215892_004?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10215892?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10215892_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10215892_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10215892_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10215892_004?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10215892?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10215892_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10215892_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10215892_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10215892_004?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10215892?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10215892_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10215892_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10215892_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10215892_004?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
@@ -46,7 +46,6 @@
       "label": "Max load: 45 kg"
     }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],

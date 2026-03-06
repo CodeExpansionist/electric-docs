@@ -2,52 +2,70 @@
   "id": "10282591",
   "title": "LG xboom Grab Portable Bluetooth Speaker - Black",
   "brand": "LG",
-  "price": { "current": 79, "was": 129, "savings": 50 },
-  "rating": { "average": 4.9, "count": 17 },
+  "price": {
+    "current": 79,
+    "was": 129,
+    "savings": 50
+  },
+  "rating": {
+    "average": 4.9,
+    "count": 17
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10282591_black_013?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_012?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_013?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_013?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_012?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_013?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10282591_black_013?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_012?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282591_black_013?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_013?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_012?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282591_black_013?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/4671/ol_video_img_url__293700_4671.jpg"
   },
   "keySpecs": [
-    { "icon": "waterproof", "label": "Water resistant" },
-    { "icon": "battery", "label": "Up to 20 hours battery life" },
-    { "icon": "speaker-pair", "label": "Wirelessly connect to other Auracast speakers" },
-    { "icon": "bluetooth", "label": "Bluetooth" }
+    {
+      "icon": "waterproof",
+      "label": "Water resistant"
+    },
+    {
+      "icon": "battery",
+      "label": "Up to 20 hours battery life"
+    },
+    {
+      "icon": "speaker-pair",
+      "label": "Wirelessly connect to other Auracast speakers"
+    },
+    {
+      "icon": "bluetooth",
+      "label": "Bluetooth"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -65,6 +83,11 @@
       "The portable design is ideal for throwing in your bag and taking on your adventures with you"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

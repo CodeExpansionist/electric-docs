@@ -9,66 +9,91 @@
   },
   "rating": {
     "average": 4.7,
-    "count": 346
+    "count": 349
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10283476?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_011?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10283476?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_011?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10283476?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283476_011?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10283476?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283476_011?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "screen-size", "label": "Screen size: 50\"" },
-    { "icon": "refresh-rate", "label": "Refresh rate: 60 Hz" },
-    { "icon": "hdmi", "label": "HDMI 2.0a x 3" },
-    { "icon": "audio", "label": "Dolby Atmos support" },
-    { "icon": "guarantee", "label": "2 year guarantee" }
+    {
+      "icon": "screen-size",
+      "label": "Screen size: 50\""
+    },
+    {
+      "icon": "refresh-rate",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "hdmi",
+      "label": "HDMI 2.0a x 3"
+    },
+    {
+      "icon": "audio",
+      "label": "Dolby Atmos support"
+    },
+    {
+      "icon": "guarantee",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 15.64,
-    "months": 36,
-    "totalPayable": 563.04,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 5.03, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 5.03,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
-  "badges": ["Dolby Atmos", "Freely TV"],
+  "badges": [
+    "Dolby Atmos",
+    "Freely TV"
+  ],
   "specifications": {},
   "description": {
-    "main": "This Philips Ambilight 50\u201d TV splashes your walls with colour for super immersive entertainment. LED lights on the back of the TV dance along to whatever's showing, stretching the action beyond the frame. The Pixel Precise Ultra HD engine works tirelessly to boost the sharpness, motion, and vibrancy of every scene. Plus, TITAN OS gives you recommendations on the hottest action and drama, so it's easy to find TV shows and movies. It brings you all the good stuff without any fuss.",
+    "main": "This Philips Ambilight 50” TV splashes your walls with colour for super immersive entertainment. LED lights on the back of the TV dance along to whatever's showing, stretching the action beyond the frame. The Pixel Precise Ultra HD engine works tirelessly to boost the sharpness, motion, and vibrancy of every scene. Plus, TITAN OS gives you recommendations on the hottest action and drama, so it's easy to find TV shows and movies. It brings you all the good stuff without any fuss.",
     "goodToKnow": [
-      "Freely brings you live TV channels and on-demand content over WiFi \u2013 no aerial, no fees, no hassle",
+      "Freely brings you live TV channels and on-demand content over WiFi – no aerial, no fees, no hassle",
       "Dolby Atmos and DTS:X bring a 3D sound experience, making you feel like you're really there",
       "It plays nicely with other Matter devices, like lights and thermostats, for a seamless smart home experience",
       "HDR10+ boosts colour and contrast, making even the darkest and brightest scenes clearer and more vivid",
@@ -81,5 +106,6 @@
     "nextDayDeliveryPrice": 9.99
   },
   "category": "TVs",
-  "energyRating": "F"
+  "energyRating": "F",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

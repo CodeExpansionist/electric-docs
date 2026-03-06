@@ -1,0 +1,97 @@
+{
+  "id": "10229199",
+  "title": "SONY SA-SW5 Wireless Subwoofer",
+  "brand": "Sony",
+  "price": {
+    "current": 699,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 63
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10229199?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10229199?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10229199_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Output power:"
+    },
+    {
+      "icon": "",
+      "label": "Pairs with Sony HT-A7000 Sound Bar"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 8.39,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [
+    "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar+1 more offers"
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Upgrade your audio with the SONY SA-SW5 Wireless Subwoofer. With output power:, pairs with sony ht-a7000 sound bar, this soundbar brings cinematic sound quality to your living room.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

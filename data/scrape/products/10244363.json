@@ -2,23 +2,126 @@
   "id": "10244363",
   "title": "JBL BAR 1000 7.1.4 Wireless Sound Bar with Dolby Atmos",
   "brand": "JBL",
-  "price": { "current": 849.97, "was": 899, "savings": 49.03 },
-  "rating": { "average": 4.8, "count": 116 },
+  "price": {
+    "current": 849.97,
+    "was": 899,
+    "savings": 49.03
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 116
+  },
   "images": {
-    "gallery": ["https://media.currys.biz/i/currysprod/10244363?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_010?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_011?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_012?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_013?$l-large$&fmt=auto"],
-    "thumbnails": ["https://media.currys.biz/i/currysprod/10244363?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_010?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_011?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_012?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10244363_013?$t-thumbnail$&fmt=auto"],
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10244363?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_012?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_013?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10244363?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_012?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244363_013?$t-thumbnail$&fmt=auto"
+    ],
     "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__278667_2544.jpg?m=2544&r=1048&t=1"
   },
-  "keySpecs": [{"icon":"https://media.currys.biz/i/currysprod/dolby_atmos-43408.png?fmt=auto","label":"Dolby Atmos"},{"icon":"","label":"DTS:X"},{"icon":"","label":"Wireless Subwoofer"},{"icon":"","label":"880 W Audio Power"},{"icon":"","label":"4K Pass-through"},{"icon":"","label":"2 Year Guarantee"}],
-  "energyRating": { "class": "" },
-  "flexpay": { "monthlyAmount": 34.44, "months": 36, "totalPayable": 1239.84, "apr": "29.9%" },
-  "wallBracket": { "text": "Add a wall bracket", "product": { "title": "Wall Bracket", "price": 19.99, "savings": 5, "image": "https://media.currys.biz/i/currysprod/12919320?$t-thumbnail$&fmt=auto" } },
-  "careAndRepair": [{ "plan": "Breakdown support", "price": 3.5, "period": "monthly" }],
-  "essentialServices": [{ "name": "Delivery", "price": 5.99 }],
-  "crossSellProducts": [{ "category": "Cables", "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m", "price": 11.99, "image": "https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto" }],
-  "offers": ["Get \u00a3250 off JBL BAR 1000 7.1.4 Wireless Sound Bar with Dolby Atmos when bought with any TV"],
+  "keySpecs": [
+    {
+      "icon": "https://media.electriz.biz/i/electrizprod/dolby_atmos-43408.png?fmt=auto",
+      "label": "Dolby Atmos"
+    },
+    {
+      "icon": "",
+      "label": "DTS:X"
+    },
+    {
+      "icon": "",
+      "label": "Wireless Subwoofer"
+    },
+    {
+      "icon": "",
+      "label": "880 W Audio Power"
+    },
+    {
+      "icon": "",
+      "label": "4K Pass-through"
+    },
+    {
+      "icon": "",
+      "label": "2 Year Guarantee"
+    }
+  ],
+  "energyRating": {
+    "class": ""
+  },
+  "wallBracket": {
+    "text": "Add a wall bracket",
+    "product": {
+      "title": "Wall Bracket",
+      "price": 19.99,
+      "savings": 5,
+      "image": "https://media.electriz.biz/i/electrizprod/12919320?$t-thumbnail$&fmt=auto"
+    }
+  },
+  "careAndRepair": [
+    {
+      "plan": "Breakdown support",
+      "price": 3.5,
+      "period": "monthly"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Delivery",
+      "price": 5.99
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "image": "https://media.electriz.biz/i/electrizprod/21948996?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get £250 off JBL BAR 1000 7.1.4 Wireless Sound Bar with Dolby Atmos when bought with any TV"
+  ],
   "badges": [],
   "specifications": {},
-  "description": { "main": "Experience movies, music and games with sound that puts you right in the middle of the action, thanks to 880W of total output power and thunderous bass from the 10\" subwoofer.", "goodToKnow": ["Wireless surround speakers for extra flexibility.","Supports voice assistants for hands-free control.","PureVoice technology ensures clarity of dialogue."] },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+  "description": {
+    "main": "Experience movies, music and games with sound that puts you right in the middle of the action, thanks to 880W of total output power and thunderous bass from the 10\" subwoofer.",
+    "goodToKnow": [
+      "Wireless surround speakers for extra flexibility.",
+      "Supports voice assistants for hands-free control.",
+      "PureVoice technology ensures clarity of dialogue."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

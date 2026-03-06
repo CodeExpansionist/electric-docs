@@ -1,0 +1,42 @@
+{
+  "url": "/track-your-order",
+  "pageTitle": "Track my order",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Track my order",
+      "url": "/track-your-order"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Track my order",
+      "content": "Sign into your account below. Here you can easily track your orders, start a return and see your order history.",
+      "type": "text"
+    },
+    {
+      "heading": "Track without an account",
+      "content": "If you don't have an account with us, add your order number and email below. You'll then be able to track your recent order or start a return.",
+      "type": "text"
+    },
+    {
+      "heading": "Order number",
+      "content": "This is a 13-digit number, found in your confirmation email or on your receipt. It starts with CUR. If you bought your item in-store, your order number is on your receipt, and begins with 74.",
+      "type": "formField"
+    },
+    {
+      "heading": "Email address",
+      "content": "The email address used to place your order.",
+      "type": "formField"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the order number format?",
+      "answer": "It is a 13-digit number starting with CUR for online orders or 74 for in-store purchases."
+    }
+  ]
+}

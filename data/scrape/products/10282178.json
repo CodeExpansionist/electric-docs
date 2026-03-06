@@ -1,1 +1,123 @@
-{"id":"10282178","title":"SAMSUNG HW-Q930F/XU 9.1.4 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X","brand":"Samsung","price":{"current":999,"was":0,"savings":0},"rating":{"average":5,"count":14},"images":{"gallery":["https://media.currys.biz/i/currysprod/10282178?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10282178?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10282178_010?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Number of speakers: 17"},{"icon":"","label":"Dolby Atmos & DTS Virtual:X"},{"icon":"","label":"Wireless subwoofer & rear speakers"},{"icon":"","label":"Audio power: 580 W"},{"icon":"","label":"Adaptive / optimized audio"},{"icon":"","label":"Supports High-Resolution Audio with 4K pass-through"},{"icon":"","label":"Compatible with AirPlay / Chromecast / Spotify Connect"},{"icon":"","label":"HDMI / Optical"}],"energyRating":{"class":"D"},"flexpay":{"monthlyAmount":40.48,"months":36,"totalPayable":1457.28,"apr":"29.9%"},"wallBracket":{"text":"Wall Mount Bracket Included","product":{"title":"Wall Mount Bracket","price":0,"savings":0,"image":""}},"careAndRepair":[{"plan":"Breakdown support","price":3.5,"period":"per month"}],"essentialServices":[],"crossSellProducts":[{"category":"Cables & accessories","title":"SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m","price":11.99,"image":"https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto"}],"offers":["Claim \u00a3300 of Samsung tech when you buy this soundbar, plus up to \u00a31,000 on selected Samsung TVs."],"badges":[],"specifications":{},"description":{"main":"This Samsung sound bar has 17 built-in speakers that deliver an epic sound experience. Wireless Dolby Atmos means you'll hear every whoosh, bang and spine-chilling creak in 3D surround sound.","goodToKnow":["With Samsung Q-Symphony, you'll get a wall of sound from both your soundbar and TV speakers.","It comes with 2 wireless rear speakers for enhanced surround sound.","The 200 W wireless subwoofer offers plenty of bass."]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99}}
+{
+  "id": "10282178",
+  "title": "SAMSUNG HW-Q930F/XU 9.1.4 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+  "brand": "Samsung",
+  "price": {
+    "current": 999,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 5,
+    "count": 16
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10282178?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10282178?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10282178_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Number of speakers: 17"
+    },
+    {
+      "icon": "",
+      "label": "Dolby Atmos & DTS Virtual:X"
+    },
+    {
+      "icon": "",
+      "label": "Wireless subwoofer & rear speakers"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 580 W"
+    },
+    {
+      "icon": "",
+      "label": "Adaptive / optimized audio"
+    },
+    {
+      "icon": "",
+      "label": "Supports High-Resolution Audio with 4K pass-through"
+    },
+    {
+      "icon": "",
+      "label": "Compatible with AirPlay / Chromecast / Spotify Connect"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical"
+    }
+  ],
+  "energyRating": {
+    "class": "D"
+  },
+  "wallBracket": {
+    "text": "Wall Mount Bracket Included",
+    "product": {
+      "title": "Wall Mount Bracket",
+      "price": 0,
+      "savings": 0,
+      "image": ""
+    }
+  },
+  "careAndRepair": [
+    {
+      "plan": "Breakdown support",
+      "price": 3.5,
+      "period": "per month"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables & accessories",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "image": "https://media.electriz.biz/i/electrizprod/21948996?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Claim £300 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "This Samsung sound bar has 17 built-in speakers that deliver an epic sound experience. Wireless Dolby Atmos means you'll hear every whoosh, bang and spine-chilling creak in 3D surround sound.",
+    "goodToKnow": [
+      "With Samsung Q-Symphony, you'll get a wall of sound from both your soundbar and TV speakers.",
+      "It comes with 2 wireless rear speakers for enhanced surround sound.",
+      "The 200 W wireless subwoofer offers plenty of bass."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

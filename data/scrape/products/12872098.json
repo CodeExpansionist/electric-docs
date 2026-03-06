@@ -1,1 +1,66 @@
-{"id":"12872098","title":"SONY DVPSR760HB DVD Player","brand":"Sony","price":{"current":39,"was":null,"savings":null},"rating":{"average":4.6,"count":2873},"images":{"gallery":["https://media.currys.biz/i/currysprod/12872098?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_006?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/12872098?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/12872098_006?$t-thumbnail$&fmt=auto"],"video":"https://flv.isitetv.com/media/video/2544/ol_video_img_url__268349_2544.jpg?m=2544&r=1048&t=1"},"keySpecs":[{"icon":"disc","label":"Plays DVDs"},{"icon":"connectivity","label":"HDMI"}],"flexpay":null,"careAndRepair":[],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"This Sony DVD player upscales your DVDs so you can enjoy them in high definition. Plug in a USB drive to play a slideshow of your holiday photos and videos on the big screen. It lets you slow down the action or speed up the playback to skip the boring parts. Continue watching where you left off; it can remember the last 6 discs.","goodToKnow":["This Sony DVD player upscales your DVDs so you can enjoy them in high definition","Plug in a USB drive to play a slideshow of your holiday photos and videos on the big screen","Free standard delivery on orders over \u00a340"]},"deliveryInfo":{"freeDelivery":false,"standardDeliveryPrice":5,"nextDayDeliveryPrice":5.99},"category":"DVD Blu-ray"}
+{
+  "id": "12872098",
+  "title": "SONY DVPSR760HB DVD Player",
+  "brand": "Sony",
+  "price": {
+    "current": 39,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 2873
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/12872098?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_006?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/12872098?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/12872098_006?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__268349_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    {
+      "icon": "disc",
+      "label": "Plays DVDs"
+    },
+    {
+      "icon": "connectivity",
+      "label": "HDMI"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "This Sony DVD player upscales your DVDs so you can enjoy them in high definition. Plug in a USB drive to play a slideshow of your holiday photos and videos on the big screen. It lets you slow down the action or speed up the playback to skip the boring parts. Continue watching where you left off; it can remember the last 6 discs.",
+    "goodToKnow": [
+      "This Sony DVD player upscales your DVDs so you can enjoy them in high definition",
+      "Plug in a USB drive to play a slideshow of your holiday photos and videos on the big screen",
+      "Free standard delivery on orders over £40"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 5,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "DVD Blu-ray",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

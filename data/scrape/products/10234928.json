@@ -1,0 +1,38 @@
+{
+  "brand": "I-BOX",
+  "price": {
+    "current": 36.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 3.7,
+    "count": 10
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/ibox-dawn-79224pi03-fm-bluetooth-clock-radio-white.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10234928",
+  "title": "I-BOX Dawn 79224PI/03 FM Bluetooth Clock Radio - White"
+}

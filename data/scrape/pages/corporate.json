@@ -1,0 +1,22 @@
+{
+  "url": "/corporate",
+  "pageTitle": "Corporate site",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Corporate",
+      "url": "/corporate"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Electriz Group plc",
+      "content": "Electriz Group plc is one of the UK's leading specialist electrical retailing and services companies. Visit our corporate site for investor relations, financial reports, and company information.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

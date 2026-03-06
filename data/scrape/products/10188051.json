@@ -1,1 +1,43 @@
-{"id":"10188051","title":"JVC LT-24C490 24\" HD Ready LED TV - Black","brand":"JVC","price":{"current":119.99,"was":119.99,"savings":0},"rating":{"average":4.6,"count":649},"images":{"gallery":["https://media.currys.biz/i/currysprod/10188051?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10188051?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10188051_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"Refresh rate: 60 Hz"},{"icon":"","label":"HDMI 1.4 x 2"},{"icon":"","label":"Freeview HD"},{"icon":"","label":"2 year guarantee"}],"flexpay":{"monthlyAmount":6.7,"months":24,"totalPayable":160.87,"apr":"29.9%"},"careAndRepair":[{"plan":"Installation","price":45,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Experience stunning visuals with the JVC LT-24C490 24\" HD Ready LED TV - Black. Featuring refresh rate: 60 hz, hdmi 1.4 x 2, freeview hd, this JVC TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":5.99,"standardDeliveryDays":"3-5"},"category":"TVs","energyRating":"E"}
+{
+  "id": "10188051",
+  "brand": "JVC",
+  "price": {
+    "current": 119.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 650
+  },
+  "description": {
+    "main": "",
+    "features": [],
+    "goodToKnow": []
+  },
+  "images": {
+    "gallery": [
+      "https://cdn.media.amplience.net/i/electrizprod/10188051?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://cdn.media.amplience.net/i/electrizprod/10188051?$t-thumbnail$&fmt=auto"
+    ]
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "sizeVariants": [],
+  "crossSellProducts": [],
+  "careAndRepair": [],
+  "offers": [],
+  "badges": [],
+  "energyRating": "",
+  "category": "TVs",
+  "_needsEnrichment": true,
+  "title": "JVC LT-24C490 24\" HD Ready LED TV - Black",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

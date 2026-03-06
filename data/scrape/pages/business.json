@@ -1,0 +1,27 @@
+{
+  "url": "/business",
+  "pageTitle": "Electriz Business",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Electriz Business",
+      "url": "/business"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Electriz Business",
+      "content": "Technology solutions for businesses of all sizes. From laptops and monitors to full office setups, we provide dedicated account management, bulk pricing, and next-day delivery for business customers.",
+      "type": "text"
+    },
+    {
+      "heading": "Business accounts",
+      "content": "Open a business account for exclusive pricing, dedicated support, and flexible payment options tailored to your organisation's needs.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

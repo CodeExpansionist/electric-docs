@@ -1,0 +1,39 @@
+{
+  "url": "https://www.currys.co.uk/",
+  "scrapedAt": "2026-03-06",
+  "metadata": {
+    "title": "Currys | Washing Machines, Laptops, TVs, Consoles",
+    "metaDescription": "Huge Savings on TVs, Washing Machines, Laptops, Headphones, Gaming, Phones & more. Order online or collect in store.",
+    "canonical": "https://www.currys.co.uk/",
+    "robots": "noindex,nofollow,noarchive",
+    "keywords": "Commerce Cloud Storefront Reference Architecture",
+    "favicon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dwaffabfe3/images/favicons/favicon-196x196.png"
+  },
+  "openGraph": {
+    "title": "Currys | Washing Machines, Laptops, TVs, Consoles",
+    "description": "Huge Savings on TVs, Washing Machines, Laptops, Headphones, Gaming, Phones & more. Order online or collect in store.",
+    "image": "",
+    "type": "website",
+    "url": "https://www.currys.co.uk/",
+    "siteName": "Currys"
+  },
+  "twitter": {
+    "card": "summary",
+    "title": "Currys | Washing Machines, Laptops, TVs, Consoles",
+    "description": "Huge Savings on TVs, Washing Machines, Laptops, Headphones, Gaming, Phones & more. Order online or collect in store.",
+    "image": ""
+  },
+  "structuredData": [],
+  "headings": {
+    "h1": [],
+    "h2": [
+      "Take it home today with free order & collect in as little as an hour! Subject to availability",
+      "Sponsored products"
+    ],
+    "h3": [
+      "Amazing Mac. Surprising price. Pre-order MacBook Neo from £599.",
+      "Fast runs in the family. Save up to £400 when you trade in your old Mac."
+    ]
+  },
+  "notes": "Homepage uses demandware platform. robots meta tag says noindex,nofollow,noarchive (likely anti-scraping measure, not the real robots directive). Title from raw HTML metadata is the authoritative source."
+}

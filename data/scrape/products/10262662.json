@@ -1,1 +1,112 @@
-{"id":"10262662","title":"LG US70TR 5.1.1 Wireless Sound Bar with Dolby Atmos","brand":"LG","price":{"current":699,"was":0,"savings":0},"rating":{"average":4.8,"count":49},"images":{"gallery":["https://media.currys.biz/i/currysprod/10262662?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_009?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10262662?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10262662_009?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Dolby Atmos & DTS:X"},{"icon":"","label":"Wireless subwoofer & rear speakers"},{"icon":"","label":"Audio power: 500 W"},{"icon":"","label":"4K pass-through"}],"flexpay":{"monthlyAmount":28.32,"months":36,"totalPayable":1019.52,"apr":"29.9%"},"careAndRepair":[{"plan":"Breakdown support","price":3.5,"period":"per month"}],"essentialServices":[],"crossSellProducts":[],"offers":["Get 50% off with any LG TV. Use code LGSB50."],"badges":[],"specifications":{"AUDIO":{"Type":"Sound bar with wireless subwoofer","Number of channels":"5.1.1","Total power output":"500 W","Audio processing":"Dolby Atmos, DTS:X"},"CONNECTIVITY":{"WiFi":"No","Bluetooth":"Bluetooth 5.1","Inputs":"HDMI x 1, Optical x 1","Outputs":"HDMI x 1","USB":"USB x 1"},"SPEAKERS":{"Power":"Sound bar: 150 W, Subwoofer: 220 W"},"GENERAL":{"Dimensions":"Sound bar: 63 x 950 x 115 mm, Subwoofer: 377 x 200 x 285 mm","Weight":"Sound bar: 3.0 kg, Subwoofer: 5.7 kg","Manufacturer's guarantee":"1 year","Colour":"Black"}},"description":{"main":"Dolby Atmos and DTS:X wrap you in 3D surround sound. 7 channels including 2 rear speakers for authentic cinema experience.","goodToKnow":["Powerful wireless subwoofer","AI Sound Pro fine-tunes every scene","Modern design pairs with LG QNED TVs","HDMI, Optical and Bluetooth connectivity"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99},"category":"Soundbars"}
+{
+  "id": "10262662",
+  "title": "LG US70TR 5.1.1 Wireless Sound Bar with Dolby Atmos",
+  "brand": "LG",
+  "price": {
+    "current": 699,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 49
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10262662?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_009?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10262662?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10262662_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Dolby Atmos & DTS:X"
+    },
+    {
+      "icon": "",
+      "label": "Wireless subwoofer & rear speakers"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 500 W"
+    },
+    {
+      "icon": "",
+      "label": "4K pass-through"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Breakdown support",
+      "price": 3.5,
+      "period": "per month"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [
+    "Get 50% off with any LG TV. Use code LGSB50."
+  ],
+  "badges": [],
+  "specifications": {
+    "AUDIO": {
+      "Type": "Sound bar with wireless subwoofer",
+      "Number of channels": "5.1.1",
+      "Total power output": "500 W",
+      "Audio processing": "Dolby Atmos, DTS:X"
+    },
+    "CONNECTIVITY": {
+      "WiFi": "No",
+      "Bluetooth": "Bluetooth 5.1",
+      "Inputs": "HDMI x 1, Optical x 1",
+      "Outputs": "HDMI x 1",
+      "USB": "USB x 1"
+    },
+    "SPEAKERS": {
+      "Power": "Sound bar: 150 W, Subwoofer: 220 W"
+    },
+    "GENERAL": {
+      "Dimensions": "Sound bar: 63 x 950 x 115 mm, Subwoofer: 377 x 200 x 285 mm",
+      "Weight": "Sound bar: 3.0 kg, Subwoofer: 5.7 kg",
+      "Manufacturer's guarantee": "1 year",
+      "Colour": "Black"
+    }
+  },
+  "description": {
+    "main": "Dolby Atmos and DTS:X wrap you in 3D surround sound. 7 channels including 2 rear speakers for authentic cinema experience.",
+    "goodToKnow": [
+      "Powerful wireless subwoofer",
+      "AI Sound Pro fine-tunes every scene",
+      "Modern design pairs with LG QNED TVs",
+      "HDMI, Optical and Bluetooth connectivity"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

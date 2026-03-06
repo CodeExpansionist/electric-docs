@@ -13,50 +13,68 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10263470_black_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_007?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_007?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10263470_black_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10263470_black_007?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_007?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "headphones", "label": "On-ear headphones" },
-    { "icon": "noise-isolating", "label": "Passive noise-isolating" },
-    { "icon": "battery", "label": "Battery life: Up to 50 hours" },
-    { "icon": "foldable", "label": "Foldable" },
-    { "icon": "charging", "label": "Quick charging" },
-    { "icon": "controls", "label": "Microphone / volume / playback & functions control" }
+    {
+      "icon": "headphones",
+      "label": "On-ear headphones"
+    },
+    {
+      "icon": "noise-isolating",
+      "label": "Passive noise-isolating"
+    },
+    {
+      "icon": "battery",
+      "label": "Battery life: Up to 50 hours"
+    },
+    {
+      "icon": "foldable",
+      "label": "Foldable"
+    },
+    {
+      "icon": "charging",
+      "label": "Quick charging"
+    },
+    {
+      "icon": "controls",
+      "label": "Microphone / volume / playback & functions control"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 5.22,
-    "months": 36,
-    "totalPayable": 187.92,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
-  "badges": ["Epic Deal"],
+  "badges": [
+    "Epic Deal"
+  ],
   "specifications": {
     "General": {
       "Brand": "BEATS",
@@ -102,8 +120,8 @@
   },
   "category": "Headphones",
   "_scrapeMeta": {
-    "scrapedUrl": "https://www.currys.co.uk/products/beats-solo-4-wireless-bluetooth-headphones-black-10263470.html",
-    "currysLiveProductId": "10263470",
+    "scrapedUrl": "https://www.electriz.co.uk/products/beats-solo-4-wireless-bluetooth-headphones-black-10263470.html",
+    "electrizLiveProductId": "10263470",
     "scrapedAt": "2026-03-02"
   }
 }

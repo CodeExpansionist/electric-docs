@@ -1,0 +1,238 @@
+{
+  "categoryName": "Speakers & Hi-Fi systems",
+  "categorySlug": "speakers-and-hi-fi-systems",
+  "breadcrumbs": ["Home", "TV & Audio", "Speakers & Hi-Fi systems"],
+  "carouselBanners": [
+    {
+      "imageAlt": "LG xboom speakers with logo.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk43-slide-Speaker-LG-xboom-speakers-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#cae7e6",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/lg",
+      "buttons": [{ "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/lg" }]
+    },
+    {
+      "imageAlt": "Imagery of JBL accessories when bought with any JBL party speaker with logo.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk37-slide-Speaker-JBL-party-accessories-WBW-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#cfc8f7",
+      "url": "/deals-on-tv-and-audio/jbl-partybox-audio-savings",
+      "buttons": [{ "text": "Shop now", "url": "/deals-on-tv-and-audio/jbl-partybox-audio-savings" }]
+    },
+    {
+      "imageAlt": "Beats logo, Beats Pill. Designed to look & sound incredible, inside your home and out & about.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk17-slide-Spekars-Beats-Pill-Generic-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#ffecb7",
+      "url": "/deals-on-tv-and-audio/deals-on-beats-pill",
+      "buttons": [{ "text": "Shop now", "url": "/deals-on-tv-and-audio/deals-on-beats-pill" }]
+    },
+    {
+      "imageAlt": "Shop our Hisense party speaker range now with logo.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk39-slide-Speaker-Generic-Hisense-party-desktop?fmt=auto&$q-large$&w=1600",
+      "backgroundColor": "#f9d2e5",
+      "url": "/deals-on-tv-and-audio/hisense-megasound-speaker-deals",
+      "buttons": [{ "text": "Shop now", "url": "/deals-on-tv-and-audio/hisense-megasound-speaker-deals" }]
+    }
+  ],
+  "subcategoryIcons": [
+    {
+      "name": "All speakers",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-speakers?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Portable bluetooth",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/portable-bluetooth-speakers",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-portable-bluetooth-speakers?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Wireless",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/wireless-and-bluetooth-speakers",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-wireless-speakers?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Megasound party",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/megasound-party-speakers",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-megasound-party-speakers?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Multi-room",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/multi-room-speakers",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-multi-room-speakers?fmt=auto&$q-large$"
+    },
+    {
+      "name": "Hi-fi systems",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/hifi-systems",
+      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-hi-fi-systems?fmt=auto&$q-large$"
+    }
+  ],
+  "sidebar": {
+    "topCategories": [
+      { "text": "All speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers" },
+      { "text": "Portable speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/portable-bluetooth-speakers" },
+      { "text": "Traditional HiFi systems", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/traditional-hifis" },
+      { "text": "JBL wireless & bluetooth speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/jbl/wireless-and-bluetooth-speakers" },
+      { "text": "Wireless & bluetooth speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/wireless-and-bluetooth-speakers" },
+      { "text": "Megasound party speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/megasound-party-speakers" },
+      { "text": "Sonos speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/sonos" }
+    ],
+    "popularLinks": [
+      { "text": "Bose speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/bose" },
+      { "text": "Marshall speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/marshall" },
+      { "text": "Panasonic traditional HiFis", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/panasonic/traditional-hifis" },
+      { "text": "Multi-room speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/multi-room-speakers" },
+      { "text": "Bose portable bluetooth speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/bose/portable-bluetooth-speakers" },
+      { "text": "JBL speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/jbl" },
+      { "text": "Marshall wireless & bluetooth speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/marshall/wireless-and-bluetooth-speakers" }
+    ],
+    "buyingGuides": [
+      { "text": "Audio buying guide", "url": "/buying-guides/audio-buying-guide.html" }
+    ]
+  },
+  "brandCarousel": [
+    {
+      "brand": "Bose",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Bose-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/bose",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/bose" },
+        { "text": "Learn more", "url": "/brand/bose/bose-home.html" }
+      ]
+    },
+    {
+      "brand": "JBL",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/JBL-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/jbl",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/jbl" },
+        { "text": "Learn more", "url": "/brand/jbl/jbl-speakers.html" }
+      ]
+    },
+    {
+      "brand": "JVC",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/JVC-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/jvc",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/jvc" },
+        { "text": "Learn more", "url": "/brand/jvc/jvc-home-audio.html" }
+      ]
+    },
+    {
+      "brand": "LG",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/LG-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/lg",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/lg" },
+        { "text": "Learn more", "url": "/brand/lg/lg.html" }
+      ]
+    },
+    {
+      "brand": "Sonos",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Sonos-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/sonos",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/sonos" },
+        { "text": "Learn more", "url": "/brand/sonos/sonos.html" }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Sony-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/sony",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/sony" },
+        { "text": "Learn more", "url": "/brand/sony/sony.html" }
+      ]
+    },
+    {
+      "brand": "Beats by Dre",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Beats-by-dre-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/beats",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/beats" },
+        { "text": "Learn more", "url": "/brand/beats/beats-by-dre.html" }
+      ]
+    },
+    {
+      "brand": "Panasonic",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Panasonic_logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/panasonic",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/panasonic" },
+        { "text": "Learn more", "url": "/brand/panasonic/panasonic.html" }
+      ]
+    },
+    {
+      "brand": "Marshall",
+      "logoUrl": "https://media.electriz.biz/i/electrizprod/Marshall-logo?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/marshall",
+      "subcategoryLinks": [
+        { "text": "Shop now", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/marshall" },
+        { "text": "Learn more", "url": "/brand/marshall/marshall.html" }
+      ]
+    }
+  ],
+  "helpCards": [
+    {
+      "title": "Portable Bluetooth speakers",
+      "description": "Take your tunes with you thanks to our range of portable Bluetooth speakers. Connect to your phone or smart device for smooth on-the-go listening.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/Speakers-portable-speaker?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/portable-bluetooth-speakers"
+    },
+    {
+      "title": "Megasound party speakers",
+      "description": "Pump up the party with an all-in-one music system. Want to take things up a notch? Opt for one with built-in LED lighting to create the ultimate party vibe.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/Speakers-party-sound?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/megasound-party-speakers"
+    },
+    {
+      "title": "Multi-room speakers",
+      "description": "Listen to top-quality music in the lounge and a podcast in the kitchen. Or play the same thing everywhere - the choice is yours!",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/Speakers-multi-room?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/multi-room-speakers"
+    },
+    {
+      "title": "Hi-Fi systems",
+      "description": "Whether you're on the hunt for a Hi-Fi system with a CD and turntable, Bluetooth speaker or integrated stereo, we have got the pick of the very best.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/Speakers-hi-fi?fmt=auto&$q-large$",
+      "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/hifi-systems"
+    }
+  ],
+  "helpCardsHeading": "Which speaker tech are you looking for?",
+  "helpCardsCta": {
+    "text": "Read our audio buying guide",
+    "url": "/buying-guides/audio-buying-guide.html"
+  },
+  "serviceCards": [
+    {
+      "title": "Loved by Currys",
+      "description": "Discover the speakers we love, handpicked by our experts.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/brand-blocks-loved-by-electriz?fmt=auto&$q-large$",
+      "url": "/loved-by-electriz/speakers"
+    },
+    {
+      "title": "ShopLive",
+      "description": "Talk to an in-store expert from the comfort of your home to find your perfect new appliance.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/brand-blocks-shoplive?fmt=auto&$q-large$",
+      "url": "/services/expert-advice/shoplive.html"
+    },
+    {
+      "title": "Keep it working like magic!",
+      "description": "Add Care & Repair and if your tech breaks down, we'll fix it fast. If not we'll replace it on request.",
+      "imageUrl": "https://media.electriz.biz/i/electrizprod/brand-blocks-care-repair?fmt=auto&$q-large$",
+      "url": "/services/care-services/care-repair.html"
+    }
+  ],
+  "serviceCardsHeading": "Discover speakers & Hi-Fi systems at Currys",
+  "seoContent": {
+    "heading": "Discover our range of speakers and HiFi systems",
+    "columns": [
+      {
+        "heading": "Choosing a speaker set-up",
+        "text": "If you check out our audio buying guide, you'll know that speakers come in all shapes and sizes. Bluetooth speakers let you ditch the wires and stream your fave playlists from your phone or laptop. Lots of models let you connect more than one device, so you can take it in turns to DJ."
+      },
+      {
+        "heading": "HiFis and Megasound party systems",
+        "text": "Don't let your old CDs gather dust. Listen to your fave albums just how the artist intended with our range of Hi-Fi systems. Whether BOSE speakers, JBL Wireless & Bluetooth speakers or SONOS speakers, you'll get high-quality sound every single time."
+      }
+    ]
+  }
+}

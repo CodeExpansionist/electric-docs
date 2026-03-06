@@ -1,1 +1,107 @@
-{"id":"10248390","title":"LG SQC1 2.1 Wireless Compact Sound Bar","brand":"LG","price":{"current":129.99,"was":0,"savings":0},"rating":{"average":4.4,"count":88},"images":{"gallery":["https://media.currys.biz/i/currysprod/10248390?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_011?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10248390?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248390_010?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Number of speakers: 3"},{"icon":"","label":"Wireless subwoofer"},{"icon":"","label":"Audio power: 160 W RMS"}],"flexpay":{"monthlyAmount":5.26,"months":36,"totalPayable":189.36,"apr":"29.9%"},"careAndRepair":[{"plan":"Instant Replacement","price":36,"period":"3 years"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{"AUDIO":{"Type":"Soundbar with wireless subwoofer","Number of channels":"2.1","Total power output":"160 W","Audio processing":"Dolby Digital"},"CONNECTIVITY":{"WiFi":"No","Bluetooth":"Bluetooth 4.0","Inputs":"Optical x 1, Aux-in x 1","USB":"USB x 1"},"SPEAKERS":{"Power":"Sound bar: 60 W, Subwoofer: 100 W"},"GENERAL":{"Dimensions":"Sound bar: 56 x 660 x 99 mm, Subwoofer: 303 x 185.5 x 205 mm","Weight":"Sound bar: 1.31 kg, Subwoofer: 2.98 kg","Manufacturer's guarantee":"1 year","Colour":"Black"}},"description":{"main":"This LG sound bar's compact, modern design means it'll fit into virtually any living room without taking up too much space. It comes with a wireless subwoofer for added bass and depth.","goodToKnow":["Compact, modern design","Wireless subwoofer for added bass","Bluetooth streaming"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99},"category":"Soundbars"}
+{
+  "id": "10248390",
+  "title": "LG SQC1 2.1 Wireless Compact Sound Bar",
+  "brand": "LG",
+  "price": {
+    "current": 129.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.4,
+    "count": 88
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10248390?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10248390?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248390_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Number of speakers: 3"
+    },
+    {
+      "icon": "",
+      "label": "Wireless subwoofer"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 160 W RMS"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement",
+      "price": 36,
+      "period": "3 years"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "AUDIO": {
+      "Type": "Soundbar with wireless subwoofer",
+      "Number of channels": "2.1",
+      "Total power output": "160 W",
+      "Audio processing": "Dolby Digital"
+    },
+    "CONNECTIVITY": {
+      "WiFi": "No",
+      "Bluetooth": "Bluetooth 4.0",
+      "Inputs": "Optical x 1, Aux-in x 1",
+      "USB": "USB x 1"
+    },
+    "SPEAKERS": {
+      "Power": "Sound bar: 60 W, Subwoofer: 100 W"
+    },
+    "GENERAL": {
+      "Dimensions": "Sound bar: 56 x 660 x 99 mm, Subwoofer: 303 x 185.5 x 205 mm",
+      "Weight": "Sound bar: 1.31 kg, Subwoofer: 2.98 kg",
+      "Manufacturer's guarantee": "1 year",
+      "Colour": "Black"
+    }
+  },
+  "description": {
+    "main": "This LG sound bar's compact, modern design means it'll fit into virtually any living room without taking up too much space. It comes with a wireless subwoofer for added bass and depth.",
+    "goodToKnow": [
+      "Compact, modern design",
+      "Wireless subwoofer for added bass",
+      "Bluetooth streaming"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

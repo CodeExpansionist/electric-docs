@@ -13,51 +13,75 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10254951?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10254951?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10254951?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10254951_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10254951?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254951_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "headphones", "label": "Over-ear headphones" },
-    { "icon": "noise-cancelling", "label": "Adjustable active noise-cancelling" },
-    { "icon": "battery", "label": "Battery life: Up to 24 hours" },
-    { "icon": "immersive", "label": "Bose Immersive Audio" },
-    { "icon": "app", "label": "Extra controls on the app" },
-    { "icon": "controls", "label": "Microphone / volume / playback & functions control" },
-    { "icon": "guarantee", "label": "2 year guarantee" }
+    {
+      "icon": "headphones",
+      "label": "Over-ear headphones"
+    },
+    {
+      "icon": "noise-cancelling",
+      "label": "Adjustable active noise-cancelling"
+    },
+    {
+      "icon": "battery",
+      "label": "Battery life: Up to 24 hours"
+    },
+    {
+      "icon": "immersive",
+      "label": "Bose Immersive Audio"
+    },
+    {
+      "icon": "app",
+      "label": "Extra controls on the app"
+    },
+    {
+      "icon": "controls",
+      "label": "Microphone / volume / playback & functions control"
+    },
+    {
+      "icon": "guarantee",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 14.8,
-    "months": 36,
-    "totalPayable": 532.67,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 4.19, "period": "per month", "mostPopular": true },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 4.19,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -109,9 +133,9 @@
   },
   "category": "Headphones",
   "_scrapeMeta": {
-    "scrapedUrl": "https://www.currys.co.uk/products/bose-quietcomfort-ultra-wireless-bluetooth-noisecancelling-headphones-black-10254951.html",
+    "scrapedUrl": "https://www.electriz.co.uk/products/bose-quietcomfort-ultra-wireless-bluetooth-noisecancelling-headphones-black-10254951.html",
     "note": "Original URL redirected to GoPro product on Currys. Product data preserved from existing file, enriched with Bose QC Ultra product descriptions. CDN images use original product ID.",
-    "currysLiveProductId": "10254951",
+    "electrizLiveProductId": "10254951",
     "scrapedAt": "2026-03-02"
   }
 }

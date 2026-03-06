@@ -1,0 +1,27 @@
+{
+  "url": "/csr",
+  "pageTitle": "Corporate social responsibility",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Corporate social responsibility",
+      "url": "/csr"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Our responsibility",
+      "content": "At Electriz, we're committed to operating responsibly and sustainably. From reducing our carbon footprint to supporting local communities, we take our corporate responsibilities seriously.",
+      "type": "text"
+    },
+    {
+      "heading": "Sustainability",
+      "content": "We're working towards ambitious environmental targets, including reducing waste, increasing recycling, and transitioning to renewable energy across our stores and distribution network.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

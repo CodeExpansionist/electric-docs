@@ -1,0 +1,22 @@
+{
+  "url": "/ireland",
+  "pageTitle": "Electriz Ireland",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Electriz Ireland",
+      "url": "/ireland"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Electriz Ireland",
+      "content": "Shop the latest technology with Electriz Ireland. Visit our Irish website for local pricing, delivery options, and store information across the Republic of Ireland and Northern Ireland.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

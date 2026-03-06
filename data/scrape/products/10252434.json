@@ -1,0 +1,28 @@
+{
+  "id": "10252434",
+  "brand": "AVF",
+  "price": {
+    "current": 39.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 0,
+    "count": 0
+  },
+  "description": {
+    "main": "Save space and keep any 12-43\" TV safely out of harm's way with this wall mount kit.",
+    "features": [
+      "Extends/tilts/swivels in all directions",
+      "Max. VESA compliance: 200 x 200",
+      "Max. supported weight: 20 kg",
+      "Lifetime guarantee"
+    ]
+  },
+  "galleryImages": [
+    "https://cdn.media.amplience.net/i/electrizprod/10252434?$l-large$&fmt=auto",
+    "https://cdn.media.amplience.net/i/electrizprod/10252434_001?$l-large$&fmt=auto"
+  ],
+  "category": "TV Accessories",
+  "title": "AVF Eco-Mount EL204B Full Motion 12-43\" TV Bracket"
+}

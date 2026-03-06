@@ -2,45 +2,65 @@
   "id": "10248002",
   "title": "MARSHALL Middleton Portable Bluetooth Speaker - Black",
   "brand": "MARSHALL",
-  "price": { "current": 139.97, "was": 259, "savings": 119.03 },
-  "rating": { "average": 5, "count": 14 },
+  "price": {
+    "current": 139.97,
+    "was": 259,
+    "savings": 119.03
+  },
+  "rating": {
+    "average": 5,
+    "count": 14
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10248002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_100?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10248002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_100?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10248002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248002_100?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10248002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248002_100?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "waterproof", "label": "Water resistant" },
-    { "icon": "battery", "label": "Up to 20 hours battery life" },
-    { "icon": "speaker-pair", "label": "Pair 100+ speakers" },
-    { "icon": "bluetooth", "label": "Bluetooth" }
+    {
+      "icon": "waterproof",
+      "label": "Water resistant"
+    },
+    {
+      "icon": "battery",
+      "label": "Up to 20 hours battery life"
+    },
+    {
+      "icon": "speaker-pair",
+      "label": "Pair 100+ speakers"
+    },
+    {
+      "icon": "bluetooth",
+      "label": "Bluetooth"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
-  "badges": ["Epic Deal"],
+  "badges": [
+    "Epic Deal"
+  ],
   "specifications": {},
   "description": {
     "main": "For those about to rock, we salute you! This Marshall Middleton's True Stereophonic multidirectional sound means your tunes will sound epic whether you're at home or on the go. With over 20 hours of battery life, the party can keep going all night. And when it's time to recharge, you'll be rocking out again in just over 4 hours - just enough time to squeeze in a nap. Better still, it's IP67 dust and water resistant rating means it's as comfortable in the mud at a festival as it is on your sideboard.",
@@ -50,6 +70,11 @@
       "Get the perfect sound every time with adjustable bass and treble knobs, or wirelessly control your music with the Marshall app."
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

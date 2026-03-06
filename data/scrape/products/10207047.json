@@ -1,1 +1,84 @@
-{"id":"10207047","title":"FREESAT UHD-X Smart 4K Ultra HD Set Top Box","brand":"FREESAT","price":{"current":99,"was":129.99,"savings":30.99},"rating":{"average":4.3,"count":4130},"images":{"gallery":["https://media.currys.biz/i/currysprod/10207047?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207047_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207047_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10207047_006?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10207047?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207047_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207047_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10207047_006?$t-thumbnail$&fmt=auto"],"video":"https://flv.isitetv.com/media/video/2544/ol_video_img_url__225797_2544.jpg?m=2544&r=1048&t=1"},"keySpecs":[{"icon":"","label":"Catch-up TV & 4K Streaming"},{"icon":"","label":"WiFi / Ethernet"},{"icon":"","label":"HDMI / USB"}],"flexpay":{"monthlyAmount":4.01,"months":36,"totalPayable":144.36,"apr":"29.9%"},"careAndRepair":[{"plan":"Instant Replacement","price":22,"period":"3 years"}],"essentialServices":[],"crossSellProducts":[{"category":"Cables","title":"LOGIK Satellite F Plug Cable - 4 m","price":9.99,"image":"https://media.currys.biz/i/currysprod/10119453?$s-swatch$&fmt=auto"},{"category":"Remote controls","title":"ONE FOR ALL Evolve URC7115 Universal Remote Control","price":18.99,"image":"https://media.currys.biz/i/currysprod/10152868?$s-swatch$&fmt=auto"}],"offers":["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],"badges":[],"specifications":{},"description":{"main":"Enjoy the latest TV shows with the Freesat UHD-X Smart 4K Ultra HD Set Top Box. Over 180 TV and Radio channels, including more than 20 HD channels.","goodToKnow":["Streaming services: BBC iPlayer, ITV Hub, Netflix.","Easy setup for UK satellite dish users."]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99},"category":"Digital & Smart TV"}
+{
+  "id": "10207047",
+  "title": "FREESAT UHD-X Smart 4K Ultra HD Set Top Box",
+  "brand": "FREESAT",
+  "price": {
+    "current": 99,
+    "was": 129.99,
+    "savings": 30.99
+  },
+  "rating": {
+    "average": 4.3,
+    "count": 131
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10207047?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207047_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207047_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207047_006?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10207047?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207047_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207047_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207047_006?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__225797_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Catch-up TV & 4K Streaming"
+    },
+    {
+      "icon": "",
+      "label": "WiFi / Ethernet"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / USB"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement",
+      "price": 22,
+      "period": "3 years"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "LOGIK Satellite F Plug Cable - 4 m",
+      "price": 9.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10119453?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Remote controls",
+      "title": "ONE FOR ALL Evolve URC7115 Universal Remote Control",
+      "price": 18.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10152868?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Enjoy the latest TV shows with the Freesat UHD-X Smart 4K Ultra HD Set Top Box. Over 180 TV and Radio channels, including more than 20 HD channels.",
+    "goodToKnow": [
+      "Streaming services: BBC iPlayer, ITV Hub, Netflix.",
+      "Easy setup for UK satellite dish users."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Digital & Smart TV",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

@@ -2,47 +2,62 @@
   "id": "10267026",
   "title": "MARSHALL Emberton III Portable Bluetooth Speaker - Black & Brass",
   "brand": "MARSHALL",
-  "price": { "current": 149, "was": null, "savings": null },
-  "rating": { "average": 4.8, "count": 318 },
+  "price": {
+    "current": 149,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 318
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10267026?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_100?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10267026?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_100?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10267026?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10267026_100?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10267026?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267026_100?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "waterproof", "label": "Waterproof" },
-    { "icon": "battery", "label": "Up to 32 hours battery life" },
-    { "icon": "bluetooth", "label": "Bluetooth" }
+    {
+      "icon": "waterproof",
+      "label": "Waterproof"
+    },
+    {
+      "icon": "battery",
+      "label": "Up to 32 hours battery life"
+    },
+    {
+      "icon": "bluetooth",
+      "label": "Bluetooth"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -58,6 +73,11 @@
       "The Marshall Bluetooth app lets you control the speaker and set your own EQ."
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

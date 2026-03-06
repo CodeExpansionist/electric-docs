@@ -1,0 +1,38 @@
+{
+  "brand": "LOGIK",
+  "price": {
+    "current": 49.99,
+    "was": 59.99,
+    "savings": 10
+  },
+  "rating": {
+    "average": 4.3,
+    "count": 46
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/logik-l45dabw23-portable-dabfm-radio-white-and-brown.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10246467",
+  "title": "LOGIK L45DABW23 Portable DAB+/FM Radio - White & Brown"
+}

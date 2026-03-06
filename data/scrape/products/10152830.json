@@ -1,1 +1,75 @@
-{"id":"10152830","title":"ONE FOR ALL Evolve 2 URC7125 Universal Remote Control","brand":"One For All","price":{"current":18.99,"was":0,"savings":0},"rating":{"average":4.3,"count":27},"images":{"gallery":["https://media.currys.biz/i/currysprod/10152830_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152830?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152830_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152830_002?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10152830?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152830_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152830_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152830_003?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Controls up to 2 devices"},{"icon":"","label":"Combi control"},{"icon":"","label":"Ultra wide angle operation"},{"icon":"","label":"Simple set-up"},{"icon":"","label":"2 year guarantee"}],"flexpay":{"monthlyAmount":0,"months":0,"totalPayable":0,"apr":""},"careAndRepair":[],"essentialServices":[],"crossSellProducts":[],"offers":["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],"badges":[],"specifications":{},"description":{"main":"Combining two remote controls in one, the Evolve 2 URC7125 Universal Remote Control is perfect for controlling your TV and set top box without having to switch between different remotes. The Watch TV function is perfect for seamless control, so that the relevant buttons automatically control the two different devices, meaning you don't have to switch between modes.","goodToKnow":["Compatible with all TV brands.","Optimised for Smart TVs.","Ultra-wide infra-red signal.","Simple setup."]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99},"category":"TV Accessories"}
+{
+  "id": "10152830",
+  "title": "ONE FOR ALL Evolve 2 URC7125 Universal Remote Control",
+  "brand": "One For All",
+  "price": {
+    "current": 18.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.3,
+    "count": 27
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10152830_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152830?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152830_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152830_002?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10152830?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152830_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152830_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152830_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Controls up to 2 devices"
+    },
+    {
+      "icon": "",
+      "label": "Combi control"
+    },
+    {
+      "icon": "",
+      "label": "Ultra wide angle operation"
+    },
+    {
+      "icon": "",
+      "label": "Simple set-up"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Combining two remote controls in one, the Evolve 2 URC7125 Universal Remote Control is perfect for controlling your TV and set top box without having to switch between different remotes. The Watch TV function is perfect for seamless control, so that the relevant buttons automatically control the two different devices, meaning you don't have to switch between modes.",
+    "goodToKnow": [
+      "Compatible with all TV brands.",
+      "Optimised for Smart TVs.",
+      "Ultra-wide infra-red signal.",
+      "Simple setup."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

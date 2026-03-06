@@ -1,0 +1,38 @@
+{
+  "brand": "ROBERTS",
+  "price": {
+    "current": 99.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 150
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/roberts-revival-petite-2-dabfm-retro-bluetooth-radio-duck-egg.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10263496",
+  "title": "ROBERTS Revival Petite 2 DAB+/FM Retro Bluetooth Radio - Duck Egg"
+}

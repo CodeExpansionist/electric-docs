@@ -1,1 +1,116 @@
-{"id":"10283892","title":"HISENSE A6Q 65\" LED 4K HDR Smart TV with Freely - 65A6QTUK","brand":"HISENSE","price":{"current":449,"was":0,"savings":0},"rating":{"average":4.5,"count":120},"images":{"gallery":["https://media.currys.biz/i/currysprod/10283892?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10283892?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283892_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"VIDAA smart platform with Freely built-in"},{"icon":"","label":"4K resolution with HDR10+"},{"icon":"","label":"Refresh rate: 60 Hz"},{"icon":"","label":"HDMI x 3"},{"icon":"","label":"2 year guarantee"},{"icon":"","label":"Dolby Vision & Dolby Atmos support"}],"flexpay":{"monthlyAmount":19.04,"months":36,"totalPayable":685.3,"apr":"29.9%"},"careAndRepair":[{"plan":"Care & Repair","price":5.39,"period":"per month","mostPopular":true},{"plan":"Installation","price":45,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Experience stunning visuals with the HISENSE A6Q 65\" LED 4K HDR Smart TV with Freely - 65A6QTUK. Featuring vidaa smart platform with freely built-in, 4k resolution with hdr10+, refresh rate: 60 hz, this HISENSE TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":9.99,"standardDeliveryDays":"3-5"},"category":"TVs"}
+{
+  "brand": "Hisense",
+  "price": {
+    "current": 449,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 914
+  },
+  "description": {
+    "main": "Dramas just got a lot more intense on the Hisense A6Q 65\" TV. Individual LEDs are precisely controlled on the direct lit full array display. That means deep blacks and bright highlights from edge to edge that are always on point.",
+    "features": [
+      "Freely brings you live TV channels and on-demand content over WiFi",
+      "Dolby Vision HDR boosts contrast",
+      "Adaptive Light Sensor adjusts screen brightness",
+      "Fast-paced action looks super fluid with AI Smooth Motion"
+    ],
+    "goodToKnow": [
+      "Two-year guarantee",
+      "HDMI 2.1 x 3",
+      "Screen size: 65 inches"
+    ]
+  },
+  "images": {
+    "gallery": [
+      "https://cdn.media.amplience.net/i/electrizprod/10283892?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_001?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_002?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_003?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_004?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_005?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_006?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_007?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_008?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_009?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_010?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_011?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_012?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_013?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://cdn.media.amplience.net/i/electrizprod/10283892?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_001?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_002?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_003?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_004?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_005?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_006?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_007?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_008?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_009?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_010?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_011?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_012?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10283892_013?$t-thumbnail$&fmt=auto"
+    ]
+  },
+  "keySpecs": [
+    "4K Direct Lit Full Array",
+    "Hi-View Engine",
+    "Refresh rate: 60 Hz",
+    "Dolby Vision"
+  ],
+  "specifications": {},
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 20,
+    "nextDayDeliveryPrice": 30
+  },
+  "sizeVariants": [
+    {
+      "size": "43\"",
+      "price": 329,
+      "url": "https://www.currys.co.uk/products/hisense-a6q-43-led-4k-hdr-smart-tv-with-freely-43a6qtuk-10283886.html"
+    },
+    {
+      "size": "50\"",
+      "price": 399,
+      "url": "https://www.currys.co.uk/products/hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10283935.html"
+    },
+    {
+      "size": "55\"",
+      "price": 429,
+      "url": "https://www.currys.co.uk/products/hisense-a6q-55-led-4k-hdr-smart-tv-with-freely-55a6qtuk-10283886.html"
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "name": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 35.99,
+      "image": "https://cdn.media.amplience.net/i/electrizprod/10249239?$s-swatch$&fmt=auto",
+      "url": ""
+    }
+  ],
+  "careAndRepair": [
+    {
+      "name": "Breakdown Support",
+      "price": 4.5,
+      "description": "Join over 9 million Currys support plan customers"
+    }
+  ],
+  "offers": [
+    "50% off selected soundbars when bought with any Hisense TV. Use code HSN50 at checkout."
+  ],
+  "badges": [
+    "Freely",
+    "Dolby Vision"
+  ],
+  "energyRating": "E",
+  "category": "TVs",
+  "id": "10283892",
+  "title": "HISENSE A6Q 65\" LED 4K HDR Smart TV with Freely - 65A6QTUK",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

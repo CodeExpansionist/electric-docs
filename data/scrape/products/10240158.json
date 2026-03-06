@@ -1,0 +1,94 @@
+{
+  "id": "10240158",
+  "title": "MARSHALL Stanmore III Bluetooth Speaker - Black",
+  "brand": "Marshall",
+  "price": {
+    "current": 349,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 170
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10240158?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10240158?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10240158_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Dynamic Loudness for rich & clear sound"
+    },
+    {
+      "icon": "",
+      "label": "Bluetooth"
+    },
+    {
+      "icon": "",
+      "label": "Aux-in / RCA"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 4.19,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Fill your space with rich sound from the MARSHALL Stanmore III Bluetooth Speaker - Black. With dynamic loudness for rich & clear sound, bluetooth, aux-in / rca, this speaker delivers powerful, detailed audio wherever you need it.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

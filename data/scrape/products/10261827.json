@@ -2,48 +2,66 @@
   "id": "10261827",
   "title": "JBL Partybox Club 120 Bluetooth Megasound Party Speaker - Black",
   "brand": "JBL",
-  "price": { "current": 349, "was": null, "savings": null },
-  "rating": { "average": 4.9, "count": 196 },
+  "price": {
+    "current": 349,
+    "was": 149,
+    "savings": 50
+  },
+  "rating": {
+    "average": 4.9,
+    "count": 196
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10261827_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_012?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10261827_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_012?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10261827_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261827_black_012?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10261827_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261827_black_012?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/3075/ol_video_img_url__284401_3075.jpg"
   },
   "keySpecs": [
-    { "icon": "waterproof", "label": "Water resistant" },
-    { "icon": "sound", "label": "JBL Original Pro Sound for powerful audio" },
-    { "icon": "lights", "label": "LED party lights / Karaoke mode" },
-    { "icon": "battery", "label": "Up to 12 hours battery life" }
+    {
+      "icon": "waterproof",
+      "label": "Water resistant"
+    },
+    {
+      "icon": "sound",
+      "label": "JBL Original Pro Sound for powerful audio"
+    },
+    {
+      "icon": "lights",
+      "label": "LED party lights / Karaoke mode"
+    },
+    {
+      "icon": "battery",
+      "label": "Up to 12 hours battery life"
+    }
   ],
-  "flexpay": { "monthlyAmount": 14.54, "months": 24, "totalPayable": 349, "apr": "0%" },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -51,16 +69,21 @@
   "badges": [],
   "specifications": {},
   "description": {
-    "main": "A decent playlist makes a BBQ better. Fact. Indoor or outside, this JBL Partybox gives your music the depth it deserves thanks to its deep bass and JBL Original Pro Sound. When it starts to get dark, it can even put on a lightshow \u2013 the futuristic LED lights sync to the beat of your tunes. You can also customise the strobes and patterns to really get the party vibe going. And even if you lose track of time, it can keep up with you with 12 hours of battery life.",
+    "main": "A decent playlist makes a BBQ better. Fact. Indoor or outside, this JBL Partybox gives your music the depth it deserves thanks to its deep bass and JBL Original Pro Sound. When it starts to get dark, it can even put on a lightshow – the futuristic LED lights sync to the beat of your tunes. You can also customise the strobes and patterns to really get the party vibe going. And even if you lose track of time, it can keep up with you with 12 hours of battery life.",
     "goodToKnow": [
       "The IPX4 splashproof rating means you won't need to worry if there's a bit of rain",
-      "Ramp the party up \u2013 the dual mic and guitar inputs mean you can show off your talents",
+      "Ramp the party up – the dual mic and guitar inputs mean you can show off your talents",
       "Customise colours, patterns and update settings with the JBL PartyBox app",
       "Pair two speakers wirelessly with Auracast for a massive stereo sound",
-      "There's loads of connection options \u2013 choose from Bluetooth, USB or aux-in",
+      "There's loads of connection options – choose from Bluetooth, USB or aux-in",
       "Take the party anywhere - it's lightweight and has a built-in folding handle"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

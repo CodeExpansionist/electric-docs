@@ -1,0 +1,42 @@
+{
+  "brand": "ONE FOR ALL",
+  "price": {
+    "current": 16.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 0,
+    "count": 0
+  },
+  "images": {
+    "gallery": [
+      "https://cdn.media.amplience.net/i/electrizprod/10249267?$g-small$&fmt=auto"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [
+    "Controls 3 devices",
+    "Backlight",
+    "Easy set-up"
+  ],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10249267",
+  "title": "ONE FOR ALL URC1917 Universal Remote Control"
+}

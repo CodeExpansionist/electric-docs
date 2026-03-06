@@ -2,44 +2,75 @@
   "id": "10283851",
   "title": "MAJORITY Pulse 3 Portable Bluetooth Megasound Party Speaker - Black",
   "brand": "MAJORITY",
-  "price": { "current": 99, "was": 199, "savings": 100 },
-  "rating": { "average": 4.7, "count": 70 },
+  "price": {
+    "current": 99,
+    "was": 199,
+    "savings": 100
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 70
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10283851?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_006?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10283851?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_006?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10283851?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10283851_006?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10283851?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283851_006?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
-    { "icon": "", "label": "Bluetooth" },
-    { "icon": "", "label": "LED party lights / Karaoke mode" },
-    { "icon": "", "label": "Output power: 200 W" },
-    { "icon": "", "label": "Up to 6 hours battery life" },
-    { "icon": "", "label": "USB / Aux-in" },
-    { "icon": "", "label": "3 year guarantee" }
+    {
+      "icon": "",
+      "label": "Bluetooth"
+    },
+    {
+      "icon": "",
+      "label": "LED party lights / Karaoke mode"
+    },
+    {
+      "icon": "",
+      "label": "Output power: 200 W"
+    },
+    {
+      "icon": "",
+      "label": "Up to 6 hours battery life"
+    },
+    {
+      "icon": "",
+      "label": "USB / Aux-in"
+    },
+    {
+      "icon": "",
+      "label": "3 year guarantee"
+    }
   ],
-  "flexpay": { "monthlyAmount": 4.01, "months": 36, "totalPayable": 144.36, "apr": "29.9%" },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [
-    { "category": "Cables and accessories", "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m", "price": 6.99, "image": "https://media.currys.biz/i/currysprod/10234488?$s-swatch$&fmt=auto" }
+    {
+      "category": "Cables and accessories",
+      "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m",
+      "price": 6.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10234488?$s-swatch$&fmt=auto"
+    }
   ],
-  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
   "badges": [],
   "specifications": {},
   "description": {
@@ -52,5 +83,10 @@
       "Double the fun by linking up a second speaker for True Wireless Stereo (TWS) sound"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

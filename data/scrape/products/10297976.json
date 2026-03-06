@@ -4,51 +4,68 @@
   "brand": "AMAZON",
   "price": {
     "current": 59.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
-    "average": 4.5,
-    "count": 45
+    "average": 0,
+    "count": 0
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10297976?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10297976?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10297976?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10297976_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10297976?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10297976_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Stream 4K HDR content to your TV" },
-    { "icon": "", "label": "1000+ movies" },
-    { "icon": "", "label": "HDR: Dolby Vision / HDR10+ / Hybrid Log-Gamma (HLG)" },
-    { "icon": "", "label": "Amazon Alexa voice remote" },
-    { "icon": "", "label": "WiFi / Bluetooth" },
-    { "icon": "", "label": "Support for Dolby Atmos" }
+    {
+      "icon": "",
+      "label": "Stream 4K HDR content to your TV"
+    },
+    {
+      "icon": "",
+      "label": "1000+ movies"
+    },
+    {
+      "icon": "",
+      "label": "HDR: Dolby Vision / HDR10+ / Hybrid Log-Gamma (HLG)"
+    },
+    {
+      "icon": "",
+      "label": "Amazon Alexa voice remote"
+    },
+    {
+      "icon": "",
+      "label": "WiFi / Bluetooth"
+    },
+    {
+      "icon": "",
+      "label": "Support for Dolby Atmos"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -69,5 +86,6 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "Digital Smart TV"
+  "category": "Digital & Smart TV",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

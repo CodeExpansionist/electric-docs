@@ -1,0 +1,31 @@
+{
+  "url": "/services/instant-replacement",
+  "pageTitle": "Instant Replacement",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Services",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "Instant Replacement",
+      "url": "/services/instant-replacement"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Instant Replacement cover",
+      "content": "If your product breaks down, we'll replace it immediately — no waiting for repairs. Simply bring it to any Electriz store and walk out with a replacement.",
+      "type": "text"
+    },
+    {
+      "heading": "Eligible products",
+      "content": "Instant Replacement is available on selected small appliances, headphones, and accessories. Check the product page for availability.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

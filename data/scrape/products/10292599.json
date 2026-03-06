@@ -1,70 +1,43 @@
 {
   "id": "10292599",
-  "title": "JVC LT-43CT350 43\" Smart Full HD LED TV with Freely",
   "brand": "JVC",
   "price": {
     "current": 279.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 0,
     "count": 0
   },
+  "description": {
+    "main": "",
+    "features": [],
+    "goodToKnow": []
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10292599?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_005?$l-large$&fmt=auto"
+      "https://cdn.media.amplience.net/i/electrizprod/10292599?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10292599?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10292599_005?$t-thumbnail$&fmt=auto"
-    ],
-    "video": null
-  },
-  "keySpecs": [
-    { "icon": "", "label": "Refresh rate: 60 Hz" },
-    { "icon": "", "label": "HDMI 1.4 x 3" },
-    { "icon": "", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" },
-    { "icon": "", "label": "Freely: Stream live & on demand TV for free" }
-  ],
-  "flexpay": {
-    "monthlyAmount": 7.78,
-    "months": 48,
-    "totalPayable": 373.44,
-    "apr": "29.9%"
-  },
-  "careAndRepair": [
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
-  ],
-  "essentialServices": [],
-  "crossSellProducts": [],
-  "offers": [],
-  "badges": ["Freely TV"],
-  "specifications": {},
-  "description": {
-    "main": "All the entertainment you love is in one place on this JVC 43\" TV. Titan OS brings together your apps, top picks and recommendations, making it quick and easy to flick between whatever you fancy watching. Freely makes live TV simple too - it streams channels like BBC, ITV and Channel 4 over WiFi, so there's no need for cables or an aerial. And best of all, it's completely free.",
-    "goodToKnow": [
-      "The Full HD display gives you a crisp, clear picture",
-      "Dolby Audio brings clear, balanced sound to everything you watch",
-      "There are three HDMI ports for connecting your gadgets",
-      "Plug in a USB drive to view your photos and videos on the big screen"
+      "https://cdn.media.amplience.net/i/electrizprod/10292599?$t-thumbnail$&fmt=auto"
     ]
   },
+  "keySpecs": [],
+  "specifications": {},
   "deliveryInfo": {
     "freeDelivery": true,
-    "standardDeliveryPrice": 0,
-    "nextDayDeliveryPrice": 5.99,
-    "standardDeliveryDays": "3-5"
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
   },
-  "category": "TVs"
+  "sizeVariants": [],
+  "crossSellProducts": [],
+  "careAndRepair": [],
+  "offers": [],
+  "badges": [],
+  "energyRating": "",
+  "category": "TVs",
+  "_needsEnrichment": true,
+  "title": "JVC LT-43CT350 43\" Smart Full HD LED TV with Freely",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

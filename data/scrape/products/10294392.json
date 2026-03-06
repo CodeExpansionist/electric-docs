@@ -2,17 +2,80 @@
   "id": "10294392",
   "title": "SOUNDCORE AeroClip Wireless Bluetooth Earbuds - White",
   "brand": "SOUNDCORE",
-  "price": {"current": 129.99, "was": 0, "savings": 0},
-  "rating": {"average": 4, "count": 26},
-  "images": {"gallery": ["https://media.currys.biz/i/currysprod/10294392?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_009?$l-large$&fmt=auto"], "thumbnails": ["https://media.currys.biz/i/currysprod/10294392?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10294392_009?$t-thumbnail$&fmt=auto"], "video": ""},
-  "keySpecs": [{"icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-pound.svg", "label": "Battery life: Up to 8 hours"}, {"icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-smart.svg", "label": "Water & sweat resistant (IPX4)"}],
-  "flexpay": {"monthlyAmount": 5.26, "months": 36, "totalPayable": 189.36, "apr": "29.9%"},
+  "price": {
+    "current": 99.99,
+    "was": 129.99,
+    "savings": 30
+  },
+  "rating": {
+    "average": 4,
+    "count": 26
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10294392?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_009?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10294392?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10294392_009?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-pound.svg",
+      "label": "Battery life: Up to 8 hours"
+    },
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-smart.svg",
+      "label": "Water & sweat resistant (IPX4)"
+    }
+  ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [{"category": "Accessories", "title": "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black", "price": 11.99, "image": "https://media.currys.biz/i/currysprod/10278348?$s-swatch$&fmt=auto"}],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black",
+      "price": 11.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10278348?$s-swatch$&fmt=auto"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
-  "description": {"main": "The Soundcore AeroClip are true wireless open-ear clip-on earbuds designed for comfort and great sound quality, featuring a flexible core, soft finish, and 12mm titanium-coated drivers.", "goodToKnow": ["Directional sound means your audio stays yours, with minimal leakage", "Four mics and AI cut out wind and background noise for clear calls", "Get 8 hours of playtime on a single charge and 32 hours with the case", "Attachable ear grips in two sizes for a secure fit", "Control music, calls and voice assistant with touch controls", "Water resistant protects against spills, splashes, and light rain"]},
-  "deliveryInfo": {"freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99}
+  "description": {
+    "main": "The Soundcore AeroClip are true wireless open-ear clip-on earbuds designed for comfort and great sound quality, featuring a flexible core, soft finish, and 12mm titanium-coated drivers.",
+    "goodToKnow": [
+      "Directional sound means your audio stays yours, with minimal leakage",
+      "Four mics and AI cut out wind and background noise for clear calls",
+      "Get 8 hours of playtime on a single charge and 32 hours with the case",
+      "Attachable ear grips in two sizes for a secure fit",
+      "Control music, calls and voice assistant with touch controls",
+      "Water resistant protects against spills, splashes, and light rain"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

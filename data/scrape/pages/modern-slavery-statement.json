@@ -1,0 +1,27 @@
+{
+  "url": "/modern-slavery-statement",
+  "pageTitle": "Modern slavery statement",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Modern slavery statement",
+      "url": "/modern-slavery-statement"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Modern slavery statement",
+      "content": "Electriz Group plc is committed to preventing modern slavery and human trafficking in its business and supply chains. This statement is made pursuant to Section 54 of the Modern Slavery Act 2015.",
+      "type": "text"
+    },
+    {
+      "heading": "Our approach",
+      "content": "We conduct due diligence on all new suppliers and regularly audit existing supply chains. We provide training to our procurement teams and have established clear policies and procedures for identifying and reporting concerns.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

@@ -1,1 +1,73 @@
-{"id":"10191562","title":"PANASONIC DP-UB159EB 4K Ultra HD Blu-ray & DVD Player","brand":"Panasonic","price":{"current":149.99,"was":null,"savings":null},"rating":{"average":4.5,"count":235},"images":{"gallery":["https://media.currys.biz/i/currysprod/10191562_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10191562?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_005?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10191562_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10191562?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10191562_005?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"disc","label":"Plays 4K Blu-ray discs / DVDs"},{"icon":"hdr","label":"HDR: HDR10+ / HDR10 / HLG"},{"icon":"audio","label":"Supports Dolby Atmos / DTS:X"},{"icon":"connectivity","label":"Ethernet"}],"flexpay":null,"careAndRepair":[],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"The PANASONIC DP-UB159EB 4K Ultra HD Blu-ray & DVD Player offers support for multiple HDR technologies, including HDR10+. With its advanced features, including Dolby Atmos sound support and high-resolution audio formats, this player enhances your viewing and listening experience.","goodToKnow":["Free standard delivery on orders over \u00a340","Available credit options with Currys flexpay"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":5.99},"category":"DVD Blu-ray"}
+{
+  "id": "10191562",
+  "title": "PANASONIC DP-UB159EB 4K Ultra HD Blu-ray & DVD Player",
+  "brand": "Panasonic",
+  "price": {
+    "current": 149.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 235
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10191562_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10191562_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10191562_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "disc",
+      "label": "Plays 4K Blu-ray discs / DVDs"
+    },
+    {
+      "icon": "hdr",
+      "label": "HDR: HDR10+ / HDR10 / HLG"
+    },
+    {
+      "icon": "audio",
+      "label": "Supports Dolby Atmos / DTS:X"
+    },
+    {
+      "icon": "connectivity",
+      "label": "Ethernet"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "The PANASONIC DP-UB159EB 4K Ultra HD Blu-ray & DVD Player offers support for multiple HDR technologies, including HDR10+. With its advanced features, including Dolby Atmos sound support and high-resolution audio formats, this player enhances your viewing and listening experience.",
+    "goodToKnow": [
+      "Free standard delivery on orders over £40",
+      "Available credit options with Currys flexpay"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "DVD Blu-ray",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

@@ -1,1 +1,102 @@
-{"id":"10267031","title":"LG SQM1 2.0 Compact Sound Bar","brand":"LG","price":{"current":59.99,"was":0,"savings":0},"rating":{"average":4.6,"count":37},"images":{"gallery":["https://media.currys.biz/i/currysprod/10267031_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10267031?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_005?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10267031?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10267031_006?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Number of speakers: 2"},{"icon":"","label":"Audio power: 40 W"},{"icon":"","label":"Adaptive / optimized audio"},{"icon":"","label":"Optical"}],"energyRating":{"class":""},"flexpay":{"monthlyAmount":0,"months":0,"totalPayable":0,"apr":""},"wallBracket":{"text":"Add this item","product":{"title":"Add Instant Replacement","price":13,"savings":0,"image":""}},"careAndRepair":[{"plan":"Instant Replacement","price":13,"period":"3 years"}],"essentialServices":[],"crossSellProducts":[{"category":"Blu-ray and DVD players","title":"SONY DVPSR760HB DVD Player","price":39,"image":"https://media.currys.biz/i/currysprod/12872098?$s-swatch$&fmt=auto"},{"category":"Cables and accessories","title":"SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m","price":11.99,"image":"https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto"}],"offers":["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],"badges":[],"specifications":{},"description":{"main":"Give your TV's sound a boost with 40 W of rich stereo sound. Its compact design sits neatly below most screens.","goodToKnow":[]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":5.99}}
+{
+  "id": "10267031",
+  "title": "LG SQM1 2.0 Compact Sound Bar",
+  "brand": "LG",
+  "price": {
+    "current": 59.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 37
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10267031_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10267031?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10267031_006?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Number of speakers: 2"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 40 W"
+    },
+    {
+      "icon": "",
+      "label": "Adaptive / optimized audio"
+    },
+    {
+      "icon": "",
+      "label": "Optical"
+    }
+  ],
+  "energyRating": {
+    "class": ""
+  },
+  "wallBracket": {
+    "text": "Add this item",
+    "product": {
+      "title": "Add Instant Replacement",
+      "price": 13,
+      "savings": 0,
+      "image": ""
+    }
+  },
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement",
+      "price": 13,
+      "period": "3 years"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Blu-ray and DVD players",
+      "title": "SONY DVPSR760HB DVD Player",
+      "price": 39,
+      "image": "https://media.electriz.biz/i/electrizprod/12872098?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Cables and accessories",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "image": "https://media.electriz.biz/i/electrizprod/21948996?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Give your TV's sound a boost with 40 W of rich stereo sound. Its compact design sits neatly below most screens.",
+    "goodToKnow": []
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

@@ -4,8 +4,8 @@
   "brand": "One For All",
   "price": {
     "current": 33.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 3.5,
@@ -13,31 +13,37 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10234026?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234026_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234026_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234026_003?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10234026?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234026_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234026_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234026_003?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10234026?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234026_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234026_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10234026_003?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10234026?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234026_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234026_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10234026_003?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
-    { "icon": "", "label": "Maximum signal range: 9 miles" },
-    { "icon": "", "label": "3G / 4G / 5G block-filter" },
-    { "icon": "", "label": "Aerial can be placed horizontally or vertically" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "",
+      "label": "Maximum signal range: 9 miles"
+    },
+    {
+      "icon": "",
+      "label": "3G / 4G / 5G block-filter"
+    },
+    {
+      "icon": "",
+      "label": "Aerial can be placed horizontally or vertically"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 0,
-    "months": 0,
-    "totalPayable": 0,
-    "apr": ""
-  },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [
@@ -45,13 +51,13 @@
       "category": "Remote controls",
       "title": "ONE FOR ALL Evolve 2 URC7125 Universal Remote Control",
       "price": 18.99,
-      "image": "https://media.currys.biz/i/currysprod/10152830?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10152830?$s-swatch$&fmt=auto"
     },
     {
       "category": "Cables & adaptors",
       "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
       "price": 19.99,
-      "image": "https://media.currys.biz/i/currysprod/10175000?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -90,5 +96,6 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "TV Accessories"
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

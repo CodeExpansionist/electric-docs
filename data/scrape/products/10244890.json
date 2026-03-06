@@ -1,1 +1,84 @@
-{"id":"10244890","title":"APPLE TV 4K (3rd generation) - 64 GB","brand":"Apple","price":{"current":139,"was":169,"savings":30},"rating":{"average":4.8,"count":161},"images":{"gallery":["https://media.currys.biz/i/currysprod/10244890?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10244890?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"4K HDR Streaming"},{"icon":"","label":"Voice search via remote"},{"icon":"","label":"WiFi / Bluetooth"},{"icon":"","label":"Apple AirPlay"},{"icon":"","label":"Catch-up TV & 4K Streaming"}],"flexpay":{"monthlyAmount":5.63,"months":36,"totalPayable":202.68,"apr":"29.9%"},"careAndRepair":[],"essentialServices":[],"crossSellProducts":[{"category":"Accessories","title":"APPLE AirTag Bluetooth Tracker","price":20.75,"image":"https://media.currys.biz/i/currysprod/10223699?$s-swatch$&fmt=auto"},{"category":"Accessories","title":"APPLE AirPods 4 with Active Noise Cancellation - White","price":169,"image":"https://media.currys.biz/i/currysprod/10270519?$s-swatch$&fmt=auto"}],"offers":["Save £30 on Microsoft 365 Personal when bought with this product."],"badges":[],"specifications":{},"description":{"main":"With Apple TV 4K, your entertainment's sorted. Dolby Vision and HDR10+, 4K resolution. Apple TV+, BBC iPlayer, Amazon Prime Video and more. Apple Arcade, Apple Fitness+, Apple Music. Siri Remote with voice control.","goodToKnow":["Colour Calibration uses iPhone camera","Dolby Atmos 7.1 sound","Connect two sets of AirPods","Personalised Spatial Audio","WiFi 6","Smart home hub with HomeKit"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99},"category":"Digital & Smart TV"}
+{
+  "id": "10244890",
+  "title": "APPLE TV 4K (3rd generation) - 64 GB",
+  "brand": "Apple",
+  "price": {
+    "current": 139,
+    "was": null,
+    "savings": 30
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 161
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10244890?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10244890?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "4K HDR Streaming"
+    },
+    {
+      "icon": "",
+      "label": "Voice search via remote"
+    },
+    {
+      "icon": "",
+      "label": "WiFi / Bluetooth"
+    },
+    {
+      "icon": "",
+      "label": "Apple AirPlay"
+    },
+    {
+      "icon": "",
+      "label": "Catch-up TV & 4K Streaming"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "APPLE AirTag Bluetooth Tracker",
+      "price": 20.75,
+      "image": "https://media.electriz.biz/i/electrizprod/10223699?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Accessories",
+      "title": "APPLE AirPods 4 with Active Noise Cancellation - White",
+      "price": 169,
+      "image": "https://media.electriz.biz/i/electrizprod/10270519?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Save £30 on Microsoft 365 Personal when bought with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "With Apple TV 4K, your entertainment's sorted. Dolby Vision and HDR10+, 4K resolution. Apple TV+, BBC iPlayer, Amazon Prime Video and more. Apple Arcade, Apple Fitness+, Apple Music. Siri Remote with voice control.",
+    "goodToKnow": [
+      "Colour Calibration uses iPhone camera",
+      "Dolby Atmos 7.1 sound",
+      "Connect two sets of AirPods",
+      "Personalised Spatial Audio",
+      "WiFi 6",
+      "Smart home hub with HomeKit"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Digital & Smart TV",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

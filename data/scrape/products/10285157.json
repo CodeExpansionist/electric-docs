@@ -4,52 +4,69 @@
   "brand": "Toshiba",
   "price": {
     "current": 149.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.9,
-    "count": 42
+    "count": 43
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10285157?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_007?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10285157?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_007?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10285157?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10285157_007?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10285157?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10285157_007?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Refresh rate: 60 Hz" },
-    { "icon": "", "label": "HDMI 1.4 x 3" },
-    { "icon": "", "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)" },
-    { "icon": "", "label": "Freely: Stream live & on demand TV for free" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 1.4 x 3"
+    },
+    {
+      "icon": "",
+      "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)"
+    },
+    {
+      "icon": "",
+      "label": "Freely: Stream live & on demand TV for free"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 8.38,
-    "months": 24,
-    "totalPayable": 201.09,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -59,7 +76,7 @@
   "description": {
     "main": "Our compact HD Ready Smart TV is the ideal second screen for your kitchen or bedroom. Featuring all the top streaming apps built-in, including Freely so you can stream your favourite live and on demand TV all for free. All you need is Wi-Fi.",
     "goodToKnow": [
-      "Free standard delivery on orders over \u00a340",
+      "Free standard delivery on orders over £40",
       "Compact size is ideal for smaller spaces",
       "Dolby Audio for enhanced sound",
       "Smart TV with multiple streaming services"
@@ -72,5 +89,6 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "energyRating": "E"
+  "energyRating": "E",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

@@ -4,8 +4,8 @@
   "brand": "Sony",
   "price": {
     "current": 1299,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": 30
   },
   "rating": {
     "average": 4.6,
@@ -13,60 +13,73 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10238591?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_012?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_013?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_014?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_015?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_016?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10238591?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_012?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_013?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_014?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_015?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_016?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10238591?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_012?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_013?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_014?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_015?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10238591_016?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10238591?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_012?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_013?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_014?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_015?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238591_016?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Refresh Rate: 120 Hz" },
-    { "icon": "", "label": "HDMI 2.1 x 2 / HDMI 2.0b x 2" },
-    { "icon": "", "label": "Acoustic Surface Audio+" },
-    { "icon": "", "label": "XR OLED Contrast Pro technology" },
-    { "icon": "", "label": "Supports Dolby Atmos" }
+    {
+      "icon": "",
+      "label": "Refresh Rate: 120 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.1 x 2 / HDMI 2.0b x 2"
+    },
+    {
+      "icon": "",
+      "label": "Acoustic Surface Audio+"
+    },
+    {
+      "icon": "",
+      "label": "XR OLED Contrast Pro technology"
+    },
+    {
+      "icon": "",
+      "label": "Supports Dolby Atmos"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 54.13,
-    "months": 24,
-    "totalPayable": 1299,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Installation", "price": 65, "period": "One-time fee" }
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -88,5 +101,6 @@
     "nextDayDeliveryPrice": 5.99,
     "standardDeliveryDays": "3-5"
   },
-  "category": "TVs"
+  "category": "TVs",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

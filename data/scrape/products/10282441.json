@@ -4,8 +4,8 @@
   "brand": "Sony",
   "price": {
     "current": 399,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.6,
@@ -13,75 +13,69 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10282426_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_012?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_013?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_014?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_015?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_016?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_017?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_018?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_019?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10282426_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_012?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_013?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_014?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_015?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_016?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_017?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_018?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_019?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10282426_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_012?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_013?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_014?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_015?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_016?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_017?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_018?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10282426_black_019?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10282426_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_012?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_013?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_014?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_015?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_016?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_017?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_018?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10282426_black_019?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/1053/ol_video_img_url__297773_1053.jpg?m=1053&r=1048&t=1"
   },
   "keySpecs": [
     {
-      "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-noise-cancel.svg",
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-noise-cancel.svg",
       "label": "Active noise-cancelling"
     },
     {
-      "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-battery.svg",
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-battery.svg",
       "label": "Battery life: Up to 30 hours"
     },
     {
-      "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-fast-charge.svg",
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-fast-charge.svg",
       "label": "Quick charging"
     },
     {
-      "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-microphone.svg",
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-microphone.svg",
       "label": "Microphone / volume / playback & functions control"
     }
   ],
-  "flexpay": {
-    "monthlyAmount": 16.17,
-    "months": 36,
-    "totalPayable": 582.12,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
     {
       "plan": "Get breakdown support",
@@ -104,7 +98,7 @@
       "category": "Accessories",
       "title": "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black",
       "price": 11.99,
-      "image": "https://media.currys.biz/i/currysprod/10278348?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10278348?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -113,11 +107,11 @@
   "badges": [
     {
       "type": "Loved by Currys",
-      "image": "https://media.currys.biz/i/currysprod/loved_by_currys-68562.jpg"
+      "image": "https://media.electriz.biz/i/electrizprod/loved_by_electriz-68562.jpg"
     },
     {
       "type": "Award: What HiFi 5 Star",
-      "image": "https://media.currys.biz/i/currysprod/what_hifi_5_star-6658.jpg"
+      "image": "https://media.electriz.biz/i/electrizprod/what_hifi_5_star-6658.jpg"
     }
   ],
   "specifications": {},
@@ -136,5 +130,6 @@
     "freeDelivery": true,
     "standardDeliveryPrice": 0,
     "nextDayDeliveryPrice": 5.99
-  }
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

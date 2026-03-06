@@ -13,38 +13,59 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10242518_black_100?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10242518_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10242518_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10242518_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10242518_black_003?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10242518_black_100?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10242518_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10242518_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10242518_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10242518_black_003?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10242518_black_100?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10242518_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10242518_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10242518_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10242518_black_003?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10242518_black_100?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10242518_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10242518_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10242518_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10242518_black_003?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "headphones", "label": "Over-ear headphones" },
-    { "icon": "noise-cancelling", "label": "Adjustable active noise-cancelling" },
-    { "icon": "battery", "label": "Battery life: Up to 60 hours" },
-    { "icon": "auto-pause", "label": "Auto-pause & auto-play function" },
-    { "icon": "controls", "label": "Microphone / volume / playback & functions control" },
-    { "icon": "guarantee", "label": "2 year guarantee" }
+    {
+      "icon": "headphones",
+      "label": "Over-ear headphones"
+    },
+    {
+      "icon": "noise-cancelling",
+      "label": "Adjustable active noise-cancelling"
+    },
+    {
+      "icon": "battery",
+      "label": "Battery life: Up to 60 hours"
+    },
+    {
+      "icon": "auto-pause",
+      "label": "Auto-pause & auto-play function"
+    },
+    {
+      "icon": "controls",
+      "label": "Microphone / volume / playback & functions control"
+    },
+    {
+      "icon": "guarantee",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 8.06,
-    "months": 36,
-    "totalPayable": 290.16,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 2.99, "period": "per month", "mostPopular": true },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 2.99,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -98,8 +119,8 @@
   },
   "category": "Headphones",
   "_scrapeMeta": {
-    "scrapedUrl": "https://www.currys.co.uk/products/sennheiser-momentum-4-wireless-bluetooth-noisecancelling-headphones-black-10242526.html",
-    "currysLiveProductId": "10242526",
+    "scrapedUrl": "https://www.electriz.co.uk/products/sennheiser-momentum-4-wireless-bluetooth-noisecancelling-headphones-black-10242526.html",
+    "electrizLiveProductId": "10242526",
     "note": "Original URL (10238558) redirected to gaming laptops category. Scraped from live product page 10242526. Gallery images use M10242518_black IDs from live page.",
     "scrapedAt": "2026-03-02"
   }

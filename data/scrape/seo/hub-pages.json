@@ -1,0 +1,168 @@
+{
+  "scrapedAt": "2026-03-06",
+  "pages": [
+    {
+      "url": "https://www.currys.co.uk/tv-and-audio",
+      "pageType": "hub",
+      "title": "TV & Audio | Currys",
+      "metaDescription": "Check out our full TV & Audio range for amazing prices on televisions, speakers and more. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio",
+      "robots": "index",
+      "openGraph": {
+        "title": "TV & Audio | Currys",
+        "description": "Check out our full TV & Audio range for amazing prices on televisions, speakers and more. Available online for delivery or order & collect.",
+        "image": "/on/demandware.static/-/Sites-dcg-master-catalog/default/dwb9fd71dc/images/no-image-found.png",
+        "type": "website",
+        "url": "https://www.currys.co.uk/tv-and-audio",
+        "siteName": "Currys"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "TV & Audio | Currys",
+        "description": "Check out our full TV & Audio range for amazing prices on televisions, speakers and more. Available online for delivery or order & collect.",
+        "image": "/on/demandware.static/-/Sites-dcg-master-catalog/default/dwb9fd71dc/images/no-image-found.png"
+      },
+      "headings": {
+        "h1": ["TV & Audio"],
+        "h2": [
+          "Top categories",
+          "Popular links",
+          "Buying guides",
+          "News and reviews",
+          "Top deals",
+          "Ai on TV. The next big thing!",
+          "Filmmaker Mode. Pure cinema, no filters.",
+          "Discover our range of TV & Audio essentials",
+          "The best TVs for epic entertainment",
+          "Enjoy incredible audio around the home",
+          "Improve your setup with TV accessories",
+          "Find your perfect TV size",
+          "Popular Products"
+        ]
+      }
+    },
+    {
+      "url": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema",
+      "pageType": "hub",
+      "title": "Home entertainment - Home Cinema, Soundbars, DVD & Blu-ray | Currys",
+      "metaDescription": "Browse our DVD, Blu-ray and home cinema range at Currys for unmissable deals on Soundbars, Dolby Atmos soundbars and more. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema",
+      "robots": "index",
+      "openGraph": {
+        "title": "Home entertainment - Home Cinema, Soundbars, DVD & Blu-ray | Currys",
+        "description": "Browse our DVD, Blu-ray and home cinema range at Currys for unmissable deals on Soundbars, Dolby Atmos soundbars and more. Available online for delivery or order & collect.",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "headings": {
+        "h1": ["Home cinema, DVD & Blu-ray"],
+        "h2": [
+          "Top categories",
+          "Popular links",
+          "Home cinema tech explained",
+          "Discover DVD, Blu-ray & home cinema at Currys",
+          "Picking the right home cinema setup",
+          "Multi-room and smart sound",
+          "DVD and Blu-ray players"
+        ]
+      }
+    },
+    {
+      "url": "https://www.currys.co.uk/tv-and-audio/digital-and-smart-tv",
+      "pageType": "hub",
+      "title": "Digital and smart TV | Best deals on Digital and smart TV, Set top boxes and more",
+      "metaDescription": "Browse our Digital and smart TV range at Currys for unmissable deals on Digital and smart TV, Set top boxes and more. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/digital-and-smart-tv",
+      "robots": "index",
+      "openGraph": {
+        "title": "Digital and smart TV | Best deals on Digital and smart TV, Set top boxes and more",
+        "description": "Browse our Digital and smart TV range at Currys for unmissable deals on Digital and smart TV, Set top boxes and more. Available online for delivery or order & collect.",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "headings": {
+        "h1": ["Digital & Smart TV"],
+        "h2": [
+          "Top categories",
+          "Popular links",
+          "Things to consider when buying a new digital or smart TV box",
+          "Discover digital & smart TV at Currys"
+        ]
+      }
+    },
+    {
+      "url": "https://www.currys.co.uk/tv-and-audio/speakers-and-hi-fi-systems",
+      "pageType": "hub",
+      "title": "Sound systems - Cheap Speaker and Hi-Fi system deals | Currys",
+      "metaDescription": "Shop speakers and sound systems at Currys for amazing deals on portable Bluetooth speakers, Hi-Fi & more. Order online for delivery or collect in-store.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/speakers-and-hi-fi-systems",
+      "robots": "index",
+      "openGraph": {
+        "title": "Sound systems - Cheap Speaker and Hi-Fi system deals | Currys",
+        "description": "Shop speakers and sound systems at Currys for amazing deals on portable Bluetooth speakers, Hi-Fi & more. Order online for delivery or collect in-store.",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "headings": {
+        "h1": ["Speakers & Hi-Fi systems"],
+        "h2": [
+          "Top categories",
+          "Popular links",
+          "Buying guides",
+          "Which speaker tech are you looking for?",
+          "Discover speakers & Hi-Fi systems at Currys",
+          "Choosing a speaker set-up",
+          "HiFis and Megasound party systems"
+        ]
+      }
+    },
+    {
+      "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories",
+      "pageType": "hub",
+      "title": "TV accessories | Currys",
+      "metaDescription": "Browse our TV accessories range at Currys for unmissable deals on TV wall brackets, TV stands and more. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/tv-accessories",
+      "robots": "index",
+      "openGraph": {
+        "title": "TV accessories | Currys",
+        "description": "Browse our TV accessories range at Currys for unmissable deals on TV wall brackets, TV stands and more. Available online for delivery or order & collect.",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "headings": {
+        "h1": ["TV accessories"],
+        "h2": [
+          "Top categories",
+          "Popular links",
+          "Help finding the right television",
+          "Discover TV accessories at Currys"
+        ]
+      }
+    },
+    {
+      "url": "https://www.currys.co.uk/tv-and-audio/radios",
+      "pageType": "hub",
+      "title": "Radios | Best deals on Radios, DAB and more",
+      "metaDescription": "Browse our Radios range at Currys for unmissable deals on Radios, DAB and more. Available online for delivery or order & collect.",
+      "canonical": "https://www.currys.co.uk/tv-and-audio/radios",
+      "robots": "index",
+      "openGraph": {
+        "title": "Radios | Best deals on Radios, DAB and more",
+        "description": "Browse our Radios range at Currys for unmissable deals on Radios, DAB and more. Available online for delivery or order & collect.",
+        "type": "website",
+        "siteName": "Currys"
+      },
+      "headings": {
+        "h1": ["Radios"],
+        "h2": [
+          "Top categories",
+          "Popular links",
+          "Buying guides",
+          "What kind of radio are you looking for?",
+          "Discover radios at Currys",
+          "DAB radios: A better sound experience"
+        ]
+      }
+    }
+  ]
+}

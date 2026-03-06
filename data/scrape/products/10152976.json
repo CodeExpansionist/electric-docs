@@ -1,1 +1,70 @@
-{"id":"10152976","title":"APPLE EarPods with Lightning Connector - White","brand":"APPLE","price":{"current":19,"was":0,"savings":0},"rating":{"average":4.5,"count":505},"images":{"gallery":["https://media.currys.biz/i/currysprod/10152976?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_005?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10152976?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152976_005?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"In-ear headphones"},{"icon":"","label":"Microphone / remote / volume control"}],"flexpay":{"monthlyAmount":0,"months":0,"totalPayable":0,"apr":""},"careAndRepair":[],"essentialServices":[],"crossSellProducts":[{"category":"Accessories","title":"APPLE 20 W USB Type-C Power Adapter","price":19,"image":"https://media.currys.biz/i/currysprod/10216759?$s-swatch$&fmt=auto"}],"offers":[],"badges":[],"specifications":{},"description":{"main":"Secure and comfortable design with superior audio quality. Includes built-in remote, microphone, and volume control.","goodToKnow":["Compatible with iOS 10 or later","Comes with a 1 year manufacturer's guarantee","User guide included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99}}
+{
+  "id": "10152976",
+  "title": "APPLE EarPods with Lightning Connector - White",
+  "brand": "APPLE",
+  "price": {
+    "current": 19,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.5,
+    "count": 505
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10152976?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_005?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10152976?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152976_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "In-ear headphones"
+    },
+    {
+      "icon": "",
+      "label": "Microphone / remote / volume control"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "APPLE 20 W USB Type-C Power Adapter",
+      "price": 19,
+      "image": "https://media.electriz.biz/i/electrizprod/10216759?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Secure and comfortable design with superior audio quality. Includes built-in remote, microphone, and volume control.",
+    "goodToKnow": [
+      "Compatible with iOS 10 or later",
+      "Comes with a 1 year manufacturer's guarantee",
+      "User guide included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

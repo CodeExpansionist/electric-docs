@@ -1,1 +1,87 @@
-{"id":"10152868","title":"ONE FOR ALL Evolve URC7115 Universal Remote Control","brand":"One For All","price":{"current":18.99,"was":0,"savings":0},"rating":{"average":4.6,"count":39},"images":{"gallery":["https://media.currys.biz/i/currysprod/10152868_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152868?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152868_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152868_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152868_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10152868_004?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10152868?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152868_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152868_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152868_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152868_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10152868_005?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Controls 1 device"},{"icon":"","label":"Ideal TV remote replacement"},{"icon":"","label":"Ultra wide angle operation"},{"icon":"","label":"Simple set-up"},{"icon":"","label":"2 year guarantee"}],"flexpay":{"monthlyAmount":0,"months":0,"totalPayable":0,"apr":""},"careAndRepair":[],"essentialServices":[],"crossSellProducts":[{"category":"Batteries","title":"ENERGIZER Max AAA Alkaline Batteries - Pack of 8","price":7.00,"image":"https://media.currys.biz/i/currysprod/10267982?$s-swatch$&fmt=auto"}],"offers":["Spread the cost on orders £99 & over.","Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],"badges":[],"specifications":{},"description":{"main":"If you've lost or broken your TV's remote control, the One for All Evolve URC7115 Universal Remote Control is a great replacement for any brand of smart TV. With an ultra-wide infra-red signal, the URC7115 is able to control your TV from wherever you sit.","goodToKnow":["Compatible with all TV brands","Ultra-wide infra-red signal","Simple setup","2 year guarantee"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99},"category":"TV Accessories"}
+{
+  "id": "10152868",
+  "title": "ONE FOR ALL Evolve URC7115 Universal Remote Control",
+  "brand": "One For All",
+  "price": {
+    "current": 18.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 39
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10152868_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868_004?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10152868?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10152868_005?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Controls 1 device"
+    },
+    {
+      "icon": "",
+      "label": "Ideal TV remote replacement"
+    },
+    {
+      "icon": "",
+      "label": "Ultra wide angle operation"
+    },
+    {
+      "icon": "",
+      "label": "Simple set-up"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Batteries",
+      "title": "ENERGIZER Max AAA Alkaline Batteries - Pack of 8",
+      "price": 7,
+      "image": "https://media.electriz.biz/i/electrizprod/10267982?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Spread the cost on orders £99 & over.",
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "If you've lost or broken your TV's remote control, the One for All Evolve URC7115 Universal Remote Control is a great replacement for any brand of smart TV. With an ultra-wide infra-red signal, the URC7115 is able to control your TV from wherever you sit.",
+    "goodToKnow": [
+      "Compatible with all TV brands",
+      "Ultra-wide infra-red signal",
+      "Simple setup",
+      "2 year guarantee"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

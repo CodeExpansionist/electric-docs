@@ -1,0 +1,122 @@
+{
+  "scrapedAt": "2026-03-06",
+  "templatePatterns": {
+    "title": {
+      "pattern": "Buy {Product Name} | Currys",
+      "alternatePattern": "{Product Name}",
+      "notes": "Some product titles omit 'Buy' prefix and '| Currys' suffix. The raw HTML title tag consistently uses 'Buy {Product Name} | Currys'. The H1 heading always matches the product name without prefix/suffix."
+    },
+    "metaDescription": {
+      "pattern": "Product-specific description text (from product copy, not templated)",
+      "notes": "Meta descriptions appear to use the first ~150 chars of the main product description, NOT a templated format. Each product has unique copy."
+    },
+    "canonical": {
+      "pattern": "https://www.currys.co.uk/products/{slug}-{id}.html"
+    },
+    "openGraph": {
+      "title": "{Product Name}",
+      "description": "First sentence or excerpt of product description",
+      "type": "product",
+      "image": "https://cdn.media.amplience.net/i/currysprod/{id}?$l-large$&fmt=auto",
+      "siteName": "Currys",
+      "priceAmount": "{price}.00",
+      "priceCurrency": "GBP"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "{Product Name}",
+      "description": "First sentence or excerpt of product description",
+      "image": "https://cdn.media.amplience.net/i/currysprod/{id}?$l-large$&fmt=auto"
+    },
+    "breadcrumbs": {
+      "pattern": ["Home", "{Section}", "{Parent Category}", "{Category}"],
+      "example": [
+        {"label": "Home", "url": "https://www.currys.co.uk/"},
+        {"label": "TV & Audio", "url": "https://www.currys.co.uk/tv-and-audio"},
+        {"label": "Televisions", "url": "https://www.currys.co.uk/tv-and-audio/televisions"},
+        {"label": "All TVs", "url": "https://www.currys.co.uk/tv-and-audio/televisions/tvs"}
+      ]
+    },
+    "headings": {
+      "h1": "{Product Name}",
+      "h2": [
+        "Technical specifications for {Product Name}",
+        "Product information",
+        "Specifications",
+        "Reviews",
+        "Delivery & returns"
+      ],
+      "h3": "Category-specific spec sections (e.g., Energy consumption, Audio, Connectivity, Screen, etc.)"
+    },
+    "structuredData": {
+      "notes": "Firecrawl returned empty structured data objects for all product pages. The reference site likely injects JSON-LD via JavaScript after initial page load. Based on the og:type='product' and price metadata, the site likely implements Product + Offer + BreadcrumbList schemas."
+    }
+  },
+  "sampleProducts": [
+    {
+      "id": "10281549",
+      "name": "LG C5 55\" OLED evo AI 4K HDR Smart TV 2025 - OLED55C54LA",
+      "url": "https://www.currys.co.uk/products/lg-c5-55-oled-evo-ai-4k-hdr-smart-tv-2025-oled55c54la-10281549.html",
+      "rawHtmlTitle": "Buy LG C5 55\" OLED evo AI 4K HDR Smart TV 2025 - OLED55C54LA | Currys",
+      "metaDescription": "Buy the LG C5 55\" OLED evo AI 4K HDR Smart TV 2025 - OLED55C54LA at Currys. Available to order online for delivery or collect in-store.",
+      "ogType": "product",
+      "ogPriceAmount": "1299.00",
+      "ogPriceCurrency": "GBP",
+      "ogImage": "https://cdn.media.amplience.net/i/currysprod/10281549?$l-large$&fmt=auto",
+      "category": "TV",
+      "breadcrumbs": ["Home", "TV & Audio", "Televisions", "All TVs"]
+    },
+    {
+      "id": "10299058",
+      "name": "SAMSUNG Galaxy Buds4 Pro Wireless Bluetooth Noise-Cancelling Earbuds - Black",
+      "url": "https://www.currys.co.uk/products/samsung-galaxy-buds4-pro-wireless-bluetooth-noisecancelling-earbuds-black-10299058.html",
+      "rawHtmlTitle": "Buy SAMSUNG Galaxy Buds4 Pro Wireless Bluetooth Noise-Cancelling Earbuds - Black | Currys",
+      "metaDescription": "Enjoy clear, balanced sound with the Galaxy Buds4 Pro. Ultra-High Quality (UHQ) audio gives your favourite albums the space to shine, handling rich de",
+      "ogType": "product",
+      "ogPriceAmount": "219.00",
+      "ogPriceCurrency": "GBP",
+      "ogImage": "https://cdn.media.amplience.net/i/currysprod/M10299058_black?$l-large$&fmt=auto",
+      "category": "Headphones",
+      "breadcrumbs": ["Home", "TV & Audio", "Headphones", "All headphones"]
+    },
+    {
+      "id": "10283696",
+      "name": "HISENSE U7Q PRO 55\" Mini LED 4K 165Hz Smart AI TV with Freely - 55U7QTUK PRO",
+      "url": "https://www.currys.co.uk/products/hisense-u7q-pro-55-mini-led-4k-165hz-smart-ai-tv-with-freely-55u7qtuk-pro-10283696.html",
+      "rawHtmlTitle": "Buy HISENSE U7Q PRO 55\" Mini LED 4K 165Hz Smart AI TV with Freely - 55U7QTUK PRO | Currys",
+      "metaDescription": "Mini LEDs deliver big drama on this Hisense U7Q PRO 55\" TV. Thousands of tiny LEDs work in harmony across hundreds of dimming zones for incredibly pre",
+      "ogType": "product",
+      "ogPriceAmount": "699.00",
+      "ogPriceCurrency": "GBP",
+      "ogImage": "https://cdn.media.amplience.net/i/currysprod/10283696?$l-large$&fmt=auto",
+      "category": "TV",
+      "breadcrumbs": ["Home", "TV & Audio", "Televisions", "All TVs"]
+    },
+    {
+      "id": "10282706",
+      "name": "SAMSUNG S90F 65\" OLED 4K Vision AI Smart TV 2025 - QE65S90F",
+      "url": "https://www.currys.co.uk/products/samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
+      "rawHtmlTitle": "Buy SAMSUNG S90F 65\" OLED 4K Vision AI Smart TV 2025 - QE65S90F | Currys",
+      "metaDescription": "The OLED display on this Samsung S90F 65\" TV brings a bit of cinema magic to your living room. Because the pixels are self-lit, the TV can accurately ",
+      "ogType": "product",
+      "ogPriceAmount": "1599.00",
+      "ogPriceCurrency": "GBP",
+      "ogImage": "https://cdn.media.amplience.net/i/currysprod/10282706?$l-large$&fmt=auto",
+      "category": "TV",
+      "breadcrumbs": ["Home", "TV & Audio", "Televisions", "All TVs"]
+    },
+    {
+      "id": "10291777",
+      "name": "SONY BRAVIA 8A 55\" OLED 4K HDR AI Smart TV - K55XR8AB",
+      "url": "https://www.currys.co.uk/products/sony-bravia-8a-55-oled-4k-hdr-ai-smart-tv-k55xr8ab-10291777.html",
+      "rawHtmlTitle": "Buy SONY BRAVIA 8A 55\" OLED 4K HDR AI Smart TV - K55XR8AB | Currys",
+      "metaDescription": "Everything looks bright and beautiful on the Sony BRAVIA 8A TV's OLED screen. A canvas of over 8 million self-lit pixels, it paints every scene with d",
+      "ogType": "product",
+      "ogPriceAmount": "1399.00",
+      "ogPriceCurrency": "GBP",
+      "ogImage": "https://cdn.media.amplience.net/i/currysprod/10291777?$l-large$&fmt=auto",
+      "category": "TV",
+      "breadcrumbs": ["Home", "TV & Audio", "Televisions", "All TVs"]
+    }
+  ]
+}

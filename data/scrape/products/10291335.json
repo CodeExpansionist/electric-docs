@@ -1,0 +1,38 @@
+{
+  "brand": "PURE",
+  "price": {
+    "current": 29.99,
+    "was": 34.99,
+    "savings": 5
+  },
+  "rating": {
+    "average": 4.9,
+    "count": 11
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/pure-elan-one-2-dabfm-bluetooth-radio-charcoal.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10291335",
+  "title": "PURE Elan One 2 DAB+/FM Bluetooth Radio - Charcoal"
+}

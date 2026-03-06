@@ -1,1 +1,130 @@
-{"id":"10248443","title":"LG 75UR78006LK 75\" Smart 4K Ultra HD HDR LED TV","brand":"LG","price":{"current":649,"was":649,"savings":0},"rating":{"average":4.7,"count":1053},"images":{"gallery":["https://media.currys.biz/i/currysprod/10248443?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10248443?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10248443_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"Sharp 4K UHD picture & AI Sound Pro with α5 AI processor"},{"icon":"","label":"Sleek & slim design"},{"icon":"","label":"Refresh rate: 60 Hz"},{"icon":"","label":"HDMI 2.0 x 3"},{"icon":"","label":"LG’s webOS gives you easy access to all your must-have apps"},{"icon":"","label":"HDR: HDR10 / Hybrid Log-Gamma (HLG)"},{"icon":"","label":"2 year guarantee"}],"flexpay":{"monthlyAmount":23.33,"months":48,"totalPayable":1119.85,"apr":"29.9%"},"careAndRepair":[{"plan":"Care & Repair","price":7.79,"period":"per month","mostPopular":true},{"plan":"Installation","price":65,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Experience stunning visuals with the LG 75UR78006LK 75\" Smart 4K Ultra HD HDR LED TV. Featuring sharp 4k uhd picture & ai sound pro with α5 ai processor, sleek & slim design, refresh rate: 60 hz, this LG TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":9.99,"standardDeliveryDays":"3-5"},"category":"TVs","energyRating":"F"}
+{
+  "id": "10248443",
+  "title": "LG 75UR78006LK 75\" Smart 4K Ultra HD HDR LED TV",
+  "brand": "LG",
+  "price": {
+    "current": 649,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 53
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10248443?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10248443?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248443_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Sharp 4K UHD picture & AI Sound Pro with α5 AI processor"
+    },
+    {
+      "icon": "",
+      "label": "Sleek & slim design"
+    },
+    {
+      "icon": "",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.0 x 3"
+    },
+    {
+      "icon": "",
+      "label": "LG's webOS gives you easy access to all your must-have apps"
+    },
+    {
+      "icon": "",
+      "label": "HDR: HDR10 / Hybrid Log-Gamma (HLG)"
+    },
+    {
+      "icon": "",
+      "label": "1 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 7.79,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {
+    "Screen size": "75\"",
+    "Resolution": "4K UHD 3840 x 2160",
+    "Panel technology": "LED",
+    "Processor": "α5 Gen6 AI Processor 4K",
+    "Refresh rate": "60 Hz",
+    "HDR": "HDR10, HLG",
+    "Smart platform": "webOS",
+    "Audio": "AI Sound 20W",
+    "HDMI": "HDMI 2.0 x 3 (eARC)",
+    "Colour": "Dark iron grey",
+    "Weight": "31.8 kg",
+    "Dimensions": "1027 x 1678 x 361 mm",
+    "Energy rating": "F (SDR) / G (HDR)",
+    "Guarantee": "1 year",
+    "Available sizes": "75\""
+  },
+  "description": {
+    "main": "This LG UR78's 4K Ultra HD resolution means your favourite blockbusters look sharp and vibrant. The α5 Gen6 AI Processor intelligently enhances picture and sound quality, while AI Sound delivers an immersive audio experience. Access all your favourite streaming apps through LG's webOS smart platform.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "1 year guarantee included",
+      "Access apps like Netflix, Disney+, NOW and Apple TV on LG's webOS smart platform",
+      "AI Sound delivers an immersive audio experience"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "energyRating": "F",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

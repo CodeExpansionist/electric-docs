@@ -1,0 +1,22 @@
+{
+  "url": "/partmaster",
+  "pageTitle": "Partmaster",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Partmaster",
+      "url": "/partmaster"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Partmaster",
+      "content": "Need a spare part or accessory for your appliance? Partmaster stocks thousands of genuine spare parts for all major brands. From vacuum cleaner bags to fridge shelves, find the part you need and get it delivered to your door.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

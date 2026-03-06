@@ -13,49 +13,77 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10272175?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_006?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10272175?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_006?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10272175?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10272175_006?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10272175?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10272175_006?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Refresh rate: 60 Hz" },
-    { "icon": "", "label": "HDMI 2.1 x 3" },
-    { "icon": "", "label": "Enjoy apps / Alexa skills / channels with Fire TV" },
-    { "icon": "", "label": "HDR: Dolby Vision / HDR10 / Hybrid Log-Gamma (HLG)" },
-    { "icon": "", "label": "Freeview HD with Freeview Play" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.1 x 3"
+    },
+    {
+      "icon": "",
+      "label": "Enjoy apps / Alexa skills / channels with Fire TV"
+    },
+    {
+      "icon": "",
+      "label": "HDR: Dolby Vision / HDR10 / Hybrid Log-Gamma (HLG)"
+    },
+    {
+      "icon": "",
+      "label": "Freeview HD with Freeview Play"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 10.56,
-    "months": 36,
-    "totalPayable": 380.05,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 2.99, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 2.99,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
   "offers": [],
   "badges": [
-    { "type": "deal", "label": "Save \u00a350" }
+    {
+      "type": "deal",
+      "label": "Save £50"
+    }
   ],
   "specifications": {},
   "description": {
@@ -76,5 +104,6 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "energyRating": "E"
+  "energyRating": "E",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

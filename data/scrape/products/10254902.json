@@ -1,0 +1,102 @@
+{
+  "id": "10254902",
+  "title": "BOSE QuietComfort Wireless Bluetooth Noise-Cancelling Headphones - Black",
+  "brand": "Bose",
+  "price": {
+    "current": 229,
+    "was": 299,
+    "savings": 70
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 487
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10254902?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10254902?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10254902_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Over-ear headphones"
+    },
+    {
+      "icon": "",
+      "label": "Active noise-cancelling with quick attention mode"
+    },
+    {
+      "icon": "",
+      "label": "Battery life:"
+    },
+    {
+      "icon": "",
+      "label": "Noise-cancelling mics for clear calls"
+    },
+    {
+      "icon": "",
+      "label": "Microphone / volume / playback & functions control"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 2.75,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Enjoy premium audio with the BOSE QuietComfort Wireless Bluetooth Noise-Cancelling Headphones - Black. Featuring over-ear headphones, active noise-cancelling with quick attention mode, battery life:, these headphones deliver exceptional sound quality for music, calls, and entertainment.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Headphones",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

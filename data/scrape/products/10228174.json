@@ -13,14 +13,14 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10228174?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10228174_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10228174_002?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10228174?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10228174_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10228174_002?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10228174?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10228174_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10228174_002?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10228174?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10228174_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10228174_002?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
@@ -42,7 +42,6 @@
       "label": "Supports surround sound"
     }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],

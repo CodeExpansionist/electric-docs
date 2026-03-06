@@ -4,8 +4,8 @@
   "brand": "Sony",
   "price": {
     "current": 1499,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.7,
@@ -13,49 +13,65 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10264112?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10264112?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10264112?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10264112_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10264112?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10264112_010?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Screen size: 55\"" },
-    { "icon": "", "label": "Resolution: 4K Ultra HD 3840 x 2160p" },
-    { "icon": "", "label": "HDR: Dolby Vision, HDR10" },
-    { "icon": "", "label": "Refresh rate: 120 Hz" },
-    { "icon": "", "label": "Audio power: 40 W" },
-    { "icon": "", "label": "Bluetooth 5.3" }
+    {
+      "icon": "",
+      "label": "Screen size: 55\""
+    },
+    {
+      "icon": "",
+      "label": "Resolution: 4K Ultra HD 3840 x 2160p"
+    },
+    {
+      "icon": "",
+      "label": "HDR: Dolby Vision, HDR10"
+    },
+    {
+      "icon": "",
+      "label": "Refresh rate: 120 Hz"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 40 W"
+    },
+    {
+      "icon": "",
+      "label": "Bluetooth 5.3"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 62.46,
-    "months": 24,
-    "totalPayable": 1499,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Installation", "price": 65, "period": "One-time fee" }
+    {
+      "plan": "Installation",
+      "price": 65,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -63,7 +79,7 @@
   "badges": [],
   "specifications": {},
   "description": {
-    "main": "The Sony BRAVIA 7 brings a bit of that big screen magic to your living room with its QLED XR Mini LED display. Thousands of mini LEDs are packed into the screen, all precisely controlled by the XR Backlight Master Drive. This translates to impressively deep blacks, subtle shadow details, and luminous highlights in every scene. It's the very same tech that's used for Sony's pro monitors in Tinseltown. Sony have teamed up with some of the world's top streaming studios to develop calibrated modes for the likes of Netflix and Prime Video. You'll be able to enjoy movies just as the creators intended, without playing around in the settings menu. Plus, sound is in perfect sync with Acoustic Multi-Audio. It turns the screen into a speaker \u2013 literally \u2013 with sound coming from where the action is happening. Even in a hectic battle scene, you'll be able to pinpoint the clash of swords.",
+    "main": "The Sony BRAVIA 7 brings a bit of that big screen magic to your living room with its QLED XR Mini LED display. Thousands of mini LEDs are packed into the screen, all precisely controlled by the XR Backlight Master Drive. This translates to impressively deep blacks, subtle shadow details, and luminous highlights in every scene. It's the very same tech that's used for Sony's pro monitors in Tinseltown. Sony have teamed up with some of the world's top streaming studios to develop calibrated modes for the likes of Netflix and Prime Video. You'll be able to enjoy movies just as the creators intended, without playing around in the settings menu. Plus, sound is in perfect sync with Acoustic Multi-Audio. It turns the screen into a speaker – literally – with sound coming from where the action is happening. Even in a hectic battle scene, you'll be able to pinpoint the clash of swords.",
     "goodToKnow": [
       "The XR Processor intelligently analyses and recognises what's on the screen for better realism",
       "For brightness across the screen and brilliant colours, there's XR Triluminous Pro and XR Contrast Booster",
@@ -78,5 +94,6 @@
     "nextDayDeliveryPrice": 5.99,
     "standardDeliveryDays": "3-5"
   },
-  "category": "TVs"
+  "category": "TVs",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

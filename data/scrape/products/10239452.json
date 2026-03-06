@@ -1,0 +1,38 @@
+{
+  "brand": "GROOV-E",
+  "price": {
+    "current": 43.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.3,
+    "count": 22
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/groove-roma-gvcr03-dabfm-clock-radio-black.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10239452",
+  "title": "GROOV-E Roma GV-CR03 DAB/FM Clock Radio - Black"
+}

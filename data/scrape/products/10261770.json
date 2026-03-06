@@ -1,1 +1,76 @@
-{"id":"10261770","title":"BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa & Bass Module 700 (White) Bundle","brand":"Bose","price":{"current":1698,"was":0,"savings":0},"rating":{"average":4.7,"count":35},"images":{"gallery":["https://media.currys.biz/i/currysprod/10261770?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10261770_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10261770_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10261770_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10261770_004?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10261770?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10261770_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10261770_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10261770_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10261770_004?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Dolby Atmos"},{"icon":"","label":"Chromecast built-in"},{"icon":"","label":"HDMI / Optical"},{"icon":"","label":"2 year guarantee"}],"flexpay":{"monthlyAmount":68.81,"months":36,"totalPayable":2477.16,"apr":"29.9%"},"careAndRepair":[{"plan":"Breakdown support","price":3,"period":"per month"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Bring the cinema home with the Bose Smart Ultra 5.1.2 Soundbar. Loaded with Dolby Atmos for epic 3D spatial sound.","goodToKnow":["HDMI eARC or optical audio connections","SimpleSync technology","Amazon Alexa built in"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":4.99},"category":"Soundbars"}
+{
+  "id": "10261770",
+  "title": "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa & Bass Module 700 (White) Bundle",
+  "brand": "Bose",
+  "price": {
+    "current": 1698,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 0
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10261770?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261770_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261770_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261770_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261770_004?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10261770?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261770_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261770_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261770_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10261770_004?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Dolby Atmos"
+    },
+    {
+      "icon": "",
+      "label": "Chromecast built-in"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Breakdown support",
+      "price": 3,
+      "period": "per month"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Bring the cinema home with the Bose Smart Ultra 5.1.2 Soundbar. Loaded with Dolby Atmos for epic 3D spatial sound.",
+    "goodToKnow": [
+      "HDMI eARC or optical audio connections",
+      "SimpleSync technology",
+      "Amazon Alexa built in"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 4.99
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

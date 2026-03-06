@@ -4,8 +4,8 @@
   "brand": "One For All",
   "price": {
     "current": 14.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 3.9,
@@ -13,28 +13,31 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10165934?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10165934_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10165934_003?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10165934?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10165934_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10165934_003?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10165934?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10165934_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10165934_003?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10165934?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10165934_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10165934_003?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
-    { "icon": "", "label": "Non amplified indoor aerial" },
-    { "icon": "", "label": "Maximum signal range: 3 miles" },
-    { "icon": "", "label": "Optimised for HD digital TV & DAB radio" }
+    {
+      "icon": "",
+      "label": "Non amplified indoor aerial"
+    },
+    {
+      "icon": "",
+      "label": "Maximum signal range: 3 miles"
+    },
+    {
+      "icon": "",
+      "label": "Optimised for HD digital TV & DAB radio"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 0,
-    "months": 0,
-    "totalPayable": 0,
-    "apr": ""
-  },
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [
@@ -42,13 +45,13 @@
       "category": "Batteries",
       "title": "DURACELL Plus AA Alkaline Batteries - Pack of 8",
       "price": 6.66,
-      "image": "https://media.currys.biz/i/currysprod/10230769?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10230769?$s-swatch$&fmt=auto"
     },
     {
       "category": "Remote controls",
       "title": "ONE FOR ALL Essence TV URC1211 Universal Remote Control",
       "price": 12.99,
-      "image": "https://media.currys.biz/i/currysprod/10249289?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10249289?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -88,5 +91,6 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "TV Accessories"
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

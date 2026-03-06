@@ -1,1 +1,70 @@
-{"id":"10143726","title":"PANASONIC DMP-BDT167EB Smart 3D Blu-ray & DVD Player","brand":"Panasonic","price":{"current":79.99,"was":null,"savings":null},"rating":{"average":4.6,"count":1023},"images":{"gallery":["https://media.currys.biz/i/currysprod/10143726?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_006?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10143726?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10143726_006?$t-thumbnail$&fmt=auto"],"video":"https://flv.isitetv.com/media/video/2544/ol_video_img_url__268352_2544.jpg"},"keySpecs":[{"icon":"disc","label":"Plays Blu-ray discs / DVDs"},{"icon":"smart","label":"Catch-up TV & Streaming"},{"icon":"connectivity","label":"Ethernet"}],"flexpay":null,"careAndRepair":[],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Watch your favourite Blu-rays and DVDs in style with 3D playback and smart options using the Panasonic DMP-BDT167EB Smart 3D Blu-ray and DVD Player. The DMP-BDT167EB allows you to access a range of apps, catch-up TV and on-demand services such as BBC iPlayer, YouTube and Netflix to enhance your entertainment options.","goodToKnow":["Compatible with standard definition DVDs to HD resolution.","Direct access to USB content.","1-year manufacturer's guarantee."]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":5.99},"category":"DVD Blu-ray"}
+{
+  "id": "10143726",
+  "title": "PANASONIC DMP-BDT167EB Smart 3D Blu-ray & DVD Player",
+  "brand": "Panasonic",
+  "price": {
+    "current": 79.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.6,
+    "count": 1023
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10143726?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_006?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10143726?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10143726_006?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__268352_2544.jpg"
+  },
+  "keySpecs": [
+    {
+      "icon": "disc",
+      "label": "Plays Blu-ray discs / DVDs"
+    },
+    {
+      "icon": "smart",
+      "label": "Catch-up TV & Streaming"
+    },
+    {
+      "icon": "connectivity",
+      "label": "Ethernet"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Watch your favourite Blu-rays and DVDs in style with 3D playback and smart options using the Panasonic DMP-BDT167EB Smart 3D Blu-ray and DVD Player. The DMP-BDT167EB allows you to access a range of apps, catch-up TV and on-demand services such as BBC iPlayer, YouTube and Netflix to enhance your entertainment options.",
+    "goodToKnow": [
+      "Compatible with standard definition DVDs to HD resolution.",
+      "Direct access to USB content.",
+      "1-year manufacturer's guarantee."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "DVD Blu-ray",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

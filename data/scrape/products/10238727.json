@@ -1,0 +1,97 @@
+{
+  "id": "10238727",
+  "title": "SONOS Ray Compact Sound Bar - White",
+  "brand": "Sonos",
+  "price": {
+    "current": 199,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 60
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10238727?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10238727?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10238727_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Number of speakers:"
+    },
+    {
+      "icon": "",
+      "label": "Supports High-Resolution Audio"
+    },
+    {
+      "icon": "",
+      "label": "Compatible with SONOS multi-room"
+    },
+    {
+      "icon": "",
+      "label": "Optical"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Upgrade your audio with the SONOS Ray Compact Sound Bar - White. With number of speakers:, supports high-resolution audio, compatible with sonos multi-room, this soundbar brings cinematic sound quality to your living room.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

@@ -4,51 +4,68 @@
   "brand": "Freesat",
   "price": {
     "current": 229.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.3,
-    "count": 4130
+    "count": 131
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10207036?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10207036?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10207036?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10207036_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10207036?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10207036_010?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__225798_2544.jpg?m=2544&r=1048&t=1"
   },
   "keySpecs": [
-    { "icon": "", "label": "Up to 250 hours recording" },
-    { "icon": "", "label": "Catch-up TV & 4K Streaming" },
-    { "icon": "", "label": "WiFi / Ethernet" },
-    { "icon": "", "label": "Pause / rewind / record live TV" },
-    { "icon": "", "label": "Series Link - record an entire series" },
-    { "icon": "", "label": "HDMI / USB" }
+    {
+      "icon": "",
+      "label": "Up to 250 hours recording"
+    },
+    {
+      "icon": "",
+      "label": "Catch-up TV & 4K Streaming"
+    },
+    {
+      "icon": "",
+      "label": "WiFi / Ethernet"
+    },
+    {
+      "icon": "",
+      "label": "Pause / rewind / record live TV"
+    },
+    {
+      "icon": "",
+      "label": "Series Link - record an entire series"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / USB"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -68,5 +85,6 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "Digital Smart TV"
+  "category": "Digital & Smart TV",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

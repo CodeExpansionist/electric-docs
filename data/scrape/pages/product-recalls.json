@@ -1,0 +1,27 @@
+{
+  "url": "/product-recalls",
+  "pageTitle": "Product recalls",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Product recalls",
+      "url": "/product-recalls"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Current product recalls",
+      "content": "We take product safety seriously. This page lists any current product recalls affecting items sold through Electriz. If you own an affected product, please follow the instructions provided.",
+      "type": "text"
+    },
+    {
+      "heading": "What to do",
+      "content": "Stop using the product immediately and follow the recall instructions. You may be entitled to a repair, replacement, or refund depending on the specific recall.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

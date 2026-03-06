@@ -4,39 +4,39 @@
   "brand": "Apple",
   "price": {
     "current": 119,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.8,
-    "count": 749
+    "count": 751
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10270517?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_007?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10270517?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_007?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10270517?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10270517_007?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10270517?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10270517_007?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
     {
-      "icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-pound.svg",
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-pound.svg",
       "label": "True wireless earbuds"
     },
     {
@@ -56,12 +56,6 @@
       "label": "Microphone / playback & functions control"
     }
   ],
-  "flexpay": {
-    "monthlyAmount": 4.82,
-    "months": 36,
-    "totalPayable": 173.52,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
     {
       "plan": "Instant Replacement",
@@ -88,7 +82,7 @@
       "category": "Accessories",
       "title": "APPLE Lightning to USB cable - 1 m",
       "price": 19,
-      "image": "https://media.currys.biz/i/currysprod/10182600?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/10182600?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -110,5 +104,6 @@
     "freeDelivery": true,
     "standardDeliveryPrice": 0,
     "nextDayDeliveryPrice": 5.99
-  }
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

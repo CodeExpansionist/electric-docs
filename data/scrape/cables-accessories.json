@@ -1,0 +1,3238 @@
+{
+  "categoryName": "Cables & Accessories",
+  "categorySlug": "tv-accessories/cables-and-accessories",
+  "url": "https://www.currys.co.uk/tv-and-audio/tv-accessories/cables-and-accessories",
+  "scrapedAt": "2026-03-06T15:51:31.171Z",
+  "totalProducts": 107,
+  "siteReportedTotal": 107,
+  "filters": [
+    {
+      "name": "Delivery and Collection",
+      "options": [
+        {
+          "label": "Delivery available",
+          "count": 84
+        },
+        {
+          "label": "Collect from store",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "name": "By Price",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 65
+        },
+        {
+          "label": "£40 to £59.99",
+          "count": 14
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 18
+        },
+        {
+          "label": "£100 to £499",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "name": "By Brand",
+      "options": [
+        {
+          "label": "SANDSTROM",
+          "count": 22
+        },
+        {
+          "label": "LOGIK",
+          "count": 15
+        },
+        {
+          "label": "IFI",
+          "count": 12
+        },
+        {
+          "label": "J5CREATE",
+          "count": 10
+        },
+        {
+          "label": "VIVANCO",
+          "count": 10
+        },
+        {
+          "label": "AUSTERE",
+          "count": 8
+        },
+        {
+          "label": "ESSENTIALS",
+          "count": 7
+        },
+        {
+          "label": "STARLINK",
+          "count": 6
+        },
+        {
+          "label": "LABGEAR",
+          "count": 5
+        },
+        {
+          "label": "ONE FOR ALL",
+          "count": 4
+        },
+        {
+          "label": "TWELVE SOUTH",
+          "count": 3
+        },
+        {
+          "label": "BELKIN",
+          "count": 2
+        },
+        {
+          "label": "ATEN",
+          "count": 1
+        },
+        {
+          "label": "HAMA",
+          "count": 1
+        },
+        {
+          "label": "VERBATIM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Customer Rating",
+      "options": [
+        {
+          "label": "5.0 out of 5 stars",
+          "count": 18
+        },
+        {
+          "label": "4.0 out of 5 stars",
+          "count": 55
+        },
+        {
+          "label": "3.0 out of 5 stars",
+          "count": 61
+        },
+        {
+          "label": "2.0 out of 5 stars",
+          "count": 61
+        },
+        {
+          "label": "1.0 out of 5 stars",
+          "count": 61
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "options": [
+        {
+          "label": "HDMI cables",
+          "count": 39
+        },
+        {
+          "label": "Adapters & splitters",
+          "count": 34
+        },
+        {
+          "label": "Aerial cables",
+          "count": 14
+        },
+        {
+          "label": "Audio visual cables",
+          "count": 8
+        },
+        {
+          "label": "Audio cables",
+          "count": 5
+        },
+        {
+          "label": "Optical cables",
+          "count": 2
+        },
+        {
+          "label": "Satellite cables",
+          "count": 2
+        },
+        {
+          "label": "SCART cables",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Length",
+      "options": [
+        {
+          "label": "1.5 m",
+          "count": 9
+        },
+        {
+          "label": "10 m or more",
+          "count": 10
+        },
+        {
+          "label": "1 m",
+          "count": 8
+        },
+        {
+          "label": "2 m",
+          "count": 17
+        },
+        {
+          "label": "3 m",
+          "count": 9
+        },
+        {
+          "label": "4 m",
+          "count": 2
+        },
+        {
+          "label": "5 m",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "options": [
+        {
+          "label": "Black",
+          "count": 68
+        },
+        {
+          "label": "Blue",
+          "count": 1
+        },
+        {
+          "label": "Cream",
+          "count": 4
+        },
+        {
+          "label": "Gold",
+          "count": 2
+        },
+        {
+          "label": "Orange",
+          "count": 1
+        },
+        {
+          "label": "Red",
+          "count": 1
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 15
+        },
+        {
+          "label": "White",
+          "count": 26
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "ESSENTIALS C2HDMI24 High Speed HDMI Cable - 2 m",
+      "url": "/products/essentials-c2hdmi24-high-speed-hdmi-cable-2-m-10249243.html",
+      "productId": "10249243",
+      "brand": "ESSENTIALS",
+      "price": {
+        "current": 9.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 8
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10249243?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Protective mesh coating",
+        "Nickel-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "ESSENTIALS C1HDMI24 High Speed HDMI Cable - 1 m",
+      "url": "/products/essentials-c1hdmi24-high-speed-hdmi-cable-1-m-10249242.html",
+      "productId": "10249242",
+      "brand": "ESSENTIALS",
+      "price": {
+        "current": 7.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10249242?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Protective mesh coating",
+        "Nickel-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "url": "/products/sandstrom-black-series-s1opt114x-digital-optical-cable-1-m-21948996.html",
+      "productId": "21948996",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 14.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 72
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/21948996?$g-small$&fmt=auto",
+      "specs": [
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "STARLINK Standard Wall Mount",
+      "url": "/products/starlink-standard-wall-mount-10271193.html",
+      "productId": "10271193",
+      "brand": "STARLINK",
+      "price": {
+        "current": 83,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 4
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10271193?$g-small$&fmt=auto",
+      "specs": [
+        "For Starlink Standard Kit and High Performance Kit",
+        "Material: Steel",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m",
+      "url": "/products/logik-l35rca23-rca-to-3.5-mm-audio-cable-1.5-m-10234488.html",
+      "productId": "10234488",
+      "brand": "LOGIK",
+      "price": {
+        "current": 6.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 4
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10234488?$g-small$&fmt=auto",
+      "specs": [
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Gold Series S2HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 2 m",
+      "url": "/products/sandstrom-gold-series-s2hdmi321-ultra-high-speed-hdmi-2.1-cable-with-ethernet-2-m-10218583.html",
+      "productId": "10218583",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 39.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 32
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10218583?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K@60 / 4K@120 Hz / HDR",
+        "Up to 48 Gbps",
+        "4-layer shielding",
+        "Oxygen free copper wire for minimal data loss",
+        "Protective mesh coating",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L15RCA223 2x RCA Cable - 1.5 m",
+      "url": "/products/logik-l15rca223-2x-rca-cable-1.5-m-10234487.html",
+      "productId": "10234487",
+      "brand": "LOGIK",
+      "price": {
+        "current": 9.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 3
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10234487?$g-small$&fmt=auto",
+      "specs": [
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM SHDSW18 5-Port HDMI Switch Box",
+      "url": "/products/sandstrom-shdsw18-5port-hdmi-switch-box-10175043.html",
+      "productId": "10175043",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 49.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 57
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10175043?$g-small$&fmt=auto",
+      "specs": [
+        "HDMI inputs x 5",
+        "Includes remote control"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m",
+      "url": "/products/sandstrom-black-series-s2aer114x-aerial-cable-and-adapter-2-m-21948968.html",
+      "productId": "21948968",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 14.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 45
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/21948968?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L5HDM23 High Speed HDMI Cable - 5 m",
+      "url": "/products/logik-l5hdm23-high-speed-hdmi-cable-5-m-10234485.html",
+      "productId": "10234485",
+      "brand": "LOGIK",
+      "price": {
+        "current": 24.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10234485?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 1 m",
+      "url": "/products/sandstrom-gold-series-s1hdmi321-ultra-high-speed-hdmi-2.1-cable-with-ethernet-1-m-10218648.html",
+      "productId": "10218648",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 34.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 32
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10218648?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K@60 / 4K@120 Hz / HDR",
+        "Up to 48 Gbps",
+        "4-layer shielding",
+        "Oxygen free copper wire for minimal data loss",
+        "Protective mesh coating",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM S35RCA23 RCA to 3.5 mm Audio Cable - 1.8 m",
+      "url": "/products/sandstrom-s35rca23-rca-to-3.5-mm-audio-cable-1.8-m-10236884.html",
+      "productId": "10236884",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 10.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10236884?$g-small$&fmt=auto",
+      "specs": [
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK LHDSW19 3-Port HDMI Switch",
+      "url": "/products/logik-lhdsw19-3port-hdmi-switch-10185059.html",
+      "productId": "10185059",
+      "brand": "LOGIK",
+      "price": {
+        "current": 29.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 125
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10185059?$g-small$&fmt=auto",
+      "specs": [
+        "HDMI inputs x 3",
+        "Includes remote control"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L15SAC23 Audio Cable - 1.5 m",
+      "url": "/products/logik-l15sac23-audio-cable-1.5-m-10234489.html",
+      "productId": "10234489",
+      "brand": "LOGIK",
+      "price": {
+        "current": 6.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10234489?$g-small$&fmt=auto",
+      "specs": [
+        "Secure fit",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "STARLINK Mini Wall Mount",
+      "url": "/products/starlink-mini-wall-mount-10274394.html",
+      "productId": "10274394",
+      "brand": "STARLINK",
+      "price": {
+        "current": 70,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10274394?$g-small$&fmt=auto",
+      "specs": [
+        "Compatible with Starlink Mini",
+        "Material: Steel",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM S2HDMC125 USB Type-C to HDMI Cable - 2 m",
+      "url": "/products/sandstrom-s2hdmc125-usb-typec-to-hdmi-cable-2-m-10256960.html",
+      "productId": "10256960",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 44.99,
+        "was": 49.99,
+        "savings": "Save £5.00"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10256960?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "3-layer shielding",
+        "Secure fit",
+        "Low levels of data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series S2HDM115 High Speed HDMI Cable with Ethernet - 2 m",
+      "url": "/products/sandstrom-black-series-s2hdm115-high-speed-hdmi-cable-with-ethernet-2-m-10132172.html",
+      "productId": "10132172",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 24.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 45
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10132172?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "2-layer shielding",
+        "Low levels of data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L15DOC23 Digital Optical Cable - 1.5 m",
+      "url": "/products/logik-l15doc23-digital-optical-cable-1.5-m-10234484.html",
+      "productId": "10234484",
+      "brand": "LOGIK",
+      "price": {
+        "current": 11.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 206
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10234484?$g-small$&fmt=auto",
+      "specs": [
+        "Secure fit",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Gold Series S3HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 3 m",
+      "url": "/products/sandstrom-gold-series-s3hdmi321-ultra-high-speed-hdmi-2.1-cable-with-ethernet-3-m-10218584.html",
+      "productId": "10218584",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 49.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 32
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10218584?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K@60 / 4K@120 Hz / HDR",
+        "Up to 48 Gbps",
+        "4-layer shielding",
+        "Oxygen free copper wire for minimal data loss",
+        "Protective mesh coating",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series Digital Optical Cable - 3 m",
+      "url": "/products/sandstrom-black-series-digital-optical-cable-3-m-21948997.html",
+      "productId": "21948997",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 23.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 6
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/21948997?$g-small$&fmt=auto",
+      "specs": [
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "TWELVE SOUTH AirFly SE Bluetooth Audio Transmitter - White",
+      "url": "/products/twelve-south-airfly-se-bluetooth-audio-transmitter-white-10275910.html",
+      "productId": "10275910",
+      "brand": "TWELVE SOUTH",
+      "price": {
+        "current": 39.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10275910?$g-small$&fmt=auto",
+      "specs": [
+        "Compatible with Bluetooth headphones"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series S3HDM115 High Speed HDMI Cable with Ethernet - 3 m",
+      "url": "/products/sandstrom-black-series-s3hdm115-high-speed-hdmi-cable-with-ethernet-3-m-10132209.html",
+      "productId": "10132209",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 29.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 45
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10132209?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "2-layer shielding",
+        "Low levels of data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK Satellite F Plug Cable - 4 m",
+      "url": "/products/logik-satellite-f-plug-cable-4-m-10119453.html",
+      "productId": "10119453",
+      "brand": "LOGIK",
+      "price": {
+        "current": 9.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 27
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10119453?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Protective mesh coating",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L2AERA15 Male Aerial Cable - 2 m",
+      "url": "/products/logik-l2aera15-male-aerial-cable-2-m-10119436.html",
+      "productId": "10119436",
+      "brand": "LOGIK",
+      "price": {
+        "current": 10.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 133
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10119436?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Protective mesh coating",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L2HDINT23 High Speed HDMI Cable - 2 m",
+      "url": "/products/logik-l2hdint23-high-speed-hdmi-cable-2-m-10234486.html",
+      "productId": "10234486",
+      "brand": "LOGIK",
+      "price": {
+        "current": 13.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10234486?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD at 30 Hz",
+        "Up to 10.2 Gbps",
+        "3-layer shielding"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "ESSENTIALS C1AER24 Male to Male Aerial Cable - 1 m",
+      "url": "/products/essentials-c1aer24-male-to-male-aerial-cable-1-m-10249240.html",
+      "productId": "10249240",
+      "brand": "ESSENTIALS",
+      "price": {
+        "current": 14.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10249240?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Nickel-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM S2HDMI324 High Speed HDMI Cable with Ethernet - 2 m",
+      "url": "/products/sandstrom-s2hdmi324-high-speed-hdmi-cable-with-ethernet-2-m-10248592.html",
+      "productId": "10248592",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 37.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 3
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10248592?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 21 Gbps",
+        "3-layer shielding",
+        "Secure fit",
+        "Oxygen free copper wire for minimal data loss",
+        "Protective mesh coating",
+        "Gold-plated connector",
+        "Lifetime guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L10AERK15 Aerial Cable with Splitter & Adapter - 10 m",
+      "url": "/products/logik-l10aerk15-aerial-cable-with-splitter-and-adapter-10-m-10119437.html",
+      "productId": "10119437",
+      "brand": "LOGIK",
+      "price": {
+        "current": 17.49,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 27
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10119437?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Protective mesh coating",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM SHDMAD119 HDMI to HDMI L-Shaped Adapter Set",
+      "url": "/products/sandstrom-shdmad119-hdmi-to-hdmi-lshaped-adapter-set-10187487.html",
+      "productId": "10187487",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 14.99,
+        "was": 16.99,
+        "savings": "Save £2.00"
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 20
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10187487?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Secure fit",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "ESSENTIALS CAERPL24 Male Aerial Plug - Pack of 2",
+      "url": "/products/essentials-caerpl24-male-aerial-plug-pack-of-2-10249238.html",
+      "productId": "10249238",
+      "brand": "ESSENTIALS",
+      "price": {
+        "current": 9.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10249238?$g-small$&fmt=auto",
+      "specs": [
+        "Nickel-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series Aerial Cable & Adapter - 5 m",
+      "url": "/products/sandstrom-black-series-aerial-cable-and-adapter-5-m-21948977.html",
+      "productId": "21948977",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 16.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 45
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/21948977?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "ESSENTIALS C1SCT15 SCART Cable - 1 m",
+      "url": "/products/essentials-c1sct15-scart-cable-1-m-10115697.html",
+      "productId": "10115697",
+      "brand": "ESSENTIALS",
+      "price": {
+        "current": 9.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 49
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10115697?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Nickel-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "ESSENTIALS CAERSP15 Aerial Splitter",
+      "url": "/products/essentials-caersp15-aerial-splitter-10249241.html",
+      "productId": "10249241",
+      "brand": "ESSENTIALS",
+      "price": {
+        "current": 9.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.1,
+        "count": 31
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10249241?$g-small$&fmt=auto",
+      "specs": [
+        "Nickel-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM S1HDM225 High Speed HDMI Cable with Ethernet - 1 m",
+      "url": "/products/sandstrom-s1hdm225-high-speed-hdmi-cable-with-ethernet-1-m-10256961.html",
+      "productId": "10256961",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 29.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10256961?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "3-layer shielding",
+        "Secure fit",
+        "Low levels of data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM S2HDM225 High Speed HDMI Cable with Ethernet - 2 m",
+      "url": "/products/sandstrom-s2hdm225-high-speed-hdmi-cable-with-ethernet-2-m-10257294.html",
+      "productId": "10257294",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 34.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 45
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10257294?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "3-layer shielding",
+        "Secure fit",
+        "Low levels of data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "STARLINK Standard Pivot Mount",
+      "url": "/products/starlink-standard-pivot-mount-10271192.html",
+      "productId": "10271192",
+      "brand": "STARLINK",
+      "price": {
+        "current": 90,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10271192?$g-small$&fmt=auto",
+      "specs": [
+        "For Starlink Standard Kit and High Performance Kit",
+        "Material: Steel",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "ESSENTIALS CSATPL15 Twist F Plug Adapters",
+      "url": "/products/essentials-csatpl15-twist-f-plug-adapters-10115760.html",
+      "productId": "10115760",
+      "brand": "ESSENTIALS",
+      "price": {
+        "current": 3.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3.6,
+        "count": 8
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10115760?$g-small$&fmt=auto",
+      "specs": [
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series S5HDM115 High Speed HDMI Cable with Ethernet - 5 m",
+      "url": "/products/sandstrom-black-series-s5hdm115-high-speed-hdmi-cable-with-ethernet-5-m-10132208.html",
+      "productId": "10132208",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 34.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 45
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10132208?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "2-layer shielding",
+        "Low levels of data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "ONE FOR ALL CC5030 Premium High Speed HDMI Cable with Ethernet - 3 m",
+      "url": "/products/one-for-all-cc5030-premium-high-speed-hdmi-cable-with-ethernet-3-m-10273404.html",
+      "productId": "10273404",
+      "brand": "ONE FOR ALL",
+      "price": {
+        "current": 24.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10273404?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "4-layer shielding",
+        "Protective mesh coating",
+        "Gold-plated connector",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Free delivery available on computing accessories"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "STARLINK Standard Extender Cable - 45 m",
+      "url": "/products/starlink-standard-extender-cable-45-m-10271744.html",
+      "productId": "10271744",
+      "brand": "STARLINK",
+      "price": {
+        "current": 130,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 3
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10271744?$g-small$&fmt=auto",
+      "specs": [
+        "For Starlink Standard Kit and High Performance Kit",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "STARLINK Standard Pipe Adapter Mount",
+      "url": "/products/starlink-standard-pipe-adapter-mount-10271174.html",
+      "productId": "10271174",
+      "brand": "STARLINK",
+      "price": {
+        "current": 56,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 3
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10271174?$g-small$&fmt=auto",
+      "specs": [
+        "For Starlink Standard Kit and High Performance Kit",
+        "Material: Steel",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE ScreenCast JVAW75-N 4K Wireless HDMI Display Extender",
+      "url": "/products/j5create-screencast-jvaw75n-4k-wireless-hdmi-display-extender-10287767.html",
+      "productId": "10287767",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 94.99,
+        "was": 123,
+        "savings": "Save £28.01"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287767?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD at 30 Hz"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "ONE FOR ALL CC5015 Premium High Speed HDMI Cable with Ethernet - 1.5 m",
+      "url": "/products/one-for-all-cc5015-premium-high-speed-hdmi-cable-with-ethernet-1.5-m-10273552.html",
+      "productId": "10273552",
+      "brand": "ONE FOR ALL",
+      "price": {
+        "current": 14.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 5
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10273552?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD at 60 Hz & HDR",
+        "Up to 18 Gbps",
+        "4-layer shielding",
+        "Protective mesh coating",
+        "Gold-plated connector",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Free delivery available on computing accessories"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "VERBATIM 49143 USB Type-C to HDMI Adapter",
+      "url": "/products/verbatim-49143-usb-typec-to-hdmi-adapter-10268073.html",
+      "productId": "10268073",
+      "brand": "VERBATIM",
+      "price": {
+        "current": 16.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10268073?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD at 60 Hz"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE JCA399 USB Type-C to HDMI Adapter",
+      "url": "/products/j5create-jca399-usb-typec-to-hdmi-adapter-10287729.html",
+      "productId": "10287729",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 35.99,
+        "was": 42.99,
+        "savings": "Save £7.00"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287729?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE JCA465-N USB Type-C to HDMI Gaming Adapter",
+      "url": "/products/j5create-jca465n-usb-typec-to-hdmi-gaming-adapter-10287728.html",
+      "productId": "10287728",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 53.99,
+        "was": 67.99,
+        "savings": "Save £14.00"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287728?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K@60 Hz",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "ONE FOR ALL CC5215 Ultra High Speed HDMI Cable - 1.5 m",
+      "url": "/products/one-for-all-cc5215-ultra-high-speed-hdmi-cable-1.5-m-10273547.html",
+      "productId": "10273547",
+      "brand": "ONE FOR ALL",
+      "price": {
+        "current": 24.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10273547?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K@60 / 4K@120 Hz / HDR",
+        "Up to 48 Gbps",
+        "4-layer shielding",
+        "Protective mesh coating",
+        "Gold-plated connector",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Free delivery available on computing accessories"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "ONE FOR ALL CC5230 Ultra High Speed HDMI Cable - 3 m",
+      "url": "/products/one-for-all-cc5230-ultra-high-speed-hdmi-cable-3-m-10273548.html",
+      "productId": "10273548",
+      "brand": "ONE FOR ALL",
+      "price": {
+        "current": 34.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10273548?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K@60 / 4K@120 Hz / HDR",
+        "Up to 48 Gbps",
+        "4-layer shielding",
+        "Protective mesh coating",
+        "Gold-plated connector",
+        "3 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Free delivery available on computing accessories",
+        "Delivery available"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE ScreenCast JVAW56-N HDMI to USB Display Adapter",
+      "url": "/products/j5create-screencast-jvaw56n-hdmi-to-usb-display-adapter-10287772.html",
+      "productId": "10287772",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 34.99,
+        "was": 37.99,
+        "savings": "Save £3.00"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287772?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for Full HD 1080p"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE ScreenCast 4K JVAW76-N HDMI to USB Display Adapter",
+      "url": "/products/j5create-screencast-4k-jvaw76n-hdmi-to-usb-display-adapter-10287771.html",
+      "productId": "10287771",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 54.99,
+        "was": 63.99,
+        "savings": "Save £9.00"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287771?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD at 30 Hz"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "LABGEAR HDM 15E/03 High Speed HDMI Cable with Ethernet - 15 m",
+      "url": "/products/labgear-hdm-15e03-high-speed-hdmi-cable-with-ethernet-15-m-10151191.html",
+      "productId": "10151191",
+      "brand": "LABGEAR",
+      "price": {
+        "current": 34.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 6
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10151191?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Oxygen free copper wire for minimal data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "ATEN VM0202HB True 4K HDR HDMI 2x2 Matrix Switch with Audio De-Embedding",
+      "url": "/products/aten-vm0202hb-true-4k-hdr-hdmi-2%C3%972-matrix-switch-with-audio-de%E2%80%91embedding-10297914.html",
+      "productId": "10297914",
+      "brand": "ATEN",
+      "price": {
+        "current": 266,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10297914?$g-small$&fmt=auto",
+      "specs": [],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "LABGEAR HDM 20E/03 High Speed HDMI Cable with Ethernet - 20 m",
+      "url": "/products/labgear-hdm-20e03-high-speed-hdmi-cable-with-ethernet-20-m-10151192.html",
+      "productId": "10151192",
+      "brand": "LABGEAR",
+      "price": {
+        "current": 39.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 6
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10151192?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Oxygen free copper wire for minimal data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "BELKIN Connect AVC013BTBK USB-C to HDMI Adapter",
+      "url": "/products/belkin-connect-avc013btbk-usbc-to-hdmi-adapter-10249699.html",
+      "productId": "10249699",
+      "brand": "BELKIN",
+      "price": {
+        "current": 39.99,
+        "was": 49.99,
+        "savings": "Save £10.00"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10249699?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K@60 / 4K@144 Hz / HDR",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "AUSTERE III Series Active Premium High Speed HDMI Cable - 5 m",
+      "url": "/products/austere-iii-series-active-premium-high-speed-hdmi-cable-5-m-10209537.html",
+      "productId": "10209537",
+      "brand": "AUSTERE",
+      "price": {
+        "current": 129,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10209537?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "Gold-plated connector",
+        "Limited lifetime guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iPower2 Power Supply Adapter - 1.2Amps",
+      "url": "/products/ifi-ipower2-power-supply-adapter-1.2amps-10279961.html",
+      "productId": "10279961",
+      "brand": "IFI",
+      "price": {
+        "current": 78.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279961?$g-small$&fmt=auto",
+      "specs": [
+        "Power: 18 W",
+        "Compatible with PC / Laptops / Amplifiers",
+        "Active Noise Cancellation II",
+        "Reverse polarity"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE Wormhole Switch JUC400-N USB to USB Transfer Cable",
+      "url": "/products/j5create-wormhole-switch-juc400n-usb-to-usb-transfer-cable-10287773.html",
+      "productId": "10287773",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 23.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287773?$g-small$&fmt=auto",
+      "specs": [
+        "Up to 480 Mbps"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE ScreenCast JVAW62-N HDMI Display Adapter",
+      "url": "/products/j5create-screencast-jvaw62n-hdmi-display-adapter-10287768.html",
+      "productId": "10287768",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 69.99,
+        "was": 84.99,
+        "savings": "Save £15.00"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287768?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for Full HD 1080p"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE ScreenCast Full HD JVAW61-N USB Type-C to USB Display Adapter",
+      "url": "/products/j5create-screencast-full-hd-jvaw61n-usb-typec-to-usb-display-adapter-10287770.html",
+      "productId": "10287770",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 76.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287770?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for Full HD 1080p"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "AUSTERE V Series RCA Audio Cable - 2 m",
+      "url": "/products/austere-v-series-rca-audio-cable-2-m-10222804.html",
+      "productId": "10222804",
+      "brand": "AUSTERE",
+      "price": {
+        "current": 79.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10222804?$g-small$&fmt=auto",
+      "specs": [
+        "Secure fit",
+        "Low levels of data loss",
+        "Gold-plated connector",
+        "Limited lifetime guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iDefender+ USB Audio Ground Loop Isolator",
+      "url": "/products/ifi-idefender-usb-audio-ground-loop-isolator-10279951.html",
+      "productId": "10279951",
+      "brand": "IFI",
+      "price": {
+        "current": 59.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279951?$g-small$&fmt=auto",
+      "specs": [
+        "Automatic ground loop detection & disconnection",
+        "USB noise filtering",
+        "Gold plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iPower X Power Supply Adapter - 15V/1.5A",
+      "url": "/products/ifi-ipower-x-power-supply-adapter-15v1.5a-10279957.html",
+      "productId": "10279957",
+      "brand": "IFI",
+      "price": {
+        "current": 119,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279957?$g-small$&fmt=auto",
+      "specs": [
+        "Power: 22.5 W",
+        "Compatible with PC / Laptops / Amplifiers",
+        "Active Noise Cancellation II"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iSilencer+ USB Audio Noise Eliminator",
+      "url": "/products/ifi-isilencer-usb-audio-noise-eliminator-10287081.html",
+      "productId": "10287081",
+      "brand": "IFI",
+      "price": {
+        "current": 58.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287081?$g-small$&fmt=auto",
+      "specs": [
+        "Bi-directional USB noise filtering",
+        "Plug-n-play",
+        "Gold plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iPurifier AC Power Filter Conditioner",
+      "url": "/products/ifi-ipurifier-ac-power-filter-conditioner-10279948.html",
+      "productId": "10279948",
+      "brand": "IFI",
+      "price": {
+        "current": 129,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279948?$g-small$&fmt=auto",
+      "specs": [
+        "Surge protection up to 30,000 A",
+        "Active Noise cancelling technology",
+        "Polarity & ground check"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iSilencer+ USB Audio Noise Eliminator",
+      "url": "/products/ifi-isilencer-usb-audio-noise-eliminator-10279952.html",
+      "productId": "10279952",
+      "brand": "IFI",
+      "price": {
+        "current": 59.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279952?$g-small$&fmt=auto",
+      "specs": [
+        "Bi-directional USB noise filtering",
+        "Plug-n-play",
+        "Gold plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iPower X Power Supply Adapter - 15 W",
+      "url": "/products/ifi-ipower-x-power-supply-adapter-15-w-10279958.html",
+      "productId": "10279958",
+      "brand": "IFI",
+      "price": {
+        "current": 119,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279958?$g-small$&fmt=auto",
+      "specs": [
+        "Power: 15 W",
+        "Compatible with PC / Laptops / Amplifiers",
+        "Active Noise Cancellation II"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iPower2 Power Supply Adapter - 21.6 W",
+      "url": "/products/ifi-ipower2-power-supply-adapter-21.6-w-10279960.html",
+      "productId": "10279960",
+      "brand": "IFI",
+      "price": {
+        "current": 79.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279960?$g-small$&fmt=auto",
+      "specs": [
+        "Power: 21.6 W",
+        "Compatible with PC / Laptops / Amplifiers",
+        "Active Noise Cancellation II",
+        "Reverse polarity"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iPower2 Power Supply Adapter - 12.5 W",
+      "url": "/products/ifi-ipower2-power-supply-adapter-12.5-w-10279962.html",
+      "productId": "10279962",
+      "brand": "IFI",
+      "price": {
+        "current": 79.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279962?$g-small$&fmt=auto",
+      "specs": [
+        "Power: 12.5 W",
+        "Compatible with PC / Laptops / Amplifiers",
+        "Active Noise Cancellation II",
+        "Reverse polarity"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iPower X Power Supply Adapter - 24 W",
+      "url": "/products/ifi-ipower-x-power-supply-adapter-24-w-10279956.html",
+      "productId": "10279956",
+      "brand": "IFI",
+      "price": {
+        "current": 119,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279956?$g-small$&fmt=auto",
+      "specs": [
+        "Power: 24 W",
+        "Compatible with PC / Laptops / Amplifiers",
+        "Active Noise Cancellation II"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iPower X Power Supply Adapter - 9V/2.5A",
+      "url": "/products/ifi-ipower-x-power-supply-adapter-9v2.5a-10279959.html",
+      "productId": "10279959",
+      "brand": "IFI",
+      "price": {
+        "current": 119,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279959?$g-small$&fmt=auto",
+      "specs": [
+        "Power: 22.5 W",
+        "Compatible with PC / Laptops / Amplifiers",
+        "Active Noise Cancellation II"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO 47017 SCART to RCA Cable - 2 m",
+      "url": "/products/vivanco-47017-scart-to-rca-cable-2-m-10225718.html",
+      "productId": "10225718",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 12.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 10
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225718?$g-small$&fmt=auto",
+      "specs": [
+        "Input / output switch"
+      ],
+      "badges": [
+        "Out of stock"
+      ],
+      "offers": [],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO 43149 Premium Series Male to Female Aerial Cable - 2 m",
+      "url": "/products/vivanco-43149-premium-series-male-to-female-aerial-cable-2-m-10225658.html",
+      "productId": "10225658",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 16.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 3
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225658?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "4-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "TWELVE SOUTH AirFly Pro Bluetooth Audio Transmitter - Black",
+      "url": "/products/twelve-south-airfly-pro-bluetooth-audio-transmitter-black-10275909.html",
+      "productId": "10275909",
+      "brand": "TWELVE SOUTH",
+      "price": {
+        "current": 59.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3.4,
+        "count": 8
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10275909?$g-small$&fmt=auto",
+      "specs": [
+        "Compatible with Bluetooth headphones"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO 47/10 30G Premium High Speed HDMI with Ethernet Cable - 3 m",
+      "url": "/products/vivanco-4710-30g-premium-high-speed-hdmi-with-ethernet-cable-3-m-10225695.html",
+      "productId": "10225695",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 14.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3,
+        "count": 2
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225695?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO 43151 Premium Series Male to Female Aerial Cable - 2 m",
+      "url": "/products/vivanco-43151-premium-series-male-to-female-aerial-cable-2-m-10225661.html",
+      "productId": "10225661",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 12.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 3
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225661?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "3-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "TWELVE SOUTH AirFly Pro Deluxe Bluetooth Audio Transmitter - White",
+      "url": "/products/twelve-south-airfly-pro-deluxe-bluetooth-audio-transmitter-white-10275879.html",
+      "productId": "10275879",
+      "brand": "TWELVE SOUTH",
+      "price": {
+        "current": 64.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3.4,
+        "count": 8
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10275879?$g-small$&fmt=auto",
+      "specs": [
+        "Compatible with Bluetooth headphones"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "AUSTERE VII Series 7S-8KHD2 Ultra High Speed HDMI Cable - 2.5 m",
+      "url": "/products/austere-vii-series-7s8khd2-ultra-high-speed-hdmi-cable-2.5-m-10248158.html",
+      "productId": "10248158",
+      "brand": "AUSTERE",
+      "price": {
+        "current": 149.98,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10248158?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K & HDR",
+        "Up to 48 Gbps",
+        "Kevlar shielding",
+        "Secure fit",
+        "Oxygen free copper wire for minimal data loss",
+        "Gold-plated connector",
+        "Limited lifetime guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "LABGEAR HDM 10E Speed HDMI Cable with Ethernet - 10 m",
+      "url": "/products/labgear-hdm-10e-speed-hdmi-cable-with-ethernet-10-m-10276653.html",
+      "productId": "10276653",
+      "brand": "LABGEAR",
+      "price": {
+        "current": 29.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 19
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10276653?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Oxygen free copper wire for minimal data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO Aerial Cable - 1.5 m",
+      "url": "/products/vivanco-aerial-cable-1.5-m-10225455.html",
+      "productId": "10225455",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 9.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 4
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225455?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "AUSTERE V Series 5S-SUB1-5.0M Subwoofer RCA Cable - 5 m",
+      "url": "/products/austere-v-series-5ssub15.0m-subwoofer-rca-cable-5-m-10222805.html",
+      "productId": "10222805",
+      "brand": "AUSTERE",
+      "price": {
+        "current": 79.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10222805?$g-small$&fmt=auto",
+      "specs": [
+        "Secure fit",
+        "Gold-plated connector",
+        "Lifetime guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "AUSTERE III Series Premium High Speed HDMI Cable - 1.5 m",
+      "url": "/products/austere-iii-series-premium-high-speed-hdmi-cable-1.5-m-10209528.html",
+      "productId": "10209528",
+      "brand": "AUSTERE",
+      "price": {
+        "current": 59.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10209528?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD at 60 Hz & HDR",
+        "Up to 18 Gbps",
+        "Gold-plated connector",
+        "Limited lifetime guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO Premium HQ Aerial Cable - 5 m",
+      "url": "/products/vivanco-premium-hq-aerial-cable-5-m-10225659.html",
+      "productId": "10225659",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 19.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225659?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO Aerial Cable - 3 m",
+      "url": "/products/vivanco-aerial-cable-3-m-10225456.html",
+      "productId": "10225456",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 12.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 4
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225456?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "LABGEAR HDM 15E Speed HDMI Cable with Ethernet - 15 m",
+      "url": "/products/labgear-hdm-15e-speed-hdmi-cable-with-ethernet-15-m-10276654.html",
+      "productId": "10276654",
+      "brand": "LABGEAR",
+      "price": {
+        "current": 34.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 6
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10276654?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Oxygen free copper wire for minimal data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "AUSTERE VII Series 7S-8KHD2 Ultra High Speed HDMI Cable - 1.5 m",
+      "url": "/products/austere-vii-series-7s8khd2-ultra-high-speed-hdmi-cable-1.5-m-10248157.html",
+      "productId": "10248157",
+      "brand": "AUSTERE",
+      "price": {
+        "current": 99.16,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10248157?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K & HDR",
+        "Up to 48 Gbps",
+        "Kevlar shielding",
+        "Secure fit",
+        "Oxygen free copper wire for minimal data loss",
+        "Gold-plated connector",
+        "Limited lifetime guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "HAMA Ultra High Speed HDMI Cable with Ethernet - 2 m",
+      "url": "/products/hama-ultra-high-speed-hdmi-cable-with-ethernet-2-m-10228533.html",
+      "productId": "10228533",
+      "brand": "HAMA",
+      "price": {
+        "current": 26.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 4
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10228533?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K & HDR",
+        "Up to 48 Gbps",
+        "2-layer shielding",
+        "Gold-plated connector",
+        "10 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO Premium Series 42200 High Speed HDMI Cable with Ethernet - 1.2 m",
+      "url": "/products/vivanco-premium-series-42200-high-speed-hdmi-cable-with-ethernet-1.2-m-10225645.html",
+      "productId": "10225645",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 19.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225645?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "AUSTERE V Series Premium High Speed HDMI Cable - 1.5 m",
+      "url": "/products/austere-v-series-premium-high-speed-hdmi-cable-1.5-m-10248156.html",
+      "productId": "10248156",
+      "brand": "AUSTERE",
+      "price": {
+        "current": 79.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10248156?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD at 60 Hz & HDR",
+        "Up to 18 Gbps",
+        "Secure fit",
+        "Oxygen free copper wire for minimal data loss",
+        "Gold-plated connector",
+        "Limited lifetime guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO Premium Series 42201 High Speed HDMI Cable with Ethernet - 2 m",
+      "url": "/products/vivanco-premium-series-42201-high-speed-hdmi-cable-with-ethernet-2-m-10225646.html",
+      "productId": "10225646",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 24.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 29
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225646?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "AUSTERE V Series Premium High Speed HDMI Cable - 2.5 m",
+      "url": "/products/austere-v-series-premium-high-speed-hdmi-cable-2.5-m-10209530.html",
+      "productId": "10209530",
+      "brand": "AUSTERE",
+      "price": {
+        "current": 109,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10209530?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD at 60 Hz & HDR",
+        "Up to 18 Gbps",
+        "Secure fit",
+        "Oxygen free copper wire for minimal data loss",
+        "Gold-plated connector",
+        "Limited lifetime guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "LABGEAR HDM 20E Speed HDMI Cable with Ethernet - 20 m",
+      "url": "/products/labgear-hdm-20e-speed-hdmi-cable-with-ethernet-20-m-10276655.html",
+      "productId": "10276655",
+      "brand": "LABGEAR",
+      "price": {
+        "current": 35.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 6
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10276655?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Oxygen free copper wire for minimal data loss",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "VIVANCO 47/10 100G Premium High Speed HDMI with Ethernet Cable - 10 m",
+      "url": "/products/vivanco-4710-100g-premium-high-speed-hdmi-with-ethernet-cable-10-m-10225698.html",
+      "productId": "10225698",
+      "brand": "VIVANCO",
+      "price": {
+        "current": 29.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3,
+        "count": 2
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10225698?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "IFI iPower2 Power Supply Adapter - 2.0Amps",
+      "url": "/products/ifi-ipower2-power-supply-adapter-2.0amps-10279963.html",
+      "productId": "10279963",
+      "brand": "IFI",
+      "price": {
+        "current": 79.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10279963?$g-small$&fmt=auto",
+      "specs": [
+        "Power: 18 W",
+        "Compatible with PC / Laptops / Amplifiers",
+        "Active Noise Cancellation II",
+        "Reverse polarity"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM S2CCHD126 USB Type-C cable with HDMI adapter - 2 m",
+      "url": "/products/sandstrom-s2cchd126-usb-typec-cable-with-hdmi-adapter-2-m-10287312.html",
+      "productId": "10287312",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 29.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287312?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 20 Gbps",
+        "Secure fit",
+        "Nickel-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK LAEK19 Aerial Cable & Adapters Extension Kit - 15 m",
+      "url": "/products/logik-laek19-aerial-cable-and-adapters-extension-kit-15-m-10187488.html",
+      "productId": "10187488",
+      "brand": "LOGIK",
+      "price": {
+        "current": 11.49,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 3.6,
+        "count": 39
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10187488?$g-small$&fmt=auto",
+      "specs": [
+        "Complete kit for running two TVs from a single aerial"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L4AERA15 Aerial Cable & Adapter - 4 m",
+      "url": "/products/logik-l4aera15-aerial-cable-and-adapter-4-m-10119448.html",
+      "productId": "10119448",
+      "brand": "LOGIK",
+      "price": {
+        "current": 14.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 69
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10119448?$g-small$&fmt=auto",
+      "specs": [
+        "2-layer shielding",
+        "Protective mesh coating",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series SHDVA114X HDMI to DVI Adapter",
+      "url": "/products/sandstrom-black-series-shdva114x-hdmi-to-dvi-adapter-21948993.html",
+      "productId": "21948993",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 13.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 32
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/21948993?$g-small$&fmt=auto",
+      "specs": [
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "STARLINK Mini Pivot Mount",
+      "url": "/products/starlink-mini-pivot-mount-10274401.html",
+      "productId": "10274401",
+      "brand": "STARLINK",
+      "price": {
+        "current": 80,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10274401?$g-small$&fmt=auto",
+      "specs": [
+        "Compatible with Starlink Mini",
+        "Material: Steel",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Delivery available",
+        "FREE in-store collection in as little as 1 hour"
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE JCA366 USB Type-C to 4-port HDMI Adapter",
+      "url": "/products/j5create-jca366-usb-typec-to-4port-hdmi-adapter-10287727.html",
+      "productId": "10287727",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 79.99,
+        "was": 91.99,
+        "savings": "Save £12.00"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287727?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for Full HD 1080p",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "BELKIN Connect AVC012BT2MBK USB Type-C to HDMI Cable - 2 m",
+      "url": "/products/belkin-connect-avc012bt2mbk-usb-typec-to-hdmi-cable-2-m-10249698.html",
+      "productId": "10249698",
+      "brand": "BELKIN",
+      "price": {
+        "current": 49.99,
+        "was": 55.99,
+        "savings": "Save £6.00"
+      },
+      "rating": {
+        "average": null,
+        "count": null
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10249698?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 8K@60 / 4K@144 Hz / HDR",
+        "2 year guarantee"
+      ],
+      "badges": [],
+      "offers": [
+        "Approved third-party delivery - estimated 3-5 working days",
+        "Collection not available"
+      ],
+      "deliveryFree": false,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM SFAHDMI21 Flexible HDMI Adapter",
+      "url": "/products/sandstrom-sfahdmi21-flexible-hdmi-adapter-10221057.html",
+      "productId": "10221057",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 12.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4,
+        "count": 3
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10221057?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L3HDMI21 High Speed HDMI Cable with Ethernet - 3 m",
+      "url": "/products/logik-l3hdmi21-high-speed-hdmi-cable-with-ethernet-3-m-10221056.html",
+      "productId": "10221056",
+      "brand": "LOGIK",
+      "price": {
+        "current": 15.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 7
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10221056?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK LHDMEX19 HDMI Adapter",
+      "url": "/products/logik-lhdmex19-hdmi-adapter-10187486.html",
+      "productId": "10187486",
+      "brand": "LOGIK",
+      "price": {
+        "current": 6.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 73
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10187486?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "J5CREATE ScreenCast 4K Max JVAW76MAX-N USB micro-B to USB Display Adapter",
+      "url": "/products/j5create-screencast-4k-max-jvaw76maxn-usb-microb-to-usb-display-adapter-10287769.html",
+      "productId": "10287769",
+      "brand": "J5CREATE",
+      "price": {
+        "current": 84.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10287769?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD at 30 Hz",
+        "Wireless video / audio extender",
+        "USB micro-B to USB male"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "LOGIK L10HDMI23 High Speed HDMI Cable with Ethernet - 10 m",
+      "url": "/products/logik-l10hdmi23-high-speed-hdmi-cable-with-ethernet-10-m-10234483.html",
+      "productId": "10234483",
+      "brand": "LOGIK",
+      "price": {
+        "current": 44.99,
+        "was": 47.99,
+        "savings": 3
+      },
+      "rating": {
+        "average": 5,
+        "count": 1
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10234483?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 10.2 Gbps",
+        "3-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series USB Type-C to HDMI Cable - 1 m",
+      "url": "/products/sandstrom-black-series-usb-typec-to-hdmi-cable-1-m-10175047.html",
+      "productId": "10175047",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 44.99,
+        "was": 49.99,
+        "savings": 5
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 7
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10175047?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "USB Type-C to HDMI",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [],
+      "deliveryFree": true,
+      "energyRating": null
+    },
+    {
+      "name": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "url": "/products/sandstrom-black-series-s1hdm115-high-speed-hdmi-cable-with-ethernet-1-m-10132171.html",
+      "productId": "10132171",
+      "brand": "SANDSTROM",
+      "price": {
+        "current": 19.99,
+        "was": null,
+        "savings": null
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 35
+      },
+      "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10132171?$g-small$&fmt=auto",
+      "specs": [
+        "Suitable for 4K Ultra HD",
+        "Up to 18 Gbps",
+        "2-layer shielding",
+        "Gold-plated connector"
+      ],
+      "badges": [],
+      "offers": [
+        "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+      ],
+      "deliveryFree": true,
+      "energyRating": null
+    }
+  ]
+}

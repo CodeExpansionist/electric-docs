@@ -2,38 +2,77 @@
   "id": "10268800",
   "title": "BOSE SoundLink Flex (2nd Gen) Portable Bluetooth Speaker - Blue Dusk",
   "brand": "BOSE",
-  "price": { "current": 119, "was": 149, "savings": 30 },
-  "rating": { "average": 4.8, "count": 284 },
+  "price": {
+    "current": 149,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 284
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10268793_blue?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10268793_blue_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10268793_blue_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10268793_blue_095?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10268793_blue?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10268793_blue_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10268793_blue_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10268793_blue_095?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10268793_blue?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10268793_blue_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10268793_blue_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10268793_blue_095?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10268793_blue?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10268793_blue_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10268793_blue_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10268793_blue_095?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2265/ol_video_img_url__284991_2265.jpg?m=2265&r=1048&t=1"
   },
   "keySpecs": [
-    { "icon": "", "label": "Waterproof" },
-    { "icon": "", "label": "Up to 12 hours battery life" },
-    { "icon": "", "label": "Pair up to 2 speakers" },
-    { "icon": "", "label": "Bluetooth" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "",
+      "label": "Waterproof"
+    },
+    {
+      "icon": "",
+      "label": "Up to 12 hours battery life"
+    },
+    {
+      "icon": "",
+      "label": "Pair up to 2 speakers"
+    },
+    {
+      "icon": "",
+      "label": "Bluetooth"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": { "monthlyAmount": 4.82, "months": 36, "totalPayable": 173.52, "apr": "29.9%" },
-  "careAndRepair": [{ "plan": "Instant Replacement", "price": 31, "period": "3 years" }],
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement",
+      "price": 31,
+      "period": "3 years"
+    }
+  ],
   "essentialServices": [],
   "crossSellProducts": [
-    { "category": "Headphones", "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black", "price": 34.99, "image": "https://media.currys.biz/i/currysprod/M10247634_black?$s-swatch$&fmt=auto" },
-    { "category": "Cables and accessories", "title": "LOGIK L15SAC23 Audio Cable - 1.5 m", "price": 6.99, "image": "https://media.currys.biz/i/currysprod/10234489?$s-swatch$&fmt=auto" }
+    {
+      "category": "Headphones",
+      "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black",
+      "price": 34.99,
+      "image": "https://media.electriz.biz/i/electrizprod/M10247634_black?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "Cables and accessories",
+      "title": "LOGIK L15SAC23 Audio Cable - 1.5 m",
+      "price": 6.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10234489?$s-swatch$&fmt=auto"
+    }
   ],
-  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
   "badges": [],
   "specifications": {},
   "description": {
@@ -47,5 +86,10 @@
       "Make and take calls - or use your phone's voice assistant - with the built-in microphone"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99 }
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

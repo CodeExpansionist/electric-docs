@@ -1,0 +1,38 @@
+{
+  "brand": "LOGIK",
+  "price": {
+    "current": 39.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.3,
+    "count": 48
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/logik-l2dab23-portable-dabfm-radio-black.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10246329",
+  "title": "LOGIK L2DAB23 Portable DAB+/FM Radio - Black"
+}

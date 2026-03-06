@@ -4,48 +4,56 @@
   "brand": "MANHATTAN",
   "price": {
     "current": 72.99,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.6,
-    "count": 1090
+    "count": 90
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10178725?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10178725?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10178725?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10178725_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10178725?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10178725_010?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__217004_2544.jpg?m=2544&r=1048&t=1"
   },
   "keySpecs": [
-    { "icon": "", "label": "Ethernet" },
-    { "icon": "", "label": "HDMI / SCART" },
-    { "icon": "", "label": "2 year guarantee" }
+    {
+      "icon": "",
+      "label": "Ethernet"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / SCART"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -66,5 +74,6 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "category": "Digital Smart TV"
+  "category": "Digital & Smart TV",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

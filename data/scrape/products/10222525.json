@@ -13,47 +13,66 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10222525?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_009?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10222525?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_009?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10222525?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10222525_009?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10222525?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10222525_009?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
   "keySpecs": [
-    { "icon": "", "label": "Wired subwoofer & rear speakers" },
-    { "icon": "", "label": "Audio power: 600 W" },
-    { "icon": "", "label": "4K pass-through" },
-    { "icon": "", "label": "HDMI / Optical" }
+    {
+      "icon": "",
+      "label": "Wired subwoofer & rear speakers"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 600 W"
+    },
+    {
+      "icon": "",
+      "label": "4K pass-through"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 14.14,
-    "months": 36,
-    "totalPayable": 509.04,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Care & Repair", "price": 4.19, "period": "per month", "mostPopular": true },
-    { "plan": "Installation", "price": 45, "period": "One-time fee" },
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Care & Repair",
+      "price": 4.19,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -76,5 +95,6 @@
     "nextDayDeliveryPrice": 0,
     "standardDeliveryDays": "3-5"
   },
-  "category": "Soundbars"
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

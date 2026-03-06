@@ -1,0 +1,41 @@
+{
+  "url": "/services/price-promise",
+  "pageTitle": "Price Promise",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Services",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "Price Promise",
+      "url": "/services/price-promise"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Found it cheaper? We'll match it.",
+      "content": "We'll price match against any other UK retailer, online or in-store. Exclusions and conditions apply. Claim within 7 days.",
+      "type": "policy"
+    },
+    {
+      "heading": "Price match before or after you buy",
+      "content": "We'll even price match 7 days after your purchase! If you see the same item cheaper elsewhere, we'll refund you the difference.",
+      "type": "policy"
+    },
+    {
+      "heading": "How to claim",
+      "content": "Online? Chat now to a member of our support team using our Webchat service. In-store? Simply pop back in to your local Electriz store and speak to one of our helpful colleagues. Call us? Speak to our telesales team before you buy. Monday to Friday: 8am - 8pm; Saturday & Sunday: 9am - 5:30pm.",
+      "type": "policy"
+    },
+    {
+      "heading": "Price match terms & conditions",
+      "content": "We'll match the prices of in-stock products before you buy or up to 7 days after. We do not match ink products, Sky Glass, delivery charges, installation charges, product protection plans, mobile airtime plans or other services. The lower price item must be offered on identical terms (including the same make, size, colour, specification and model number) and we must be able to check the price, stock position and, where relevant, your eligibility to purchase from the competitor. We'll match against any other UK retailer store or website price including offer-code discounts. This does not include any exclusive prices/codes (e.g. staff, student, NHS staff blue light) or trade prices, prices only available as part of paid for membership/subscription, any loyalty scheme or reward scheme, 3rd party marketplace seller prices or obvious pricing errors. Both us and the competitor must have the product in stock and ready for delivery. We reserve the right to refuse a price match where we suspect fraud or unauthorised reseller activity.",
+      "type": "terms"
+    }
+  ],
+  "faqs": []
+}

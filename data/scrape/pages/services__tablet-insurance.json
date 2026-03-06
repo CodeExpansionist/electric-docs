@@ -1,0 +1,31 @@
+{
+  "url": "/services/tablet-insurance",
+  "pageTitle": "Tablet Insurance",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Services",
+      "url": "/help-and-support"
+    },
+    {
+      "label": "Tablet Insurance",
+      "url": "/services/tablet-insurance"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Protect your tablet",
+      "content": "Keep your tablet protected with our insurance plans. Covering accidental damage, mechanical breakdowns, and more.",
+      "type": "text"
+    },
+    {
+      "heading": "Plans available",
+      "content": "Choose from monthly or annual plans. All plans include accidental damage cover, breakdown protection after the manufacturer's warranty expires, and no excess on repairs.",
+      "type": "text"
+    }
+  ],
+  "faqs": []
+}

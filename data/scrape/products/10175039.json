@@ -1,11 +1,89 @@
 {
-  "id": "10175039", "title": "LOGIK LTPSKM18 Tilt TV Bracket for 26-55\" TVs & Power Starter Kit", "brand": "LOGIK",
-  "price": { "current": 79.99, "was": 0, "savings": 0 }, "rating": { "average": 4.8, "count": 80 },
-  "images": { "gallery": ["https://media.currys.biz/i/currysprod/10175039_015?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10175039?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_011?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_012?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_013?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_014?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_015?$l-large$&fmt=auto"], "thumbnails": ["https://media.currys.biz/i/currysprod/10175039?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_011?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_012?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_013?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_014?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10175039_015?$t-thumbnail$&fmt=auto"], "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__195374_2544.jpg?m=2544&r=1048&t=1" },
-  "keySpecs": [{"icon":"","label":"Tilts up & down"},{"icon":"","label":"Max. VESA compliance: 400 x 400"},{"icon":"","label":"Min. VESA compliance: 100 x 100"},{"icon":"","label":"Max. supported weight: 30 kg"},{"icon":"","label":"Cable management"},{"icon":"","label":"Includes spirit level / HDMI cable / 4-socket extension lead"}],
-  "flexpay": {"monthlyAmount":0,"months":0,"totalPayable":0,"apr":""}, "careAndRepair": [], "essentialServices": [],
-  "crossSellProducts": [{"category":"TV Accessories","title":"SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m","price":11.99,"image":"https://media.currys.biz/i/currysprod/21948968?$s-swatch$&fmt=auto"}],
-  "offers": ["Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."], "badges": [], "specifications": {},
-  "description": {"main":"Attach your TV to the wall and hook it up to your other devices with the Logik LTPSKM18 Tilt 26-55\" TV Bracket & Power Starter Kit. The bracket tilts between 0 and 10 degrees and is suitable for flat-screen TVs from 26\" to 55\" weighing up to 30 kg.","goodToKnow":["Free standard delivery on orders over £40","Get it in 3-5 working days"]},
-  "deliveryInfo": {"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":5.99}, "category": "TV Accessories"
+  "id": "10175039",
+  "title": "LOGIK LTPSKM18 Tilt TV Bracket for 26-55\" TVs & Power Starter Kit",
+  "brand": "LOGIK",
+  "price": {
+    "current": 79.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 80
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10175039_015?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_012?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_013?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_014?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_015?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10175039?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_012?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_013?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_014?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10175039_015?$t-thumbnail$&fmt=auto"
+    ],
+    "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__195374_2544.jpg?m=2544&r=1048&t=1"
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Tilts up & down"
+    },
+    {
+      "icon": "",
+      "label": "Max. VESA compliance: 400 x 400"
+    },
+    {
+      "icon": "",
+      "label": "Min. VESA compliance: 100 x 100"
+    },
+    {
+      "icon": "",
+      "label": "Max. supported weight: 30 kg"
+    },
+    {
+      "icon": "",
+      "label": "Cable management"
+    },
+    {
+      "icon": "",
+      "label": "Includes spirit level / HDMI cable / 4-socket extension lead"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m",
+      "price": 11.99,
+      "image": "https://media.electriz.biz/i/electrizprod/21948968?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Attach your TV to the wall and hook it up to your other devices with the Logik LTPSKM18 Tilt 26-55\" TV Bracket & Power Starter Kit. The bracket tilts between 0 and 10 degrees and is suitable for flat-screen TVs from 26\" to 55\" weighing up to 30 kg.",
+    "goodToKnow": [
+      "Free standard delivery on orders over £40",
+      "Get it in 3-5 working days"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

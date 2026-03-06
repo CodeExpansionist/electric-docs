@@ -1,0 +1,102 @@
+{
+  "id": "10284922",
+  "title": "BOSE SoundLink Plus Portable Bluetooth Speaker - Citrus Yellow",
+  "brand": "Bose",
+  "price": {
+    "current": 249,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 23
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10284922?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10284922?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10284922_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Waterproof"
+    },
+    {
+      "icon": "",
+      "label": "Up to 20 hours battery life"
+    },
+    {
+      "icon": "",
+      "label": "Pair up to 2 speakers"
+    },
+    {
+      "icon": "",
+      "label": "Bluetooth"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    },
+    {
+      "icon": "",
+      "label": "Works with Google Assistant / Siri"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 2.99,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Fill your space with rich sound from the BOSE SoundLink Plus Portable Bluetooth Speaker - Citrus Yellow. With waterproof, up to 20 hours battery life, pair up to 2 speakers, this speaker delivers powerful, detailed audio wherever you need it.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

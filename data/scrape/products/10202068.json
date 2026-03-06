@@ -1,0 +1,38 @@
+{
+  "brand": "GROOV-E",
+  "price": {
+    "current": 32.99,
+    "was": 36.99,
+    "savings": 4
+  },
+  "rating": {
+    "average": 4.2,
+    "count": 177
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/groove-original-boombox-gvps733-portable-fmam-boombox-black.jpg"
+    ],
+    "thumbnails": [],
+    "video": null
+  },
+  "keySpecs": [],
+  "specifications": {},
+  "description": {
+    "main": "",
+    "features": [],
+    "additionalInformation": [],
+    "goodToKnow": [],
+    "whyWeLoveIt": null
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": null,
+    "nextDayDeliveryPrice": null
+  },
+  "offers": [],
+  "badges": [],
+  "energyRating": null,
+  "id": "10202068",
+  "title": "GROOV-E Original Boombox GV-PS733 Portable FM/AM Boombox - Black"
+}

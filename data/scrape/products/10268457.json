@@ -2,44 +2,62 @@
   "id": "10268457",
   "title": "JBL PartyLight Stick - Black",
   "brand": "JBL",
-  "price": { "current": 79.99, "was": null, "savings": null },
-  "rating": { "average": 4.7, "count": 36 },
+  "price": {
+    "current": 79.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 36
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10268457?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_010?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10268457?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_010?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10268457?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10268457_010?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10268457?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10268457_010?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/3075/ol_video_img_url__293925_3075.jpg"
   },
   "keySpecs": [
-    { "icon": "lights", "label": "360 degree light direction" },
-    { "icon": "sync", "label": "Automatically syncs with JBL PartyBox speaker" },
-    { "icon": "battery", "label": "8 hour rechargeable battery" },
-    { "icon": "waterproof", "label": "IPX4 water resistance" }
+    {
+      "icon": "lights",
+      "label": "360 degree light direction"
+    },
+    {
+      "icon": "sync",
+      "label": "Automatically syncs with JBL PartyBox speaker"
+    },
+    {
+      "icon": "battery",
+      "label": "8 hour rechargeable battery"
+    },
+    {
+      "icon": "waterproof",
+      "label": "IPX4 water resistance"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -51,11 +69,16 @@
     "goodToKnow": [
       "Adjust the motion, speed and intensity settings of the lights to match your mood",
       "With an 8 hour rechargeable battery you can keep the party going all night long",
-      "Take the vibe poolside \u2013 its IPX4 rating means it's not afraid of a little water",
+      "Take the vibe poolside – its IPX4 rating means it's not afraid of a little water",
       "It has a sturdy round base so it'll stay upright even if your guests don't",
       "The built-in microphone means it can pick up and sync to any music source"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

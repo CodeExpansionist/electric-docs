@@ -4,8 +4,8 @@
   "brand": "Hisense",
   "price": {
     "current": 69,
-    "was": 0,
-    "savings": 0
+    "was": null,
+    "savings": null
   },
   "rating": {
     "average": 4.6,
@@ -13,36 +13,44 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10244299_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_005?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10244299_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_005?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10244299?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10244299_005?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10244299?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10244299_005?$t-thumbnail$&fmt=auto"
     ],
     "video": ""
   },
   "keySpecs": [
-    { "icon": "", "label": "Number of speakers: 3" },
-    { "icon": "", "label": "Built-in subwoofer" },
-    { "icon": "", "label": "Audio power: 108 W" },
-    { "icon": "", "label": "HDMI / Optical / Coaxial" }
+    {
+      "icon": "",
+      "label": "Number of speakers: 3"
+    },
+    {
+      "icon": "",
+      "label": "Built-in subwoofer"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 108 W"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical / Coaxial"
+    }
   ],
-  "energyRating": { "class": "" },
-  "flexpay": {
-    "monthlyAmount": 0,
-    "months": 0,
-    "totalPayable": 0,
-    "apr": ""
+  "energyRating": {
+    "class": ""
   },
   "wallBracket": {
     "text": "Add Instant Replacement",
@@ -54,18 +62,28 @@
     }
   },
   "careAndRepair": [
-    { "plan": "Instant Replacement", "price": 21, "period": "3 years" }
+    {
+      "plan": "Instant Replacement",
+      "price": 21,
+      "period": "3 years"
+    }
   ],
   "essentialServices": [
-    { "name": "Delivery", "price": 0 },
-    { "name": "In-store collection", "price": 0 }
+    {
+      "name": "Delivery",
+      "price": 0
+    },
+    {
+      "name": "In-store collection",
+      "price": 0
+    }
   ],
   "crossSellProducts": [
     {
       "category": "Cables and Accessories",
       "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
       "price": 11.99,
-      "image": "https://media.currys.biz/i/currysprod/21948996?$s-swatch$&fmt=auto"
+      "image": "https://media.electriz.biz/i/electrizprod/21948996?$s-swatch$&fmt=auto"
     }
   ],
   "offers": [
@@ -87,5 +105,6 @@
     "freeDelivery": true,
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
-  }
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

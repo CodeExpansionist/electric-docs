@@ -2,16 +2,68 @@
   "id": "10249239",
   "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
   "brand": "SANDSTROM",
-  "price": { "current": 59.99, "was": 0, "savings": 0 },
-  "rating": { "average": 4.3, "count": 12 },
-  "images": { "gallery": ["https://media.currys.biz/i/currysprod/10249239?$l-large$&fmt=auto"], "thumbnails": ["https://media.currys.biz/i/currysprod/10249239?$t-thumbnail$&fmt=auto"], "video": "" },
-  "keySpecs": [{ "icon": "", "label": "VESA compliance: 400 x 400" }, { "icon": "", "label": "Max. supported weight: 65 kg" }],
-  "flexpay": { "monthlyAmount": 0, "months": 0, "totalPayable": 0, "apr": "" },
-  "careAndRepair": [], "essentialServices": [],
-  "crossSellProducts": [{ "category": "TV Accessories", "title": "SANDSTROM Black Series S2HDM115 High Speed HDMI Cable with Ethernet - 2 m", "price": 24.99, "image": "https://media.currys.biz/i/currysprod/10132172?$s-swatch$&fmt=auto" }, { "category": "TV Accessories", "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m", "price": 19.99, "image": "https://media.currys.biz/i/currysprod/10175000?$s-swatch$&fmt=auto" }],
-  "offers": ["Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."],
-  "badges": [], "specifications": {},
-  "description": { "main": "Fixed in set position. Suitable for up to 75\" screens that weigh up to 65 kg. All screws included for easy setup.", "goodToKnow": ["Micro gap design for a minimalist vibe.", "Fits 16\" center studs.", "Easy centering with slide adjustment."] },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "TV Accessories"
+  "price": {
+    "current": 59.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.3,
+    "count": 12
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10249239?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10249239?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "VESA compliance: 400 x 400"
+    },
+    {
+      "icon": "",
+      "label": "Max. supported weight: 65 kg"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "SANDSTROM Black Series S2HDM115 High Speed HDMI Cable with Ethernet - 2 m",
+      "price": 24.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10132172?$s-swatch$&fmt=auto"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Save 20% on selected TV Accessories when bought with any TV. Use code SAVE20TVACCS."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "Fixed in set position. Suitable for up to 75\" screens that weigh up to 65 kg. All screws included for easy setup.",
+    "goodToKnow": [
+      "Micro gap design for a minimalist vibe.",
+      "Fits 16\" center studs.",
+      "Easy centering with slide adjustment."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

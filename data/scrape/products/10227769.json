@@ -1,11 +1,77 @@
 {
-  "id": "10227769", "title": "ONE FOR ALL URC4910 Samsung Universal Remote Control", "brand": "One For All",
-  "price": {"current":19.99,"was":0,"savings":0}, "rating": {"average":4.7,"count":374},
-  "images": {"gallery":["https://media.currys.biz/i/currysprod/10227769?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10227769_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10227769_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10227769_003?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10227769?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10227769_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10227769_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10227769_003?$t-thumbnail$&fmt=auto"],"video":""},
-  "keySpecs": [{"icon":"","label":"Compatible with Samsung TVs"},{"icon":"","label":"Ideal TV remote replacement"},{"icon":"","label":"Fully customizable"},{"icon":"","label":"No set up required"}],
-  "flexpay": {"monthlyAmount":0,"months":0,"totalPayable":0,"apr":""}, "careAndRepair": [], "essentialServices": [],
-  "crossSellProducts": [{"category":"Batteries","title":"ENERGIZER Max AAA Alkaline Batteries - Pack of 8","price":7,"image":"https://media.currys.biz/i/currysprod/10267982?$n-medium$&fmt=auto"}],
-  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."], "badges": [], "specifications": {},
-  "description": {"main":"No set-up required. No calibration, no programming, no hassle. Just put two batteries into your One For All URC4910 Samsung Universal Remote Control and press the power button.","goodToKnow":["Works like your original Samsung remote","Has 3 app shortcut keys for streaming services","Compatible with all Samsung TVs"]},
-  "deliveryInfo": {"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99}, "category": "TV Accessories"
+  "id": "10227769",
+  "title": "ONE FOR ALL URC4910 Samsung Universal Remote Control",
+  "brand": "One For All",
+  "price": {
+    "current": 19.99,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 374
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10227769?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10227769_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10227769_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10227769_003?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10227769?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10227769_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10227769_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10227769_003?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Compatible with Samsung TVs"
+    },
+    {
+      "icon": "",
+      "label": "Ideal TV remote replacement"
+    },
+    {
+      "icon": "",
+      "label": "Fully customizable"
+    },
+    {
+      "icon": "",
+      "label": "No set up required"
+    }
+  ],
+  "careAndRepair": [],
+  "essentialServices": [],
+  "crossSellProducts": [
+    {
+      "category": "Batteries",
+      "title": "ENERGIZER Max AAA Alkaline Batteries - Pack of 8",
+      "price": 7,
+      "image": "https://media.electriz.biz/i/electrizprod/10267982?$n-medium$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
+  "badges": [],
+  "specifications": {},
+  "description": {
+    "main": "No set-up required. No calibration, no programming, no hassle. Just put two batteries into your One For All URC4910 Samsung Universal Remote Control and press the power button.",
+    "goodToKnow": [
+      "Works like your original Samsung remote",
+      "Has 3 app shortcut keys for streaming services",
+      "Compatible with all Samsung TVs"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "TV Accessories",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

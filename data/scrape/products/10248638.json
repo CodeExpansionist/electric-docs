@@ -13,18 +13,18 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/10248638?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248638_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248638_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248638_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248638_004?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10248638?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248638_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248638_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248638_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248638_004?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/10248638?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248638_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248638_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248638_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/10248638_004?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/10248638?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248638_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248638_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248638_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10248638_004?$t-thumbnail$&fmt=auto"
     ],
     "video": null
   },
@@ -39,14 +39,13 @@
     },
     {
       "icon": "",
-      "label": "Tilt: +5\u00b0 / -10\u00b0"
+      "label": "Tilt: +5° / -10°"
     },
     {
       "icon": "",
       "label": "Low profile design"
     }
   ],
-  "flexpay": null,
   "careAndRepair": [
     {
       "plan": "Installation",
@@ -72,7 +71,7 @@
       "Mount type": "Tilting"
     },
     "Features": {
-      "Tilt range": "+5\u00b0 / -10\u00b0",
+      "Tilt range": "+5° / -10°",
       "Lateral shift": "Yes",
       "Cable management": "Built-in"
     },

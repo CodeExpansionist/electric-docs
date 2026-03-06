@@ -2,17 +2,103 @@
   "id": "10263470",
   "title": "BEATS Solo 4 Wireless Bluetooth Headphones - Black",
   "brand": "Beats",
-  "price": {"current": 129, "was": 199, "savings": 70},
-  "rating": {"average": 4.7, "count": 110},
-  "images": {"gallery": ["https://media.currys.biz/i/currysprod/M10263470_black_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_007?$l-large$&fmt=auto"], "thumbnails": ["https://media.currys.biz/i/currysprod/M10263470_black?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/M10263470_black_007?$t-thumbnail$&fmt=auto"], "video": ""},
-  "keySpecs": [{"icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-headphones.svg", "label": "Type: On-ear headphones"}, {"icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-noise-cancelling.svg", "label": "Noise Isolation: Passive noise-isolating"}, {"icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-battery.svg", "label": "Battery Life: Up to 50 hours"}, {"icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-foldable.svg", "label": "Foldable: Yes"}, {"icon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-fast-charge.svg", "label": "Quick Charging: Yes"}],
-  "flexpay": {"monthlyAmount": 5.22, "months": 36, "totalPayable": 187.92, "apr": "29.9%"},
-  "careAndRepair": [{"plan": "Instant Replacement", "price": 40, "period": "3 years"}],
-  "essentialServices": [{"name": "Total Saving", "price": 1.6}],
-  "crossSellProducts": [{"category": "Accessories", "title": "GOJI USB Type-A to Micro USB 1m Cable - Black", "price": 6.39, "image": "https://media.currys.biz/i/currysprod/10220955?$n-medium$&fmt=auto"}],
-  "offers": ["Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."],
+  "price": {
+    "current": 129,
+    "was": 199,
+    "savings": 150
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 110
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_007?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/M10263470_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10263470_black_007?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-headphones.svg",
+      "label": "Type: On-ear headphones"
+    },
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-noise-cancelling.svg",
+      "label": "Noise Isolation: Passive noise-isolating"
+    },
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-battery.svg",
+      "label": "Battery Life: Up to 50 hours"
+    },
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-foldable.svg",
+      "label": "Foldable: Yes"
+    },
+    {
+      "icon": "https://www.electriz.co.uk/on/demandware.static/Sites-electrizpcworlduk-Site/-/default/dw3f2eb8e6/images/svg-icons/icon-fast-charge.svg",
+      "label": "Quick Charging: Yes"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Instant Replacement",
+      "price": 40,
+      "period": "3 years"
+    }
+  ],
+  "essentialServices": [
+    {
+      "name": "Total Saving",
+      "price": 1.6
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "GOJI USB Type-A to Micro USB 1m Cable - Black",
+      "price": 6.39,
+      "image": "https://media.electriz.biz/i/electrizprod/10220955?$n-medium$&fmt=auto"
+    }
+  ],
+  "offers": [
+    "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
+  ],
   "badges": [],
   "specifications": {},
-  "description": {"main": "Music, movies, games... they'll all sound epic with these Beats Solo 4 headphones. The custom-built 40 mm drivers give you more depth and clarity with a wide frequency range. You'll hear more detail in your music with sparkling highs, punchy mids and heaps of low end. With Personalised Spatial Audio, it's like being plonked right into the action of your favourite movies.", "goodToKnow": ["You get up to 50 hours of battery on a single charge – perfect for the weekly commute", "Running low on juice? Fast Fuel gives you an extra 5 hours of playback from just 10 minutes on the charger.", "Enjoy high-resolution lossless audio via the USB-C or 3.5 mm jack cables.", "From the flex-grip headband to the customisable sliders and angled ear cups, they're built for comfort.", "Be heard loud and clear on calls, even in busy environments, thanks to the beamforming mic.", "When you're done rocking out, they can be folded down and stored in the included carry case.", "They connect easily to your Apple and Android devices – just power on and hold them near your phone or tablet."]},
-  "deliveryInfo": {"freeDelivery": true, "standardDeliveryPrice": 3.99, "nextDayDeliveryPrice": 5.99}
+  "description": {
+    "main": "Music, movies, games... they'll all sound epic with these Beats Solo 4 headphones. The custom-built 40 mm drivers give you more depth and clarity with a wide frequency range. You'll hear more detail in your music with sparkling highs, punchy mids and heaps of low end. With Personalised Spatial Audio, it's like being plonked right into the action of your favourite movies.",
+    "goodToKnow": [
+      "You get up to 50 hours of battery on a single charge – perfect for the weekly commute",
+      "Running low on juice? Fast Fuel gives you an extra 5 hours of playback from just 10 minutes on the charger.",
+      "Enjoy high-resolution lossless audio via the USB-C or 3.5 mm jack cables.",
+      "From the flex-grip headband to the customisable sliders and angled ear cups, they're built for comfort.",
+      "Be heard loud and clear on calls, even in busy environments, thanks to the beamforming mic.",
+      "When you're done rocking out, they can be folded down and stored in the included carry case.",
+      "They connect easily to your Apple and Android devices – just power on and hold them near your phone or tablet."
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

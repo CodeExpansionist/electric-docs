@@ -1,1 +1,98 @@
-{"id":"10281503","title":"LG US40TR 4.1 Wireless Sound Bar","brand":"LG","price":{"current":249,"was":0,"savings":0},"rating":{"average":4.8,"count":9},"images":{"gallery":["https://media.currys.biz/i/currysprod/10281503?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_008?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10281503?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10281503_008?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Wireless subwoofer & rear speakers"},{"icon":"","label":"Audio power: 400 W"},{"icon":"","label":"HDMI / Optical"}],"flexpay":{"monthlyAmount":10.09,"months":36,"totalPayable":363.24,"apr":"29.9%"},"careAndRepair":[{"plan":"Breakdown support","price":2.5,"period":"per month"}],"essentialServices":[],"crossSellProducts":[],"offers":["Get £50 off when bought with any LG TV."],"badges":[],"specifications":{"AUDIO":{"Type":"Sound bar with wireless subwoofer","Number of channels":"4.1","Total power output":"400 W","Audio processing":"Dolby Digital, DTS Digital Surround"},"CONNECTIVITY":{"WiFi":"No","Bluetooth":"Bluetooth 5.3","Inputs":"HDMI x 1, Optical x 1","USB":"USB x 1"},"GENERAL":{"Dimensions":"Sound bar: 63 x 720 x 87 mm, Subwoofer: 320 x 171 x 252 mm","Manufacturer's guarantee":"1 year","Colour":"Black"}},"description":{"main":"4.1 channels with wireless rear speakers deliver brilliant surround sound. AI Sound Pro adjusts audio crisply.","goodToKnow":["Free standard delivery on orders over £40"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99},"category":"Soundbars"}
+{
+  "id": "10281503",
+  "title": "LG US40TR 4.1 Wireless Sound Bar",
+  "brand": "LG",
+  "price": {
+    "current": 199,
+    "was": 249,
+    "savings": 20.08
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 9
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10281503?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_008?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10281503?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10281503_008?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Wireless subwoofer & rear speakers"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 400 W"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Breakdown support",
+      "price": 2.5,
+      "period": "per month"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [
+    "Get £50 off when bought with any LG TV."
+  ],
+  "badges": [],
+  "specifications": {
+    "AUDIO": {
+      "Type": "Sound bar with wireless subwoofer",
+      "Number of channels": "4.1",
+      "Total power output": "400 W",
+      "Audio processing": "Dolby Digital, DTS Digital Surround"
+    },
+    "CONNECTIVITY": {
+      "WiFi": "No",
+      "Bluetooth": "Bluetooth 5.3",
+      "Inputs": "HDMI x 1, Optical x 1",
+      "USB": "USB x 1"
+    },
+    "GENERAL": {
+      "Dimensions": "Sound bar: 63 x 720 x 87 mm, Subwoofer: 320 x 171 x 252 mm",
+      "Manufacturer's guarantee": "1 year",
+      "Colour": "Black"
+    }
+  },
+  "description": {
+    "main": "4.1 channels with wireless rear speakers deliver brilliant surround sound. AI Sound Pro adjusts audio crisply.",
+    "goodToKnow": [
+      "Free standard delivery on orders over £40"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

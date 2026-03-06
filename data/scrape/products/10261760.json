@@ -2,40 +2,58 @@
   "id": "10261760",
   "title": "JBL Go 4 Portable Bluetooth Speaker - Black",
   "brand": "JBL",
-  "price": { "current": 39.99, "was": null, "savings": null },
-  "rating": { "average": 4.9, "count": 309 },
+  "price": {
+    "current": 39.99,
+    "was": 0,
+    "savings": 0
+  },
+  "rating": {
+    "average": 4.9,
+    "count": 309
+  },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10261760_black_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_007?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_007?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10261760_black_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10261760_black_007?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10261760_black_007?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/3075/ol_video_img_url__286915_3075.jpg"
   },
   "keySpecs": [
-    { "icon": "waterproof", "label": "Waterproof" },
-    { "icon": "sound", "label": "JBL Pro Sound for powerful audio" },
-    { "icon": "battery", "label": "Up to 7 hours battery life" },
-    { "icon": "bluetooth", "label": "Bluetooth" }
+    {
+      "icon": "waterproof",
+      "label": "Waterproof"
+    },
+    {
+      "icon": "sound",
+      "label": "JBL Pro Sound for powerful audio"
+    },
+    {
+      "icon": "battery",
+      "label": "Up to 7 hours battery life"
+    },
+    {
+      "icon": "bluetooth",
+      "label": "Bluetooth"
+    }
   ],
-  "flexpay": null,
   "careAndRepair": [],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -43,15 +61,21 @@
   "badges": [],
   "specifications": {},
   "description": {
-    "main": "This JBL Go 4 Bluetooth speaker might be small, but it packs a serious punch with its JBL Pro Sound. You get a solid 7 hours of playtime on a single charge - add 2 extra hours by just tapping the Playtime Boost. Want even bigger and better beats? Pair up multiple JBL speakers wirelessly using AuraCast for mega sound. With the JBL Portable app you can get support, choose from EQ presets or dial in your own sound with the Equalizer. A poolside party or a beach picnic, you can take it anywhere thanks to its IP67 waterproof and dustproof rating.",
-    "goodToKnow": [
+    "main": "An ultra-portable Bluetooth speaker with big JBL Pro Sound.",
+    "features": [
       "Waterproof",
-      "JBL Pro Sound for powerful audio",
-      "Up to 7 hours battery life",
-      "Bluetooth",
-      "2 year guarantee"
+      "JBL Pro Sound",
+      "Up to 7 hours battery life"
     ]
   },
-  "deliveryInfo": { "freeDelivery": true, "standardDeliveryPrice": 0, "nextDayDeliveryPrice": 5.99 },
-  "category": "Speakers"
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Speakers",
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "galleryImages": [
+    "https://cdn.media.amplience.net/i/electrizprod/M10261760_black?$l-large$&fmt=auto"
+  ]
 }

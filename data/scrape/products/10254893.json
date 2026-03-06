@@ -4,8 +4,8 @@
   "brand": "BOSE",
   "price": {
     "current": 199,
-    "was": 299,
-    "savings": 100
+    "was": 349,
+    "savings": 150
   },
   "rating": {
     "average": 4.7,
@@ -13,57 +13,79 @@
   },
   "images": {
     "gallery": [
-      "https://media.currys.biz/i/currysprod/M10254893_black?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_001?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_002?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_003?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_004?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_005?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_006?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_007?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_008?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_009?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_010?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_011?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_095?$l-large$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_100?$l-large$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10254893_black?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_010?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_011?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_095?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_100?$l-large$&fmt=auto"
     ],
     "thumbnails": [
-      "https://media.currys.biz/i/currysprod/M10254893_black?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_001?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_002?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_003?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_004?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_005?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_006?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_007?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_008?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_009?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_010?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_011?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_095?$t-thumbnail$&fmt=auto",
-      "https://media.currys.biz/i/currysprod/M10254893_black_100?$t-thumbnail$&fmt=auto"
+      "https://media.electriz.biz/i/electrizprod/M10254893_black?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_010?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_011?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_095?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/M10254893_black_100?$t-thumbnail$&fmt=auto"
     ],
     "video": "https://flv.isitetv.com/media/video/2265/ol_video_img_url__290257_2265.jpg"
   },
   "keySpecs": [
-    { "icon": "earbuds", "label": "True wireless earbuds" },
-    { "icon": "noise-cancelling", "label": "Adjustable active noise-cancelling" },
-    { "icon": "battery", "label": "Battery life: Up to 6 hours (24 hours with case)" },
-    { "icon": "water-resistant", "label": "Water & sweat resistant (IPX4)" },
-    { "icon": "app", "label": "Extra controls on the app" },
-    { "icon": "microphone", "label": "Noise-cancelling mics for clear calls" },
-    { "icon": "controls", "label": "Microphone / volume / playback & functions control" },
-    { "icon": "guarantee", "label": "2 year guarantee" }
+    {
+      "icon": "earbuds",
+      "label": "True wireless earbuds"
+    },
+    {
+      "icon": "noise-cancelling",
+      "label": "Adjustable active noise-cancelling"
+    },
+    {
+      "icon": "battery",
+      "label": "Battery life: Up to 6 hours (24 hours with case)"
+    },
+    {
+      "icon": "water-resistant",
+      "label": "Water & sweat resistant (IPX4)"
+    },
+    {
+      "icon": "app",
+      "label": "Extra controls on the app"
+    },
+    {
+      "icon": "microphone",
+      "label": "Noise-cancelling mics for clear calls"
+    },
+    {
+      "icon": "controls",
+      "label": "Microphone / volume / playback & functions control"
+    },
+    {
+      "icon": "guarantee",
+      "label": "2 year guarantee"
+    }
   ],
-  "flexpay": {
-    "monthlyAmount": 8.06,
-    "months": 36,
-    "totalPayable": 290.16,
-    "apr": "29.9%"
-  },
   "careAndRepair": [
-    { "plan": "Recycle my old tech", "price": 20, "period": "One-time fee" }
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
   ],
   "essentialServices": [],
   "crossSellProducts": [],
@@ -115,8 +137,9 @@
   },
   "category": "Headphones",
   "_scrapeMeta": {
-    "scrapedUrl": "https://www.currys.co.uk/products/bose-quietcomfort-ultra-wireless-bluetooth-noisecancelling-earbuds-black-10254893.html",
-    "currysLiveProductId": "10254893",
+    "scrapedUrl": "https://www.electriz.co.uk/products/bose-quietcomfort-ultra-wireless-bluetooth-noisecancelling-earbuds-black-10254893.html",
+    "electrizLiveProductId": "10254893",
     "scrapedAt": "2026-03-02"
-  }
+  },
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

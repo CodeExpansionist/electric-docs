@@ -1,1 +1,102 @@
-{"id":"10236857","title":"SONY HT-S400 2.1 Wireless Sound Bar","brand":"Sony","price":{"current":249,"was":0,"savings":0},"rating":{"average":4.7,"count":51},"images":{"gallery":["https://media.currys.biz/i/currysprod/10236857?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_007?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10236857?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10236857_007?$t-thumbnail$&fmt=auto"],"video":""},"keySpecs":[{"icon":"","label":"Wireless subwoofer"},{"icon":"","label":"Audio power: 330 W"},{"icon":"","label":"HDMI / Optical"}],"flexpay":{"monthlyAmount":10.09,"months":36,"totalPayable":363.24,"apr":"29.9%"},"careAndRepair":[{"plan":"Breakdown support","price":2.5,"period":"per month"}],"essentialServices":[],"crossSellProducts":[],"offers":["Save 50% on Sony Home Cinema Accessories when bought with this soundbar"],"badges":[],"specifications":{"AUDIO":{"Type":"Sound bar with wireless subwoofer","Number of channels":"2.1","Total power output":"330 W","Audio processing":"Dolby Digital"},"CONNECTIVITY":{"WiFi":"No","Bluetooth":"Bluetooth 5.0","Inputs":"HDMI with ARC x 1, Optical x 1","USB":"USB 2.0 x 1"},"SPEAKERS":{"Power":"Sound bar: 100 W, Subwoofer: 130 W"},"GENERAL":{"Dimensions":"Sound bar: 64 x 900 x 88 mm, Subwoofer: 387 x 192 x 400 mm","Weight":"Sound bar: 2.4 kg, Subwoofer: 7.3 kg","Manufacturer's guarantee":"1 year","Colour":"Black"}},"description":{"main":"S-Force Pro Front Surround technology envelops you in sound. 330 W power with wireless subwoofer.","goodToKnow":["330 Watts fills your room with sound","Bluetooth connectivity for music from your phone","OLED display for easy control"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":3.99,"nextDayDeliveryPrice":5.99},"category":"Soundbars"}
+{
+  "id": "10236857",
+  "title": "SONY HT-S400 2.1 Wireless Sound Bar",
+  "brand": "Sony",
+  "price": {
+    "current": 279,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.7,
+    "count": 51
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10236857?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_007?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10236857?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10236857_007?$t-thumbnail$&fmt=auto"
+    ],
+    "video": ""
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Wireless subwoofer"
+    },
+    {
+      "icon": "",
+      "label": "Audio power: 330 W"
+    },
+    {
+      "icon": "",
+      "label": "HDMI / Optical"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Breakdown support",
+      "price": 2.5,
+      "period": "per month"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [
+    "Save 50% on Sony Home Cinema Accessories when bought with this soundbar"
+  ],
+  "badges": [],
+  "specifications": {
+    "AUDIO": {
+      "Type": "Sound bar with wireless subwoofer",
+      "Number of channels": "2.1",
+      "Total power output": "330 W",
+      "Audio processing": "Dolby Digital"
+    },
+    "CONNECTIVITY": {
+      "WiFi": "No",
+      "Bluetooth": "Bluetooth 5.0",
+      "Inputs": "HDMI with ARC x 1, Optical x 1",
+      "USB": "USB 2.0 x 1"
+    },
+    "SPEAKERS": {
+      "Power": "Sound bar: 100 W, Subwoofer: 130 W"
+    },
+    "GENERAL": {
+      "Dimensions": "Sound bar: 64 x 900 x 88 mm, Subwoofer: 387 x 192 x 400 mm",
+      "Weight": "Sound bar: 2.4 kg, Subwoofer: 7.3 kg",
+      "Manufacturer's guarantee": "1 year",
+      "Colour": "Black"
+    }
+  },
+  "description": {
+    "main": "S-Force Pro Front Surround technology envelops you in sound. 330 W power with wireless subwoofer.",
+    "goodToKnow": [
+      "330 Watts fills your room with sound",
+      "Bluetooth connectivity for music from your phone",
+      "OLED display for easy control"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 3.99,
+    "nextDayDeliveryPrice": 5.99
+  },
+  "category": "Soundbars",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

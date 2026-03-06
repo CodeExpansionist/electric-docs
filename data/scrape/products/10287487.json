@@ -1,1 +1,124 @@
-{"id":"10287487","title":"HISENSE E7Q PRO 50\" QLED 4K HDR Smart TV with Freely - 50E7QTUK PRO","brand":"HISENSE","price":{"current":499,"was":0,"savings":0},"rating":{"average":4.8,"count":929},"images":{"gallery":["https://media.currys.biz/i/currysprod/10287487?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10287487?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10287487_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"Quantum Dot: Experience over one billion shades of colour"},{"icon":"","label":"Hi-View Engine: continuously optimises and enhances content"},{"icon":"","label":"Refresh rate: 120 Hz (up to 144 Hz)"},{"icon":"","label":"HDMI 2.1 x 3"},{"icon":"","label":"5 year guarantee"},{"icon":"","label":"Freely: Stream live & on demand TV for free"}],"flexpay":{"monthlyAmount":21.16,"months":36,"totalPayable":761.62,"apr":"29.9%"},"careAndRepair":[{"plan":"Care & Repair","price":5.99,"period":"per month","mostPopular":true},{"plan":"Installation","price":45,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":[],"specifications":{},"description":{"main":"Experience stunning visuals with the HISENSE E7Q PRO 50\" QLED 4K HDR Smart TV with Freely - 50E7QTUK PRO. Featuring quantum dot: experience over one billion shades of colour, hi-view engine: continuously optimises and enhances content, refresh rate: 120 hz (up to 144 hz), this HISENSE TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":9.99,"standardDeliveryDays":"3-5"},"category":"TVs","energyRating":"E"}
+{
+  "brand": "Hisense",
+  "price": {
+    "current": 449,
+    "was": 499,
+    "savings": 50
+  },
+  "rating": {
+    "average": 4.8,
+    "count": 929
+  },
+  "description": {
+    "main": "Over a billion shades are brought to life with Quantum Dot Colour on this Hisense E7Q 50\" TV.",
+    "features": [
+      "Quantum Dot for over a billion shades of color",
+      "Hi-View AI engine for optimized content",
+      "Refresh rate: 120 Hz (up to 144 Hz)",
+      "HDMI 2.1 support",
+      "5 year guarantee",
+      "Freely streaming service available"
+    ],
+    "goodToKnow": [
+      "Game Bar for quick access to settings",
+      "Dolby Vision for enhanced brightness",
+      "Dolby Atmos for immersive sound experience"
+    ]
+  },
+  "images": {
+    "gallery": [
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_017?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_001?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_002?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_003?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_004?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_005?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_006?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_007?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_008?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_009?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_010?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_011?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_012?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_013?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_014?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_015?$l-large$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_016?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://cdn.media.amplience.net/i/electrizprod/10287487?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_001?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_002?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_003?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_004?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_005?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_006?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_007?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_008?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_009?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_010?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_011?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_012?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_013?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_014?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_015?$t-thumbnail$&fmt=auto",
+      "https://cdn.media.amplience.net/i/electrizprod/10287487_016?$t-thumbnail$&fmt=auto"
+    ]
+  },
+  "keySpecs": [
+    "Screen Size: 50\"",
+    "Resolution: 3840 x 2160p (4K Ultra HD)",
+    "HDR Support: Dolby Vision, HDR10+",
+    "Weight: 9.5kg",
+    "Guarantee: 5 years"
+  ],
+  "specifications": {},
+  "deliveryInfo": {
+    "freeDelivery": false,
+    "standardDeliveryPrice": 20,
+    "nextDayDeliveryPrice": 30
+  },
+  "sizeVariants": [
+    {
+      "size": "43\"",
+      "price": 399
+    },
+    {
+      "size": "55\"",
+      "price": 549
+    },
+    {
+      "size": "65\"",
+      "price": 699
+    }
+  ],
+  "crossSellProducts": [
+    {
+      "name": "LOGIK LFML16 Full Motion 32-50\" TV Bracket",
+      "price": 59.99
+    },
+    {
+      "name": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
+      "price": 179
+    }
+  ],
+  "careAndRepair": [
+    {
+      "name": "Add Care & Repair Breakdown Support",
+      "price": 2.5,
+      "description": "Breakdown support from £2.50/month."
+    }
+  ],
+  "offers": [
+    "Get 10% off marked price on this product with code TV10 at checkout."
+  ],
+  "badges": [
+    "Free standard delivery on orders over £40"
+  ],
+  "energyRating": "E",
+  "category": "TVs",
+  "id": "10287487",
+  "title": "HISENSE E7Q PRO 50\" QLED 4K HDR Smart TV with Freely - 50E7QTUK PRO",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}

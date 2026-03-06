@@ -1,1 +1,103 @@
-{"id":"10283434","title":"PHILIPS 43PUS7800/05 43\" Smart 4K Ultra HD HDR QLED TV","brand":"PHILIPS","price":{"current":319,"was":399,"savings":80},"rating":{"average":4.1,"count":36},"images":{"gallery":["https://media.currys.biz/i/currysprod/10283434?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_001?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_002?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_003?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_004?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_005?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_006?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_007?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_008?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_009?$l-large$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_010?$l-large$&fmt=auto"],"thumbnails":["https://media.currys.biz/i/currysprod/10283434?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_001?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_002?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_003?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_004?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_005?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_006?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_007?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_008?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_009?$t-thumbnail$&fmt=auto","https://media.currys.biz/i/currysprod/10283434_010?$t-thumbnail$&fmt=auto"],"video":null},"keySpecs":[{"icon":"","label":"Refresh rate: 60 Hz"},{"icon":"","label":"HDMI 2.0a x 3"},{"icon":"","label":"2 year guarantee"},{"icon":"","label":"Discover new shows & stream content on Titan OS"}],"flexpay":{"monthlyAmount":13.52,"months":36,"totalPayable":486.89,"apr":"29.9%"},"careAndRepair":[{"plan":"Care & Repair","price":3.83,"period":"per month","mostPopular":true},{"plan":"Installation","price":45,"period":"One-time fee"},{"plan":"Recycle my old tech","price":20,"period":"One-time fee"}],"essentialServices":[],"crossSellProducts":[],"offers":[],"badges":["Dolby Atmos","Freely TV"],"specifications":{},"description":{"main":"Experience stunning visuals with the PHILIPS 43PUS7800/05 43\" Smart 4K Ultra HD HDR QLED TV. Featuring refresh rate: 60 hz, hdmi 2.0a x 3, 2 year guarantee, this PHILIPS TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.","goodToKnow":["Free standard delivery","2 year guarantee included"]},"deliveryInfo":{"freeDelivery":true,"standardDeliveryPrice":0,"nextDayDeliveryPrice":9.99,"standardDeliveryDays":"3-5"},"category":"TVs","energyRating":"F"}
+{
+  "id": "10283434",
+  "title": "PHILIPS 43PUS7800/05 43\" Smart 4K Ultra HD HDR QLED TV",
+  "brand": "PHILIPS",
+  "price": {
+    "current": 319,
+    "was": null,
+    "savings": null
+  },
+  "rating": {
+    "average": 4.1,
+    "count": 36
+  },
+  "images": {
+    "gallery": [
+      "https://media.electriz.biz/i/electrizprod/10283434?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_001?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_002?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_003?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_004?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_005?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_006?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_007?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_008?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_009?$l-large$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_010?$l-large$&fmt=auto"
+    ],
+    "thumbnails": [
+      "https://media.electriz.biz/i/electrizprod/10283434?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_001?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_002?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_003?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_004?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_005?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_006?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_007?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_008?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_009?$t-thumbnail$&fmt=auto",
+      "https://media.electriz.biz/i/electrizprod/10283434_010?$t-thumbnail$&fmt=auto"
+    ],
+    "video": null
+  },
+  "keySpecs": [
+    {
+      "icon": "",
+      "label": "Refresh rate: 60 Hz"
+    },
+    {
+      "icon": "",
+      "label": "HDMI 2.0a x 3"
+    },
+    {
+      "icon": "",
+      "label": "2 year guarantee"
+    },
+    {
+      "icon": "",
+      "label": "Discover new shows & stream content on Titan OS"
+    }
+  ],
+  "careAndRepair": [
+    {
+      "plan": "Care & Repair",
+      "price": 3.83,
+      "period": "per month",
+      "mostPopular": true
+    },
+    {
+      "plan": "Installation",
+      "price": 45,
+      "period": "One-time fee"
+    },
+    {
+      "plan": "Recycle my old tech",
+      "price": 20,
+      "period": "One-time fee"
+    }
+  ],
+  "essentialServices": [],
+  "crossSellProducts": [],
+  "offers": [],
+  "badges": [
+    "Dolby Atmos",
+    "Freely TV"
+  ],
+  "specifications": {},
+  "description": {
+    "main": "Experience stunning visuals with the PHILIPS 43PUS7800/05 43\" Smart 4K Ultra HD HDR QLED TV. Featuring refresh rate: 60 hz, hdmi 2.0a x 3, 2 year guarantee, this PHILIPS TV delivers an immersive viewing experience for movies, gaming, and everyday entertainment.",
+    "goodToKnow": [
+      "Free standard delivery",
+      "2 year guarantee included"
+    ]
+  },
+  "deliveryInfo": {
+    "freeDelivery": true,
+    "standardDeliveryPrice": 0,
+    "nextDayDeliveryPrice": 9.99,
+    "standardDeliveryDays": "3-5"
+  },
+  "category": "TVs",
+  "energyRating": "F",
+  "lastUpdated": "2026-03-06T15:49:44.753Z"
+}
