@@ -1,12 +1,12 @@
-# Electric — Curry's TV & Audio Clone: Project Specification
+# Electric — Electriz TV & Audio Clone: Project Specification
 
 ## Overview
 
-High-fidelity, pixel-perfect clone of Curry's TV & Audio section (currys.co.uk). This serves as an MVP baseline for future A/B testing. All Curry's branding, images, and content are used as placeholders for visual fidelity during development.
+High-fidelity, pixel-perfect clone of Electriz TV & Audio section (electriz.co.uk). This serves as an MVP baseline for future A/B testing. All Electriz branding, images, and content are used as placeholders for visual fidelity during development.
 
 **Repo:** github.com/CodeExpansionist/electric
 **Stack:** Next.js 14 (App Router) + Tailwind CSS
-**Data:** Firecrawl MCP scrape of currys.co.uk → static JSON files
+**Data:** Firecrawl MCP scrape of electriz.co.uk → static JSON files
 **Checkout:** Form validation + mock data (no real payments), pre-filled with sample UK data (e.g. John Smith, NW1 0AE)
 
 ### Important Notes
@@ -28,9 +28,9 @@ Reference screenshots of every major page and section are in `reference-screensh
 
 | File | Page | What It Shows |
 |------|------|---------------|
-| `01-homepage-hero.png` | Homepage | Full homepage top: announcement bar (teal, white text), secondary nav links (Help & Support, Track my order, Delivery, Returns, etc.), header with Curry's purple logo, search bar with purple search icon, utility icons (Stores, Account, Saved, Basket), main nav (Appliances, TV & Audio, Computing, Gaming, etc.), USP bar (free order & collect, price match, recycling, flexpay), hero carousel (3 large promotional banners: Epic Deals, Recycling, Samsung Galaxy S26), credit representative example bar, Shop deals category carousel (Mobile phones, TVs, Laptops, etc.) |
+| `01-homepage-hero.png` | Homepage | Full homepage top: announcement bar (teal, white text), secondary nav links (Help & Support, Track my order, Delivery, Returns, etc.), header with brand purple logo, search bar with purple search icon, utility icons (Stores, Account, Saved, Basket), main nav (Appliances, TV & Audio, Computing, Gaming, etc.), USP bar (free order & collect, price match, recycling, flexpay), hero carousel (3 large promotional banners: Epic Deals, Recycling, Samsung Galaxy S26), credit representative example bar, Shop deals category carousel (Mobile phones, TVs, Laptops, etc.) |
 | `02-homepage-offers.png` | Homepage | "Discover our amazing offers" section: 4-card horizontal carousel with left/right arrows, cards have product images on colored backgrounds with text overlay (Samsung Galaxy S26, Galaxy Book6 Pro, Samsung appliances, Galaxy Buds4 Pro). "Big brand deals" section below: 4-card carousel (iPhone Air, Dyson, LG OLED, hair & beauty tech), each card has brand logo at top, product image center, promotional text with red highlight text for savings |
-| `03-homepage-products-footer.png` | Homepage | "Sponsored products" section: 6 product cards in a horizontal row, each with product image, star rating (e.g. 4.8/5), review count link, product title, price in bold, red "Save £X" text. "Join Currys Perks" dark charcoal banner with centered white text and "Sign me up" CTA button with rounded border. Full footer: dark charcoal background, 5 columns (Help & support, Services, Care Services, Our websites, About us) with white text links. Sub-footer: lighter gray bar with Privacy & cookies policy, Terms & conditions, Product recalls, Sitemap links separated by pipes, social media icons (Facebook, X, Instagram, YouTube), legal text |
+| `03-homepage-products-footer.png` | Homepage | "Sponsored products" section: 6 product cards in a horizontal row, each with product image, star rating (e.g. 4.8/5), review count link, product title, price in bold, red "Save £X" text. "Join Electriz Perks" dark charcoal banner with centered white text and "Sign me up" CTA button with rounded border. Full footer: dark charcoal background, 5 columns (Help & support, Services, Care Services, Our websites, About us) with white text links. Sub-footer: lighter gray bar with Privacy & cookies policy, Terms & conditions, Product recalls, Sitemap links separated by pipes, social media icons (Facebook, X, Instagram, YouTube), legal text |
 | `04-tv-audio-hub-top.png` | TV & Audio Hub | Breadcrumbs (Home > TV & Audio), page title "TV & Audio" in large bold text, subcategory icon row (7 circular icons: Televisions, DVD/Blu-ray & home cinema, Soundbars, HiFi & Speakers, TV accessories, Digital & smart TV, Headphones — each with product silhouette icon and label below). "Top categories" left sidebar with pill-shaped links (TVs, Airpods, Headphones and earphones, Smart TVs, Wireless headphones, DAB radios, Soundbars). "Top deals" section: 4 promotional cards (Shop selected LG TVs with cashback, Samsung TVs & soundbars, 75"+ TVs, Galaxy Buds4 Pro). "AI on TV. The next big thing!" section: 3 article cards (Subtitling, AI sound, AI picture) with lifestyle images |
 | `05-tv-audio-hub-mid.png` | TV & Audio Hub | Continued left sidebar: "Popular links" section, "Buying guides" section, "News and reviews" section. Main content: "Filmmaker Mode" promotional block with video embed (Mark Kermode in cinema), "Shop now" CTA. "Buying guides" visual cards: 3 circular icon cards. "Find your perfect TV size" interactive tool: distance input (cm/in toggle), TV size carousel |
 | `06-tv-audio-hub-bottom.png` | TV & Audio Hub | Promotional banner carousel (3 banners). Brand row: Samsung, LG, Panasonic, Sony, Hisense, Bose logos with CTAs. SEO content: 3-column text block. Representative example credit bar. Article cards: 3 news cards |
@@ -44,7 +44,7 @@ Reference screenshots of every major page and section are in `reference-screensh
 | `14-checkout-delivery-empty.png` | Checkout | Step 1 Delivery: "We'll deliver it" / "Collect it" radio toggle. Delivery form with Title, First name, Last name, Phone, Postcode, "Find address" button. Right sidebar basket summary |
 | `15-checkout-delivery-filled.png` | Checkout | Same as 14 but form filled: Mr John Smith, phone, postcode NW1 0AE. Expanded address fields: Address 1, Address 2, Town/City, County. "Use this address" purple CTA |
 | `16-checkout-signin-modal.png` | Checkout | Modal overlay "Welcome" with X close. "Sign in or create an account" heading. Email address input field. "Continue" purple filled button. "OR" divider. "Continue as guest" purple outlined button. Background shows checkout page blurred |
-| `17-checkout-customer-details.png` | Checkout | Step 2 Customer details (expanded). Step 1 Delivery options completed (green checkmark, delivery summary shown: "Arriving Mon 02 Mar, All day 7am-8pm – £20.00", product name, "Delivering to" address). Email input field with "Please enter your email to receive your order confirmation". "Billing details" pre-filled from delivery. "Use my delivery details as my billing details" checkbox (checked). Contact consent note. "Let's stay in touch!" section: Join Currys Perks with Email and SMS checkboxes (both checked). Terms & Conditions link. Privacy promise text. "Continue to payment" purple CTA. Right sidebar: basket summary with Subtotal £1,199.00, Delivery £20.00, Total £1,219.00 |
+| `17-checkout-customer-details.png` | Checkout | Step 2 Customer details (expanded). Step 1 Delivery options completed (green checkmark, delivery summary shown: "Arriving Mon 02 Mar, All day 7am-8pm – £20.00", product name, "Delivering to" address). Email input field with "Please enter your email to receive your order confirmation". "Billing details" pre-filled from delivery. "Use my delivery details as my billing details" checkbox (checked). Contact consent note. "Let's stay in touch!" section: Join Electriz Perks with Email and SMS checkboxes (both checked). Terms & Conditions link. Privacy promise text. "Continue to payment" purple CTA. Right sidebar: basket summary with Subtotal £1,199.00, Delivery £20.00, Total £1,219.00 |
 | `18-checkout-payment.png` | Checkout | Step 3 Payment methods (expanded). Steps 1 & 2 completed (green checkmarks with summaries). "Add a discount/promo code or gift card" expandable section. Payment method toggle: "Card / Apple Pay" (radio selected, with Apple Pay, Amex, Visa, Mastercard, Maestro card icons) vs "PayPal" (radio with PayPal logo). "The button below takes you to a new, secure payment page" note. "Continue to payment" purple CTA. Right sidebar: same basket summary |
 
 ### How to Use These Screenshots
@@ -52,7 +52,7 @@ Reference screenshots of every major page and section are in `reference-screensh
 1. **Before building any section**, open the corresponding screenshot(s) from `reference-screenshots/`
 2. **Compare your output to the screenshot** after building each section — take a screenshot of your local dev server and overlay/compare
 3. **Pay attention to these commonly-missed details visible in the screenshots:**
-   - The Curry's purple (#2D0A6E approximate) used in the logo, buttons, and nav highlights
+   - The brand purple (#2D0A6E approximate) used in the logo, buttons, and nav highlights
    - The teal/green announcement bar at the very top
    - Rounded pill-shaped category links with subtle borders and chevron arrows
    - Red text for sale prices and savings amounts
@@ -61,7 +61,7 @@ Reference screenshots of every major page and section are in `reference-screensh
    - The "Epic Deal" tags are red with white text
    - Product cards in list view are horizontal with image left, specs center, price/actions right
    - Filter sidebar has specific toggle switch styling, collapsible sections with chevrons
-   - Brand logos are displayed at original brand styling (not colored Curry's purple)
+   - Brand logos are displayed at original brand styling (not colored brand purple)
    - Footer is dark charcoal (#333 approximate) with white text, not black
    - Checkout uses simplified header (logo + "Secure checkout" only, NO main navigation)
    - Completed checkout steps show green checkmark + summary, with "Edit" link
@@ -75,17 +75,17 @@ Before writing any code, use Firecrawl MCP to scrape the following URLs and save
 
 ### URLs to Scrape
 
-1. **Homepage:** `https://www.currys.co.uk`
+1. **Homepage:** `https://www.electriz.co.uk`
    - Extract: header/nav structure, hero banners, promotional grids, featured categories, footer (all sections and links)
    - Save as: `data/scrape/homepage.json`
    - **Reference:** `01-homepage-hero.png`, `02-homepage-offers.png`, `03-homepage-products-footer.png`
 
-2. **TV & Audio Hub:** `https://www.currys.co.uk/tv-and-audio`
+2. **TV & Audio Hub:** `https://www.electriz.co.uk/tv-and-audio`
    - Extract: category grid, subcategory links, promotional banners, breadcrumb structure, left sidebar navigation, buying guides, interactive tools
    - Save as: `data/scrape/tv-audio-hub.json`
    - **Reference:** `04-tv-audio-hub-top.png`, `05-tv-audio-hub-mid.png`, `06-tv-audio-hub-bottom.png`
 
-3. **Category Listing (TVs):** `https://www.currys.co.uk/tv-and-audio/televisions`
+3. **Category Listing (TVs):** `https://www.electriz.co.uk/tv-and-audio/televisions`
    - Extract: filter sidebar (all filter groups + options), product grid (all products), sort options, pagination structure, product card data (name, price, image URL, rating, specs summary), promotional banners, product badges/tags
    - Save as: `data/scrape/category-tvs.json`
    - **Reference:** `07-category-listing-full.png`, `08-category-filters.png`
@@ -95,7 +95,7 @@ Before writing any code, use Firecrawl MCP to scrape the following URLs and save
    - Save as: `data/scrape/product-example.json`
    - **Reference:** `09-product-page-top.png`, `10-product-page-mid.png`, `11-product-page-bottom.png`
 
-5. **Basket Page:** `https://www.currys.co.uk/basket` (may be empty/blocked — scrape what's available)
+5. **Basket Page:** `https://www.electriz.co.uk/basket` (may be empty/blocked — scrape what's available)
    - Extract: line item layout, quantity controls, subtotal/total structure, promo code input, proceed to checkout CTA
    - Save as: `data/scrape/basket.json`
    - **Reference:** `12-basket.png`
@@ -192,7 +192,7 @@ From the scrape output AND the reference screenshots, extract and document in `d
 
 1. **Announcement bar** — Teal/dark cyan background, white text: "Take it home today with free order & collect in as little as an hour! Subject to availability", X close button right
 2. **Secondary nav** — Small text links: Help & Support · Track my order · Delivery · Returns · Spread the cost · Gift cards · TechTalk · Business
-3. **Header** — Curry's purple circle logo (left), search bar with purple search icon button (center-left), utility icons (Stores, Account, Saved, Basket) with labels below each icon (right)
+3. **Header** — brand purple circle logo (left), search bar with purple search icon button (center-left), utility icons (Stores, Account, Saved, Basket) with labels below each icon (right)
 4. **Main navigation** — Horizontal: Appliances, TV & Audio, Computing, Gaming, Health & Beauty, Phones, Smart Tech, Home & Outdoor, Gifts, Clearance. "Deals" has a red pill/badge. Second row: Services, Brands
 5. **USP bar** — 4 USP items with icons
 6. **Hero carousel** — 3 large promotional banners side-by-side with left/right navigation arrows
@@ -201,7 +201,7 @@ From the scrape output AND the reference screenshots, extract and document in `d
 9. **Discover our amazing offers** — Heading, then 4-card carousel with arrows
 10. **Big brand deals** — 4-card carousel
 11. **Sponsored products** — 6 product cards in a row
-12. **Join Currys Perks** — Dark charcoal full-width banner, white text, "Sign me up" outlined CTA
+12. **Join Electriz Perks** — Dark charcoal full-width banner, white text, "Sign me up" outlined CTA
 13. **Footer** — Dark charcoal background, 5 columns
 14. **Sub-footer** — Privacy links, social icons, legal text
 
@@ -235,7 +235,7 @@ From the scrape output AND the reference screenshots, extract and document in `d
 
 (See full filter sidebar detail in screenshot 08, full product card layout in screenshot 07)
 
-### 4. Product Detail Page (`/product/[slug]`)
+### 4. Product Detail Page (`/products/[slug]`)
 
 **Reference screenshots:** `09-product-page-top.png`, `10-product-page-mid.png`, `11-product-page-bottom.png`
 
@@ -397,23 +397,30 @@ electric/
 │   ├── 17-checkout-customer-details.png
 │   └── 18-checkout-payment.png
 ├── data/
-│   ├── scrape/
-│   ├── design-tokens.json
-│   ├── products.json
-│   ├── categories.json
-│   └── footer-links.json
+│   ├── scrape/                # Category JSONs + products/ individual JSONs
+│   │   ├── products/          # Individual product detail files ({id}.json)
+│   │   ├── products-index.json
+│   │   ├── size-variants.json
+│   │   └── ...category files
+│   └── design-tokens.json
+├── scripts/                   # Data pipeline scripts (node scripts/*.js)
 ├── public/
 │   ├── images/
+│   │   ├── products/          # Local product images ({id}/main.webp etc.)
+│   │   ├── banners/           # Promotional banner images
+│   │   └── icons/             # SVG icons
 │   └── fonts/
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx
 │   │   ├── page.tsx
-│   │   ├── tv-and-audio/
-│   │   ├── product/
+│   │   ├── tv-and-audio/      # Hub + [...category] listing pages
+│   │   ├── products/[slug]/   # Product detail page
 │   │   ├── basket/
-│   │   ├── checkout/
-│   │   └── [slug]/
+│   │   ├── checkout/payment/
+│   │   ├── search/            # Search results page
+│   │   ├── admin/             # Admin dashboard
+│   │   └── api/search/        # Search API route
 │   ├── components/
 │   │   ├── layout/
 │   │   ├── product/
@@ -424,7 +431,7 @@ electric/
 │   ├── lib/
 │   └── styles/
 ├── tailwind.config.ts
-├── next.config.js
+├── next.config.mjs
 ├── package.json
 └── tsconfig.json
 ```
@@ -452,7 +459,7 @@ electric/
 ## Quality Benchmarks
 
 - **Visual fidelity:** Each section should be indistinguishable from the reference screenshots at a glance.
-- **Responsive:** Must match Curry's behavior at mobile (375px), tablet (768px), and desktop (1280px+).
+- **Responsive:** Must match Electriz behavior at mobile (375px), tablet (768px), and desktop (1280px+).
 - **Interactions:** Hover states, dropdown menus, carousels, filter toggles — all must match.
 - **Performance:** Page load under 3 seconds on simulated 4G.
 - **Forms:** All checkout forms must validate inputs (email format, required fields, UK postcode format, card number format).

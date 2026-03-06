@@ -5,31 +5,43 @@
     "primaryDark": "#2D0A6E",
     "announcement": "#007D8A",
     "background": "#FFFFFF",
-    "surface": "#F5F5F5",
+    "surface": "#F2F2F2",
     "text": {
       "primary": "#213038",
-      "secondary": "#666666",
-      "muted": "#999999",
-      "inverse": "#FFFFFF"
+      "secondary": "#444444",
+      "muted": "#696969",
+      "inverse": "#FFFFFF",
+      "price": "#222222"
     },
-    "border": "#E0E0E0",
+    "border": "#E9EAEB",
     "borderLight": "#CDD8DF",
     "error": "#CC0000",
     "success": "#008A00",
     "sale": "#CC0000",
     "tagEpicDeal": "#CC0000",
-    "footer": "#333333",
+    "footer": "#33434A",
     "ratingStars": "#E8A317",
     "ctaPrimary": "#4C12A1",
     "ctaOutline": "#4C12A1",
     "checkoutComplete": "#008A00",
     "inputText": "#495057",
-    "inputBorder": "#CDD8DF"
+    "inputBorder": "#CDD8DF",
+    "subfooterBg": "#292929",
+    "subfooterText": "#BFBFBF",
+    "subfooterTextMuted": "#A3A3A3",
+    "subfooterDivider": "#555555",
+    "footerText": "#D1D5DB",
+    "badge": "#E5006D",
+    "icon": "#56707A",
+    "lightPurple": "#FAF5FF",
+    "offerPink": "#FDE6F1",
+    "galleryOverlay": "#F9F9F9",
+    "footerSecondary": "#E9ECEF"
   },
   "typography": {
     "fontFamily": {
-      "heading": "'Currys Sans Headline', 'CurrysSans-Regular', sans-serif",
-      "body": "'Currys Sans', 'CurrysSans-Regular', sans-serif"
+      "heading": "'Electriz Sans Headline', 'ElectrizSans-Regular', sans-serif",
+      "body": "'Electriz Sans', 'ElectrizSans-Regular', sans-serif"
     },
     "sizes": {
       "xs": "12px",
@@ -101,19 +113,19 @@
     }
   },
   "assets": {
-    "logo": "https://www.currys.co.uk/on/demandware.static/-/Sites-curryspcworlduk-Library/default/dw12db0942/images/brand-currys-logo.svg",
-    "favicon": "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw2dbb4f18/images/favicons/favicon.ico",
+    "logo": "/images/brand-electriz-logo.svg",
+    "favicon": "/images/brand-electriz-logo.svg",
     "uspIcons": {
-      "store": "https://currysprod.a.bigcontent.io/v1/static/store-svg",
-      "pricePromise": "https://currysprod.a.bigcontent.io/v1/static/price-promise-svg",
-      "recycling": "https://currysprod.a.bigcontent.io/v1/static/recycling-2-svg",
-      "calendar": "https://currysprod.a.bigcontent.io/v1/static/calendar-svg"
+      "store": "inline-svg",
+      "pricePromise": "inline-svg",
+      "recycling": "inline-svg",
+      "calendar": "inline-svg"
     },
     "socialIcons": {
-      "facebook": "https://currysprod.a.bigcontent.io/v1/static/facebook",
-      "x": "https://currysprod.a.bigcontent.io/v1/static/x",
-      "instagram": "https://currysprod.a.bigcontent.io/v1/static/insta",
-      "youtube": "https://currysprod.a.bigcontent.io/v1/static/footer-youtube-icon"
+      "facebook": "inline-svg",
+      "x": "inline-svg",
+      "instagram": "inline-svg",
+      "youtube": "inline-svg"
     }
   }
 }

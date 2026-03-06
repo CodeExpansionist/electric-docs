@@ -41,3 +41,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# product images (1.7GB, reproduced via scripts/download-images.js)
+/public/images/products/
+
+# comparison screenshots (temp audit artifacts)
+/comparison-screenshots/
+
+# data backups
+data/scrape-backup-*.tar.gz
+
+# python cache
+__pycache__/
+
+# claude worktrees
+.claude/worktrees/

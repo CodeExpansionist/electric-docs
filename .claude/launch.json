@@ -6,6 +6,18 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 3000
+    },
+    {
+      "name": "cardvault",
+      "runtimeExecutable": "/opt/homebrew/opt/dotnet@8/libexec/dotnet",
+      "runtimeArgs": ["run", "--project", "/Users/jamesharden/virtual/CardVault.Web/CardVault.Web.csproj", "--urls", "http://localhost:5100", "--environment", "Development"],
+      "port": 5100
+    },
+    {
+      "name": "cardvault-docker",
+      "runtimeExecutable": "docker",
+      "runtimeArgs": ["compose", "-f", "/Users/jamesharden/virtual/docker-compose.yml", "up", "web"],
+      "port": 5000
     }
   ]
 }

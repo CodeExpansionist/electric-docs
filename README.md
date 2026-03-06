@@ -1,6 +1,6 @@
-# Electric — Currys TV & Audio Clone
+# Electric — Electriz TV & Audio Clone
 
-A pixel-perfect clone of the [Currys](https://www.currys.co.uk) TV & Audio section, built with Next.js 14, TypeScript, and Tailwind CSS.
+A pixel-perfect clone of the [Electriz](https://www.electriz.co.uk) TV & Audio section, built with Next.js 14, TypeScript, and Tailwind CSS.
 
 ## Tech Stack
 
@@ -97,23 +97,23 @@ src/
 
 ## Design System
 
-Design tokens are extracted from the live Currys site and stored in `data/design-tokens.json`. These tokens drive the Tailwind configuration in `tailwind.config.ts`.
+Design tokens are extracted from the live Electriz site and stored in `data/design-tokens.json`. These tokens drive the Tailwind configuration in `tailwind.config.ts`.
 
 Key tokens include:
 - **Colors:** Primary purple (`#4C12A1`), announcement teal, sale red, text hierarchy
-- **Typography:** Currys Sans font family, size scale from xs to 3xl
+- **Typography:** Electriz Sans font family, size scale from xs to 3xl
 - **Spacing:** Container max-width, border radii, shadows
 - **Breakpoints:** sm (640px), md (768px), lg (1024px), xl (1280px)
 
 ## Data
 
-Product data is scraped from currys.co.uk and stored as JSON in `data/`. The scraping workflow:
+Product data is scraped from electriz.co.uk and stored as JSON in `data/`. The scraping workflow:
 
 1. Full category pages scraped via Firecrawl MCP
 2. Individual product pages enriched with specs, gallery, flexpay, bundles
 3. Data indexed in `data/scrape/products/products-index.json`
 
-Product images use Currys CDN URLs directly with `next/image` and `unoptimized` flag.
+Product images use local images with `next/image` and `unoptimized` flag.
 
 ## Checkout Flow
 
