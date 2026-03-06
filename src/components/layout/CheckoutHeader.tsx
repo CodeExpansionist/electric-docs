@@ -4,11 +4,11 @@ export default function CheckoutHeader() {
   return (
     <header className="bg-white border-b border-border">
       <div className="container-main flex items-center justify-between py-4">
-        {/* Currys logo */}
+        {/* Electriz logo */}
         <Link href="/" className="flex-shrink-0">
           <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
             <span className="text-white text-xs font-bold tracking-tight">
-              currys
+              electriz
             </span>
           </div>
         </Link>

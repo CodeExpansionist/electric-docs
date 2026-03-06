@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { stripDomain } from "@/lib/constants";
 import HubSidebar from "@/components/category/HubSidebar";
+import HubPromoBanners from "@/components/category/HubPromoBanners";
 import tvAudioHub from "../../../data/scrape/tv-audio-hub.json";
 
 export const metadata: Metadata = {
@@ -10,7 +12,7 @@ export const metadata: Metadata = {
     "Shop the latest TVs, soundbars, speakers, headphones and home cinema from top brands like Samsung, LG and Sony. Free delivery available on orders over £40.",
   alternates: { canonical: "/tv-and-audio" },
   openGraph: {
-    title: "TV & Audio | TVs, Soundbars, Headphones & More | Currys",
+    title: "TV & Audio | TVs, Soundbars, Headphones & More | Electriz",
     description:
       "Shop the latest TVs, soundbars, speakers, headphones and home cinema from top brands.",
   },
@@ -25,6 +27,7 @@ const sidebarSections = [
 
 export default function TvAndAudioHub() {
   return (
+    <div className="bg-surface min-h-screen">
     <div className="container-main py-4">
       {/* Breadcrumbs */}
       <nav className="flex items-center gap-2 text-xs text-text-secondary mb-4">
@@ -43,7 +46,7 @@ export default function TvAndAudioHub() {
         {tvAudioHub.subcategoryIcons.map((cat) => (
           <Link
             key={cat.name}
-            href={cat.url.replace("https://www.currys.co.uk", "")}
+            href={stripDomain(cat.url)}
             className="flex flex-col items-center gap-2 no-underline group flex-shrink-0"
           >
             <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center">
@@ -76,7 +79,7 @@ export default function TvAndAudioHub() {
               {tvAudioHub.topDeals.map((deal) => (
                 <Link
                   key={deal.title}
-                  href={deal.url.replace("https://www.currys.co.uk", "")}
+                  href={stripDomain(deal.url)}
                   className="card overflow-hidden no-underline group"
                 >
                   <div className="aspect-[2/1] bg-surface flex items-center justify-center relative">
@@ -117,12 +120,12 @@ export default function TvAndAudioHub() {
               {tvAudioHub.aiOnTv.cards.map((card, idx) => (
                 <Link
                   key={card.title}
-                  href={card.url.replace("https://www.currys.co.uk", "")}
+                  href={stripDomain(card.url)}
                   className="card overflow-hidden no-underline group"
                 >
                   <div className="aspect-[4/3] bg-white flex items-center justify-center overflow-hidden relative">
                     <Image
-                      src={`/images/products/samsung-s90f-alt${(idx % 5) + 1}.jpg`}
+                      src={`/images/products/${["10282706","10115697","10132171","10004693","10119436"][idx % 5]}/main.webp`}
                       alt={card.title}
                       fill
                       className="object-contain p-4"
@@ -147,7 +150,7 @@ export default function TvAndAudioHub() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                 <div className="aspect-video bg-white flex items-center justify-center overflow-hidden relative">
                   <Image
-                    src="/images/products/samsung-s90f-alt3.jpg"
+                    src="/images/products/10282706/main.webp"
                     alt={tvAudioHub.filmmakerMode.heading}
                     fill
                     className="object-cover"
@@ -159,7 +162,7 @@ export default function TvAndAudioHub() {
                     {tvAudioHub.filmmakerMode.description}
                   </p>
                   <Link
-                    href={tvAudioHub.filmmakerMode.ctaUrl.replace("https://www.currys.co.uk", "")}
+                    href={stripDomain(tvAudioHub.filmmakerMode.ctaUrl)}
                     className="btn-outline self-start no-underline text-sm"
                   >
                     {tvAudioHub.filmmakerMode.ctaText}
@@ -176,7 +179,7 @@ export default function TvAndAudioHub() {
               {tvAudioHub.buyingGuidesVisual.map((guide) => (
                 <Link
                   key={guide.title}
-                  href={guide.url.replace("https://www.currys.co.uk", "")}
+                  href={stripDomain(guide.url)}
                   className="card p-5 no-underline group text-center"
                 >
                   <div className="w-16 h-16 mx-auto mb-3 bg-surface rounded-full flex items-center justify-center">
@@ -196,13 +199,16 @@ export default function TvAndAudioHub() {
             </div>
           </section>
 
+          {/* Promo Banners */}
+          <HubPromoBanners banners={tvAudioHub.promoBanners} />
+
           {/* Brand Row */}
           <section className="mb-10">
             <div className="flex flex-wrap items-center justify-center md:justify-between gap-4 md:gap-6 py-6 border-y border-border">
               {tvAudioHub.brandRow.map((brand) => (
                 <Link
                   key={brand.brand}
-                  href={brand.shopNowUrl?.replace("https://www.currys.co.uk", "") || "#"}
+                  href={brand.shopNowUrl ? stripDomain(brand.shopNowUrl) : "#"}
                   className="text-sm font-bold text-text-secondary hover:text-primary no-underline transition-colors"
                 >
                   {brand.brand}
@@ -226,6 +232,7 @@ export default function TvAndAudioHub() {
           </section>
         </div>
       </div>
+    </div>
     </div>
   );
 }

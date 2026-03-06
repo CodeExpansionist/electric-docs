@@ -227,13 +227,13 @@ function CareAndRepair() {
           Insurance Product Information
         </Link>{" "}
         carefully. If you change your mind you can cancel within 30 days of
-        purchase (and up to 21 days of your Currys Perks Free Trial).
+        purchase (and up to 21 days of your Electriz Perks Free Trial).
       </p>
       <p className="text-[10px] text-text-muted mt-2">
         Covered in partnership with domestic &amp; general warranties for
         electrical goods. or{" "}
         <Link href="#" className="text-primary">
-          www.curryscarecoverunderwriters.co.uk
+          www.electriz.co.uk
         </Link>
       </p>
     </div>

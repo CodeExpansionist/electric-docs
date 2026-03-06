@@ -10,14 +10,14 @@ const links = [
 
 export default function SecondaryNav() {
   return (
-    <div className="hidden md:block bg-white border-b border-border">
+    <div className="hidden lg:block bg-surface border-b border-border">
       <div className="container-main flex justify-end">
-        <nav className="flex items-center gap-4 py-1">
+        <nav aria-label="Utility links" className="flex items-center gap-4 py-1">
           {links.map((link) => (
             <Link
               key={link.text}
               href={link.url}
-              className="text-text-secondary text-xs hover:text-primary no-underline whitespace-nowrap"
+              className="text-text-primary text-xs hover:text-primary no-underline whitespace-nowrap"
             >
               {link.text}
             </Link>

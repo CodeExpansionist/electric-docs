@@ -1,29 +1,74 @@
 "use client";
 
-import { useState, useMemo, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
+import { useState, useEffect, useCallback, Suspense } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import ProductListCard from "@/components/category/ProductListCard";
-import { searchProducts } from "@/lib/search-data";
+
+interface SearchProduct {
+  name: string;
+  brand: string;
+  price: { current: number; was: number | null; savings: number | null };
+  rating: { average: number; count: number };
+  url: string;
+  imageUrl: string | null;
+  productId?: string;
+  specs: string[];
+  badges: string[];
+  offers: string[];
+  deliveryFree: boolean;
+  energyRating?: string | null;
+  category: string;
+  categorySlug: string;
+}
 
 function SearchContent() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const query = searchParams.get("q") || "";
-  const [sortBy, setSortBy] = useState("popular");
+  const page = parseInt(searchParams.get("page") || "1", 10);
 
-  const results = useMemo(() => {
-    const found = searchProducts(query);
-    switch (sortBy) {
-      case "price-asc":
-        return [...found].sort((a, b) => a.price.current - b.price.current);
-      case "price-desc":
-        return [...found].sort((a, b) => b.price.current - a.price.current);
-      case "rating":
-        return [...found].sort((a, b) => b.rating.average - a.rating.average);
-      default:
-        return found;
+  const [sortBy, setSortBy] = useState("relevant");
+  const [results, setResults] = useState<SearchProduct[]>([]);
+  const [total, setTotal] = useState(0);
+  const [totalPages, setTotalPages] = useState(0);
+  const [loading, setLoading] = useState(false);
+
+  const fetchResults = useCallback(async () => {
+    if (!query.trim()) {
+      setResults([]);
+      setTotal(0);
+      return;
     }
-  }, [query, sortBy]);
+    setLoading(true);
+    try {
+      const res = await fetch(
+        `/api/search?q=${encodeURIComponent(query)}&sort=${sortBy}&page=${page}&limit=20`
+      );
+      const data = await res.json();
+      setResults(data.results || []);
+      setTotal(data.total || 0);
+      setTotalPages(data.totalPages || 0);
+    } catch {
+      setResults([]);
+      setTotal(0);
+    }
+    setLoading(false);
+  }, [query, sortBy, page]);
+
+  useEffect(() => {
+    fetchResults();
+  }, [fetchResults]);
+
+  const handleSortChange = (newSort: string) => {
+    setSortBy(newSort);
+  };
+
+  const handlePageChange = (newPage: number) => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("page", String(newPage));
+    router.push(`/search?${params.toString()}`);
+  };
 
   return (
     <div className="container-main py-4">
@@ -36,14 +81,21 @@ function SearchContent() {
         <span className="text-text-primary">Search results</span>
       </nav>
 
-      <h1 className="text-2xl font-bold text-text-primary mb-2">
+      <h1 className="text-2xl font-bold text-text-primary mb-1">
         {query ? `Search results for "${query}"` : "Search"}
       </h1>
       <p className="text-sm text-text-secondary mb-6">
-        {results.length} {results.length === 1 ? "result" : "results"} found
+        {total} {total === 1 ? "result" : "results"} found
       </p>
 
-      {results.length > 0 && (
+      {loading && (
+        <div className="py-12 text-center">
+          <div className="inline-block w-8 h-8 border-3 border-primary border-t-transparent rounded-full animate-spin" />
+          <p className="text-sm text-text-secondary mt-3">Searching...</p>
+        </div>
+      )}
+
+      {!loading && results.length > 0 && (
         <>
           {/* Sort bar */}
           <div className="flex items-center justify-between gap-2 mb-4 py-3 border-b border-border">
@@ -51,16 +103,19 @@ function SearchContent() {
               <label className="text-xs text-text-secondary">Sort by:</label>
               <select
                 value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
+                onChange={(e) => handleSortChange(e.target.value)}
                 className="border border-input-border rounded-md px-3 py-1.5 text-xs bg-white"
               >
-                <option value="popular">Most relevant</option>
-                <option value="price-asc">Price low - high</option>
-                <option value="price-desc">Price high - low</option>
+                <option value="relevant">Most relevant</option>
+                <option value="best-sellers">Best sellers</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
                 <option value="rating">Customer Rating</option>
               </select>
             </div>
-            <span className="text-xs text-text-secondary">{results.length} Items</span>
+            <span className="text-xs text-text-secondary">
+              Showing {(page - 1) * 20 + 1}-{Math.min(page * 20, total)} of {total} items
+            </span>
           </div>
 
           {/* Results */}
@@ -84,10 +139,55 @@ function SearchContent() {
               />
             ))}
           </div>
+
+          {/* Pagination */}
+          {totalPages > 1 && (
+            <div className="flex items-center justify-center gap-2 mt-8 mb-4">
+              <button
+                onClick={() => handlePageChange(page - 1)}
+                disabled={page <= 1}
+                className="px-3 py-2 text-sm border border-border rounded-md disabled:opacity-40 disabled:cursor-not-allowed hover:bg-surface transition-colors"
+              >
+                Previous
+              </button>
+              {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
+                let pageNum: number;
+                if (totalPages <= 7) {
+                  pageNum = i + 1;
+                } else if (page <= 4) {
+                  pageNum = i + 1;
+                } else if (page >= totalPages - 3) {
+                  pageNum = totalPages - 6 + i;
+                } else {
+                  pageNum = page - 3 + i;
+                }
+                return (
+                  <button
+                    key={pageNum}
+                    onClick={() => handlePageChange(pageNum)}
+                    className={`w-9 h-9 text-sm rounded-md transition-colors ${
+                      pageNum === page
+                        ? "bg-primary text-white font-bold"
+                        : "border border-border hover:bg-surface"
+                    }`}
+                  >
+                    {pageNum}
+                  </button>
+                );
+              })}
+              <button
+                onClick={() => handlePageChange(page + 1)}
+                disabled={page >= totalPages}
+                className="px-3 py-2 text-sm border border-border rounded-md disabled:opacity-40 disabled:cursor-not-allowed hover:bg-surface transition-colors"
+              >
+                Next
+              </button>
+            </div>
+          )}
         </>
       )}
 
-      {query && results.length === 0 && (
+      {!loading && query && results.length === 0 && (
         <div className="card p-8 text-center">
           <svg
             width="48"
@@ -121,7 +221,8 @@ export default function SearchPage() {
     <Suspense
       fallback={
         <div className="container-main py-12 text-center">
-          <p className="text-sm text-text-secondary">Loading search results...</p>
+          <div className="inline-block w-8 h-8 border-3 border-primary border-t-transparent rounded-full animate-spin" />
+          <p className="text-sm text-text-secondary mt-3">Loading search results...</p>
         </div>
       }
     >

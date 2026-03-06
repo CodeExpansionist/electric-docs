@@ -2,12 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 const productImages = [
-  "/images/products/samsung-s90f-main.jpg",
-  "/images/products/samsung-s90f-alt1.jpg",
-  "/images/products/samsung-s90f-alt3.jpg",
-  "/images/products/samsung-s90f-alt5.jpg",
-  "/images/products/samsung-s90f-alt6.jpg",
-  "/images/products/samsung-s90f-alt7.jpg",
+  "/images/products/10282706/main.webp",
+  "/images/products/10115697/main.webp",
+  "/images/products/10132171/main.webp",
+  "/images/products/10004693/main.webp",
+  "/images/products/10119436/main.webp",
+  "/images/products/10138707/main.webp",
 ];
 
 const products = [
@@ -69,8 +69,8 @@ const products = [
 
 function StarRating({ rating, count }: { rating: number; count: number }) {
   return (
-    <div className="flex items-center gap-1.5">
-      <div className="flex">
+    <div className="flex items-center gap-1.5" role="img" aria-label={`${rating} out of 5 stars, ${count} reviews`}>
+      <div className="flex" aria-hidden="true">
         {[1, 2, 3, 4, 5].map((star) => (
           <svg
             key={star}
@@ -83,8 +83,8 @@ function StarRating({ rating, count }: { rating: number; count: number }) {
           </svg>
         ))}
       </div>
-      <span className="text-xs text-text-secondary">{rating}</span>
-      <span className="text-xs text-primary">
+      <span className="text-xs text-text-secondary" aria-hidden="true">{rating}</span>
+      <span className="text-xs text-primary" aria-hidden="true">
         ({count})
       </span>
     </div>
@@ -93,9 +93,9 @@ function StarRating({ rating, count }: { rating: number; count: number }) {
 
 export default function SponsoredProducts() {
   return (
-    <section className="py-8">
+    <section aria-labelledby="sponsored-products-heading" className="py-8">
       <div className="container-main">
-        <h2 className="text-sm text-text-muted mb-4">Sponsored products</h2>
+        <h2 id="sponsored-products-heading" className="text-xs uppercase tracking-wider text-text-muted mb-4 font-semibold">Sponsored products</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4">
           {products.map((product, idx) => (
             <Link

@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getProductBySlug, getSizeVariants, type ProductDetail } from "@/lib/product-data";
 import { useBasket } from "@/lib/basket-context";
+import { SITE_URL } from "@/lib/constants";
 import type { Product } from "@/lib/types";
 import ProductGallery from "@/components/product/ProductGallery";
 import PricePanel from "@/components/product/PricePanel";
@@ -340,11 +341,6 @@ function ProductPageContent({
     product.images?.gallery && product.images.gallery.length > 1;
   const mainImage = product.imageLarge || product.imageUrl;
   const fallbackImage = product.imageUrl;
-  const monthlyPayment =
-    product.price.current > 99
-      ? (product.price.current / 36).toFixed(2)
-      : null;
-
   // Get size variants from the mapping (with real URLs for navigation)
   const sizeVariants = productId ? getSizeVariants(productId) : [];
 
@@ -363,11 +359,11 @@ function ProductPageContent({
     sku: productId,
     offers: {
       "@type": "Offer",
-      url: `https://www.currys.co.uk/products/${slug}`,
+      url: `${SITE_URL}/products/${slug}`,
       priceCurrency: "GBP",
       price: product.price.current,
       availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: "Currys" },
+      seller: { "@type": "Organization", name: "Electriz" },
     },
     ...(product.rating.count > 0
       ? {
@@ -383,6 +379,7 @@ function ProductPageContent({
   };
 
   return (
+    <div className="bg-surface min-h-screen">
     <div className="container-main py-4">
       <script
         type="application/ld+json"
@@ -631,12 +628,6 @@ function ProductPageContent({
               selected: s.selected,
             }))}
             energyRating={product.energyRating}
-            flexpay={product.flexpay || (monthlyPayment ? {
-              monthlyAmount: parseFloat(monthlyPayment),
-              months: 36,
-              totalPayable: product.price.current * 1.3,
-              apr: "29.9% APR representative (variable)",
-            } : undefined)}
             wallBracket={product.wallBracket}
             onAddToBasket={handleAddToBasket}
           />
@@ -675,7 +666,7 @@ function ProductPageContent({
             </button>
           </div>
 
-          {/* Delivery & Collection (inline in right column) */}
+          {/* Delivery (inline in right column) */}
           <div className="border-t border-border pt-4 mt-2">
             <div className="mb-4">
               <h3 className="text-sm font-bold mb-2 flex items-center gap-2">
@@ -723,21 +714,6 @@ function ProductPageContent({
                 </>
               )}
               <p className="text-xs text-primary mt-2 hover:underline cursor-pointer">Check delivery for your area</p>
-            </div>
-            <div className="border-t border-border pt-3">
-              <h3 className="text-sm font-bold mb-2 flex items-center gap-2">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
-                  <polyline points="9 22 9 12 15 12 15 22" />
-                </svg>
-                Collection
-              </h3>
-              <p className="text-xs text-text-secondary">
-                <span className="font-semibold text-text-primary">FREE</span>{" "}
-                in-store collection in as little as{" "}
-                <span className="font-semibold text-text-primary">1 HOUR</span>
-              </p>
-              <p className="text-xs text-primary mt-2 hover:underline cursor-pointer">Check stores near you</p>
             </div>
           </div>
 
@@ -969,7 +945,6 @@ function ProductPageContent({
               </>
             )}
             <p>Free delivery on orders over £40</p>
-            <p>Free collection from your nearest store</p>
             <p className="mt-2">
               Changed your mind? You can return most products within 30 days of
               purchase for a full refund.
@@ -977,6 +952,7 @@ function ProductPageContent({
           </div>
         </CollapsibleSection>
       </div>
+    </div>
     </div>
   );
 }

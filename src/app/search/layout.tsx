@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Search Results",
-  description: "Search for products at Currys. Find TVs, laptops, phones, tablets and more.",
+  description: "Search for products at Electriz. Find TVs, laptops, phones, tablets and more.",
   robots: { index: false, follow: true },
 };
 

@@ -15,7 +15,6 @@ interface ProductListCardProps {
   deliveryFree: boolean;
   url: string;
   energyRating?: string | null;
-  onAddToBasket?: () => void;
 }
 
 function StarRating({ rating, count }: { rating: number; count: number }) {
@@ -57,8 +56,8 @@ function BadgeTag({ badge }: { badge: string }) {
       </span>
     );
   }
-  // "Loved by Currys" gets a purple heart style
-  if (badge.toLowerCase().includes("loved by currys")) {
+  // "Loved by Electriz" gets a purple heart style
+  if (badge.toLowerCase().includes("loved by electriz")) {
     return (
       <span className="inline-flex items-center gap-1 border border-primary rounded-full px-2.5 py-1 text-[10px] font-semibold text-primary">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="#5C2D91" stroke="none">
@@ -118,7 +117,6 @@ export default function ProductListCard({
   deliveryFree,
   url,
   energyRating,
-  onAddToBasket,
 }: ProductListCardProps) {
   return (
     <div className="card p-4 md:p-5">
@@ -250,35 +248,15 @@ export default function ProductListCard({
                 {deliveryFree ? "Delivery available" : "Delivery available"}
               </span>
             </div>
-            <div className="flex items-center gap-1.5">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="2.5" className="flex-shrink-0">
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              <span className="text-xs text-text-secondary">
-                <span className="font-semibold text-text-primary">FREE</span> in-store collection in as little as 1 Hour
-              </span>
-            </div>
           </div>
 
           {/* View product button */}
           <Link
             href={url}
-            className="btn-outline w-full text-sm text-center mb-2 no-underline block"
+            className="btn-outline w-full text-sm text-center no-underline block"
           >
             View product
           </Link>
-
-          {/* Add to basket button */}
-          <button
-            onClick={onAddToBasket}
-            className="btn-primary w-full text-sm flex items-center justify-center gap-2"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18" />
-              <path d="M16 10a4 4 0 01-8 0" />
-            </svg>
-            Add to basket
-          </button>
         </div>
       </div>
 

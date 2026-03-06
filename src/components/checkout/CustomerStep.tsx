@@ -98,7 +98,7 @@ export default function CustomerStep({
           Let&apos;s stay in touch!
         </h4>
         <p className="text-xs text-text-secondary mb-4">
-          Join Currys Perks and enjoy exclusive discounts, competitions, offers
+          Join Electriz Perks and enjoy exclusive discounts, competitions, offers
           from our partners &amp; lots more!
         </p>
         <div className="flex items-center gap-6 mb-3">

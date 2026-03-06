@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "My Account",
-  description: "Manage your Currys account, view orders and track deliveries.",
+  description: "Manage your Electriz account, view orders and track deliveries.",
   alternates: { canonical: "/account" },
   robots: { index: false, follow: false },
 };

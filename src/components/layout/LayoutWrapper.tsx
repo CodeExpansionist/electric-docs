@@ -9,6 +9,8 @@ import USPBar from "./USPBar";
 import Footer from "./Footer";
 import SubFooter from "./SubFooter";
 import CheckoutHeader from "./CheckoutHeader";
+import AdminSidebar from "@/components/admin/AdminSidebar";
+import AdminHeader from "@/components/admin/AdminHeader";
 
 export default function LayoutWrapper({
   children,
@@ -16,14 +18,27 @@ export default function LayoutWrapper({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const isAdmin = pathname.startsWith("/admin");
   const isCheckout = pathname.startsWith("/checkout");
+
+  if (isAdmin) {
+    return (
+      <div className="min-h-screen bg-surface flex">
+        <AdminSidebar />
+        <div className="flex-1 flex flex-col min-h-screen">
+          <AdminHeader />
+          <main id="main-content" className="flex-1 p-6">{children}</main>
+        </div>
+      </div>
+    );
+  }
 
   if (isCheckout) {
     return (
       <div className="min-h-screen bg-surface">
         <AnnouncementBar />
         <CheckoutHeader />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
       </div>
     );
   }
@@ -35,7 +50,7 @@ export default function LayoutWrapper({
       <Header />
       <MainNav />
       <USPBar />
-      <main>{children}</main>
+      <main id="main-content">{children}</main>
       <Footer />
       <SubFooter />
     </>

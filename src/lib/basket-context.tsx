@@ -111,9 +111,9 @@ const defaultBasket: Basket = {
         subcategory: "Televisions",
         price: { current: 299, was: 349, savings: 50, savingsPercent: 14 },
         images: {
-          main: "https://brain-images-ssl.cdn.dixons.com/0/3/10282830/u_10282830.jpg",
+          main: "/images/products/10282706/main.webp",
           gallery: [],
-          thumbnail: "https://brain-images-ssl.cdn.dixons.com/0/3/10282830/u_10282830.jpg",
+          thumbnail: "/images/products/10282706/main.webp",
         },
         rating: { average: 4.4, count: 128 },
         specs: { "Screen Size": '50"', Resolution: "4K Ultra HD" },
@@ -137,9 +137,9 @@ const defaultBasket: Basket = {
         subcategory: "Televisions",
         price: { current: 1399 },
         images: {
-          main: "https://brain-images-ssl.cdn.dixons.com/0/3/10282830/u_10282830.jpg",
+          main: "/images/products/10282706/main.webp",
           gallery: [],
-          thumbnail: "https://brain-images-ssl.cdn.dixons.com/0/3/10282830/u_10282830.jpg",
+          thumbnail: "/images/products/10282706/main.webp",
         },
         rating: { average: 4.7, count: 42 },
         specs: { "Screen Size": '65"', Resolution: "4K Ultra HD" },

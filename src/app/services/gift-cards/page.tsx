@@ -87,8 +87,8 @@ const faqItems = [
     content: (
       <div className="space-y-2">
         <p>
-          You can redeem your gift card in any Currys store or online at
-          currys.co.uk. When shopping online, enter the 19-digit card number and
+          You can redeem your gift card in any Electriz store or online at
+          electriz.co.uk. When shopping online, enter the 19-digit card number and
           4-digit PIN at checkout. In store, simply hand your gift card to the
           cashier at the point of payment.
         </p>
@@ -111,7 +111,7 @@ const faqItems = [
     content: (
       <p>
         You can use up to 10 gift cards per online transaction. If you need to
-        use more, please visit your nearest Currys store where there is no limit
+        use more, please visit your nearest Electriz store where there is no limit
         on the number of gift cards you can use.
       </p>
     ),
@@ -137,7 +137,7 @@ const faqItems = [
         >
           balance checker
         </Link>
-        , or by visiting any Currys store. You will need your 19-digit card
+        , or by visiting any Electriz store. You will need your 19-digit card
         number and 4-digit PIN.
       </p>
     ),
@@ -160,12 +160,12 @@ const faqItems = [
 
 const termsItems = [
   {
-    title: "Currys gift cards and eGift cards",
+    title: "Electriz gift cards and eGift cards",
     content: (
       <div className="space-y-3">
         <p>
-          Currys gift cards and eGift cards can be redeemed in any Currys store
-          across the UK &amp; Republic of Ireland, or online at currys.co.uk.
+          Electriz gift cards and eGift cards can be redeemed in any Electriz store
+          across the UK &amp; Republic of Ireland, or online at electriz.co.uk.
         </p>
         <p>
           Gift cards cannot be used to purchase airtime, SIM-only deals, or
@@ -179,7 +179,7 @@ const termsItems = [
           replaced.
         </p>
         <p className="text-xs text-text-secondary mt-2">
-          Issuer: Currys Group Limited, 1 Portal Way, London, W3 6RS.
+          Issuer: Electriz Group Limited, 1 Portal Way, London, W3 6RS.
         </p>
       </div>
     ),
@@ -230,7 +230,7 @@ export default function GiftCardsPage() {
           </h1>
           <p className="text-base md:text-lg text-white max-w-2xl mx-auto">
             Can&apos;t decide on the perfect gift? Give the gift of tech with a
-            Currys gift card
+            Electriz gift card
           </p>
         </div>
       </div>
@@ -239,7 +239,7 @@ export default function GiftCardsPage() {
       <div className="container-main py-8 space-y-8">
         {/* Purchase options heading */}
         <h2 className="text-xl font-bold text-text-primary">
-          Where can I purchase Currys gift cards?
+          Where can I purchase Electriz gift cards?
         </h2>
 
         {/* Purchase option cards */}

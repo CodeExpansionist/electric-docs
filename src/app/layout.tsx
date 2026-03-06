@@ -4,33 +4,45 @@ import { BasketProvider } from "@/lib/basket-context";
 import { SavedProvider } from "@/lib/saved-context";
 import { OrdersProvider } from "@/lib/orders-context";
 import LayoutWrapper from "@/components/layout/LayoutWrapper";
+import { SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.currys.co.uk"
-  ),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "Currys | Electrical Appliances, TVs, Laptops & More",
-    template: "%s | Currys",
+    default: "Electriz | Electrical Appliances, TVs, Laptops & More",
+    template: "%s | Electriz",
   },
   description:
-    "Discover the latest tech with Currys. Shop TVs, laptops, phones, tablets, home appliances and more. Free delivery available.",
+    "Discover the latest tech with Electriz. Shop TVs, laptops, phones, tablets, home appliances and more. Free delivery available.",
   icons: {
-    icon: "https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/dw2dbb4f18/images/favicons/favicon.ico",
+    icon: [
+      { url: "/images/brand-electriz-logo.svg", type: "image/svg+xml" },
+    ],
+    apple: "/images/brand-electriz-logo.svg",
   },
+  manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     locale: "en_GB",
-    siteName: "Currys",
-    title: "Currys | Electrical Appliances, TVs, Laptops & More",
+    siteName: "Electriz",
+    title: "Electriz | Electrical Appliances, TVs, Laptops & More",
     description:
-      "Discover the latest tech with Currys. Shop TVs, laptops, phones, tablets, home appliances and more.",
+      "Discover the latest tech with Electriz. Shop TVs, laptops, phones, tablets, home appliances and more.",
+    images: [
+      {
+        url: "/images/brand-electriz-logo.svg",
+        width: 512,
+        height: 512,
+        alt: "Electriz logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Currys | Electrical Appliances, TVs, Laptops & More",
+    title: "Electriz | Electrical Appliances, TVs, Laptops & More",
     description:
-      "Discover the latest tech with Currys. Shop TVs, laptops, phones, tablets, home appliances and more.",
+      "Discover the latest tech with Electriz. Shop TVs, laptops, phones, tablets, home appliances and more.",
+    images: ["/images/brand-electriz-logo.svg"],
   },
   robots: {
     index: true,
@@ -49,6 +61,9 @@ export default function RootLayout({
   return (
     <html lang="en-GB">
       <body>
+        <a href="#main-content" className="skip-to-content">
+          Skip to main content
+        </a>
         <BasketProvider>
           <SavedProvider>
             <OrdersProvider>

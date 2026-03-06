@@ -4,77 +4,69 @@ import Link from "next/link";
 import Image from "next/image";
 import Carousel from "@/components/ui/Carousel";
 
+
 const deals = [
   {
     title: "Incredible Xbox bundle deals",
     description: "Console, controller and Game Pass bundle deals",
     url: "/deals-on-gaming/deals-on-xbox-and-microsoft",
-    image:
-      "https://media.currys.biz/i/currysprod/wk43-block-XBOX-Console-Game-Pass-v2?fmt=auto&$q-large$",
+    image: "/images/banners/wk43-block-XBOX-Console-Game-Pass-v2.webp",
   },
   {
     title: "Shop Galaxy Watch8 Series or Watch Ultra",
     description: "Claim 12 free months of Strava worth \u00a354.99!",
     url: "/deals-on-smart-tech/deals-on-samsung-strava",
-    image:
-      "https://media.currys.biz/i/currysprod/wk39-block-Samsung-Strava?fmt=auto&$q-large$",
+    image: "/images/banners/wk39-block-Samsung-Strava.webp",
   },
   {
     title: "Save on spotless!",
     description: "Get up to \u00a3250 off selected Shark vacuums",
     url: "/deals-on-appliances/deals-on-all-shark-vacuum-cleaners",
-    image:
-      "https://media.currys.biz/i/currysprod/wk43-block-Shark-Floorcare?fmt=auto&$q-large$",
+    image: "/images/banners/wk43-block-Shark-Floorcare.webp",
   },
   {
     title: "Save up to \u00a3400 on MacBook Air",
     description: "When you trade in your current Mac",
     url: "/computing/laptops/laptops/apple",
-    image:
-      "https://media.currys.biz/i/currysprod/wk43-block-Mac-Trade-In-Top-up?fmt=auto&$q-large$",
+    image: "/images/banners/wk43-block-Mac-Trade-In-Top-up.webp",
   },
   {
     title: "Shop selected iPhone models",
     description: "Save up to \u00a3150 now!",
     url: "/phones/mobile-phones/mobile-phones/apple",
-    image:
-      "https://media.currys.biz/i/currysprod/wk37-apple-iphone-17-air-BNPL-9?fmt=auto&$q-large$",
+    image: "/images/banners/wk37-apple-iphone-17-air-BNPL-9.webp",
   },
   {
     title: "Deals on Dyson!",
     description: "Save up to \u00a3150 on selected products now",
     url: "/deals-on-appliances/deals-on-dyson-appliances",
-    image:
-      "https://media.currys.biz/i/currysprod/wk43-block-Dyson-ASOTV-v2?fmt=auto&$q-large$",
+    image: "/images/banners/wk43-block-Dyson-ASOTV-v2.webp",
   },
   {
     title: "Save big on selected LG TVs",
     description: "Great deals on selected LG TVs",
     url: "/deals-on-tv-and-audio/lg-tv-savings",
-    image:
-      "https://media.currys.biz/i/currysprod/wk43-block-LG-IFC24-v2?fmt=auto&$q-large$",
+    image: "/images/banners/wk43-block-LG-IFC24-v2.webp",
   },
   {
     title: "Shop selected hair & beauty tech",
     description: "Save up to 50%!",
     url: "/deals-on-appliances/great-savings-on-hair-and-beauty",
-    image:
-      "https://media.currys.biz/i/currysprod/wk43-block-Save-up-to-50-on-HB?fmt=auto&$q-large$",
+    image: "/images/banners/wk43-block-Save-up-to-50-on-HB.webp",
   },
   {
     title: "\u00a334.99 off the HP M110W? Copy that!",
     description: "Was \u00a3109.99, now just \u00a375. As seen on TV",
     url: "/products/hp-laserjet-m110w-monochrome-wireless-laser-printer",
-    image:
-      "https://media.currys.biz/i/currysprod/wk43-block-HP-M110W?fmt=auto&$q-large$",
+    image: "/images/banners/wk43-block-HP-M110W.webp",
   },
 ];
 
 export default function BigBrandDeals() {
   return (
-    <section className="py-8">
+    <section aria-labelledby="big-brand-deals-heading" className="py-8">
       <div className="container-main">
-        <h2 className="text-2xl font-bold text-text-primary mb-6">
+        <h2 id="big-brand-deals-heading" className="text-2xl font-bold text-text-primary mb-6">
           Big brand deals
         </h2>
         <Carousel visibleCount={4} mobileCount={1} tabletCount={2}>
@@ -84,13 +76,13 @@ export default function BigBrandDeals() {
               href={deal.url}
               className="flex flex-col rounded-lg overflow-hidden no-underline group bg-white shadow-card hover:shadow-md transition-shadow h-full"
             >
-              <div className="relative w-full" style={{ paddingBottom: "75%" }}>
+              <div className="relative w-full aspect-[4/3]">
                 <Image
                   src={deal.image}
                   alt={deal.title}
                   fill
                   className="object-cover"
-                  unoptimized
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
               <div className="p-4 flex flex-col flex-1">

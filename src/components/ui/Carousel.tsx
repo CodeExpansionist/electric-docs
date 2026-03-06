@@ -14,14 +14,22 @@ function useResponsiveCount(desktop: number, tablet: number, mobile: number) {
   const [count, setCount] = useState(desktop);
 
   useEffect(() => {
+    let timeout: ReturnType<typeof setTimeout>;
     function update() {
       if (window.innerWidth < 640) setCount(mobile);
       else if (window.innerWidth < 1024) setCount(tablet);
       else setCount(desktop);
     }
+    function debouncedUpdate() {
+      clearTimeout(timeout);
+      timeout = setTimeout(update, 150);
+    }
     update();
-    window.addEventListener("resize", update);
-    return () => window.removeEventListener("resize", update);
+    window.addEventListener("resize", debouncedUpdate);
+    return () => {
+      window.removeEventListener("resize", debouncedUpdate);
+      clearTimeout(timeout);
+    };
   }, [desktop, tablet, mobile]);
 
   return count;
@@ -59,7 +67,7 @@ export default function Carousel({
                      hover:bg-gray-50 transition-colors border border-border"
           aria-label="Previous"
         >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
             <path d="M15 18l-6-6 6-6" />
           </svg>
         </button>
@@ -94,7 +102,7 @@ export default function Carousel({
                      hover:bg-gray-50 transition-colors border border-border"
           aria-label="Next"
         >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
             <path d="M9 18l6-6-6-6" />
           </svg>
         </button>

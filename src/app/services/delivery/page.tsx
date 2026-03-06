@@ -122,7 +122,7 @@ const largeItemsNextDay: DeliveryTable = {
 
 const faqItems = [
   {
-    title: "How can I speak to someone about my Currys order?",
+    title: "How can I speak to someone about my Electriz order?",
     content: (
       <div>
         <p>
@@ -225,7 +225,7 @@ export default function DeliveryPage() {
             className="flex items-center gap-3 bg-white rounded-lg border border-border p-4 flex-1 no-underline hover:border-primary transition-colors group"
           >
             <Image
-              src="https://currysprod.a.bigcontent.io/v1/static/delivery-svg"
+              src="/images/icons/delivery-svg.svg"
               alt="Delivery truck"
               width={40}
               height={40}

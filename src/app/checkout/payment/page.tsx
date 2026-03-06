@@ -121,7 +121,7 @@ function PaymentPageContent() {
               price: item.product.price.current,
               quantity: item.quantity,
             }))
-          : [{ id: "demo-1", title: "SAMSUNG UB00F 50\" Crystal UHD 4K HDR Smart TV 2025", image: "https://media.currys.biz/i/currysprod/10282094?$l-large$&fmt=auto", price: 299, quantity: 1 }],
+          : [{ id: "demo-1", title: "SAMSUNG UB00F 50\" Crystal UHD 4K HDR Smart TV 2025", image: "/images/products/10282094/large.webp", price: 299, quantity: 1 }],
         subtotal,
         deliveryCost,
         total,

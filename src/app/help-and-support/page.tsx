@@ -3,27 +3,26 @@
 import Link from "next/link";
 import Image from "next/image";
 import Accordion from "@/components/ui/Accordion";
-
 /* ---------- Data ---------- */
 
 const actionCards = [
   {
-    icon: "https://currysprod.a.bigcontent.io/v1/static/returns-purple-circle-svg",
+    icon: "/images/icons/returns-purple-circle-svg.svg",
     title: "Return or cancel my order",
     href: "/services/returns",
   },
   {
-    icon: "https://currysprod.a.bigcontent.io/v1/static/delivery-purple-circle-svg",
+    icon: "/images/icons/delivery-purple-circle-svg.svg",
     title: "Track my order",
     href: "/track-your-order",
   },
   {
-    icon: "https://currysprod.a.bigcontent.io/v1/static/repairs-purple-circle-svg",
+    icon: "/images/icons/repairs-purple-circle-svg.svg",
     title: "Track my repair",
     href: "#",
   },
   {
-    icon: "https://currysprod.a.bigcontent.io/v1/static/installation-purple-circle-svg",
+    icon: "/images/icons/installation-purple-circle-svg.svg",
     title: "Track my engineer",
     href: "#",
   },
@@ -188,7 +187,7 @@ const popularFAQs = [
     content: (
       <p>
         You can return most products within 30 days of purchase. Start your return online through your account,
-        or bring the product to any Currys store with your proof of purchase. For full details, visit our{" "}
+        or bring the product to any Electriz store with your proof of purchase. For full details, visit our{" "}
         <Link href="/services/returns" className="text-primary no-underline hover:underline">
           Returns &amp; cancellations
         </Link>{" "}
@@ -219,7 +218,7 @@ const resourceCards = [
   {
     title: "Product and service manuals",
     description:
-      "Find manuals and setup guides for your Currys products and services. Search by product name or model number.",
+      "Find manuals and setup guides for your Electriz products and services. Search by product name or model number.",
     href: "#",
     iconLabel: "Manuals",
   },
@@ -234,7 +233,7 @@ const resourceCards = [
 
 const contactMethods = [
   {
-    icon: "https://currysprod.a.bigcontent.io/v1/static/call-center-svg",
+    icon: "/images/icons/call-center-svg.svg",
     title: "Call us",
     content: (
       <div className="space-y-3 text-sm text-text-secondary">
@@ -255,12 +254,12 @@ const contactMethods = [
     ),
   },
   {
-    icon: "https://currysprod.a.bigcontent.io/v1/static/chat-svg",
+    icon: "/images/icons/chat-svg.svg",
     title: "ShopLive",
     content: (
       <div className="text-sm text-text-secondary leading-relaxed">
         <p>
-          Connect with a Currys expert via video call. Get personalised product demonstrations,
+          Connect with an Electriz expert via video call. Get personalised product demonstrations,
           comparisons, and advice from the comfort of your home.
         </p>
         <Link
@@ -273,12 +272,12 @@ const contactMethods = [
     ),
   },
   {
-    icon: "https://currysprod.a.bigcontent.io/v1/static/email-svg",
+    icon: "/images/icons/email-svg.svg",
     title: "Write to us",
     content: (
       <div className="text-sm text-text-secondary leading-relaxed">
         <p className="font-bold text-text-primary mb-1">Postal address</p>
-        <p>Currys</p>
+        <p>Electriz</p>
         <p>PO Box 1687</p>
         <p>Sheffield</p>
         <p>S2 5YA</p>
@@ -410,10 +409,10 @@ export default function HelpAndSupportPage() {
         </div>
       </div>
 
-      {/* How can I contact Currys? */}
+      {/* How can I contact Electriz? */}
       <div className="container-main py-10">
         <h2 className="text-xl font-bold text-text-primary mb-6">
-          How can I contact Currys?
+          How can I contact Electriz?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {contactMethods.map((method) => (

@@ -1,3 +1,4 @@
+import { stripDomain } from "@/lib/constants";
 import tvsData from "@/../data/scrape/category-tvs.json";
 import dvdBluRayData from "@/../data/scrape/dvd-blu-ray.json";
 import soundbarsData from "@/../data/scrape/soundbars.json";
@@ -5,6 +6,14 @@ import speakersHifiData from "@/../data/scrape/speakers-hifi.json";
 import tvAccessoriesData from "@/../data/scrape/tv-accessories.json";
 import digitalSmartTvData from "@/../data/scrape/digital-smart-tv.json";
 import headphonesData from "@/../data/scrape/headphones.json";
+import tvWallBracketsData from "@/../data/scrape/tv-wall-brackets.json";
+import cablesAccessoriesData from "@/../data/scrape/cables-accessories.json";
+import remoteControlsData from "@/../data/scrape/remote-controls.json";
+import tvAerialsData from "@/../data/scrape/tv-aerials.json";
+import radiosData from "@/../data/scrape/radios.json";
+import bluRayDvdPlayersData from "@/../data/scrape/blu-ray-dvd-players.json";
+import homeCinemaSystemsData from "@/../data/scrape/home-cinema-systems.json";
+import { toLocalImage, getListingImage, getGalleryImages, getThumbnailImages, getImageSortKey } from "./images";
 
 // ---- Enriched product data (scraped individual product pages) ----
 // Combined index of all scraped product data, keyed by product ID.
@@ -18,19 +27,6 @@ const scrapedProductMap: Record<string, any> = scrapedProductIndex as any;
 const sizeVariantsIndex: Record<string, any> = (sizeVariantsData as any).productToVariants || {};
 
 // ---- Interfaces ----
-
-export interface FlexpayOption {
-  months: number;
-  settleBy: string;
-}
-
-export interface Flexpay {
-  monthlyAmount: number;
-  months: number;
-  totalPayable: number;
-  apr: string;
-  buyNowPayLater?: FlexpayOption[];
-}
 
 export interface WallBracketProduct {
   title: string;
@@ -113,9 +109,6 @@ export interface DeliveryInfo {
   timeSlotDeliveryPrice?: number;
   nextDayTimeSlotPrice?: number;
   standardDeliveryDays?: number;
-  collectionAvailable?: boolean;
-  collectionTime?: string;
-  collectionFree?: boolean;
 }
 
 export interface SizeVariant {
@@ -152,7 +145,6 @@ export interface ProductDetail {
   };
   keySpecs?: KeySpec[];
   sizeOptions?: SizeOption[];
-  flexpay?: Flexpay;
   wallBracket?: WallBracket;
   careAndRepair?: CareAndRepairPlan[];
   careAndRepairBenefits?: string[];
@@ -179,15 +171,23 @@ const allCategories: { data: any; name: string; slug: string }[] = [
   { data: tvAccessoriesData, name: "TV Accessories", slug: "tv-accessories" },
   { data: digitalSmartTvData, name: "Digital & Smart TV", slug: "digital-and-smart-tv" },
   { data: headphonesData, name: "Headphones", slug: "headphones/headphones" },
+  { data: tvWallBracketsData, name: "TV Wall Brackets", slug: "tv-accessories/tv-wall-brackets-and-stands/tv-wall-brackets" },
+  { data: cablesAccessoriesData, name: "Cables & Accessories", slug: "tv-accessories/cables-and-accessories" },
+  { data: remoteControlsData, name: "Remote Controls", slug: "tv-accessories/remote-controls" },
+  { data: tvAerialsData, name: "TV Aerials", slug: "tv-accessories/tv-aerials" },
+  { data: radiosData, name: "Radios", slug: "radios" },
+  { data: bluRayDvdPlayersData, name: "Blu-ray & DVD Players", slug: "dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players" },
+  { data: homeCinemaSystemsData, name: "Home Cinema Systems", slug: "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems" },
 ];
 
-function toLargeImage(imageUrl: string | null): string | null {
+function toLargeImage(imageUrl: string | null, productId?: string): string | null {
+  if (productId) return `/images/products/${productId}/large.webp`;
   if (!imageUrl) return null;
-  return imageUrl
-    .replace("?$g-small$&fmt=auto", "?fmt=auto")
-    .replace("?$s-swatch$&fmt=auto", "?fmt=auto")
+  return toLocalImage(imageUrl
+    .replace("?$g-small$&fmt=auto", "?$l-large$&fmt=auto")
+    .replace("?$s-swatch$&fmt=auto", "?$l-large$&fmt=auto")
     .replace("$g-small$", "$l-large$")
-    .replace("$s-swatch$", "$l-large$");
+    .replace("$s-swatch$", "$l-large$"));
 }
 
 function extractProductId(slug: string): string | undefined {
@@ -199,11 +199,17 @@ function mergeScrapedData(base: ProductDetail, scraped: any): ProductDetail {
   // Merge scraped data into the base product
   const merged = { ...base };
 
-  // Images
+  // Images - sort by suffix for correct order, then convert CDN URLs to local paths
   if (scraped.images?.gallery?.length > 0) {
+    const sortedGallery = [...scraped.images.gallery].sort(
+      (a: string, b: string) => getImageSortKey(a) - getImageSortKey(b)
+    );
+    const sortedThumbs = [...(scraped.images.thumbnails || [])].sort(
+      (a: string, b: string) => getImageSortKey(a) - getImageSortKey(b)
+    );
     merged.images = {
-      gallery: scraped.images.gallery,
-      thumbnails: scraped.images.thumbnails || [],
+      gallery: sortedGallery.map((url: string) => toLocalImage(url)),
+      thumbnails: sortedThumbs.map((url: string) => toLocalImage(url)),
       video: scraped.images.video || undefined,
     };
   }
@@ -221,11 +227,6 @@ function mergeScrapedData(base: ProductDetail, scraped: any): ProductDetail {
   // Energy rating from scraped data (more detailed)
   if (scraped.energyRating?.class) {
     merged.energyRating = scraped.energyRating.class;
-  }
-
-  // Flexpay
-  if (scraped.flexpay?.monthlyAmount) {
-    merged.flexpay = scraped.flexpay;
   }
 
   // Wall bracket
@@ -328,8 +329,7 @@ export function getProductBySlug(slug: string): ProductDetail | null {
   for (const cat of allCategories) {
     const products = cat.data.products || [];
     for (const p of products) {
-      const productUrl = (p.url || p.productUrl || "")
-        .replace("https://www.currys.co.uk", "");
+      const productUrl = stripDomain(p.url || p.productUrl || "");
 
       if (productUrl === targetPath) {
         const base: ProductDetail = {
@@ -345,8 +345,8 @@ export function getProductBySlug(slug: string): ProductDetail | null {
             count: p.rating?.count ?? p.reviewCount ?? 0,
           },
           url: productUrl,
-          imageUrl: p.imageUrl || null,
-          imageLarge: toLargeImage(p.imageUrl),
+          imageUrl: productId ? getListingImage(productId) : (p.imageUrl || null),
+          imageLarge: toLargeImage(p.imageUrl, productId),
           specs: p.specs || [],
           badges: p.badges || [],
           offers: p.offers || [],
@@ -362,22 +362,11 @@ export function getProductBySlug(slug: string): ProductDetail | null {
           return mergeScrapedData(base, scrapedProductMap[productId]);
         }
 
-        // Fallback: generate gallery images from CDN pattern
+        // Generate gallery images using local paths
         if (productId) {
-          const cdnBase = `https://media.currys.biz/i/currysprod/${productId}`;
           base.images = {
-            gallery: [
-              `${cdnBase}?$l-large$&fmt=auto`,
-              ...Array.from({ length: 6 }, (_, i) =>
-                `${cdnBase}_${String(i).padStart(3, "0")}?$l-large$&fmt=auto`
-              ),
-            ],
-            thumbnails: [
-              `${cdnBase}?$t-thumbnail$&fmt=auto`,
-              ...Array.from({ length: 6 }, (_, i) =>
-                `${cdnBase}_${String(i).padStart(3, "0")}?$t-thumbnail$&fmt=auto`
-              ),
-            ],
+            gallery: getGalleryImages(productId),
+            thumbnails: getThumbnailImages(productId),
           };
         }
 
@@ -394,8 +383,8 @@ export function getAllProducts(): ProductDetail[] {
   for (const cat of allCategories) {
     const items = cat.data.products || [];
     for (const p of items) {
-      const productUrl = (p.url || p.productUrl || "")
-        .replace("https://www.currys.co.uk", "");
+      const productUrl = stripDomain(p.url || p.productUrl || "");
+      const pid = p.productId || extractProductId(productUrl.replace("/products/", "") + ".html");
       products.push({
         name: p.name || p.title || "",
         brand: p.brand || "",
@@ -409,8 +398,8 @@ export function getAllProducts(): ProductDetail[] {
           count: p.rating?.count ?? p.reviewCount ?? 0,
         },
         url: productUrl,
-        imageUrl: p.imageUrl || null,
-        imageLarge: toLargeImage(p.imageUrl),
+        imageUrl: pid ? getListingImage(pid) : (p.imageUrl || null),
+        imageLarge: toLargeImage(p.imageUrl, pid),
         specs: p.specs || [],
         badges: p.badges || [],
         offers: p.offers || [],
@@ -418,6 +407,7 @@ export function getAllProducts(): ProductDetail[] {
         energyRating: p.energyRating || null,
         category: cat.name,
         categorySlug: cat.slug,
+        productId: pid,
       });
     }
   }

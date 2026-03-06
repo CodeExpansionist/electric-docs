@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { stripDomain } from "@/lib/constants";
 
 interface SidebarSection {
   title: string;
@@ -21,7 +22,7 @@ export default function HubSidebar({ sections }: HubSidebarProps) {
             {section.links.map((link) => (
               <Link
                 key={link.text}
-                href={link.url.replace("https://www.currys.co.uk", "")}
+                href={stripDomain(link.url)}
                 className="pill-link text-xs"
               >
                 <span className="flex-1">{link.text}</span>

@@ -47,6 +47,7 @@ interface OrdersContextValue {
   orders: Order[];
   addOrder: (order: Order) => void;
   getOrder: (orderNumber: string) => Order | undefined;
+  updateOrderStatus: (orderNumber: string, status: Order["status"]) => void;
 }
 
 const OrdersContext = createContext<OrdersContextValue | null>(null);
@@ -62,7 +63,7 @@ const demoOrders: Order[] = [
       {
         id: "10282706",
         title: 'SAMSUNG UB00F 50" Crystal UHD 4K HDR Smart TV 2025',
-        image: "https://brain-images-ssl.cdn.dixons.com/0/3/10282830/u_10282830.jpg",
+        image: "/images/products/10282706/main.webp",
         price: 299,
         quantity: 1,
       },
@@ -94,14 +95,14 @@ const demoOrders: Order[] = [
       {
         id: "10282800",
         title: 'SAMSUNG S90F 65" OLED 4K Vision AI Smart TV 2025',
-        image: "https://brain-images-ssl.cdn.dixons.com/0/3/10282830/u_10282830.jpg",
+        image: "/images/products/10282706/main.webp",
         price: 1399,
         quantity: 1,
       },
       {
         id: "10266466",
         title: "SAMSUNG HW-Q990D 11.1.4 Wireless Sound Bar with Dolby Atmos",
-        image: "https://media.currys.biz/i/currysprod/10266466?$l-large$&fmt=auto",
+        image: "/images/products/10266466/large.webp",
         price: 999,
         quantity: 1,
       },
@@ -161,8 +162,14 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
     return orders.find((o) => o.orderNumber === orderNumber);
   };
 
+  const updateOrderStatus = (orderNumber: string, status: Order["status"]) => {
+    setOrders((prev) =>
+      prev.map((o) => (o.orderNumber === orderNumber ? { ...o, status } : o))
+    );
+  };
+
   return (
-    <OrdersContext.Provider value={{ orders, addOrder, getOrder }}>
+    <OrdersContext.Provider value={{ orders, addOrder, getOrder, updateOrderStatus }}>
       {children}
     </OrdersContext.Provider>
   );

@@ -192,7 +192,7 @@ export default function AccountPage() {
               icon={<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" /><circle cx="12" cy="9" r="2.5" /></svg>} />
             <AccountCard title="Payment methods" description="Manage saved cards"
               icon={<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="1" y="4" width="22" height="16" rx="2" /><path d="M1 10h22" /></svg>} />
-            <AccountCard title="Currys Perks" description="View rewards and offers"
+            <AccountCard title="Electriz Perks" description="View rewards and offers"
               icon={<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>} />
           </div>
         )}
@@ -328,7 +328,7 @@ export default function AccountPage() {
             <div className="mt-6 bg-surface rounded-lg p-4 border border-border">
               <h3 className="text-sm font-bold text-text-primary mb-2">Why create an account?</h3>
               <ul className="space-y-2 text-xs text-text-secondary">
-                {["Track your orders and deliveries", "Save items to your wishlist", "Faster checkout with saved details", "Exclusive Currys Perks rewards"].map((b) => (
+                {["Track your orders and deliveries", "Save items to your wishlist", "Faster checkout with saved details", "Exclusive Electriz Perks rewards"].map((b) => (
                   <li key={b} className="flex items-start gap-2">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="2.5" className="flex-shrink-0 mt-0.5"><path d="M20 6L9 17l-5-5" /></svg>
                     {b}

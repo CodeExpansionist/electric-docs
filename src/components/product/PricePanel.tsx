@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import type { Flexpay, WallBracket, SizeVariant } from "@/lib/product-data";
+import type { WallBracket, SizeVariant } from "@/lib/product-data";
 
 interface PricePanelProps {
   price: number;
@@ -13,7 +13,6 @@ interface PricePanelProps {
   offers: string[];
   sizeVariants?: SizeVariant[];
   energyRating?: string | null;
-  flexpay?: Flexpay;
   wallBracket?: WallBracket;
   onAddToBasket?: () => void;
 }
@@ -41,7 +40,6 @@ export default function PricePanel({
   offers,
   sizeVariants = [],
   energyRating,
-  flexpay,
   wallBracket,
   onAddToBasket,
 }: PricePanelProps) {
@@ -82,51 +80,6 @@ export default function PricePanel({
             className="text-xs text-primary no-underline hover:underline"
           >
             Product fiche
-          </Link>
-        </div>
-      )}
-
-      {/* Flexpay section */}
-      {flexpay && (
-        <div className="bg-[#F5F0FF] border border-primary/20 rounded-[5px] p-4 mb-4">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-primary font-bold text-sm leading-snug">
-              Spread the cost with Currys flexpay
-            </span>
-            <Link href="#" className="text-xs text-primary underline whitespace-nowrap">
-              Learn more
-            </Link>
-          </div>
-          <p className="text-xs text-text-secondary mb-1">
-            <span className="font-semibold">Make monthly payments</span>
-          </p>
-          <p className="text-xs text-text-secondary">
-            • From £{flexpay.monthlyAmount.toFixed(2)} per month for{" "}
-            {flexpay.months} months*
-          </p>
-          {flexpay.buyNowPayLater && flexpay.buyNowPayLater.length > 0 && (
-            <>
-              <p className="text-xs text-text-secondary font-semibold mt-2">
-                Or buy now, pay later
-              </p>
-              {flexpay.buyNowPayLater.map((bnpl, i) => (
-                <p key={i} className="text-xs text-text-secondary">
-                  • Pay as much or as little as you like for {bnpl.months}{" "}
-                  months. Settle in full by {bnpl.settleBy} &amp; pay no
-                  interest
-                </p>
-              ))}
-            </>
-          )}
-          <p className="text-[10px] text-text-muted mt-2">
-            *Illustrative example. Credit should £{price.toFixed(2)}.{" "}
-            {flexpay.apr && `Representative ${flexpay.apr} APR.`}
-          </p>
-          <Link
-            href="#"
-            className="text-[10px] text-primary mt-1 inline-block"
-          >
-            ⓘ Important credit information
           </Link>
         </div>
       )}

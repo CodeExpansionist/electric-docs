@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 
 const columns = [
@@ -31,8 +34,8 @@ const columns = [
   {
     heading: "Our websites",
     links: [
-      { text: "Currys Business", url: "/business" },
-      { text: "Currys Ireland", url: "/ireland" },
+      { text: "Electriz Business", url: "/business" },
+      { text: "Electriz Ireland", url: "/ireland" },
       { text: "Partmaster", url: "/partmaster" },
       { text: "Carphone Warehouse", url: "/carphone-warehouse" },
     ],
@@ -51,19 +54,55 @@ const columns = [
 ];
 
 export default function Footer() {
+  const [openSections, setOpenSections] = useState<Record<string, boolean>>(
+    () => Object.fromEntries(columns.map((c) => [c.heading, false]))
+  );
+
+  const toggle = (heading: string) => {
+    setOpenSections((prev) => ({ ...prev, [heading]: !prev[heading] }));
+  };
+
   return (
     <footer className="bg-footer-bg text-white">
       <div className="container-main py-8 md:py-10">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-0 md:gap-8">
           {columns.map((col) => (
-            <div key={col.heading}>
-              <h3 className="text-sm font-semibold mb-4">{col.heading}</h3>
-              <ul className="space-y-2.5">
+            <div key={col.heading} className="border-b border-white md:border-0">
+              {/* Mobile: clickable accordion header */}
+              <button
+                className="flex w-full justify-between items-center my-6 md:hidden text-left"
+                onClick={() => toggle(col.heading)}
+                aria-expanded={openSections[col.heading]}
+                aria-controls={`footer-${col.heading.replace(/\s+/g, "-").toLowerCase()}`}
+              >
+                <h3 className="text-sm font-semibold">{col.heading}</h3>
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  aria-hidden="true"
+                  className={`transition-transform duration-200 ${openSections[col.heading] ? "rotate-180" : ""}`}
+                >
+                  <path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </button>
+
+              {/* Desktop: static heading */}
+              <h3 className="hidden md:block text-sm font-semibold mb-4">{col.heading}</h3>
+
+              {/* Link list — collapses on mobile, always visible on desktop */}
+              <ul
+                id={`footer-${col.heading.replace(/\s+/g, "-").toLowerCase()}`}
+                className={`space-y-2.5 overflow-hidden transition-all duration-200 md:!max-h-none md:pb-0 ${
+                  openSections[col.heading] ? "max-h-96 mb-6" : "max-h-0"
+                }`}
+              >
                 {col.links.map((link) => (
                   <li key={link.text}>
                     <Link
                       href={link.url}
-                      className="text-xs text-gray-300 hover:text-white no-underline transition-colors"
+                      className="text-xs text-footer-text hover:text-white no-underline transition-colors"
                     >
                       {link.text}
                     </Link>

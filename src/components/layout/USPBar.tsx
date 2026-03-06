@@ -14,7 +14,7 @@ const uspItems = [
   {
     icon: "recycling",
     text: "Recycle your old tech & save 8% on new",
-    url: "/services/recycling",
+    url: "/services/returns",
   },
 ];
 
@@ -22,34 +22,20 @@ function USPIcon({ type }: { type: string }) {
   switch (type) {
     case "delivery":
       return (
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-          <rect x="1" y="3" width="15" height="13" rx="2" />
-          <path d="M16 8h4l3 3v5h-7V8z" />
-          <circle cx="5.5" cy="18.5" r="2.5" />
-          <circle cx="18.5" cy="18.5" r="2.5" />
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M14.398 4c.68 0 1.24.518 1.306 1.182l.007.134v.707l.788-.002 1.792-.013.77.016c2.357.119 3.527 1.317 3.84 3.265.064.402.09.742.096 1.251l.003.483v5.229c0 .681-.517 1.242-1.18 1.31l-.133.006h-.645v.026C20.992 18.931 19.874 20 18.5 20c-1.382 0-2.507-1.083-2.543-2.432H9.228a.523.523 0 01-.094-1.04l.094-.008h6.933a2.546 2.546 0 012.339-1.515c1.051 0 1.953.626 2.34 1.519l.046-.004h.8a.268.268 0 00.261-.207l.008-.061v-5.115l-.003-.563-.012-.422a6.07 6.07 0 00-.071-.696c-.229-1.424-.962-2.224-2.637-2.37l-.224-.015-.224-.009-3.07.008v7.533a.524.524 0 01-.47.522l-.054.002a.524.524 0 01-.521-.47l-.003-.054V5.316a.268.268 0 00-.206-.26l-.062-.008h-9.45c-1.856 0-2.817 1.146-2.897 2.725l-.006.184v8.295c0 .127.088.233.207.261l.061.007h.538c.036 0 .071.004.106.011A2.544 2.544 0 015.3 15.005c1.405 0 2.544 1.119 2.544 2.498C7.844 18.882 6.704 20 5.3 20c-1.382 0-2.507-1.083-2.543-2.432h-.444c-.68 0-1.239-.518-1.306-1.181L1 16.252V7.953c.016-2.132 1.293-3.84 3.703-3.948L4.947 4h9.451zM18.5 16.244a1.27 1.27 0 00-1.282 1.259A1.27 1.27 0 0018.5 18.76a1.27 1.27 0 001.282-1.258 1.27 1.27 0 00-1.282-1.259zm-13.2 0a1.27 1.27 0 00-1.282 1.259A1.27 1.27 0 005.3 18.76a1.27 1.27 0 001.282-1.258A1.27 1.27 0 005.3 16.244z" fill="currentColor" fillRule="nonzero" />
         </svg>
       );
     case "price-promise":
       return (
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-          <path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" />
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M19.466 4.277c.176.17.176.465.012.696l-.07.083-1.384 1.435c.045.078.085.16.12.245l.058.163.04.158.983 4.546c.105.487-.015.993-.32 1.38l-.109.125-6.017 6.23a1.661 1.661 0 01-2.241.136l-.108-.095-5.522-5.333a1.661 1.661 0 01-.137-2.242l.096-.107 6.038-6.253a1.661 1.661 0 011.262-.506l.158.014 4.274.584c.259.035.501.12.718.246l1.372-1.42c.23-.24.578-.277.777-.085zm-2.89 2.272l-.112-.023-4.275-.583a.661.661 0 00-.486.127l-.079.069-6.038 6.253a.661.661 0 00-.049.862l.065.073 5.523 5.333c.239.23.607.245.862.049l.073-.065 6.017-6.23a.661.661 0 00.184-.507l-.014-.093-.98-4.54-1.007 1.044a1 1 0 11-.72-.696l1.036-1.073zm-2.938 3.916c.743.717.837 1.652.316 2.376l-.093.119-.545-.526c.405-.526.237-1.123-.142-1.489-.592-.57-1.214-.432-1.548-.085-.42.435-.458 1.145.104 1.773l.113.116.737.713-.47.486-1.362-1.315a2.334 2.334 0 01-.237.299c-.278.287-.601.52-1.028.67l-.189.058 1.92 1.854-.475.493-2.578-2.49.334-.347a2.046 2.046 0 001.64-.942l.075-.115-.565-.546.47-.486.452.436c-.024.224.056.407.211.592a2.6 2.6 0 01-.125-.614c-.027-.438.11-.833.422-1.155.663-.687 1.745-.664 2.563.125z" fill="currentColor" fillRule="nonzero" />
         </svg>
       );
     case "recycling":
       return (
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-          <path d="M7.5 7.5l4.5-5 4.5 5" />
-          <path d="M12 2.5V15" />
-          <path d="M19.5 16l-4.5 5.5-4.5-5.5" />
-          <path d="M15 21.5V9" />
-          <path d="M4.5 8.5L9 14l-4.5 5.5" />
-        </svg>
-      );
-    case "calendar":
-      return (
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-          <rect x="3" y="4" width="18" height="18" rx="2" />
-          <path d="M16 2v4M8 2v4M3 10h18" />
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3.555 11.831l.786.228.622.194c2.097.68 3.362 1.386 3.825 2.188.654 1.133.365 2.557-.588 3.526A7.085 7.085 0 0018.57 14.7a.472.472 0 11.872.36 8.03 8.03 0 01-12.036 3.512l.031-.017c-1.532.885-3.433.507-4.238-.887-.486-.842-.44-2.396.09-4.733l.148-.628.118-.476zm.684 1.185l-.089.397-.114.566c-.307 1.638-.303 2.724-.019 3.217.47.815 1.563 1.112 2.575.72a8.026 8.026 0 01-1.358-1.623.472.472 0 11.797-.505 7.18 7.18 0 001.398 1.61c.75-.685.988-1.711.541-2.485-.316-.547-1.44-1.161-3.342-1.775l-.277-.088-.112-.034zm7.78-9.044c1.594 0 3.11.47 4.39 1.306l.154-.094c1.532-.884 3.433-.506 4.238.887.507.879.434 2.534-.161 5.043l-.195.794-.786-.228c-2.47-.739-3.94-1.503-4.447-2.382-.62-1.075-.392-2.412.448-3.374A7.085 7.085 0 005.423 9.41a.472.472 0 01-.879-.345 8.03 8.03 0 017.474-5.093zm5.308 1.884l-.092.042c.526.45.997.97 1.397 1.551a.472.472 0 11-.777.536 7.12 7.12 0 00-1.413-1.518c-.647.68-.832 1.631-.412 2.359.316.547 1.44 1.161 3.342 1.776l.39.121.088-.397c.419-1.955.449-3.235.133-3.782-.459-.795-1.51-1.098-2.5-.748l-.156.06z" fill="currentColor" fillRule="nonzero" />
         </svg>
       );
     default:
@@ -59,32 +45,26 @@ function USPIcon({ type }: { type: string }) {
 
 export default function USPBar() {
   return (
-    <div className="bg-surface border-b border-border">
+    <div className="bg-surface border-b border-border mb-4">
       <div className="container-main">
-        <div className="flex items-center gap-4 md:gap-0 md:justify-between py-2.5 overflow-x-auto scrollbar-hide">
-          <div className="flex items-center gap-4 md:gap-6 flex-shrink-0">
-            {uspItems.map((item) => (
-              <Link
-                key={item.icon}
-                href={item.url}
-                className="flex items-center gap-2 text-text-primary no-underline hover:text-primary transition-colors flex-shrink-0"
-              >
-                <span className="text-primary flex-shrink-0">
-                  <USPIcon type={item.icon} />
-                </span>
-                <span className="text-xs whitespace-nowrap">{item.text}</span>
-              </Link>
-            ))}
-          </div>
-          <Link
-            href="#"
-            className="hidden lg:flex items-center gap-2 text-text-primary no-underline hover:text-primary transition-colors flex-shrink-0"
-          >
-            <span className="text-primary flex-shrink-0">
-              <USPIcon type="calendar" />
-            </span>
-            <span className="text-xs whitespace-nowrap">Pay at your pace with Currys flexpay 29.9% APR</span>
-          </Link>
+        <div
+          className="flex items-center justify-evenly py-2.5 overflow-x-auto scrollbar-hide focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-inset"
+          tabIndex={0}
+          role="list"
+          aria-label="Unique selling points"
+        >
+          {uspItems.map((item) => (
+            <Link
+              key={item.icon}
+              href={item.url}
+              className="flex items-center gap-2 text-text-primary no-underline hover:text-primary transition-colors flex-shrink-0"
+            >
+              <span className="text-primary flex-shrink-0">
+                <USPIcon type={item.icon} />
+              </span>
+              <span className="text-xs whitespace-nowrap">{item.text}</span>
+            </Link>
+          ))}
         </div>
       </div>
     </div>

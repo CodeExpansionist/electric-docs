@@ -16,6 +16,19 @@
   a {
     @apply text-primary hover:underline;
   }
+
+  /* Global focus-visible ring for keyboard users */
+  *:focus-visible {
+    outline: 2px solid #4C12A1;
+    outline-offset: 2px;
+  }
+
+  /* Remove default outline only when focus-visible is NOT active */
+  input:focus:not(:focus-visible),
+  button:focus:not(:focus-visible),
+  a:focus:not(:focus-visible) {
+    outline: none;
+  }
 }
 
 @layer components {
@@ -44,10 +57,27 @@
     @apply max-w-container mx-auto px-4;
   }
 
+  .skip-to-content {
+    @apply absolute -top-full left-4 z-[100] bg-primary text-white font-semibold
+           px-6 py-3 rounded-pill no-underline;
+    transition: top 0.2s;
+  }
+  .skip-to-content:focus {
+    @apply top-4;
+  }
+
   .input-field {
     @apply w-full rounded-input border border-input-border px-4 py-3
-           text-input-text focus:border-primary focus:outline-none
+           text-input-text focus:border-primary focus:ring-0
            transition-colors;
+  }
+
+  .search-input::placeholder {
+    color: #213038;
+    opacity: 1;
+  }
+  .search-input:focus::placeholder {
+    color: #ABB3B9;
   }
 }
 
@@ -58,5 +88,16 @@
   }
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

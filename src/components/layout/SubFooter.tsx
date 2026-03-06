@@ -40,17 +40,17 @@ function SocialIcon({ platform }: { platform: string }) {
 
 export default function SubFooter() {
   return (
-    <div className="bg-[#292929] text-gray-400">
+    <div className="bg-subfooter-bg text-subfooter-text">
       <div className="container-main py-5">
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-4">
           {/* Privacy links */}
           <div className="flex flex-wrap items-center gap-2 md:gap-3 text-xs">
             {privacyLinks.map((link, i) => (
               <span key={link.text} className="flex items-center gap-2 md:gap-3">
-                {i > 0 && <span className="text-gray-500 hidden md:inline">|</span>}
+                {i > 0 && <span className="text-subfooter-divider hidden md:inline" aria-hidden="true">|</span>}
                 <Link
                   href={link.url}
-                  className="text-gray-400 hover:text-white no-underline transition-colors"
+                  className="text-subfooter-text hover:text-white no-underline transition-colors"
                 >
                   {link.text}
                 </Link>
@@ -61,21 +61,20 @@ export default function SubFooter() {
           {/* Social icons */}
           <div className="flex items-center gap-4">
             {["Facebook", "X", "Instagram", "YouTube"].map((platform) => (
-              <Link
+              <button
                 key={platform}
-                href="#"
-                className="text-gray-400 hover:text-white no-underline transition-colors"
+                className="text-subfooter-text hover:text-white transition-colors"
                 aria-label={platform}
               >
                 <SocialIcon platform={platform} />
-              </Link>
+              </button>
             ))}
           </div>
         </div>
 
         {/* Legal text */}
-        <p className="text-[10px] text-gray-500 leading-relaxed">
-          Currys plc registered in England &amp; Wales. Registered number: 07105905.
+        <p className="text-xs text-subfooter-muted leading-relaxed">
+          Electriz plc registered in England &amp; Wales. Registered number: 07105905.
           Registered office: 1 Portal Way, London, W3 6RS. VAT number: 927 2556 00.
         </p>
       </div>

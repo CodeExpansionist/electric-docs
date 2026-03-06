@@ -13,11 +13,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${categoryName} | TV & Audio`,
-    description: `Shop ${categoryName.toLowerCase()} at Currys. Browse our wide range with free delivery on orders over £40. Compare specs, read reviews and find the best deals.`,
+    description: `Shop ${categoryName.toLowerCase()} at Electriz. Browse our wide range with free delivery on orders over £40. Compare specs, read reviews and find the best deals.`,
     alternates: { canonical: `/tv-and-audio/${segments.join("/")}` },
     openGraph: {
-      title: `${categoryName} | TV & Audio | Currys`,
-      description: `Shop ${categoryName.toLowerCase()} at Currys. Free delivery on orders over £40.`,
+      title: `${categoryName} | TV & Audio | Electriz`,
+      description: `Shop ${categoryName.toLowerCase()} at Electriz. Free delivery on orders over £40.`,
     },
   };
 }

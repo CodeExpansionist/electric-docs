@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const title = product.name;
-  const description = `Buy ${product.name} from Currys. ${
+  const description = `Buy ${product.name} from Electriz. ${
     product.price.savings
       ? `Save £${product.price.savings.toFixed(2)}.`
       : ""
@@ -25,14 +25,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     alternates: { canonical: `/products/${params.slug}` },
     openGraph: {
-      title: `${title} | Currys`,
+      title: `${title} | Electriz`,
       description,
       type: "website",
       ...(image ? { images: [{ url: image, width: 600, height: 600, alt: title }] } : {}),
     },
     twitter: {
       card: "summary_large_image",
-      title: `${title} | Currys`,
+      title: `${title} | Electriz`,
       description,
       ...(image ? { images: [image] } : {}),
     },

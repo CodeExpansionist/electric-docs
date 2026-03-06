@@ -3,61 +3,56 @@ import Image from "next/image";
 
 const subcategories = [
   {
-    name: "Mobile phones",
-    url: "/tv-and-audio",
-    image: "https://media.currys.biz/i/currysprod/top-cat-mobile-phones-new?fmt=auto&$q-large$",
-  },
-  {
     name: "TVs",
     url: "/tv-and-audio/televisions/tvs",
-    image: "https://media.currys.biz/i/currysprod/top-cat-tvs-all-new?fmt=auto&$q-large$",
+    image: "/images/categories/tvs.png",
   },
   {
-    name: "Laptops",
-    url: "/tv-and-audio",
-    image: "https://media.currys.biz/i/currysprod/top-cat-laptops?fmt=auto&$q-large$",
+    name: "DVD & Blu-ray",
+    url: "/tv-and-audio/dvd-blu-ray-and-home-cinema",
+    image: "/images/categories/dvd-blu-ray.png",
   },
   {
-    name: "Laundry",
-    url: "/tv-and-audio",
-    image: "https://media.currys.biz/i/currysprod/top-cat-laundry?fmt=auto&$q-large$",
+    name: "Soundbars",
+    url: "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
+    image: "/images/categories/soundbars.png",
   },
   {
-    name: "Console gaming",
-    url: "/tv-and-audio",
-    image: "https://media.currys.biz/i/currysprod/top-cat-console-gaming?fmt=auto&$q-large$",
+    name: "Speakers & Hi-Fi",
+    url: "/tv-and-audio/speakers-and-hi-fi-systems",
+    image: "/images/categories/speakers.png",
   },
   {
-    name: "Health & beauty",
-    url: "/tv-and-audio",
-    image: "https://media.currys.biz/i/currysprod/top-cat-health-beauty?fmt=auto&$q-large$",
+    name: "TV Accessories",
+    url: "/tv-and-audio/tv-accessories",
+    image: "/images/categories/tv-accessories.png",
+  },
+  {
+    name: "Digital & Smart TV",
+    url: "/tv-and-audio/digital-and-smart-tv",
+    image: "/images/categories/digital-smart-tv.png",
   },
   {
     name: "Headphones",
     url: "/tv-and-audio/headphones/headphones",
-    image: "https://media.currys.biz/i/currysprod/top-cat-headphones?fmt=auto&$q-large$",
-  },
-  {
-    name: "Vacuum cleaners",
-    url: "/tv-and-audio",
-    image: "https://media.currys.biz/i/currysprod/top-cat-vacuum-cleaners?fmt=auto&$q-large$",
+    image: "/images/categories/headphones.png",
   },
 ];
 
 export default function ShopDeals() {
   return (
-    <section className="py-6 md:py-8">
+    <section aria-labelledby="shop-deals-heading" className="py-6 md:py-8">
       <div className="container-main">
-        {/* Flexpay credit line */}
-        <p className="text-[10px] text-text-muted text-center mb-5 leading-tight">
-          *Representative example based on the use of your ongoing credit account: 29.9% APR Representative (variable). 29.9% interest rate (variable). Assumed credit limit: £1,200.
-        </p>
-
-        <h2 className="text-xl md:text-2xl font-bold text-text-primary text-center mb-6">Shop deals</h2>
+        <h2 id="shop-deals-heading" className="text-xl md:text-2xl font-bold text-text-primary text-center mb-6">Shop deals</h2>
 
         {/* Mobile: horizontal scroll showing ~4.5 items. Desktop: all items fit in a row */}
-        <div className="flex items-start gap-2 sm:gap-3 md:gap-4 overflow-x-auto scrollbar-hide
-                        md:overflow-visible md:justify-between px-1">
+        <div
+          className="flex items-start gap-2 sm:gap-3 md:gap-4 overflow-x-auto scrollbar-hide
+                     md:overflow-visible md:justify-between px-1 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-inset"
+          tabIndex={0}
+          role="list"
+          aria-label="Deal categories"
+        >
           {subcategories.map((cat) => (
             <Link
               key={cat.name}
@@ -73,7 +68,6 @@ export default function ShopDeals() {
                   width={110}
                   height={110}
                   className="object-contain w-full h-full"
-                  unoptimized
                 />
               </div>
               <span className="text-[10px] sm:text-xs md:text-sm text-text-primary text-center group-hover:text-primary transition-colors leading-tight">
