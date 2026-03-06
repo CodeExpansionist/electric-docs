@@ -116,7 +116,7 @@ function buildBasicProduct(idRecord) {
   const { productId, productUrl, slug } = idRecord;
   const brand = parseBrandFromSlug(slug);
   const name = parseNameFromSlug(slug);
-  const imageUrl = `https://media.currys.biz/i/currysprod/${productId}?$g-small$&fmt=auto`;
+  const imageUrl = `https://media.electriz.biz/i/electrizprod/${productId}?$g-small$&fmt=auto`;
 
   return {
     name,

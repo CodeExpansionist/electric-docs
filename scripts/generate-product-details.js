@@ -22,34 +22,19 @@ const categories = [
 
 // CDN image URL builders
 function buildGalleryImages(productId, count = 10) {
-  const images = [`https://media.currys.biz/i/currysprod/${productId}?$l-large$&fmt=auto`];
+  const images = [`https://media.electriz.biz/i/electrizprod/${productId}?$l-large$&fmt=auto`];
   for (let i = 1; i <= count; i++) {
-    images.push(`https://media.currys.biz/i/currysprod/${productId}_${String(i).padStart(3, '0')}?$l-large$&fmt=auto`);
+    images.push(`https://media.electriz.biz/i/electrizprod/${productId}_${String(i).padStart(3, '0')}?$l-large$&fmt=auto`);
   }
   return images;
 }
 
 function buildThumbnails(productId, count = 10) {
-  const images = [`https://media.currys.biz/i/currysprod/${productId}?$t-thumbnail$&fmt=auto`];
+  const images = [`https://media.electriz.biz/i/electrizprod/${productId}?$t-thumbnail$&fmt=auto`];
   for (let i = 1; i <= count; i++) {
-    images.push(`https://media.currys.biz/i/currysprod/${productId}_${String(i).padStart(3, '0')}?$t-thumbnail$&fmt=auto`);
+    images.push(`https://media.electriz.biz/i/electrizprod/${productId}_${String(i).padStart(3, '0')}?$t-thumbnail$&fmt=auto`);
   }
   return images;
-}
-
-// Calculate flexpay from price
-function calculateFlexpay(price) {
-  if (price < 99) return null;
-  const apr = 29.9;
-  const months = price >= 500 ? 48 : price >= 200 ? 36 : 24;
-  const monthlyRate = apr / 100 / 12;
-  const monthlyAmount = (price * monthlyRate * Math.pow(1 + monthlyRate, months)) / (Math.pow(1 + monthlyRate, months) - 1);
-  return {
-    monthlyAmount: Math.round(monthlyAmount * 100) / 100,
-    months,
-    totalPayable: Math.round(monthlyAmount * months * 100) / 100,
-    apr: `${apr}%`
-  };
 }
 
 // Build key specs from category data
@@ -134,7 +119,7 @@ function buildDescription(product, category) {
 
 // Build delivery info
 function buildDeliveryInfo(product) {
-  const price = product.price || 0;
+  const price = typeof product.price === 'object' ? (product.price.current || 0) : (product.price || 0);
   return {
     freeDelivery: product.deliveryFree || price >= 40,
     standardDeliveryPrice: product.deliveryFree ? 0 : 3.99,
@@ -199,10 +184,8 @@ for (const cat of categories) {
   let catGenerated = 0;
 
   for (const p of products) {
-    const url = p.productUrl || p.url;
-    if (!url) continue;
-
-    const id = extractId(url);
+    const url = p.productUrl || p.url || '';
+    const id = p.productId || extractId(url);
     if (!id) continue;
 
     // Skip if already exists (real scraped data takes precedence)
@@ -211,7 +194,7 @@ for (const cat of categories) {
       continue;
     }
 
-    const price = p.price || 0;
+    const price = typeof p.price === 'object' ? (p.price.current || 0) : (p.price || 0);
     const name = p.name || p.title || '';
     const brand = p.brand || '';
 
@@ -222,12 +205,12 @@ for (const cat of categories) {
       brand,
       price: {
         current: price,
-        was: p.wasPrice || 0,
-        savings: p.savings || 0
+        was: (typeof p.price === 'object' ? p.price.was : p.wasPrice) || 0,
+        savings: (typeof p.price === 'object' ? p.price.savings : p.savings) || 0
       },
       rating: {
-        average: p.rating || 0,
-        count: p.reviewCount || 0
+        average: (typeof p.rating === 'object' ? p.rating.average : p.rating) || 0,
+        count: (typeof p.rating === 'object' ? p.rating.count : p.reviewCount) || 0
       },
       images: {
         gallery: buildGalleryImages(id),
@@ -235,7 +218,6 @@ for (const cat of categories) {
         video: null
       },
       keySpecs: buildKeySpecs(p, cat.name),
-      flexpay: calculateFlexpay(price),
       careAndRepair: buildCareAndRepair(price, cat.name),
       essentialServices: [],
       crossSellProducts: [],

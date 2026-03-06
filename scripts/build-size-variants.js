@@ -41,7 +41,7 @@ function extractProductId(url) {
 
 function extractSlug(url) {
   let slug = (url || "")
-    .replace("https://www.currys.co.uk", "")
+    .replace("https://www.electriz.co.uk", "")
     .replace(/^\/products\//, "");
   return slug;
 }
@@ -91,9 +91,9 @@ Object.entries(familyGroups).forEach(([family, members]) => {
     const productId = members[0].productId;
     const scraped = scrapedProducts[productId];
     if (scraped && scraped.sizeOptions && scraped.sizeOptions.length > 1) {
-      // This product has multiple sizes on Curry's but we only have one in our data
+      // This product has multiple sizes on Electriz but we only have one in our data
       // Mark it so the UI can show the sizes (but only the one we have is clickable)
-      console.log(`  Note: ${family} has ${scraped.sizeOptions.length} sizes on Curry's but only 1 in our data (${productId})`);
+      console.log(`  Note: ${family} has ${scraped.sizeOptions.length} sizes on Electriz but only 1 in our data (${productId})`);
     }
   }
 });

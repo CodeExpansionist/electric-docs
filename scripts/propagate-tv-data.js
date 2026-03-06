@@ -53,7 +53,6 @@ function dataRichness(product) {
   if (product.keySpecs && product.keySpecs.length > 2) score += 1;
   if (product.description && product.description.goodToKnow && product.description.goodToKnow.length > 2) score += 1;
   if (product.images && product.images.gallery && product.images.gallery.length > 5) score += 1;
-  if (product.flexpay && product.flexpay.monthlyAmount > 0) score += 1;
   return score;
 }
 

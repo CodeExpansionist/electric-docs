@@ -22,12 +22,12 @@ console.log(`Existing products: ${existingIds.size}`);
 
 // Helper: construct image URL from product ID
 function imageUrl(id) {
-  return `https://media.currys.biz/i/currysprod/${id}?$g-small$&fmt=auto`;
+  return `https://media.electriz.biz/i/electrizprod/${id}?$g-small$&fmt=auto`;
 }
 
 // Helper: construct product URL from slug
 function productUrl(slug) {
-  return `https://www.currys.co.uk/products/${slug}`;
+  return `https://www.electriz.co.uk/products/${slug}`;
 }
 
 // All missing products with verified data from Firecrawl
