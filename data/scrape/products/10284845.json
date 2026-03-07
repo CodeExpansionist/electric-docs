@@ -295,7 +295,11 @@
     }
   ],
   "category": "TVs",
-  "energyRating": "G",
+  "energyRating": {
+    "class": "G",
+    "labelUrl": "/documents/energy-labels/10284845-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10284845-fiche.pdf"
+  },
   "sourceUrl": "https://www.electriz.co.uk/products/samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
   "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

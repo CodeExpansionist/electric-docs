@@ -68,7 +68,9 @@
     }
   ],
   "energyRating": {
-    "class": "E"
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10284235-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10284235-fiche.pdf"
   },
   "wallBracket": {},
   "careAndRepair": [

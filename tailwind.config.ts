@@ -75,6 +75,12 @@ const config: Config = {
         lg: tokens.breakpoints.lg,
         xl: tokens.breakpoints.xl,
       },
+      keyframes: {
+        "timer-flash": {
+          "0%": { opacity: "0.3" },
+          "100%": { opacity: "1" },
+        },
+      },
     },
   },
   plugins: [],

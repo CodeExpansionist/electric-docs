@@ -101,14 +101,14 @@ function StepIndicator({
   );
 }
 
-function CompletedDeliverySummary({ data }: { data: DeliveryData }) {
+function CompletedDeliverySummary({ data, itemSummary }: { data: DeliveryData; itemSummary?: string }) {
   return (
     <div className="card p-5 mt-2 mb-6">
       <p className="text-sm font-semibold text-text-primary mb-2">
         Arriving Mon 02 Mar, All day 7am-8pm – £20.00
       </p>
       <p className="text-xs text-text-secondary mb-3">
-        SAMSUNG UB00F 50&quot; Crystal UHD 4K HDR Smart TV 2025 – UE50UB00F
+        {itemSummary || "Your order"}
       </p>
       <p className="text-sm font-semibold text-text-primary mb-1">Delivering to</p>
       <div className="text-xs text-text-secondary space-y-0.5">
@@ -182,7 +182,7 @@ export default function CheckoutPage() {
   const handlePaymentSubmit = () => {
     setIsSubmitting(true);
     setTimeout(() => {
-      const orderNum = `CUR-${Math.random().toString(36).substring(2, 8).toUpperCase()}-${Date.now().toString().slice(-4)}`;
+      const orderNum = `ELZ-${Math.random().toString(36).substring(2, 8).toUpperCase()}-${Date.now().toString().slice(-4)}`;
 
       // Calculate estimated delivery date (3-5 days from now)
       const estDate = new Date();
@@ -259,7 +259,10 @@ export default function CheckoutPage() {
                   }
                 />
                 {(step === "customer" || step === "payment") && (
-                  <CompletedDeliverySummary data={delivery} />
+                  <CompletedDeliverySummary
+                    data={delivery}
+                    itemSummary={basket.items.map((item) => item.product.title).join(", ")}
+                  />
                 )}
                 {step === "delivery" && (
                   <DeliveryStep

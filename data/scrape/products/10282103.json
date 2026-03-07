@@ -160,7 +160,11 @@
     "Save £100.00"
   ],
   "badges": [],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10282103-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282103-fiche.pdf"
+  },
   "category": "TVs",
   "title": "LG G5 83\" OLED evo AI 4K HDR Smart TV 2025 (Wall Mount Version) - OLED83G54LW",
   "lastUpdated": "2026-03-06T15:49:44.753Z"

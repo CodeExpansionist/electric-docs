@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import EnergyRatingBadge from "@/components/ui/EnergyRatingBadge";
 
 interface ProductListCardProps {
   title: string;
@@ -15,6 +16,7 @@ interface ProductListCardProps {
   deliveryFree: boolean;
   url: string;
   energyRating?: string | null;
+  energyLabelUrl?: string | null;
 }
 
 function StarRating({ rating, count }: { rating: number; count: number }) {
@@ -105,6 +107,7 @@ export default function ProductListCard({
   deliveryFree,
   url,
   energyRating,
+  energyLabelUrl,
 }: ProductListCardProps) {
   return (
     <div className="card p-4 md:p-5">
@@ -202,26 +205,7 @@ export default function ProductListCard({
           {/* Energy rating */}
           {energyRating && (
             <div className="flex items-center gap-1.5 mb-2.5 mt-1">
-              <div className="flex items-center border border-border rounded overflow-hidden text-[10px]">
-                <span className="bg-white px-1.5 py-0.5 font-bold text-text-primary border-r border-border">
-                  <svg width="10" height="10" viewBox="0 0 16 16" className="inline -mt-0.5 mr-0.5">
-                    <text x="0" y="12" fontSize="11" fontWeight="bold" fill="#333">A</text>
-                    <text x="7" y="7" fontSize="6" fill="#333">↑</text>
-                    <text x="7" y="14" fontSize="6" fill="#333">G</text>
-                  </svg>
-                </span>
-                <span className={`px-2 py-0.5 font-bold text-white ${
-                  energyRating === "A" ? "bg-green-600" :
-                  energyRating === "B" ? "bg-green-500" :
-                  energyRating === "C" ? "bg-lime-500" :
-                  energyRating === "D" ? "bg-yellow-500" :
-                  energyRating === "E" ? "bg-orange-500" :
-                  energyRating === "F" ? "bg-orange-600" :
-                  "bg-red-600"
-                }`}>
-                  {energyRating}
-                </span>
-              </div>
+              <EnergyRatingBadge rating={energyRating} labelUrl={energyLabelUrl} />
               <span className="text-[10px] text-text-secondary">Product fiche</span>
             </div>
           )}

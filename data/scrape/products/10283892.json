@@ -108,7 +108,11 @@
     "Freely",
     "Dolby Vision"
   ],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10283892-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10283892-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10283892",
   "title": "HISENSE A6Q 65\" LED 4K HDR Smart TV with Freely - 65A6QTUK",

@@ -101,13 +101,17 @@
     }
   ],
   "offers": [
-    "Get £100 off this TV when you trade-in any old TV. Use TRADETV100."
+    "Get \u00a3100 off this TV when you trade-in any old TV. Use TRADETV100."
   ],
   "badges": [
     "Loved by Currys",
     "Freely TV Badge"
   ],
-  "energyRating": "D",
+  "energyRating": {
+    "class": "D",
+    "labelUrl": "/documents/energy-labels/10284293-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10284293-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10284293",
   "title": "HISENSE U7Q PRO 75\" Mini LED 4K 165Hz Smart AI TV with Freely - 75U7QTUK PRO",

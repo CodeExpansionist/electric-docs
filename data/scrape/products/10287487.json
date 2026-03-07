@@ -107,16 +107,20 @@
     {
       "name": "Add Care & Repair Breakdown Support",
       "price": 2.5,
-      "description": "Breakdown support from £2.50/month."
+      "description": "Breakdown support from \u00a32.50/month."
     }
   ],
   "offers": [
     "Get 10% off marked price on this product with code TV10 at checkout."
   ],
   "badges": [
-    "Free standard delivery on orders over £40"
+    "Free standard delivery on orders over \u00a340"
   ],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10287487-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10287487-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10287487",
   "title": "HISENSE E7Q PRO 50\" QLED 4K HDR Smart TV with Freely - 50E7QTUK PRO",

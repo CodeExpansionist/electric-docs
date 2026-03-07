@@ -153,7 +153,11 @@
     "Save £700.00"
   ],
   "badges": [],
-  "energyRating": "F",
+  "energyRating": {
+    "class": "F",
+    "labelUrl": "/documents/energy-labels/10282163-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282163-fiche.pdf"
+  },
   "category": "TVs",
   "title": "LG QNED86 100\" QNED evo AI Mini LED 4K HDR Smart TV 2025 - 100QNED86A6",
   "lastUpdated": "2026-03-06T15:49:44.753Z"

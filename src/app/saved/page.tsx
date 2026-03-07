@@ -18,7 +18,7 @@ function SavedProductCard({
   return (
     <div className="bg-white rounded-lg border border-border overflow-hidden hover:shadow-sm transition-shadow">
       {/* Image */}
-      <Link href={`/product/${product.slug}`} className="block no-underline">
+      <Link href={`/products/${product.slug}`} className="block no-underline">
         <div className="aspect-square bg-white flex items-center justify-center p-4 border-b border-border">
           <Image
             src={product.images.main}
@@ -49,7 +49,7 @@ function SavedProductCard({
 
         {/* Title */}
         <Link
-          href={`/product/${product.slug}`}
+          href={`/products/${product.slug}`}
           className="text-xs font-bold text-text-primary no-underline hover:text-primary line-clamp-2 block mb-2"
         >
           {product.title}

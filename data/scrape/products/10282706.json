@@ -74,7 +74,9 @@
     }
   ],
   "energyRating": {
-    "class": "F"
+    "class": "F",
+    "labelUrl": "/documents/energy-labels/10282706-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282706-fiche.pdf"
   },
   "wallBracket": {
     "text": "Add a wall bracket for £35.99, save £24.00",

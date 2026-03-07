@@ -55,7 +55,7 @@ export default function AnnouncementBar() {
           First-time buyers get £50 off! Use code
         </span>
         <span className="inline-block bg-white text-red-600 font-bold text-xs px-3 py-0.5 rounded-full">
-          TV20
+          1STTV50
         </span>
         <span
           className="font-semibold"
@@ -63,7 +63,12 @@ export default function AnnouncementBar() {
           aria-atomic="true"
           role="timer"
         >
-          Ends in {time ? `${pad(time.hours)}:${pad(time.minutes)}:${pad(time.seconds)}` : "--:--:--"}
+          Ends in{" "}
+          {time ? (
+            <span key={time.seconds} className="inline-block animate-[timer-flash_0.4s_ease-out]">
+              {pad(time.hours)}:{pad(time.minutes)}:{pad(time.seconds)}
+            </span>
+          ) : "--:--:--"}
         </span>
         <button
           onClick={() => setVisible(false)}

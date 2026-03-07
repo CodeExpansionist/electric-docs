@@ -5,6 +5,7 @@ import {
   useContext,
   useState,
   useEffect,
+  useRef,
   type ReactNode,
 } from "react";
 
@@ -52,104 +53,27 @@ interface OrdersContextValue {
 
 const OrdersContext = createContext<OrdersContextValue | null>(null);
 
-// Seed with a demo order so account and admin have data
-const demoOrders: Order[] = [
-  {
-    id: "demo-1",
-    orderNumber: "CUR-AB3X9K-7281",
-    date: "2026-02-25T14:30:00Z",
-    status: "delivered",
-    items: [
-      {
-        id: "10282706",
-        title: 'SAMSUNG UB00F 50" Crystal UHD 4K HDR Smart TV 2025',
-        image: "/images/products/10282706/main.webp",
-        price: 299,
-        quantity: 1,
-      },
-    ],
-    subtotal: 299,
-    deliveryCost: 0,
-    total: 299,
-    delivery: {
-      title: "Mr",
-      firstName: "John",
-      lastName: "Smith",
-      phone: "07193190923",
-      postcode: "NW1 0AE",
-      address1: "Flat 8, Brehon House",
-      address2: "17-19 Pratt Street",
-      city: "London",
-      county: "",
-    },
-    customer: { email: "john.smith@email.com" },
-    paymentMethod: "Visa ending 6411",
-    estimatedDelivery: "27 Feb 2026",
-  },
-  {
-    id: "demo-2",
-    orderNumber: "CUR-QP7M2D-5934",
-    date: "2026-02-20T09:15:00Z",
-    status: "dispatched",
-    items: [
-      {
-        id: "10282800",
-        title: 'SAMSUNG S90F 65" OLED 4K Vision AI Smart TV 2025',
-        image: "/images/products/10282706/main.webp",
-        price: 1399,
-        quantity: 1,
-      },
-      {
-        id: "10266466",
-        title: "SAMSUNG HW-Q990D 11.1.4 Wireless Sound Bar with Dolby Atmos",
-        image: "/images/products/10266466/large.webp",
-        price: 999,
-        quantity: 1,
-      },
-    ],
-    subtotal: 2398,
-    deliveryCost: 0,
-    total: 2398,
-    delivery: {
-      title: "Mr",
-      firstName: "John",
-      lastName: "Smith",
-      phone: "07193190923",
-      postcode: "NW1 0AE",
-      address1: "Flat 8, Brehon House",
-      address2: "17-19 Pratt Street",
-      city: "London",
-      county: "",
-    },
-    customer: { email: "john.smith@email.com" },
-    paymentMethod: "Visa ending 6411",
-    estimatedDelivery: "3 Mar 2026",
-  },
-];
-
 export function OrdersProvider({ children }: { children: ReactNode }) {
   const [orders, setOrders] = useState<Order[]>([]);
+  const hydrated = useRef(false);
 
   useEffect(() => {
     const saved = localStorage.getItem("electric-orders");
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) {
+        if (Array.isArray(parsed)) {
           setOrders(parsed);
-        } else {
-          setOrders(demoOrders);
         }
       } catch {
-        setOrders(demoOrders);
+        // Invalid localStorage data — start with empty orders
       }
-    } else {
-      setOrders(demoOrders);
     }
+    hydrated.current = true;
   }, []);
 
   useEffect(() => {
-    if (orders.length > 0) {
+    if (hydrated.current) {
       localStorage.setItem("electric-orders", JSON.stringify(orders));
     }
   }, [orders]);

@@ -69,7 +69,11 @@
     "freeDelivery": true
   },
   "category": "TVs",
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10282785-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282785-fiche.pdf"
+  },
   "id": "10282785",
   "title": "HISENSE E7Q PRO 75\" QLED 4K HDR Smart TV with Freely - 75E7QTUK PRO",
   "lastUpdated": "2026-03-06T15:49:44.753Z",

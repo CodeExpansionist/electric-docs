@@ -5,6 +5,7 @@ import {
   useContext,
   useReducer,
   useEffect,
+  useRef,
   type ReactNode,
 } from "react";
 import type { Product, Basket, BasketItem } from "./types";
@@ -14,6 +15,7 @@ type BasketAction =
   | { type: "REMOVE_ITEM"; productId: string }
   | { type: "UPDATE_QUANTITY"; productId: string; quantity: number }
   | { type: "APPLY_PROMO"; code: string; discount: number }
+  | { type: "REMOVE_PROMO" }
   | { type: "CLEAR_BASKET" }
   | { type: "HYDRATE"; basket: Basket };
 
@@ -24,13 +26,14 @@ const initialBasket: Basket = {
   total: 0,
 };
 
-function calculateTotals(items: BasketItem[]): Pick<Basket, "subtotal" | "total" | "deliveryCost"> {
+function calculateTotals(items: BasketItem[], promoDiscount?: number): Pick<Basket, "subtotal" | "total" | "deliveryCost"> {
   const subtotal = items.reduce(
     (sum, item) => sum + item.product.price.current * item.quantity,
     0
   );
   const deliveryCost = subtotal >= 40 ? 0 : 5;
-  return { subtotal, deliveryCost, total: subtotal + deliveryCost };
+  const discount = promoDiscount || 0;
+  return { subtotal, deliveryCost, total: Math.max(0, subtotal + deliveryCost - discount) };
 }
 
 function basketReducer(state: Basket, action: BasketAction): Basket {
@@ -46,27 +49,27 @@ function basketReducer(state: Basket, action: BasketAction): Basket {
               : item
           )
         : [...state.items, { product: action.product, quantity: 1 }];
-      return { ...state, items, ...calculateTotals(items) };
+      return { ...state, items, ...calculateTotals(items, state.promoDiscount) };
     }
     case "REMOVE_ITEM": {
       const items = state.items.filter(
         (item) => item.product.id !== action.productId
       );
-      return { ...state, items, ...calculateTotals(items) };
+      return { ...state, items, ...calculateTotals(items, state.promoDiscount) };
     }
     case "UPDATE_QUANTITY": {
       if (action.quantity <= 0) {
         const items = state.items.filter(
           (item) => item.product.id !== action.productId
         );
-        return { ...state, items, ...calculateTotals(items) };
+        return { ...state, items, ...calculateTotals(items, state.promoDiscount) };
       }
       const items = state.items.map((item) =>
         item.product.id === action.productId
           ? { ...item, quantity: action.quantity }
           : item
       );
-      return { ...state, items, ...calculateTotals(items) };
+      return { ...state, items, ...calculateTotals(items, state.promoDiscount) };
     }
     case "APPLY_PROMO": {
       const discount = action.discount;
@@ -74,7 +77,15 @@ function basketReducer(state: Basket, action: BasketAction): Basket {
         ...state,
         promoCode: action.code,
         promoDiscount: discount,
-        total: state.subtotal + state.deliveryCost - discount,
+        ...calculateTotals(state.items, discount),
+      };
+    }
+    case "REMOVE_PROMO": {
+      return {
+        ...state,
+        promoCode: undefined,
+        promoDiscount: undefined,
+        ...calculateTotals(state.items),
       };
     }
     case "CLEAR_BASKET":
@@ -92,96 +103,36 @@ interface BasketContextValue {
   removeItem: (productId: string) => void;
   updateQuantity: (productId: string, quantity: number) => void;
   applyPromo: (code: string, discount: number) => void;
+  removePromo: () => void;
   clearBasket: () => void;
   itemCount: number;
 }
 
 const BasketContext = createContext<BasketContextValue | null>(null);
 
-/* ── Default basket so the header badge shows a count on first visit ── */
-const defaultBasket: Basket = {
-  items: [
-    {
-      product: {
-        id: "10282706",
-        slug: "samsung-ub00f-50-crystal-uhd",
-        title: 'SAMSUNG UB00F 50" Crystal UHD 4K HDR Smart TV 2025 – UE50UB00F',
-        brand: "Samsung",
-        category: "TV & Audio",
-        subcategory: "Televisions",
-        price: { current: 299, was: 349, savings: 50, savingsPercent: 14 },
-        images: {
-          main: "/images/products/10282706/main.webp",
-          gallery: [],
-          thumbnail: "/images/products/10282706/main.webp",
-        },
-        rating: { average: 4.4, count: 128 },
-        specs: { "Screen Size": '50"', Resolution: "4K Ultra HD" },
-        keySpecs: ['50"', "4K Ultra HD", "LED"],
-        description: "Samsung Crystal UHD 4K Smart TV",
-        deliveryInfo: { freeDelivery: true, estimatedDate: "4 Mar 2026" },
-        badges: [],
-        tags: [],
-        offers: [],
-        inStock: true,
-      },
-      quantity: 1,
-    },
-    {
-      product: {
-        id: "10282800",
-        slug: "samsung-s90f-65-oled",
-        title: 'SAMSUNG S90F 65" OLED 4K Vision AI Smart TV 2025 – QE65S90F',
-        brand: "Samsung",
-        category: "TV & Audio",
-        subcategory: "Televisions",
-        price: { current: 1399 },
-        images: {
-          main: "/images/products/10282706/main.webp",
-          gallery: [],
-          thumbnail: "/images/products/10282706/main.webp",
-        },
-        rating: { average: 4.7, count: 42 },
-        specs: { "Screen Size": '65"', Resolution: "4K Ultra HD" },
-        keySpecs: ['65"', "4K Ultra HD", "OLED"],
-        description: "Samsung S90F OLED 4K Smart TV",
-        deliveryInfo: { freeDelivery: true, estimatedDate: "5 Mar 2026" },
-        badges: [],
-        tags: [],
-        offers: [],
-        inStock: true,
-      },
-      quantity: 1,
-    },
-  ],
-  subtotal: 1698,
-  deliveryCost: 0,
-  total: 1698,
-};
-
 export function BasketProvider({ children }: { children: ReactNode }) {
   const [basket, dispatch] = useReducer(basketReducer, initialBasket);
+  const hydrated = useRef(false);
 
   useEffect(() => {
     const saved = localStorage.getItem("electric-basket");
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
-        if (parsed.items && parsed.items.length > 0) {
+        if (parsed.items) {
           dispatch({ type: "HYDRATE", basket: parsed });
-        } else {
-          dispatch({ type: "HYDRATE", basket: defaultBasket });
         }
       } catch {
-        dispatch({ type: "HYDRATE", basket: defaultBasket });
+        // Invalid localStorage data — start with empty basket
       }
-    } else {
-      dispatch({ type: "HYDRATE", basket: defaultBasket });
     }
+    hydrated.current = true;
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("electric-basket", JSON.stringify(basket));
+    if (hydrated.current) {
+      localStorage.setItem("electric-basket", JSON.stringify(basket));
+    }
   }, [basket]);
 
   const itemCount = basket.items.reduce((sum, item) => sum + item.quantity, 0);
@@ -196,6 +147,7 @@ export function BasketProvider({ children }: { children: ReactNode }) {
           dispatch({ type: "UPDATE_QUANTITY", productId, quantity }),
         applyPromo: (code, discount) =>
           dispatch({ type: "APPLY_PROMO", code, discount }),
+        removePromo: () => dispatch({ type: "REMOVE_PROMO" }),
         clearBasket: () => dispatch({ type: "CLEAR_BASKET" }),
         itemCount,
       }}

@@ -94,7 +94,7 @@ Download all spec icons, badge images, and navigation icons:
 ```
 public/images/icons/
   {icon-name}.svg    — Flat directory, asset counts computed from scraped data
-                     — Includes: spec icons, badge icons, nav icons, social icons
+                     — Includes: spec icons, badge icons, nav icons, social icons, energy labels
                      — No subdirectories (spec/, badges/, nav/, social/, energy/)
 ```
 
@@ -102,6 +102,37 @@ For SVG files:
 - Download the raw SVG
 - Validate it's a valid SVG (not an error page)
 - Strip any inline references to external domains
+
+### 3b. Download EU energy class label SVGs
+
+Download all 7 energy class arrow SVGs (A through G) used on product cards and detail pages.
+
+**Discovery:** Grep `data/scrape/products/` for `img-energy-class-` to find CDN URLs with content hashes. The URL pattern is:
+
+```
+https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/{hash}/images/img-energy-class-{letter}.svg
+```
+
+Each letter has a unique content hash. Known hashes:
+
+- A, B, C: `dwc623a9d4` (shared with D)
+- D: `dwc623a9d4`
+- E: `dw30f3f5ef`
+- F: `dw927faffa`
+- G: `dw38d8b948`
+
+**Download method:** Use `firecrawl_scrape` (not curl) — Cloudflare blocks direct requests. Scrape each URL with `formats: ["html"]`, then extract the SVG content from the response.
+
+**Save to:** `public/images/icons/energy-class-{letter}.svg` (7 files: A-G)
+
+**Validation:**
+
+- Each file must start with `<svg` or `<?xml`
+- File size should be 4500-5200 bytes
+- SVG dimensions: `width="54" height="31" viewBox="0 0 54 31"`
+- Colors: A=#00A651, B=#50B848, C=#BFD730, D=#FFF200, E=#FDB913, F=#F36F21, G=#ED1D24
+
+**Integration:** These SVGs are used by the shared `EnergyRatingBadge` component at `src/components/ui/EnergyRatingBadge.tsx`, which renders them via `next/image` with `unoptimized`. The component is consumed by basket page, ProductListCard, and PricePanel.
 
 ### 4. Download brand logos
 

@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import type { WallBracket, SizeVariant } from "@/lib/product-data";
+import EnergyRatingBadge from "@/components/ui/EnergyRatingBadge";
 
 interface PricePanelProps {
   price: number;
@@ -13,8 +14,47 @@ interface PricePanelProps {
   offers: string[];
   sizeVariants?: SizeVariant[];
   energyRating?: string | null;
+  energyLabelUrl?: string | null;
   wallBracket?: WallBracket;
   onAddToBasket?: () => void;
+}
+
+function AddToBasketButton({ onAddToBasket }: { onAddToBasket?: () => void }) {
+  const [added, setAdded] = useState(false);
+
+  const handleClick = () => {
+    onAddToBasket?.();
+    setAdded(true);
+    setTimeout(() => setAdded(false), 2000);
+  };
+
+  return (
+    <button
+      onClick={handleClick}
+      className={`w-full text-base py-3.5 flex items-center justify-center gap-2 rounded-lg font-semibold transition-colors ${
+        added
+          ? "bg-green-600 text-white"
+          : "btn-primary"
+      }`}
+    >
+      {added ? (
+        <>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
+          Added
+        </>
+      ) : (
+        <>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18" />
+            <path d="M16 10a4 4 0 01-8 0" />
+          </svg>
+          Add to basket
+        </>
+      )}
+    </button>
+  );
 }
 
 function WallBracketImage({ src, alt }: { src: string; alt: string }) {
@@ -40,6 +80,7 @@ export default function PricePanel({
   offers,
   sizeVariants = [],
   energyRating,
+  energyLabelUrl,
   wallBracket,
   onAddToBasket,
 }: PricePanelProps) {
@@ -72,11 +113,11 @@ export default function PricePanel({
       {/* Energy rating */}
       {energyRating && (
         <div className="flex items-center gap-2 mb-4">
-          <span className="bg-[#E2001A] text-white text-[10px] font-bold px-1.5 py-0.5 rounded">
-            {energyRating}
-          </span>
+          <EnergyRatingBadge rating={energyRating} labelUrl={energyLabelUrl} />
           <Link
-            href="#"
+            href={energyLabelUrl || "#"}
+            target={energyLabelUrl ? "_blank" : undefined}
+            rel={energyLabelUrl ? "noopener noreferrer" : undefined}
             className="text-xs text-primary no-underline hover:underline"
           >
             Product fiche
@@ -190,23 +231,7 @@ export default function PricePanel({
       )}
 
       {/* Add to basket */}
-      <button
-        onClick={onAddToBasket}
-        className="btn-primary w-full text-base py-3.5 flex items-center justify-center gap-2"
-      >
-        <svg
-          width="18"
-          height="18"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-        >
-          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18" />
-          <path d="M16 10a4 4 0 01-8 0" />
-        </svg>
-        Add to basket
-      </button>
+      <AddToBasketButton onAddToBasket={onAddToBasket} />
     </div>
   );
 }

@@ -135,7 +135,11 @@
   ],
   "offers": [],
   "badges": [],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10239539-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10239539-fiche.pdf"
+  },
   "category": "TVs",
   "title": "LG 24TQ510S-PZ 24\" Smart HD Ready LED TV Monitor",
   "lastUpdated": "2026-03-06T15:49:44.753Z"

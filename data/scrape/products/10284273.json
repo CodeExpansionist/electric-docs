@@ -84,7 +84,11 @@
     "freeDelivery": true
   },
   "category": "TVs",
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10284273-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10284273-fiche.pdf"
+  },
   "id": "10284273",
   "title": "HISENSE E7Q 55\" QLED 4K Smart AI TV with Freely - 55E7QTUK",
   "lastUpdated": "2026-03-06T15:49:44.753Z",

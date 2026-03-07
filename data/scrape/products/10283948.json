@@ -95,7 +95,11 @@
     "Free Standard Delivery",
     "2 Year Guarantee"
   ],
-  "energyRating": "D",
+  "energyRating": {
+    "class": "D",
+    "labelUrl": "/documents/energy-labels/10283948-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10283948-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10283948",
   "title": "HISENSE U7Q 85\" Mini LED 4K 144Hz Smart AI TV with Freely - 85U7QTUK",

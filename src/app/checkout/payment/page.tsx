@@ -136,7 +136,7 @@ function PaymentPageContent() {
 
     setIsSubmitting(true);
     setTimeout(() => {
-      const orderNum = `CUR-${Math.random().toString(36).substring(2, 8).toUpperCase()}-${Date.now().toString().slice(-4)}`;
+      const orderNum = `ELZ-${Math.random().toString(36).substring(2, 8).toUpperCase()}-${Date.now().toString().slice(-4)}`;
       const estDate = new Date();
       estDate.setDate(estDate.getDate() + 4);
 
@@ -150,15 +150,13 @@ function PaymentPageContent() {
         orderNumber: orderNum,
         date: new Date().toISOString(),
         status: "confirmed",
-        items: basket.items.length > 0
-          ? basket.items.map((item) => ({
+        items: basket.items.map((item) => ({
               id: item.product.id,
               title: item.product.title,
               image: item.product.images.main,
               price: item.product.price.current,
               quantity: item.quantity,
-            }))
-          : [{ id: "demo-1", title: "SAMSUNG UB00F 50\" Crystal UHD 4K HDR Smart TV 2025", image: "/images/products/10282094/large.webp", price: 299, quantity: 1 }],
+            })),
         subtotal,
         deliveryCost,
         total,

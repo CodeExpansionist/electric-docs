@@ -64,6 +64,7 @@ export interface Product {
   }>;
   /** EU energy label class (e.g., "A", "B", "C", "G"). */
   energyRating?: string;
+  energyLabelUrl?: string;
   inStock: boolean;
 }
 

@@ -105,7 +105,11 @@
     "Freely TV Badge",
     "Loved by Currys"
   ],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10282794-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282794-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10282794",
   "title": "HISENSE U7Q PRO 65\" Mini LED 4K 165Hz Smart AI TV with Freely - 65U7QTUK PRO",

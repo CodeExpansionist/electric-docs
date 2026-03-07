@@ -90,7 +90,11 @@
   "badges": [
     "Energy Class E"
   ],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10282782-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282782-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10282782",
   "title": "HISENSE E7Q PRO 85\" QLED 4K HDR Smart TV with Freely - 85E7QTUK PRO",

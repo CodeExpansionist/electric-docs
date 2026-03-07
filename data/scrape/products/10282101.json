@@ -168,7 +168,11 @@
     "Save £1200.00"
   ],
   "badges": [],
-  "energyRating": "F",
+  "energyRating": {
+    "class": "F",
+    "labelUrl": "/documents/energy-labels/10282101-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282101-fiche.pdf"
+  },
   "category": "TVs",
   "title": "LG C5 83\" OLED evo AI 4K HDR Smart TV 2025 - OLED83C54LA",
   "lastUpdated": "2026-03-06T15:49:44.753Z"

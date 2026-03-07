@@ -103,6 +103,10 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "energyRating": "G",
+  "energyRating": {
+    "class": "G",
+    "labelUrl": "/documents/energy-labels/10284428-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10284428-fiche.pdf"
+  },
   "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

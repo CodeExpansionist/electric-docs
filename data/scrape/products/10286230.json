@@ -83,7 +83,11 @@
     "freeDelivery": true
   },
   "category": "TVs",
-  "energyRating": "F",
+  "energyRating": {
+    "class": "F",
+    "labelUrl": "/documents/energy-labels/10286230-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10286230-fiche.pdf"
+  },
   "id": "10286230",
   "title": "HISENSE A4Q 40\" LED Full HD HDR Smart TV with Freely - 40A4QTUK",
   "lastUpdated": "2026-03-06T15:49:44.753Z",

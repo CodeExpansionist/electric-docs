@@ -97,7 +97,11 @@
     "Free standard delivery on orders over £40",
     "FREE recycling on selected TVs"
   ],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10282797-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282797-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10282797",
   "title": "HISENSE E7Q PRO 65\" QLED 4K HDR Smart TV with Freely - 65E7QTUK PRO",

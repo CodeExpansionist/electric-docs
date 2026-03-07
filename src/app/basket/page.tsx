@@ -6,30 +6,7 @@ import Image from "next/image";
 import { useBasket } from "@/lib/basket-context";
 import { useSaved } from "@/lib/saved-context";
 import type { BasketItem as BasketItemType } from "@/lib/types";
-
-const careOptions = [
-  {
-    id: "monthly",
-    label: "Monthly pay",
-    price: 3.49,
-    period: "a month",
-    annual: "Annual equivalent £53.01",
-  },
-  {
-    id: "2year",
-    label: "2 Years cover",
-    price: 99.0,
-    period: "",
-    saving: null,
-  },
-  {
-    id: "3year",
-    label: "3 Years cover",
-    price: 159.0,
-    period: "",
-    savingText: "Save £53.01 vs Monthly Plan",
-  },
-];
+import EnergyRatingBadge from "@/components/ui/EnergyRatingBadge";
 
 function BasketItemCard({
   item,
@@ -45,36 +22,38 @@ function BasketItemCard({
   return (
     <div className="border-b border-border pb-6 mb-6">
       <div className="flex flex-col sm:flex-row gap-4">
-        {/* Product image */}
-        <div className="w-[140px] flex-shrink-0 mx-auto sm:mx-0">
-          <div className="aspect-square bg-white border border-border rounded-md overflow-hidden flex items-center justify-center">
+        {/* Product image — clickable, no border */}
+        <Link href={`/products/${item.product.slug}`} className="w-[200px] flex-shrink-0 mx-auto sm:mx-0 block">
+          <div className="aspect-square bg-white flex items-center justify-center">
             <Image
               src={item.product.images.main}
               alt={item.product.title}
-              width={140}
-              height={140}
+              width={200}
+              height={200}
               className="object-contain p-2"
               unoptimized
             />
           </div>
-        </div>
+        </Link>
 
-        {/* Product info */}
+        {/* Info area — full width right of image, contains everything */}
         <div className="flex-1 min-w-0">
+          {/* Title — full width */}
           <Link
-            href={`/product/${item.product.slug}`}
-            className="text-sm font-bold text-text-primary no-underline hover:text-primary"
+            href={`/products/${item.product.slug}`}
+            className="text-base font-normal text-text-primary no-underline hover:text-primary"
           >
             {item.product.title}
           </Link>
 
-          <div className="flex flex-wrap items-center gap-3 sm:gap-4 mt-3">
+          {/* Qty + Price row */}
+          <div className="flex items-center mt-3">
             <div className="flex items-center gap-2">
               <label className="text-xs text-text-secondary">Quantity</label>
               <select
                 value={item.quantity}
                 onChange={(e) => onQuantityChange(Number(e.target.value))}
-                className="border border-input-border rounded-md px-2 py-1 text-xs bg-white"
+                className="border border-input-border rounded-md px-3 py-1.5 text-sm bg-white min-w-[60px]"
               >
                 {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
                   <option key={n} value={n}>
@@ -83,234 +62,275 @@ function BasketItemCard({
                 ))}
               </select>
             </div>
+            {/* Price + Was/Savings — right-aligned */}
+            <div className="ml-auto text-right">
+              <span className="text-xl font-bold text-text-primary">
+                £{item.product.price.current.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
+              </span>
+              {item.product.price.was && (
+                <p className="text-xs text-text-muted line-through mt-0.5">
+                  Was £{item.product.price.was.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
+                </p>
+              )}
+              {item.product.price.savings && item.product.price.savings > 0 && (
+                <p className="text-xs text-sale font-semibold mt-0.5">
+                  Save £{item.product.price.savings.toFixed(2)}
+                </p>
+              )}
+            </div>
+          </div>
+
+          {/* Remove + Save stacked */}
+          <div className="flex flex-col gap-1 mt-2">
             <button
               onClick={onRemove}
-              className="text-xs text-primary hover:underline"
+              className="text-xs text-primary underline text-left w-fit"
             >
               Remove item
             </button>
             <button
               onClick={onSaveForLater}
-              className="text-xs text-primary hover:underline"
+              className="text-xs text-primary underline text-left w-fit"
             >
               Save for later
             </button>
           </div>
-        </div>
 
-        {/* Price */}
-        <div className="flex-shrink-0 text-right">
-          <span className="text-lg font-bold text-text-primary">
-            £{item.product.price.current.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
-          </span>
-          {item.product.price.was && (
-            <span className="text-xs text-text-muted line-through ml-2">
-              Was £{item.product.price.was.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
-            </span>
+          {/* Energy rating badge — right-aligned within info area */}
+          {item.product.energyRating && (
+            <div className="flex items-center gap-2 mt-3 justify-end">
+              <EnergyRatingBadge rating={item.product.energyRating} labelUrl={item.product.energyLabelUrl} />
+              <Link
+                href={item.product.energyLabelUrl || "#"}
+                target={item.product.energyLabelUrl ? "_blank" : undefined}
+                rel={item.product.energyLabelUrl ? "noopener noreferrer" : undefined}
+                className="text-[10px] text-primary underline"
+              >
+                Product fiche
+              </Link>
+            </div>
           )}
-          {item.product.price.savings && item.product.price.savings > 0 && (
-            <p className="text-xs text-sale font-semibold mt-0.5">
-              Save £{item.product.price.savings.toFixed(2)}
+
+          {/* Delivery info — constrained to info area, not full width */}
+          <div className="mt-4 border border-border rounded-md p-3">
+            <p className="text-xs font-semibold text-text-primary mb-2">
+              You can choose your delivery or collection preferences at checkout
             </p>
-          )}
-        </div>
-      </div>
-
-      {/* Delivery info */}
-      <div className="mt-4 text-xs text-text-secondary">
-        <p className="mb-2">
-          Delivery options available at checkout
-        </p>
-        <div className="space-y-1.5">
-          <div className="flex items-center gap-1.5">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="2">
-              <path d="M20 6L9 17l-5-5" />
-            </svg>
-            <span>Delivery available</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="2">
-              <path d="M20 6L9 17l-5-5" />
-            </svg>
-            <span>FREE delivery on orders over £40</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="2">
-              <path d="M20 6L9 17l-5-5" />
-            </svg>
-            <span>Next day delivery available, order by 8pm</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function CareAndRepair() {
-  const [selectedPlan, setSelectedPlan] = useState<string>("monthly");
-
-  return (
-    <div className="border-b border-border pb-6 mb-6">
-      <h3 className="text-base font-bold text-text-primary mb-1">
-        Care &amp; Repair
-      </h3>
-      <div className="text-xs text-text-secondary space-y-2 mb-4">
-        <p className="font-semibold text-text-primary">
-          Full replacement cover
-        </p>
-        <p>
-          Full replacement: if your product fails within 7 calendar days or we
-          need to repair it more than 3 times, we&apos;ll replace it for free.
-        </p>
-        <p>All parts, labour and call-out charges included.</p>
-        <p>
-          Free delivery and recycling if your product needs replacing.
-        </p>
-      </div>
-
-      {/* Care plan options */}
-      <div className="space-y-2 mb-4">
-        {careOptions.map((option) => (
-          <label
-            key={option.id}
-            className={`flex items-center justify-between p-3 border rounded-md cursor-pointer transition-colors ${
-              selectedPlan === option.id
-                ? "border-primary bg-purple-50"
-                : "border-border"
-            }`}
-          >
-            <div className="flex items-center gap-3">
-              <input
-                type="radio"
-                name="carePlan"
-                value={option.id}
-                checked={selectedPlan === option.id}
-                onChange={() => setSelectedPlan(option.id)}
-                className="accent-primary w-4 h-4"
-              />
-              <div>
-                <span className="text-xs font-semibold text-text-primary">
-                  {option.label}
-                </span>
-                {option.id === "monthly" && (
-                  <span className="text-[10px] text-text-secondary ml-2">
-                    {option.annual}
-                  </span>
-                )}
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="1.8" className="flex-shrink-0">
+                  <rect x="1" y="6" width="15" height="10" rx="1" />
+                  <path d="M16 9h3l3 3v4h-6V9z" />
+                  <circle cx="6" cy="17.5" r="1.5" fill="#008A00" stroke="#008A00" />
+                  <circle cx="19" cy="17.5" r="1.5" fill="#008A00" stroke="#008A00" />
+                </svg>
+                <span className="text-xs text-text-secondary">FREE delivery on orders over £40</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="1.8" className="flex-shrink-0">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 6v6l4 2" />
+                </svg>
+                <span className="text-xs text-text-secondary">Next day delivery available, order by 8pm</span>
               </div>
             </div>
-            <div className="text-right">
-              <span className="text-sm font-bold text-text-primary">
-                £{option.price.toFixed(2)}
-              </span>
-              {option.period && (
-                <span className="text-xs text-text-secondary ml-1">
-                  {option.period}
-                </span>
-              )}
-              {"savingText" in option && option.savingText && (
-                <p className="text-[10px] text-primary">{option.savingText}</p>
-              )}
-            </div>
-          </label>
-        ))}
+          </div>
+        </div>
       </div>
-
-      <p className="text-[10px] text-text-muted leading-relaxed">
-        By selecting one of these plans you agree to purchase Care &amp; Repair.
-        Please read the{" "}
-        <Link href="#" className="text-primary">
-          Terms and Conditions
-        </Link>{" "}
-        and{" "}
-        <Link href="#" className="text-primary">
-          Insurance Product Information
-        </Link>{" "}
-        carefully. If you change your mind you can cancel within 30 days of
-        purchase (and up to 21 days of your Electriz Perks Free Trial).
-      </p>
-      <p className="text-[10px] text-text-muted mt-2">
-        Covered in partnership with domestic &amp; general warranties for
-        electrical goods. or{" "}
-        <Link href="#" className="text-primary">
-          www.electriz.co.uk
-        </Link>
-      </p>
     </div>
   );
 }
 
-function Installation() {
-  const [selected, setSelected] = useState(false);
+function InfoTooltip({ text }: { text: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <span
+      className="relative inline-flex"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <span
+        className="w-5 h-5 rounded-full border-2 border-primary flex items-center justify-center text-primary text-xs font-bold leading-none cursor-pointer"
+        aria-label="More info"
+      >
+        i
+      </span>
+      {open && (
+        <div className="absolute left-6 top-0 z-10 w-56 bg-white border border-border rounded-lg shadow-lg p-3 text-xs font-normal text-text-secondary">
+          {text}
+          <span className="block mt-2 text-primary text-[11px] text-right cursor-pointer">OK</span>
+        </div>
+      )}
+    </span>
+  );
+}
+
+function Installation({
+  selected,
+  onToggle,
+  wallSelected,
+  onWallToggle,
+}: {
+  selected: boolean;
+  onToggle: () => void;
+  wallSelected: boolean;
+  onWallToggle: () => void;
+}) {
+  const checkIcon = (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16A34A" strokeWidth="2.5" className="mt-0.5 flex-shrink-0">
+      <path d="M20 6L9 17l-5-5" />
+    </svg>
+  );
 
   return (
-    <div className="border-b border-border pb-6 mb-6">
-      <h3 className="text-base font-bold text-text-primary mb-3">
+    <div className="border-b border-border pb-6 mb-6 max-w-lg ml-auto">
+      <h3 className="text-base font-bold text-text-primary mb-3 flex items-center gap-2">
         Installation
+        <InfoTooltip text="Our professional installers will set up your TV so it's ready to watch. Installation is available for most TVs." />
       </h3>
-      <div className="text-xs text-text-secondary space-y-2 mb-4">
-        <p className="font-semibold text-text-primary">
-          Installation to stand
-        </p>
-        <p>Installation is ideal if:</p>
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Attach the TV to the table top stand or legs</li>
-          <li>Connect and tune your TV</li>
-        </ul>
+
+      {/* Installation to stand */}
+      <div className="text-xs text-text-secondary mb-4">
+        <p className="font-semibold text-text-primary mb-2">Installation to stand:</p>
+        <div className="space-y-1.5">
+          <div className="flex items-start gap-2">{checkIcon}<span>Disconnect your old TV and unbox your new one</span></div>
+          <div className="flex items-start gap-2">{checkIcon}<span>Attach the TV to the table-top stand or legs</span></div>
+          <div className="flex items-start gap-2">{checkIcon}<span>Connect and tune your TV</span></div>
+        </div>
       </div>
 
-      <label className="flex items-center justify-between p-3 border border-border rounded-md cursor-pointer hover:border-primary transition-colors">
+      <label className="flex items-center justify-between p-3 bg-[#FAFAFA] border border-[#E8E8E8] rounded-xl cursor-pointer hover:border-primary transition-colors mb-6">
         <div className="flex items-center gap-3">
           <input
             type="checkbox"
             checked={selected}
-            onChange={() => setSelected(!selected)}
-            className="w-4 h-4 accent-primary"
+            onChange={onToggle}
+            className="w-5 h-5 accent-primary rounded"
           />
-          <span className="text-xs font-semibold text-text-primary">
-            Let&apos;s install it
+          <span className="text-xs font-normal text-text-primary">
+            Add Installation to stand
           </span>
         </div>
-        <span className="text-sm font-bold text-text-primary">£85.00</span>
+        <span className="text-sm font-semibold text-text-primary">£45.00</span>
+      </label>
+
+      {/* Installation to wall */}
+      <div className="text-xs text-text-secondary mb-4">
+        <p className="font-semibold text-text-primary mb-2">Installation to wall:</p>
+        <div className="space-y-1.5">
+          <div className="flex items-start gap-2">{checkIcon}<span>Disconnect your old TV and unbox your new one</span></div>
+          <div className="flex items-start gap-2">{checkIcon}<span>Attach the wall bracket and mount your TV</span></div>
+          <div className="flex items-start gap-2">{checkIcon}<span>Connect and tune your TV and any equipment</span></div>
+        </div>
+      </div>
+
+      <label className="flex items-center justify-between p-3 bg-[#FAFAFA] border border-[#E8E8E8] rounded-xl cursor-pointer hover:border-primary transition-colors">
+        <div className="flex items-center gap-3">
+          <input
+            type="checkbox"
+            checked={wallSelected}
+            onChange={onWallToggle}
+            className="w-5 h-5 accent-primary rounded"
+          />
+          <span className="text-xs font-normal text-text-primary">
+            Add Installation to wall (bracket not included)
+          </span>
+        </div>
+        <span className="text-sm font-semibold text-text-primary">£135.00</span>
       </label>
     </div>
   );
 }
 
-function Recycling() {
-  const [selected, setSelected] = useState(false);
+function Recycling({
+  selected,
+  onToggle,
+}: {
+  selected: boolean;
+  onToggle: () => void;
+}) {
+  const checkIcon = (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16A34A" strokeWidth="2.5" className="mt-0.5 flex-shrink-0">
+      <path d="M20 6L9 17l-5-5" />
+    </svg>
+  );
 
   return (
-    <div className="pb-6 mb-6">
-      <h3 className="text-base font-bold text-text-primary mb-3">Recycling</h3>
-      <div className="text-xs text-text-secondary space-y-2 mb-4">
-        <p>On delivery we&apos;ll:</p>
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Remove your old, disconnected TV</li>
-          <li>Remove your new TV packaging</li>
-        </ul>
+    <div className="pb-6 mb-6 max-w-lg ml-auto">
+      <h3 className="text-base font-bold text-text-primary mb-3 flex items-center gap-2">
+        Recycling
+        <InfoTooltip text="We'll take away your old TV and packaging when we deliver your new one. All items are recycled responsibly." />
+      </h3>
+      <div className="text-xs text-text-secondary mb-4">
+        <p className="font-semibold text-text-primary mb-2">On delivery we&apos;ll:</p>
+        <div className="space-y-1.5">
+          <div className="flex items-start gap-2">{checkIcon}<span>Remove an old, disconnected TV</span></div>
+          <div className="flex items-start gap-2">{checkIcon}<span>Remove your new TV&apos;s packaging</span></div>
+          <div className="flex items-start gap-2">{checkIcon}<span>Take the lot to be recycled</span></div>
+        </div>
       </div>
 
-      <label className="flex items-center justify-between p-3 border border-border rounded-md cursor-pointer hover:border-primary transition-colors">
+      <label className="flex items-center justify-between p-3 bg-[#FAFAFA] border border-[#E8E8E8] rounded-xl cursor-pointer hover:border-primary transition-colors">
         <div className="flex items-center gap-3">
           <input
             type="checkbox"
             checked={selected}
-            onChange={() => setSelected(!selected)}
-            className="w-4 h-4 accent-primary"
+            onChange={onToggle}
+            className="w-5 h-5 accent-primary rounded"
           />
-          <span className="text-xs font-semibold text-text-primary">
+          <span className="text-xs font-normal text-text-primary">
             Let&apos;s recycle it
           </span>
         </div>
-        <span className="text-sm font-bold text-text-primary">£65.00</span>
+        <span className="text-sm font-semibold text-text-primary">£20.00</span>
       </label>
     </div>
   );
 }
 
-function OrderSummary({ subtotal, itemCount }: { subtotal: number; itemCount: number }) {
-  const [paymentTab, setPaymentTab] = useState<"card" | "paypal">("card");
+const PROMO_CODES: Record<string, number> = {
+  "1STTV50": 50,
+  "SAVE10": 10,
+};
+
+function OrderSummary({
+  subtotal,
+  itemCount,
+  serviceCount,
+  serviceCost,
+  totalSavings,
+  appliedPromo,
+  promoDiscount,
+  onApplyPromo,
+  onRemovePromo,
+}: {
+  subtotal: number;
+  itemCount: number;
+  serviceCount: number;
+  serviceCost: number;
+  totalSavings: number;
+  appliedPromo?: string;
+  promoDiscount?: number;
+  onApplyPromo: (code: string, discount: number) => void;
+  onRemovePromo: () => void;
+}) {
+  const [promoOpen, setPromoOpen] = useState(!appliedPromo);
+  const [promoCode, setPromoCode] = useState("");
+  const [promoError, setPromoError] = useState("");
+
+  const handleApply = () => {
+    const code = promoCode.trim().toUpperCase();
+    const discount = PROMO_CODES[code];
+    if (discount) {
+      onApplyPromo(code, discount);
+      setPromoError("");
+      setPromoOpen(false);
+    } else {
+      setPromoError("Invalid promo code");
+    }
+  };
+
+  const total = Math.max(0, subtotal + serviceCost - (promoDiscount || 0));
 
   return (
     <div className="card p-5 sticky top-4">
@@ -320,61 +340,107 @@ function OrderSummary({ subtotal, itemCount }: { subtotal: number; itemCount: nu
 
       {/* Items subtotal */}
       <div className="flex items-center justify-between mb-3">
-        <span className="text-sm text-text-secondary">{itemCount} {itemCount === 1 ? "item" : "items"}</span>
+        <span className="text-sm text-text-secondary">
+          {itemCount} {itemCount === 1 ? "item" : "items"}
+        </span>
         <span className="text-sm text-text-primary">
           £{subtotal.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
         </span>
       </div>
 
-      {/* Payment method toggle */}
-      <div className="flex rounded-md overflow-hidden border border-border mb-4">
-        <button
-          onClick={() => setPaymentTab("card")}
-          className={`flex-1 py-2 text-xs font-semibold transition-colors ${
-            paymentTab === "card"
-              ? "bg-primary text-white"
-              : "bg-white text-text-secondary"
-          }`}
-        >
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            className="inline mr-1"
-          >
-            <rect x="1" y="4" width="22" height="16" rx="2" />
-            <path d="M1 10h22" />
-          </svg>
-          Card
-        </button>
-        <button
-          onClick={() => setPaymentTab("paypal")}
-          className={`flex-1 py-2 text-xs font-semibold transition-colors ${
-            paymentTab === "paypal"
-              ? "bg-primary text-white"
-              : "bg-white text-text-secondary"
-          }`}
-        >
-          <span className="text-[#003087] font-bold">
-            {paymentTab === "paypal" ? (
-              <span className="text-white">PayPal</span>
-            ) : (
-              "PayPal"
-            )}
+      {/* Services subtotal */}
+      {serviceCount > 0 && (
+        <div className="flex items-center justify-between mb-3">
+          <span className="text-sm text-text-secondary">
+            {serviceCount} {serviceCount === 1 ? "service" : "services"}
           </span>
-        </button>
+          <span className="text-sm text-text-primary">
+            £{serviceCost.toFixed(2)}
+          </span>
+        </div>
+      )}
+
+      {/* Promo code */}
+      <div className="mb-4">
+        {appliedPromo ? (
+          <div className="flex items-center justify-between bg-green-50 border border-green-200 rounded-md px-3 py-2">
+            <div>
+              <span className="text-xs font-semibold text-green-700">
+                {appliedPromo}
+              </span>
+              <span className="text-xs text-green-600 ml-2">
+                -£{(promoDiscount || 0).toFixed(2)}
+              </span>
+            </div>
+            <button
+              onClick={onRemovePromo}
+              className="text-xs text-primary hover:underline"
+            >
+              Remove
+            </button>
+          </div>
+        ) : (
+          <>
+            <button
+              onClick={() => setPromoOpen(!promoOpen)}
+              className="flex items-center gap-2 w-full text-left"
+            >
+              <span className="text-xs text-text-primary underline">Add a promo code</span>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className={`ml-auto transition-transform ${promoOpen ? "rotate-180" : ""}`}
+              >
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </button>
+            {promoOpen && (
+              <div className="mt-3">
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    value={promoCode}
+                    onChange={(e) => { setPromoCode(e.target.value); setPromoError(""); }}
+                    placeholder="Enter code"
+                    className="flex-1 border border-input-border rounded-md px-3 py-2 text-xs bg-white focus:outline-none focus:border-primary"
+                    onKeyDown={(e) => e.key === "Enter" && handleApply()}
+                  />
+                  <button
+                    onClick={handleApply}
+                    className="border border-primary text-primary rounded-md text-xs font-semibold whitespace-nowrap px-4 py-2 hover:bg-purple-50 transition-colors"
+                  >
+                    Apply
+                  </button>
+                </div>
+                {promoError && (
+                  <p className="text-xs text-sale mt-1.5">{promoError}</p>
+                )}
+              </div>
+            )}
+          </>
+        )}
       </div>
 
       {/* Total */}
-      <div className="flex items-center justify-between py-3 border-t border-border mb-4">
+      <div className="flex items-center justify-between py-3 border-t border-border mb-1">
         <span className="text-base font-bold text-text-primary">Total</span>
         <span className="text-xl font-bold text-text-primary">
-          £{subtotal.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
+          £{total.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
         </span>
       </div>
+
+      {/* Total savings */}
+      {(totalSavings > 0 || (promoDiscount && promoDiscount > 0)) && (
+        <p className="text-xs font-bold text-sale text-right mb-4">
+          Total savings: £{(totalSavings + (promoDiscount || 0)).toFixed(2)}
+        </p>
+      )}
+
+      {totalSavings <= 0 && !promoDiscount && <div className="mb-4" />}
 
       {/* Checkout CTA */}
       <Link
@@ -383,14 +449,41 @@ function OrderSummary({ subtotal, itemCount }: { subtotal: number; itemCount: nu
       >
         Continue to checkout
       </Link>
+
+      {/* Pay securely with */}
+      <div className="mt-5 text-center">
+        <p className="text-xs text-text-secondary mb-3">Pay securely with</p>
+        <div className="flex items-center justify-center gap-2">
+          <Image src="/images/icons/amex.svg" alt="American Express" width={34} height={24} className="h-6 w-auto" unoptimized />
+          <Image src="/images/icons/visa.svg" alt="Visa" width={34} height={24} className="h-6 w-auto" unoptimized />
+          <Image src="/images/icons/maestro.svg" alt="Maestro" width={34} height={24} className="h-6 w-auto" unoptimized />
+          <Image src="/images/icons/mastercard.svg" alt="Mastercard" width={34} height={24} className="h-6 w-auto" unoptimized />
+        </div>
+        <Link href="/tv-and-audio" className="text-xs text-primary underline mt-4 inline-block">
+          Continue shopping
+        </Link>
+      </div>
     </div>
   );
 }
 
 export default function BasketPage() {
-  const { basket, updateQuantity, removeItem, itemCount } = useBasket();
+  const { basket, updateQuantity, removeItem, itemCount, applyPromo, removePromo } = useBasket();
   const { addSaved } = useSaved();
 
+  // Lifted service state
+  const [installType, setInstallType] = useState<"none" | "stand" | "wall">("none");
+  const [recycleSelected, setRecycleSelected] = useState(false);
+
+  // Computed values for OrderSummary
+  const serviceCount =
+    (installType !== "none" ? 1 : 0) + (recycleSelected ? 1 : 0);
+  const serviceCost =
+    (installType === "stand" ? 45 : installType === "wall" ? 135 : 0) + (recycleSelected ? 20 : 0);
+  const totalSavings = basket.items.reduce(
+    (sum, item) => sum + ((item.product.price.savings || 0) * item.quantity),
+    0
+  );
   const handleSaveForLater = (item: BasketItemType) => {
     addSaved(item.product);
     removeItem(item.product.id);
@@ -398,6 +491,7 @@ export default function BasketPage() {
 
   if (basket.items.length === 0) {
     return (
+      <div className="bg-surface min-h-screen">
       <div className="container-main py-16 text-center">
         <div className="w-16 h-16 mx-auto mb-4 text-text-muted">
           <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2">
@@ -415,10 +509,19 @@ export default function BasketPage() {
           Browse products
         </Link>
       </div>
+      </div>
     );
   }
 
   return (
+    <div className="bg-surface min-h-screen">
+    {/* Promo banner */}
+    <div className="bg-[#E31837] text-white text-center py-2 px-4">
+      <p className="text-sm font-semibold">
+        Use code <span className="font-bold">1STTV50</span> at checkout for £50 off your first order!
+      </p>
+    </div>
+
     <div className="container-main py-6">
       <h1 className="text-xl font-bold text-text-primary mb-6">
         Your basket ({itemCount} {itemCount === 1 ? "item" : "items"})
@@ -426,7 +529,7 @@ export default function BasketPage() {
 
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
         {/* Left: Basket items + services */}
-        <div className="flex-1 min-w-0">
+        <div className="flex-1 min-w-0 bg-white rounded-lg p-5">
           {/* Basket items */}
           {basket.items.map((item) => (
             <BasketItemCard
@@ -438,21 +541,37 @@ export default function BasketPage() {
             />
           ))}
 
-          {/* Care & Repair */}
-          <CareAndRepair />
-
           {/* Installation */}
-          <Installation />
+          <Installation
+            selected={installType === "stand"}
+            onToggle={() => setInstallType(installType === "stand" ? "none" : "stand")}
+            wallSelected={installType === "wall"}
+            onWallToggle={() => setInstallType(installType === "wall" ? "none" : "wall")}
+          />
 
           {/* Recycling */}
-          <Recycling />
+          <Recycling
+            selected={recycleSelected}
+            onToggle={() => setRecycleSelected(!recycleSelected)}
+          />
         </div>
 
         {/* Right: Order Summary */}
         <div className="w-full lg:w-[340px] flex-shrink-0">
-          <OrderSummary subtotal={basket.subtotal} itemCount={itemCount} />
+          <OrderSummary
+            subtotal={basket.subtotal}
+            itemCount={itemCount}
+            serviceCount={serviceCount}
+            serviceCost={serviceCost}
+            totalSavings={totalSavings}
+            appliedPromo={basket.promoCode}
+            promoDiscount={basket.promoDiscount}
+            onApplyPromo={applyPromo}
+            onRemovePromo={removePromo}
+          />
         </div>
       </div>
+    </div>
     </div>
   );
 }

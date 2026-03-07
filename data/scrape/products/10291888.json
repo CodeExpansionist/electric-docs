@@ -150,7 +150,11 @@
     "Save £50.00"
   ],
   "badges": [],
-  "energyRating": "G",
+  "energyRating": {
+    "class": "G",
+    "labelUrl": "/documents/energy-labels/10291888-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10291888-fiche.pdf"
+  },
   "category": "TVs",
   "title": "LG QNED70 43\" QNED AI 4K HDR Smart TV 2025 - 43QNED70A6A",
   "lastUpdated": "2026-03-06T15:49:44.753Z"

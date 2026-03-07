@@ -95,7 +95,11 @@
   "badges": [
     "FREE delivery on orders over £40."
   ],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10283925-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10283925-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10283925",
   "title": "HISENSE A6Q 85\" LED 4K HDR Smart TV with Freely - 85A6QTUK",

@@ -5,6 +5,7 @@ import {
   useContext,
   useReducer,
   useEffect,
+  useRef,
   type ReactNode,
 } from "react";
 import type { Product } from "./types";
@@ -39,81 +40,9 @@ interface SavedContextValue {
 
 const SavedContext = createContext<SavedContextValue | null>(null);
 
-/* ── Default saved items so the page isn't empty on first visit ── */
-const defaultSaved: Product[] = [
-  {
-    id: "10282800",
-    slug: "samsung-s90f-65-oled",
-    title: 'SAMSUNG S90F 65" OLED 4K Vision AI Smart TV 2025 – QE65S90F',
-    brand: "Samsung",
-    category: "TV & Audio",
-    subcategory: "Televisions",
-    price: { current: 1399, was: 1599, savings: 200, savingsPercent: 13 },
-    images: {
-      main: "/images/products/10282706/main.webp",
-      gallery: [],
-      thumbnail: "/images/products/10282706/main.webp",
-    },
-    rating: { average: 4.7, count: 42 },
-    specs: { "Screen Size": '65"', Resolution: "4K Ultra HD", "Panel Type": "OLED" },
-    keySpecs: ['65"', "4K Ultra HD", "OLED", "120Hz"],
-    description: "Samsung S90F OLED 4K Smart TV",
-    deliveryInfo: { freeDelivery: true, estimatedDate: "5 Mar 2026" },
-    badges: [],
-    tags: [],
-    offers: [],
-    inStock: true,
-  },
-  {
-    id: "10282706",
-    slug: "samsung-ub00f-50-crystal-uhd",
-    title: 'SAMSUNG UB00F 50" Crystal UHD 4K HDR Smart TV 2025 – UE50UB00F',
-    brand: "Samsung",
-    category: "TV & Audio",
-    subcategory: "Televisions",
-    price: { current: 299, was: 349, savings: 50, savingsPercent: 14 },
-    images: {
-      main: "/images/products/10282706/main.webp",
-      gallery: [],
-      thumbnail: "/images/products/10282706/main.webp",
-    },
-    rating: { average: 4.4, count: 128 },
-    specs: { "Screen Size": '50"', Resolution: "4K Ultra HD", "Panel Type": "LED" },
-    keySpecs: ['50"', "4K Ultra HD", "LED", "60Hz"],
-    description: "Samsung Crystal UHD 4K Smart TV",
-    deliveryInfo: { freeDelivery: true, estimatedDate: "4 Mar 2026" },
-    badges: ["Epic Deal"],
-    tags: [{ label: "Epic Deal", type: "epic-deal" }],
-    offers: [{ text: "Save £50" }],
-    inStock: true,
-  },
-  {
-    id: "10280123",
-    slug: "sony-bravia-7-55-mini-led",
-    title: 'SONY BRAVIA 7 55" Smart 4K Ultra HD HDR Mini LED TV with Google TV – K55XR70',
-    brand: "Sony",
-    category: "TV & Audio",
-    subcategory: "Televisions",
-    price: { current: 1099, was: 1299, savings: 200, savingsPercent: 15 },
-    images: {
-      main: "/images/products/10282706/main.webp",
-      gallery: [],
-      thumbnail: "/images/products/10282706/main.webp",
-    },
-    rating: { average: 4.8, count: 67 },
-    specs: { "Screen Size": '55"', Resolution: "4K Ultra HD", "Panel Type": "Mini LED" },
-    keySpecs: ['55"', "4K Ultra HD", "Mini LED", "120Hz"],
-    description: "Sony BRAVIA 7 Mini LED 4K Smart TV",
-    deliveryInfo: { freeDelivery: true, estimatedDate: "5 Mar 2026" },
-    badges: [],
-    tags: [],
-    offers: [{ text: "Save £200" }],
-    inStock: true,
-  },
-];
-
 export function SavedProvider({ children }: { children: ReactNode }) {
   const [savedItems, dispatch] = useReducer(savedReducer, []);
+  const hydrated = useRef(false);
 
   /* Hydrate from localStorage on mount */
   useEffect(() => {
@@ -121,22 +50,21 @@ export function SavedProvider({ children }: { children: ReactNode }) {
     if (stored) {
       try {
         const parsed = JSON.parse(stored);
-        if (Array.isArray(parsed) && parsed.length > 0) {
+        if (Array.isArray(parsed)) {
           dispatch({ type: "HYDRATE", items: parsed });
-        } else {
-          dispatch({ type: "HYDRATE", items: defaultSaved });
         }
       } catch {
-        dispatch({ type: "HYDRATE", items: defaultSaved });
+        // Invalid localStorage data — start with empty saved list
       }
-    } else {
-      dispatch({ type: "HYDRATE", items: defaultSaved });
     }
+    hydrated.current = true;
   }, []);
 
   /* Persist to localStorage on change */
   useEffect(() => {
-    localStorage.setItem("electric-saved", JSON.stringify(savedItems));
+    if (hydrated.current) {
+      localStorage.setItem("electric-saved", JSON.stringify(savedItems));
+    }
   }, [savedItems]);
 
   const savedCount = savedItems.length;

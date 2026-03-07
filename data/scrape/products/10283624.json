@@ -91,7 +91,11 @@
     "freeDelivery": true
   },
   "category": "TVs",
-  "energyRating": "F",
+  "energyRating": {
+    "class": "F",
+    "labelUrl": "/documents/energy-labels/10283624-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10283624-fiche.pdf"
+  },
   "id": "10283624",
   "title": "HISENSE A5Q 40\" QLED Full HD HDR Smart TV with Freely - 40A5QTUK",
   "lastUpdated": "2026-03-06T15:49:44.753Z",

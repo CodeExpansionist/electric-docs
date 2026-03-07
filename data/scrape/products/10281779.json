@@ -163,7 +163,11 @@
     "Save £200.00"
   ],
   "badges": [],
-  "energyRating": "F",
+  "energyRating": {
+    "class": "F",
+    "labelUrl": "/documents/energy-labels/10281779-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10281779-fiche.pdf"
+  },
   "category": "TVs",
   "title": "LG C5 77\" OLED evo AI 4K HDR Smart TV 2025 - OLED77C54LA",
   "lastUpdated": "2026-03-06T15:49:44.753Z"

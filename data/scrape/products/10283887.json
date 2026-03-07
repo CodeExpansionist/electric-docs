@@ -93,7 +93,11 @@
     "Free standard delivery",
     "Get free recycling on selected TVs"
   ],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10283887-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10283887-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10283887",
   "title": "HISENSE A6Q 75\" LED 4K HDR Smart TV with Freely - 75A6QTUK",

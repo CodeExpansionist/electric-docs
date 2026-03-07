@@ -56,7 +56,11 @@
     "freeDelivery": true
   },
   "category": "TVs",
-  "energyRating": "G",
+  "energyRating": {
+    "class": "G",
+    "labelUrl": "/documents/energy-labels/10289262-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10289262-fiche.pdf"
+  },
   "id": "10289262",
   "title": "HISENSE A85Q 55\" OLED 4K Smart AI TV with Freely - 55A85QTUK",
   "lastUpdated": "2026-03-06T15:49:44.753Z",

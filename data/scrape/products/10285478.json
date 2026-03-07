@@ -78,7 +78,11 @@
     "freeDelivery": true
   },
   "category": "TVs",
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10285478-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10285478-fiche.pdf"
+  },
   "id": "10285478",
   "title": "HISENSE E6Q 43\" LED 4K HDR Smart TV with Freely - 43E6QTUK",
   "lastUpdated": "2026-03-06T15:49:44.753Z",

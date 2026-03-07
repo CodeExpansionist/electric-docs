@@ -155,7 +155,11 @@
     "Save £50.00"
   ],
   "badges": [],
-  "energyRating": "G",
+  "energyRating": {
+    "class": "G",
+    "labelUrl": "/documents/energy-labels/10282087-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282087-fiche.pdf"
+  },
   "category": "TVs",
   "title": "LG NANO80 43\" NanoCell AI 4K HDR Smart TV 2025 - 43NANO80A6B",
   "lastUpdated": "2026-03-06T15:49:44.753Z"

@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getProductBySlug, getSizeVariants, type ProductDetail } from "@/lib/product-data";
 import { useBasket } from "@/lib/basket-context";
+import { useSaved } from "@/lib/saved-context";
 import { SITE_URL } from "@/lib/constants";
 import type { Product } from "@/lib/types";
 import ProductGallery from "@/components/product/ProductGallery";
@@ -57,6 +58,7 @@ function toProduct(detail: ProductDetail, slug: string): Product {
       .map(() => ({ label: "Epic Deal", type: "epic-deal" as const })),
     offers: detail.offers.map((o) => ({ text: o })),
     energyRating: detail.energyRating ?? undefined,
+    energyLabelUrl: detail.energyLabelUrl ?? undefined,
     inStock: true,
   };
 }
@@ -334,8 +336,12 @@ function ProductPageContent({
   slug: string;
 }) {
   const { addItem } = useBasket();
+  const { addSaved, removeSaved, isSaved } = useSaved();
+  const [showToast, setShowToast] = useState(false);
   const breadcrumbs = getBreadcrumbs(product);
   const productId = extractProductId(slug);
+  const productData = toProduct(product, slug);
+  const saved = isSaved(productId);
 
   const hasGallery =
     product.images?.gallery && product.images.gallery.length > 1;
@@ -345,7 +351,17 @@ function ProductPageContent({
   const sizeVariants = productId ? getSizeVariants(productId) : [];
 
   const handleAddToBasket = () => {
-    addItem(toProduct(product, slug));
+    addItem(productData);
+    setShowToast(true);
+    setTimeout(() => setShowToast(false), 3000);
+  };
+
+  const handleToggleSaved = () => {
+    if (saved) {
+      removeSaved(productId);
+    } else {
+      addSaved(productData);
+    }
   };
 
   // JSON-LD structured data for SEO
@@ -380,6 +396,18 @@ function ProductPageContent({
 
   return (
     <div className="bg-surface min-h-screen">
+      {/* Add to basket toast */}
+      {showToast && (
+        <div className="fixed top-4 right-4 z-50 bg-white border border-border rounded-lg shadow-lg p-4 flex items-center gap-3 animate-in fade-in slide-in-from-top-2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2.5">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
+          <div>
+            <p className="text-sm font-semibold text-text-primary">Added to basket</p>
+            <Link href="/basket" className="text-xs text-primary hover:underline">View basket</Link>
+          </div>
+        </div>
+      )}
     <div className="container-main py-4">
       <script
         type="application/ld+json"
@@ -628,24 +656,28 @@ function ProductPageContent({
               selected: s.selected,
             }))}
             energyRating={product.energyRating}
+            energyLabelUrl={product.energyLabelUrl}
             wallBracket={product.wallBracket}
             onAddToBasket={handleAddToBasket}
           />
 
           {/* Save for later + Share */}
           <div className="flex items-center justify-between mt-3 pb-2">
-            <button className="flex items-center gap-2 py-2.5 text-sm text-primary hover:underline">
+            <button
+              onClick={handleToggleSaved}
+              className="flex items-center gap-2 py-2.5 text-sm text-primary hover:underline"
+            >
               <svg
                 width="16"
                 height="16"
                 viewBox="0 0 24 24"
-                fill="none"
+                fill={saved ? "currentColor" : "none"}
                 stroke="currentColor"
                 strokeWidth="1.8"
               >
                 <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
               </svg>
-              Save for later
+              {saved ? "Saved" : "Save for later"}
             </button>
             <button className="flex items-center gap-2 py-2.5 text-sm text-primary hover:underline">
               <svg

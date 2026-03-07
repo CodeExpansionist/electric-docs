@@ -94,6 +94,10 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "TVs",
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10286602-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10286602-fiche.pdf"
+  },
   "lastUpdated": "2026-03-06T15:49:44.753Z"
 }

@@ -133,6 +133,7 @@ export interface ProductDetail {
   offers: string[];
   deliveryFree: boolean;
   energyRating?: string | null;
+  energyLabelUrl?: string | null;
   category: string;
   categorySlug: string;
   productId?: string;
@@ -227,6 +228,9 @@ function mergeScrapedData(base: ProductDetail, scraped: any): ProductDetail {
   // Energy rating from scraped data (more detailed)
   if (scraped.energyRating?.class) {
     merged.energyRating = scraped.energyRating.class;
+  }
+  if (scraped.energyRating?.labelUrl) {
+    merged.energyLabelUrl = scraped.energyRating.labelUrl;
   }
 
   // Wall bracket
@@ -363,6 +367,7 @@ export function getProductBySlug(slug: string): ProductDetail | null {
           offers: p.offers || [],
           deliveryFree: p.deliveryFree ?? true,
           energyRating: p.energyRating || null,
+          energyLabelUrl: null,
           category: cat.name,
           categorySlug: cat.slug,
           productId,
@@ -421,6 +426,7 @@ export function getAllProducts(): ProductDetail[] {
         offers: p.offers || [],
         deliveryFree: p.deliveryFree ?? true,
         energyRating: p.energyRating || null,
+        energyLabelUrl: null,
         category: cat.name,
         categorySlug: cat.slug,
         productId: pid,

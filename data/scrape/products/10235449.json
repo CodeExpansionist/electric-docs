@@ -72,7 +72,8 @@
     }
   ],
   "energyRating": {
-    "class": "F"
+    "class": "F",
+    "ficheUrl": "/documents/energy-labels/10235449-fiche.pdf"
   },
   "wallBracket": {
     "text": "Add a wall bracket",

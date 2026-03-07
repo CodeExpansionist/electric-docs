@@ -31,6 +31,7 @@ export interface CategoryProduct {
   offers: string[];
   deliveryFree: boolean;
   energyRating?: string | null;
+  energyLabelUrl?: string | null;
 }
 
 export interface FilterGroup {
@@ -91,6 +92,7 @@ function mapScrapedData(data: any): CategoryData {
       offers: p.offers || [],
       deliveryFree: p.deliveryFree ?? true,
       energyRating: p.energyRating || null,
+      energyLabelUrl: null,
     };
   }) as CategoryProduct[];
 

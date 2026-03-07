@@ -416,6 +416,7 @@ function CategoryListingInner() {
                   deliveryFree={product.deliveryFree}
                   url={product.url}
                   energyRating={product.energyRating}
+                  energyLabelUrl={product.energyLabelUrl}
                 />
               ))}
 

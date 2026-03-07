@@ -113,7 +113,11 @@
   "badges": [
     "Energy rating E"
   ],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10283882-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10283882-fiche.pdf"
+  },
   "category": "TVs",
   "id": "10283882",
   "title": "HISENSE U7Q 55\" Mini LED 4K 144Hz Smart AI TV with Freely - 55U7QTUK",

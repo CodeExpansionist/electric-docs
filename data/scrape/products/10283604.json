@@ -63,7 +63,11 @@
     "freeDelivery": true
   },
   "category": "TVs",
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10283604-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10283604-fiche.pdf"
+  },
   "id": "10283604",
   "title": "HISENSE U8Q 65\" Mini LED 4K 165Hz Smart AI TV with Freely - 65U8QTUK",
   "lastUpdated": "2026-03-06T15:49:44.753Z",

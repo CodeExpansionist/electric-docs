@@ -140,7 +140,11 @@
     "Save £100.00"
   ],
   "badges": [],
-  "energyRating": "G",
+  "energyRating": {
+    "class": "G",
+    "labelUrl": "/documents/energy-labels/10282128-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10282128-fiche.pdf"
+  },
   "category": "TVs",
   "title": "LG UA75 75\" LED 4K HDR Smart TV 2025 - 75UA75006LA",
   "lastUpdated": "2026-03-06T15:49:44.753Z"

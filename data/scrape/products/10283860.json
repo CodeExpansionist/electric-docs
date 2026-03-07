@@ -85,7 +85,11 @@
     "freeDelivery": true
   },
   "category": "TVs",
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10283860-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10283860-fiche.pdf"
+  },
   "id": "10283860",
   "title": "HISENSE A7Q 75\" QLED 4K Smart AI TV with Freely - 75A7QTUK",
   "lastUpdated": "2026-03-06T15:49:44.753Z",

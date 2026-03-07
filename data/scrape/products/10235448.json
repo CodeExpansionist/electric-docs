@@ -127,7 +127,11 @@
     "Save £4.00"
   ],
   "badges": [],
-  "energyRating": "E",
+  "energyRating": {
+    "class": "E",
+    "labelUrl": "/documents/energy-labels/10235448-label.pdf",
+    "ficheUrl": "/documents/energy-labels/10235448-fiche.pdf"
+  },
   "category": "TVs",
   "title": "LG 32LQ630B6LA 32\" Smart HD Ready HDR LED TV",
   "lastUpdated": "2026-03-06T15:49:44.753Z"
