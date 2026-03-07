@@ -10,13 +10,13 @@ Optionally: `/fix-filters <category-slug>` where `$ARGUMENTS` is a specific cate
 
 ## Golden Rule
 
-**Filters must match real product data exactly.** If Samsung has 42 TVs in the data, the Samsung filter must show 42 results — not 0 (case mismatch), not 89 (wrong comparison), not 41 (off-by-one). Every filter option is verified against actual product data.
+**Filters must match real product data exactly.** If a brand has 42 products in the data, that brand's filter must show 42 results — not 0 (case mismatch), not 89 (wrong comparison), not 41 (off-by-one). Every filter option is verified against actual product data.
 
 ---
 
 ## Prerequisites
 
-- Category data loaded in `src/lib/category-data.ts`
+- Category data loaded in the category data module (path from `project-config.md`)
 - Product data in `data/scrape/` category JSON files
 - Filter rendering logic in place (typically in the category page component)
 
@@ -26,7 +26,7 @@ Optionally: `/fix-filters <category-slug>` where `$ARGUMENTS` is a specific cate
 
 ### 1. Read the filter implementation
 
-Read `src/lib/category-data.ts` and the category page component to understand:
+Read the category data module and the category page component to understand:
 
 1. Where filter options are defined (hardcoded list vs extracted from data)
 2. How filter matching works (exact match, includes, regex)
@@ -97,17 +97,24 @@ Rating filtering is already implemented. Verify threshold comparisons are inclus
 products.filter(p => p.rating.average >= threshold)
 ```
 
-### 5b. Verify TV-specific filter groups
+### 5b. Verify category-specific filter groups
 
-TV categories have additional filter groups beyond brand/price/rating. Verify these are present and functional:
+Some categories have specialized filter groups beyond brand/price/rating. Read `project-config.md` 'Domain-Specific Filters' table to identify which categories have extra filters.
 
-- **TV Technology** — OLED, QLED, LED, Mini-LED, NanoCell
-- **Resolution** — 4K, 8K, Full HD, HD Ready
-- **Refresh Rate** — 50Hz, 60Hz, 100Hz, 120Hz, 144Hz
-- **HDMI Ports** — 1, 2, 3, 4+
-- **Smart TV Platform** — Tizen, webOS, Google TV, Fire TV, Roku, Vidaa
+For each category-specific filter group:
 
-Also verify that `subcategoryKeywords` filtering in `category-data.ts` correctly narrows products within parent categories (e.g., "OLED TVs" subcategory within "TVs" only shows OLED products).
+1. Verify the filter options match values actually present in product data
+2. Verify the matching logic (exact match vs contains vs regex)
+3. Verify filter counts are correct
+
+Common examples by vertical:
+
+- **Electronics**: technology type, resolution, connectivity ports, platform
+- **Fashion**: size, color, material, fit type
+- **Home/furniture**: dimensions, material, room type, style
+- **Food/grocery**: dietary (vegan, gluten-free), organic, allergen info
+
+Also verify that subcategory keyword filtering in the category data module correctly narrows products within parent categories (e.g., a subcategory within a parent category only shows products matching its keyword criteria).
 
 ### 6. Verify filter counts
 
@@ -119,21 +126,21 @@ For each filter option, compute the expected count from raw data and compare aga
 4. Compare against the count the filter logic produces
 
 ```
-Filter Count Verification — TVs:
+Filter Count Verification — {Category Name}:
 | Filter | Option | Expected | Actual | Status |
 |--------|--------|----------|--------|--------|
-| Brand | Samsung | 42 | 42 | PASS |
-| Brand | LG | 38 | 38 | PASS |
-| Brand | Sony | 25 | 0 | FAIL (case mismatch: data has "SONY") |
-| Size | 50-59" | 67 | 112 | FAIL (string comparison includes 5xx) |
-| Price | £500-£1000 | 89 | 88 | FAIL (off-by-one: excludes £1000) |
+| Brand | {Brand A} | 42 | 42 | PASS |
+| Brand | {Brand B} | 38 | 38 | PASS |
+| Brand | {Brand C} | 25 | 0 | FAIL (case mismatch: data has "BRAND C") |
+| Size | {range} | 67 | 112 | FAIL (string comparison bug) |
+| Price | {currency}{min}-{currency}{max} | 89 | 88 | FAIL (off-by-one: excludes upper bound) |
 ```
 
 ### 7. Apply fixes
 
 For each bug found:
 
-1. Identify the exact line in `src/lib/category-data.ts` or the filter component
+1. Identify the exact line in the category data module or the filter component
 2. Apply the fix (case-insensitive matching, numeric parsing, inclusive ranges)
 3. Re-run the count verification to confirm the fix
 
@@ -148,17 +155,17 @@ Categories audited: X
 
 | Category | Filter | Bug | Fix Applied |
 |----------|--------|-----|-------------|
-| TVs | Brand: Sony | Case-sensitive match ("SONY" ≠ "Sony") | toLowerCase() comparison |
-| TVs | Size: 50-59" | String comparison | parseInt() before comparing |
-| Soundbars | Price: £500-£1000 | Exclusive upper bound | Changed < to <= |
+| {Cat A} | Brand: {Brand} | Case-sensitive match ("BRAND" ≠ "Brand") | toLowerCase() comparison |
+| {Cat A} | Size/Dimension | String comparison | parseInt() before comparing |
+| {Cat B} | Price: {range} | Exclusive upper bound | Changed < to <= |
 
 ### Verification After Fixes
 
 | Category | Filters | All Counts Correct | Status |
 |----------|---------|-------------------|--------|
-| TVs | 4 | Yes | PASS |
-| Headphones | 3 | Yes | PASS |
-| Soundbars | 3 | Yes | PASS |
+| {Cat A} | 4 | Yes | PASS |
+| {Cat B} | 3 | Yes | PASS |
+| {Cat C} | 3 | Yes | PASS |
 
 Total bugs found: X
 Total bugs fixed: X
@@ -169,9 +176,9 @@ All filter counts verified: PASS/FAIL
 
 ## Critical Rules
 
-- **Case-insensitive brand matching.** Always `.toLowerCase()` both sides. Brand names in data are inconsistent ("SAMSUNG", "Samsung", "sony", "Sony").
+- **Case-insensitive brand matching.** Always `.toLowerCase()` both sides. Brand names in data are inconsistent (e.g., "BRAND", "Brand", "brand").
 - **Numeric size comparison.** Parse screen sizes to integers before comparing. String comparison of "55" < "9" is a guaranteed bug.
 - **Prices are always objects.** The price field is always `{ current, was, savings }`. Compare `price.current` (number), never the `price` object itself.
-- **Inclusive ranges.** Price range "£500-£1000" should include both £500 and £1000. Use `>=` and `<=`, not `>` and `<`.
+- **Inclusive ranges.** Price ranges should include both endpoints. Use `>=` and `<=`, not `>` and `<`.
 - **Test with real data.** Don't assume the fix works — verify counts against actual product data after applying.
 - **Filters must update counts.** When one filter is active, other filter counts should reflect the narrowed dataset (if the UI shows counts).

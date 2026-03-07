@@ -27,8 +27,8 @@ The argument `$ARGUMENTS` is the target site URL. Reads `src/lib/category-data.t
 ## Firecrawl Settings
 
 **Locale:** ALL `firecrawl_scrape` calls in this skill MUST include:
-`location: { country: "GB", languages: ["en-GB"] }`
-SEO meta content (title tags, meta descriptions) can be geo-targeted. UK-specific brand names and spellings must come from the UK-locale version.
+`location: { country: "{country}", languages: ["{language}"] }`
+SEO meta content (title tags, meta descriptions) can be geo-targeted. Locale-specific brand names and spellings must come from the correct locale version.
 
 **Cache Strategy:**
 - **First-time scrape:** `maxAge: 0` (fresh data required)

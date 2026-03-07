@@ -70,7 +70,7 @@ For each page in the audit list, use `firecrawl_scrape` with screenshot format t
 firecrawl_scrape({
   url: "<reference-url>",
   formats: ["screenshot"],
-  location: { country: "GB", languages: ["en-GB"] },
+  location: { country: "{country}", languages: ["{language}"] },
   screenshotOptions: {
     fullPage: true,
     viewport: { width: <viewport-width>, height: 900 }
@@ -186,6 +186,78 @@ For each page x viewport pair, read both screenshots (reference and ours) and co
 - Padding and gaps between sections
 - Margin around the main container
 
+### Step 5b — Typography responsive transitions
+
+For each page, use a Firecrawl browser session to extract computed font sizes at ALL 7 viewports. This catches breakpoint transition mismatches that visual comparison misses.
+
+1. Open a browser session for the **reference site** and the **clone** (localhost)
+2. At each of the 7 viewport widths (375, 428, 768, 1024, 1280, 1920, 2560), run `page.evaluate()`:
+
+```javascript
+() => {
+  const selectors = {
+    'h1': 'h1',
+    'h2': 'h2',
+    'h3': 'h3',
+    'nav-link': 'nav a',
+    'product-title': '[class*="product"] h3, [class*="Product"] h3',
+    'product-price': '[class*="price"], [class*="Price"]',
+    'card-title': '[class*="card"] h3, [class*="Card"] h3',
+    'section-heading': 'section h2, [class*="section"] h2',
+    'footer-heading': 'footer h3',
+    'footer-link': 'footer a',
+    'body-text': 'p',
+    'spec-text': 'li',
+  };
+  const results = {};
+  for (const [name, sel] of Object.entries(selectors)) {
+    const el = document.querySelector(sel);
+    if (el) {
+      const style = getComputedStyle(el);
+      results[name] = {
+        fontSize: style.fontSize,
+        fontWeight: style.fontWeight,
+        lineHeight: style.lineHeight,
+        fontFamily: style.fontFamily.split(',')[0].trim().replace(/"/g, ''),
+      };
+    }
+  }
+  return results;
+}
+```
+
+3. Build a comparison table per page:
+
+```
+| Element          | Ref 375 | Ref 768 | Ref 1280 | Clone 375 | Clone 768 | Clone 1280 | Match? |
+|------------------|---------|---------|----------|-----------|-----------|------------|--------|
+| h1               | 24px    | 28px    | 32px     | 24px      | 32px      | 32px       | NO     |
+| section-heading  | 18px    | 22px    | 24px     | 24px      | 24px      | 24px       | NO     |
+| product-price    | 18px    | 18px    | 24px     | 24px      | 24px      | 24px       | NO     |
+```
+
+4. Identify **typography transition points** — the viewport width where each element's font-size changes:
+
+```
+| Element         | Ref Transition      | Clone Transition    | Delta   |
+|-----------------|---------------------|---------------------|---------|
+| h1              | 24→28px at ~768px   | 24→32px at ~768px   | size ❌ |
+| section-heading | 18→22px at ~768px   | no transition       | ❌      |
+| product-price   | 18→24px at ~1024px  | no transition       | ❌      |
+```
+
+5. Severity levels:
+
+- **BLOCKING** if a font-size transition occurs at a different breakpoint (>50px delta between reference and clone transition point)
+- **MAJOR** if absolute font-size differs by >3px at any viewport
+- **MINOR** if font-size differs by 2-3px at any viewport
+- **INFO** if font-size differs by ≤1px (within `/visual-parity` tolerance)
+
+6. For each **BLOCKING** or **MAJOR** issue, record:
+   - The component file and line number
+   - Current Tailwind classes
+   - Suggested fix (e.g., add responsive prefix: `text-lg md:text-xl lg:text-2xl`)
+
 **Visibility:**
 - Elements that appear/disappear at breakpoints
 - Promotional banners that hide on mobile
@@ -268,7 +340,78 @@ This "desktop-first fix order" prevents mobile fixes from accidentally breaking 
    - Adjust typography size (`text-sm md:text-base lg:text-lg`)
 5. Check that the fix doesn't break other viewport sizes by reviewing nearby responsive classes
 
-**Hero carousel special attention:** The hero carousel was rebuilt 4 times on the Electric project due to layout guessing. Check `data/scrape/layouts/hero-carousel.json` (if it exists from `/extract-layout`) for exact grid measurements. Key things to verify at each breakpoint: slide height, CTA button positioning, dot indicator size, arrow visibility (hidden on mobile in most implementations).
+**Hero/carousel special attention:** Hero carousels are commonly rebuilt multiple times due to layout guessing. Check `data/scrape/layouts/hero-carousel.json` (if it exists from `/extract-layout`) for exact grid measurements. Key things to verify at each breakpoint: slide height, CTA button positioning, dot indicator size, arrow visibility (hidden on mobile in most implementations).
+
+### Step 10b — Carousel & grid item-count parity
+
+For every carousel or repeating grid identified on both the reference and clone:
+
+1. Open a Firecrawl browser session for EACH site
+2. At each of 7 viewports (375, 428, 640, 768, 1024, 1280, 1920), count visible items using `page.evaluate()`:
+
+```javascript
+// For slick carousels:
+const active = carousel.querySelectorAll('.slick-slide.slick-active').length;
+// For CSS grids:
+const cols = getComputedStyle(grid).gridTemplateColumns.split(' ').filter(v => v !== '').length;
+// For flex/overflow containers:
+const items = Array.from(container.children).filter(c => {
+  const r = c.getBoundingClientRect();
+  return r.width > 10 && r.left >= -5 && r.right <= window.innerWidth + 5;
+}).length;
+```
+
+3. Compare visible counts between reference and clone at EACH viewport
+4. **BLOCKING mismatch** if visible item count differs at ANY viewport:
+   - Reference shows 2 cards at 375px but clone shows 1 → BLOCK
+   - Reference shows 3 cards at 768px but clone shows 2 → BLOCK
+5. Also compare:
+   - Card aspect ratios (portrait vs landscape mismatch is BLOCKING)
+   - Navigation control visibility (arrows/dots present on reference but missing on clone)
+   - Card image orientation (landscape banner vs portrait promo card)
+
+Output a comparison table:
+
+```
+| Viewport | Reference Cards | Clone Cards | Match? |
+|----------|----------------|-------------|--------|
+| 375px    | 1              | 1           | YES    |
+| 640px    | 2              | 2           | YES    |
+| 768px    | 3              | 2           | **NO** |
+```
+
+Any **NO** in the table = BLOCKING issue that must be fixed before sign-off.
+
+### Step 10c — Listing page layout parity (MAJOR)
+
+Category listing pages have unique responsive components that Steps 1–10b don't fully cover. Run these checks on at least one listing page (e.g., the largest category):
+
+**Sort bar checks (at 768px and 1280px):**
+
+| Element | What to verify | MAJOR if wrong |
+|---------|---------------|----------------|
+| "Sort by" dropdown | Present with label text | Missing dropdown |
+| "Show per page" dropdown | Present with label text and options (20/40/60) | Missing dropdown |
+| List/Grid toggle | Both icons present WITH text labels ("List", "Grid") | Icons without text labels |
+| Item count | On separate line below sort controls, not inline | Item count inline with sort bar |
+| Sort bar text size | `text-sm` (14px), not `text-xs` (12px) | Undersized text |
+
+**Filter sidebar checks (at 1280px):**
+
+| Element | What to verify | MAJOR if wrong |
+|---------|---------------|----------------|
+| Group ordering | Groups appear in the same order as the reference site | Groups in wrong order |
+| "Hide out of stock" toggle | Toggle switch at top of filter panel | Missing toggle |
+| Collapsed/expanded state | Default expanded groups match reference | Wrong default states |
+
+**Product card checks (at 1280px):**
+
+| Element | What to verify | MAJOR if wrong |
+|---------|---------------|----------------|
+| Title font weight | `font-normal` (400) — not bold | Bold titles |
+| Spec bullet font weight | Regular weight — not semibold/bold | Bold spec text |
+| Price font size | Consistent across all cards (`text-xl` / 20px) | Oversized or inconsistent prices |
+| Compare/Save row | Bottom border-separated row with checkbox + heart button | Missing interactive row |
 
 **Common responsive fixes:**
 
@@ -301,8 +444,8 @@ Compare again against reference screenshots. Repeat until all comparisons are MA
 
 | # | Component | Line | Fix Description | Viewports Affected |
 |---|-----------|------|-----------------|--------------------|
-| 1 | HeroCarousel.tsx | 45 | Added grid-cols-1 below sm breakpoint | 375, 428 |
-| 2 | FilterSidebar.tsx | 12 | Added hidden md:block wrapper | 375, 428, 768 |
+| 1 | {carousel-component}.tsx | {line} | Added grid-cols-1 below sm breakpoint | 375, 428 |
+| 2 | {filter-component}.tsx | {line} | Added hidden md:block wrapper | 375, 428, 768 |
 | 3 | ... | ... | ... | ... |
 
 ### Before/After Comparison

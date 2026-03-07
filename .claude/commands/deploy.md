@@ -202,7 +202,7 @@ NEXT_PUBLIC_GA_ID=
 NEXT_PUBLIC_GTM_ID=
 ```
 
-Read `src/lib/constants.ts` for SITE_URL to auto-fill the brand name ("Electriz") and section URL in comments.
+Read `src/lib/constants.ts` for SITE_URL to auto-fill the brand name and section URL in comments.
 
 ### 7. Generate GitHub Actions CI/CD pipeline
 
@@ -279,7 +279,7 @@ Create `vercel.json` for one-click Vercel deployment:
   "framework": "nextjs",
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "regions": ["lhr1"],
+  "regions": ["{deployment-region}"],
   "headers": [
     {
       "source": "/(.*)",
@@ -295,7 +295,7 @@ Create `vercel.json` for one-click Vercel deployment:
 }
 ```
 
-**Region `lhr1`** — London, for UK-audience sites (electriz.co.uk targets UK). US sites should use `iad1` (Washington DC) or `sfo1` (San Francisco).
+**Region** — Choose the region closest to the target audience (e.g., `lhr1` for UK, `iad1` for US East, `sfo1` for US West). Set `{deployment-region}` in `project-config.md`.
 
 ### 9. Production smoke test
 
@@ -319,7 +319,7 @@ sleep 15
 | Search | `/search?q={search-term}` | HTTP 200, renders results |
 | Admin | `/admin` | HTTP 200, renders dashboard |
 
-The section slug is `tv-and-audio`. Read `src/lib/category-data.ts` to pick a real category slug and product slug.
+Use the section slug from `project-config.md`. Read `src/lib/category-data.ts` to pick a real category slug and product slug.
 
 **For each page, verify:**
 
@@ -366,7 +366,7 @@ Parse the build output to generate a detailed bundle report.
 ## Deployment Preparation Report
 
 Preparation date: [timestamp]
-Project: Electriz TV & Audio
+Project: {project name from project-config.md}
 
 ### Build Verification
 
@@ -462,5 +462,5 @@ Verdict: [PASS: deployment-ready / FAIL: X issues need fixing]
 - **Pin the Node.js version.** Use `node:20-alpine`, not `node:latest` or `node:lts`. Unpinned versions break builds silently when a new major version is released.
 - **Health checks prevent zombie containers.** Without `HEALTHCHECK`, Docker and orchestrators cannot detect if the app has crashed but the process is still running.
 - **Test the Docker image, not just the build.** A successful `docker build` does not mean the container runs correctly. Always start it and hit at least one page.
-- **Region matches reference site locale.** If deploying to Vercel or a CDN, use the region closest to the reference site's audience (electriz.co.uk targets UK — use `lhr1`).
+- **Region matches reference site locale.** If deploying to Vercel or a CDN, use the region closest to the reference site's audience (from `{deployment-region}` in `project-config.md`).
 - **Never commit `.env.production.local`.** Only `.env.production.example` (the template) goes in version control. Real secrets stay out of git.

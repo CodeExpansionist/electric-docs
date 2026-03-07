@@ -73,6 +73,32 @@ Optionally: `/content-parity <page>` where `$ARGUMENTS` is a page type: `homepag
 - Prices match JSON (watch for formatting: "499.00" vs "499" vs "From 499.00")
 - Filter brand list matches brands present in JSON data
 
+### 3b. Check Category Listing Structure
+
+Verify the listing page UI chrome matches the reference site's structure. These are not data-driven — they're layout/component checks that `/visual-parity` may miss if it only checks header/footer.
+
+**Sort bar elements (must all be present):**
+- "Sort by" dropdown with label
+- "Show per page" dropdown with options (e.g., 20/40/60)
+- List/Grid view toggle with text labels (not just icons)
+- Item count on a separate line below sort controls
+
+**Filter sidebar elements:**
+- "Hide out of stock" toggle at top
+- Filter groups in correct order matching reference site
+- Each group has expand/collapse chevron
+
+**Product card elements (check first 3 cards):**
+
+- Title uses regular weight (not bold)
+- Spec bullets use regular weight (not semibold/bold)
+- Price size is consistent across cards
+- "Compare" checkbox and "Save for later" button in bottom row
+- Domain-specific product badges/attributes render when the corresponding data field exists (e.g., energy ratings, certifications, awards)
+- Delivery info line present
+
+**Flag as MISMATCH** any missing element or styling difference from the reference. These are structural bugs, not cosmetic preferences.
+
 ### 4. Check Product Detail Content
 
 **Data source:** `data/scrape/products/{id}.json`
@@ -100,7 +126,30 @@ Pick 5 representative products — one from each of the 5 largest categories. Re
 - Gallery count matches JSON `images.gallery` length
 - Cross-sells present if JSON has `crossSellProducts`
 
-### 4b. Check Filter Interaction Parity
+### 4b. Check Cart/Basket Content Parity
+
+**Process: Measure, then verify — for ANY cart page.**
+
+1. **Extract from the reference cart page** (add a product, then inspect):
+
+   - Exact image container dimensions (measure in px, don't estimate)
+   - Which product metadata is shown (title, price, was-price, savings, energy rating, delivery info)
+   - Which interactive elements are present (qty selector, remove, save, promo code)
+   - Sidebar content (payment options, summary line items, CTA button text)
+
+2. **Compare each field against the clone:**
+
+   - [ ] Image dimensions match measured value (not a guess)
+   - [ ] All product metadata fields from step 1 are rendered
+   - [ ] Delivery info content and icon types match (distinct per line type, not generic)
+   - [ ] Sidebar has the same line items in the same order
+   - [ ] Promo code interaction style matches (icon? underline? chevron?)
+   - [ ] Service add-on sections present with correct content
+   - [ ] Payment method selector matches format (radio, tabs, toggle)
+
+3. **Rule: Cart item cards must display the same product metadata as listing page cards.** If the reference's listing page shows energy ratings, delivery info, and savings — the cart page must too. Cross-reference the listing card component against the cart item card.
+
+### 4c. Check Filter Interaction Parity
 
 Verify that filtering actually produces correct results by testing against data:
 
@@ -172,8 +221,8 @@ Parity: X/Y fields match (Z%)
 
 ### Hardcoded Content Found
 
-- src/components/layout/AnnouncementBar.tsx:15 — "Free delivery" text hardcoded (should come from data)
-- src/components/layout/USPBar.tsx:8 — USP items hardcoded (should come from data)
+- src/components/layout/{Component}.tsx:{line} — hardcoded text (should come from data)
+- src/components/layout/{Component}.tsx:{line} — hardcoded items (should come from data)
 
 ---
 

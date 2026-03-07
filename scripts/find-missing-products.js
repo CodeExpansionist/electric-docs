@@ -1,3 +1,10 @@
+/**
+ * Find products that exist in category listings but have no individual detail file.
+ * Outputs missing-products.json with product IDs, names, and source categories.
+ * Run after scraping to identify products needing recovery.
+ *
+ * Usage: node scripts/find-missing-products.js
+ */
 const fs = require('fs');
 const path = require('path');
 

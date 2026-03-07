@@ -52,7 +52,7 @@ export default function PricePanel({
       {/* Price */}
       <div className="mb-4">
         <div className="flex items-baseline gap-2 flex-wrap">
-          <span className="text-[24px] font-bold text-text-primary leading-8">
+          <span className="text-xl font-bold text-text-primary leading-8">
             £{price.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
           </span>
           {typeof savings === "number" && savings > 0 && (
@@ -167,7 +167,7 @@ export default function PricePanel({
                 alt={wallBracket.product.title}
               />
             )}
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               <p className="text-xs font-semibold">
                 {wallBracket.product.title}
               </p>

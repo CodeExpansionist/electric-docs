@@ -10,7 +10,7 @@ interface NavLink {
 }
 
 export const navLinks: NavLink[] = [
-  { text: "TVs", url: "/tv-and-audio/televisions/tvs" },
+  { text: "Televisions", url: "/tv-and-audio/televisions/tvs" },
   { text: "DVD & Blu-ray", url: "/tv-and-audio/dvd-blu-ray-and-home-cinema" },
   { text: "Soundbars", url: "/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars" },
   { text: "Speakers & Hi-Fi", url: "/tv-and-audio/speakers-and-hi-fi-systems" },
@@ -31,7 +31,7 @@ export default function MainNav() {
             <Link
               key={link.text}
               href={link.url}
-              className={`px-2.5 md:px-3.5 pt-4 pb-1.5 text-xs md:text-sm font-normal no-underline whitespace-nowrap transition-colors relative
+              className={`px-2.5 md:px-3.5 pt-4 pb-1.5 text-sm font-normal no-underline whitespace-nowrap transition-colors relative
                 ${link.active
                   ? "text-primary border-b-[3px] border-primary"
                   : "text-text-primary hover:text-primary"}`}

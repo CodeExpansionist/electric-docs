@@ -26,8 +26,8 @@ Optionally: `/recover-missing <category>` where `$ARGUMENTS` is a category to fi
 ## Firecrawl Settings
 
 **Locale:** ALL `firecrawl_scrape`, `firecrawl_extract`, and `firecrawl_agent` calls MUST include:
-`location: { country: "GB", languages: ["en-GB"] }`
-Many missing products failed precisely because the UK locale was absent — US proxies may return 404 or redirect for UK-only product pages.
+`location: { country: "{country}", languages: ["{language}"] }`
+Many missing products failed precisely because the correct locale was absent — default US proxies may return 404 or redirect for locale-specific product pages.
 
 **Cache Strategy:** Always use `maxAge: 0` — missing products failed previously, so cached results would just return the same failure.
 
@@ -43,14 +43,12 @@ Log the scope:
 
 ```
 Missing products: X total
-- Televisions: X
-- Speakers & Hi-Fi: X
-- Headphones: X
-- Soundbars: X
+- {Category 1}: X
+- {Category 2}: X
 - ...
 ```
 
-### 2. Attempt A — Retry with UK locale + scroll actions (cheapest)
+### 2. Attempt A — Retry with correct locale + scroll actions (cheapest)
 
 For each missing product, retry with the fixes most likely to resolve the original failure:
 
@@ -58,7 +56,7 @@ For each missing product, retry with the fixes most likely to resolve the origin
 firecrawl_scrape with:
   url: [product-url]
   formats: ["json"]
-  location: { country: "GB", languages: ["en-GB"] }
+  location: { country: "{country}", languages: ["{language}"] }
   maxAge: 0
   actions: [
     { type: "wait", milliseconds: 2000 },
@@ -84,7 +82,7 @@ For products where Attempt A returned data but it was sparse (has name/price but
 ```
 firecrawl_extract with:
   urls: [product-urls that returned sparse data]
-  location: { country: "GB", languages: ["en-GB"] }
+  location: { country: "{country}", languages: ["{language}"] }
   prompt: "Extract all product specifications grouped by section, the full product description, and all gallery image URLs"
   schema: {
     type: "object",
@@ -142,8 +140,8 @@ Update `data/scrape/missing-products.json`:
 {
   "productId": "10XXXXXX",
   "url": "https://...",
-  "category": "Televisions",
-  "failureReason": "All 3 tiers failed — page returns 404 even with UK locale",
+  "category": "{Category}",
+  "failureReason": "All 3 tiers failed — page returns 404 even with correct locale",
   "lastAttempt": "2026-03-06T12:00:00Z",
   "attemptsHistory": ["A: 404", "B: no data", "C: agent timeout"]
 }
@@ -171,15 +169,14 @@ Category: [all / specific category]
 
 | Category | Missing Before | Recovered | Still Missing |
 |----------|---------------|-----------|---------------|
-| Televisions | 259 | X | Y |
-| Speakers & Hi-Fi | 25 | X | Y |
+| {Category} | {count} | X | Y |
 | ... | ... | ... | ... |
 
 ### Still Missing (need manual review)
 
 | ID | URL | Category | Failure Reason |
 |----|-----|----------|----------------|
-| 10XXXXXX | https://... | Televisions | 404 with UK locale |
+| 10XXXXXX | https://... | {Category} | 404 with correct locale |
 | ... | ... | ... | ... |
 
 ### Follow-up Actions

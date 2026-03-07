@@ -16,9 +16,9 @@ The argument `$ARGUMENTS` is the target URL (a section or full site) to map.
 
 ## Firecrawl Settings
 
-**Locale:** ALL `firecrawl_scrape` and `firecrawl_map` calls in this skill MUST include:
-`location: { country: "GB", languages: ["en-GB"] }`
-This ensures UK-specific pricing, content, and navigation are captured. Firecrawl defaults to US proxies without this.
+**Locale:** ALL `firecrawl_scrape` and `firecrawl_map` calls in this skill MUST include locale settings matching the reference site's region:
+`location: { country: "{country}", languages: ["{language}"] }`
+This ensures locale-specific pricing, content, and navigation are captured. Firecrawl defaults to US proxies without this — prices may return in USD and geo-targeted content will differ.
 
 **Cache Strategy:**
 - **First-time map of a new site:** `maxAge: 0` (fresh data required)
@@ -95,7 +95,7 @@ This scope decision affects:
 - **AnnouncementBar:** Content scoped to target section deals
 - **Footer:** Full site footer for visual fidelity, but most links are non-functional
 
-On the Electric project, scope confusion caused 3 component rebuilds (MainNav, ShopDeals, AnnouncementBar) when components were initially built with full-site content then had to be rescoped to section-only.
+Scope confusion commonly causes multiple component rebuilds when components are initially built with full-site content then have to be rescoped to section-only.
 
 ### 3. Map the category tree
 
@@ -180,7 +180,7 @@ The branding format typically captures only 3-5 prominent colors. Real sites use
 5. Log the FULL palette with hex values and usage context
 6. Destroy the browser session
 
-**CRITICAL:** The branding format extraction missed the badge color (`#E5006D`), icon color (`#56707A`), secondary text color (`#444444`), and 6 other tokens on the Electric project — causing color mismatches that persisted for weeks. Always do the comprehensive extraction.
+**CRITICAL:** Branding format extraction commonly misses badge colors, icon fill colors, secondary text colors, and light accent backgrounds — causing color mismatches that persist until a comprehensive extraction is performed. Always do the comprehensive extraction.
 
 Also scrape CSS variables/computed styles to extract:
 - Colors: ALL colors from 4b above — minimum 15 distinct color tokens
@@ -197,7 +197,19 @@ Create the following files in the current project:
 - `data/scrape/branding.json` — Raw branding extraction
 - `data/design-tokens.json` — Processed design tokens (colors, fonts, spacing, radii, breakpoints)
 
-### 6. Output summary
+### 6. Initialize project-config.md
+
+Create `.claude/project-config.md` with all values discovered in this skill:
+
+- **Site Identity**: project name (from page title or user input), reference domain (from `$ARGUMENTS` URL), brand name, section slug
+- **Locale**: country and language (from page `lang` attribute or user input), currency symbol
+- **Architecture**: dev server port (default 3000), category route type (determined in Step 3b), product route pattern
+- **CDN Patterns**: image CDN host and path prefix (discovered in Step 0 from asset URLs)
+- **Category Mapping**: preliminary slug → data file table (refined by `/verify-coverage`)
+
+This file is the single source of truth for project-specific values. All downstream skills reference it instead of hardcoding site-specific details. See the template in `.claude/project-config.md` for the full structure.
+
+### 7. Output summary
 
 Report to the user:
 - Total URLs discovered

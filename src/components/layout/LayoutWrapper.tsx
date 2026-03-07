@@ -27,7 +27,7 @@ export default function LayoutWrapper({
         <AdminSidebar />
         <div className="flex-1 flex flex-col min-h-screen">
           <AdminHeader />
-          <main id="main-content" className="flex-1 p-6">{children}</main>
+          <main id="main-content" className="flex-1 min-w-0 p-6">{children}</main>
         </div>
       </div>
     );

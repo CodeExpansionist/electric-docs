@@ -278,9 +278,9 @@ const categoryMap: Record<string, () => CategoryData> = {
     const banner = categoryBanners.tvs;
     return {
       ...data,
-      categoryName: "TVs",
+      categoryName: "Televisions",
       categorySlug: "televisions/tvs",
-      breadcrumbs: ["Home", "TV & Audio", "Televisions", "All TVs"],
+      breadcrumbs: ["Home", "TV & Audio", "Televisions", "All Televisions"],
       totalProducts: data.products.length,
       bannerImage: banner.image,
       bannerUrl: banner.url,
@@ -519,6 +519,11 @@ const subcategoryKeywords: Record<string, string[]> = {
 // Cache results so expensive filter counting only runs once per category
 const categoryCache: Record<string, CategoryData> = {};
 
+/**
+ * Phase 1 of category resolution: direct lookup against categoryMap.
+ * Tries exact match → alias match → suffix match (for partial URL segments).
+ * See docs/CATEGORY_ROUTING.md for the full algorithm.
+ */
 function lookupCategory(slug: string): CategoryData | null {
   // Exact match
   if (categoryMap[slug]) return categoryMap[slug]();
@@ -532,6 +537,20 @@ function lookupCategory(slug: string): CategoryData | null {
   return null;
 }
 
+/**
+ * Phase 2 of category resolution: parent + filter fallback.
+ *
+ * When Phase 1 (lookupCategory) finds no direct match, this function walks
+ * backwards through URL slug segments to find the nearest parent category,
+ * then filters its products by the remaining segment(s).
+ *
+ * The last URL segment is checked as:
+ *   1. A brand name (e.g., "sony" → filter by brand "Sony")
+ *   2. A subcategory keyword (e.g., "portable-bluetooth-speakers" → filter by "portable")
+ *
+ * Returns a synthetic CategoryData with filtered products and recalculated filter counts.
+ * See docs/CATEGORY_ROUTING.md for examples.
+ */
 function findParentAndFilter(slugSegments: string[]): CategoryData | null {
   for (let i = slugSegments.length - 1; i >= 1; i--) {
     const parentSlug = slugSegments.slice(0, i).join("/");
@@ -606,6 +625,18 @@ function findParentAndFilter(slugSegments: string[]): CategoryData | null {
   return null;
 }
 
+/**
+ * Main category resolution entry point.
+ *
+ * Uses a 2-phase algorithm:
+ *   Phase 1 (lookupCategory): Direct match against categoryMap (exact → alias → suffix)
+ *   Phase 2 (findParentAndFilter): Walk up slug segments, find parent, filter by brand/keyword
+ *
+ * Results are cached per slug for the server lifecycle.
+ * See docs/CATEGORY_ROUTING.md for the full algorithm and examples.
+ *
+ * @param slugSegments - URL path segments (e.g., ["speakers-and-hi-fi-systems", "portable-bluetooth-speakers"])
+ */
 export function getCategoryData(slugSegments: string[]): CategoryData | null {
   const fullSlug = slugSegments.join("/");
 

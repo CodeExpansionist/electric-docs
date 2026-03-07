@@ -1,4 +1,4 @@
-Debug and repair routing mismatches between navigation links and category data. Cross-references all nav links against categoryMap keys, detects common slug mistakes, and generates fixes.
+Debug and repair routing mismatches between navigation links and category data. Cross-references all nav links against category index keys, detects common slug mistakes, and generates fixes.
 
 **Pipeline position:** 16/32 — depends on: `/scaffold-project`, `/build-component` | feeds into: `/link-check`, `/smoke-test`
 
@@ -10,13 +10,13 @@ Optionally: `/fix-routes <component>` where `$ARGUMENTS` is a specific component
 
 ## Golden Rule
 
-**Every link must resolve.** If a navigation component renders a link to `/{section-slug}/{category-slug}`, there must be a matching key in `categoryMap` that resolves to real product data. No dead ends. No empty pages. No fuzzy-matching band-aids hiding broken routes.
+**Every link must resolve.** If a navigation component renders a link to `/{section-slug}/{category-slug}`, there must be a matching key in the category index (e.g., `categoryMap`) that resolves to real product data. No dead ends. No empty pages. No fuzzy-matching band-aids hiding broken routes.
 
 ---
 
 ## Prerequisites
 
-- `src/lib/category-data.ts` with `categoryMap` defined (note: `categoryMap` is not exported — grep the file for its keys rather than importing it)
+- The category data module (path from `project-config.md`) with the category index defined (e.g., `categoryMap` -- note: it may not be exported; grep the file for its keys rather than importing it)
 - Navigation components in `src/components/layout/`
 - `memory/routing-patterns.md` (auto-memory reference, optional but helpful)
 
@@ -24,12 +24,12 @@ Optionally: `/fix-routes <component>` where `$ARGUMENTS` is a specific component
 
 ## Steps
 
-### 1. Extract all categoryMap keys
+### 1. Extract all category index keys
 
-Read `src/lib/category-data.ts` and extract every key from the `categoryMap` object. These are the valid slugs.
+Read the category data module and extract every key from the category index (e.g., `categoryMap`). These are the valid slugs.
 
 ```
-Valid categoryMap keys (example — read actual keys from category-data.ts):
+Valid category index keys (example — read actual keys from category data module):
 1. {parent-category}/{child-category}
 2. {single-segment-category}
 3. {parent}/{mid-level}/{leaf-category}
@@ -57,14 +57,14 @@ For each link, extract:
 - The slug portion (everything after `/{section-slug}/`)
 - The component and line number
 
-### 3. Cross-reference links against categoryMap
+### 3. Cross-reference links against category index
 
-For each navigation link slug, check if it exists as a categoryMap key:
+For each navigation link slug, check if it exists as a category index key:
 
 ```
 Link Cross-Reference:
-| Component | Line | Link Slug | categoryMap Match | Status |
-|-----------|------|-----------|-------------------|--------|
+| Component | Line | Link Slug | Index Match | Status |
+|-----------|------|-----------|-------------|--------|
 | MainNav | 15 | {parent}/{child} | {parent}/{child} | MATCH |
 | MainNav | 18 | {shortened-slug} | (none) | BROKEN |
 | ShopDeals | 42 | {truncated-slug} | (none) | BROKEN |
@@ -96,13 +96,13 @@ Check each broken link against common mispattern categories:
 
 ### 5. Check catch-all route handling
 
-Read `src/app/tv-and-audio/[...category]/page.tsx` and verify:
+Read `src/app/{section-slug}/[...category]/page.tsx` (section slug from `project-config.md`) and verify:
 
 1. It uses `[...category]` catch-all (not `[category]` single-segment) if multi-segment slugs exist
-2. The slug joining logic is correct: `params.category.join('/')` produces the key format used in categoryMap
+2. The slug joining logic is correct: `params.category.join('/')` produces the key format used in the category index
 3. Fuzzy matching (if present) logs warnings when activated — fuzzy matches hide broken routes
-4. Check `categoryAliases` in `category-data.ts` — these map alternative slug spellings to canonical keys
-5. Check `subcategoryKeywords` in `category-data.ts` — these provide keyword-based resolution as a fallback when exact slug matching fails
+4. Check `categoryAliases` in the category data module — these map alternative slug spellings to canonical keys
+5. Check for subcategory keyword mappings in the category data module — these provide keyword-based resolution as a fallback when exact slug matching fails
 
 ### 6. Generate fixes
 
@@ -116,16 +116,16 @@ For each broken link, generate the specific fix:
 { label: "{Category}", href: "/{section-slug}/{parent}/{mid-level}/{full-slug}" }
 ```
 
-Or, if the categoryMap key should be simplified:
+Or, if the category index key should be simplified:
 ```typescript
-// category-data.ts — add alias
+// category data module — add alias
 // "{shortened-slug}" → redirect to full key
 ```
 
 ### 7. Apply fixes and verify
 
 1. Apply each fix to the component file
-2. If adding categoryMap aliases, update `category-data.ts`
+2. If adding category index aliases, update the category data module
 3. Run the dev server and click each fixed link to verify it loads a page with products
 
 ### 8. Output report
@@ -167,8 +167,8 @@ Route catch-all: [...category] — handles all multi-segment slugs — PASS
 ## Critical Rules
 
 - **Exact slug matching is the goal.** Fuzzy matching is a band-aid, not a solution. If fuzzy matching catches a route, that's a bug to fix — not a feature to rely on.
-- **Read the actual categoryMap.** Don't assume slug patterns — read `category-data.ts` and use the exact keys defined there.
-- **Multi-segment slugs need full paths.** `sound-bars` alone won't resolve if the key is `dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars`. Always use the complete path.
-- **Test every fix on the dev server.** A link that resolves to a categoryMap key can still show an empty page if the data file is missing. Click through to verify products appear.
+- **Read the actual category index.** Don't assume slug patterns — read the category data module and use the exact keys defined there.
+- **Multi-segment slugs need full paths.** A leaf slug alone won't resolve if the key is `{parent}/{mid-level}/{leaf-slug}`. Always use the complete path.
+- **Test every fix on the dev server.** A link that resolves to a category index key can still show an empty page if the data file is missing. Click through to verify products appear.
 - **Check routing-patterns.md.** If `/map-site` generated this file, it documents known slug pitfalls. Use it as a reference.
 - **Don't modify slugs in data files.** Fix the links in components to match the data, not the other way around. The data slugs come from the real site and are the source of truth.

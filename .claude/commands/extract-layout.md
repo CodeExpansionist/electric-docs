@@ -24,9 +24,9 @@ Extract exact CSS measurements from the reference site for every major component
 
 ## Firecrawl Settings
 
-**Locale:** ALL `firecrawl_scrape` calls in this skill MUST include:
-`location: { country: "GB", languages: ["en-GB"] }`
-Layout and component visibility can vary by geo (e.g., banners shown only to UK visitors).
+**Locale:** ALL `firecrawl_scrape` calls in this skill MUST include the locale from `project-config.md`:
+`location: { country: "{country}", languages: ["{language}"] }`
+Layout and component visibility can vary by geo (e.g., banners shown only to locale-specific visitors).
 
 **Cache Strategy:** Default to `maxAge: 86400000` (1-day cache) since CSS measurements rarely change between iterations. Use `maxAge: 0` only if the reference site has been redesigned.
 
@@ -72,7 +72,7 @@ For EACH component, use Firecrawl to extract computed CSS at two breakpoints:
 **Desktop (1280px viewport):**
 ```
 firecrawl_scrape with url=$ARGUMENTS, formats=["json"],
-  location={ country: "GB", languages: ["en-GB"] },
+  location={ country: "{country}", languages: ["{language}"] },
   jsonOptions={
     prompt: "Extract the exact CSS computed values for the [component name]: container max-width, padding, grid template columns, grid gap, font sizes, line heights, colors, border radius, box shadow, margin",
     schema: { ... }
@@ -83,7 +83,7 @@ firecrawl_scrape with url=$ARGUMENTS, formats=["json"],
 **Mobile (375px viewport):**
 ```
 firecrawl_scrape with url=$ARGUMENTS, formats=["json"],
-  location={ country: "GB", languages: ["en-GB"] },
+  location={ country: "{country}", languages: ["{language}"] },
   mobile: true,
   jsonOptions={
     prompt: "Extract the exact CSS computed values for the [component name] at mobile viewport...",
@@ -94,7 +94,7 @@ firecrawl_scrape with url=$ARGUMENTS, formats=["json"],
 **Also capture a screenshot at each breakpoint** for visual reference:
 ```
 firecrawl_scrape with url=$ARGUMENTS, formats=["screenshot"],
-  location={ country: "GB", languages: ["en-GB"] },
+  location={ country: "{country}", languages: ["{language}"] },
   screenshotOptions={ viewport: { width: 1280, height: 900 }, fullPage: true }
 ```
 
@@ -180,6 +180,72 @@ Measure the overall grid system used across the site:
   }
 }
 ```
+
+### 5b. Carousel & repeating-grid extraction
+
+For EACH carousel or repeating grid on the page (slick, swiper, CSS scroll-snap, flex-overflow, or static grid with uniform children):
+
+1. Open a Firecrawl browser session
+2. Navigate to the reference page
+3. At each of 6 viewports (375, 428, 640, 768, 1024, 1280), measure:
+   - **Visible item count** — number of fully visible slides/cards (not partially clipped)
+   - **Card dimensions** — width x height of each visible card
+   - **Gap between cards** — margin/gap between adjacent cards
+   - **Container width** — carousel track or grid container width
+   - **Aspect ratio** — computed aspect ratio of cards (e.g., 4:5 portrait, 5:4 landscape)
+   - **Navigation controls** — arrows visible? dots visible? dot count?
+4. Record the **breakpoint transitions** — at which viewport width does the visible count change?
+
+Example extraction script (run via `page.evaluate()` at each viewport):
+
+```javascript
+(carouselSelector) => {
+  const carousel = document.querySelector(carouselSelector);
+  if (!carousel) return null;
+  // For slick carousels:
+  const activeSlides = carousel.querySelectorAll('.slick-slide.slick-active');
+  // For CSS grids:
+  const gridStyle = window.getComputedStyle(carousel);
+  const gridCols = gridStyle.gridTemplateColumns.split(' ').filter(v => v !== '').length;
+  // For flex containers:
+  const visibleChildren = Array.from(carousel.children).filter(c => {
+    const r = c.getBoundingClientRect();
+    return r.width > 10 && r.left >= -5 && r.right <= window.innerWidth + 5;
+  });
+  return {
+    visibleCards: activeSlides.length || gridCols || visibleChildren.length,
+    cardWidth: visibleChildren[0]?.getBoundingClientRect().width,
+    cardHeight: visibleChildren[0]?.getBoundingClientRect().height,
+    gap: parseFloat(gridStyle.gap) || parseFloat(gridStyle.columnGap) || 0,
+    containerWidth: carousel.getBoundingClientRect().width,
+    arrows: !!carousel.querySelector('[class*="arrow"], [class*="prev"], [class*="next"]'),
+    dots: !!carousel.querySelector('[class*="dot"], [class*="pag"], .slick-dots'),
+  };
+}
+```
+
+Output format per carousel:
+
+```json
+{
+  "component": "hero-carousel",
+  "selector": ".slider.amp-card-block",
+  "breakpoints": {
+    "375":  { "visibleCards": 1, "cardWidth": 249, "cardHeight": 185, "gap": 16, "arrows": true, "dots": false },
+    "428":  { "visibleCards": 1, "cardWidth": 299, "cardHeight": 224, "gap": 16, "arrows": true, "dots": false },
+    "640":  { "visibleCards": 2, "cardWidth": 299, "cardHeight": 224, "gap": 16, "arrows": true, "dots": false },
+    "768":  { "visibleCards": 3, "cardWidth": 240, "cardHeight": 288, "gap": 16, "arrows": true, "dots": false },
+    "1024": { "visibleCards": 3, "cardWidth": 320, "cardHeight": 369, "gap": 16, "arrows": true, "dots": false },
+    "1280": { "visibleCards": 3, "cardWidth": 400, "cardHeight": 471, "gap": 16, "arrows": true, "dots": false }
+  },
+  "transitions": [
+    { "from": 1, "to": 2, "at": "~640px" },
+    { "from": 2, "to": 3, "at": "~768px" }
+  ]
+}
+```
+
+Save output to `data/scrape/layouts/carousels.json`.
 
 ### 6. Verify design token completeness (BLOCKING)
 
@@ -314,14 +380,14 @@ Save output per component:
   "viewports": {
     "375": {
       "children": [
-        { "index": 0, "tag": "a", "text": "Currys", "visible": true, "role": null },
+        { "index": 0, "tag": "a", "text": "{BrandName}", "visible": true, "role": null },
         { "index": 1, "tag": "div", "text": "Search our products...", "visible": true },
         { "index": 2, "tag": "nav", "text": "Account Saved Basket Menu", "visible": true, "ariaLabel": "Account and shopping" }
       ]
     },
     "1280": {
       "children": [
-        { "index": 0, "tag": "a", "text": "Currys", "visible": true },
+        { "index": 0, "tag": "a", "text": "{BrandName}", "visible": true },
         { "index": 1, "tag": "div", "text": "Search our products...", "visible": true },
         { "index": 2, "tag": "nav", "text": "Account Saved Basket", "visible": true }
       ]

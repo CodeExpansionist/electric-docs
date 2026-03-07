@@ -30,7 +30,7 @@ Optionally: `/motion-parity <scope>` where `$ARGUMENTS` is one of:
 
 **Browser Sessions:** This skill uses two concurrent sessions (reference + clone). **Always** call `firecrawl_browser_delete` on both when done.
 
-**Locale:** Reference site captures must include `location: { country: "GB", languages: ["en-GB"] }`.
+**Locale:** Reference site captures must include locale from `project-config.md`: `location: { country: "{country}", languages: ["{language}"] }`.
 
 **Session TTL:** Set `ttl: 600` (10 minutes) — motion extraction requires multiple interaction cycles per component.
 
@@ -40,21 +40,23 @@ Optionally: `/motion-parity <scope>` where `$ARGUMENTS` is one of:
 
 These are the motion types to audit, mapped to components:
 
-| Component | Motion Type | What to Measure |
-|-----------|------------|-----------------|
-| Hero Carousel | Auto-play interval | Time between auto-advances (seconds) |
-| Hero Carousel | Slide transition | Duration, easing, direction (slide vs fade) |
-| Carousel (generic) | Slide transition | Duration, easing when arrow clicked |
+| Component Type | Motion Type | What to Measure |
+|---------------|------------|-----------------|
+| Hero/main carousel | Auto-play interval | Time between auto-advances (seconds) |
+| Hero/main carousel | Slide transition | Duration, easing, direction (slide vs fade) |
+| Any carousel | Slide transition | Duration, easing when arrow clicked |
 | Carousel arrows | Hover transition | Duration of color/opacity change |
-| Accordion (specs, FAQs) | Expand/collapse | Duration, easing, height animation vs instant |
+| Accordion sections | Expand/collapse | Duration, easing, height animation vs instant |
 | Dropdown menus | Open/close | Duration, easing, transform origin |
-| Product gallery thumbs | Selection transition | Duration of border/opacity change |
-| Filter sidebar toggle | Knob slide | Duration, easing of position change |
+| Gallery thumbnails | Selection transition | Duration of border/opacity change |
+| Toggle switches | Knob slide | Duration, easing of position change |
 | Sticky header | Entrance animation | Duration, easing, direction (slide-down vs fade) |
 | All buttons/links | Hover transition | Duration of color/shadow/transform change |
-| Hub content cards | Image hover zoom | Duration, scale amount, easing |
+| Content/promo cards | Image hover zoom | Duration, scale amount, easing |
 | Loading spinners | Spin animation | Duration per revolution, easing |
 | Mobile menu | Open/close | Duration, direction (slide-in vs fade) |
+
+**Identify the actual component names from the project source code.** The types above are common patterns.
 
 ---
 
@@ -72,7 +74,7 @@ firecrawl_browser_create({ ttl: 600, activityTtl: 120 })
 firecrawl_browser_create({ ttl: 600, activityTtl: 120 })
 ```
 
-Read `src/lib/constants.ts` for SITE_URL. The section slug is `tv-and-audio`. The dev server URL is `http://localhost:3000`.
+Read `src/lib/constants.ts` for SITE_URL. The section slug is from `project-config.md`. The dev server URL is from `package.json`.
 
 ### 2. Extract transition properties from CSS
 
@@ -252,7 +254,7 @@ Run this for each interactive element on both reference and clone:
 | Accordion header | click | Content height expand |
 | Gallery thumbnail | click | Border/opacity change |
 | Filter toggle | click | Knob position slide |
-| Hub card image | hover | Scale transform |
+| Content card image | hover | Scale transform |
 | Nav link | hover | Color/underline transition |
 
 ### 5. Detect animation type mismatches
@@ -328,8 +330,8 @@ This is a bonus check — MINOR if the clone doesn't match the reference's reduc
 ## Motion Parity Report
 
 Audit date: [timestamp]
-Project: Electriz TV & Audio
-Reference: [reference site URL]
+Project: {project name from project-config.md}
+Reference: {reference domain from project-config.md}
 
 ### Overall Verdict: [PASS / REVIEW / FAIL]
 
@@ -337,8 +339,8 @@ Reference: [reference site URL]
 
 | Component | Reference Interval | Clone Interval | Delta | Verdict |
 |-----------|-------------------|----------------|-------|---------|
-| Hero Carousel | Xms | Xms | ±Xms | MATCH/MINOR/MAJOR |
-| Cross-sell Carousel | Xms | Xms | ±Xms | MATCH/MINOR/MAJOR |
+| {primary carousel} | Xms | Xms | ±Xms | MATCH/MINOR/MAJOR |
+| {secondary carousel} | Xms | Xms | ±Xms | MATCH/MINOR/MAJOR |
 
 ### Transition Duration Comparison
 
@@ -350,7 +352,7 @@ Reference: [reference site URL]
 | Accordion expand | click | Xms | Xms (or INSTANT) | — | MATCH/MINOR/MAJOR |
 | Gallery thumb | click | Xms | Xms | ±Xms | MATCH/MINOR/MAJOR |
 | Filter toggle | click | Xms | Xms | ±Xms | MATCH/MINOR/MAJOR |
-| Hub card zoom | hover | Xms | Xms | ±Xms | MATCH/MINOR/MAJOR |
+| Content card zoom | hover | Xms | Xms | ±Xms | MATCH/MINOR/MAJOR |
 | Nav link | hover | Xms | Xms | ±Xms | MATCH/MINOR/MAJOR |
 
 ### Transition Duration Tolerances

@@ -297,8 +297,8 @@ describe('toLocalImage', () => {
   test('variant _003 with large transform → gallery_003.webp')
   // Variant (thumbnail)
   test('variant _002 with thumb transform → thumb_002.webp')
-  // M-prefix Amplience
-  test('M-prefix URL strips M and color → correct product path')
+  // Alternative CDN pattern
+  test('alternative CDN pattern URL strips prefix and color → correct product path')
   // Unknown URL
   test('unknown URL → returns original unchanged')
   // Empty string
@@ -575,7 +575,7 @@ test.describe('Homepage', () => {
 });
 ```
 
-Replace `{section-slug}` with `tv-and-audio` (the actual section slug from the project's route structure).
+Replace `{section-slug}` with the actual primary section slug from the project's route structure (found in `src/lib/category-data.ts`).
 
 **`e2e/category.spec.ts`:**
 

@@ -8,6 +8,7 @@ const columns = [
     heading: "Help & support",
     links: [
       { text: "Contact us", url: "/help-and-support/contact-us" },
+      { text: "Stores", url: "/stores" },
       { text: "TechTalk", url: "/techtalk" },
       { text: "Price Promise", url: "/services/price-promise" },
       { text: "Product reviews", url: "/product-reviews" },
@@ -18,6 +19,7 @@ const columns = [
     links: [
       { text: "Track my order", url: "/track-your-order" },
       { text: "Delivery options", url: "/services/delivery" },
+      { text: "Order & collect", url: "/services/order-and-collect" },
       { text: "Returns & cancellations", url: "/services/returns" },
       { text: "ShopLive", url: "/services/shoplive" },
     ],
@@ -65,7 +67,7 @@ export default function Footer() {
   return (
     <footer className="bg-footer-bg text-white">
       <div className="container-main py-8 md:py-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-0 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-8">
           {columns.map((col) => (
             <div key={col.heading} className="border-b border-white md:border-0">
               {/* Mobile: clickable accordion header */}
@@ -75,7 +77,7 @@ export default function Footer() {
                 aria-expanded={openSections[col.heading]}
                 aria-controls={`footer-${col.heading.replace(/\s+/g, "-").toLowerCase()}`}
               >
-                <h3 className="text-sm font-semibold">{col.heading}</h3>
+                <h3 className="text-sm font-normal">{col.heading}</h3>
                 <svg
                   width="12"
                   height="12"
@@ -89,7 +91,7 @@ export default function Footer() {
               </button>
 
               {/* Desktop: static heading */}
-              <h3 className="hidden md:block text-sm font-semibold mb-4">{col.heading}</h3>
+              <h3 className="hidden md:block text-sm font-normal mb-4">{col.heading}</h3>
 
               {/* Link list — collapses on mobile, always visible on desktop */}
               <ul
@@ -102,7 +104,7 @@ export default function Footer() {
                   <li key={link.text}>
                     <Link
                       href={link.url}
-                      className="text-xs text-footer-text hover:text-white no-underline transition-colors"
+                      className="text-sm text-footer-text hover:text-white no-underline transition-colors"
                     >
                       {link.text}
                     </Link>

@@ -74,7 +74,7 @@ Record architectural and implementation decisions so the next session doesn't re
 1. **Route type:** Using `[...category]` catch-all (not `[category]`) because slugs go 3 segments deep
 2. **Data loading:** Static JSON imports (not `fs.readFileSync`) per CLAUDE.md requirement
 3. **Image mapping:** All images through `toLocalImage()` — CDN regex handles standard + M-prefix patterns
-4. **Scope:** Target section only (TV & Audio) — MainNav shows all sections but only target section links are functional
+4. **Scope:** Target section only (from `project-config.md`) — navigation shows all sections but only target section links are functional
 5. **Port:** Dev server URL (from `package.json`) — check the `dev` script for port configuration
 ```
 
@@ -100,7 +100,7 @@ Record architectural and implementation decisions so the next session doesn't re
 | Screenshot | Page | Status | Notes |
 |-----------|------|--------|-------|
 | 01-homepage.png | / | 90% match | Hero needs CTA button color fix |
-| 02-category.png | /{section-slug}/{category-slug} | 85% match | Filter sidebar width off by ~20px |
+| 02-category.png | /{section-slug}/{category} | 85% match | Filter sidebar width off by ~20px |
 | 03-product-detail.png | /products/[slug] | 70% match | Gallery and specs done, cross-sells not started |
 | 04-basket.png | /basket | Not started | — |
 ```

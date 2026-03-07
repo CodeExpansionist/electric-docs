@@ -30,11 +30,11 @@ Grep the entire `src/` directory for external domain patterns:
 
 **CDN domains to find:**
 
-The CDN domains are `electrizprod` and `currysprod` (from `src/lib/images.ts`). These are the image CDN path prefixes used in scraped data URLs. Also check `src/lib/constants.ts` for the canonical domain strings and `SITE_URL`.
+The CDN path prefixes are `{cdn-path-prefix}` and `{legacy-path-prefix}` (from `src/lib/images.ts`). These are the image CDN path prefixes used in scraped data URLs. Also check `src/lib/constants.ts` for the canonical domain strings and `SITE_URL`.
 
 **Reference site domains:**
 
-The reference site domain (electriz.co.uk) and any subdomains.
+The reference site domain (`{reference-domain}` from `project-config.md`) and any subdomains.
 
 **Other external patterns:**
 

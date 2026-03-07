@@ -23,8 +23,8 @@ The argument `$ARGUMENTS` is the target site base URL. Reads `hub-*.json` files 
 ## Firecrawl Settings
 
 **Locale:** ALL `firecrawl_scrape` calls in this skill MUST include:
-`location: { country: "GB", languages: ["en-GB"] }`
-Announcement bar text, hero banner copy, and promotional content can be geo-targeted — scraping without UK locale risks capturing US variants.
+`location: { country: "{country}", languages: ["{language}"] }`
+Announcement bar text, hero banner copy, and promotional content can be geo-targeted — scraping without the correct locale risks capturing wrong-region variants.
 
 **Cache Strategy:**
 - **First-time scrape:** `maxAge: 0` (fresh data required)

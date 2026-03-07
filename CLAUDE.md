@@ -78,6 +78,38 @@ Utilities (not part of main pipeline): `create-page-content.js`, `strip-finance-
 - **Credit costs:** JSON format = +4 credits/page. Agent = dynamic pricing. Browser = 2 credits/min. Enhanced proxy = +4 credits/page.
 - **Link checking:** Use `firecrawl_crawl` on localhost for page discovery, then manual HTTP checks for image integrity.
 
+## Two Layers of Every Fix
+
+Every fix has two layers. **Update both in the same session.**
+
+### Layer 1: Project fix (THIS site)
+
+Changes go into: `src/`, `data/`, `scripts/`, `public/`, `.claude/project-config.md`
+
+The specific fix — code changes, config values, data corrections. Project-specific values (domain names, component names, CDN patterns, counts) live here, never in skills.
+
+### Layer 2: Methodology update (ALL future sites)
+
+Changes go into: `.claude/commands/*.md`
+
+After every project fix, ask: **"Would a skill have caught this earlier? If not, what step was missing?"** If a step was missing, add it to the relevant skill(s) — but as a generic discovery method, not a hardcoded answer.
+
+**Example — same bug, both layers:**
+
+- **Layer 1**: Fix the filter code so Samsung matches case-insensitively. Add the brand to `project-config.md` if needed.
+- **Layer 2**: Add "test brand filters for case sensitivity" as a step in `/fix-filters`. No mention of Samsung — just the test method.
+
+### Skill Authoring Rules (Mode 2 only)
+
+When writing or editing any skill:
+
+1. **Teach the method, not the answer.** Every instruction must explain HOW to discover/extract/replicate a detail — never assume WHAT that detail is. Wrong: "Apply the Samsung brand filter." Right: "Apply a brand filter using a brand known to exist in the data."
+2. **Site-specific values go in `project-config.md` only.** Domain names, locale codes, CDN patterns, component names, category slugs, product counts, currency symbols — all belong in `.claude/project-config.md`. Skills reference them as `{placeholder}` (e.g., `{section-slug}`, `{country}`, `{reference-domain}`).
+3. **The ASOS test.** Before saving a skill edit, ask: "If I were cloning ASOS (fashion) instead of this project, would every instruction still make sense?" If not, the instruction is too specific.
+4. **Examples use placeholders.** Code examples use `{country}`, `{language}`, `{cdn-host}`, `{section-slug}`, etc. When a concrete example helps clarity, show multiple verticals: "e.g., screen size for electronics, dress size for fashion, weight for grocery."
+5. **No hardcoded counts.** Never write "14 categories" or "2,294 products." Use "count from category index" or "all products in the data" — let the data speak for itself.
+6. **Validate after editing.** After any skill edit, run: `grep -rn 'electriz\|currys\|tv-and-audio\|electrizprod\|currysprod' .claude/commands/ --include='*.md'` — replace the grep terms with whatever the current project's site-specific terms are. Zero matches = pass.
+
 ## Conventions
 
 - **Styling**: Tailwind with custom tokens from `design-tokens.json` in `tailwind.config.ts`. Token values > Tailwind defaults.

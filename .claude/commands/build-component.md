@@ -56,18 +56,58 @@ Read `data/scrape/layouts/{component-name}.json` for exact measurements:
 
 Determine which JSON file(s) feed this component:
 
-| Component | Data Source |
-|-----------|-----------|
-| HeroCarousel | `data/scrape/homepage.json` → `heroCarousel[]` |
-| ShopDeals | `data/scrape/homepage.json` → `shopDeals[]` |
-| SponsoredProducts | `data/scrape/homepage.json` → `sponsoredProducts` |
-| ProductCard | Category JSON → `products[]` |
-| ProductGallery | `data/scrape/products/{id}.json` → `images` |
-| PricePanel | `data/scrape/products/{id}.json` → `price`, `deliveryInfo` |
-| FilterSidebar | `src/lib/category-data.ts` → filter definitions |
-| MainNav | Hardcoded in component — nav links are defined directly in `MainNav.tsx` |
-| Footer | `data/scrape/homepage.json` → `footer` |
-| AnnouncementBar | `data/scrape/homepage.json` → `announcementBar` |
+Read the component inventory from `project-config.md` to identify the data source for this component. Common e-commerce component patterns:
+
+| Component Type | Typical Data Source |
+|---------------|-------------------|
+| Hero/carousel | Homepage scrape JSON → carousel/banner array |
+| Category grid | Homepage scrape JSON → category/department array |
+| Sponsored/featured products | Homepage scrape JSON → sponsored/featured array |
+| Product listing card | Category JSON → products[] |
+| Product gallery | Product detail JSON → images |
+| Price display | Product detail JSON → price, delivery |
+| Filter sidebar | Category data module → filter definitions |
+| Navigation | Hardcoded or from site map scrape |
+| Footer | Homepage scrape JSON → footer section |
+| Announcement bar | Homepage scrape JSON → announcement data |
+| Basket/cart items | Basket context → uses same Product type as listing cards |
+
+**The actual component names and data sources vary per project.** Check `project-config.md` for the real mapping.
+
+**Rule: Cart/basket item cards must render the same product metadata as category listing cards — if listing cards show badges, delivery icons, and savings, basket items must too.** If the listing card renders a field, the cart item card must too.
+
+### 3b. Cart/basket page — extraction technique
+
+Before building ANY cart/basket page, extract these measurements from the reference:
+
+**Step 1: Identify the column structure.**
+Count the number of flex/grid children at the top level of each cart item card.
+Common patterns:
+
+- 2-column: `[Image] [Info area with price inside]` (price shares row with qty/actions)
+- 3-column: `[Image] [Info] [Price column]` (price is a separate column)
+
+Do NOT guess — inspect the reference and count the columns. Getting this wrong creates a layout that looks "off" everywhere.
+
+**Step 2: Map the element flow within the info area.**
+For each cart item, list every element vertically in DOM order:
+
+- Title (does it span full width or share with price?)
+- Action row (which elements share a row: qty, remove, save, price?)
+- Secondary info (was-price, savings, badges — where do they align?)
+- Supplementary content (delivery box, warranty box — same width as info area or full card width?)
+
+**Step 3: Measure boundaries.**
+
+- Does the image container have a border/outline or is it borderless?
+- Does supplementary content (delivery info) extend under the image or stay within the info column?
+- What is the exact image container size? Measure, don't estimate.
+
+**Step 4: Extract interactive element sizes.**
+
+- Measure the quantity selector (height, padding, font-size, min-width)
+- Check if action links are always-underlined or hover-only
+- Check if action links are inline (horizontal) or stacked (vertical)
 
 ### 4. Write the component
 
@@ -170,6 +210,19 @@ After building, visually compare the component against the reference screenshot:
 3. Compare side-by-side with the reference screenshot
 4. Check: grid columns, spacing, font sizes, colors, image sizing
 5. If any measurement is visibly off, re-check the layout spec and adjust
+
+**Listing page components — extra checks:**
+
+If building any component that appears on a category listing page (sort bar, filter sidebar, product cards, pagination), also verify:
+
+- Sort bar has both "Sort by" and "Show per page" dropdowns with label text
+- List/Grid toggle has text labels next to icons, not icons alone
+- Item count appears on its own line below sort controls
+- Filter groups render in reference order (extract order from reference site, don't assume)
+- Product card titles use `font-normal` (400 weight), not bold
+- Product card spec bullets use regular weight, not semibold/bold
+- Price text size is consistent across all cards (check `text-xl` / 20px)
+- Compare checkbox and Save for later button present in card footer
 
 ### 8. Output component report
 

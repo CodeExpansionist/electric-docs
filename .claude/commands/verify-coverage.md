@@ -87,8 +87,8 @@ Every category in `categoryMap` must have a corresponding data file with product
 
 ```
 Category Coverage:
-- Categories in categoryMap: 14
-- With data and products: 14 (100%) — PASS
+- Categories in categoryMap: {N} (count from category index)
+- With data and products: {N} (100%) — PASS
 - With 0 products: 0
 
 Per-category product counts:
@@ -102,22 +102,22 @@ Per-category product counts:
 
 Every navigation link must resolve to either a category page or a static page.
 
-1. Scan nav components directly for all link `href` values:
-   - `src/components/layout/MainNav.tsx` — main navigation links
-   - `src/components/layout/SecondaryNav.tsx` — secondary nav links
-   - `src/components/layout/Footer.tsx` — footer column links
-   - `src/components/layout/ShopDeals.tsx` — shop deals category links
+1. Scan nav components in `src/components/layout/` for all link `href` values:
+   - Main navigation component — primary nav links
+   - Secondary navigation component — secondary nav links
+   - Footer component — footer column links
+   - Any promotional/deals section components — category links
 2. For category links: verify the slug maps to a key in `categoryMap` from `src/lib/category-data.ts` (also check `categoryAliases` for alias resolution)
 3. For static page links: verify a page route exists in `src/app/`
 4. For external links: flag them (these need to be handled or removed)
 
 ```
 Navigation Link Resolution:
-- Total nav links: 47
-- Resolve to category with data: 32
-- Resolve to static page: 8
-- External (need handling): 5
-- BROKEN (no route or data): 2
+- Total nav links: {N}
+- Resolve to category with data: {N}
+- Resolve to static page: {N}
+- External (need handling): {N}
+- BROKEN (no route or data): {N}
 
 Broken links (BLOCKS BUILD):
 - /{section-slug}/{promo-slug} → no categoryMap key or alias

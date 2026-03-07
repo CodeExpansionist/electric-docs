@@ -34,17 +34,17 @@ Sample at least 100 image URLs across ALL categories (not just one) and group by
 **Steps:**
 
 1. Extract ALL unique image URLs from `products-index.json` and individual product detail files
-2. Group URLs by pattern (regex bucket): standard, variant suffix, M-prefix, M-prefix+color, M-prefix+color+variant, and any unknown patterns
-3. Count products per pattern — log: "Standard: 2,675 products, M-prefix: 37 products, Unknown: 0"
+2. Group URLs by pattern (regex bucket): standard, variant suffix, alternative URL patterns, and any unknown patterns
+3. Count products per pattern — log the count for each discovered pattern and flag any unknowns
 4. Verify ALL patterns are handled by the `toLocalImage()` regex in `src/lib/images.ts`
-5. **BLOCK if any unhandled pattern exists** — "Found 37 products with M-prefix URLs not handled by toLocalImage(). Fix the regex before proceeding."
+5. **BLOCK if any unhandled pattern exists** — "Found N products with [pattern] URLs not handled by toLocalImage(). Fix the regex before proceeding."
 
 **Example CDN patterns (discovered during Step 2's pattern analysis):**
 
 - **Standard single-ID:** `https://{image-cdn}/{cdn-path-prefix}/{productId}?$transform$&fmt=auto`
 - **With variant suffix:** `https://{image-cdn}/{cdn-path-prefix}/{productId}_{variant}?$transform$&fmt=auto`
-- **Variant/color pattern (e.g., M-prefix):** `https://{image-cdn}/{cdn-path-prefix}/M{productId}_{color}?$transform$&fmt=auto`
-- **Variant/color with suffix:** `https://{image-cdn}/{cdn-path-prefix}/M{productId}_{color}_{variant}?$transform$&fmt=auto`
+- **Alternative URL pattern (e.g., color variants):** `https://{image-cdn}/{cdn-path-prefix}/{alt-prefix}{productId}_{color}?$transform$&fmt=auto`
+- **Alternative pattern with suffix:** `https://{image-cdn}/{cdn-path-prefix}/{alt-prefix}{productId}_{color}_{variant}?$transform$&fmt=auto`
 
 **Every site has its own patterns.** The point is to discover them ALL before downloading, not to assume any fixed list. The above are illustrative examples only.
 
@@ -69,34 +69,34 @@ For each product, create a directory `public/images/products/{productId}/` and d
 - Request `fmt=auto` to get WebP format
 - Set a realistic User-Agent header
 
-### 4. Handle M-prefix color variants
+### 4. Handle alternative URL pattern color variants
 
-Some products use Amplience M-prefix URLs where:
+Some products use alternative URL patterns where:
 - All color variants of the same product share an image base
-- e.g., `M{product-id}_black`, `M{product-id}_white` → both save to `public/images/products/{product-id}/`
+- e.g., `{alt-prefix}{product-id}_black`, `{alt-prefix}{product-id}_white` → both save to `public/images/products/{product-id}/`
 
 When detected:
 - Download using the first color variant found
 - All color variants of that product share the same local directory
-- Log which products use M-prefix URLs for reference
+- Log which products use the alternative URL pattern for reference
 
-### 4b. Enumerate all M-prefix products
+### 4b. Enumerate all alternative-pattern products
 
-After handling M-prefix downloads, produce a complete inventory:
+After handling alternative-pattern downloads, produce a complete inventory:
 
-1. List ALL M-prefix products with their product IDs, color names, and source URLs
-2. Identify which products share image bases across colors (e.g., a headphone model where all color variants use the same base image ID)
-3. Verify the download script correctly mapped M-prefix IDs to standard product directories
-4. Log count: "37 M-prefix products across 12 product families, X unique image bases"
+1. List ALL alternative-pattern products with their product IDs, color names, and source URLs
+2. Identify which products share image bases across colors (e.g., a product where all color variants use the same base image ID)
+3. Verify the download script correctly mapped alternative-pattern IDs to standard product directories
+4. Log count: "N alternative-pattern products across M product families, X unique image bases"
 
-This prevents the silent failure where M-prefix products downloaded to wrong directories or were skipped entirely.
+This prevents the silent failure where alternative-pattern products downloaded to wrong directories or were skipped entirely.
 
 ### 5. Create/update the image mapping utility
 
 Create or update `src/lib/images.ts` with a `toLocalImage()` function that:
 - Takes any CDN image URL as input
 - Returns the local path (`/images/products/{id}/{type}.webp`)
-- Handles all detected CDN patterns (standard, variant, M-prefix)
+- Handles all detected CDN patterns (standard, variant, alternative URL patterns)
 - Falls back to the original URL only if no pattern matches (should be rare)
 
 Also create helper functions:
@@ -109,7 +109,7 @@ Also create helper functions:
 
 Before downloading, verify the `toLocalImage()` regex in `src/lib/images.ts` actually matches the CDN URLs in the scraped data. **This is a BLOCKING gate — do NOT proceed to Step 3 if it fails.**
 
-1. Take 10 representative CDN image URLs from across the scraped data (mix of standard, variant, M-prefix patterns — at least 1 from each pattern found in Step 2)
+1. Take 10 representative CDN image URLs from across the scraped data (mix of standard, variant, and alternative URL patterns — at least 1 from each pattern found in Step 2)
 2. Test each against BOTH the `toLocalImage()` regex AND the `ProductImage.tsx` `extractProductId()` regex
 3. Log: "Regex compatibility: 10/10 matched toLocalImage(), 8/10 matched ProductImage.tsx — PASS/FAIL"
 4. If ANY URL fails to match either regex: **STOP and fix the regex before proceeding** — "Frontend won't map these URLs to local paths — images will break at runtime"
@@ -139,7 +139,7 @@ Coverage:
 
 CDN patterns used:
 - Standard single-ID pattern: X products
-- Variant/color pattern (e.g., M-prefix): X products
+- Alternative URL pattern: X products
 
 Failed downloads (need retry):
   - [product ID] [image type] [error]
@@ -160,5 +160,5 @@ After download completes, check:
 - **No external image loading at runtime.** The `remotePatterns` in `next.config.mjs` are emergency fallbacks, not a feature.
 - **Don't guess image URLs.** Use the actual URLs from the scraped product data. If no gallery URLs were captured, download only main/large/thumb.
 - **Preserve image quality.** Download at the highest available resolution (use `$l-large$` transform for gallery images).
-- **Log everything.** Failed downloads, skipped products, M-prefix detections — all logged for debugging.
+- **Log everything.** Failed downloads, skipped products, alternative-pattern detections — all logged for debugging.
 - **Gallery image order is unreliable from scrapes.** Firecrawl returns gallery URLs in DOM order, not display order. ~5% of products will have the base image (no `_NNN` suffix) buried mid-array instead of first, and gallery/thumbnail arrays may be misaligned. The file naming convention (base → `large.webp`, `_001` → `gallery_001.webp`) is correct regardless of array order — but `mergeScrapedData()` in `product-data.ts` sorts both arrays by suffix via `getImageSortKey()` before mapping to local paths. If you modify `toLocalImage()` or the naming convention, ensure this sort step still works.

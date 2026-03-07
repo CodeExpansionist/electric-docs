@@ -164,7 +164,7 @@ export interface ProductDetail {
 // ---- Category data mapping ----
 
 const allCategories: { data: any; name: string; slug: string }[] = [
-  { data: tvsData, name: "TVs", slug: "televisions/tvs" },
+  { data: tvsData, name: "Televisions", slug: "televisions/tvs" },
   { data: dvdBluRayData, name: "DVD, Blu-ray & Home Cinema", slug: "dvd-blu-ray-and-home-cinema" },
   { data: soundbarsData, name: "Sound Bars", slug: "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars" },
   { data: speakersHifiData, name: "HiFi & Speakers", slug: "speakers-and-hi-fi-systems" },
@@ -322,6 +322,17 @@ function mergeScrapedData(base: ProductDetail, scraped: any): ProductDetail {
   return merged;
 }
 
+/**
+ * Look up a product by its URL slug (e.g., "samsung-qe65qn85d-65-smart-4k-neo-qled-tv-10282094.html").
+ *
+ * Searches all 14 category data files for a product whose URL matches `/products/${slug}`.
+ * Note: This matches by full URL slug, NOT by bare product ID.
+ *
+ * If found, merges category-level data with any individually scraped product data
+ * from `products-index.json` (gallery images, specifications, care plans, etc.).
+ *
+ * @returns ProductDetail or null if no product matches the slug.
+ */
 export function getProductBySlug(slug: string): ProductDetail | null {
   const targetPath = `/products/${slug}`;
   const productId = extractProductId(slug);
@@ -378,6 +389,11 @@ export function getProductBySlug(slug: string): ProductDetail | null {
   return null;
 }
 
+/**
+ * Get all products from all 14 categories as ProductDetail objects.
+ * Used by the search index to build a searchable product list.
+ * Returns category-level data only (no scraped enrichment) for performance.
+ */
 export function getAllProducts(): ProductDetail[] {
   const products: ProductDetail[] = [];
   for (const cat of allCategories) {

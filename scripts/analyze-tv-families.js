@@ -1,3 +1,10 @@
+/**
+ * Analyze TV product families to group TVs by model (e.g., Samsung QN85D across 55"/65"/75").
+ * Reads missing-products.json and groups TV products by brand and model family.
+ * Output is used by propagate-tv-data.js and build-size-variants.js.
+ *
+ * Usage: node scripts/analyze-tv-families.js
+ */
 const fs = require('fs');
 const data = JSON.parse(fs.readFileSync('data/scrape/missing-products.json', 'utf8'));
 const tvs = data.filter(p => p.category === 'TVs');

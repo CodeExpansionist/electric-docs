@@ -33,7 +33,7 @@ Optionally: `/visual-parity <scope>` where `$ARGUMENTS` is one of:
 
 **Browser Sessions:** This skill uses `firecrawl_browser_create` extensively. **Always** call `firecrawl_browser_delete` when done — orphaned sessions cost 2 credits/min.
 
-**Locale:** All reference site captures must include `location: { country: "GB", languages: ["en-GB"] }` to match the reference site's geo-targeted content.
+**Locale:** All reference site captures must include the locale from `project-config.md`: `location: { country: "{country}", languages: ["{language}"] }` to match the reference site's geo-targeted content.
 
 ---
 
@@ -73,29 +73,72 @@ Build a component manifest mapping each component to:
 - The page URL where it appears on the clone
 - The CSS selector to locate it in the DOM
 
-Read `src/lib/constants.ts` for SITE_URL. The section slug is `tv-and-audio`. The dev server URL is `http://localhost:3000`.
+Read `src/lib/constants.ts` for SITE_URL. The section slug is from `project-config.md`. The dev server URL is from `package.json`.
 
 ### 2. Map components to pages
 
 Each component appears on specific page types. Use this mapping to know which pages to visit:
 
-| Component | Page URL | Notes |
-|-----------|----------|-------|
-| Announcement bar | `/` (homepage) | Top of every page |
+| Component Type | Page URL | Notes |
+|---------------|----------|-------|
+| Announcement/promo bar | `/` (homepage) | Top of every page |
 | Header | `/` (homepage) | Top of every page |
-| Main nav | `/` (homepage) | Top of every page |
-| Hero carousel | `/` (homepage) | Homepage only |
-| USP bar | `/` (homepage) | Homepage + some category pages |
-| Category grid (ShopDeals) | `/` (homepage) | Homepage only |
+| Main navigation | `/` (homepage) | Top of every page |
+| Hero/carousel | `/` (homepage) | Homepage only |
+| USP/trust bar | `/` (homepage) | Homepage + some category pages |
+| Category/deals grid | `/` (homepage) | Homepage only |
 | Breadcrumbs | `/{section-slug}/{first-category}` | Category + product pages |
 | Filter sidebar | `/{section-slug}/{first-category}` | Category listing pages |
 | Sort bar | `/{section-slug}/{first-category}` | Category listing pages |
 | Product card | `/{section-slug}/{first-category}` | Category listing pages |
 | Product gallery | `/products/{any-product-slug}` | Product detail pages |
-| Price panel | `/products/{any-product-slug}` | Product detail pages |
+| Price/purchase panel | `/products/{any-product-slug}` | Product detail pages |
 | Footer | `/` (homepage) | Bottom of every page |
+| Cart item card | `/basket` | Product image, badges, delivery info |
+| Order summary | `/basket` | Payment options, totals, promo |
+| Service add-ons | `/basket` | Protection plans, installation, etc. |
+| Checkout steps | `/checkout` | Step indicators, form fields, validation |
+| Payment form | `/checkout/payment` | Card inputs, payment method toggle |
 
-Read `src/lib/constants.ts` for SITE_URL. The section slug is `tv-and-audio`. Read category data to pick a real category slug and product slug for testing.
+**The actual component names vary per project.** Read `src/lib/constants.ts` for SITE_URL. The section slug is from `project-config.md`. Read category data to pick a real category slug and product slug for testing.
+
+### 2b. Cart/checkout page comparison workflow
+
+Cart pages have the MOST layout micro-differences because they combine product cards, interactive controls, pricing, and sidebar summaries. Use this systematic comparison:
+
+**Step 1: Screenshot overlay.**
+Take reference screenshot and clone screenshot at the same viewport width. Compare:
+
+**Product item card layout:**
+
+- [ ] Column count matches (2-col vs 3-col — this is the #1 structural mistake)
+- [ ] Image container: border present/absent matches reference
+- [ ] Image dimensions match (measure in px, don't eyeball)
+- [ ] Title width: does it span full info area or is it constrained by a price column?
+- [ ] Action links (remove/save): same row or stacked vertically?
+- [ ] Price position: separate column, or inline with action row?
+- [ ] Secondary price info (was-price, savings): where does it align?
+- [ ] Badges/ratings: left-aligned or right-aligned? Inside or outside the info area?
+- [ ] Supplementary boxes (delivery, warranty): full card width or info-area width?
+
+**Interactive controls:**
+
+- [ ] Quantity selector size matches (height, padding, font-size)
+- [ ] Link decoration: always-underlined vs hover-only
+- [ ] Radio/checkbox styling matches (custom or native)
+
+**Order summary sidebar:**
+
+- [ ] Payment method selector format (tabs, radio buttons, toggle)
+- [ ] Promo code trigger: icon + text, or just text?
+- [ ] Line item labels match (e.g., "X items + Y services" format)
+- [ ] Total section typography matches
+
+**Page chrome:**
+
+- [ ] Background color (white vs surface/gray)
+- [ ] Card wrapping (content areas in white cards on gray, or flat on white?)
+- [ ] Icon style per delivery line (distinct per type vs generic checkmarks)
 
 ### 3. Create browser session and extract clone CSS
 
@@ -177,7 +220,7 @@ firecrawl_browser_execute({
 
 ### 3b. Live color audit (BLOCKING — catches design token gaps)
 
-**Why this step exists:** Layout JSON comparison (Step 4) only catches color differences for colors already captured in design tokens. It CANNOT catch colors that were never tokenized. On the Electric project, the original branding scrape captured only 5 colors — the real site uses 15+. The badge color (#E5006D), icon color (#56707A), secondary text (#444444), and 6 other tokens were all missing, causing pervasive visual differences that persisted for weeks.
+**Why this step exists:** Layout JSON comparison (Step 4) only catches color differences for colors already captured in design tokens. It CANNOT catch colors that were never tokenized. On real projects, the initial branding scrape often captures only a handful of colors — the real site may use 15+. Badge colors, icon fills, secondary text, and other tokens are commonly missing, causing pervasive visual differences that persist until caught by a live audit.
 
 This step extracts ALL computed colors from both the reference site and the clone, then cross-references against `data/design-tokens.json` to catch gaps.
 
@@ -322,7 +365,21 @@ Compares the DOM structure of key components between the reference site and the 
 
 **Requires:** Structure map JSONs from `/extract-layout` Step 9 in `data/scrape/layouts/*-structure.json`. If these don't exist, extract live from the reference using a browser session (same `page.evaluate` as Step 9 of `/extract-layout`).
 
-**Components to check:** `header`, `footer`, `main-nav`, `usp-bar`
+**Components to check:** `header`, `footer`, `main-nav`, `usp-bar`, `sort-bar`, `filter-sidebar`, `product-card`, `pagination`
+
+**Listing page–specific structural checks** (run on any category listing page):
+
+| Check | What to verify | BLOCK condition |
+|-------|---------------|-----------------|
+| Sort bar dropdowns | "Sort by" and "Show per page" dropdowns both present | Missing dropdown |
+| Sort bar labels | Text labels next to List/Grid toggle icons | Icons without text labels |
+| Item count placement | Item count on separate line below sort controls | Item count inline with sort bar |
+| Filter group ordering | Groups appear in the same order as the reference site | Groups in different order |
+| Filter toggle | "Hide out of stock" toggle present at top | Toggle missing |
+| Product card font weights | Title uses `font-normal` (400), specs use regular weight (not bold/semibold) | Bold title or bold spec text |
+| Badge rendering | Product badges/certifications render with correct icon/style | Badge type mismatch (text vs image, wrong icon) |
+| Price typography | Price uses consistent size across cards (check `text-xl` not `text-2xl`) | Inconsistent or oversized price text |
+| Compare/Save row | Bottom row has "Compare" checkbox and "Save for later" button | Missing interactive elements |
 
 **For each component, at both 375px and 1280px:**
 
@@ -545,7 +602,7 @@ For each major component, capture a cropped screenshot from both the reference s
 firecrawl_scrape({
   url: "{reference-site-url}/{page-path}",
   formats: ["screenshot"],
-  location: { country: "GB", languages: ["en-GB"] },
+  location: { country: "{country}", languages: ["{language}"] },
   screenshotOptions: {
     fullPage: false,
     viewport: { width: 1280, height: 900 }
@@ -603,8 +660,8 @@ Where "matched" means within the MATCH tolerance threshold (not MINOR or MAJOR).
 ## Visual Parity Report
 
 Audit date: [timestamp]
-Project: Electriz TV & Audio
-Reference: electriz.co.uk
+Project: {project name from project-config.md}
+Reference: {reference domain from project-config.md}
 Breakpoints tested: desktop (1280px), mobile (375px)
 
 ### Overall Score: X/100 — [PASS / REVIEW / FAIL]
@@ -634,19 +691,21 @@ Structural blocking issues: [count]
 
 ### Per-Component Breakdown
 
-| Component | Colors | Typography | Spacing | Effects | States | Score | Verdict |
-|-----------|--------|-----------|---------|---------|--------|-------|---------|
-| Announcement Bar | X | X | X | X | N/A | X | PASS/REVIEW/FAIL |
+| Component Type | Colors | Typography | Spacing | Effects | States | Score | Verdict |
+|---------------|--------|-----------|---------|---------|--------|-------|---------|
+| Announcement/promo bar | X | X | X | X | N/A | X | PASS/REVIEW/FAIL |
 | Header | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Main Nav | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Hero Carousel | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| USP Bar | X | X | X | X | N/A | X | PASS/REVIEW/FAIL |
-| Category Grid | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Filter Sidebar | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Product Card | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Product Gallery | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Price Panel | X | X | X | X | X | X | PASS/REVIEW/FAIL |
+| Main navigation | X | X | X | X | X | X | PASS/REVIEW/FAIL |
+| Hero/carousel | X | X | X | X | X | X | PASS/REVIEW/FAIL |
+| USP/trust bar | X | X | X | X | N/A | X | PASS/REVIEW/FAIL |
+| Category/deals grid | X | X | X | X | X | X | PASS/REVIEW/FAIL |
+| Filter sidebar | X | X | X | X | X | X | PASS/REVIEW/FAIL |
+| Product card | X | X | X | X | X | X | PASS/REVIEW/FAIL |
+| Product gallery | X | X | X | X | X | X | PASS/REVIEW/FAIL |
+| Price/purchase panel | X | X | X | X | X | X | PASS/REVIEW/FAIL |
 | Footer | X | X | X | X | X | X | PASS/REVIEW/FAIL |
+
+**List the actual component names from the project.** The types above are examples.
 
 ### All Mismatches (sorted by severity, then component)
 

@@ -42,7 +42,7 @@ Verify every top-level nav link loads a real page (not a 404 or blank screen).
 Test the core shopping flow from category to basket.
 
 **Steps:**
-1. Navigate to a category page. Section slug is `tv-and-audio`. Pick the first category from `categoryMap` keys in `src/lib/category-data.ts` (e.g., `/tv-and-audio/televisions`)
+1. Navigate to a category page. Use the section slug from `project-config.md`. Pick the first category from `categoryMap` keys in `src/lib/category-data.ts` (e.g., `/{section-slug}/{first-category-slug}`)
 2. Verify product grid renders (at least 1 product card visible)
 3. Click the first product card
 4. Verify product detail page loads (title, price, gallery visible)
@@ -74,7 +74,7 @@ Test search functionality end-to-end.
 Test filter and sort interactions on category page.
 
 **Steps:**
-1. Navigate to `/{section-slug}/{category-slug}` (a category with multiple brands)
+1. Navigate to `/{section-slug}/{category-slug}` (a category with multiple brands, using section slug from `project-config.md`)
 2. Record initial product count
 3. Apply a brand filter (e.g., click a popular brand in the filter panel)
 4. Verify product count changes (should decrease or stay same, never increase)
@@ -127,17 +127,17 @@ Test image gallery interactions on product detail page.
 Test the complete checkout flow from basket to order confirmation. The checkout is a multi-step flow within a single page (`checkout/payment/page.tsx`), not separate delivery/payment routes.
 
 **Steps:**
-1. Navigate to a category page (section slug is `tv-and-audio`, pick the first category from `categoryMap` keys in `src/lib/category-data.ts`)
+1. Navigate to a category page (use section slug from `project-config.md`, pick the first category from `categoryMap` keys in `src/lib/category-data.ts`)
 2. Click first product → click "Add to basket"
 3. Navigate to `/basket`
 4. Click "Continue to checkout" (or equivalent CTA)
 5. Verify checkout page loads at `/checkout/payment`
-6. Step 1 — Customer details: Fill the customer/delivery form within the multi-step checkout:
+6. Step 1 — Customer details: Fill the customer/delivery form within the multi-step checkout (adjust values for target locale):
    - Name: "Mr John Smith"
-   - Phone: "07193190923"
+   - Phone: "07193190923" (example — adjust format for target locale)
    - Address: "Flat 8 Brehon House", "17-19 Pratt Street"
    - City: "London"
-   - Postcode: "NW1 0AE"
+   - Postcode: "NW1 0AE" (example — adjust format for target locale)
 7. Click "Continue" to advance to the next step within the same page
 8. Step 2 — Payment: Fill payment form:
    - Card: "4111111111111111"
@@ -154,7 +154,7 @@ Compare search behavior against the reference site to verify autocomplete, resul
 
 **Steps:**
 
-1. Open a second browser session on the reference site (with `location: { country: "GB", languages: ["en-GB"] }`)
+1. Open a second browser session on the reference site (with `location: { country: "{country}", languages: ["{language}"] }` from `project-config.md`)
 2. On both sites, type a popular brand name into the search input (e.g., "Samsung")
 3. **Autocomplete check:** After 500ms debounce, verify:
    - Suggestions dropdown appears on both sites
@@ -182,9 +182,9 @@ Compare checkout form validation behavior against the reference site.
    - Record: Which fields show errors? What are the error messages?
 3. **Inline validation test:** Start typing in the email field, then clear it
    - Does the error appear on blur? On change? Only on submit?
-4. **Input masking test:**
-   - Type "07123456789" in the phone field — does it auto-format?
-   - Type "sw1a 1aa" in the postcode field — does it auto-uppercase?
+4. **Input masking test** (adjust values for target locale):
+   - Type "07123456789" (example UK mobile) in the phone field — does it auto-format?
+   - Type "sw1a 1aa" (example UK postcode) in the postcode field — does it auto-uppercase?
 5. **Valid submission:** Fill all fields with valid data, submit
    - Verify progression to next step without errors
 6. **Compare against reference** (if reference checkout is accessible without real payment):
@@ -193,7 +193,7 @@ Compare checkout form validation behavior against the reference site.
    - Compare error message wording for at least 3 fields
    - Note any input masking the reference uses that the clone doesn't
 
-**Pass criteria:** Form validates all required fields. Errors are visible and descriptive. Input formatting works for postcode.
+**Pass criteria:** Form validates all required fields. Errors are visible and descriptive. Input formatting works for locale-specific fields (e.g., postcode/zip).
 
 ### Flow 9: Error State Pages
 

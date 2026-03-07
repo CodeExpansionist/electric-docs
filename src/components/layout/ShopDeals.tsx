@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const subcategories = [
   {
-    name: "TVs",
+    name: "Televisions",
     url: "/tv-and-audio/televisions/tvs",
     image: "/images/categories/tvs.png",
   },
@@ -43,7 +43,7 @@ export default function ShopDeals() {
   return (
     <section aria-labelledby="shop-deals-heading" className="py-6 md:py-8">
       <div className="container-main">
-        <h2 id="shop-deals-heading" className="text-xl md:text-2xl font-bold text-text-primary text-center mb-6">Shop deals</h2>
+        <h2 id="shop-deals-heading" className="text-xl font-bold text-text-primary text-center mb-6">Shop deals</h2>
 
         {/* Mobile: horizontal scroll showing ~4.5 items. Desktop: all items fit in a row */}
         <div

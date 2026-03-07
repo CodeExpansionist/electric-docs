@@ -94,13 +94,13 @@ Scan the entire `src/` directory for references to external domains:
 
 **Search for:**
 
-- Grep for `electrizprod` and `currysprod` (the CDN domains defined in `src/lib/images.ts`). These are the known CDN patterns used across all scraped data.
+- Grep for the CDN path prefixes defined in `src/lib/images.ts` (e.g., `{cdn-path-prefix}` and `{legacy-path-prefix}` from `project-config.md`). These are the known CDN patterns used across all scraped data.
 - Any `https://` URL in image src attributes or fetch calls
 
 **Also check:**
 - `next.config.mjs` `remotePatterns` — should be empty array. If it has entries, flag for review.
 - `src/lib/images.ts` — verify `toLocalImage()` handles all CDN patterns
-- `src/lib/constants.ts` — verify `SITE_URL` default port matches the port in `package.json` dev script. Verify `stripDomain()` handles all CDN domains (`electrizprod` and `currysprod` as defined in `src/lib/images.ts`).
+- `src/lib/constants.ts` — verify `SITE_URL` default port matches the port in `package.json` dev script. Verify `stripDomain()` handles all CDN domains (the path prefixes defined in `src/lib/images.ts`).
 - `.env` or `.env.local` — check `NEXT_PUBLIC_SITE_URL` value
 - Any `fetch()` calls to external APIs
 
@@ -116,7 +116,7 @@ next.config.mjs remote patterns: [empty (good) / X entries (review needed)]
 
 constants.ts:
 - SITE_URL default port: [matches/mismatches] package.json dev port
-- stripDomain() handles: [electrizprod, currysprod] — [covers all scraped data: yes/no]
+- stripDomain() handles: [{cdn-path-prefix}, {legacy-path-prefix}] — [covers all scraped data: yes/no]
 
 Environment variables:
 - NEXT_PUBLIC_SITE_URL = [value or "not set"]

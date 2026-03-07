@@ -119,7 +119,7 @@ export default function FilterSidebar({ filters, onFilterChange, activeFilters =
   };
 
   return (
-    <aside className="w-[260px] flex-shrink-0">
+    <aside className="w-[240px] flex-shrink-0">
       <div className="card p-4">
         <h2 className="text-lg font-bold text-text-primary mb-4">Filters</h2>
 
@@ -146,8 +146,15 @@ export default function FilterSidebar({ filters, onFilterChange, activeFilters =
           </button>
         </div>
 
-        {/* Filter groups */}
-        {filters.map((group) => (
+        {/* Filter groups — ordered to match reference: Rating, Brand, then rest */}
+        {[...filters]
+          .sort((a, b) => {
+            const order = ["Customer Rating", "Brand", "Price", "Screen Size", "TV Technology", "Resolution", "Refresh Rate"];
+            const ai = order.indexOf(a.name);
+            const bi = order.indexOf(b.name);
+            return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+          })
+          .map((group) => (
           <FilterGroupComponent
             key={group.name}
             group={group}

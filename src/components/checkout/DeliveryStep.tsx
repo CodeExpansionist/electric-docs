@@ -133,7 +133,7 @@ export default function DeliveryStep({
 
       {/* Postcode + Find Address */}
       <div className="flex items-end gap-3 mb-3">
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
           <label className="block text-xs text-text-secondary mb-1">
             Postcode*
           </label>

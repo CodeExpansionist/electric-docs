@@ -1,3 +1,9 @@
+/**
+ * Save individual category JSON files from bulk scrape results.
+ * Reads scraped category data and writes normalized files to data/scrape/.
+ *
+ * Usage: node scripts/save-all-categories.js
+ */
 const fs = require('fs');
 const path = require('path');
 const DATA_DIR = path.join(__dirname, '..', 'data', 'scrape');

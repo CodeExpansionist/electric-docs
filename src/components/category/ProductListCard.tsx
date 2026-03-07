@@ -47,55 +47,43 @@ function StarRating({ rating, count }: { rating: number; count: number }) {
   );
 }
 
+const BADGE_IMAGES: Record<string, { src: string; width: number; height: number }> = {
+  "epic deal": { src: "/images/badges/epic-deal.png", width: 146, height: 48 },
+  "loved by electriz": { src: "/images/badges/loved-by-electriz.jpg", width: 180, height: 80 },
+  "loved by currys": { src: "/images/badges/loved-by-electriz.jpg", width: 180, height: 80 },
+  "trade in": { src: "/images/badges/trade-in.png", width: 206, height: 48 },
+  "dolby vision atmos": { src: "/images/badges/dolby-vision-atmos.jpg", width: 88, height: 60 },
+  "dolby vision": { src: "/images/badges/dolby-vision.jpg", width: 88, height: 60 },
+  "dolby atmos": { src: "/images/badges/dolby-vision-atmos.jpg", width: 88, height: 60 },
+  "freely tv": { src: "/images/badges/freely-tv.jpg", width: 88, height: 60 },
+  "freely tv badge": { src: "/images/badges/freely-tv.jpg", width: 88, height: 60 },
+  "what hifi": { src: "/images/badges/what-hifi-5-star.jpg", width: 88, height: 34 },
+  "trusted reviews": { src: "/images/badges/trusted-reviews.jpg", width: 60, height: 60 },
+  "online only": { src: "/images/badges/online-only.png", width: 164, height: 48 },
+};
+
+function getBadgeImage(badge: string): { src: string; width: number; height: number } | null {
+  const lower = badge.toLowerCase();
+  for (const [key, value] of Object.entries(BADGE_IMAGES)) {
+    if (lower.includes(key)) return value;
+  }
+  return null;
+}
+
 function BadgeTag({ badge }: { badge: string }) {
-  // "Epic Deal" gets a red pill style
-  if (badge.toLowerCase().includes("epic deal")) {
+  const img = getBadgeImage(badge);
+  if (img) {
     return (
-      <span className="bg-epic-deal text-white text-[10px] font-bold px-2.5 py-1 rounded-full">
-        {badge}
-      </span>
+      <Image
+        src={img.src}
+        alt={badge}
+        width={img.width}
+        height={img.height}
+        className="h-6 w-auto object-contain"
+      />
     );
   }
-  // "Loved by Electriz" gets a purple heart style
-  if (badge.toLowerCase().includes("loved by electriz")) {
-    return (
-      <span className="inline-flex items-center gap-1 border border-primary rounded-full px-2.5 py-1 text-[10px] font-semibold text-primary">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="#5C2D91" stroke="none">
-          <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
-        </svg>
-        {badge}
-      </span>
-    );
-  }
-  // "Trade in & save" and other tags get outlined style
-  if (badge.toLowerCase().includes("trade in")) {
-    return (
-      <span className="border border-primary text-primary text-[10px] font-semibold px-2.5 py-1 rounded-full">
-        Trade in &amp; save
-      </span>
-    );
-  }
-  // Award badges
-  if (badge.toLowerCase().includes("award")) {
-    return (
-      <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-text-secondary">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#E8A317" strokeWidth="2">
-          <circle cx="12" cy="8" r="7" />
-          <path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12" />
-        </svg>
-        {badge.replace("Award: ", "")}
-      </span>
-    );
-  }
-  // Dolby or tech badges
-  if (badge.toLowerCase().includes("dolby")) {
-    return (
-      <span className="inline-flex items-center gap-1 border border-border rounded px-2 py-0.5 text-[10px] font-bold text-text-primary bg-white">
-        {badge}
-      </span>
-    );
-  }
-  // Default badge style
+  // Default badge style for unrecognized badges
   return (
     <span className="bg-surface text-text-secondary text-[10px] font-semibold px-2 py-0.5 rounded">
       {badge}
@@ -149,7 +137,7 @@ export default function ProductListCard({
         {/* Specs zone */}
         <div className="flex-1 min-w-0">
           <Link href={url} className="no-underline">
-            <h3 className="text-sm md:text-base font-bold text-text-primary hover:text-primary transition-colors mb-1.5 leading-snug">
+            <h3 className="text-xl font-normal text-text-primary hover:text-primary transition-colors mb-1.5 leading-snug">
               {title}
             </h3>
           </Link>
@@ -162,9 +150,9 @@ export default function ProductListCard({
 
           <ul className="space-y-1.5 mb-3">
             {specs.map((spec, i) => (
-              <li key={i} className="text-xs md:text-sm text-text-primary flex items-start gap-2">
+              <li key={i} className="text-sm text-text-primary flex items-start gap-2">
                 <span className="text-text-muted mt-0.5 text-sm">•</span>
-                <span className="font-semibold">{spec}</span>
+                <span>{spec}</span>
               </li>
             ))}
           </ul>
@@ -193,9 +181,9 @@ export default function ProductListCard({
         </div>
 
         {/* Price + actions zone */}
-        <div className="w-full sm:w-[200px] md:w-[220px] flex-shrink-0 flex flex-col">
+        <div className="w-full sm:w-[180px] md:w-[190px] flex-shrink-0 flex flex-col">
           <div className="mb-2">
-            <span className="text-2xl font-bold text-text-primary">
+            <span className="text-xl font-bold text-text-primary">
               £{price.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
             </span>
             {savings != null && savings > 0 && (

@@ -30,7 +30,7 @@ Optionally: `/update-data <args>` where `$ARGUMENTS` is:
 ## Firecrawl Settings
 
 **Locale:** ALL `firecrawl_scrape` and `firecrawl_extract` calls in this skill MUST include:
-`location: { country: "GB", languages: ["en-GB"] }`
+`location: { country: "{country}", languages: ["{language}"] }`
 
 **Cache Strategy:** Always use `maxAge: 0` — the purpose of this skill is to detect what changed, so cached results defeat the goal.
 
@@ -61,28 +61,9 @@ Use the same scraping approach as `/scrape-products`:
 - Extract product IDs, names, prices, ratings, images
 - Save to a temporary location (`data/scrape/_update/`) — not overwriting existing files yet
 
-**Category slug to data file mapping** (slugs do NOT mechanically derive from filenames):
+**Category slug to data file mapping:** Read the category mapping from `project-config.md` or the category data module's imports in `src/lib/category-data.ts`.
 
-| categoryMap Key | Data File |
-|----------------|-----------|
-| `televisions/tvs` | `category-tvs.json` |
-| `digital-and-smart-tv` | `digital-smart-tv.json` |
-| `headphones/headphones` | `headphones.json` |
-| `speakers-and-hi-fi-systems` | `speakers-hifi.json` |
-| `tv-accessories` | `tv-accessories.json` |
-| `tv-accessories/cables-and-accessories` | `cables-accessories.json` |
-| `tv-accessories/tv-wall-brackets-and-stands/tv-wall-brackets` | `tv-wall-brackets.json` |
-| `tv-accessories/remote-controls` | `remote-controls.json` |
-| `tv-accessories/tv-aerials` | `tv-aerials.json` |
-| `dvd-blu-ray-and-home-cinema` | `dvd-blu-ray.json` |
-| `dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players` | `blu-ray-dvd-players.json` |
-| `dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars` | `soundbars.json` |
-| `dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems` | `home-cinema-systems.json` |
-| `radios` | `radios.json` |
-
-> **Note:** This mapping is project-specific. Read actual mappings from `src/lib/category-data.ts` imports. Slugs can be 1-3 segments deep and do not mechanically derive from filenames. Always check the source code for the canonical mapping.
-
-Always reference this table or read `src/lib/category-data.ts` imports directly — there is no consistent derivation rule.
+> **Note:** This mapping is project-specific. Slugs do NOT mechanically derive from filenames — they can be 1-3 segments deep. Always read `src/lib/category-data.ts` imports directly for the canonical mapping.
 
 ### 2b. Price-only update mode (faster and cheaper)
 
@@ -91,7 +72,7 @@ If `$ARGUMENTS` contains `prices` (e.g., `/update-data televisions prices`), use
 ```
 firecrawl_extract with:
   urls: [all product detail URLs for the target category]
-  location: { country: "GB", languages: ["en-GB"] }
+  location: { country: "{country}", languages: ["{language}"] }
   prompt: "Extract the current price, was price (if shown), and product ID for each product"
   schema: {
     type: "object",

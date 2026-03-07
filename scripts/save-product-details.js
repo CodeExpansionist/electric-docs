@@ -1,3 +1,9 @@
+/**
+ * Save individual product detail JSON files from bulk scrape results.
+ * Reads scraped product data and writes individual files to data/scrape/products/{id}.json.
+ *
+ * Usage: node scripts/save-product-details.js
+ */
 const fs = require('fs');
 const path = require('path');
 const DATA_DIR = path.join(__dirname, '..', 'data', 'scrape');

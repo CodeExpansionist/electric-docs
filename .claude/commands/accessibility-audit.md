@@ -29,7 +29,7 @@ Before auditing, read these files to understand what already exists:
 
 | File | Existing A11y | Known Gaps |
 |------|---------------|------------|
-| `src/app/layout.tsx` | `lang="en-GB"`, skip-to-content link | — |
+| `src/app/layout.tsx` | `lang="{language}"` (from `project-config.md`), skip-to-content link | — |
 | `src/components/ui/StarRating.tsx` | `role="img"`, `aria-label` | — |
 | `src/components/ui/Accordion.tsx` | `<button>` element (keyboard focusable) | Missing `aria-expanded`, `aria-controls`, `id` on panels |
 | `src/components/product/ProductGallery.tsx` | — | Missing keyboard navigation, `aria-label` on thumbnails |
@@ -72,7 +72,7 @@ Alternatively, use `firecrawl_browser_create` to load each page and manually ins
 | 7 | Search results | `/search?q={search-term}` |
 | 8 | Admin | `/admin` |
 
-The section slug is `tv-and-audio`. Read `src/lib/category-data.ts` for a real category slug and product slug.
+Use the section slug from `project-config.md`. Read `src/lib/category-data.ts` for a real category slug and product slug.
 
 For each page, record: total violations, violations by severity (critical, serious, moderate, minor).
 
@@ -254,7 +254,7 @@ At 375px viewport width, verify minimum touch targets:
 
 #### 4a. Language (3.1.1)
 
-Verify `<html lang="en-GB">` in `src/app/layout.tsx`. This should already be present.
+Verify `<html lang="{language}">` (using the language from `project-config.md`) in `src/app/layout.tsx`. This should already be present.
 
 #### 4b. Error Identification (3.3.1)
 
@@ -268,7 +268,7 @@ Verify `<html lang="en-GB">` in `src/app/layout.tsx`. This should already be pre
 **For each form field, verify:**
 
 1. Invalid input shows a text error message (not just a red border)
-2. Error message clearly describes the error ("Please enter a valid UK postcode", not just "Invalid")
+2. Error message clearly describes the error (e.g., "Please enter a valid postcode/zip code", not just "Invalid")
 3. `aria-invalid="true"` is set on the input when invalid
 4. `aria-describedby` links the input to its error message `<span id="...">`
 5. Error is not conveyed by color alone (red border must be accompanied by text and/or icon)
@@ -282,9 +282,9 @@ Verify `<html lang="en-GB">` in `src/app/layout.tsx`. This should already be pre
 **Required fields:**
 
 - Marked with asterisk (*) AND `aria-required="true"`
-- Format hints provided where needed:
-  - Phone: "e.g., 07123 456789"
-  - Postcode: "e.g., SW1A 1AA"
+- Format hints provided where needed (adjust examples for target locale):
+  - Phone: "e.g., 07123 456789" (UK example — adjust for target locale)
+  - Postcode/Zip: "e.g., SW1A 1AA" (UK example — adjust for target locale)
   - Card expiry: "MM/YY"
   - CVV: "3 or 4 digits on back of card"
 

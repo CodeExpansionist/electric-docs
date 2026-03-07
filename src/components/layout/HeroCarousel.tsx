@@ -84,31 +84,8 @@ export default function HeroCarousel() {
     >
       <div className="container-main">
         <div aria-live="polite" aria-atomic="true">
-          {/* Desktop (lg+): 3 cards */}
-          <div className="hidden lg:grid grid-cols-3 gap-4">
-            {[0, 1, 2].map((offset) => {
-              const slide = getSlide(offset);
-              return (
-                <Link
-                  key={`${current}-${offset}`}
-                  href={slide.url}
-                  className="relative rounded-lg overflow-hidden no-underline block aspect-[4/5]"
-                >
-                  <Image
-                    src={`/images/banners/${slide.desktopSlug}.webp`}
-                    alt={slide.alt}
-                    fill
-                    className="object-cover"
-                    sizes="33vw"
-                    priority={offset === 0}
-                  />
-                </Link>
-              );
-            })}
-          </div>
-
-          {/* Tablet (sm to lg): 2 cards */}
-          <div className="hidden sm:grid lg:hidden grid-cols-2 gap-3">
+          {/* Mobile + Tablet (<md): 2 cards */}
+          <div className="md:hidden grid grid-cols-2 gap-3">
             {[0, 1].map((offset) => {
               const slide = getSlide(offset);
               return (
@@ -130,21 +107,27 @@ export default function HeroCarousel() {
             })}
           </div>
 
-          {/* Mobile (<sm): 1 landscape card */}
-          <div className="sm:hidden rounded-lg overflow-hidden aspect-[5/4]">
-            <Link
-              href={slides[current].url}
-              className="relative block w-full h-full no-underline"
-            >
-              <Image
-                src={`/images/banners/${slides[current].mobileSlug}.webp`}
-                alt={slides[current].alt}
-                fill
-                className="object-cover"
-                sizes="100vw"
-                priority
-              />
-            </Link>
+          {/* Desktop (md+): 3 cards */}
+          <div className="hidden md:grid grid-cols-3 gap-4">
+            {[0, 1, 2].map((offset) => {
+              const slide = getSlide(offset);
+              return (
+                <Link
+                  key={`${current}-${offset}`}
+                  href={slide.url}
+                  className="relative rounded-lg overflow-hidden no-underline block aspect-[4/5]"
+                >
+                  <Image
+                    src={`/images/banners/${slide.desktopSlug}.webp`}
+                    alt={slide.alt}
+                    fill
+                    className="object-cover"
+                    sizes="33vw"
+                    priority={offset === 0}
+                  />
+                </Link>
+              );
+            })}
           </div>
         </div>
 
@@ -170,20 +153,6 @@ export default function HeroCarousel() {
           </svg>
         </button>
 
-        {/* Dot indicators (mobile only) */}
-        <div className="sm:hidden absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
-          {slides.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => setCurrent(i)}
-              className={`w-2 h-2 rounded-full transition-colors ${
-                i === current ? "bg-white" : "bg-white/50"
-              }`}
-              aria-label={`Go to slide ${i + 1}`}
-              aria-current={i === current ? "true" : undefined}
-            />
-          ))}
-        </div>
       </div>
     </section>
   );

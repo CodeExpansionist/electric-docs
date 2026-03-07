@@ -37,7 +37,7 @@ function CategoryListingInner() {
   const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
   const [sortBy, setSortBy] = useState("popular");
   const [page, setPage] = useState(1);
-  const perPage = 20;
+  const [perPage, setPerPage] = useState(20);
 
   const products = categoryData?.products || [];
   const filters = categoryData?.filters || [];
@@ -293,14 +293,14 @@ function CategoryListingInner() {
       )}
 
       {/* Sort bar */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 mb-4 py-3 border-b border-border">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 py-3 border-b border-border">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
-            <label className="text-xs text-text-secondary">Sort by:</label>
+            <label className="text-sm text-text-secondary">Sort By:</label>
             <select
               value={sortBy}
               onChange={(e) => { setSortBy(e.target.value); setPage(1); }}
-              className="border border-input-border rounded-md px-3 py-1.5 text-xs bg-white"
+              className="border border-input-border rounded-md px-3 py-1.5 text-sm bg-white"
             >
               <option value="popular">Most popular</option>
               <option value="price-asc">Price low - high</option>
@@ -308,26 +308,40 @@ function CategoryListingInner() {
               <option value="rating">Customer Rating</option>
             </select>
           </div>
-          <span className="text-xs text-text-secondary hidden sm:inline">
-            {filteredProducts.length} results{filteredProducts.length !== totalProducts ? ` (filtered from ${totalProducts})` : ""}
-          </span>
+          <div className="flex items-center gap-2">
+            <label className="text-sm text-text-secondary">Show:</label>
+            <select
+              value={perPage}
+              onChange={(e) => { setPerPage(Number(e.target.value)); setPage(1); }}
+              className="border border-input-border rounded-md px-3 py-1.5 text-sm bg-white"
+            >
+              <option value={20}>20</option>
+              <option value={40}>40</option>
+              <option value={60}>60</option>
+            </select>
+            <span className="text-sm text-text-secondary hidden sm:inline">products per page</span>
+          </div>
         </div>
 
         <div className="flex items-center gap-3">
-          <span className="text-xs text-text-secondary">{totalProducts} Items</span>
           <div className="flex rounded-md overflow-hidden border border-border">
-            <button className="px-3 py-1.5 text-xs bg-primary text-white">
+            <button className="flex items-center gap-1.5 px-3 py-1.5 text-xs bg-primary text-white">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" />
               </svg>
+              List
             </button>
-            <button className="px-3 py-1.5 text-xs bg-white text-text-secondary border-l border-border">
+            <button className="flex items-center gap-1.5 px-3 py-1.5 text-xs bg-white text-text-secondary border-l border-border">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z" />
               </svg>
+              Grid
             </button>
           </div>
         </div>
+      </div>
+      <div className="mb-4 pt-2">
+        <span className="text-sm text-text-secondary">{totalProducts} Items</span>
       </div>
 
       {/* Active filters */}
@@ -364,8 +378,8 @@ function CategoryListingInner() {
       )}
 
       {/* Two-column layout */}
-      <div className="flex flex-col md:flex-row gap-6">
-        <div className="hidden md:block">
+      <div className="flex flex-col lg:flex-row gap-6">
+        <div className="hidden lg:block">
           <FilterSidebar
             filters={filters}
             activeFilters={activeFilters}
@@ -373,7 +387,7 @@ function CategoryListingInner() {
           />
         </div>
 
-        <div className="flex-1 space-y-4">
+        <div className="flex-1 min-w-0 space-y-4">
           {filteredProducts.length === 0 ? (
             <div className="card p-8 text-center">
               <p className="text-sm text-text-secondary mb-2">No products match your filters.</p>

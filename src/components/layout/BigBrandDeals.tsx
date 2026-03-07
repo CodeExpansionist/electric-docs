@@ -66,7 +66,7 @@ export default function BigBrandDeals() {
   return (
     <section aria-labelledby="big-brand-deals-heading" className="py-8">
       <div className="container-main">
-        <h2 id="big-brand-deals-heading" className="text-2xl font-bold text-text-primary mb-6">
+        <h2 id="big-brand-deals-heading" className="text-xl font-bold text-text-primary mb-6">
           Big brand deals
         </h2>
         <Carousel visibleCount={4} mobileCount={1} tabletCount={2}>

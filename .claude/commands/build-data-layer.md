@@ -83,7 +83,7 @@ Group products by model family to identify size variants:
 - Sort variants by size (numeric, ascending)
 - Include price for each variant
 - Use product data `sizeVariants` field if available; otherwise infer from model names
-- For TVs specifically, run the TV-specific scripts first: `analyze-tv-families.js` -> `propagate-tv-data.js` -> `add-missing-variants.js` -> `build-all-tv-products.js`
+- For domain-specific product families (e.g., TVs by screen size), run any domain-specific data processing scripts as needed before building variants
 
 Save as: `data/scrape/size-variants.json`
 
@@ -148,4 +148,4 @@ Stats:
 - **Product IDs are strings.** Even in JSON keys and variant mappings, keep IDs as strings for consistency.
 - **Search text is lowercase.** All search text normalized to lowercase for case-insensitive matching.
 - **Don't include full details in the index.** The products-index.json is for listing pages — keep it lean. Full specs/descriptions stay in individual files and are loaded on demand for product detail pages.
-- **This verifies the output of the data pipeline scripts.** The canonical scripts (`build-all-categories.js`, `generate-product-details.js`, `build-size-variants.js`, etc.) are documented in CLAUDE.md. This skill verifies their output and fills gaps — it does not replace them. For TVs, also run the TV-specific pipeline: `analyze-tv-families.js` -> `propagate-tv-data.js` -> `add-missing-variants.js` -> `build-all-tv-products.js`.
+- **This verifies the output of the data pipeline scripts.** The canonical scripts (`build-all-categories.js`, `generate-product-details.js`, `build-size-variants.js`, etc.) are documented in CLAUDE.md. This skill verifies their output and fills gaps — it does not replace them. For domain-specific product families, also run any domain-specific data processing scripts as needed.

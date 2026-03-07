@@ -6,7 +6,7 @@ export interface SearchResult extends CategoryProduct {
 }
 
 const allCategorySlugs = [
-  { slugs: ["televisions", "tvs"], name: "TVs" },
+  { slugs: ["televisions", "tvs"], name: "Televisions" },
   { slugs: ["dvd-blu-ray-and-home-cinema"], name: "DVD, Blu-ray & Home Cinema" },
   {
     slugs: ["dvd-blu-ray-and-home-cinema", "home-cinema-systems-and-soundbars", "sound-bars"],
@@ -100,6 +100,16 @@ function scoreProduct(product: SearchResult, terms: string[]): number {
   return score;
 }
 
+/**
+ * Search all products across 14 categories by query string.
+ *
+ * Requires ALL query terms to appear in the product's searchable text
+ * (name, brand, category, specs, badges, offers). Results are ranked
+ * by relevance score. See docs/API_REFERENCE.md for scoring weights.
+ *
+ * @param query - Space-separated search terms (e.g., "samsung 65 oled")
+ * @returns Matching products sorted by relevance score (highest first)
+ */
 export function searchProducts(query: string): SearchResult[] {
   if (!query.trim()) return [];
 
@@ -139,6 +149,19 @@ export interface Suggestion {
   category?: string;
 }
 
+/**
+ * Get autocomplete suggestions for the search bar dropdown.
+ *
+ * Returns a mixed list of:
+ *   1. Category matches (max 2) — matching category names
+ *   2. Brand matches (max 2) — matching brands sorted by product count
+ *   3. Product matches — individual products scored by relevance
+ *
+ * Used by the Header search bar via `/api/search?mode=suggest`.
+ *
+ * @param query - Partial search text
+ * @param limit - Max total suggestions (default 8)
+ */
 export function getSuggestions(query: string, limit: number = 8): Suggestion[] {
   if (!query.trim()) return [];
 

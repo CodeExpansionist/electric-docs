@@ -127,10 +127,36 @@ The checkout implements a multi-step flow:
 
 Form validation includes UK postcode format, phone number format, email validation, and card number Luhn check. Mock submission shows a spinner then redirects to confirmation with a generated order number.
 
+## Documentation
+
+Detailed documentation lives in the `docs/` directory:
+
+| Document | Description |
+|----------|-------------|
+| [Architecture](docs/ARCHITECTURE.md) | System architecture, data flow, key decisions |
+| [Data Pipeline](docs/DATA_PIPELINE.md) | 17-script pipeline: scrape → normalize → build → verify |
+| [Data Schema](docs/DATA_SCHEMA.md) | Product, Category, Basket types with field explanations |
+| [Image System](docs/IMAGE_SYSTEM.md) | CDN URL parsing, local storage, 37K image architecture |
+| [API Reference](docs/API_REFERENCE.md) | `/api/search` endpoint: params, response shapes, scoring |
+| [Category Routing](docs/CATEGORY_ROUTING.md) | 2-phase routing algorithm, 14 category keys, aliases |
+| [Checkout Flow](docs/CHECKOUT_FLOW.md) | 5-step checkout, validation rules, mock submission |
+| [Design System](docs/DESIGN_SYSTEM.md) | Tokens, colors, typography, spacing reference |
+| [Component Guide](docs/COMPONENT_GUIDE.md) | Key components, props, usage patterns |
+| [Deployment](docs/DEPLOYMENT.md) | Build, deploy, environment configuration |
+| [Known Issues](docs/KNOWN_ISSUES.md) | Current bugs and limitations |
+
+Additional project files:
+
+| File | Purpose |
+|------|---------|
+| [PROJECT_SPEC.md](PROJECT_SPEC.md) | Build specification with screenshot references and data models |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Development setup, code standards, PR checklist |
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+
 ## Reference Screenshots
 
 18 annotated screenshots in `reference-screenshots/` serve as the visual source of truth. See `PROJECT_SPEC.md` for the full screenshot-to-page mapping.
 
 ## License
 
-Private project — not for redistribution.
+See [LICENSE](LICENSE).

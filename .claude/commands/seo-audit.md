@@ -221,7 +221,7 @@ Verdict: [PASS: all checks match reference / FAIL: X issues need fixing]
 - **Adjust for brand name.** The reference brand name in titles should map to the clone brand name in our titles. The pattern/format must match even if the brand name differs.
 - **JSON-LD must validate.** Use Google's structured data requirements as the baseline. A schema that's present but invalid is worse than no schema.
 - **og:image is critical.** Missing Open Graph images means social share previews show no image — this is the most visible SEO gap.
-- **Product pages are highest priority.** There are 2,294 product pages vs a handful of category/hub pages. Fixing product page SEO has the biggest impact.
+- **Product pages are highest priority.** There are typically far more product pages than category/hub pages. Fixing product page SEO has the biggest impact.
 - **Canonical URLs prevent duplicate content penalties.** Every page must have exactly one canonical URL pointing to itself.
 - **Don't check every product.** Sample 5 products across categories. If the `generateMetadata` function is correct, all products will be correct.
 - **Sitemap accuracy matters.** A sitemap with broken URLs or missing pages hurts crawl efficiency. Cross-reference with actual site structure.

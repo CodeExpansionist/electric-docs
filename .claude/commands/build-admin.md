@@ -34,7 +34,7 @@ Before building new features, leverage existing components:
 - `src/components/admin/StatusBadge.tsx` — colored status label
 - `src/components/admin/StatusSelect.tsx` — dropdown for status changes
 - `src/components/admin/EmptyState.tsx` — "no results" placeholder
-- `src/components/admin/ProductImage.tsx` — product image with fallback. **KNOWN ISSUE:** Its `extractProductId()` regex may not handle CDN variant-format product IDs. Instead of re-implementing regex logic, import and use `toLocalImage()` from `src/lib/images.ts` which already handles all CDN patterns (standard, variant, M-prefix). This avoids duplicated regex that drifts out of sync.
+- `src/components/admin/ProductImage.tsx` — product image with fallback. **KNOWN ISSUE:** Its `extractProductId()` regex may not handle all CDN URL patterns. Instead of re-implementing regex logic, import and use `toLocalImage()` from `src/lib/images.ts` which already handles all CDN patterns (per `project-config.md`). This avoids duplicated regex that drifts out of sync.
 - `src/components/admin/AdminHeader.tsx` — admin header bar
 - `src/components/admin/AdminSidebar.tsx` — admin side navigation
 
@@ -51,7 +51,7 @@ Before building new features, leverage existing components:
 
 **Implementation:**
 1. Create login page with email/password form
-2. Create `ADMIN_EMAIL` and `ADMIN_PASSWORD` in `.env.local` (default: `admin@yourclone.example` / `admin123`). These variables do NOT exist yet — also add them to `.env.example` with placeholder values.
+2. Create `ADMIN_EMAIL` and `ADMIN_PASSWORD` in `.env.local` (default: `admin@example.com` / `admin123`). These variables do NOT exist yet — also add them to `.env.example` with placeholder values.
 3. On successful login, set an auth token in localStorage (demo-appropriate — no real backend for httpOnly cookies). Store a JSON object: `{ token, expiresAt }`.
 4. Add Next.js middleware to check for auth token on all `/admin/*` routes (except `/admin/login`)
 5. Redirect unauthenticated users to `/admin/login`

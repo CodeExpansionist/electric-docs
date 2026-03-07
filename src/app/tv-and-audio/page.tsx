@@ -39,7 +39,7 @@ export default function TvAndAudioHub() {
       </nav>
 
       {/* Page title */}
-      <h1 className="text-2xl md:text-3xl font-bold text-text-primary mb-6">TV &amp; Audio</h1>
+      <h1 className="text-2xl font-bold text-text-primary mb-6">TV &amp; Audio</h1>
 
       {/* Subcategory icons */}
       <div className="flex items-center gap-4 md:gap-8 mb-8 pb-6 border-b border-border overflow-x-auto scrollbar-hide">

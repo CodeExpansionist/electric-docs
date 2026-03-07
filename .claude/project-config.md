@@ -1,0 +1,95 @@
+# Project Configuration
+
+**This is the ONLY place for site-specific values.** Skills in `.claude/commands/` must never hardcode values that belong here — they reference this file using `{placeholder}` syntax instead. See "Skill Authoring Rules" in CLAUDE.md.
+
+Populated by `/map-site` (pipeline position 1), refined by later skills.
+
+## Site Identity
+
+- **Project name**: Electriz TV & Audio
+- **Reference domain**: electriz.co.uk
+- **Legacy domains**: currys.co.uk
+- **Brand name**: Electriz
+- **Section slug**: tv-and-audio
+
+## Locale
+
+- **Country**: GB
+- **Languages**: en-GB
+- **Currency symbol**: £
+
+## Architecture
+
+- **Framework**: Next.js 14 App Router
+- **Dev server port**: 3000
+- **Category route type**: `[...category]` catch-all
+- **Product route pattern**: `/products/[slug]`
+- **Category data module**: `src/lib/category-data.ts`
+- **Product data module**: `src/lib/product-data.ts`
+- **Image utility module**: `src/lib/images.ts`
+- **Constants module**: `src/lib/constants.ts`
+- **Data directory**: `data/scrape/`
+- **Product detail directory**: `data/scrape/products/`
+- **Product index file**: `data/scrape/products-index.json`
+- **Design tokens file**: `data/design-tokens.json`
+- **Layout specs directory**: `data/scrape/layouts/`
+
+## CDN Patterns (discovered by /download-images Step 2)
+
+- **Image CDN host**: i.media-electriz.com
+- **CDN path prefix**: electrizprod
+- **Legacy path prefix**: currysprod
+- **Known URL patterns**:
+  - Standard: `{cdn-host}/{prefix}/{productId}?$transform$&fmt=auto`
+  - With variant suffix: `{cdn-host}/{prefix}/{productId}_{variant}?$transform$&fmt=auto`
+  - M-prefix color variant: `{cdn-host}/{prefix}/M{productId}_{color}?$transform$&fmt=auto`
+  - M-prefix color+variant: `{cdn-host}/{prefix}/M{productId}_{color}_{variant}?$transform$&fmt=auto`
+
+## Data Stats (updated by /verify-coverage)
+
+- **Total categories**: 14
+- **Total products**: 2,294
+- **Total images**: 37,309
+
+## Category Mapping (from /map-site, verified by /verify-coverage)
+
+| Slug | Data File |
+| ---- | --------- |
+| tvs | televisions.json |
+| tv-accessories | tv-accessories.json |
+| soundbars | soundbars.json |
+| headphones | headphones.json |
+| wireless-and-bluetooth-speakers | speakers.json |
+| smart-speakers | smart-speakers.json |
+| turntables-and-record-players | turntables.json |
+| radios | radios.json |
+| hi-fi-systems | hifi.json |
+| projectors | projectors.json |
+| dvd-blu-ray-players | dvd-bluray.json |
+| tv-wall-brackets-and-stands | brackets.json |
+| media-streamers | streamers.json |
+| remote-controls | remotes.json |
+
+## Component Inventory (from /scaffold-project)
+
+| Component | File | Data Source |
+| --------- | ---- | ----------- |
+| HeroCarousel | src/components/layout/HeroCarousel.tsx | data/scrape/homepage.json → heroCarousel[] |
+| ShopDeals | src/components/layout/ShopDeals.tsx | data/scrape/homepage.json → shopDeals[] |
+| BigBrandDeals | src/components/layout/BigBrandDeals.tsx | data/scrape/homepage.json → bigBrandDeals[] |
+| DiscoverOffers | src/components/layout/DiscoverOffers.tsx | data/scrape/homepage.json → discoverOffers[] |
+| ProductListCard | src/components/category/ProductListCard.tsx | Category JSON → products[] |
+| FilterSidebar | src/components/category/FilterSidebar.tsx | Category data module → filter definitions |
+| ProductGallery | src/components/product/ProductGallery.tsx | Product detail JSON → images |
+| PricePanel | src/components/product/PricePanel.tsx | Product detail JSON → price, deliveryInfo |
+| MainNav | src/components/layout/MainNav.tsx | Hardcoded nav links |
+| Footer | src/components/layout/Footer.tsx | data/scrape/homepage.json → footer |
+| AnnouncementBar | src/components/layout/AnnouncementBar.tsx | data/scrape/homepage.json → announcementBar |
+
+## Domain-Specific Filters (from /fix-filters)
+
+| Category | Extra Filter Groups |
+| -------- | ------------------- |
+| tvs | TV Technology, Resolution, Refresh Rate, HDMI Ports, Smart TV Platform |
+| headphones | Connectivity, Noise Cancelling, Driver Type |
+| soundbars | Channels, Connectivity |

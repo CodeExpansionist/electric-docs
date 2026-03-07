@@ -29,7 +29,7 @@ Use `firecrawl_crawl` to automatically discover all internal pages:
 
 ```
 firecrawl_crawl with:
-  url: "http://localhost:3000" (or start path from $ARGUMENTS)
+  url: "{dev-server-url}" (from project-config.md, or start path from $ARGUMENTS)
   maxDiscoveryDepth: 4
   limit: 400
   allowExternalLinks: false
@@ -158,7 +158,7 @@ Verdict: [PASS: all links and images resolve / FAIL: X broken URLs found]
 - **Crawl the real rendered site, not the file system.** A file existing on disk doesn't mean it's accessible via HTTP. Test the actual URLs.
 - **Check images by HTTP request, not by path existence.** An image path might exist in `public/` but be corrupt (0 bytes, wrong format, error page).
 - **Don't follow external links.** Only crawl the dev server hostname. Log external URLs but don't check them — they're not our responsibility.
-- **Respect the 500 page limit.** With 2,294 products, crawling every product page would take too long. Crawl navigation paths + a sample of products.
+- **Respect the 500 page limit.** With thousands of products, crawling every product page would take too long. Crawl navigation paths + a sample of products.
 - **Report the source page for every broken link.** Saying "404 on /images/x.webp" is useless without knowing which page links to it.
 - **Orphan pages aren't necessarily bugs.** A page might be intentionally unlinked (admin, API routes). Flag them as INFO, not CRITICAL.
 - **Run on dev server, not production.** Dev server matches what the developer sees. Production build might have different behavior.

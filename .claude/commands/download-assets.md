@@ -24,7 +24,7 @@ Optionally: `/download-assets <type>` where `$ARGUMENTS` is a specific asset typ
 ## Firecrawl Settings
 
 **Locale:** ALL `firecrawl_scrape` calls in this skill MUST include:
-`location: { country: "GB", languages: ["en-GB"] }`
+`location: { country: "{country}", languages: ["{language}"] }`
 
 ---
 
@@ -93,7 +93,7 @@ Download all spec icons, badge images, and navigation icons:
 
 ```
 public/images/icons/
-  {icon-name}.svg    — Flat directory, 8 SVG files total
+  {icon-name}.svg    — Flat directory, asset counts computed from scraped data
                      — Includes: spec icons, badge icons, nav icons, social icons
                      — No subdirectories (spec/, badges/, nav/, social/, energy/)
 ```
@@ -119,7 +119,7 @@ File names should be lowercase, slugified versions of the brand name (e.g., `sam
 
 ```
 public/images/banners/
-  {slug}.webp     — All promotional images in a flat directory (31 files)
+  {slug}.webp     — All promotional images in a flat directory (asset counts computed from scraped data)
                   — Includes: hero carousel banners, offer cards, editorial images,
                     buying guide thumbnails, article cards, promo banners
                   — No subdirectories (hero/, offers/, editorial/, etc.)
@@ -155,7 +155,7 @@ Components resolve asset paths directly via local path constants and the `toLoca
 After downloading, verify that:
 - Banner images are referenced in components using `/images/banners/{slug}.webp` paths
 - Icon SVGs are referenced using `/images/icons/{name}.svg` paths
-- Brand logo is referenced using `/images/brand-electriz-logo.svg`
+- Brand logo is referenced using `/images/{brand-logo}.svg`
 - No component reads from a nonexistent `asset-map.json`
 
 **DO NOT modify the original JSON files in `data/scrape/`.** The source data is the ground truth from scraping and must remain unchanged. Components resolve asset URLs at render time via `src/lib/images.ts` and hardcoded local path constants.

@@ -24,8 +24,8 @@ Optionally: `/scrape-products <category-slug>` to scrape a single category. `$AR
 ## Firecrawl Settings
 
 **Locale:** ALL `firecrawl_scrape` calls in this skill MUST include:
-`location: { country: "GB", languages: ["en-GB"] }`
-Without this, product prices may return in USD and geo-targeted content will differ. This is a correctness requirement for UK sites.
+`location: { country: "{country}", languages: ["{language}"] }`
+Without this, product prices may return in the wrong currency and geo-targeted content will differ. This is a correctness requirement for locale-specific sites.
 
 **Cache Strategy:**
 - **Initial scrape of a category:** `maxAge: 0` (fresh data required)
@@ -140,7 +140,7 @@ If a product detail scrape returns empty `specifications` or fewer than 3 `image
 firecrawl_scrape with:
   url: [product-url]
   formats: ["json"]
-  location: { country: "GB", languages: ["en-GB"] }
+  location: { country: "{country}", languages: ["{language}"] }
   actions: [
     { type: "scroll", direction: "down" },
     { type: "wait", milliseconds: 2000 },

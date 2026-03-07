@@ -8,13 +8,50 @@ import { useBasket } from "@/lib/basket-context";
 import { useOrders } from "@/lib/orders-context";
 import { Suspense } from "react";
 
-function CardIcon({ type: _type, label, bg }: { type: string; label: string; bg: string }) {
-  void _type;
-  return (
-    <span className={`inline-flex items-center justify-center text-[10px] font-bold text-white px-2 py-1 rounded ${bg}`}>
-      {label}
-    </span>
-  );
+function CardIcon({ type }: { type: string; label: string; bg: string }) {
+  const h = 24;
+  const w = 38;
+  const cls = "rounded";
+  switch (type) {
+    case "apple":
+      return (
+        <span className={`inline-flex items-center justify-center bg-black text-white ${cls}`} style={{ width: w, height: h }}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+        </span>
+      );
+    case "visa":
+      return (
+        <span className={`inline-flex items-center justify-center bg-[#1A1F71] ${cls}`} style={{ width: w, height: h }}>
+          <svg width="30" height="10" viewBox="0 0 60 20" fill="white"><path d="M23.4 1.2L15.7 18.8h-5L7.1 4.8c-.2-.8-.4-1.1-1-1.5C4.7 2.5 2.7 1.8.5 1.4l.1-.5h8.1c1 0 2 .7 2.2 2l2 10.6L18.5 1.2h4.9zm19.3 11.8c0-4.6-6.4-4.9-6.4-7 0-.6.6-1.3 1.9-1.5 2-.2 3.6.5 4.7 1.1l.8-3.8C42.5 1.3 41 .9 39.2.9c-4.6 0-7.8 2.4-7.8 5.9 0 2.6 2.3 4 4 4.8 1.8.9 2.4 1.4 2.4 2.2 0 1.2-1.4 1.7-2.8 1.7-2.3 0-3.7-.6-4.8-1.1l-.8 3.9c1.1.5 3.1.9 5.2.9 4.8 0 8-2.4 8-6.1zm12 5.8h4.4L55.2 1.2h-4.1c-.9 0-1.7.5-2 1.3L42.4 18.8h4.9l1-2.7h6l.5 2.7zm-5.2-6.4l2.5-6.8 1.4 6.8h-3.9zM30.3 1.2l-3.9 17.6h4.7l3.8-17.6h-4.6z"/></svg>
+        </span>
+      );
+    case "mc":
+      return (
+        <span className={`inline-flex items-center justify-center bg-white ${cls}`} style={{ width: w, height: h }}>
+          <svg width="30" height="20" viewBox="0 0 48 32">
+            <circle cx="18" cy="16" r="10" fill="#EB001B"/>
+            <circle cx="30" cy="16" r="10" fill="#F79E1B"/>
+            <path d="M24 8.4a10 10 0 010 15.2 10 10 0 010-15.2z" fill="#FF5F00"/>
+          </svg>
+        </span>
+      );
+    case "mae":
+      return (
+        <span className={`inline-flex items-center justify-center bg-white border border-gray-300 ${cls}`} style={{ width: w, height: h }}>
+          <svg width="30" height="20" viewBox="0 0 48 32">
+            <circle cx="18" cy="16" r="10" fill="#0099DF"/>
+            <circle cx="30" cy="16" r="10" fill="#000"/>
+            <path d="M24 8.4a10 10 0 010 15.2 10 10 0 010-15.2z" fill="#00648A"/>
+          </svg>
+        </span>
+      );
+    default:
+      return (
+        <span className={`inline-flex items-center justify-center bg-[#006FCF] text-white ${cls}`} style={{ width: w, height: h }}>
+          <svg width="30" height="12" viewBox="0 0 60 24" fill="white"><path d="M0 0h8.3L12 10.2 15.5 0h8.3v18.3L17.6 0h-7l-3.8 10.3L3 0H0v18.8L6.5 0zM25 0v18.8h6.2V0H25zm9.4 0l6.5 12.5V0h6.2v18.8H41L34.4 6.3v12.5h-6.2V0h6.2z"/><path d="M48 0h12v4h-7.5v3H60v4h-7.5v3.8H60v4H48V0z"/></svg>
+        </span>
+      );
+  }
 }
 
 function PaymentPageContent() {
@@ -152,7 +189,7 @@ function PaymentPageContent() {
       <div className="container-main py-8">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left: Payment Form */}
-          <div className="flex-1">
+          <div className="flex-1 min-w-0">
             <h1 className="text-2xl font-bold text-text-primary mb-1">Payment</h1>
             <p className="text-sm text-text-secondary mb-6">Choose how you&apos;d like to pay</p>
 
@@ -463,7 +500,7 @@ function PaymentPageContent() {
                       <div className="w-14 h-14 bg-surface rounded border border-border flex items-center justify-center flex-shrink-0">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#999" strokeWidth="1.5"><rect x="2" y="7" width="20" height="15" rx="2" /><path d="M16 7V5a4 4 0 10-8 0v2" /></svg>
                       </div>
-                      <div className="flex-1">
+                      <div className="flex-1 min-w-0">
                         <p className="text-xs text-text-primary font-medium">SAMSUNG UB00F 50&quot; Crystal UHD 4K HDR Smart TV 2025</p>
                         <p className="text-[11px] text-text-secondary mt-0.5">Qty: 1</p>
                       </div>
@@ -473,7 +510,7 @@ function PaymentPageContent() {
                       <div className="w-14 h-14 bg-surface rounded border border-border flex items-center justify-center flex-shrink-0">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#999" strokeWidth="1.5"><rect x="2" y="7" width="20" height="15" rx="2" /><path d="M16 7V5a4 4 0 10-8 0v2" /></svg>
                       </div>
-                      <div className="flex-1">
+                      <div className="flex-1 min-w-0">
                         <p className="text-xs text-text-primary font-medium">SONY BRAVIA 8A 55&quot; OLED 4K HDR AI Smart TV</p>
                         <p className="text-[11px] text-text-secondary mt-0.5">Qty: 1</p>
                       </div>

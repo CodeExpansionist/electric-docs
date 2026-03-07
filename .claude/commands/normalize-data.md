@@ -29,7 +29,7 @@ Optionally: `/normalize-data <category-file>` to normalize a single file. `$ARGU
 
 Before modifying any files:
 
-**Warning:** `data/scrape/` contains 2,294+ product files. Do NOT use `cp -r` for backups — it will copy thousands of files slowly. Use `tar` instead:
+**Warning:** `data/scrape/` may contain thousands of product files. Do NOT use `cp -r` for backups — it will copy thousands of files slowly. Use `tar` instead:
 
 ```bash
 tar -czf data/scrape-backup-$(date +%Y%m%d).tar.gz data/scrape

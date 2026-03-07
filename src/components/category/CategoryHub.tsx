@@ -43,7 +43,7 @@ export default function CategoryHub({ data }: CategoryHubProps) {
       </nav>
 
       {/* Page title */}
-      <h1 className="text-2xl md:text-3xl font-bold text-text-primary mb-6">
+      <h1 className="text-2xl font-bold text-text-primary mb-6">
         {data.categoryName}
       </h1>
 

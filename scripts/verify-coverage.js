@@ -1,3 +1,10 @@
+/**
+ * Verify data and image coverage across all categories and products.
+ * Reports product detail file coverage, main.webp image coverage, and data completeness.
+ * This is the go/no-go gate before building — see docs/DATA_PIPELINE.md Phase 6.
+ *
+ * Usage: node scripts/verify-coverage.js
+ */
 const fs = require('fs');
 const path = require('path');
 
