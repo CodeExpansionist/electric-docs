@@ -86,10 +86,19 @@ Populated by `/map-site` (pipeline position 1), refined by later skills.
 | Footer | src/components/layout/Footer.tsx | data/scrape/homepage.json → footer |
 | AnnouncementBar | src/components/layout/AnnouncementBar.tsx | data/scrape/homepage.json → announcementBar |
 
-## Domain-Specific Filters (from /fix-filters)
+## Domain-Specific Filters (from /fix-filters, scraped 2026-03-09)
 
-| Category | Extra Filter Groups |
-| -------- | ------------------- |
-| tvs | TV Technology, Resolution, Refresh Rate, HDMI Ports, Smart TV Platform |
-| headphones | Connectivity, Noise Cancelling, Driver Type |
-| soundbars | Channels, Connectivity |
+| Category | Filter Groups (beyond Brand/Price/Rating) |
+| -------- | ----------------------------------------- |
+| tvs | Type, Screen Size, Sound enhancement, Smart TV apps, Screen technology, Picture & contrast enhancement, Gaming, Refresh rate, Tuner, Resolution, Design features, Energy rating, Smart platform, Voice control, Colour, LED backlighting, Guarantee, Year, Gaming Technology, Loved by Electriz, Accessibility features |
+| soundbars | Type, Premium audio technology, Sound bar design, Connections, Colour, Voice control, Loved by Electriz |
+| headphones | Type, Design, Colour, Features, Compatible voice assistant, Loved by Electriz |
+| home-cinema-systems | Premium audio technology, Sound bar design, Connections, Colour, Voice control |
+| cables-accessories | Type, Length, Colour |
+| remote-controls | Type, Number of devices controlled, Colour |
+| tv-aerials | Type, Colour |
+| radios | Type, Tuner, Connections, Features, Colour |
+| blu-ray-dvd-players | Type, Connections, Colour, 4K Ultra HD, Features, Recording, Tuner |
+| tv-wall-brackets | Type, Popular screen sizes, VESA, Max. weight, Colour, Suitable for curved TVs |
+
+Hub pages (no filters scraped — use generated Brand/Price/Rating): dvd-blu-ray, tv-accessories, digital-smart-tv, speakers-hifi

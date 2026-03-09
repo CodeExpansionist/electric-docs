@@ -7,7 +7,38 @@
   "siteReportedTotal": 16,
   "filters": [
     {
+      "name": "Hide out of stock",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": []
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "4 or more",
+          "count": 3
+        },
+        {
+          "label": "3 or more",
+          "count": 14
+        },
+        {
+          "label": "2 or more",
+          "count": 14
+        },
+        {
+          "label": "1 or more",
+          "count": 15
+        }
+      ]
+    },
+    {
       "name": "Price",
+      "isExpanded": true,
+      "type": "range",
       "options": [
         {
           "label": "Up to £39.99",
@@ -20,6 +51,55 @@
         {
           "label": "£60 to £99.99",
           "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "ONE FOR ALL",
+          "count": 14
+        },
+        {
+          "label": "VIVANCO",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Indoor TV Aerials",
+          "count": 14
+        },
+        {
+          "label": "Outdoor TV Aerials",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Black",
+          "count": 11
+        },
+        {
+          "label": "White",
+          "count": 5
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 1
         }
       ]
     }

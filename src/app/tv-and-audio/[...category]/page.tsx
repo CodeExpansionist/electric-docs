@@ -111,8 +111,8 @@ function CategoryListingInner() {
         return;
       }
 
-      // TV Technology — word-boundary matching to distinguish LED/OLED/QLED
-      if (group === "TV Technology") {
+      // Screen technology — word-boundary matching to distinguish LED/OLED/QLED
+      if (group === "Screen technology" || group === "TV Technology") {
         result = result.filter((p) => {
           const name = p.name;
           return values.some((tech) => {
@@ -145,8 +145,8 @@ function CategoryListingInner() {
         return;
       }
 
-      // Refresh Rate — extract Hz value from specs
-      if (group === "Refresh Rate") {
+      // Refresh rate — extract Hz value from specs
+      if (group === "Refresh rate" || group === "Refresh Rate") {
         result = result.filter((p) => {
           const text = p.specs.join(" ") + " " + p.name;
           return values.some((rate) => {
@@ -174,29 +174,72 @@ function CategoryListingInner() {
         return;
       }
 
-      // Year of Release — match year string in product name
-      if (group === "Year of Release") {
+      // Year — match year string in product name
+      if (group === "Year" || group === "Year of Release") {
         result = result.filter((p) => values.some((year) => p.name.includes(year)));
         return;
       }
 
-      // Smart TV Platform — match in name + specs
-      if (group === "Smart TV Platform") {
+      // Smart platform — match in name + specs
+      if (group === "Smart platform" || group === "Smart TV Platform") {
         result = result.filter((p) => {
           const text = (p.name + " " + p.specs.join(" ")).toLowerCase();
-          return values.some((platform) => {
-            const pl = platform.toLowerCase();
-            // "Freely" might appear as "with Freely" in name
-            return text.includes(pl);
+          return values.some((platform) => text.includes(platform.toLowerCase()));
+        });
+        return;
+      }
+
+      // Energy rating — match exact rating letter from product data
+      if (group === "Energy rating") {
+        result = result.filter((p) => {
+          if (!p.energyRating) return false;
+          return values.some((val) => p.energyRating!.toUpperCase() === val.toUpperCase());
+        });
+        return;
+      }
+
+      // Loved by Electriz — check badges array
+      if (group === "Loved by Electriz") {
+        result = result.filter((p) =>
+          p.badges.some((b) => b.toLowerCase().includes("loved by"))
+        );
+        return;
+      }
+
+      // Popular screen sizes — range matching for wall brackets
+      if (group === "Popular screen sizes") {
+        result = result.filter((p) => {
+          const sizeMatches = Array.from(p.name.matchAll(/\b(\d{2,3})(?:"|″|\s)/g));
+          const size = sizeMatches.map((m) => parseInt(m[1])).find((n) => n >= 20 && n <= 120);
+          if (!size) return false;
+          return values.some((range) => {
+            if (range.includes("or more") || range.includes("and above")) {
+              const min = parseInt(range.match(/(\d+)/)?.[1] || "0");
+              return size >= min;
+            }
+            const rangeParts = range.match(/(\d+)[\s"]*\s*[-–]\s*(\d+)/);
+            if (rangeParts) return size >= parseInt(rangeParts[1]) && size <= parseInt(rangeParts[2]);
+            const exact = parseInt(range.match(/(\d+)/)?.[1] || "0");
+            if (exact) return size === exact;
+            return false;
           });
         });
         return;
       }
 
-      // Generic text filter — Type, Connectivity, Surround Sound, Water Resistance,
-      // Noise Cancellation, Battery Life, TV Size Compatibility, HDR Format
+      // Guarantee — match in specs text
+      if (group === "Guarantee") {
+        result = result.filter((p) => {
+          const specsText = p.specs.join(" ").toLowerCase();
+          return values.some((val) => specsText.includes(val.toLowerCase()));
+        });
+        return;
+      }
+
+      // Generic text filter — covers Type, Colour, Connections, Design, Features,
+      // Voice control, Sound enhancement, Tuner, Gaming, VESA, etc.
       result = result.filter((p) => {
-        const searchText = (p.name + " " + p.specs.join(" ")).toLowerCase();
+        const searchText = (p.name + " " + p.specs.join(" ") + " " + p.badges.join(" ")).toLowerCase();
         return values.some((val) => searchText.includes(val.toLowerCase()));
       });
     });
@@ -255,26 +298,30 @@ function CategoryListingInner() {
 
   return (
     <div className="bg-surface min-h-screen">
-    <div className="container-main py-4">
-      {/* Breadcrumbs */}
-      <nav className="flex items-center gap-2 text-xs text-text-secondary mb-4">
-        {breadcrumbs.map((crumb, i) => (
-          <span key={i} className="flex items-center gap-2">
-            {i > 0 && <span>&gt;</span>}
-            {i < breadcrumbs.length - 1 ? (
-              <Link
-                href={i === 0 ? "/" : "/tv-and-audio"}
-                className="hover:text-primary no-underline text-text-secondary"
-              >
-                {crumb}
-              </Link>
-            ) : (
-              <span className="text-text-primary">{crumb}</span>
-            )}
-          </span>
-        ))}
-      </nav>
+    {/* White breadcrumb strip */}
+    <div className="bg-white border-b border-border">
+      <div className="container-main py-2">
+        <nav className="flex items-center gap-2 text-xs text-text-secondary">
+          {breadcrumbs.map((crumb, i) => (
+            <span key={i} className="flex items-center gap-2">
+              {i > 0 && <span>&gt;</span>}
+              {crumb.href && i < breadcrumbs.length - 1 ? (
+                <Link
+                  href={crumb.href}
+                  className="hover:text-primary no-underline text-text-secondary"
+                >
+                  {crumb.label}
+                </Link>
+              ) : (
+                <span className="text-text-primary">{crumb.label}</span>
+              )}
+            </span>
+          ))}
+        </nav>
+      </div>
+    </div>
 
+    <div className="container-main py-4">
       {/* Category title */}
       <h1 className="text-2xl font-bold text-text-primary mb-4">{categoryName}</h1>
 
@@ -291,58 +338,6 @@ function CategoryListingInner() {
           />
         </div>
       )}
-
-      {/* Sort bar */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 py-3 border-b border-border">
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-2">
-            <label className="text-sm text-text-secondary">Sort By:</label>
-            <select
-              value={sortBy}
-              onChange={(e) => { setSortBy(e.target.value); setPage(1); }}
-              className="border border-input-border rounded-md px-3 py-1.5 text-sm bg-white"
-            >
-              <option value="popular">Most popular</option>
-              <option value="price-asc">Price low - high</option>
-              <option value="price-desc">Price high - low</option>
-              <option value="rating">Customer Rating</option>
-            </select>
-          </div>
-          <div className="flex items-center gap-2">
-            <label className="text-sm text-text-secondary">Show:</label>
-            <select
-              value={perPage}
-              onChange={(e) => { setPerPage(Number(e.target.value)); setPage(1); }}
-              className="border border-input-border rounded-md px-3 py-1.5 text-sm bg-white"
-            >
-              <option value={20}>20</option>
-              <option value={40}>40</option>
-              <option value={60}>60</option>
-            </select>
-            <span className="text-sm text-text-secondary hidden sm:inline">products per page</span>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-3">
-          <div className="flex rounded-md overflow-hidden border border-border">
-            <button className="flex items-center gap-1.5 px-3 py-1.5 text-xs bg-primary text-white">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" />
-              </svg>
-              List
-            </button>
-            <button className="flex items-center gap-1.5 px-3 py-1.5 text-xs bg-white text-text-secondary border-l border-border">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z" />
-              </svg>
-              Grid
-            </button>
-          </div>
-        </div>
-      </div>
-      <div className="mb-4 pt-2">
-        <span className="text-sm text-text-secondary">{totalProducts} Items</span>
-      </div>
 
       {/* Active filters */}
       {Object.entries(activeFilters).some(([key, vals]) => key !== "_hideOutOfStock" && vals.length > 0) && (
@@ -379,7 +374,7 @@ function CategoryListingInner() {
 
       {/* Two-column layout */}
       <div className="flex flex-col lg:flex-row gap-6">
-        <div className="hidden lg:block">
+        <div className="hidden lg:block w-[240px] flex-shrink-0 sticky top-4 max-h-[calc(100vh-1rem)] overflow-y-auto">
           <FilterSidebar
             filters={filters}
             activeFilters={activeFilters}
@@ -388,6 +383,36 @@ function CategoryListingInner() {
         </div>
 
         <div className="flex-1 min-w-0 space-y-4">
+          {/* Sort bar */}
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 py-3 border-b border-border">
+            <div className="flex items-center gap-4">
+              <select
+                value={sortBy}
+                onChange={(e) => { setSortBy(e.target.value); setPage(1); }}
+                className="border border-input-border rounded px-3 py-2 text-sm bg-white h-10"
+              >
+                <option value="popular">Sort By: Most popular</option>
+                <option value="price-asc">Sort By: Price low - high</option>
+                <option value="price-desc">Sort By: Price high - low</option>
+                <option value="rating">Sort By: Customer rating</option>
+              </select>
+              <div className="flex items-center gap-2">
+                <select
+                  value={perPage}
+                  onChange={(e) => { setPerPage(Number(e.target.value)); setPage(1); }}
+                  className="border border-input-border rounded px-3 py-2 text-sm bg-white h-10"
+                >
+                  <option value={20}>Show: 20</option>
+                  <option value={40}>Show: 40</option>
+                  <option value={60}>Show: 60</option>
+                </select>
+                <span className="text-sm text-text-secondary hidden sm:inline">products per page</span>
+              </div>
+            </div>
+          </div>
+          <div className="mb-4">
+            <span className="text-sm text-text-secondary">{totalProducts} Items</span>
+          </div>
           {filteredProducts.length === 0 ? (
             <div className="card p-8 text-center">
               <p className="text-sm text-text-secondary mb-2">No products match your filters.</p>
@@ -403,7 +428,9 @@ function CategoryListingInner() {
               {paginatedProducts.map((product, idx) => (
                 <ProductListCard
                   key={`${product.url}-${idx}`}
+                  productId={product.productId}
                   title={product.name}
+                  brand={product.brand}
                   image={product.imageUrl}
                   price={product.price.current}
                   wasPrice={product.price.was}

@@ -12,24 +12,82 @@
       "options": []
     },
     {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5 or more",
+          "count": 8
+        },
+        {
+          "label": "4 or more",
+          "count": 107
+        },
+        {
+          "label": "3 or more",
+          "count": 113
+        },
+        {
+          "label": "2 or more",
+          "count": 113
+        },
+        {
+          "label": "1 or more",
+          "count": 114
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 4
+        },
+        {
+          "label": "£40 to £59.99",
+          "count": 10
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 22
+        },
+        {
+          "label": "£100 to £499",
+          "count": 71
+        },
+        {
+          "label": "£500 to £999",
+          "count": 30
+        },
+        {
+          "label": "£1000 and over",
+          "count": 11
+        }
+      ]
+    },
+    {
       "name": "Brand",
       "isExpanded": true,
       "type": "checkbox",
       "options": [
         {
-          "label": "Sony",
+          "label": "SHARP",
           "count": 19
         },
         {
-          "label": "Sharp",
+          "label": "SONY",
           "count": 19
         },
         {
-          "label": "Sonos",
+          "label": "SONOS",
           "count": 16
         },
         {
-          "label": "Samsung",
+          "label": "SAMSUNG",
           "count": 15
         },
         {
@@ -37,35 +95,43 @@
           "count": 13
         },
         {
-          "label": "Majority",
+          "label": "HISENSE",
           "count": 9
         },
         {
-          "label": "Hisense",
-          "count": 8
+          "label": "MAJORITY",
+          "count": 9
         },
         {
           "label": "KANTO AUDIO",
           "count": 8
         },
         {
+          "label": "BOSE",
+          "count": 7
+        },
+        {
           "label": "JBL",
           "count": 7
         },
         {
-          "label": "Bose",
-          "count": 7
+          "label": "PANASONIC",
+          "count": 6
         },
         {
-          "label": "Panasonic",
-          "count": 7
-        },
-        {
-          "label": "Groov-e",
+          "label": "GROOV-E",
           "count": 5
         },
         {
+          "label": "DENON",
+          "count": 3
+        },
+        {
           "label": "JVC",
+          "count": 3
+        },
+        {
+          "label": "MARSHALL",
           "count": 3
         },
         {
@@ -73,15 +139,7 @@
           "count": 3
         },
         {
-          "label": "Marshall",
-          "count": 3
-        },
-        {
           "label": "KLIPSCH",
-          "count": 2
-        },
-        {
-          "label": "Denon",
           "count": 2
         },
         {
@@ -91,48 +149,239 @@
       ]
     },
     {
-      "name": "Price",
+      "name": "Type",
       "isExpanded": true,
       "type": "checkbox",
       "options": [
         {
-          "label": "Up to £100",
-          "count": 35
+          "label": "Sound bars",
+          "count": 126
         },
         {
-          "label": "£100 to £300",
-          "count": 43
+          "label": "Bluetooth soundbars",
+          "count": 113
         },
         {
-          "label": "£300 to £500",
-          "count": 28
+          "label": "Wall mounted soundbars",
+          "count": 74
         },
         {
-          "label": "£500 to £1,000",
-          "count": 30
+          "label": "Dolby Atmos soundbars",
+          "count": 70
         },
         {
-          "label": "£1,000 and above",
-          "count": 11
+          "label": "Wireless soundbars",
+          "count": 66
+        },
+        {
+          "label": "Soundbar subwoofers",
+          "count": 22
+        },
+        {
+          "label": "All in one soundbars",
+          "count": 20
+        },
+        {
+          "label": "5.1 surround sound soundbars",
+          "count": 18
+        },
+        {
+          "label": "AV separates",
+          "count": 16
+        },
+        {
+          "label": "Home cinema speakers",
+          "count": 9
+        },
+        {
+          "label": "Home cinema systems",
+          "count": 6
+        },
+        {
+          "label": "Wired soundbars",
+          "count": 1
         }
       ]
     },
     {
-      "name": "Customer Rating",
-      "isExpanded": false,
-      "type": "rating",
+      "name": "Premium audio technology",
+      "isExpanded": true,
+      "type": "checkbox",
       "options": [
         {
-          "label": "5 stars & above",
-          "count": 8
+          "label": "Dolby Atmos",
+          "count": 73
         },
         {
-          "label": "4 stars & above",
-          "count": 110
+          "label": "Speech enhancement tech",
+          "count": 54
         },
         {
-          "label": "3 stars & above",
-          "count": 116
+          "label": "High-Resolution Audio",
+          "count": 43
+        },
+        {
+          "label": "DTS Virtual:X",
+          "count": 29
+        },
+        {
+          "label": "Upward-firing speakers",
+          "count": 29
+        },
+        {
+          "label": "DTS:X",
+          "count": 28
+        },
+        {
+          "label": "Smart sound multi-room",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "name": "Sound bar design",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Wall mountable sound bar",
+          "count": 76
+        },
+        {
+          "label": "Cinematic sound bar",
+          "count": 67
+        },
+        {
+          "label": "Sound bar with wireless sub",
+          "count": 58
+        },
+        {
+          "label": "Single sound bar",
+          "count": 45
+        },
+        {
+          "label": "All-in-one sound bar",
+          "count": 31
+        },
+        {
+          "label": "Compact sound bar",
+          "count": 31
+        },
+        {
+          "label": "Sound bar with rear speakers",
+          "count": 16
+        },
+        {
+          "label": "Sound bar with wired sub",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Connections",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Bluetooth",
+          "count": 100
+        },
+        {
+          "label": "Optical",
+          "count": 88
+        },
+        {
+          "label": "HDMI",
+          "count": 83
+        },
+        {
+          "label": "WiFi",
+          "count": 43
+        },
+        {
+          "label": "Aux-in",
+          "count": 43
+        },
+        {
+          "label": "HDMI with eARC",
+          "count": 42
+        },
+        {
+          "label": "4K pass-through",
+          "count": 33
+        },
+        {
+          "label": "Apple AirPlay",
+          "count": 31
+        },
+        {
+          "label": "Chromecast",
+          "count": 22
+        },
+        {
+          "label": "Spotify Connect",
+          "count": 19
+        },
+        {
+          "label": "Ethernet",
+          "count": 9
+        },
+        {
+          "label": "Co-axial",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Black",
+          "count": 125
+        },
+        {
+          "label": "White",
+          "count": 18
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 5
+        },
+        {
+          "label": "Blue",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Voice control",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Amazon Alexa",
+          "count": 29
+        },
+        {
+          "label": "Google Assistant",
+          "count": 14
+        },
+        {
+          "label": "Bixby",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Loved by Electriz",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Yes",
+          "count": 4
         }
       ]
     }

@@ -44,7 +44,7 @@ export interface FilterGroup {
 export interface CategoryData {
   categoryName: string;
   categorySlug: string;
-  breadcrumbs: string[];
+  breadcrumbs: { label: string; href: string }[];
   totalProducts: number;
   bannerImage?: string;
   bannerUrl?: string;
@@ -155,7 +155,7 @@ function countMatchingProducts(products: CategoryProduct[], groupName: string, l
       return false;
     }
 
-    if (groupName === "TV Technology") {
+    if (groupName === "Screen technology" || groupName === "TV Technology") {
       if (label === "LED") return /\bLED\b/.test(p.name) && !/(OLED|QLED|Mini\s*LED)/i.test(p.name);
       if (label === "QLED") return /QLED/i.test(p.name) && !/Neo\s*QLED/i.test(p.name);
       if (label === "Mini LED") return /Mini\s*LED|Miniled/i.test(p.name);
@@ -170,7 +170,7 @@ function countMatchingProducts(products: CategoryProduct[], groupName: string, l
       return name.includes(label.toLowerCase());
     }
 
-    if (groupName === "Refresh Rate") {
+    if (groupName === "Refresh rate" || groupName === "Refresh Rate") {
       const text = p.specs.join(" ") + " " + p.name;
       const hzMatch = label.match(/(\d+)\s*Hz/i);
       if (!hzMatch) return false;
@@ -186,14 +186,44 @@ function countMatchingProducts(products: CategoryProduct[], groupName: string, l
       return parseInt(hdmiMatch[1]) === fc;
     }
 
-    if (groupName === "Year of Release") return p.name.includes(label);
+    if (groupName === "Year" || groupName === "Year of Release") return p.name.includes(label);
 
-    if (groupName === "Smart TV Platform") {
+    if (groupName === "Smart platform" || groupName === "Smart TV Platform") {
       return (p.name + " " + p.specs.join(" ")).toLowerCase().includes(label.toLowerCase());
     }
 
-    // Generic text match for Type, Connectivity, Surround Sound, Water Resistance, etc.
-    const searchText = (p.name + " " + p.specs.join(" ")).toLowerCase();
+    if (groupName === "Energy rating") {
+      if (!p.energyRating) return false;
+      return p.energyRating.toUpperCase() === label.toUpperCase();
+    }
+
+    if (groupName === "Loved by Electriz") {
+      return p.badges.some((b) => b.toLowerCase().includes("loved by"));
+    }
+
+    if (groupName === "Popular screen sizes") {
+      const sizeMatches = Array.from(p.name.matchAll(/\b(\d{2,3})(?:"|″|\s)/g));
+      const size = sizeMatches.map((m) => parseInt(m[1])).find((n) => n >= 20 && n <= 120);
+      if (!size) return false;
+      if (label.includes("or more") || label.includes("and above")) {
+        const min = parseInt(label.match(/(\d+)/)?.[1] || "0");
+        return size >= min;
+      }
+      const rangeParts = label.match(/(\d+)[\s"]*\s*[-–]\s*(\d+)/);
+      if (rangeParts) return size >= parseInt(rangeParts[1]) && size <= parseInt(rangeParts[2]);
+      const exact = parseInt(label.match(/(\d+)/)?.[1] || "0");
+      if (exact) return size === exact;
+      return false;
+    }
+
+    if (groupName === "Guarantee") {
+      const specsText = p.specs.join(" ").toLowerCase();
+      return specsText.includes(label.toLowerCase());
+    }
+
+    // Generic text match — covers Type, Colour, Connections, Design, Features,
+    // Voice control, Sound enhancement, Tuner, Gaming, VESA, etc.
+    const searchText = (p.name + " " + p.specs.join(" ") + " " + p.badges.join(" ")).toLowerCase();
     return searchText.includes(label.toLowerCase());
   }).length;
 }
@@ -282,7 +312,11 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "Televisions",
       categorySlug: "televisions/tvs",
-      breadcrumbs: ["Home", "TV & Audio", "Televisions", "All Televisions"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "All TVs", href: "" },
+      ],
       totalProducts: data.products.length,
       bannerImage: banner.image,
       bannerUrl: banner.url,
@@ -297,7 +331,11 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "DVD, Blu-ray & Home Cinema",
       categorySlug: "dvd-blu-ray-and-home-cinema",
-      breadcrumbs: ["Home", "TV & Audio", "DVD, Blu-ray & Home Cinema"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "DVD, Blu-ray & Home Cinema", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -311,7 +349,12 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "Sound Bars",
       categorySlug: "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
-      breadcrumbs: ["Home", "TV & Audio", "DVD, Blu-ray & Home Cinema", "Home Cinema & Soundbars", "Sound Bars"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "DVD, Blu-ray & Home Cinema", href: "/tv-and-audio/dvd-blu-ray-and-home-cinema" },
+        { label: "Sound Bars", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -325,7 +368,11 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "HiFi & Speakers",
       categorySlug: "speakers-and-hi-fi-systems",
-      breadcrumbs: ["Home", "TV & Audio", "Speakers & Hi-Fi Systems"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "HiFi & Speakers", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -339,7 +386,11 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "TV Accessories",
       categorySlug: "tv-accessories",
-      breadcrumbs: ["Home", "TV & Audio", "TV Accessories"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "TV Accessories", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -353,7 +404,11 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "Digital & Smart TV",
       categorySlug: "digital-and-smart-tv",
-      breadcrumbs: ["Home", "TV & Audio", "Digital & Smart TV"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "Digital & Smart TV", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -367,7 +422,11 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "Headphones",
       categorySlug: "headphones/headphones",
-      breadcrumbs: ["Home", "TV & Audio", "Headphones", "Headphones"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "Headphones", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -381,7 +440,12 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "TV Wall Brackets",
       categorySlug: "tv-accessories/tv-wall-brackets-and-stands/tv-wall-brackets",
-      breadcrumbs: ["Home", "TV & Audio", "TV Accessories", "Wall Brackets & Stands", "TV Wall Brackets"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "TV Accessories", href: "/tv-and-audio/tv-accessories" },
+        { label: "TV Wall Brackets", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -395,7 +459,12 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "Cables & Accessories",
       categorySlug: "tv-accessories/cables-and-accessories",
-      breadcrumbs: ["Home", "TV & Audio", "TV Accessories", "Cables & Accessories"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "TV Accessories", href: "/tv-and-audio/tv-accessories" },
+        { label: "Cables & Accessories", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -409,7 +478,12 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "Remote Controls",
       categorySlug: "tv-accessories/remote-controls",
-      breadcrumbs: ["Home", "TV & Audio", "TV Accessories", "Remote Controls"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "TV Accessories", href: "/tv-and-audio/tv-accessories" },
+        { label: "Remote Controls", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -423,7 +497,12 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "TV Aerials",
       categorySlug: "tv-accessories/tv-aerials",
-      breadcrumbs: ["Home", "TV & Audio", "TV Accessories", "TV Aerials"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "TV Accessories", href: "/tv-and-audio/tv-accessories" },
+        { label: "TV Aerials", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -437,7 +516,11 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "Radios",
       categorySlug: "radios",
-      breadcrumbs: ["Home", "TV & Audio", "Radios"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "Radios", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -451,7 +534,12 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "Blu-ray & DVD Players",
       categorySlug: "dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players",
-      breadcrumbs: ["Home", "TV & Audio", "DVD, Blu-ray & Home Cinema", "Blu-ray & DVD Players"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "DVD, Blu-ray & Home Cinema", href: "/tv-and-audio/dvd-blu-ray-and-home-cinema" },
+        { label: "Blu-ray & DVD Players", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
@@ -465,12 +553,35 @@ const categoryMap: Record<string, () => CategoryData> = {
       ...data,
       categoryName: "Home Cinema Systems",
       categorySlug: "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems",
-      breadcrumbs: ["Home", "TV & Audio", "DVD, Blu-ray & Home Cinema", "Home Cinema & Soundbars", "Home Cinema Systems"],
+      breadcrumbs: [
+        { label: "Home", href: "/" },
+        { label: "TV & Audio", href: "/tv-and-audio" },
+        { label: "DVD, Blu-ray & Home Cinema", href: "/tv-and-audio/dvd-blu-ray-and-home-cinema" },
+        { label: "Home Cinema Systems", href: "" },
+      ],
       bannerImage: banner.image,
       bannerUrl: banner.url,
       bannerAlt: banner.alt,
     };
   },
+};
+
+// Slug → proper display name for meta titles
+export const categoryDisplayNames: Record<string, string> = {
+  "televisions/tvs": "Televisions",
+  "dvd-blu-ray-and-home-cinema": "DVD, Blu-ray & Home Cinema",
+  "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars": "Sound Bars",
+  "dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems": "Home Cinema Systems",
+  "dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players": "Blu-ray & DVD Players",
+  "speakers-and-hi-fi-systems": "HiFi & Speakers",
+  "tv-accessories": "TV Accessories",
+  "tv-accessories/cables-and-accessories": "Cables & Accessories",
+  "tv-accessories/remote-controls": "Remote Controls",
+  "tv-accessories/tv-aerials": "TV Aerials",
+  "tv-accessories/tv-wall-brackets-and-stands/tv-wall-brackets": "TV Wall Brackets",
+  "digital-and-smart-tv": "Digital & Smart TV",
+  "headphones/headphones": "Headphones",
+  "radios": "Radios",
 };
 
 // URL aliases — map alternate URL paths to existing categoryMap keys
@@ -584,7 +695,23 @@ function findParentAndFilter(slugSegments: string[]): CategoryData | null {
     let filtered: CategoryProduct[];
     let categoryName: string;
 
-    if (matchingBrandProduct) {
+    // Check if last segment is a screen size range (e.g., "24-31", "55-64", "90-and-more")
+    const sizeRangeMatch = lastSegment.match(/^(\d+)-(\d+)$/);
+    const sizeOrMoreMatch = lastSegment.match(/^(\d+)-and-more$/);
+
+    if (sizeRangeMatch || sizeOrMoreMatch) {
+      const minSize = parseInt(sizeRangeMatch ? sizeRangeMatch[1] : sizeOrMoreMatch![1]);
+      const maxSize = sizeRangeMatch ? parseInt(sizeRangeMatch[2]) : Infinity;
+      filtered = parentData.products.filter((p) => {
+        const sizeMatches = Array.from(p.name.matchAll(/\b(\d{2,3})(?:"|″|\s)/g));
+        const size = sizeMatches.map((m) => parseInt(m[1])).find((n) => n >= 20 && n <= 120);
+        if (!size) return false;
+        return size >= minSize && size <= maxSize;
+      });
+      categoryName = sizeOrMoreMatch
+        ? `${minSize}" or More TVs`
+        : `${minSize}" - ${maxSize}" TVs`;
+    } else if (matchingBrandProduct) {
       // Brand filtering
       const brand = matchingBrandProduct.brand;
       filtered = parentData.products.filter((p) => p.brand === brand);
@@ -616,7 +743,7 @@ function findParentAndFilter(slugSegments: string[]): CategoryData | null {
         ...parentData,
         categoryName,
         categorySlug: slugSegments.join("/"),
-        breadcrumbs: [...parentData.breadcrumbs, categoryName],
+        breadcrumbs: [...parentData.breadcrumbs, { label: categoryName, href: "" }],
         products: filtered,
         totalProducts: filtered.length,
         filters: recalcFilters,
@@ -689,7 +816,7 @@ export interface ContentCard {
 export interface CategoryHubData {
   categoryName: string;
   categorySlug: string;
-  breadcrumbs: string[];
+  breadcrumbs: { label: string; href: string }[];
   carouselBanners: HubBanner[];
   subcategoryIcons: SubcategoryIcon[];
   sidebar: {

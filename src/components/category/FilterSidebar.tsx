@@ -84,7 +84,7 @@ function FilterGroupComponent({
                 onChange={() => onToggle(option.label)}
                 className="w-4 h-4 rounded border-border-light accent-primary"
               />
-              <span className="flex items-center gap-1.5 text-xs text-text-primary">
+              <span className="flex items-center gap-1.5 text-sm text-text-primary">
                 {group.type === "rating" ? (
                   <>
                     <StarRow filled={parseInt(option.label)} />
@@ -122,7 +122,6 @@ export default function FilterSidebar({ filters, onFilterChange, activeFilters =
     <aside className="w-[240px] flex-shrink-0">
       <div className="card p-4">
         <h2 className="text-lg font-bold text-text-primary mb-4">Filters</h2>
-
         {/* Hide out of stock toggle */}
         <div className="flex items-center justify-between border-b border-border py-3">
           <span className="text-xs text-text-primary">Hide out of stock</span>
@@ -149,7 +148,7 @@ export default function FilterSidebar({ filters, onFilterChange, activeFilters =
         {/* Filter groups — ordered to match reference: Rating, Brand, then rest */}
         {[...filters]
           .sort((a, b) => {
-            const order = ["Customer Rating", "Brand", "Price", "Screen Size", "TV Technology", "Resolution", "Refresh Rate"];
+            const order = ["Customer Rating", "Brand", "Price", "Type", "Screen Size", "Screen technology", "Resolution", "Refresh rate", "Smart platform", "Smart TV apps", "Voice control", "Gaming", "Gaming Technology", "Sound enhancement", "Picture & contrast enhancement", "Design features", "LED backlighting", "Tuner", "Energy rating", "Colour", "Guarantee", "Year", "Loved by Electriz", "Accessibility features", "Premium audio technology", "Sound bar design", "Connections", "Design", "Features", "Compatible voice assistant", "Popular screen sizes", "VESA", "Max. weight", "Suitable for curved TVs", "Length", "Number of devices controlled", "4K Ultra HD", "Recording"];
             const ai = order.indexOf(a.name);
             const bi = order.indexOf(b.name);
             return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);

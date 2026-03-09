@@ -5,7 +5,346 @@
   "scrapedAt": "2026-03-06T15:51:31.171Z",
   "totalProducts": 16,
   "siteReportedTotal": 20,
-  "filters": [],
+  "filters": [
+    {
+      "name": "Hide out of stock",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": []
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5 or more",
+          "count": 12
+        },
+        {
+          "label": "4 or more",
+          "count": 136
+        },
+        {
+          "label": "3 or more",
+          "count": 140
+        },
+        {
+          "label": "2 or more",
+          "count": 141
+        },
+        {
+          "label": "1 or more",
+          "count": 143
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 47
+        },
+        {
+          "label": "£40 to £59.99",
+          "count": 36
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 33
+        },
+        {
+          "label": "£100 to £499",
+          "count": 82
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "ROBERTS",
+          "count": 67
+        },
+        {
+          "label": "GROOV-E",
+          "count": 28
+        },
+        {
+          "label": "PURE",
+          "count": 19
+        },
+        {
+          "label": "MAJORITY",
+          "count": 16
+        },
+        {
+          "label": "SHARP",
+          "count": 12
+        },
+        {
+          "label": "TIVOLI",
+          "count": 12
+        },
+        {
+          "label": "LENCO",
+          "count": 7
+        },
+        {
+          "label": "OAKCASTLE",
+          "count": 6
+        },
+        {
+          "label": "LOGIK",
+          "count": 5
+        },
+        {
+          "label": "CROSLEY",
+          "count": 3
+        },
+        {
+          "label": "RUARK",
+          "count": 3
+        },
+        {
+          "label": "I-BOX",
+          "count": 2
+        },
+        {
+          "label": "IN PHASE",
+          "count": 2
+        },
+        {
+          "label": "JBL",
+          "count": 2
+        },
+        {
+          "label": "JVC",
+          "count": 2
+        },
+        {
+          "label": "LEXIBOOK",
+          "count": 2
+        },
+        {
+          "label": "PHILIPS",
+          "count": 2
+        },
+        {
+          "label": "ROAD ANGEL",
+          "count": 2
+        },
+        {
+          "label": "AKAI",
+          "count": 1
+        },
+        {
+          "label": "KENWOOD",
+          "count": 1
+        },
+        {
+          "label": "LLOYTRON",
+          "count": 1
+        },
+        {
+          "label": "MENKIND",
+          "count": 1
+        },
+        {
+          "label": "TINY AUDIO",
+          "count": 1
+        },
+        {
+          "label": "VQ",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "FM radios",
+          "count": 169
+        },
+        {
+          "label": "DAB radios",
+          "count": 141
+        },
+        {
+          "label": "Retro radios",
+          "count": 41
+        },
+        {
+          "label": "Clock radios",
+          "count": 36
+        },
+        {
+          "label": "Boomboxes",
+          "count": 27
+        },
+        {
+          "label": "Smart internet radio",
+          "count": 16
+        },
+        {
+          "label": "Analogue radios",
+          "count": 10
+        },
+        {
+          "label": "Car radios & adapters",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Tuner",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "FM",
+          "count": 194
+        },
+        {
+          "label": "DAB",
+          "count": 135
+        },
+        {
+          "label": "DAB+",
+          "count": 131
+        },
+        {
+          "label": "AM",
+          "count": 25
+        },
+        {
+          "label": "Internet radio",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "name": "Connections",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Bluetooth",
+          "count": 152
+        },
+        {
+          "label": "Aux in",
+          "count": 144
+        },
+        {
+          "label": "USB",
+          "count": 78
+        },
+        {
+          "label": "WiFi",
+          "count": 15
+        },
+        {
+          "label": "SD/microSD card slot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Features",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Alarm",
+          "count": 128
+        },
+        {
+          "label": "Retro design",
+          "count": 71
+        },
+        {
+          "label": "Wood finish",
+          "count": 37
+        },
+        {
+          "label": "CD player",
+          "count": 36
+        },
+        {
+          "label": "Qi wireless charging",
+          "count": 5
+        },
+        {
+          "label": "Cassette player",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Black",
+          "count": 82
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 33
+        },
+        {
+          "label": "White",
+          "count": 30
+        },
+        {
+          "label": "Brown",
+          "count": 27
+        },
+        {
+          "label": "Blue",
+          "count": 26
+        },
+        {
+          "label": "Cream",
+          "count": 16
+        },
+        {
+          "label": "Pink",
+          "count": 9
+        },
+        {
+          "label": "Green",
+          "count": 6
+        },
+        {
+          "label": "Red",
+          "count": 6
+        },
+        {
+          "label": "Yellow",
+          "count": 3
+        },
+        {
+          "label": "Patterned",
+          "count": 2
+        },
+        {
+          "label": "Orange",
+          "count": 1
+        }
+      ]
+    }
+  ],
   "products": [
     {
       "productId": "10246472",

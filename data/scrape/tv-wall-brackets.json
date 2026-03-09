@@ -6,7 +6,365 @@
   "totalProducts": 9,
   "siteReportedTotal": 345,
   "coverageNote": "SPA pagination: site reports 345, captured 9 from first page",
-  "filters": [],
+  "filters": [
+    {
+      "name": "Hide out of stock",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": []
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5 or more",
+          "count": 43
+        },
+        {
+          "label": "4 or more",
+          "count": 195
+        },
+        {
+          "label": "3 or more",
+          "count": 214
+        },
+        {
+          "label": "2 or more",
+          "count": 217
+        },
+        {
+          "label": "1 or more",
+          "count": 219
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 168
+        },
+        {
+          "label": "£40 to £59.99",
+          "count": 60
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 58
+        },
+        {
+          "label": "£100 to £499",
+          "count": 61
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "AVF",
+          "count": 59
+        },
+        {
+          "label": "VOGELS",
+          "count": 45
+        },
+        {
+          "label": "TTAP",
+          "count": 42
+        },
+        {
+          "label": "ONE FOR ALL",
+          "count": 35
+        },
+        {
+          "label": "MULTIBRACKETS",
+          "count": 21
+        },
+        {
+          "label": "PROPERAV",
+          "count": 21
+        },
+        {
+          "label": "VIVANCO",
+          "count": 20
+        },
+        {
+          "label": "TECH ART",
+          "count": 16
+        },
+        {
+          "label": "ROSS",
+          "count": 11
+        },
+        {
+          "label": "SANDSTROM",
+          "count": 11
+        },
+        {
+          "label": "SANUS",
+          "count": 11
+        },
+        {
+          "label": "TITAN",
+          "count": 10
+        },
+        {
+          "label": "PEERLESS-AV",
+          "count": 9
+        },
+        {
+          "label": "THOR",
+          "count": 7
+        },
+        {
+          "label": "LOGIK",
+          "count": 6
+        },
+        {
+          "label": "SONOS",
+          "count": 6
+        },
+        {
+          "label": "BARKAN",
+          "count": 3
+        },
+        {
+          "label": "KANTO AUDIO",
+          "count": 2
+        },
+        {
+          "label": "ALPHASON",
+          "count": 1
+        },
+        {
+          "label": "HAMA",
+          "count": 1
+        },
+        {
+          "label": "NANOLEAF",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Full Motion TV Brackets",
+          "count": 144
+        },
+        {
+          "label": "Tilt TV Brackets",
+          "count": 85
+        },
+        {
+          "label": "Fixed TV Brackets",
+          "count": 83
+        },
+        {
+          "label": "Tilt & Swivel TV Brackets",
+          "count": 40
+        },
+        {
+          "label": "Soundbar Brackets",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "name": "Popular screen sizes",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "24\"",
+          "count": 102
+        },
+        {
+          "label": "32\"",
+          "count": 184
+        },
+        {
+          "label": "40\"",
+          "count": 207
+        },
+        {
+          "label": "43\"",
+          "count": 218
+        },
+        {
+          "label": "50\"",
+          "count": 198
+        },
+        {
+          "label": "55\"",
+          "count": 191
+        },
+        {
+          "label": "65\"",
+          "count": 160
+        },
+        {
+          "label": "75\"",
+          "count": 106
+        },
+        {
+          "label": "85\"",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "name": "VESA",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "75 x 75",
+          "count": 105
+        },
+        {
+          "label": "100 x 100",
+          "count": 182
+        },
+        {
+          "label": "200 x 100",
+          "count": 147
+        },
+        {
+          "label": "200 x 200",
+          "count": 251
+        },
+        {
+          "label": "300 x 200",
+          "count": 155
+        },
+        {
+          "label": "300 x 300",
+          "count": 172
+        },
+        {
+          "label": "400 x 200",
+          "count": 167
+        },
+        {
+          "label": "400 x 300",
+          "count": 151
+        },
+        {
+          "label": "400 x 400",
+          "count": 194
+        },
+        {
+          "label": "600 x 400",
+          "count": 126
+        },
+        {
+          "label": "100 x 400",
+          "count": 30
+        },
+        {
+          "label": "100 x 600",
+          "count": 22
+        },
+        {
+          "label": "200 x 400",
+          "count": 107
+        },
+        {
+          "label": "800 x 400",
+          "count": 25
+        },
+        {
+          "label": "800 x 600",
+          "count": 12
+        },
+        {
+          "label": "800 x 800",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "Max. weight",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Up to 10 kg",
+          "count": 168
+        },
+        {
+          "label": "Up to 15 kg",
+          "count": 59
+        },
+        {
+          "label": "Up to 20 kg",
+          "count": 165
+        },
+        {
+          "label": "Up to 30 kg",
+          "count": 147
+        },
+        {
+          "label": "Up to 40 kg",
+          "count": 103
+        },
+        {
+          "label": "Up to 50 kg",
+          "count": 77
+        },
+        {
+          "label": "51 kg or more",
+          "count": 77
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Black",
+          "count": 318
+        },
+        {
+          "label": "White",
+          "count": 25
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "name": "Suitable for curved TVs",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Yes",
+          "count": 76
+        },
+        {
+          "label": "No",
+          "count": 248
+        }
+      ]
+    }
+  ],
   "products": [
     {
       "productId": "10138713",

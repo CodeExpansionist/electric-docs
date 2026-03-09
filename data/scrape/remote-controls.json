@@ -5,7 +5,132 @@
   "scrapedAt": "2026-03-06T15:51:31.171Z",
   "totalProducts": 15,
   "siteReportedTotal": 25,
-  "filters": [],
+  "filters": [
+    {
+      "name": "Hide out of stock",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": []
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5 or more",
+          "count": 4
+        },
+        {
+          "label": "4 or more",
+          "count": 19
+        },
+        {
+          "label": "3 or more",
+          "count": 21
+        },
+        {
+          "label": "2 or more",
+          "count": 21
+        },
+        {
+          "label": "1 or more",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "ONE FOR ALL",
+          "count": 20
+        },
+        {
+          "label": "SKY",
+          "count": 3
+        },
+        {
+          "label": "VIVANCO",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Universal remotes",
+          "count": 22
+        },
+        {
+          "label": "Sky remotes",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Number of devices controlled",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "1",
+          "count": 11
+        },
+        {
+          "label": "2",
+          "count": 5
+        },
+        {
+          "label": "3",
+          "count": 1
+        },
+        {
+          "label": "4",
+          "count": 3
+        },
+        {
+          "label": "5",
+          "count": 1
+        },
+        {
+          "label": "6 or more",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Black",
+          "count": 24
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 1
+        }
+      ]
+    }
+  ],
   "products": [
     {
       "productId": "10192567",

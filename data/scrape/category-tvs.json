@@ -12,6 +12,186 @@
       "options": []
     },
     {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5 or more",
+          "count": 26
+        },
+        {
+          "label": "4 or more",
+          "count": 371
+        },
+        {
+          "label": "3 or more",
+          "count": 375
+        },
+        {
+          "label": "2 or more",
+          "count": 376
+        },
+        {
+          "label": "1 or more",
+          "count": 377
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Smart TVs",
+          "count": 401
+        },
+        {
+          "label": "4K HDR TVs",
+          "count": 349
+        },
+        {
+          "label": "4K ultra HD TVs",
+          "count": 349
+        },
+        {
+          "label": "QLED TVs",
+          "count": 153
+        },
+        {
+          "label": "Freely TVs",
+          "count": 115
+        },
+        {
+          "label": "LED TVs",
+          "count": 110
+        },
+        {
+          "label": "OLED TVs",
+          "count": 97
+        },
+        {
+          "label": "Mini LED TVs",
+          "count": 86
+        },
+        {
+          "label": "Neo QLED TVs",
+          "count": 35
+        },
+        {
+          "label": "Full HD TVs",
+          "count": 27
+        },
+        {
+          "label": "QNED TVs",
+          "count": 27
+        },
+        {
+          "label": "HD ready TVs",
+          "count": 20
+        },
+        {
+          "label": "Lifestyle TVs",
+          "count": 18
+        },
+        {
+          "label": "NanoCell TVs",
+          "count": 13
+        },
+        {
+          "label": "Smart TV projectors",
+          "count": 9
+        },
+        {
+          "label": "Frame TV",
+          "count": 8
+        },
+        {
+          "label": "8K TVs",
+          "count": 6
+        },
+        {
+          "label": "Laser TVs",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £199.99",
+          "count": 38
+        },
+        {
+          "label": "£200 to £399.99",
+          "count": 72
+        },
+        {
+          "label": "£400 to £499.99",
+          "count": 24
+        },
+        {
+          "label": "£500 to £999.99",
+          "count": 94
+        },
+        {
+          "label": "£1000 and over",
+          "count": 184
+        }
+      ]
+    },
+    {
+      "name": "Screen Size",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "24\"-31\"",
+          "count": 9
+        },
+        {
+          "label": "32\"-38\"",
+          "count": 23
+        },
+        {
+          "label": "39\"-45\"",
+          "count": 47
+        },
+        {
+          "label": "46\"-54\"",
+          "count": 39
+        },
+        {
+          "label": "55\"-64\"",
+          "count": 67
+        },
+        {
+          "label": "65\"-74\"",
+          "count": 82
+        },
+        {
+          "label": "75\"-79\"",
+          "count": 69
+        },
+        {
+          "label": "80\"-84\"",
+          "count": 12
+        },
+        {
+          "label": "85\"-89\"",
+          "count": 35
+        },
+        {
+          "label": "90\" and over",
+          "count": 26
+        }
+      ]
+    },
+    {
       "name": "Brand",
       "isExpanded": true,
       "type": "checkbox",
@@ -21,23 +201,23 @@
           "count": 103
         },
         {
-          "label": "Samsung",
-          "count": 90
+          "label": "SAMSUNG",
+          "count": 87
         },
         {
-          "label": "Hisense",
-          "count": 69
+          "label": "HISENSE",
+          "count": 67
         },
         {
           "label": "TCL",
           "count": 47
         },
         {
-          "label": "Sony",
-          "count": 37
+          "label": "SONY",
+          "count": 36
         },
         {
-          "label": "Philips",
+          "label": "PHILIPS",
           "count": 26
         },
         {
@@ -45,70 +225,569 @@
           "count": 12
         },
         {
-          "label": "Panasonic",
+          "label": "PANASONIC",
           "count": 12
         },
         {
-          "label": "Sharp",
+          "label": "SHARP",
           "count": 10
         },
         {
-          "label": "Toshiba",
-          "count": 9
+          "label": "TOSHIBA",
+          "count": 8
         },
         {
-          "label": "Logik",
+          "label": "LOEWE",
           "count": 2
         },
         {
-          "label": "Loewe",
+          "label": "LOGIK",
           "count": 2
         }
       ]
     },
     {
-      "name": "Price",
+      "name": "Sound enhancement",
       "isExpanded": true,
       "type": "checkbox",
       "options": [
         {
-          "label": "Up to £100",
-          "count": 1
+          "label": "Acoustic Multi-Audio",
+          "count": 14
         },
         {
-          "label": "£100 to £300",
-          "count": 74
+          "label": "Acoustic Surface Audio",
+          "count": 14
         },
         {
-          "label": "£300 to £500",
-          "count": 58
+          "label": "AI sound enhancement",
+          "count": 139
         },
         {
-          "label": "£500 to £1,000",
-          "count": 100
+          "label": "Built-in sound bar",
+          "count": 2
         },
         {
-          "label": "£1,000 and above",
-          "count": 186
+          "label": "Dolby Atmos",
+          "count": 276
+        },
+        {
+          "label": "DTS Virtual:X",
+          "count": 45
+        },
+        {
+          "label": "Object Tracking Sound",
+          "count": 86
+        },
+        {
+          "label": "Sound by Bowers and Wilkins",
+          "count": 2
         }
       ]
     },
     {
-      "name": "Customer Rating",
-      "isExpanded": false,
-      "type": "rating",
+      "name": "Smart TV apps",
+      "isExpanded": true,
+      "type": "checkbox",
       "options": [
         {
-          "label": "5 stars & above",
-          "count": 26
+          "label": "Channel 5",
+          "count": 348
         },
         {
-          "label": "4 stars & above",
+          "label": "Apple TV",
+          "count": 346
+        },
+        {
+          "label": "BBC iPlayer",
+          "count": 378
+        },
+        {
+          "label": "Channel 4",
+          "count": 348
+        },
+        {
+          "label": "Disney+",
           "count": 375
         },
         {
-          "label": "3 stars & above",
-          "count": 381
+          "label": "ITVX",
+          "count": 350
+        },
+        {
+          "label": "Netflix",
+          "count": 406
+        },
+        {
+          "label": "NOW",
+          "count": 335
+        },
+        {
+          "label": "Paramount+",
+          "count": 310
+        },
+        {
+          "label": "Prime Video",
+          "count": 404
+        },
+        {
+          "label": "Spotify",
+          "count": 314
+        },
+        {
+          "label": "TNT Sports",
+          "count": 104
+        },
+        {
+          "label": "YouTube",
+          "count": 404
+        }
+      ]
+    },
+    {
+      "name": "Screen technology",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "QLED",
+          "count": 156
+        },
+        {
+          "label": "LED",
+          "count": 106
+        },
+        {
+          "label": "OLED",
+          "count": 97
+        },
+        {
+          "label": "Mini-LED",
+          "count": 86
+        },
+        {
+          "label": "Neo QLED",
+          "count": 35
+        },
+        {
+          "label": "QNED",
+          "count": 27
+        },
+        {
+          "label": "NanoCell",
+          "count": 13
+        },
+        {
+          "label": "QD-OLED",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "Picture & contrast enhancement",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "AI picture enhancement",
+          "count": 216
+        },
+        {
+          "label": "Anti-reflective screen",
+          "count": 71
+        },
+        {
+          "label": "Dolby Vision",
+          "count": 230
+        },
+        {
+          "label": "Filmmaker mode",
+          "count": 147
+        },
+        {
+          "label": "HDR10",
+          "count": 404
+        },
+        {
+          "label": "HDR10+",
+          "count": 224
+        },
+        {
+          "label": "Hybrid Log-Gamma (HLG)",
+          "count": 387
+        },
+        {
+          "label": "IMAX Enhanced",
+          "count": 92
+        },
+        {
+          "label": "Netflix Calibrated Mode",
+          "count": 62
+        }
+      ]
+    },
+    {
+      "name": "Gaming",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Best for gaming",
+          "count": 231
+        },
+        {
+          "label": "Better for gaming",
+          "count": 31
+        },
+        {
+          "label": "Good for gaming",
+          "count": 83
+        }
+      ]
+    },
+    {
+      "name": "Refresh rate",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "120 Hz",
+          "count": 219
+        },
+        {
+          "label": "60 Hz",
+          "count": 188
+        },
+        {
+          "label": "144 Hz",
+          "count": 45
+        },
+        {
+          "label": "165 Hz",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "name": "Tuner",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Freesat HD",
+          "count": 187
+        },
+        {
+          "label": "Freeview HD",
+          "count": 86
+        },
+        {
+          "label": "IPTV",
+          "count": 110
+        }
+      ]
+    },
+    {
+      "name": "Resolution",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "4K",
+          "count": 359
+        },
+        {
+          "label": "Full HD",
+          "count": 42
+        },
+        {
+          "label": "8K",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "name": "Design features",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Ultra-thin",
+          "count": 27
+        },
+        {
+          "label": "Ambilight",
+          "count": 21
+        },
+        {
+          "label": "Multi-position stand",
+          "count": 19
+        },
+        {
+          "label": "Lifestyle",
+          "count": 18
+        },
+        {
+          "label": "Media connection box",
+          "count": 14
+        },
+        {
+          "label": "Outdoor",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Energy rating",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "C",
+          "count": 4
+        },
+        {
+          "label": "D",
+          "count": 25
+        },
+        {
+          "label": "E",
+          "count": 138
+        },
+        {
+          "label": "F",
+          "count": 154
+        },
+        {
+          "label": "G",
+          "count": 81
+        }
+      ]
+    },
+    {
+      "name": "Smart platform",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Freely",
+          "count": 123
+        },
+        {
+          "label": "TV PLUS",
+          "count": 86
+        },
+        {
+          "label": "Google TV",
+          "count": 72
+        },
+        {
+          "label": "Freeview Play",
+          "count": 49
+        },
+        {
+          "label": "YouView",
+          "count": 36
+        },
+        {
+          "label": "Fire TV",
+          "count": 26
+        },
+        {
+          "label": "Titan OS",
+          "count": 24
+        },
+        {
+          "label": "Roku TV",
+          "count": 11
+        },
+        {
+          "label": "Android TV",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Voice control",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Amazon Alexa",
+          "count": 280
+        },
+        {
+          "label": "Bixby",
+          "count": 85
+        },
+        {
+          "label": "Google Assistant",
+          "count": 61
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Black",
+          "count": 295
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 143
+        },
+        {
+          "label": "Brown",
+          "count": 11
+        },
+        {
+          "label": "White",
+          "count": 10
+        },
+        {
+          "label": "Blue",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "LED backlighting",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Directlit",
+          "count": 138
+        },
+        {
+          "label": "Edgelit",
+          "count": 39
+        },
+        {
+          "label": "Direct full array",
+          "count": 6
+        },
+        {
+          "label": "Full array",
+          "count": 6
+        },
+        {
+          "label": "Local dimming",
+          "count": 2
+        },
+        {
+          "label": "Full array local dimming",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Guarantee",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "5 years",
+          "count": 156
+        },
+        {
+          "label": "2 years",
+          "count": 125
+        },
+        {
+          "label": "1 year",
+          "count": 109
+        }
+      ]
+    },
+    {
+      "name": "Year",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "2025",
+          "count": 341
+        },
+        {
+          "label": "2024",
+          "count": 42
+        },
+        {
+          "label": "2023",
+          "count": 8
+        },
+        {
+          "label": "2026",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Gaming Technology",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "HDMI 2.1 or above",
+          "count": 259
+        },
+        {
+          "label": "AI enhancement",
+          "count": 137
+        },
+        {
+          "label": "AMD FreeSync",
+          "count": 111
+        },
+        {
+          "label": "Cloud gaming",
+          "count": 83
+        },
+        {
+          "label": "NVIDIA G-Sync",
+          "count": 56
+        }
+      ]
+    },
+    {
+      "name": "Loved by Electriz",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Yes",
+          "count": 42
+        }
+      ]
+    },
+    {
+      "name": "Accessibility features",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Audio description",
+          "count": 202
+        },
+        {
+          "label": "Colour / contrast modes",
+          "count": 181
+        },
+        {
+          "label": "Subtitles / closed captions",
+          "count": 181
+        },
+        {
+          "label": "Screen reader / TalkBack",
+          "count": 177
+        },
+        {
+          "label": "Screen / text magnification",
+          "count": 151
         }
       ]
     }

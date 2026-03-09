@@ -5,7 +5,246 @@
   "scrapedAt": "2026-03-06T15:51:31.171Z",
   "totalProducts": 20,
   "siteReportedTotal": 22,
-  "filters": [],
+  "filters": [
+    {
+      "name": "Hide out of stock",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": []
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "4 or more",
+          "count": 19
+        },
+        {
+          "label": "3 or more",
+          "count": 19
+        },
+        {
+          "label": "2 or more",
+          "count": 19
+        },
+        {
+          "label": "1 or more",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "£100 to £499",
+          "count": 13
+        },
+        {
+          "label": "£500 to £999",
+          "count": 7
+        },
+        {
+          "label": "£1000 and over",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "SONY",
+          "count": 9
+        },
+        {
+          "label": "BOSE",
+          "count": 5
+        },
+        {
+          "label": "SAMSUNG",
+          "count": 2
+        },
+        {
+          "label": "SONOS",
+          "count": 2
+        },
+        {
+          "label": "JBL",
+          "count": 1
+        },
+        {
+          "label": "KLIPSCH",
+          "count": 1
+        },
+        {
+          "label": "MARSHALL",
+          "count": 1
+        },
+        {
+          "label": "YAMAHA",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Premium audio technology",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Dolby Atmos",
+          "count": 4
+        },
+        {
+          "label": "Upward-firing speakers",
+          "count": 4
+        },
+        {
+          "label": "Smart sound multi-room",
+          "count": 3
+        },
+        {
+          "label": "Speech enhancement tech",
+          "count": 3
+        },
+        {
+          "label": "DTS:X",
+          "count": 2
+        },
+        {
+          "label": "High-Resolution Audio",
+          "count": 2
+        },
+        {
+          "label": "DTS Virtual:X",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Sound bar design",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Sound bar with rear speakers",
+          "count": 5
+        },
+        {
+          "label": "Cinematic sound bar",
+          "count": 3
+        },
+        {
+          "label": "Sound bar with wireless sub",
+          "count": 3
+        },
+        {
+          "label": "Sound bar with wired sub",
+          "count": 2
+        },
+        {
+          "label": "Wall mountable sound bar",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Connections",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Bluetooth",
+          "count": 8
+        },
+        {
+          "label": "WiFi",
+          "count": 8
+        },
+        {
+          "label": "HDMI",
+          "count": 6
+        },
+        {
+          "label": "Optical",
+          "count": 5
+        },
+        {
+          "label": "4K pass-through",
+          "count": 5
+        },
+        {
+          "label": "Apple AirPlay",
+          "count": 3
+        },
+        {
+          "label": "Aux-in",
+          "count": 3
+        },
+        {
+          "label": "Ethernet",
+          "count": 3
+        },
+        {
+          "label": "Chromecast",
+          "count": 2
+        },
+        {
+          "label": "Spotify Connect",
+          "count": 2
+        },
+        {
+          "label": "HDMI with eARC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Black",
+          "count": 18
+        },
+        {
+          "label": "White",
+          "count": 3
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Voice control",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Amazon Alexa",
+          "count": 1
+        },
+        {
+          "label": "Bixby",
+          "count": 1
+        },
+        {
+          "label": "Google Assistant",
+          "count": 1
+        }
+      ]
+    }
+  ],
   "products": [
     {
       "productId": "10207764",

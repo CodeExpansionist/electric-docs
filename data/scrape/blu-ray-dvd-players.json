@@ -5,7 +5,256 @@
   "scrapedAt": "2026-03-06T15:51:31.171Z",
   "totalProducts": 20,
   "siteReportedTotal": 20,
-  "filters": [],
+  "filters": [
+    {
+      "name": "Hide out of stock",
+      "isExpanded": true,
+      "type": "toggle",
+      "options": []
+    },
+    {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5 or more",
+          "count": 3
+        },
+        {
+          "label": "4 or more",
+          "count": 15
+        },
+        {
+          "label": "3 or more",
+          "count": 16
+        },
+        {
+          "label": "2 or more",
+          "count": 17
+        },
+        {
+          "label": "1 or more",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 3
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 9
+        },
+        {
+          "label": "£100 to £499",
+          "count": 7
+        },
+        {
+          "label": "£500 to £999",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "PANASONIC",
+          "count": 7
+        },
+        {
+          "label": "LEXIBOOK",
+          "count": 4
+        },
+        {
+          "label": "GROOV-E",
+          "count": 3
+        },
+        {
+          "label": "SONY",
+          "count": 3
+        },
+        {
+          "label": "OAKCASTLE",
+          "count": 2
+        },
+        {
+          "label": "MAJORITY",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Blu-ray players",
+          "count": 8
+        },
+        {
+          "label": "Portable DVD players",
+          "count": 8
+        },
+        {
+          "label": "4K Ultra HD Blu-ray players",
+          "count": 5
+        },
+        {
+          "label": "DVD players",
+          "count": 4
+        },
+        {
+          "label": "3D Blu-ray players",
+          "count": 2
+        },
+        {
+          "label": "Blu-ray recorders",
+          "count": 2
+        },
+        {
+          "label": "4K Ultra HD Blu-ray recorders",
+          "count": 1
+        },
+        {
+          "label": "DVD recorders",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Connections",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "USB",
+          "count": 18
+        },
+        {
+          "label": "HDMI",
+          "count": 12
+        },
+        {
+          "label": "Ethernet",
+          "count": 9
+        },
+        {
+          "label": "WiFi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Black",
+          "count": 16
+        },
+        {
+          "label": "Blue",
+          "count": 3
+        },
+        {
+          "label": "White",
+          "count": 2
+        },
+        {
+          "label": "Pink",
+          "count": 1
+        },
+        {
+          "label": "Red",
+          "count": 1
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "4K Ultra HD",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "4K upscaling",
+          "count": 6
+        },
+        {
+          "label": "4K playback",
+          "count": 4
+        },
+        {
+          "label": "4K with HDR",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Features",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "High-Resolution Audio",
+          "count": 7
+        },
+        {
+          "label": "Smart apps",
+          "count": 4
+        },
+        {
+          "label": "Dolby Atmos",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Recording",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "DVD",
+          "count": 3
+        },
+        {
+          "label": "Hard drive",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Tuner",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Freeview Play",
+          "count": 2
+        },
+        {
+          "label": "Freeview HD",
+          "count": 1
+        }
+      ]
+    }
+  ],
   "products": [
     {
       "productId": "12872098",

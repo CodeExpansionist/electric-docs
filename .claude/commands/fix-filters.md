@@ -97,24 +97,39 @@ Rating filtering is already implemented. Verify threshold comparisons are inclus
 products.filter(p => p.rating.average >= threshold)
 ```
 
-### 5b. Verify category-specific filter groups
+### 5b. Verify filter groups match reference site
 
-Some categories have specialized filter groups beyond brand/price/rating. Read `project-config.md` 'Domain-Specific Filters' table to identify which categories have extra filters.
+Filter data should be scraped from the reference site, not generated algorithmically. Check:
 
-For each category-specific filter group:
+1. Read `project-config.md` 'Domain-Specific Filters' table for the expected filter groups per category
+2. Compare the `filters` array in each category JSON against the expected groups
+3. If groups are missing, re-scrape using `scripts/scrape-category-filters.js`:
+   - Run `node scripts/scrape-category-filters.js urls` to get scrape targets
+   - Scrape each listing page with Firecrawl (markdown format, stealth proxy, GB locale)
+   - Parse with `node scripts/scrape-category-filters.js parse <markdown-file>`
+   - Merge with `node scripts/scrape-category-filters.js merge <slug> <json-file>`
 
-1. Verify the filter options match values actually present in product data
-2. Verify the matching logic (exact match vs contains vs regex)
-3. Verify filter counts are correct
+### 5c. Verify category-specific filter handlers
 
-Common examples by vertical:
+Each filter group needs a matching handler in BOTH:
+- `countMatchingProducts()` in the category data module (recalculates counts)
+- `filteredProducts` useMemo in the category page component (applies filters)
 
-- **Electronics**: technology type, resolution, connectivity ports, platform
-- **Fashion**: size, color, material, fit type
-- **Home/furniture**: dimensions, material, room type, style
-- **Food/grocery**: dietary (vegan, gluten-free), organic, allergen info
+**These MUST stay in sync** — identical matching logic in both locations.
 
-Also verify that subcategory keyword filtering in the category data module correctly narrows products within parent categories (e.g., a subcategory within a parent category only shows products matching its keyword criteria).
+Handler types by matching strategy:
+- **Exact field match**: Brand (→ `p.brand`), Energy rating (→ `p.energyRating`)
+- **Range parsing**: Price (parse currency + range), Screen Size / Popular screen sizes (extract inches from name)
+- **Threshold**: Customer Rating (→ `p.rating.average >= stars`)
+- **Regex with exclusions**: Screen technology (LED must not match OLED/QLED/Mini LED)
+- **Spec extraction**: Refresh rate (parse Hz from specs), Number of HDMI Ports (parse "HDMI x N")
+- **Badge check**: "Loved by {brand}" (→ `p.badges` array)
+- **Text in specs**: Guarantee, Year (→ match literal text in `p.specs`)
+- **Generic text search**: everything else (→ case-insensitive substring in `p.name + p.specs + p.badges`)
+
+When adding a new handler, ALWAYS add it in both files and verify the handler name exactly matches the filter group name in the category JSON.
+
+Also verify that subcategory keyword filtering in the category data module correctly narrows products within parent categories.
 
 ### 6. Verify filter counts
 

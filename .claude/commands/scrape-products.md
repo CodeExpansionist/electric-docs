@@ -117,6 +117,27 @@ After scraping each category, verify completeness:
 
 This prevents the 4-round incremental scraping trap that consumed ~40% of total session time on the Electric project. Scrape exhaustively FIRST, validate SECOND, build THIRD.
 
+### 2c. Scrape filter sidebars
+
+For each listing-page category (NOT hub pages — they have no filters on the reference site):
+
+1. Scrape the listing page in **markdown** format with stealth proxy and locale settings
+2. Use browser actions to expand collapsed filter accordion sections before extraction
+3. Parse filter groups from the markdown: group name, option labels, option counts
+4. Classify each filter type: checkbox (most), range (price), rating (stars), toggle (hide out of stock)
+5. Exclude non-applicable groups: "Delivery & Collection", "Collect from store", "Availability"
+6. Replace reference brand name with project brand name (e.g., "Loved by {reference-brand}" → "Loved by {brand}")
+7. Write the `filters` array into the category JSON file
+
+The `scripts/scrape-category-filters.js` script automates parsing and merging. Run `node scripts/scrape-category-filters.js urls` for the category URL list.
+
+**Validation per category:**
+- Filter group count matches the reference site
+- Every option has a non-empty label and numeric count > 0
+- No duplicate filter group names
+
+**Hub pages** (subcategory navigation only, no filter sidebar on reference): keep algorithmically generated Brand/Price/Rating filters from `buildFilters()` in `save-all-categories.js`.
+
 **SPA pagination note:** Some e-commerce sites are JavaScript SPAs where `?page=N` parameters return the same first-page results. If pagination produces duplicate products, try: scrolling/loading more results via Firecrawl actions, or extracting product URLs from the sitemap via `firecrawl_map`.
 
 ### 3. Deduplicate across categories

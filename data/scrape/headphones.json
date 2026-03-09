@@ -12,17 +12,71 @@
       "options": []
     },
     {
+      "name": "Customer Rating",
+      "isExpanded": true,
+      "type": "rating",
+      "options": [
+        {
+          "label": "5 or more",
+          "count": 66
+        },
+        {
+          "label": "4 or more",
+          "count": 368
+        },
+        {
+          "label": "3 or more",
+          "count": 412
+        },
+        {
+          "label": "2 or more",
+          "count": 418
+        },
+        {
+          "label": "1 or more",
+          "count": 433
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "isExpanded": true,
+      "type": "range",
+      "options": [
+        {
+          "label": "Up to £39.99",
+          "count": 334
+        },
+        {
+          "label": "£40 to £59.99",
+          "count": 130
+        },
+        {
+          "label": "£60 to £99.99",
+          "count": 131
+        },
+        {
+          "label": "£100 to £499",
+          "count": 233
+        },
+        {
+          "label": "£500 to £999",
+          "count": 2
+        }
+      ]
+    },
+    {
       "name": "Brand",
       "isExpanded": true,
       "type": "checkbox",
       "options": [
         {
-          "label": "Sony",
+          "label": "SONY",
           "count": 64
         },
         {
-          "label": "FRESH",
-          "count": 57
+          "label": "FRESH N REBEL",
+          "count": 54
         },
         {
           "label": "JVC",
@@ -33,47 +87,47 @@
           "count": 44
         },
         {
-          "label": "JLab",
-          "count": 39
+          "label": "JLAB",
+          "count": 32
         },
         {
-          "label": "Streetz",
+          "label": "STREETZ",
           "count": 31
         },
         {
-          "label": "Soundcore",
+          "label": "SOUNDCORE",
           "count": 28
         },
         {
-          "label": "HAPPY",
+          "label": "HAPPY PLUGS",
           "count": 26
         },
         {
-          "label": "Bose",
-          "count": 25
-        },
-        {
-          "label": "Beats",
+          "label": "BEATS",
           "count": 24
         },
         {
-          "label": "Groov-e",
+          "label": "BELKIN",
           "count": 24
         },
         {
-          "label": "Belkin",
+          "label": "BOSE",
           "count": 24
         },
         {
-          "label": "Nothing",
+          "label": "GROOV-E",
+          "count": 24
+        },
+        {
+          "label": "NOTHING",
           "count": 20
         },
         {
-          "label": "Skullcandy",
+          "label": "SKULLCANDY",
           "count": 19
         },
         {
-          "label": "HOUSE",
+          "label": "HOUSE OF MARLEY",
           "count": 17
         },
         {
@@ -85,19 +139,23 @@
           "count": 15
         },
         {
+          "label": "1MORE",
+          "count": 14
+        },
+        {
           "label": "KEYBUDZ",
           "count": 14
         },
         {
-          "label": "Sennheiser",
-          "count": 13
-        },
-        {
-          "label": "Shokz",
-          "count": 13
-        },
-        {
           "label": "GOJI",
+          "count": 13
+        },
+        {
+          "label": "SENNHEISER",
+          "count": 13
+        },
+        {
+          "label": "SHOKZ",
           "count": 13
         },
         {
@@ -109,19 +167,19 @@
           "count": 12
         },
         {
-          "label": "Apple",
+          "label": "APPLE",
           "count": 11
         },
         {
-          "label": "ALTEC",
+          "label": "ALTEC LANSING",
           "count": 10
         },
         {
-          "label": "SOUNDMAGIC",
-          "count": 9
+          "label": "BOWERS & WILKINS",
+          "count": 10
         },
         {
-          "label": "FINAL",
+          "label": "BEYERDYNAMIC",
           "count": 9
         },
         {
@@ -129,24 +187,12 @@
           "count": 9
         },
         {
-          "label": "BEYERDYNAMIC",
+          "label": "FINAL AUDIO",
           "count": 9
         },
         {
-          "label": "Samsung",
-          "count": 8
-        },
-        {
-          "label": "Lazerbuilt",
-          "count": 8
-        },
-        {
-          "label": "Google",
-          "count": 8
-        },
-        {
-          "label": "STORYPHONES",
-          "count": 8
+          "label": "SOUNDMAGIC",
+          "count": 9
         },
         {
           "label": "AIAIAI",
@@ -157,11 +203,19 @@
           "count": 8
         },
         {
-          "label": "Daewoo",
-          "count": 7
+          "label": "GOOGLE",
+          "count": 8
         },
         {
-          "label": "DYSON",
+          "label": "SAMSUNG",
+          "count": 8
+        },
+        {
+          "label": "STORYPHONES",
+          "count": 8
+        },
+        {
+          "label": "DAEWOO",
           "count": 7
         },
         {
@@ -169,23 +223,35 @@
           "count": 7
         },
         {
-          "label": "OUR",
+          "label": "JLAB AUDIO",
           "count": 7
         },
         {
-          "label": "Marshall",
+          "label": "OUR PURE PLANET",
+          "count": 7
+        },
+        {
+          "label": "DYSON",
           "count": 6
         },
         {
-          "label": "PIONEER",
+          "label": "LAZERBUILT",
           "count": 6
         },
         {
-          "label": "TONIES",
-          "count": 5
+          "label": "MARSHALL",
+          "count": 6
+        },
+        {
+          "label": "PIONEER DJ",
+          "count": 6
         },
         {
           "label": "JUICE",
+          "count": 5
+        },
+        {
+          "label": "TONIES",
           "count": 5
         },
         {
@@ -193,27 +259,31 @@
           "count": 4
         },
         {
-          "label": "BOWERS&WILKINS",
-          "count": 4
-        },
-        {
           "label": "FAIRPHONE",
           "count": 4
-        },
-        {
-          "label": "Majority",
-          "count": 3
         },
         {
           "label": "HMD",
           "count": 3
         },
         {
-          "label": "CLEER",
+          "label": "MAJORITY",
           "count": 3
         },
         {
-          "label": "RODE",
+          "label": "ASUS",
+          "count": 2
+        },
+        {
+          "label": "AUDEZE",
+          "count": 2
+        },
+        {
+          "label": "BOOMPODS",
+          "count": 2
+        },
+        {
+          "label": "CLEER",
           "count": 2
         },
         {
@@ -221,15 +291,15 @@
           "count": 2
         },
         {
-          "label": "Yamaha",
+          "label": "HONOR",
           "count": 2
         },
         {
-          "label": "KANTO",
+          "label": "KANTO AUDIO",
           "count": 2
         },
         {
-          "label": "AUDEZE",
+          "label": "LOGIK",
           "count": 2
         },
         {
@@ -241,43 +311,23 @@
           "count": 2
         },
         {
-          "label": "BOOMPODS",
+          "label": "RODE",
           "count": 2
         },
         {
-          "label": "Logik",
+          "label": "YAMAHA",
           "count": 2
-        },
-        {
-          "label": "HONOR",
-          "count": 2
-        },
-        {
-          "label": "ASUS",
-          "count": 2
-        },
-        {
-          "label": "Sonos",
-          "count": 1
         },
         {
           "label": "AMAZFIT",
           "count": 1
         },
         {
-          "label": "MAONO",
+          "label": "CLEER AUDIO",
           "count": 1
         },
         {
-          "label": "WE",
-          "count": 1
-        },
-        {
-          "label": "MENKIND",
-          "count": 1
-        },
-        {
-          "label": "HERCULES",
+          "label": "FIIL",
           "count": 1
         },
         {
@@ -285,7 +335,7 @@
           "count": 1
         },
         {
-          "label": "Philips",
+          "label": "HERCULES",
           "count": 1
         },
         {
@@ -293,50 +343,298 @@
           "count": 1
         },
         {
-          "label": "FIIL",
+          "label": "MAONO",
+          "count": 1
+        },
+        {
+          "label": "MENKIND",
+          "count": 1
+        },
+        {
+          "label": "PHILIPS",
+          "count": 1
+        },
+        {
+          "label": "SONOS",
+          "count": 1
+        },
+        {
+          "label": "WE ARE REWIND",
           "count": 1
         }
       ]
     },
     {
-      "name": "Price",
+      "name": "Type",
       "isExpanded": true,
       "type": "checkbox",
       "options": [
         {
-          "label": "Up to £100",
-          "count": 599
+          "label": "Wireless and bluetooth headphones",
+          "count": 625
         },
         {
-          "label": "£100 to £300",
-          "count": 202
+          "label": "Wireless earbuds",
+          "count": 438
         },
         {
-          "label": "£300 to £500",
-          "count": 26
+          "label": "In-ear headphones",
+          "count": 412
         },
         {
-          "label": "£500 to £1,000",
-          "count": 1
+          "label": "Noise cancelling headphones",
+          "count": 310
+        },
+        {
+          "label": "Over-ear headphones",
+          "count": 219
+        },
+        {
+          "label": "On-ear headphones",
+          "count": 107
+        },
+        {
+          "label": "Wired headphones",
+          "count": 96
+        },
+        {
+          "label": "Ear-hook headphones",
+          "count": 68
+        },
+        {
+          "label": "Kids headphones",
+          "count": 65
+        },
+        {
+          "label": "Sports headphones",
+          "count": 57
+        },
+        {
+          "label": "Open ear headphones",
+          "count": 41
+        },
+        {
+          "label": "Ambient headphones",
+          "count": 32
+        },
+        {
+          "label": "Waterproof headphones",
+          "count": 24
+        },
+        {
+          "label": "Airpods",
+          "count": 21
+        },
+        {
+          "label": "Headphone accessories",
+          "count": 19
+        },
+        {
+          "label": "Neckband headphones",
+          "count": 17
+        },
+        {
+          "label": "Bone conduction headphones",
+          "count": 9
         }
       ]
     },
     {
-      "name": "Customer Rating",
-      "isExpanded": false,
-      "type": "rating",
+      "name": "Design",
+      "isExpanded": true,
+      "type": "checkbox",
       "options": [
         {
-          "label": "5 stars & above",
+          "label": "In-ear",
+          "count": 444
+        },
+        {
+          "label": "True wireless",
+          "count": 432
+        },
+        {
+          "label": "Over-ear",
+          "count": 218
+        },
+        {
+          "label": "On-ear",
+          "count": 125
+        },
+        {
+          "label": "Ear-hook",
+          "count": 71
+        },
+        {
+          "label": "Suitable for kids",
+          "count": 59
+        },
+        {
+          "label": "Neckband",
+          "count": 19
+        },
+        {
+          "label": "Bone conduction",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Black",
+          "count": 299
+        },
+        {
+          "label": "White",
+          "count": 144
+        },
+        {
+          "label": "Blue",
+          "count": 119
+        },
+        {
+          "label": "Silver/Grey",
+          "count": 87
+        },
+        {
+          "label": "Pink",
+          "count": 73
+        },
+        {
+          "label": "Green",
+          "count": 40
+        },
+        {
+          "label": "Cream",
+          "count": 39
+        },
+        {
+          "label": "Purple",
+          "count": 35
+        },
+        {
+          "label": "Red",
+          "count": 23
+        },
+        {
+          "label": "Patterned",
+          "count": 22
+        },
+        {
+          "label": "Yellow",
+          "count": 18
+        },
+        {
+          "label": "Orange",
+          "count": 15
+        },
+        {
+          "label": "Gold",
+          "count": 13
+        },
+        {
+          "label": "Brown",
+          "count": 9
+        },
+        {
+          "label": "Clear",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Features",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Mic",
+          "count": 718
+        },
+        {
+          "label": "Playback / functions control",
+          "count": 586
+        },
+        {
+          "label": "Volume control",
+          "count": 534
+        },
+        {
+          "label": "All-day battery life (24 hours or more)",
+          "count": 470
+        },
+        {
+          "label": "Water / sweat resistant",
+          "count": 376
+        },
+        {
+          "label": "Quick charging",
+          "count": 364
+        },
+        {
+          "label": "Active noise-cancelling",
+          "count": 336
+        },
+        {
+          "label": "Multipoint connection",
+          "count": 212
+        },
+        {
+          "label": "Foldable",
+          "count": 189
+        },
+        {
+          "label": "Passive noise-isolating",
+          "count": 171
+        },
+        {
+          "label": "Quick attention mode",
+          "count": 165
+        },
+        {
+          "label": "Spatial audio",
+          "count": 78
+        },
+        {
+          "label": "Wireless charging",
           "count": 64
         },
         {
-          "label": "4 stars & above",
-          "count": 371
+          "label": "Waterproof",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "name": "Compatible voice assistant",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Siri",
+          "count": 336
         },
         {
-          "label": "3 stars & above",
-          "count": 412
+          "label": "Google Assistant",
+          "count": 317
+        },
+        {
+          "label": "Amazon Alexa",
+          "count": 114
+        }
+      ]
+    },
+    {
+      "name": "Loved by Electriz",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        {
+          "label": "Yes",
+          "count": 11
         }
       ]
     }
