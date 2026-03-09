@@ -18,8 +18,8 @@ const path = require("path");
 // ---------------------------------------------------------------------------
 // Paths
 // ---------------------------------------------------------------------------
-const EXTRACTED_PATH = "/tmp/all-extracted-products.json";
-const TV_IDS_PATH = "/tmp/tv-product-ids.json";
+const EXTRACTED_PATH = path.resolve(__dirname, "../data/tmp/all-extracted-products.json");
+const TV_IDS_PATH = path.resolve(__dirname, "../data/tmp/tv-product-ids.json");
 const CATEGORY_TVS_PATH = path.resolve(
   __dirname,
   "../data/scrape/category-tvs.json"

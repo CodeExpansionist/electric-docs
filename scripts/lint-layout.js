@@ -6,14 +6,14 @@
  */
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 
 const SRC_DIR = path.join(__dirname, '..', 'src');
 let warnings = 0;
 let errors = 0;
 
 // Find all .tsx files
-const files = execSync(`find ${SRC_DIR} -name "*.tsx" -type f`, { encoding: 'utf8' })
+const files = execFileSync('find', [SRC_DIR, '-name', '*.tsx', '-type', 'f'], { encoding: 'utf8' })
   .trim()
   .split('\n')
   .filter(Boolean);

@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Error({
   reset,
 }: {
@@ -37,12 +39,12 @@ export default function Error({
           >
             Try again
           </button>
-          <a
+          <Link
             href="/"
             className="btn-outline text-sm no-underline"
           >
             Go to homepage
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
+import { categoryDisplayNames } from "@/lib/category-data";
 
 interface Props {
-  params: { category: string[] };
+  params: Promise<{ category: string[] }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const segments = params.category;
-  const lastSegment = segments[segments.length - 1];
-  const categoryName = lastSegment
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
+  const { category } = await params;
+  const segments = category;
+  const slug = segments.join("/");
+  const categoryName = categoryDisplayNames[slug]
+    || segments[segments.length - 1]
+        .replace(/-/g, " ")
+        .replace(/\b\w/g, (c) => c.toUpperCase());
 
   return {
     title: `${categoryName} | TV & Audio`,

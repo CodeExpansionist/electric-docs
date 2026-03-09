@@ -17,6 +17,7 @@ import EssentialServices from "@/components/product/EssentialServices";
 import CrossSellProducts from "@/components/product/CrossSellProducts";
 import BuyTogetherBundle from "@/components/product/BuyTogetherBundle";
 import StickyProductHeader from "@/components/product/StickyProductHeader";
+import ViewTracker from "@/components/product/ViewTracker";
 
 // ---- Helpers ----
 
@@ -116,7 +117,7 @@ function CollapsibleSection({
         onClick={() => setOpen(!open)}
         className="flex items-center justify-between w-full py-4"
       >
-        <span className="text-base font-bold text-text-primary">{title}</span>
+        <span className="text-lg font-bold text-text-primary">{title}</span>
         <svg
           width="20"
           height="20"
@@ -409,9 +410,10 @@ function ProductPageContent({
         </div>
       )}
     <div className="container-main py-4">
+      <ViewTracker productId={productId} />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
 
       {/* Sticky header */}
@@ -422,7 +424,7 @@ function ProductPageContent({
       />
 
       {/* Breadcrumbs */}
-      <nav className="flex items-center gap-2 text-sm text-text-secondary mb-2.5 flex-wrap">
+      <nav className="flex items-center gap-2 text-xs text-text-secondary mb-2.5 flex-wrap">
         {breadcrumbs.map((crumb, i) => (
           <span key={i} className="flex items-center gap-2">
             {i > 0 && <span>&gt;</span>}
@@ -464,7 +466,7 @@ function ProductPageContent({
                 <Image
                   key={i}
                   src={badge.image}
-                  alt={badge.type}
+                  alt={badge.type || ""}
                   width={80}
                   height={24}
                   className="h-6 w-auto object-contain"
@@ -472,7 +474,8 @@ function ProductPageContent({
                 />
               );
             }
-            const isEpicDeal = badge.type.toLowerCase().includes("epic deal");
+            const badgeType = badge.type || "";
+            const isEpicDeal = badgeType.toLowerCase().includes("epic deal");
             return (
               <span
                 key={i}
@@ -482,7 +485,7 @@ function ProductPageContent({
                     : "border border-border text-text-primary"
                 }`}
               >
-                {badge.type}
+                {badgeType}
               </span>
             );
           })}
@@ -568,7 +571,7 @@ function ProductPageContent({
               </div>
               {/* Additional spec bullets (from keySpecs overflow + category specs) */}
               {(() => {
-                const keySpecLabels = new Set(product.keySpecs!.slice(0, 4).map(s => s.label.toLowerCase()));
+                const keySpecLabels = new Set(product.keySpecs!.slice(0, 4).map(s => (s.label || "").toLowerCase()));
                 const extraKeySpecs = product.keySpecs!.slice(4).map(s => s.label);
                 const extraCategorySpecs = product.specs.filter(s => !keySpecLabels.has(s.toLowerCase()));
                 const allExtra = [...extraKeySpecs, ...extraCategorySpecs];
@@ -922,7 +925,7 @@ function ProductPageContent({
 
         <CollapsibleSection title="Reviews">
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-3xl font-bold">
+            <span className="text-2xl font-bold">
               {product.rating.average}
             </span>
             <div>

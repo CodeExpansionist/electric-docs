@@ -12,16 +12,12 @@ interface PageData {
 }
 
 function loadPageData(slug: string[]): PageData | null {
+  const baseDir = path.join(process.cwd(), "data", "scrape", "pages");
   const slugPath = slug.join("__");
-  const filePath = path.join(
-    process.cwd(),
-    "data",
-    "scrape",
-    "pages",
-    `${slugPath}.json`
-  );
+  const resolved = path.resolve(baseDir, `${slugPath}.json`);
+  if (!resolved.startsWith(baseDir + path.sep)) return null;
   try {
-    const raw = fs.readFileSync(filePath, "utf-8");
+    const raw = fs.readFileSync(resolved, "utf-8");
     return JSON.parse(raw);
   } catch {
     return null;

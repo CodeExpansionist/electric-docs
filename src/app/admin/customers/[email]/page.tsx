@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { use, useMemo } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useOrders, type Order } from "@/lib/orders-context";
@@ -8,8 +8,9 @@ import StatsCard from "@/components/admin/StatsCard";
 import StatusBadge from "@/components/admin/StatusBadge";
 import DataTable, { type Column } from "@/components/admin/DataTable";
 
-export default function CustomerDetailPage({ params }: { params: { email: string } }) {
-  const email = decodeURIComponent(params.email);
+export default function CustomerDetailPage({ params }: { params: Promise<{ email: string }> }) {
+  const { email: rawEmail } = use(params);
+  const email = decodeURIComponent(rawEmail);
   const { orders } = useOrders();
   const router = useRouter();
 

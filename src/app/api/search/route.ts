@@ -6,8 +6,8 @@ export async function GET(request: NextRequest) {
   const query = searchParams.get("q") || "";
   const mode = searchParams.get("mode") || "results"; // "results" | "suggest"
   const sort = searchParams.get("sort") || "relevant";
-  const page = parseInt(searchParams.get("page") || "1", 10);
-  const limit = parseInt(searchParams.get("limit") || "20", 10);
+  const page = Math.max(1, parseInt(searchParams.get("page") || "1", 10) || 1);
+  const limit = Math.min(100, Math.max(1, parseInt(searchParams.get("limit") || "20", 10) || 20));
 
   if (!query.trim()) {
     return NextResponse.json({ results: [], total: 0, suggestions: [] });

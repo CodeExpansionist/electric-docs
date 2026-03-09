@@ -103,17 +103,24 @@ export function filterByDateRange(orders: Order[], range: "7d" | "30d" | "all"):
   return orders.filter((o) => now - new Date(o.date).getTime() <= ms);
 }
 
+function escapeCSVField(value: string | number): string {
+  const str = String(value);
+  const needsQuoting = str.includes(",") || str.includes('"') || str.includes("\n") || /^[=+\-@\t\r]/.test(str);
+  if (!needsQuoting) return str;
+  return `"${str.replace(/"/g, '""')}"`;
+}
+
 export function ordersToCSV(orders: Order[]): string {
   const header = "Order Number,Date,Customer,Email,Items,Total,Status";
   const rows = orders.map((o) =>
     [
-      o.orderNumber,
-      new Date(o.date).toLocaleDateString("en-GB"),
-      `${o.delivery.firstName} ${o.delivery.lastName}`,
-      o.customer.email,
-      o.items.length,
-      o.total.toFixed(2),
-      o.status,
+      escapeCSVField(o.orderNumber),
+      escapeCSVField(new Date(o.date).toLocaleDateString("en-GB")),
+      escapeCSVField(`${o.delivery.firstName} ${o.delivery.lastName}`),
+      escapeCSVField(o.customer.email),
+      escapeCSVField(o.items.length),
+      escapeCSVField(o.total.toFixed(2)),
+      escapeCSVField(o.status),
     ].join(",")
   );
   return [header, ...rows].join("\n");

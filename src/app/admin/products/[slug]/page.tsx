@@ -1,12 +1,14 @@
 "use client";
 
+import { use } from "react";
 import Link from "next/link";
 import { getProductBySlug } from "@/lib/product-data";
 import StarRating from "@/components/ui/StarRating";
 import ProductImage from "@/components/admin/ProductImage";
 
-export default function AdminProductDetailPage({ params }: { params: { slug: string } }) {
-  const slug = decodeURIComponent(params.slug);
+export default function AdminProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug: rawSlug } = use(params);
+  const slug = decodeURIComponent(rawSlug);
   const product = getProductBySlug(slug);
 
   if (!product) {

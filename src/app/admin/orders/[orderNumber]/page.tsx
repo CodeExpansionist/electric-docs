@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { use, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useOrders } from "@/lib/orders-context";
@@ -50,9 +50,10 @@ function StatusTimeline({ current }: { current: string }) {
   );
 }
 
-export default function OrderDetailPage({ params }: { params: { orderNumber: string } }) {
+export default function OrderDetailPage({ params }: { params: Promise<{ orderNumber: string }> }) {
+  const { orderNumber } = use(params);
   const { orders, updateOrderStatus } = useOrders();
-  const order = orders.find((o) => o.orderNumber === params.orderNumber);
+  const order = orders.find((o) => o.orderNumber === orderNumber);
   const [toast, setToast] = useState<string | null>(null);
 
   if (!order) {
@@ -165,6 +166,12 @@ export default function OrderDetailPage({ params }: { params: { orderNumber: str
             <span className="text-text-secondary">Delivery</span>
             <span>{order.deliveryCost === 0 ? "FREE" : `£${order.deliveryCost.toFixed(2)}`}</span>
           </div>
+          {order.promoDiscount && order.promoDiscount > 0 && (
+            <div className="flex justify-between text-sm">
+              <span className="text-green-600">Promo ({order.promoCode})</span>
+              <span className="text-green-600">-£{order.promoDiscount.toFixed(2)}</span>
+            </div>
+          )}
           <div className="flex justify-between text-base font-bold border-t border-border pt-2">
             <span>Total</span>
             <span>£{order.total.toLocaleString("en-GB", { minimumFractionDigits: 2 })}</span>
@@ -176,6 +183,9 @@ export default function OrderDetailPage({ params }: { params: { orderNumber: str
       <div className="card p-5">
         <h3 className="text-sm font-bold text-text-primary mb-3">Payment</h3>
         <p className="text-sm text-text-secondary">{order.paymentMethod}</p>
+        {order.promoCode && (
+          <p className="text-sm text-green-600 mt-1">Promo applied: {order.promoCode} (-£{order.promoDiscount?.toFixed(2)})</p>
+        )}
         <p className="text-sm text-text-secondary mt-1">Estimated delivery: {order.estimatedDelivery}</p>
       </div>
     </div>
