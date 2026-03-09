@@ -71,7 +71,7 @@ Test search functionality end-to-end.
 
 ### Flow 4: Category Filters
 
-Test filter and sort interactions on category page.
+Test filter and sort interactions on category page. For deep filter verification (data integrity, handler sync, count accuracy, edge cases), use `/test-filters` instead.
 
 **Steps:**
 1. Navigate to `/{section-slug}/{category-slug}` (a category with multiple brands, using section slug from `project-config.md`)
