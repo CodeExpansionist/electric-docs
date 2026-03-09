@@ -117,6 +117,12 @@ function OrderCard({ order }: { order: Order }) {
               <span className="text-text-secondary">Delivery</span>
               <span>{order.deliveryCost === 0 ? "FREE" : `£${order.deliveryCost.toFixed(2)}`}</span>
             </div>
+            {order.promoDiscount && order.promoDiscount > 0 && (
+              <div className="flex justify-between text-xs">
+                <span className="text-green-600">Promo ({order.promoCode})</span>
+                <span className="text-green-600">-£{order.promoDiscount.toFixed(2)}</span>
+              </div>
+            )}
             <div className="flex justify-between text-sm font-bold border-t border-border pt-2 mt-2">
               <span>Total</span>
               <span>£{order.total.toLocaleString("en-GB", { minimumFractionDigits: 2 })}</span>

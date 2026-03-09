@@ -83,9 +83,10 @@ function PaymentPageContent() {
   const deliveryCity = searchParams.get("city") || "London";
   const customerEmail = searchParams.get("email") || "john.smith@email.com";
 
-  const subtotal = basket.items.reduce((sum, item) => sum + item.product.price.current * item.quantity, 0) || 1698;
-  const deliveryCost = subtotal > 40 ? 0 : 3.99;
-  const total = subtotal + deliveryCost;
+  const subtotal = basket.subtotal;
+  const deliveryCost = basket.deliveryCost;
+  const promoDiscount = basket.promoDiscount || 0;
+  const total = basket.total;
 
   // Format card number with spaces
   const formatCardNumber = (value: string) => {
@@ -173,6 +174,7 @@ function PaymentPageContent() {
         },
         customer: { email: customerEmail },
         paymentMethod: payMethod,
+        ...(basket.promoCode && { promoCode: basket.promoCode, promoDiscount: basket.promoDiscount }),
         estimatedDelivery: estDate.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }),
       });
 
@@ -343,7 +345,7 @@ function PaymentPageContent() {
                 <button
                   onClick={handlePlaceOrder}
                   disabled={isSubmitting}
-                  className="btn-primary w-full text-base py-3.5 disabled:opacity-60"
+                  className="btn-primary w-full text-base font-bold py-3.5 disabled:opacity-60"
                 >
                   {isSubmitting ? (
                     <span className="flex items-center justify-center gap-2">
@@ -543,6 +545,12 @@ function PaymentPageContent() {
                   <span className="text-text-secondary">Delivery</span>
                   <span className="text-text-primary">{deliveryCost === 0 ? "FREE" : `£${deliveryCost.toFixed(2)}`}</span>
                 </div>
+                {promoDiscount > 0 && (
+                  <div className="flex justify-between">
+                    <span className="text-green-600">Promo ({basket.promoCode})</span>
+                    <span className="text-green-600">-£{promoDiscount.toFixed(2)}</span>
+                  </div>
+                )}
                 <div className="flex justify-between pt-2 border-t border-border">
                   <span className="font-bold text-text-primary text-base">Total</span>
                   <span className="font-bold text-text-primary text-base">£{total.toLocaleString("en-GB", { minimumFractionDigits: 2 })}</span>

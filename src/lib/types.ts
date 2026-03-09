@@ -84,22 +84,13 @@ export interface Category {
 
 /**
  * Product filter group displayed in the category sidebar.
- * The `toggle` type is handled separately in the UI (not rendered in FilterGroupComponent).
+ * Canonical definition lives in category-data.ts; this mirrors it for the Category interface.
  */
 export interface FilterGroup {
   name: string;
   type: "checkbox" | "range" | "rating" | "toggle";
-  collapsed: boolean;
-  hasTooltip: boolean;
-  options: FilterOption[];
-}
-
-export interface FilterOption {
-  label: string;
-  value: string;
-  /** Number of products matching this filter option. Recalculated from actual product data. */
-  count: number;
-  hasTooltip?: boolean;
+  isExpanded: boolean;
+  options: Array<{ label: string; count: number }>;
 }
 
 export interface BasketItem {

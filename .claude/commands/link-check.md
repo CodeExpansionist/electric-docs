@@ -79,6 +79,18 @@ Nav Link vs categoryMap:
 - /{section-slug}/{unknown-slug} → categoryMap["{unknown-slug}"] → NO MATCH (CRITICAL)
 ```
 
+### 2c. Check article/editorial content links
+
+If the site has article pages with user-authored markdown content:
+
+1. Read all article JSON files from `data/scrape/articles/`
+2. For each article, scan the `content` field for markdown links: `[text](url)`
+3. For each link found:
+   - Internal links (`/` prefix): verify the destination page exists (article slug or product slug)
+   - Dead hash links (`](#)`): flag as broken — should be stripped to plain text
+   - External URLs: flag as broken — renderer should handle as plain text
+4. Report any broken content links separately from page-level broken links
+
 ### 3. Find orphan pages
 
 Cross-reference crawled pages against:

@@ -4,7 +4,7 @@ const privacyLinks = [
   { text: "Privacy & cookies policy", url: "/privacy-cookies-policy" },
   { text: "Terms & conditions", url: "/terms-and-conditions" },
   { text: "Product recalls", url: "/product-recalls" },
-  { text: "Sitemap", url: "/sitemap" },
+  { text: "Sitemap", url: "/site-map" },
 ];
 
 function SocialIcon({ platform }: { platform: string }) {

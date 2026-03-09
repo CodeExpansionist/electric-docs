@@ -31,7 +31,7 @@ export default function MainNav() {
             <Link
               key={link.text}
               href={link.url}
-              className={`px-2.5 md:px-3.5 pt-4 pb-1.5 text-sm font-normal no-underline whitespace-nowrap transition-colors relative
+              className={`px-2.5 md:px-3.5 pt-4 pb-1.5 text-base font-normal no-underline whitespace-nowrap transition-colors relative
                 ${link.active
                   ? "text-primary border-b-[3px] border-primary"
                   : "text-text-primary hover:text-primary"}`}

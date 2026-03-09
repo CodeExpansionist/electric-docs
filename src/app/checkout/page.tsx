@@ -217,6 +217,7 @@ export default function CheckoutPage() {
         },
         customer: { email: customer.email },
         paymentMethod: "Visa ending 6411",
+        ...(basket.promoCode && { promoCode: basket.promoCode, promoDiscount: basket.promoDiscount }),
         estimatedDelivery: estDate.toLocaleDateString("en-GB", {
           day: "numeric",
           month: "short",

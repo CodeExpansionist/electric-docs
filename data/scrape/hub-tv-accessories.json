@@ -1,7 +1,11 @@
 {
   "categoryName": "TV accessories",
   "categorySlug": "tv-accessories",
-  "breadcrumbs": ["Home", "TV & Audio", "TV accessories"],
+  "breadcrumbs": [
+    {"label": "Home", "href": "/"},
+    {"label": "TV & Audio", "href": "/tv-and-audio"},
+    {"label": "TV Accessories", "href": ""}
+  ],
   "carouselBanners": [
     {
       "imageAlt": "Tech now, pay later.",

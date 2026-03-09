@@ -13,7 +13,7 @@ export default function ProductSpecs({ specifications }: ProductSpecsProps) {
     <div className="space-y-6">
       {categories.map(([heading, rows]) => (
         <div key={heading}>
-          <h4 className="text-sm font-semibold text-text-primary mb-2 uppercase tracking-wide">
+          <h4 className="text-lg font-bold text-text-primary mb-2 uppercase tracking-wide">
             {heading}
           </h4>
           <div className="border-t border-border">

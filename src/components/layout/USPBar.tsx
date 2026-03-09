@@ -45,7 +45,7 @@ function USPIcon({ type }: { type: string }) {
 
 export default function USPBar() {
   return (
-    <div className="bg-surface border-b border-border mb-4">
+    <div className="bg-surface border-b border-border">
       <div className="container-main">
         <div
           className="flex items-center justify-evenly py-2.5 overflow-x-auto scrollbar-hide focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-inset"
@@ -62,7 +62,7 @@ export default function USPBar() {
               <span className="text-primary flex-shrink-0">
                 <USPIcon type={item.icon} />
               </span>
-              <span className="text-xs whitespace-nowrap">{item.text}</span>
+              <span className="text-base font-medium whitespace-nowrap">{item.text}</span>
             </Link>
           ))}
         </div>

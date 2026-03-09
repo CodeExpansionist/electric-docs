@@ -1,7 +1,11 @@
 {
   "categoryName": "Home cinema, DVD & Blu-ray",
   "categorySlug": "dvd-blu-ray-and-home-cinema",
-  "breadcrumbs": ["Home", "TV & Audio", "Home cinema, DVD & Blu-ray"],
+  "breadcrumbs": [
+    {"label": "Home", "href": "/"},
+    {"label": "TV & Audio", "href": "/tv-and-audio"},
+    {"label": "DVD, Blu-ray & Home Cinema", "href": ""}
+  ],
   "carouselBanners": [
     {
       "imageAlt": "Shop Sony TVs now and get loads off selected Sony Dolby Atmos soundbars!",

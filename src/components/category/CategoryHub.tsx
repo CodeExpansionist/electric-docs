@@ -28,15 +28,15 @@ export default function CategoryHub({ data }: CategoryHubProps) {
         {data.breadcrumbs.map((crumb, i) => (
           <span key={i} className="flex items-center gap-2">
             {i > 0 && <span>&gt;</span>}
-            {i < data.breadcrumbs.length - 1 ? (
+            {crumb.href && i < data.breadcrumbs.length - 1 ? (
               <Link
-                href={i === 0 ? "/" : "/tv-and-audio"}
+                href={crumb.href}
                 className="hover:text-primary no-underline text-text-secondary"
               >
-                {crumb}
+                {crumb.label}
               </Link>
             ) : (
-              <span className="text-text-primary">{crumb}</span>
+              <span className="text-text-primary">{crumb.label}</span>
             )}
           </span>
         ))}

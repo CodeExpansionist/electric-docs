@@ -44,7 +44,7 @@
   }
 
   .pill-link {
-    @apply bg-white border border-border rounded-pill px-4 py-2
+    @apply bg-white border border-border rounded-lg px-4 py-2
            text-text-primary hover:border-primary hover:text-primary
            transition-colors inline-flex items-center gap-2;
   }

@@ -52,6 +52,9 @@ next-env.d.ts
 # data backups
 data/scrape-backup-*.tar.gz
 
+# runtime tracking data
+data/page-views.json
+
 # python cache
 __pycache__/
 

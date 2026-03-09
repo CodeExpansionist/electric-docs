@@ -1,0 +1,19 @@
+{
+  "slug": "how-to-update-airpods",
+  "title": "How to update AirPods firmware",
+  "category": "Audio",
+  "subcategory": "Audio",
+  "date": "9 May 2024",
+  "author": "Electriz TechTalk",
+  "excerpt": "You know those shiny new AirPods you've got? Well, they can get even better with regular firmware updates. These software downloads bring extra...",
+  "heroImage": "/images/articles/how-to-update-airpods/hero.webp",
+  "content": "You know those shiny new AirPods you've got? Well, they can get even better with regular firmware updates. These software downloads bring extra features, improvements, and bug fixes to your buds. And they're super simple to access too.\n\n## Why update your AirPods?\n\nThe latest AirPods firmware can improve everything from performance to battery life. The firmware is usually packed with new features too -- like spatial audio, or better connectivity. Plus, these updates come with important security fixes.\n\n## Preparing your AirPods for an update\n\n1. **Make sure your AirPods are charged** -- otherwise, they might die halfway through!\n2. **Connect your AirPods to your iOS gadget** -- they need to be connected to an iPhone or iPad running the latest version of iOS.\n\n## Checking the current firmware version\n\n1. Pop your AirPods in their case and flip open the lid.\n2. Bring your device close to the case. A pop-up window should appear showing the current firmware.\n\n## Starting the firmware update\n\n1. Keep your AirPods in their case and check they're connected to your iOS device.\n2. Make sure your iPhone or iPad is connected to Wi-Fi and has enough battery.\n3. Leave your AirPods case open and near your iOS device.\n4. Wait for the firmware update to be automatically downloaded and installed.\n\n## Troubleshooting update issues\n\n- **Restart your device** -- turning them off and on again can fix connectivity issues.\n- **Reset your AirPods** -- hold the setup button on the back of the case for about 15 seconds until the light flashes amber, then white.\n- **Check for iOS updates** -- AirPods firmware updates are often bundled with iOS updates.\n- **Contact Apple Support** -- if nothing else works.\n\n## FAQs\n\n### Do AirPods need to be updated?\n\nYou don't have to, but you'll miss out on the latest features and performance boosts.\n\n### How do you manually trigger an AirPods update?\n\nThere isn't a way to manually trigger it. Updates are sent automatically when connected to an iOS device with the latest software.\n\n### How do I update my AirPods' firmware without iOS?\n\nCurrently, the only way is through an iOS device running up-to-date software.",
+  "images": [
+    "/images/articles/how-to-update-airpods/image-001.webp",
+    "/images/articles/how-to-update-airpods/image-002.webp",
+    "/images/articles/how-to-update-airpods/image-003.webp",
+    "/images/articles/how-to-update-airpods/image-004.webp",
+    "/images/articles/how-to-update-airpods/image-005.webp"
+  ],
+  "relatedSlugs": []
+}

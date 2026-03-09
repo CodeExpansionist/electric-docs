@@ -1,7 +1,11 @@
 {
   "categoryName": "Speakers & Hi-Fi systems",
   "categorySlug": "speakers-and-hi-fi-systems",
-  "breadcrumbs": ["Home", "TV & Audio", "Speakers & Hi-Fi systems"],
+  "breadcrumbs": [
+    {"label": "Home", "href": "/"},
+    {"label": "TV & Audio", "href": "/tv-and-audio"},
+    {"label": "HiFi & Speakers", "href": ""}
+  ],
   "carouselBanners": [
     {
       "imageAlt": "LG xboom speakers with logo.",

@@ -250,13 +250,51 @@ For every page linked in the footer (help & support, delivery, returns, gift car
 
 Save each as: `data/scrape/pages/{slug}.json`
 
-### 5. Scrape mega-menu / navigation dropdowns
+### 5. Scrape articles / editorial content
+
+If the reference site has a blog, advice hub, or editorial section with individual article pages:
+
+1. **Identify all article URLs** from hub page JSON (`articleCards` array), sitemap, or by crawling the editorial section.
+
+2. **Scrape each article** using `firecrawl_scrape` with `onlyMainContent: true` and markdown format. Extract:
+   - Title, author, date, excerpt, category/subcategory
+   - Hero image URL
+   - Body content (markdown)
+   - Inline image URLs
+
+3. **Save each as:** `data/scrape/articles/{slug}.json`
+
+4. **Post-scrape link cleanup** — scraped article content will contain broken links. Run this audit on every article JSON immediately after scraping:
+
+   ```bash
+   # Find all broken link patterns in article content fields
+   grep -r '](#)' data/scrape/articles/          # Dead hash links (scraper stripped URLs)
+   grep -r '{reference-domain}' data/scrape/articles/  # External URLs the renderer will kill
+   grep -rP '/\w+/\w+/[\w-]+\.html' data/scrape/articles/  # Old URL formats with subcategory paths
+   ```
+
+   For each broken link found, determine its type and fix:
+
+   - **Cross-links to other articles:** Extract slug from old URL, check if a matching article JSON exists in `data/scrape/articles/`. If yes, rewrite as `/{editorial-section-slug}/{article-slug}`. If no match, strip to plain text.
+   - **Product links:** Extract product name or model number, search product catalog JSONs for a matching product. If found, rewrite as `/products/{product-slug}`. If not found, strip to plain text.
+   - **Generic/dead links** (`](#)` with vague anchor text like "click here", "learn more"): Strip to plain text — remove the markdown link syntax, keep only the display text.
+   - **External URLs** (YouTube, manufacturer sites, etc.): Strip to plain text.
+
+5. **Renderer safety fallback** — in the article page component's inline markdown renderer, ensure any link with a non-`/` href renders as **plain text** (not a dead `href="#"` anchor). This catches any links missed during cleanup:
+
+   ```
+   // If href doesn't start with "/", render display text only — no link element
+   ```
+
+6. **Verify cleanup is complete** — all three greps from step 4 should return zero matches.
+
+### 6. Scrape mega-menu / navigation dropdowns
 
 The main navigation has dropdown menus with subcategories, promotional images, and featured links. Scrape the full mega-menu structure and incorporate the data into the relevant hub page JSON files or the homepage JSON.
 
 **Note:** Navigation is hardcoded in components (`MainNav.tsx`, `SecondaryNav.tsx`) — do NOT create a separate `data/scrape/navigation.json` file. Instead, use the scraped mega-menu data to verify and update the navigation components directly.
 
-### 6. Output summary
+### 7. Output summary
 
 ```
 ## Content Scrape Report

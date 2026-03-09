@@ -445,7 +445,7 @@ function OrderSummary({
       {/* Checkout CTA */}
       <Link
         href="/checkout"
-        className="btn-primary w-full text-sm text-center block"
+        className="btn-primary w-full text-base font-bold text-center block"
       >
         Continue to checkout
       </Link>

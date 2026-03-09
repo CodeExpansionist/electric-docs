@@ -1,9 +1,15 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import EnergyRatingBadge from "@/components/ui/EnergyRatingBadge";
+import { useSaved } from "@/lib/saved-context";
+import type { Product } from "@/lib/types";
 
 interface ProductListCardProps {
+  productId?: string;
   title: string;
+  brand?: string;
   image?: string | null;
   price: number;
   wasPrice?: number | null;
@@ -51,8 +57,6 @@ function StarRating({ rating, count }: { rating: number; count: number }) {
 
 const BADGE_IMAGES: Record<string, { src: string; width: number; height: number }> = {
   "epic deal": { src: "/images/badges/epic-deal.png", width: 146, height: 48 },
-  "loved by electriz": { src: "/images/badges/loved-by-electriz.jpg", width: 180, height: 80 },
-  "loved by currys": { src: "/images/badges/loved-by-electriz.jpg", width: 180, height: 80 },
   "trade in": { src: "/images/badges/trade-in.png", width: 206, height: 48 },
   "dolby vision atmos": { src: "/images/badges/dolby-vision-atmos.jpg", width: 88, height: 60 },
   "dolby vision": { src: "/images/badges/dolby-vision.jpg", width: 88, height: 60 },
@@ -85,7 +89,6 @@ function BadgeTag({ badge }: { badge: string }) {
       />
     );
   }
-  // Default badge style for unrecognized badges
   return (
     <span className="bg-surface text-text-secondary text-[10px] font-semibold px-2 py-0.5 rounded">
       {badge}
@@ -94,7 +97,9 @@ function BadgeTag({ badge }: { badge: string }) {
 }
 
 export default function ProductListCard({
+  productId,
   title,
+  brand,
   image,
   price,
   wasPrice,
@@ -109,15 +114,45 @@ export default function ProductListCard({
   energyRating,
   energyLabelUrl,
 }: ProductListCardProps) {
+  const { addSaved, removeSaved, isSaved } = useSaved();
+  const saved = productId ? isSaved(productId) : false;
+
+  const handleSaveToggle = () => {
+    if (!productId) return;
+    if (saved) {
+      removeSaved(productId);
+    } else {
+      addSaved({
+        id: productId,
+        slug: url.replace(/^\//, ""),
+        title,
+        brand: brand || "",
+        category: "",
+        subcategory: "",
+        price: { current: price, was: wasPrice ?? undefined, savings: savings ?? undefined },
+        images: { main: image || "", gallery: [], thumbnail: "" },
+        specs: {},
+        keySpecs: specs,
+        description: "",
+        rating: { average: rating ?? 0, count: reviewCount ?? 0 },
+        deliveryInfo: { freeDelivery: deliveryFree, estimatedDate: "" },
+        badges: badges,
+        tags: [],
+        offers: offers.map((o) => ({ text: o })),
+        inStock: true,
+      } as Product);
+    }
+  };
+
   return (
     <div className="card p-4 md:p-5">
       <div className="flex flex-col sm:flex-row gap-4">
         {/* Image zone */}
-        <div className="w-full sm:w-[180px] md:w-[200px] flex-shrink-0">
+        <div className="w-full sm:w-[140px] md:w-[160px] flex-shrink-0">
           <Link href={url} className="no-underline">
-            <div className="aspect-square bg-white border border-border rounded-md flex items-center justify-center overflow-hidden">
+            <div className="aspect-square bg-white rounded-md flex items-center justify-center overflow-hidden">
               {image ? (
-                <Image src={image} alt={title} width={200} height={200} className="object-contain p-2" unoptimized />
+                <Image src={image} alt={title} width={160} height={160} className="object-contain p-2" unoptimized />
               ) : (
                 <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CDD8DF" strokeWidth="1">
                   <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -128,9 +163,9 @@ export default function ProductListCard({
             </div>
           </Link>
           {/* Badges below image */}
-          {badges.length > 0 && (
+          {badges.filter((b) => !b.toLowerCase().includes("loved by")).length > 0 && (
             <div className="flex flex-wrap gap-1.5 mt-2.5">
-              {badges.map((badge) => (
+              {badges.filter((b) => !b.toLowerCase().includes("loved by")).map((badge) => (
                 <BadgeTag key={badge} badge={badge} />
               ))}
             </div>
@@ -140,7 +175,7 @@ export default function ProductListCard({
         {/* Specs zone */}
         <div className="flex-1 min-w-0">
           <Link href={url} className="no-underline">
-            <h3 className="text-xl font-normal text-text-primary hover:text-primary transition-colors mb-1.5 leading-snug">
+            <h3 className="text-base font-bold text-text-primary hover:text-primary transition-colors mb-1.5 leading-snug">
               {title}
             </h3>
           </Link>
@@ -153,7 +188,7 @@ export default function ProductListCard({
 
           <ul className="space-y-1.5 mb-3">
             {specs.map((spec, i) => (
-              <li key={i} className="text-sm text-text-primary flex items-start gap-2">
+              <li key={i} className="text-sm text-text-secondary flex items-start gap-2">
                 <span className="text-text-muted mt-0.5 text-sm">•</span>
                 <span>{spec}</span>
               </li>
@@ -164,7 +199,6 @@ export default function ProductListCard({
           {offers.length > 0 && (
             <div className="border border-border rounded-md p-2.5 mt-2">
               {offers.map((offer, i) => {
-                // Split "+X more offers" from main text
                 const parts = offer.split(/(\+\d+ more offers?)/);
                 return (
                   <p key={i} className="text-xs text-text-primary">
@@ -186,7 +220,7 @@ export default function ProductListCard({
         {/* Price + actions zone */}
         <div className="w-full sm:w-[180px] md:w-[190px] flex-shrink-0 flex flex-col">
           <div className="mb-2">
-            <span className="text-xl font-bold text-text-primary">
+            <span className="text-2xl text-text-primary">
               £{price.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
             </span>
             {savings != null && savings > 0 && (
@@ -216,7 +250,7 @@ export default function ProductListCard({
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#008A00" strokeWidth="2.5" className="flex-shrink-0">
                 <polyline points="20 6 9 17 4 12" />
               </svg>
-              <span className="text-xs text-text-secondary">
+              <span className="text-sm text-text-secondary">
                 {deliveryFree ? "Delivery available" : "Delivery available"}
               </span>
             </div>
@@ -225,24 +259,23 @@ export default function ProductListCard({
           {/* View product button */}
           <Link
             href={url}
-            className="btn-outline w-full text-sm text-center no-underline block"
+            className="btn-outline w-full text-base font-bold text-center no-underline block"
           >
             View product
           </Link>
         </div>
       </div>
 
-      {/* Bottom row: Compare + Save for later */}
-      <div className="flex items-center justify-between mt-3 pt-3 border-t border-border">
-        <label className="flex items-center gap-2 text-xs text-primary cursor-pointer">
-          <input type="checkbox" className="accent-primary w-4 h-4 rounded" />
-          Compare
-        </label>
-        <button className="flex items-center gap-1.5 text-xs text-primary hover:underline">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+      {/* Bottom row: Save for later */}
+      <div className="flex items-center justify-end mt-3 pt-3 border-t border-border">
+        <button
+          onClick={handleSaveToggle}
+          className="flex items-center gap-1.5 text-xs text-primary hover:underline"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill={saved ? "currentColor" : "none"} stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M12 21C12 21 4 15 4 8.5C4 6 6 4 8.5 4C10 4 11.5 5 12 6C12.5 5 14 4 15.5 4C18 4 20 6 20 8.5C20 15 12 21 12 21Z" />
           </svg>
-          Save for later
+          {saved ? "Saved" : "Save for later"}
         </button>
       </div>
     </div>

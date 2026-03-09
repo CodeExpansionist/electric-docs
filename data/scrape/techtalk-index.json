@@ -1,0 +1,292 @@
+{
+  "featured": "samsung-2026-tv-lineup",
+  "trending": [
+    "samsung-2026-tv-lineup",
+    "lg-2026-tv-lineup",
+    "what-are-open-ear-headphones-and-how-do-they-work",
+    "samsung-tv-not-connecting-wifi",
+    "our-gift-guide-for-music-lovers"
+  ],
+  "categories": ["Audio", "TV Advice"],
+  "articles": [
+    {
+      "slug": "samsung-2026-tv-lineup",
+      "title": "Samsung 2026 TV lineup: everything you need to know",
+      "category": "TV Advice",
+      "subcategory": "TV Advice",
+      "date": "22 Jan 2026",
+      "excerpt": "All-new Micro RGB, OLED & Neo QLED TVs from Samsung for 2026.",
+      "heroImage": "/images/articles/samsung-2026-tv-lineup/hero.webp"
+    },
+    {
+      "slug": "what-are-open-ear-headphones-and-how-do-they-work",
+      "title": "What are open-ear headphones and how do they work?",
+      "category": "Audio",
+      "subcategory": "Headphone tips",
+      "date": "16 Feb 2026",
+      "excerpt": "Open-ear headphones let you hear the world around you while enjoying your music. Here's how they work and whether they're right for you.",
+      "heroImage": "/images/articles/what-are-open-ear-headphones-and-how-do-they-work/hero.webp"
+    },
+    {
+      "slug": "lg-2026-tv-lineup",
+      "title": "LG unveils its new TV line-up at CES 2026",
+      "category": "TV Advice",
+      "subcategory": "TV Advice",
+      "date": "13 Jan 2026",
+      "excerpt": "Meet the G6, C6, W6 and Micro RGB from LG's 2026 range.",
+      "heroImage": "/images/articles/lg-2026-tv-lineup/hero.webp"
+    },
+    {
+      "slug": "our-gift-guide-for-music-lovers",
+      "title": "Best gifts for music lovers in 2025",
+      "category": "Audio",
+      "subcategory": "Audio",
+      "date": "10 Dec 2025",
+      "excerpt": "They'll love the sound of these! From headphones to turntables, here are the best gifts for the music fan in your life.",
+      "heroImage": "/images/articles/our-gift-guide-for-music-lovers/hero.webp"
+    },
+    {
+      "slug": "best-tech-gifts-for-women",
+      "title": "Best tech gifts for her in 2025",
+      "category": "Audio",
+      "subcategory": "Audio",
+      "date": "3 Dec 2025",
+      "excerpt": "From earbuds to eReaders, we've got gadgets she'll love.",
+      "heroImage": "/images/articles/best-tech-gifts-for-women/hero.webp"
+    },
+    {
+      "slug": "samsung-tv-not-connecting-wifi",
+      "title": "Why your Samsung TV isn't connecting to Wi-Fi",
+      "category": "TV Advice",
+      "subcategory": "TV technology",
+      "date": "17 Nov 2025",
+      "excerpt": "A quick guide to getting your entertainment back online. If your Samsung TV won't connect to Wi-Fi, try these simple fixes.",
+      "heroImage": "/images/articles/samsung-tv-not-connecting-wifi/hero.webp"
+    },
+    {
+      "slug": "top-10-black-friday-tv-deals-best-picks-for-every-budget",
+      "title": "Our top TV deals for Black Friday 2025",
+      "category": "TV Advice",
+      "subcategory": "TV Advice",
+      "date": "13 Nov 2025",
+      "excerpt": "We've got some great offers you can binge on. Here are our top picks for Black Friday TV deals in 2025.",
+      "heroImage": "/images/articles/top-10-black-friday-tv-deals-best-picks-for-every-budget/hero.webp"
+    },
+    {
+      "slug": "best-tvs-for-watching-sports",
+      "title": "Best TVs for watching sports in 2025",
+      "category": "TV Advice",
+      "subcategory": "TV Advice",
+      "date": "29 Oct 2025",
+      "excerpt": "Why these screens are must-watch on match day. Find the best TV for watching live sport with smooth motion and vibrant colours.",
+      "heroImage": "/images/articles/best-tvs-for-watching-sports/hero.webp"
+    },
+    {
+      "slug": "dolby-vision-2-explained-what-it-means-for-your-next-tv",
+      "title": "Dolby Vision 2 explained: what it means for your next TV",
+      "category": "TV Advice",
+      "subcategory": "TV technology",
+      "date": "28 Oct 2025",
+      "excerpt": "Dolby's latest tech is worth keeping an eye on. Here's what Dolby Vision 2 brings to the table and why it matters.",
+      "heroImage": "/images/articles/dolby-vision-2-explained-what-it-means-for-your-next-tv/hero.webp"
+    },
+    {
+      "slug": "samsung-the-frame-vs-frame-pro-which-art-tv-should-you-buy",
+      "title": "Samsung The Frame vs Frame Pro: which art TV should you buy?",
+      "category": "TV Advice",
+      "subcategory": "TV Advice",
+      "date": "14 Oct 2025",
+      "excerpt": "Samsung's got two new masterpieces for 2025. We compare The Frame and Frame Pro to help you choose the right art TV.",
+      "heroImage": "/images/articles/samsung-the-frame-vs-frame-pro-which-art-tv-should-you-buy/hero.webp"
+    },
+    {
+      "slug": "connect-beats-to-iphone",
+      "title": "How to connect Beats headphones to your iPhone",
+      "category": "Audio",
+      "subcategory": "Headphone tips",
+      "date": "9 Sep 2025",
+      "excerpt": "A simple guide to pairing your Apple devices. Get your Beats headphones connected to your iPhone in just a few steps.",
+      "heroImage": "/images/articles/connect-beats-to-iphone/hero.webp"
+    },
+    {
+      "slug": "best-tvs-to-buy",
+      "title": "Best TVs to buy in 2025: our top picks",
+      "category": "TV Advice",
+      "subcategory": "TV Advice",
+      "date": "3 Oct 2025",
+      "excerpt": "Get the bigger picture and find your perfect telly. We round up the best TVs you can buy right now.",
+      "heroImage": "/images/articles/best-tvs-to-buy/hero.webp"
+    },
+    {
+      "slug": "what-cables-do-i-need-for-my-tv",
+      "title": "What cables do I need for my TV?",
+      "category": "TV Advice",
+      "subcategory": "Connect TV",
+      "date": "18 Sep 2025",
+      "excerpt": "No jargon, just the leads you'll need to get your screen ready for action! A simple guide to TV cables and connections.",
+      "heroImage": "/images/articles/what-cables-do-i-need-for-my-tv/hero.webp"
+    },
+    {
+      "slug": "best-tvs-for-ps5",
+      "title": "Best TVs for PS5 and PS5 Pro in 2025",
+      "category": "TV Advice",
+      "subcategory": "TV technology",
+      "date": "18 Sep 2025",
+      "excerpt": "Epic screens to level up your PlayStation adventures. Find the best TV to pair with your PS5 or PS5 Pro.",
+      "heroImage": "/images/articles/best-tvs-for-ps5/hero.webp"
+    },
+    {
+      "slug": "how-to-set-up-your-smart-tv",
+      "title": "How to set up your smart TV",
+      "category": "TV Advice",
+      "subcategory": "TV Advice",
+      "date": "17 Sep 2025",
+      "excerpt": "Bagged yourself a new smart TV? Here's how to get it all set up and ready to stream your favourite shows.",
+      "heroImage": "/images/articles/how-to-set-up-your-smart-tv/hero.webp"
+    },
+    {
+      "slug": "a-guide-to-wall-mounting-your-tv",
+      "title": "The ultimate TV wall mounting guide",
+      "category": "TV Advice",
+      "subcategory": "Accessories advice",
+      "date": "15 Sep 2025",
+      "excerpt": "Get a better view with a wall mounted telly. Everything you need to know about mounting your TV on the wall.",
+      "heroImage": "/images/articles/a-guide-to-wall-mounting-your-tv/hero.webp"
+    },
+    {
+      "slug": "3-easy-ways-to-connect-your-smart-tv-to-the-internet",
+      "title": "3 easy ways to connect your smart TV to the internet",
+      "category": "TV Advice",
+      "subcategory": "Connect TV",
+      "date": "15 Sep 2025",
+      "excerpt": "Hook up your telly to the internet and binge your favourite box sets and films. Three simple methods to get connected.",
+      "heroImage": "/images/articles/3-easy-ways-to-connect-your-smart-tv-to-the-internet/hero.webp"
+    },
+    {
+      "slug": "tips-for-a-great-home-cinema-setup",
+      "title": "Tips for a great home cinema setup",
+      "category": "TV Advice",
+      "subcategory": "TV Advice",
+      "date": "15 Sep 2025",
+      "excerpt": "Bring Hollywood home with your very own movie theatre. Tips and tricks for the ultimate home cinema experience.",
+      "heroImage": "/images/articles/tips-for-a-great-home-cinema-setup/hero.webp"
+    },
+    {
+      "slug": "how-to-airplay-to-samsung-tv",
+      "title": "How to stream to a Samsung TV using AirPlay",
+      "category": "TV Advice",
+      "subcategory": "TV Advice",
+      "date": "15 Sep 2025",
+      "excerpt": "Watch your iPhone videos and pics on the big screen. A step-by-step guide to using AirPlay with your Samsung TV.",
+      "heroImage": "/images/articles/how-to-airplay-to-samsung-tv/hero.webp"
+    },
+    {
+      "slug": "what-is-local-dimming",
+      "title": "What is local dimming on a TV?",
+      "category": "TV Advice",
+      "subcategory": "TV technology",
+      "date": "15 Sep 2025",
+      "excerpt": "Meet the game-changing LED TV tech. Local dimming improves contrast and black levels on LED TVs.",
+      "heroImage": "/images/articles/what-is-local-dimming/hero.webp"
+    },
+    {
+      "slug": "sony-wh-1000xm6-vs-wh-1000xm5",
+      "title": "Sony WH-1000XM6 vs. WH-1000XM5: which should you buy?",
+      "category": "Audio",
+      "subcategory": "Headphone tips",
+      "date": "30 Jun 2025",
+      "excerpt": "Sony's flagship 'phones go head-to-head. We compare the WH-1000XM6 and WH-1000XM5 to help you decide.",
+      "heroImage": "/images/articles/sony-wh-1000xm6-vs-wh-1000xm5/hero.webp"
+    },
+    {
+      "slug": "noise-nuisances",
+      "title": "Noise Nuisances",
+      "category": "Audio",
+      "subcategory": "Headphone tips",
+      "date": "28 May 2025",
+      "excerpt": "The most severe sounds in the UK today. Discover the biggest noise nuisances and how noise-cancelling headphones can help.",
+      "heroImage": "/images/articles/noise-nuisances/hero.webp"
+    },
+    {
+      "slug": "airpods-max-lossless-audio-ultra-low-latency-update",
+      "title": "AirPods Max update: lossless audio and ultra-low latency",
+      "category": "Audio",
+      "subcategory": "Headphone tips",
+      "date": "20 May 2025",
+      "excerpt": "Take your Apple headphones to the max with the latest firmware. Here's what the new AirPods Max update brings.",
+      "heroImage": "/images/articles/airpods-max-lossless-audio-ultra-low-latency-update/hero.webp"
+    },
+    {
+      "slug": "how-to-connect-jbl-headphones-iphone",
+      "title": "How to connect JBL headphones to your iPhone",
+      "category": "Audio",
+      "subcategory": "Headphone tips",
+      "date": "11 Mar 2025",
+      "excerpt": "Get your gadgets working in perfect harmony. A quick guide to connecting JBL headphones to your iPhone via Bluetooth.",
+      "heroImage": "/images/articles/how-to-connect-jbl-headphones-iphone/hero.webp"
+    },
+    {
+      "slug": "which-record-player-is-right-for-me",
+      "title": "Which record player is right for me?",
+      "category": "Audio",
+      "subcategory": "Audio",
+      "date": "27 Feb 2025",
+      "excerpt": "If you're in a spin over turntables, we're here to make it easy. Find the perfect record player for your needs.",
+      "heroImage": "/images/articles/which-record-player-is-right-for-me/hero.webp"
+    },
+    {
+      "slug": "how-to-connect-airpods-laptop",
+      "title": "How to connect AirPods to your laptop",
+      "category": "Audio",
+      "subcategory": "Headphone tips",
+      "date": "25 Sep 2024",
+      "excerpt": "Sound advice for getting you hooked up. Connect your AirPods to a Windows or Mac laptop in a few easy steps.",
+      "heroImage": "/images/articles/how-to-connect-airpods-laptop/hero.webp"
+    },
+    {
+      "slug": "best-portable-speakers",
+      "title": "Best portable speakers",
+      "category": "Audio",
+      "subcategory": "Speaker tips",
+      "date": "7 Aug 2024",
+      "excerpt": "Our top Bluetooth speaker picks for beach trips, BBQs, and birthday parties. Find the best portable speaker for you.",
+      "heroImage": "/images/articles/best-portable-speakers/hero.webp"
+    },
+    {
+      "slug": "beginners-guide-to-record-players",
+      "title": "Beginner's guide to record players",
+      "category": "Audio",
+      "subcategory": "Audio",
+      "date": "29 May 2024",
+      "excerpt": "Everything you need to look out for to kickstart your crate-digging journey. A complete guide to turntables for beginners.",
+      "heroImage": "/images/articles/beginners-guide-to-record-players/hero.webp"
+    },
+    {
+      "slug": "how-to-update-airpods",
+      "title": "How to update AirPods firmware",
+      "category": "Audio",
+      "subcategory": "Audio",
+      "date": "9 May 2024",
+      "excerpt": "Not sure where to find the latest software? Listen up. Here's how to check and update your AirPods firmware.",
+      "heroImage": "/images/articles/how-to-update-airpods/hero.webp"
+    },
+    {
+      "slug": "replace-needle-record-player",
+      "title": "How to replace the needle on a record player",
+      "category": "Audio",
+      "subcategory": "Audio",
+      "date": "1 May 2024",
+      "excerpt": "Give your records the stylus they deserve! A step-by-step guide to replacing the needle on your turntable.",
+      "heroImage": "/images/articles/replace-needle-record-player/hero.webp"
+    },
+    {
+      "slug": "4-ways-to-connect-your-soundbar-to-your-tv",
+      "title": "4 ways to connect your soundbar to your TV",
+      "category": "Audio",
+      "subcategory": "Speaker tips",
+      "date": "11 Mar 2024",
+      "excerpt": "Upgrade your TV sound setup with our helpful guide. Four easy methods to connect a soundbar to your television.",
+      "heroImage": "/images/articles/4-ways-to-connect-your-soundbar-to-your-tv/hero.webp"
+    }
+  ]
+}

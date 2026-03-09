@@ -140,6 +140,28 @@ Take reference screenshot and clone screenshot at the same viewport width. Compa
 - [ ] Card wrapping (content areas in white cards on gray, or flat on white?)
 - [ ] Icon style per delivery line (distinct per type vs generic checkmarks)
 
+### 2c. Quick dimension sanity check (BLOCKING — catches oversized/undersized elements)
+
+Before extracting full CSS, do a fast pass comparing **rendered dimensions** of key fixed-size elements between the reference screenshot and the clone. These elements have a "correct" size that rarely changes across breakpoints — if they're wrong, everything around them (spacing, alignment, whitespace) will look off.
+
+**Elements to check at 1280px viewport:**
+
+| Element | Selector hint | What to measure | Typical range |
+|---------|--------------|-----------------|---------------|
+| Logo | `header img`, `header svg` | rendered height | 28–44px |
+| Search bar | `header input[type="text"]` | rendered height | 36–44px |
+| Nav link text | `nav a` | font-size | 13–16px |
+| Utility icons | header icon SVGs (account, basket, saved) | width × height | 20–28px |
+| CTA buttons | `.btn-primary`, `[class*="btn"]` | height, padding | 36–48px height |
+
+**Method:** Use `getBoundingClientRect()` on both reference and clone for each element. Compare rendered height/width.
+
+**BLOCK if:** Any element's rendered height differs from the reference by more than **50%**. This indicates a sizing constant (width/height attribute, Tailwind class, or CSS dimension) is fundamentally wrong — not a subtle spacing issue but a structural sizing error that cascades into surrounding whitespace.
+
+**Why this exists:** CSS property-level comparison (Steps 4–8) checks individual values in isolation. But an oversized logo (e.g., 100px vs reference 36px) passes every individual check — the padding is correct, the flex alignment is correct, the gap is correct — yet the header looks completely wrong because the element itself is too large. This step catches the root cause before wasting time auditing downstream symptoms.
+
+---
+
 ### 3. Create browser session and extract clone CSS
 
 Create a Firecrawl browser session pointed at the dev server:
@@ -340,7 +362,82 @@ deltaE = sqrt((r1-r2)² + (g1-g2)² + (b1-b2)²)
 
 If `$ARGUMENTS` is `colors`, run both Step 3b and this step, then output the combined colors section of the report.
 
+### 5a. Live Typography Extraction (BLOCKING — replaces screenshot estimation)
+
+**Why this step exists:** Layout JSONs from `/extract-layout` rarely capture comprehensive typography data for every text element. Screenshot-based estimation commonly produces errors of ±2–4px (one full Tailwind size tier), leading to changes in the WRONG direction. This step extracts ground-truth computed styles from the live reference site.
+
+**Step 1: Define the element inventory**
+
+Before extracting, build a complete list of every text-rendering element across 3 page types:
+- Homepage (section headings, nav links, utility labels, USP text, card titles, card descriptions, footer headings, footer links)
+- Category listing (breadcrumbs, page title, card title, card price, card specs, ratings, delivery info, filter labels, sort labels, button text, was-price, savings)
+- Product detail (title, price, was-price, savings, breadcrumbs, spec headings, spec values, collapsible section titles, button text, rating text)
+
+**Step 2: Extract from live reference at ALL breakpoints**
+
+Use `firecrawl_scrape` with `formats: ["extract"]` on each page type at 3 viewports:
+- 375px (mobile)
+- 768px (tablet)
+- 1280px (desktop)
+
+Extraction JS (run on each page):
+
+```js
+(() => {
+  const selectors = 'h1,h2,h3,h4,h5,h6,p,a,span,label,button,input,li,td,th,figcaption';
+  const results = [];
+  document.querySelectorAll(selectors).forEach(el => {
+    const rect = el.getBoundingClientRect();
+    if (rect.width === 0 || rect.height === 0) return;
+    if (!el.textContent?.trim()) return;
+    const style = getComputedStyle(el);
+    results.push({
+      tag: el.tagName.toLowerCase(),
+      text: el.textContent.trim().substring(0, 60),
+      fontSize: style.fontSize,
+      fontWeight: style.fontWeight,
+      lineHeight: style.lineHeight,
+      selector: el.className ? '.' + el.className.split(' ')[0] : el.tagName.toLowerCase(),
+    });
+  });
+  return JSON.stringify(results);
+})()
+```
+
+**Step 3: Extract from clone at ALL breakpoints**
+
+Same extraction on the clone dev server, same 3 page types × 3 viewports.
+
+**Step 4: Build multi-breakpoint comparison table**
+
+For each element role × page type × breakpoint:
+
+| Page | Element | Breakpoint | Ref Size | Ref Weight | Clone Size | Clone Weight | Status |
+|------|---------|------------|----------|------------|------------|-------------|--------|
+
+Flag elements where:
+- Size differs by more than 1px at ANY breakpoint → MAJOR
+- Weight differs at ANY breakpoint → MAJOR (weight is exact-match)
+- Reference changes size between breakpoints but clone doesn't → responsive class needed
+- Clone changes size between breakpoints but reference doesn't → unnecessary responsive class
+
+**Step 5: Apply corrections**
+
+For each MAJOR mismatch, determine the correct Tailwind class:
+- 12px = `text-xs`, 14px = `text-sm`, 16px = `text-base`, 18px = `text-lg`, 20px = `text-xl`, 24px = `text-2xl`, 30px = `text-3xl`
+- 400 = `font-normal`, 500 = `font-medium`, 600 = `font-semibold`, 700 = `font-bold`
+
+If reference size changes between breakpoints, use responsive prefixes (e.g., `text-sm md:text-base lg:text-lg`).
+
+**CRITICAL ANTI-PATTERN:**
+
+> NEVER estimate font sizes from screenshots or visual inspection. Browser rendering, zoom levels, and display scaling make visual estimation unreliable — errors of 2–4px (one full Tailwind tier) are common and have historically caused changes in the WRONG direction. Always use `getComputedStyle().fontSize` on the live reference site.
+
+---
+
 ### 5. Compare typography
+
+**Prerequisite:** Step 5a must have run first. The reference values for this comparison come from live extraction (Step 5a), NOT from layout JSONs alone. If Step 5a data is available, use it as the primary source — layout JSONs are supplementary only.
 
 For each text element in each component, compare:
 
@@ -795,3 +892,5 @@ If `$ARGUMENTS` is `fix`, read the most recent visual parity report, then work t
 9. **Screenshot pairs are for human review, not automated scoring.** The CSS value comparison provides the automated verdict. Screenshots are supplementary evidence for cases where computed values match but the visual result still looks different (e.g., font rendering differences, subpixel antialiasing).
 
 10. **Destroy the browser session.** Always call `firecrawl_browser_delete` when done. Orphaned sessions cost 2 credits/min. If the skill crashes or is interrupted, clean up sessions manually.
+
+11. **Typography must be extracted from the live reference site using `getComputedStyle()`, never estimated from screenshots.** Screenshot-based estimation commonly produces errors of ±2–4px (one full Tailwind size tier), leading to changes in the wrong direction. If layout JSONs don't have typography data, extract it live — never guess.

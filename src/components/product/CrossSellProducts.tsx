@@ -18,7 +18,7 @@ function ProductImage({
 }) {
   const [failed, setFailed] = useState(false);
 
-  if (failed || !src) {
+  if (failed || !src || src.startsWith("http")) {
     return (
       <div className="w-16 h-16 bg-surface rounded flex items-center justify-center flex-shrink-0">
         <svg
@@ -115,7 +115,7 @@ export default function CrossSellProducts({
                 )}
                 <div className="flex items-center gap-2">
                   <span className="text-sm font-bold text-text-primary">
-                    £{product.price.toFixed(2)}
+                    £{(product.price ?? 0).toFixed(2)}
                   </span>
                   {typeof product.wasPrice === "number" && product.wasPrice > 0 && (
                     <span className="text-[10px] text-text-muted line-through">

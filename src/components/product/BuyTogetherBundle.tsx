@@ -126,7 +126,7 @@ export default function BuyTogetherBundle({
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                 </svg>
                 <span className="text-[9px] text-text-secondary">
-                  {product.rating.toFixed(1)}
+                  {(product.rating ?? 0).toFixed(1)}
                 </span>
                 {typeof product.reviewCount === "number" && product.reviewCount > 0 && (
                   <span className="text-[9px] text-text-secondary">
@@ -136,7 +136,7 @@ export default function BuyTogetherBundle({
               </div>
             )}
             <p className="text-xs font-bold mt-1">
-              £{product.price.toFixed(2)}
+              £{(product.price ?? 0).toFixed(2)}
             </p>
           </div>
         ))}

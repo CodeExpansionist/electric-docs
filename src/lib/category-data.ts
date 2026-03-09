@@ -53,23 +53,35 @@ export interface CategoryData {
   products: CategoryProduct[];
 }
 
-/* eslint-disable @typescript-eslint/no-explicit-any */
-function mapScrapedData(data: any): CategoryData {
+/** Raw shape of scraped category JSON before normalization. */
+interface RawCategoryJSON {
+  categoryName?: string;
+  categorySlug?: string;
+  breadcrumbs?: { label: string; href: string }[];
+  filters?: Array<{ name: string; isExpanded?: boolean; type?: string; options?: Array<{ label: string; count: number }> }>;
+  products?: Array<Record<string, unknown>>;
+  bannerImage?: string;
+  bannerUrl?: string;
+  bannerAlt?: string;
+}
+
+function mapScrapedData(data: RawCategoryJSON): CategoryData {
   const filters = (data.filters || [])
-    .filter((f: any) => {
+    .filter((f) => {
       // Remove delivery/collection filter group (not applicable to this site)
       if (f.name === "Delivery & Collection" || f.name === "Delivery and Collection") return false;
       return true;
     })
-    .map((f: any) => ({
+    .map((f) => ({
       ...f,
       // Rename "By Price" to "Price" and "By Brand" to "Brand" for consistency
       name: f.name.replace(/^By\s+/i, ""),
       options: (f.options || []).filter(
-        (o: any) => !o.label.toLowerCase().includes("collect from store")
+        (o) => !o.label.toLowerCase().includes("collect from store")
       ),
     })) as FilterGroup[];
 
+  /* eslint-disable @typescript-eslint/no-explicit-any */
   const products = (data.products || []).map((p: any) => {
     const productId = p.productId || "";
     return {

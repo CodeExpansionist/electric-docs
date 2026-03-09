@@ -66,7 +66,7 @@ export default function DiscoverOffers() {
   return (
     <section aria-labelledby="discover-offers-heading" className="py-8">
       <div className="container-main">
-        <h2 id="discover-offers-heading" className="text-xl font-bold text-text-primary mb-6">
+        <h2 id="discover-offers-heading" className="text-base md:text-2xl font-bold text-text-primary text-center mb-6">
           Discover our amazing offers
         </h2>
         <Carousel visibleCount={4} mobileCount={1} tabletCount={2}>

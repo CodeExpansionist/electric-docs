@@ -104,6 +104,32 @@ For each page type, extract all `<script type="application/ld+json">` blocks and
 - Values match the rendered page content (price in schema = price on page)
 - No deprecated schema properties
 
+### Check 6b: Internal Link Health in Editorial Content
+
+If the site has article/blog pages with markdown content:
+
+1. Read all article data files (e.g., `data/scrape/articles/`)
+2. Extract all markdown links from each article's content field
+3. For each internal link (starts with `/`):
+   - Verify the destination exists (article page, product page, or category page)
+   - Cross-reference article slugs against actual article data files
+   - Cross-reference product slugs against product catalog data
+4. Flag any dead links (`](#)`), external URLs, or links to non-existent pages
+5. Internal cross-linking between related articles is a positive SEO signal — note which articles have cross-links and which are isolated
+
+```
+### Editorial Internal Links
+
+| Article | Internal Links | Valid | Broken | Isolated |
+|---------|---------------|-------|--------|----------|
+| {slug}  | 3             | 2     | 1      | NO       |
+| {slug}  | 0             | 0     | 0      | YES      |
+
+Cross-linked articles: X/{total}
+Isolated articles (no outgoing links): Y/{total}
+Broken content links: Z (MUST be 0)
+```
+
 ### Check 7: Sitemap Validation
 
 Fetch `{dev-server-url}/sitemap.xml` and compare against reference:

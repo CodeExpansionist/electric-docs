@@ -42,6 +42,8 @@ export interface Order {
   };
   paymentMethod: string;
   estimatedDelivery: string;
+  promoCode?: string;
+  promoDiscount?: number;
 }
 
 interface OrdersContextValue {

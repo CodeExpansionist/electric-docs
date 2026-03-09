@@ -67,7 +67,7 @@ export default function CareAndRepair({ plans, benefits }: CareAndRepairProps) {
             </div>
             <div className="text-right">
               <span className="text-sm font-bold text-text-primary">
-                £{plan.price.toFixed(2)}
+                £{(plan.price ?? 0).toFixed(2)}
               </span>
               <span className="text-[10px] text-text-secondary block">
                 {plan.period}

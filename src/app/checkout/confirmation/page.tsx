@@ -96,6 +96,12 @@ function ConfirmationContent() {
                   {order.deliveryCost === 0 ? "FREE" : `£${order.deliveryCost.toFixed(2)}`}
                 </span>
               </div>
+              {order.promoDiscount && order.promoDiscount > 0 && (
+                <div className="flex justify-between text-sm">
+                  <span className="text-green-600">Promo ({order.promoCode})</span>
+                  <span className="text-green-600">-£{order.promoDiscount.toFixed(2)}</span>
+                </div>
+              )}
               <div className="flex justify-between text-base font-bold border-t border-border pt-2 mt-2">
                 <span className="text-text-primary">Total</span>
                 <span className="text-text-primary">

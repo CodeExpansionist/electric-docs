@@ -1,0 +1,17 @@
+{
+  "slug": "how-to-connect-airpods-laptop",
+  "title": "How to connect AirPods to your laptop",
+  "category": "Audio",
+  "subcategory": "Headphone tips",
+  "date": "25 Sep 2024",
+  "author": "Electriz TechTalk",
+  "excerpt": "AirPods aren't just for listening to tunes on your iPhone or catching up on podcasts during your morning walk - they're just as handy when you want...",
+  "heroImage": "/images/articles/how-to-connect-airpods-laptop/hero.webp",
+  "content": "AirPods aren't just for listening to tunes on your iPhone or catching up on podcasts during your morning walk - they're just as handy when you want to connect them to your laptop.\n\nConnecting your AirPods to a laptop is quick and easy. With just a few clicks you'll be able to dive into a Zoom meeting, watch a movie, or just enjoy some music without disturbing the whole room. And don't forget, your AirPods can pair with non-Apple devices too.\n\n## A step-by-step guide to pairing AirPods\n\n1. **Open your laptop's Bluetooth settings.** On a MacBook, go to System Preferences > Bluetooth. On Windows, click Start Menu, type 'Bluetooth', then click Bluetooth & other devices settings.\n2. **Put your AirPods in pairing mode.** Make sure they're in the case with the lid open. Press and hold the button on the back until you see a flashing white light.\n3. **Pair the AirPods with your laptop.** On a Mac, click Connect under Devices. On Windows, click Add Bluetooth or other device, choose Bluetooth, and select your AirPods.\n\n## How to disconnect and reconnect AirPods\n\n**To disconnect:** On Mac, go to the Bluetooth menu and click Disconnect. On Windows, find your AirPods in Bluetooth settings and click Disconnect.\n\n**To reconnect:** On Mac, click Connect next to your AirPods. On Windows, go to Bluetooth settings and click Connect. Your AirPods are smart enough to reconnect automatically when they're the closest device.\n\n## Removing AirPods from Bluetooth\n\nOn Mac: System Preferences > Bluetooth, right-click your AirPods, select Remove. On Windows: Bluetooth & other devices settings, find AirPods, select Remove device.\n\n## Troubleshooting common issues\n\n**AirPods won't connect**: Make sure Bluetooth is on and AirPods are charged. Try resetting by holding the back button until the light flashes amber then white.\n\n**Sound only from one AirPod**: Put both back in the case briefly. Try cleaning the problematic one. Check audio balance settings.\n\n**Choppy audio**: Move closer to your laptop or turn off other Bluetooth devices. Try unpairing and pairing again.\n\n## Handy Bluetooth shortcuts for Windows\n\n1. **Windows Key + A** opens the Action Centre for quick Bluetooth toggle.\n2. **Windows Key + I** opens Settings directly.\n3. **Quick Settings Menu** -- right-click the Bluetooth icon for direct access.\n\n## Using AirPods with non-Apple devices\n\nAirPods work with Windows laptops, Android phones, and smart TVs. Put them in pairing mode, open Bluetooth settings, and select them. Some features like auto-pause may not work on non-Apple devices.",
+  "images": [
+    "/images/articles/how-to-connect-airpods-laptop/image-001.webp",
+    "/images/articles/how-to-connect-airpods-laptop/image-002.webp",
+    "/images/articles/how-to-connect-airpods-laptop/image-003.webp"
+  ],
+  "relatedSlugs": []
+}

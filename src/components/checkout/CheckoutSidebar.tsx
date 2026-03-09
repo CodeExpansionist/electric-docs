@@ -50,6 +50,12 @@ export default function CheckoutSidebar() {
               : "—"}
           </span>
         </div>
+        {basket.promoDiscount && basket.promoDiscount > 0 && (
+          <div className="flex items-center justify-between">
+            <span className="text-xs text-green-600">Promo ({basket.promoCode})</span>
+            <span className="text-xs text-green-600">-£{basket.promoDiscount.toFixed(2)}</span>
+          </div>
+        )}
       </div>
 
       <div className="flex items-center justify-between pt-3 border-t border-border">

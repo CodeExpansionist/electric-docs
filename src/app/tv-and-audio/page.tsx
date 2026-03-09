@@ -4,6 +4,7 @@ import Image from "next/image";
 import { stripDomain } from "@/lib/constants";
 import HubSidebar from "@/components/category/HubSidebar";
 import HubPromoBanners from "@/components/category/HubPromoBanners";
+import TvSizeFinder from "@/components/category/TvSizeFinder";
 import tvAudioHub from "../../../data/scrape/tv-audio-hub.json";
 
 export const metadata: Metadata = {
@@ -27,7 +28,7 @@ const sidebarSections = [
 
 export default function TvAndAudioHub() {
   return (
-    <div className="bg-surface min-h-screen">
+    <div className="bg-white min-h-screen">
     <div className="container-main py-4">
       {/* Breadcrumbs */}
       <nav className="flex items-center gap-2 text-xs text-text-secondary mb-4">
@@ -75,20 +76,20 @@ export default function TvAndAudioHub() {
           {/* Top Deals */}
           <section className="mb-10">
             <h2 className="text-xl font-bold mb-4">Top deals</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               {tvAudioHub.topDeals.map((deal) => (
                 <Link
                   key={deal.title}
                   href={stripDomain(deal.url)}
                   className="card overflow-hidden no-underline group"
                 >
-                  <div className="aspect-[2/1] bg-surface flex items-center justify-center relative">
+                  <div className="aspect-[4/3] bg-surface flex items-center justify-center relative">
                     {deal.imageUrl ? (
                       <Image
                         src={deal.imageUrl}
                         alt={deal.imageAlt}
                         fill
-                        className="object-cover"
+                        className="object-contain p-2"
                       />
                     ) : (
                       <div className="w-full h-full bg-surface flex items-center justify-center">
@@ -104,7 +105,7 @@ export default function TvAndAudioHub() {
                     <h3 className="text-sm font-bold text-text-primary group-hover:text-primary transition-colors">
                       {deal.title}
                     </h3>
-                    <p className="text-xs text-text-secondary mt-1">
+                    <p className="text-xs text-primary mt-1 font-semibold">
                       {deal.subtitle}
                     </p>
                   </div>
@@ -115,23 +116,23 @@ export default function TvAndAudioHub() {
 
           {/* AI on TV */}
           <section className="mb-10">
-            <h2 className="text-xl font-bold mb-4">{tvAudioHub.aiOnTv.heading}</h2>
+            <h2 className="text-xl font-bold mb-4 text-center">{tvAudioHub.aiOnTv.heading}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {tvAudioHub.aiOnTv.cards.map((card, idx) => (
+              {tvAudioHub.aiOnTv.cards.map((card) => (
                 <Link
                   key={card.title}
                   href={stripDomain(card.url)}
                   className="card overflow-hidden no-underline group"
                 >
-                  <div className="aspect-[4/3] bg-white flex items-center justify-center overflow-hidden relative">
+                  <div className="aspect-[4/3] overflow-hidden relative">
                     <Image
-                      src={`/images/products/${["10282706","10115697","10132171","10004693","10119436"][idx % 5]}/main.webp`}
-                      alt={card.title}
+                      src={card.imageUrl}
+                      alt={card.imageAlt || card.title}
                       fill
-                      className="object-contain p-4"
+                      className="object-cover"
                     />
                   </div>
-                  <div className="p-4">
+                  <div className="p-4 rounded-b-md" style={{ backgroundColor: card.bgColor }}>
                     <h3 className="text-sm font-bold text-text-primary group-hover:text-primary transition-colors">
                       {card.title}
                     </h3>
@@ -146,31 +147,44 @@ export default function TvAndAudioHub() {
 
           {/* Filmmaker Mode */}
           <section className="mb-10">
-            <div className="card overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-                <div className="aspect-video bg-white flex items-center justify-center overflow-hidden relative">
-                  <Image
-                    src="/images/products/10282706/main.webp"
-                    alt={tvAudioHub.filmmakerMode.heading}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-5 md:p-6 flex flex-col justify-center">
-                  <h2 className="text-lg md:text-xl font-bold mb-3">{tvAudioHub.filmmakerMode.heading}</h2>
-                  <p className="text-sm text-text-secondary mb-4 line-clamp-4">
-                    {tvAudioHub.filmmakerMode.description}
-                  </p>
-                  <Link
-                    href={stripDomain(tvAudioHub.filmmakerMode.ctaUrl)}
-                    className="btn-outline self-start no-underline text-sm"
-                  >
-                    {tvAudioHub.filmmakerMode.ctaText}
-                  </Link>
-                </div>
+            <div className="rounded-md overflow-hidden" style={{ backgroundColor: "#FDF6E3" }}>
+              <div className="px-6 pt-8 pb-6 md:px-12 md:pt-10 md:pb-8 text-center">
+                <h2 className="text-lg md:text-xl font-bold mb-3">{tvAudioHub.filmmakerMode.heading}</h2>
+                <p className="text-sm text-text-secondary mb-5 max-w-2xl mx-auto">
+                  This is movie night done right. Filmmaker Mode turns off all the added effects, so you see the film exactly as the director meant it to be seen.
+                  <br />
+                  Legendary film critic{" "}
+                  <span className="font-bold text-[#E91E63]">Mark Kermode</span>{" "}
+                  breaks it down in this short video. If anyone knows what makes a film truly cinematic, it&apos;s him.
+                </p>
+                <Link
+                  href={stripDomain(tvAudioHub.filmmakerMode.ctaUrl)}
+                  className="btn-outline no-underline text-sm"
+                >
+                  {tvAudioHub.filmmakerMode.ctaText}
+                </Link>
+              </div>
+              <div className="px-6 pb-8 md:px-12 md:pb-10">
+                <video
+                  className="w-full rounded-md"
+                  controls
+                  preload="metadata"
+                  poster={tvAudioHub.filmmakerMode.imageUrl}
+                >
+                  <source src="/videos/filmmaker-mode.mp4" type="video/mp4" />
+                </video>
               </div>
             </div>
           </section>
+
+          {/* TV Size Finder */}
+          <TvSizeFinder
+            heading={tvAudioHub.tvSizeFinder.heading}
+            description={tvAudioHub.tvSizeFinder.description}
+            sizeOptions={tvAudioHub.tvSizeFinder.sizeOptions}
+            assets={tvAudioHub.tvSizeFinder.assets}
+            learnMoreUrl={tvAudioHub.tvSizeFinder.learnMoreUrl}
+          />
 
           {/* Buying Guides Visual */}
           <section className="mb-10">
@@ -204,16 +218,39 @@ export default function TvAndAudioHub() {
 
           {/* Brand Row */}
           <section className="mb-10">
-            <div className="flex flex-wrap items-center justify-center md:justify-between gap-4 md:gap-6 py-6 border-y border-border">
-              {tvAudioHub.brandRow.map((brand) => (
-                <Link
-                  key={brand.brand}
-                  href={brand.shopNowUrl ? stripDomain(brand.shopNowUrl) : "#"}
-                  className="text-sm font-bold text-text-secondary hover:text-primary no-underline transition-colors"
-                >
-                  {brand.brand}
-                </Link>
-              ))}
+            <div className="border-y border-border py-6">
+              <div className="flex items-start gap-6 md:gap-8 overflow-x-auto scrollbar-hide">
+                {tvAudioHub.brandRow.map((brand) => (
+                  <div key={brand.brand} className="flex flex-col items-center gap-3 flex-shrink-0 min-w-[120px]">
+                    <div className="h-[40px] flex items-center justify-center">
+                      {brand.logoUrl ? (
+                        <Image
+                          src={brand.logoUrl}
+                          alt={brand.brand}
+                          width={120}
+                          height={40}
+                          className="object-contain max-h-[40px]"
+                          unoptimized
+                        />
+                      ) : (
+                        <span className="text-sm font-bold text-text-primary">{brand.brand}</span>
+                      )}
+                    </div>
+                    <Link
+                      href={brand.shopNowUrl ? stripDomain(brand.shopNowUrl) : "#"}
+                      className="btn-outline text-xs px-4 py-1.5 no-underline"
+                    >
+                      Shop now
+                    </Link>
+                    <Link
+                      href={brand.learnMoreUrl ? stripDomain(brand.learnMoreUrl) : "#"}
+                      className="text-xs text-text-secondary hover:text-primary no-underline"
+                    >
+                      Learn more
+                    </Link>
+                  </div>
+                ))}
+              </div>
             </div>
           </section>
 

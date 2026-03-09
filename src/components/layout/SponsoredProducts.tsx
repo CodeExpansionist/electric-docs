@@ -1,71 +1,9 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
-const productImages = [
-  "/images/products/10282706/main.webp",
-  "/images/products/10115697/main.webp",
-  "/images/products/10132171/main.webp",
-  "/images/products/10004693/main.webp",
-  "/images/products/10119436/main.webp",
-  "/images/products/10138707/main.webp",
-];
-
-const products = [
-  {
-    name: "TURTLE BEACH Stealth 700 Gen 3 Xbox Wireless Gaming Headset",
-    price: 129.99,
-    originalPrice: 179.0,
-    savings: 49.01,
-    rating: 4.8,
-    reviewCount: 27,
-    url: "/products/turtle-beach-stealth-700-gen-3-xbox",
-  },
-  {
-    name: "TURTLE BEACH Recon 70 Gaming Headset - Black & Green",
-    price: 22.99,
-    originalPrice: 29.99,
-    savings: 7.0,
-    rating: 4.4,
-    reviewCount: 570,
-    url: "/products/turtle-beach-recon-70",
-  },
-  {
-    name: "FITBIT Charge 6 Fitness Tracker - Coral / Wireless",
-    price: 139.99,
-    originalPrice: null,
-    savings: null,
-    rating: 4.5,
-    reviewCount: 169,
-    url: "/products/fitbit-charge-6",
-  },
-  {
-    name: "TURTLE BEACH Ear Force Recon 50X Gaming Headset - Black & Green",
-    price: 14.99,
-    originalPrice: 19.99,
-    savings: 5.0,
-    rating: 4.4,
-    reviewCount: 183,
-    url: "/products/turtle-beach-ear-force-recon-50x",
-  },
-  {
-    name: "TURTLE BEACH Recon 4 Pro Wireless Gaming Headset - Black",
-    price: 79.99,
-    originalPrice: 89.01,
-    savings: 9.02,
-    rating: null,
-    reviewCount: null,
-    url: "/products/turtle-beach-recon-4-pro",
-  },
-  {
-    name: "TURTLE BEACH Atlas 200 PlayStation Gaming Headset",
-    price: 39.99,
-    originalPrice: 49.99,
-    savings: 10.0,
-    rating: null,
-    reviewCount: null,
-    url: "/products/turtle-beach-atlas-200-playstation",
-  },
-];
+import { getAllProducts, type ProductDetail } from "@/lib/product-data";
 
 function StarRating({ rating, count }: { rating: number; count: number }) {
   return (
@@ -91,22 +29,63 @@ function StarRating({ rating, count }: { rating: number; count: number }) {
   );
 }
 
+function getTopProducts(viewCounts: Record<string, number>): ProductDetail[] {
+  const all = getAllProducts().filter((p) => p.productId);
+  const hasViews = Object.keys(viewCounts).length > 0;
+
+  if (hasViews) {
+    // Sort by page views descending
+    all.sort((a, b) => (viewCounts[b.productId!] || 0) - (viewCounts[a.productId!] || 0));
+    // Only include products that have been viewed
+    const viewed = all.filter((p) => (viewCounts[p.productId!] || 0) > 0);
+    if (viewed.length >= 6) return viewed.slice(0, 6);
+    // If fewer than 6 have views, pad with most-reviewed unviewed products
+    const unviewed = all.filter((p) => !viewCounts[p.productId!]);
+    unviewed.sort((a, b) => b.rating.count - a.rating.count);
+    return [...viewed, ...unviewed].slice(0, 6);
+  }
+
+  // No views yet — fall back to most-reviewed, 1 per brand for variety
+  all.sort((a, b) => b.rating.count - a.rating.count);
+  const seen = new Set<string>();
+  const result: ProductDetail[] = [];
+  for (const p of all) {
+    const brand = p.brand.toLowerCase();
+    if (seen.has(brand)) continue;
+    seen.add(brand);
+    result.push(p);
+    if (result.length >= 6) break;
+  }
+  return result;
+}
+
 export default function SponsoredProducts() {
+  const [products, setProducts] = useState<ProductDetail[]>(() => getTopProducts({}));
+
+  useEffect(() => {
+    fetch("/api/track-view")
+      .then((res) => res.json())
+      .then((views: Record<string, number>) => {
+        setProducts(getTopProducts(views));
+      })
+      .catch(() => {});
+  }, []);
+
   return (
     <section aria-labelledby="sponsored-products-heading" className="py-8">
       <div className="container-main">
         <h2 id="sponsored-products-heading" className="text-xs uppercase tracking-wider text-text-muted mb-4 font-semibold">Sponsored products</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4">
-          {products.map((product, idx) => (
+          {products.map((product) => (
             <Link
-              key={product.name}
+              key={product.productId}
               href={product.url}
               className="card p-3 flex flex-col no-underline group"
             >
               {/* Product image */}
               <div className="bg-white border border-border rounded-md mb-3 aspect-square flex items-center justify-center overflow-hidden">
                 <Image
-                  src={productImages[idx % productImages.length]}
+                  src={`/images/products/${product.productId}/main.webp`}
                   alt={product.name}
                   width={150}
                   height={150}
@@ -115,8 +94,8 @@ export default function SponsoredProducts() {
               </div>
 
               {/* Rating */}
-              {product.rating && product.reviewCount && (
-                <StarRating rating={product.rating} count={product.reviewCount} />
+              {product.rating.average > 0 && product.rating.count > 0 && (
+                <StarRating rating={product.rating.average} count={product.rating.count} />
               )}
 
               {/* Title */}
@@ -127,16 +106,16 @@ export default function SponsoredProducts() {
               {/* Price */}
               <div className="mt-auto">
                 <span className="text-lg font-bold text-text-primary">
-                  £{product.price.toFixed(2)}
+                  £{product.price.current.toFixed(2)}
                 </span>
-                {product.originalPrice && (
+                {product.price.was && (
                   <div className="flex items-center gap-2 mt-0.5">
                     <span className="text-xs text-text-muted line-through">
-                      £{product.originalPrice.toFixed(2)}
+                      £{product.price.was.toFixed(2)}
                     </span>
-                    {product.savings && (
+                    {product.price.savings && (
                       <span className="text-xs text-sale font-semibold">
-                        Save £{product.savings.toFixed(2)}
+                        Save £{product.price.savings.toFixed(2)}
                       </span>
                     )}
                   </div>

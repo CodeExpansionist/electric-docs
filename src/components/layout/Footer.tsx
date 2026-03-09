@@ -7,8 +7,7 @@ const columns = [
   {
     heading: "Help & support",
     links: [
-      { text: "Contact us", url: "/help-and-support/contact-us" },
-      { text: "Stores", url: "/stores" },
+      { text: "Contact us", url: "/contact-us" },
       { text: "TechTalk", url: "/techtalk" },
       { text: "Price Promise", url: "/services/price-promise" },
       { text: "Product reviews", url: "/product-reviews" },
@@ -19,7 +18,6 @@ const columns = [
     links: [
       { text: "Track my order", url: "/track-your-order" },
       { text: "Delivery options", url: "/services/delivery" },
-      { text: "Order & collect", url: "/services/order-and-collect" },
       { text: "Returns & cancellations", url: "/services/returns" },
       { text: "ShopLive", url: "/services/shoplive" },
     ],
@@ -27,30 +25,8 @@ const columns = [
   {
     heading: "Care Services",
     links: [
-      { text: "Care & Repair", url: "/services/care-and-repair" },
       { text: "Instant Replacement", url: "/services/instant-replacement" },
-      { text: "Mobile Insurance", url: "/services/mobile-insurance" },
       { text: "Tablet Insurance", url: "/services/tablet-insurance" },
-    ],
-  },
-  {
-    heading: "Our websites",
-    links: [
-      { text: "Electriz Business", url: "/business" },
-      { text: "Electriz Ireland", url: "/ireland" },
-      { text: "Partmaster", url: "/partmaster" },
-      { text: "Carphone Warehouse", url: "/carphone-warehouse" },
-    ],
-  },
-  {
-    heading: "About us",
-    links: [
-      { text: "Leave review on Trustpilot", url: "/trustpilot" },
-      { text: "Corporate site", url: "/corporate" },
-      { text: "Careers", url: "/careers" },
-      { text: "PR & media", url: "/pr-media" },
-      { text: "Modern slavery statement", url: "/modern-slavery-statement" },
-      { text: "Corporate social responsibility", url: "/csr" },
     ],
   },
 ];
@@ -67,7 +43,7 @@ export default function Footer() {
   return (
     <footer className="bg-footer-bg text-white">
       <div className="container-main py-8 md:py-10">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8">
           {columns.map((col) => (
             <div key={col.heading} className="border-b border-white md:border-0">
               {/* Mobile: clickable accordion header */}
@@ -77,7 +53,7 @@ export default function Footer() {
                 aria-expanded={openSections[col.heading]}
                 aria-controls={`footer-${col.heading.replace(/\s+/g, "-").toLowerCase()}`}
               >
-                <h3 className="text-sm font-normal">{col.heading}</h3>
+                <h3 className="text-base font-bold">{col.heading}</h3>
                 <svg
                   width="12"
                   height="12"
@@ -91,7 +67,7 @@ export default function Footer() {
               </button>
 
               {/* Desktop: static heading */}
-              <h3 className="hidden md:block text-sm font-normal mb-4">{col.heading}</h3>
+              <h3 className="hidden md:block text-base font-bold mb-4">{col.heading}</h3>
 
               {/* Link list — collapses on mobile, always visible on desktop */}
               <ul

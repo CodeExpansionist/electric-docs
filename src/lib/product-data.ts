@@ -209,8 +209,8 @@ function mergeScrapedData(base: ProductDetail, scraped: any): ProductDetail {
       (a: string, b: string) => getImageSortKey(a) - getImageSortKey(b)
     );
     merged.images = {
-      gallery: sortedGallery.map((url: string) => toLocalImage(url)),
-      thumbnails: sortedThumbs.map((url: string) => toLocalImage(url)),
+      gallery: sortedGallery.map((url: string) => toLocalImage(url)).filter(Boolean),
+      thumbnails: sortedThumbs.map((url: string) => toLocalImage(url)).filter(Boolean),
       video: scraped.images.video || undefined,
     };
   }
@@ -435,6 +435,7 @@ export function getAllProducts(): ProductDetail[] {
   }
   return products;
 }
+
 
 /**
  * Get size variants for a product.

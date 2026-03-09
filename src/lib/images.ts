@@ -23,7 +23,7 @@ export function toLocalImage(cdnUrl: string): string {
   // Variant:   ...prod/{id}_{003}?$transform$
   // M-prefix:  ...prod/M{id}_{color}?$transform$
   const match = cdnUrl.match(/(?:currysprod|electrizprod)\/M?(\d{7,8})(?:_[a-zA-Z]+)?(?:_(\d{3}))?\?/);
-  if (!match) return cdnUrl;
+  if (!match) return cdnUrl.startsWith("/") ? cdnUrl : "";
 
   const productId = match[1];
   const variant = match[2]; // e.g., "001", "002", or undefined
@@ -46,13 +46,6 @@ export function toLocalImage(cdnUrl: string): string {
 }
 
 /**
- * Convert an array of CDN URLs to local paths.
- */
-export function toLocalImages(cdnUrls: string[]): string[] {
-  return cdnUrls.map(toLocalImage);
-}
-
-/**
  * Extract sort key from a CDN image URL based on its variant suffix.
  * Base image (no suffix) = 0, _001 = 1, _002 = 2, etc.
  * Non-standard URLs (video frames, etc.) sort last.
@@ -68,13 +61,6 @@ export function getImageSortKey(cdnUrl: string): number {
  */
 export function getListingImage(productId: string): string {
   return `/images/products/${productId}/main.webp`;
-}
-
-/**
- * Get the local large image path for a product ID.
- */
-export function getLargeImage(productId: string): string {
-  return `/images/products/${productId}/large.webp`;
 }
 
 /**

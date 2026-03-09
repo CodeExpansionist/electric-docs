@@ -8,37 +8,37 @@
     {
       "name": "Televisions",
       "url": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs",
-      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-tvs-all-new?fmt=auto&$q-large$"
+      "iconUrl": "/images/icons/top-cat-tvs-all-new.webp"
     },
     {
       "name": "DVD, Blu-ray & home cinema",
       "url": "https://www.electriz.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema",
-      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-dvd-bluray-cinema?fmt=auto&$q-large$"
+      "iconUrl": "/images/icons/top-cat-dvd-bluray-cinema.webp"
     },
     {
       "name": "Soundbars",
       "url": "https://www.electriz.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars",
-      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-uni-sound-bars?fmt=auto&$q-large$"
+      "iconUrl": "/images/icons/top-uni-sound-bars.webp"
     },
     {
       "name": "HiFi & Speakers",
       "url": "https://www.electriz.co.uk/tv-and-audio/speakers-and-hi-fi-systems",
-      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-hifi-speakers?fmt=auto&$q-large$"
+      "iconUrl": "/images/icons/top-cat-hifi-speakers.webp"
     },
     {
       "name": "TV accessories",
       "url": "https://www.electriz.co.uk/tv-and-audio/tv-accessories",
-      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-tv-acc?fmt=auto&$q-large$"
+      "iconUrl": "/images/icons/top-cat-tv-acc.webp"
     },
     {
       "name": "Digital & smart TV",
       "url": "https://www.electriz.co.uk/tv-and-audio/digital-and-smart-tv",
-      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-digital-smart-tv?fmt=auto&$q-large$"
+      "iconUrl": "/images/icons/top-cat-digital-smart-tv.webp"
     },
     {
       "name": "Headphones",
       "url": "https://www.electriz.co.uk/tv-and-audio/headphones/headphones",
-      "iconUrl": "https://media.electriz.biz/i/electrizprod/top-cat-headphones?fmt=auto&$q-large$"
+      "iconUrl": "/images/icons/top-cat-headphones.webp"
     }
   ],
   "sidebar": {
@@ -130,30 +130,30 @@
   "topDeals": [
     {
       "title": "Shop selected LG TVs",
-      "subtitle": "Claim up to £500 cashback!",
+      "subtitle": "Claim up to \u00a3500 cashback!",
       "url": "https://www.electriz.co.uk/deals-on-tv-and-audio/lg-tvs-offers",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk40-block-LG-Cashback?fmt=auto&$q-large$",
-      "imageAlt": "LG TVs. Claim up to £500 cashback!"
+      "imageUrl": "/images/banners/wk40-block-LG-Cashback.webp",
+      "imageAlt": "LG TVs. Claim up to \u00a3500 cashback!"
     },
     {
       "title": "Shop selected Samsung TVs & soundbars",
-      "subtitle": "Claim up to £1000 of Samsung tech.",
+      "subtitle": "Claim up to \u00a31000 of Samsung tech.",
       "url": "https://www.electriz.co.uk/deals-on-tv-and-audio/deals-on-selected-samsung-tvs",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk43-block-Samsung-Your-Gift-v1?fmt=auto&$q-large$",
+      "imageUrl": "/images/banners/wk43-block-Samsung-Your-Gift-v1.webp",
       "imageAlt": "Samsung TVs & soundbars."
     },
     {
       "title": "One to watch!",
-      "subtitle": "Shop 4K TVs now from just £189",
+      "subtitle": "Shop 4K TVs now from just \u00a3189",
       "url": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/4k-ultra-hd-tvs",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk42-block-Free-Delivery-v1?fmt=auto&$q-large$",
-      "imageAlt": "4K TVs now from just £189."
+      "imageUrl": "/images/banners/wk44-block-4K-TVs-from-219.webp",
+      "imageAlt": "4K TVs now from just \u00a3189."
     },
     {
       "title": "Pre-order the new Galaxy Buds4 Pro now!",
       "subtitle": "You've got 100 days to return.",
       "url": "https://www.electriz.co.uk/deals-on-tv-and-audio/samsung-galaxy-buds4-offers",
-      "imageUrl": "",
+      "imageUrl": "/images/banners/wk43-block-samsung-buds4-pro.webp",
       "imageAlt": "Samsung Galaxy Buds4 Pro with Samsung logo."
     }
   ],
@@ -164,19 +164,25 @@
         "title": "Subtitling",
         "description": "Mumbling movie stars? Dodgy dialogue? No worries. Ai generates spot-on subtitles in real time, meaning you'll never miss a word. Even when things drop to a hush.",
         "url": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs?prefn1=searchFilter29&prefv1=2025&pmin=1000.0&pmax=30000.0",
-        "imageAlt": "A woman on a TV screen holding a microphone with subtitles displayed"
+        "imageUrl": "/images/banners/tv-uni-prem-ai-subtitles.webp",
+        "imageAlt": "A woman on a TV screen holding a microphone with subtitles displayed",
+        "bgColor": "#EDE4F7"
       },
       {
         "title": "Ai sound",
         "description": "Ai fine-tunes audio to bring voices to the front, and smooth out background noise. Dialogue sounds clearer, so there's no need to keep reaching for that remote.",
         "url": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs?prefn1=searchFilter10&prefv1=AI%20sound%20enhancement",
-        "imageAlt": "A TV in a room with circles illustrating the sound filling the room"
+        "imageUrl": "/images/banners/tv-uni-prem-ai-sound.webp",
+        "imageAlt": "A TV in a room with circles illustrating the sound filling the room",
+        "bgColor": "#FDF6E3"
       },
       {
         "title": "Ai picture",
         "description": "Scene-by-scene, frame-by-frame, Ai fine-tunes your picture. It makes everything look cinematic, with colour and details that (almost) leap out of the screen.",
         "url": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs?prefn1=searchFilter6&prefv1=AI%20picture%20enhancement",
-        "imageAlt": "A lizard on a TV with half shown pixelated and half clear"
+        "imageUrl": "/images/banners/tv-uni-prem-ai-picture.webp",
+        "imageAlt": "A lizard on a TV with half shown pixelated and half clear",
+        "bgColor": "#E6F5EC"
       }
     ]
   },
@@ -185,6 +191,7 @@
     "description": "This is movie night done right. Filmmaker Mode turns off all the added effects, so you see the film exactly as the director meant it to be seen. Legendary film critic Mark Kermode breaks it down in this short video. If anyone knows what makes a film truly cinematic, it's him.",
     "ctaText": "Shop now",
     "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs?prefn1=searchFilter29&prefv1=2025&pmin=1000.0&pmax=30000.0",
+    "imageUrl": "/images/banners/tv-buying-guide-block-background.webp",
     "videoUrl": ""
   },
   "buyingGuidesVisual": [
@@ -211,130 +218,128 @@
     "heading": "Find your perfect TV size",
     "description": "Enter the distance between your sofa and your TV to find the perfect screen size for you:",
     "sizeOptions": [
-      "24\" - 31\"",
-      "32\" - 38\"",
-      "39\" - 45\"",
-      "46\" - 54\"",
-      "55\" - 64\"",
-      "65\" - 74\"",
-      "75\" - 79\"",
-      "80\" - 84\"",
-      "85\" - 89\"",
-      "90\" or more"
+      { "label": "24\" - 31\"", "url": "/tv-and-audio/televisions/tvs/24-31" },
+      { "label": "32\" - 38\"", "url": "/tv-and-audio/televisions/tvs/32-38" },
+      { "label": "39\" - 45\"", "url": "/tv-and-audio/televisions/tvs/39-45" },
+      { "label": "46\" - 54\"", "url": "/tv-and-audio/televisions/tvs/46-54" },
+      { "label": "55\" - 64\"", "url": "/tv-and-audio/televisions/tvs/55-64" },
+      { "label": "65\" - 74\"", "url": "/tv-and-audio/televisions/tvs/65-74" },
+      { "label": "75\" - 79\"", "url": "/tv-and-audio/televisions/tvs/75-79" },
+      { "label": "80\" - 84\"", "url": "/tv-and-audio/televisions/tvs/80-84" },
+      { "label": "85\" - 89\"", "url": "/tv-and-audio/televisions/tvs/85-89" },
+      { "label": "90\" or more", "url": "/tv-and-audio/televisions/tvs/90-and-more" }
     ],
     "assets": {
-      "tvImage": "https://static.isitetv.com/clients/electriz/tv-size-finder/images/tv.png",
-      "cabinetImage": "https://static.isitetv.com/clients/electriz/tv-size-finder/images/cabinet_small.png",
-      "sofaImage": "https://static.isitetv.com/clients/electriz/tv-size-finder/images/sofa_small.png",
-      "rugLeft": "https://static.isitetv.com/clients/electriz/tv-size-finder/images/rug-left.png",
-      "rugCenter": "https://static.isitetv.com/clients/electriz/tv-size-finder/images/rug-center.png",
-      "rugRight": "https://static.isitetv.com/clients/electriz/tv-size-finder/images/rug-right.png"
-    }
+      "tvImage": "/images/tv-size-finder/tv.png",
+      "cabinetImage": "/images/tv-size-finder/cabinet_small.png",
+      "sofaImage": "/images/tv-size-finder/sofa_small.png"
+    },
+    "learnMoreUrl": "/buying-guides/tv-buying-guide.html"
   },
   "promoBanners": [
     {
       "imageAlt": "Introducing the new Sky Glass Air TV",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk35-tv-sky-glass-save-25-air-desktop?fmt=auto&$q-large$",
+      "imageUrl": "/images/banners/wk35-tv-sky-glass-save-25-air-desktop.webp",
       "url": "https://www.electriz.co.uk/brand/sky/sky-glass-air.html"
     },
     {
       "imageAlt": "It pays to trade-in. Trade-in your used tech to get money off your next piece of kit. Magic.",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk34-service-block-trade-in?fmt=auto&$q-large$",
+      "imageUrl": "/images/banners/wk34-service-block-trade-in.webp",
       "url": "https://www.electriz.co.uk/services/ways-to-pay/trade-in.html"
     },
     {
       "imageAlt": "Cash for trash.",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk14-services-block-cash-for-trash?fmt=auto&$q-large$",
+      "imageUrl": "/images/banners/wk14-services-block-cash-for-trash.webp",
       "url": "https://www.electriz.co.uk/store-finder"
     },
     {
       "imageAlt": "Do you need TVs for your business? Check out the wide range at Currys Business",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk19-services-b2b-TV?fmt=auto&$q-large$",
+      "imageUrl": "/images/banners/wk19-services-b2b-TV.webp",
       "url": "https://business.electriz.co.uk/catalogue/tv-entertainment/tvs/all-tvs?&from=electrizb2c&utm_medium=referral=electrizb2c"
     },
     {
       "imageAlt": "Tech now, pay later. Pay as much or as little as you like for 6 months.",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk40-Service-Block-Credit-BNPL6?fmt=auto&$q-large$",
+      "imageUrl": "/images/banners/wk40-Service-Block-Credit-BNPL6.webp",
       "url": "https://www.electriz.co.uk/buy-now-pay-later/buy-now-pay-later-tvs"
     },
     {
       "imageAlt": "Get your TV on your wall. Need a hand? Our expert installers will mount your TV to the wall for you.",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk34-services-block-installation-tv?fmt=auto&$q-large$",
+      "imageUrl": "/images/banners/wk34-services-block-installation-tv.webp",
       "url": "https://www.electriz.co.uk/services/delivery-installation/home-installation.html"
     },
     {
       "imageAlt": "Save 10% off Care & Repair on selected Large Screen TVs and Small Screen TVs.",
-      "imageUrl": "https://media.electriz.biz/i/electrizprod/wk39-services-cash-for-trash-school?fmt=auto&$q-large$",
+      "imageUrl": "/images/banners/wk39-services-cash-for-trash-school.webp",
       "url": "https://www.electriz.co.uk/deals-on-tv-and-audio/savings-on-tvs"
     }
   ],
   "brandRow": [
     {
       "brand": "Samsung",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/samsung.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/samsung",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/samsung",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/samsung/samsung.html"
     },
     {
       "brand": "LG",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/lg.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/lg",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/lg",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/lg/lg.html"
     },
     {
       "brand": "Panasonic",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/panasonic.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/panasonic",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/panasonic",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/panasonic/panasonic.html"
     },
     {
       "brand": "Sony",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/sony.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/sony",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/sony",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/sony/sony.html"
     },
     {
       "brand": "Hisense",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/hisense.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/hisense",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/hisense",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/hisense/hisense.html"
     },
     {
       "brand": "Bose",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/bose.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/bose",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/bose",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/bose/bose-home.html"
     },
     {
       "brand": "Philips",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/philips.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/philips",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/philips",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/philips/philips-tv.html"
     },
     {
       "brand": "JVC",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/jvc.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/jvc",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/jvc",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/jvc/jvc-televisions.html"
     },
     {
       "brand": "TCL",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/tcl.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/tcl",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs/tcl",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/tcl/tcl-homepage.html"
     },
     {
       "brand": "Apple",
-      "logoUrl": "",
+      "logoUrl": "/images/brands/apple.png",
       "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/digital-and-smart-tv/digital-and-smart-tv/apple",
       "shopNowUrl": "https://www.electriz.co.uk/tv-and-audio/digital-and-smart-tv/digital-and-smart-tv/apple",
       "learnMoreUrl": "https://www.electriz.co.uk/brand/apple/apple.html"

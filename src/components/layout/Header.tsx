@@ -149,7 +149,7 @@ export default function Header() {
             alt="Electriz"
             width={100}
             height={100}
-            className="w-14 h-14 md:w-[76px] md:h-[76px] lg:w-[100px] lg:h-[100px]"
+            className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11"
             priority
           />
         </Link>
@@ -169,7 +169,7 @@ export default function Header() {
                 }}
                 onKeyDown={handleKeyDown}
                 placeholder="Search our products, brands & services"
-                className="w-full rounded-input border border-input-border h-11 pl-5 md:pl-6 pr-12 md:pr-14 text-base text-input-text
+                className="w-full rounded-input border border-input-border h-11 pl-5 md:pl-6 pr-12 md:pr-14 text-sm text-input-text
                            focus:border-primary focus:ring-0 transition-colors search-input"
                 role="combobox"
                 aria-expanded={showSuggestions && suggestions.length > 0}
@@ -438,7 +438,7 @@ export default function Header() {
                 }}
                 onKeyDown={handleKeyDown}
                 placeholder="Search our products, brands & services"
-                className="w-full rounded-input border-0 bg-[#F2F2F2] h-11 pl-5 pr-12 text-base text-input-text
+                className="w-full rounded-input border-0 bg-[#F2F2F2] h-11 pl-5 pr-12 text-sm text-input-text
                            focus:border-primary focus:ring-0 transition-colors search-input"
                 role="combobox"
                 aria-expanded={showSuggestions && suggestions.length > 0}

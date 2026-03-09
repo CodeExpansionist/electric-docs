@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/constants";
+import { getAllArticleSlugs } from "@/lib/article-data";
 
 // Category data files and their URL slugs
 const categoryFiles = [
@@ -81,6 +82,72 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.4,
     },
+    {
+      url: `${SITE_URL}/contact-us`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
+      url: `${SITE_URL}/techtalk`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.5,
+    },
+    {
+      url: `${SITE_URL}/services/price-promise`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${SITE_URL}/product-reviews`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/services/shoplive`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${SITE_URL}/services/instant-replacement`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${SITE_URL}/services/tablet-insurance`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: `${SITE_URL}/privacy-cookies-policy`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+    {
+      url: `${SITE_URL}/terms-and-conditions`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+    {
+      url: `${SITE_URL}/product-recalls`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/site-map`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.2,
+    },
   ];
 
   // ---- Category listing pages ----
@@ -131,5 +198,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  return [...staticPages, ...categoryPages, ...productPages];
+  // ---- TechTalk article pages ----
+  const articlePages: MetadataRoute.Sitemap = getAllArticleSlugs().map(
+    (slug) => ({
+      url: `${SITE_URL}/techtalk/${slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.5,
+    })
+  );
+
+  return [
+    ...staticPages,
+    ...categoryPages,
+    ...productPages,
+    ...articlePages,
+  ];
 }

@@ -31,7 +31,7 @@ function AddToBasketButton({ onAddToBasket }: { onAddToBasket?: () => void }) {
   return (
     <button
       onClick={handleClick}
-      className={`w-full text-base py-3.5 flex items-center justify-center gap-2 rounded-lg font-semibold transition-colors ${
+      className={`w-full text-lg py-3.5 flex items-center justify-center gap-2 rounded-lg font-bold transition-colors ${
         added
           ? "bg-green-600 text-white"
           : "btn-primary"

@@ -50,7 +50,7 @@ function SavedProductCard({
         {/* Title */}
         <Link
           href={`/products/${product.slug}`}
-          className="text-xs font-bold text-text-primary no-underline hover:text-primary line-clamp-2 block mb-2"
+          className="text-sm font-bold text-text-primary no-underline hover:text-primary line-clamp-2 block mb-2"
         >
           {product.title}
         </Link>

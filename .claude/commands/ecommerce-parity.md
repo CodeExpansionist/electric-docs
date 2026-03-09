@@ -105,6 +105,12 @@ Check: `src/components/product/PricePanel.tsx` for the add-to-basket button comp
 - **Discount persists when quantity changes** — `calculateTotals()` in basket-context must accept optional `promoDiscount` parameter, and all reducer cases must pass `state.promoDiscount` through
 - Remove button dispatches `REMOVE_PROMO`, clears code and discount, reverts total
 - Total calculation: `Math.max(0, subtotal + deliveryCost - promoDiscount)`
+- **Promo persists into orders** — when order is created, `promoCode` and `promoDiscount` must be saved to the Order object (check `Order` type in `orders-context.tsx` has these optional fields)
+- **Promo shows in checkout sidebar** — `CheckoutSidebar.tsx` must display promo line (code + discount amount in green) between delivery and total when a promo is applied
+- **Promo shows on confirmation page** — `confirmation/page.tsx` must display a promo discount row between delivery and total
+- **Promo shows in admin** — `admin/orders/[orderNumber]/page.tsx` must display promo in both the totals breakdown and the Payment info card
+- **Promo shows in account orders** — `account/page.tsx` order detail must display promo discount row between delivery and total
+- **Promo shows on payment page sidebar** — `checkout/payment/page.tsx` order summary sidebar must show promo line and subtract discount from total
 
 ---
 
@@ -129,7 +135,8 @@ Check: `src/components/product/PricePanel.tsx` for the add-to-basket button comp
 - Step navigation works: welcome → delivery → customer → payment
 - Edit button on completed steps re-opens that step with data preserved
 - Guest checkout works without sign-in
-- Sidebar order summary reflects actual basket contents and totals
+- Sidebar order summary reflects actual basket contents and totals (including promo discount if applied)
+- **Promo data saved to order** — `addOrder()` call must spread `promoCode`/`promoDiscount` from basket state into the order object
 - Form validation on required fields (name, address, postcode, phone, email)
 
 ---
@@ -142,14 +149,28 @@ Check: `src/components/product/PricePanel.tsx` for the add-to-basket button comp
 - **Order prefix** consistent: `ELZ-` not `CUR-`
 - Card type detection works (Visa starts 4, MC starts 5, Amex starts 3)
 - Input formatting works (card number auto-spacing, expiry MM/YY)
-- Order creation saves to orders context with: all basket items, delivery address, customer email, payment method, totals
+- Order creation saves to orders context with: all basket items, delivery address, customer email, payment method, totals, promo code/discount (if applied)
 - Basket cleared after successful order (`clearBasket()`)
-- Confirmation page displays: order number, items list, subtotal, delivery, total, delivery address
-- **Order persists** — navigating to `/account` → My Orders shows the order
+- Confirmation page displays: order number, items list, subtotal, delivery, promo discount (if applied), total, delivery address
+- **Order persists** — navigating to `/account` → My Orders shows the order (including promo data)
 
 ---
 
-## Step 9: Cross-Feature Integration
+## Step 9: Totals Consistency Audit
+
+Every page that displays or saves subtotal, delivery cost, promo discount, or total must read from the **basket context** (the single source of truth) — never recalculate locally. Local recalculation risks mismatched thresholds, delivery costs, or fallback values.
+
+- `basket-context.tsx` `calculateTotals()` is the canonical source for: subtotal, deliveryCost, total (including promo)
+- **Checkout page** (`checkout/page.tsx`) — must use `basket.subtotal`, `basket.deliveryCost`, `basket.total`
+- **Payment page** (`checkout/payment/page.tsx`) — must use `basket.subtotal`, `basket.deliveryCost`, `basket.total` — NOT recalculate with `items.reduce()`
+- **Checkout sidebar** (`CheckoutSidebar.tsx`) — must use `basket.subtotal`, `basket.deliveryCost`, `basket.total`
+- **Order creation** (both checkout and payment flows) — `subtotal`, `deliveryCost`, `total` saved to order must come from basket context values
+- **No hardcoded fallback amounts** — if basket is empty, redirect or show empty state. Never fall back to a dummy subtotal.
+- **Grep check:** Search for `items.reduce`, `> 40`, `>= 40`, `3.99`, `5.00` across `src/app/checkout/` and `src/components/checkout/` — any local total recalculation is a bug.
+
+---
+
+## Step 10: Cross-Feature Integration
 
 Verify state changes propagate correctly across pages:
 
@@ -157,13 +178,13 @@ Verify state changes propagate correctly across pages:
 - Add to basket from saved page → header basket count updates, item removed from saved
 - Save for later on product page → saved count in header updates (if displayed)
 - Checkout completion → basket cleared → header count resets to 0
-- Order created at checkout → visible in account page My Orders tab
-- Order visible in admin dashboard (`/admin`) and admin orders table (`/admin/orders`)
+- Order created at checkout → visible in account page My Orders tab (including promo data if applied)
+- Order visible in admin dashboard (`/admin`) and admin orders table (`/admin/orders`) (including promo data if applied)
 - Admin order table shows real orders, not demo data
 
 ---
 
-## Step 10: Branding Consistency
+## Step 11: Branding Consistency
 
 Search all source files for old brand references:
 
