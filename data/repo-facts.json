@@ -1,0 +1,36 @@
+{
+  "generated": "2026-03-10T17:05:30.042Z",
+  "versions": {
+    "next": "15.5.12",
+    "react": "18",
+    "tailwindcss": "3.4.1",
+    "typescript": "5"
+  },
+  "counts": {
+    "products": 2321,
+    "images": 37626,
+    "categories": 14,
+    "scripts": 21,
+    "components": 53,
+    "routes": 36
+  },
+  "packageScripts": {
+    "dev": "rm -rf .next && next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:layout": "node scripts/lint-layout.js",
+    "facts": "node scripts/generate-repo-facts.js",
+    "audit": "node scripts/audit-docs.js",
+    "preflight": "npm run facts && npm run audit"
+  },
+  "envVars": {
+    "documented": [
+      "NEXT_PUBLIC_GA_ID",
+      "NEXT_PUBLIC_SITE_URL"
+    ],
+    "usedInCode": [
+      "NEXT_PUBLIC_SITE_URL"
+    ]
+  }
+}

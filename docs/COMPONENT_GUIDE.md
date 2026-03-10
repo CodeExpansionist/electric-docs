@@ -4,10 +4,12 @@
 
 ```
 src/components/
-├── layout/          # Site-wide layout components
+├── admin/           # Admin dashboard components
+├── basket/          # Basket page components
 ├── category/        # Category listing page components
-├── product/         # Product detail page components
 ├── checkout/        # Checkout step components
+├── layout/          # Site-wide layout components
+├── product/         # Product detail page components
 └── ui/              # Shared reusable UI components
 ```
 
@@ -45,7 +47,7 @@ Teal banner at the top of the page with promotional messages.
 
 ### USPBar (`layout/USPBar.tsx`)
 
-Horizontal bar showing unique selling propositions (free delivery, price promise, recycling, finance).
+Horizontal bar showing unique selling propositions (free delivery, price promise, recycling).
 
 ### HeroCarousel (`layout/HeroCarousel.tsx`)
 

@@ -20,20 +20,20 @@ public/images/
 │       ├── thumb_002.webp      # Thumbnail variant 2
 │       └── ...                 # Up to thumb_012.webp
 ├── banners/
-│   └── {slug}.webp             # Promotional banners (31 files)
+│   └── {slug}.webp             # Promotional banners
 ├── icons/
-│   └── {slug}.svg              # Category icons (8 files)
+│   └── {slug}.svg              # Category icons
 └── brand-electriz-logo.svg     # Brand logo
 ```
 
 ## Image Stats
 
-| Type | Count | Format | Typical Size |
-|------|-------|--------|-------------|
-| Product images | 37,309 | WebP | 5–200 KB |
-| Banners | 31 | WebP | 50–300 KB |
-| Icons | 8 | SVG | 1–5 KB |
-| Brand logo | 1 | SVG | 2.4 KB |
+| Type | Format | Typical Size |
+|------|--------|-------------|
+| Product images (thousands) | WebP | 5–200 KB |
+| Banners | WebP | 50–300 KB |
+| Icons | SVG | 1–5 KB |
+| Brand logo | SVG | 2.4 KB |
 
 ## CDN URL Parsing (`src/lib/images.ts`)
 
@@ -111,7 +111,7 @@ product.images?.gallery.map(src => <Image src={src} />)
 
 ## M-Prefix Products
 
-37 products use Amplience's M-prefix URL format where multiple color variants share a single base product image:
+Some products use Amplience's M-prefix URL format where multiple color variants share a single base product image:
 
 ```
 electrizprod/M10282426_Black?$g-small$   → /images/products/10282426/main.webp

@@ -9,8 +9,9 @@
 
 ```bash
 git clone <repo-url>
-cd electric-docs
+cd electriz
 npm install
+bash scripts/install-git-hooks.sh  # Install pre-commit drift checks
 npm run dev
 ```
 
@@ -43,7 +44,6 @@ Product images live at `public/images/products/{productId}/{type}.webp`. Use the
 ### TypeScript
 
 - Strict mode enabled
-- All exports in `src/lib/` should have JSDoc comments
 - Prefer explicit types over `any` (use `eslint-disable` sparingly for scraped data parsing)
 
 ### Category Routing
@@ -73,6 +73,16 @@ rm -rf .next
 npm run dev
 ```
 
+## Documentation Drift
+
+If your changes touch `.md` files, `package.json`, `scripts/`, `.env.example`, or `data/repo-facts.json`, run:
+
+```bash
+npm run preflight
+```
+
+This regenerates repo facts and audits docs for drift. The pre-commit hook runs this automatically for staged drift-relevant files. See [docs/GIT_HOOKS.md](docs/GIT_HOOKS.md).
+
 ## Pull Request Checklist
 
 - [ ] Changes match the reference screenshots in `reference-screenshots/`
@@ -80,3 +90,4 @@ npm run dev
 - [ ] Design tokens used instead of hardcoded colors/sizes
 - [ ] `npm run build` passes without errors
 - [ ] `npm run lint` passes
+- [ ] `npm run preflight` passes (if docs, scripts, or package.json changed)

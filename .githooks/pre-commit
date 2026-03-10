@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+# Pre-commit hook: runs npm run preflight to catch documentation drift.
+# Installed by: npm run setup-hooks (or: bash scripts/install-git-hooks.sh)
+#
+
+# Check if any drift-relevant files are staged
+DRIFT_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(md)$|^package\.json$|^scripts/|^\.env\.example$|^data/repo-facts\.json$')
+
+if [ -z "$DRIFT_FILES" ]; then
+  exit 0
+fi
+
+echo "Drift-relevant files staged — running preflight..."
+echo ""
+
+npm run preflight
+
+STATUS=$?
+
+if [ $STATUS -ne 0 ]; then
+  echo ""
+  echo "Preflight failed. Fix the issues above before committing."
+  echo "To bypass (emergency only): git commit --no-verify"
+  exit 1
+fi
+
+exit 0

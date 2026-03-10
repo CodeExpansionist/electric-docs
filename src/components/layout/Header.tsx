@@ -261,7 +261,7 @@ export default function Header() {
                             {suggestion.image ? (
                               <Image
                                 src={suggestion.image}
-                                alt=""
+                                alt={suggestion.text}
                                 width={40}
                                 height={40}
                                 className="object-contain"

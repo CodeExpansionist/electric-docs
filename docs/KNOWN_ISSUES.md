@@ -1,54 +1,18 @@
 # Known Issues
 
-Issues identified during the E2E pipeline test (March 2026). Sorted by severity.
-
-## Critical
-
-### Hub Page `/tv-and-audio` Returns 500
-
-**Impact:** The main TV & Audio hub page is broken in development.
-
-**Cause:** `data/scrape/tv-audio-hub.json` contains external CDN URLs in the `iconUrl` field (e.g., `https://media.electriz.biz/i/electrizprod/top-cat-tvs-all-new?fmt=auto&$q-large$`). When passed to `next/image`, these fail because `remotePatterns: []` in `next.config.mjs` blocks all external image sources.
-
-**Fix:** Download the hub category icons locally and update the JSON to use local paths (e.g., `/images/icons/top-cat-tvs.webp`).
-
-**Affected files:** `data/scrape/tv-audio-hub.json`, `src/app/tv-and-audio/page.tsx`
+Last audited: 2026-03-10
 
 ## Moderate
 
-### 8 Products Missing `main.webp`
+### 4 Products Missing `main.webp`
 
-**Impact:** 8 products will show broken images in category listings.
+**Impact:** These products show broken images in category listings.
 
-**Cause:** The CDN domain `media.electriz.biz` does not resolve (placeholder domain). These 8 products' images were never downloaded because the CDN was unreachable during the download phase.
+**Products:** `10194276` (Ross wall mount), `10194482` (One For All remote), `10215892` (AVF TV stand), `10248652` (Sanus wall mount)
 
-**Products missing images:** Check with `node scripts/verify-coverage.js`
+**Cause:** Images were never downloaded during the original scrape pipeline. The CDN URLs in their data use the placeholder domain and cannot be resolved.
 
-**Fix:** Source images from an alternative CDN or add placeholder images.
-
-### 5 Categories Missing Filter Data
-
-**Impact:** Remote Controls, Wall Brackets, Radios, Blu-ray Players, and Home Cinema categories show filters with 0 options.
-
-**Cause:** These category pages use heavy JavaScript rendering (SPA). The Firecrawl scraper couldn't extract filter data from the rendered page.
-
-**Fix:** Re-scrape these categories with scroll + wait actions to allow JavaScript to render filters:
-```javascript
-actions: [
-  { type: "scroll", direction: "down" },
-  { type: "wait", milliseconds: 3000 },
-  { type: "scroll", direction: "down" },
-  { type: "wait", milliseconds: 2000 }
-]
-```
-
-### 36 Image Components Missing Alt Text
-
-**Impact:** Accessibility issue (WCAG 2.1 AA non-compliance for images).
-
-**Cause:** Many `<Image>` components use empty `alt=""` or generic alt text.
-
-**Fix:** Add descriptive alt text derived from product name, brand, and category.
+**Fix:** Re-scrape these 4 products from the real source site to obtain working image URLs, then run the download pipeline.
 
 ## Low
 
@@ -56,9 +20,7 @@ actions: [
 
 **Impact:** No automated testing. Zero test files exist.
 
-**Cause:** Testing was deferred during the initial build phase.
-
-**Fix:** Install Jest + React Testing Library, create unit tests for data layer functions, component tests for key UI components, and E2E tests with Playwright.
+**Fix:** Install Vitest + React Testing Library for unit/component tests, Playwright for E2E.
 
 ### No Dockerfile or CI/CD Configuration
 
@@ -66,24 +28,13 @@ actions: [
 
 **Fix:** See [DEPLOYMENT.md](DEPLOYMENT.md) for recommended Docker and CI/CD setup.
 
-### 21 Zero-Byte WebP Files
+---
 
-**Impact:** Some thumbnail and gallery image variants are 0 bytes. These are not `main.webp` files so they don't break listings, but gallery views may show broken images.
+## Resolved (2026-03-10)
 
-**Cause:** Download failures during the image acquisition phase.
-
-**Fix:** Re-run `node scripts/download-images.js` for affected products.
-
-### Stray Empty File: `src/components/layout/CLAUDE.md`
-
-**Impact:** None (empty file).
-
-**Fix:** Delete the file.
-
-### `size-variants.json` May Be Empty
-
-**Impact:** TV size selectors on product detail pages won't show size options.
-
-**Cause:** The `build-size-variants.js` script may need to be re-run after data updates.
-
-**Fix:** `node scripts/build-size-variants.js`
+- ~~Image alt text gaps~~ — Fixed: all `<Image>` components now use descriptive alt text
+- ~~Hub page `/tv-and-audio` returns 500~~ — Fixed: hub icons now use local paths
+- ~~21 zero-byte WebP files~~ — Fixed: 0 zero-byte files remain
+- ~~Stray empty `src/components/layout/CLAUDE.md`~~ — Deleted
+- ~~`size-variants.json` may be empty~~ — Contains valid TV variant data
+- ~~5 categories missing filter data~~ — verify-coverage.js reports 7/7 categories have filters

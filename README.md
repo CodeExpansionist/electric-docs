@@ -1,10 +1,10 @@
 # Electric — Electriz TV & Audio Clone
 
-A pixel-perfect clone of the [Electriz](https://www.electriz.co.uk) TV & Audio section, built with Next.js 14, TypeScript, and Tailwind CSS.
+A pixel-perfect clone of the [Electriz](https://www.electriz.co.uk) TV & Audio section, built with Next.js 15, TypeScript, and Tailwind CSS. All data and assets are fully self-contained — zero external requests at runtime.
 
 ## Tech Stack
 
-- **Framework:** Next.js 14 (App Router)
+- **Framework:** Next.js 15 (App Router)
 - **Language:** TypeScript (strict mode)
 - **Styling:** Tailwind CSS with custom design tokens
 - **State Management:** React Context (basket, saved items, orders)
@@ -44,40 +44,28 @@ npm start
 npm run lint
 ```
 
+### Workflow
+
+```bash
+npm run preflight  # Regenerate repo-facts.json + audit docs for drift
+npm run facts      # Regenerate data/repo-facts.json only
+npm run audit      # Run doc audit only
+```
+
+A pre-commit hook runs preflight automatically when docs or scripts change. See [docs/GIT_HOOKS.md](docs/GIT_HOOKS.md).
+
 ## Project Structure
 
 ```
 src/
-├── app/                    # Next.js App Router pages
-│   ├── layout.tsx          # Root layout with providers
-│   ├── page.tsx            # Homepage
-│   ├── tv-and-audio/       # TV & Audio hub page
-│   ├── tv-and-audio/televisions/  # Category listing
-│   ├── products/[slug]/    # Product detail page
-│   ├── basket/             # Basket page
-│   ├── checkout/           # Checkout flow (multi-step)
-│   ├── account/            # Account & orders
-│   ├── help-and-support/   # Help & support page
-│   └── [...slug]/          # Catch-all for footer pages
-├── components/
-│   ├── layout/             # Header, footer, navigation
-│   ├── home/               # Homepage sections
-│   ├── hub/                # TV & Audio hub sections
-│   ├── category/           # Category listing components
-│   ├── product/            # Product detail components
-│   ├── basket/             # Basket page components
-│   └── checkout/           # Checkout step components
-├── lib/
-│   ├── basket-context.tsx  # Basket state (Context + useReducer)
-│   ├── saved-context.tsx   # Saved items state
-│   ├── orders-context.tsx  # Order history state
-│   ├── product-data.ts     # Product data loading utilities
-│   ├── types.ts            # Shared TypeScript types
-│   └── validation.ts       # Form validation utilities
-└── data/
-    ├── design-tokens.json  # Design system tokens
-    ├── scrape/             # Scraped page data (JSON)
-    └── ...                 # Category and product data
+├── app/            # Next.js App Router pages & API routes
+├── components/     # React components by feature area
+├── lib/            # Contexts, data loaders, types, utilities
+data/
+├── design-tokens.json  # Design system tokens (drives Tailwind config)
+├── scrape/              # Scraped product & category data (JSON)
+public/
+└── images/         # All product, banner, and icon images (local)
 ```
 
 ## Pages
@@ -97,23 +85,11 @@ src/
 
 ## Design System
 
-Design tokens are extracted from the live Electriz site and stored in `data/design-tokens.json`. These tokens drive the Tailwind configuration in `tailwind.config.ts`.
-
-Key tokens include:
-- **Colors:** Primary purple (`#4C12A1`), announcement teal, sale red, text hierarchy
-- **Typography:** Electriz Sans font family, size scale from xs to 3xl
-- **Spacing:** Container max-width, border radii, shadows
-- **Breakpoints:** sm (640px), md (768px), lg (1024px), xl (1280px)
+Design tokens extracted from the reference site drive the Tailwind configuration. See [docs/DESIGN_SYSTEM.md](docs/DESIGN_SYSTEM.md) for the full token reference.
 
 ## Data
 
-Product data is scraped from electriz.co.uk and stored as JSON in `data/`. The scraping workflow:
-
-1. Full category pages scraped via Firecrawl MCP
-2. Individual product pages enriched with specs, gallery, flexpay, bundles
-3. Data indexed in `data/scrape/products/products-index.json`
-
-Product images use local images with `next/image` and `unoptimized` flag.
+Product data is scraped from the reference site and stored as static JSON. All images are downloaded locally — no CDN calls at runtime. See [docs/DATA_PIPELINE.md](docs/DATA_PIPELINE.md) for the full scraping and build pipeline.
 
 ## Checkout Flow
 
@@ -125,6 +101,8 @@ The checkout implements a multi-step flow:
 4. **Payment** — Card/Apple Pay or PayPal selection
 5. **Confirmation** — Order number and summary
 
+All payment and checkout flows are simulated — no real transactions or external API calls.
+
 Form validation includes UK postcode format, phone number format, email validation, and card number Luhn check. Mock submission shows a spinner then redirects to confirmation with a generated order number.
 
 ## Documentation
@@ -134,12 +112,12 @@ Detailed documentation lives in the `docs/` directory:
 | Document | Description |
 |----------|-------------|
 | [Architecture](docs/ARCHITECTURE.md) | System architecture, data flow, key decisions |
-| [Data Pipeline](docs/DATA_PIPELINE.md) | 17-script pipeline: scrape → normalize → build → verify |
+| [Data Pipeline](docs/DATA_PIPELINE.md) | Multi-step pipeline: scrape → normalize → build → verify |
 | [Data Schema](docs/DATA_SCHEMA.md) | Product, Category, Basket types with field explanations |
-| [Image System](docs/IMAGE_SYSTEM.md) | CDN URL parsing, local storage, 37K image architecture |
+| [Image System](docs/IMAGE_SYSTEM.md) | CDN URL parsing, local image storage, path resolution |
 | [API Reference](docs/API_REFERENCE.md) | `/api/search` endpoint: params, response shapes, scoring |
-| [Category Routing](docs/CATEGORY_ROUTING.md) | 2-phase routing algorithm, 14 category keys, aliases |
-| [Checkout Flow](docs/CHECKOUT_FLOW.md) | 5-step checkout, validation rules, mock submission |
+| [Category Routing](docs/CATEGORY_ROUTING.md) | Multi-phase routing algorithm, category keys, aliases |
+| [Checkout Flow](docs/CHECKOUT_FLOW.md) | Multi-step checkout, validation rules, mock submission |
 | [Design System](docs/DESIGN_SYSTEM.md) | Tokens, colors, typography, spacing reference |
 | [Component Guide](docs/COMPONENT_GUIDE.md) | Key components, props, usage patterns |
 | [Deployment](docs/DEPLOYMENT.md) | Build, deploy, environment configuration |
@@ -149,13 +127,12 @@ Additional project files:
 
 | File | Purpose |
 |------|---------|
-| [PROJECT_SPEC.md](PROJECT_SPEC.md) | Build specification with screenshot references and data models |
+| [PROJECT_SPEC.md](docs/PROJECT_SPEC.md) | Screenshot references and page inventory |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Development setup, code standards, PR checklist |
-| [CHANGELOG.md](CHANGELOG.md) | Version history |
 
 ## Reference Screenshots
 
-18 annotated screenshots in `reference-screenshots/` serve as the visual source of truth. See `PROJECT_SPEC.md` for the full screenshot-to-page mapping.
+Annotated screenshots in `reference-screenshots/` serve as the visual source of truth. See [PROJECT_SPEC.md](docs/PROJECT_SPEC.md) for the full screenshot-to-page mapping.
 
 ## License
 

@@ -1,13 +1,17 @@
 {
   "name": "electric",
-  "version": "0.1.0",
+  "description": "Pixel-perfect clone of Electriz TV & Audio section",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "rm -rf .next && next dev -p 3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:layout": "node scripts/lint-layout.js"
+    "lint:layout": "node scripts/lint-layout.js",
+    "facts": "node scripts/generate-repo-facts.js",
+    "audit": "node scripts/audit-docs.js",
+    "preflight": "npm run facts && npm run audit"
   },
   "dependencies": {
     "next": "^15.5.12",

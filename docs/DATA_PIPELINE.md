@@ -75,14 +75,32 @@ Run scripts in this order. Each step depends on the output of the previous step.
 | Images missing or corrupt | 15 → 16 |
 | Verify current state | 16 only |
 
-## Firecrawl Configuration
+## Firecrawl Best Practices
 
-All scraping scripts use the Firecrawl MCP tool. Key configuration:
+All scraping scripts use the Firecrawl MCP tool.
 
-- **UK locale required**: `location: { country: "GB", languages: ["en-GB"] }` — without this, prices return in USD
-- **Caching**: `maxAge: 86400000` (1-day cache) for development; `maxAge: 0` for fresh data
-- **Batch limit**: Max 20 parallel `firecrawl_scrape` calls per batch
-- **Lazy content**: Some products need scroll + wait actions to load specs and gallery images
+### Ground rules
+
+- **No CSS/layout extraction** — do not extract CSS or layout during scrapes; it's inaccurate and not needed.
+- **No full crawls** — targeted scrapes only; full crawls are off the table.
+- **Quality over speed** — cost is not a factor; get the data right rather than fast.
+
+### Configuration
+
+- **UK locale required**: All scrapes must include `location: { country: "GB", languages: ["en-GB"] }`. Firecrawl defaults to US proxies — without this, prices may return in USD and geo-targeted content will differ.
+- **Caching**: `maxAge: 86400000` (1-day cache, ~5x faster) for dev iteration. `maxAge: 0` for fresh data. Always `maxAge: 0` for `/update-data` and `/recover-missing`.
+- **Batch limit**: Max 20 parallel `firecrawl_scrape` calls per batch. Higher risks rate limiting.
+- **Lazy content**: If a product scrape returns empty specs or <3 gallery images, retry with `actions: [{ type: "scroll", direction: "down" }, { type: "wait", milliseconds: 2000 }]`.
+
+### Resource management
+
+- **Browser sessions**: Always call `firecrawl_browser_delete` after `firecrawl_browser_create`. Orphaned sessions cost 2 credits/min.
+- **Credit costs**: JSON format = +4 credits/page. Agent = dynamic pricing. Browser = 2 credits/min. Enhanced proxy = +4 credits/page.
+
+### Special cases
+
+- **Link checking**: Use `firecrawl_crawl` on localhost for page discovery, then manual HTTP checks for image integrity.
+- **Dynamic video/media**: JS-injected `<video>` elements don't appear in Firecrawl's structured output. Search the raw scraped HTML (`rawHtml` or markdown) for `.mp4`/`.webm` URL patterns to extract dynamically loaded media URLs.
 
 ## Output File Formats
 

@@ -189,12 +189,12 @@ Verify state changes propagate correctly across pages:
 Search all source files for old brand references:
 
 ```bash
-grep -r "CUR-" src/
-grep -ri "currys" src/ --include="*.tsx" --include="*.ts"
+grep -ri "{old-brand-prefix}" src/
+grep -ri "{old-brand-name}" src/ --include="*.tsx" --include="*.ts"
 ```
 
-- Order number format must be `ELZ-XXXXXX-XXXX`
-- All user-facing copy must reference "Electriz" not "Currys"
+- Order number format must match the clone brand's prefix (check `project-config.md`)
+- All user-facing copy must reference the clone brand name, not the reference site's brand
 - No external URLs in any e-commerce pages (CDN, analytics, payment gateways)
 
 ---

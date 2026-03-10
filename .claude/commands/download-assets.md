@@ -107,19 +107,9 @@ For SVG files:
 
 Download all 7 energy class arrow SVGs (A through G) used on product cards and detail pages.
 
-**Discovery:** Grep `data/scrape/products/` for `img-energy-class-` to find CDN URLs with content hashes. The URL pattern is:
+**Discovery:** Grep `data/scrape/products/` for `img-energy-class-` to find CDN URLs with content hashes. The URL pattern follows the reference site's static asset structure — extract the full URL pattern from scraped product data.
 
-```
-https://www.currys.co.uk/on/demandware.static/Sites-curryspcworlduk-Site/-/default/{hash}/images/img-energy-class-{letter}.svg
-```
-
-Each letter has a unique content hash. Known hashes:
-
-- A, B, C: `dwc623a9d4` (shared with D)
-- D: `dwc623a9d4`
-- E: `dw30f3f5ef`
-- F: `dw927faffa`
-- G: `dw38d8b948`
+Each energy class letter (A through G) may have a unique content hash. Discover the hashes by grepping scraped data for each letter variant.
 
 **Download method:** Use `firecrawl_scrape` (not curl) — Cloudflare blocks direct requests. Scrape each URL with `formats: ["html"]`, then extract the SVG content from the response.
 

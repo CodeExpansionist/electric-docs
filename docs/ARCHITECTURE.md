@@ -12,7 +12,7 @@ Electric is a pixel-perfect clone of the Electriz TV & Audio section, built as a
 └──────────────────┬──────────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────────┐
-│            Next.js 14 App Router                 │
+│            Next.js 15 App Router                 │
 │                                                  │
 │  src/app/                                        │
 │  ├── page.tsx              (homepage)            │
@@ -29,9 +29,11 @@ Electric is a pixel-perfect clone of the Electriz TV & Audio section, built as a
 ┌──────────────────▼──────────────────────────────┐
 │               Data Layer (src/lib/)              │
 │                                                  │
-│  category-data.ts  → categoryMap (14 categories) │
+│  category-data.ts  → categoryMap (all categories) │
 │  product-data.ts   → product detail merging      │
 │  search-data.ts    → search indexing + scoring   │
+│  article-data.ts   → TechTalk article loading    │
+│  admin-utils.ts    → admin dashboard utilities   │
 │  images.ts         → CDN URL → local path        │
 │  constants.ts      → SITE_URL, stripDomain       │
 │  types.ts          → shared TypeScript interfaces │
@@ -43,20 +45,20 @@ Electric is a pixel-perfect clone of the Electriz TV & Audio section, built as a
 ┌──────────────────▼──────────────────────────────┐
 │             Static Data (data/scrape/)            │
 │                                                  │
-│  14 category JSON files (product listings)       │
-│  2,321 product detail JSON files                 │
+│  Category JSON files (product listings)           │
+│  Individual product detail JSON files             │
 │  products-index.json (master index)              │
 │  size-variants.json (TV size groupings)          │
-│  3 hub JSON files (subcategory hub pages)        │
+│  Hub JSON files (subcategory hub pages)          │
 │  seo/ directory (robots, sitemap references)     │
 └──────────────────┬──────────────────────────────┘
                    │
 ┌──────────────────▼──────────────────────────────┐
 │          Local Assets (public/images/)            │
 │                                                  │
-│  products/{id}/main.webp     (37,309 images)     │
-│  banners/{slug}.webp         (31 images)         │
-│  icons/{slug}.svg            (8 icons)           │
+│  products/{id}/main.webp     (product images)    │
+│  banners/{slug}.webp         (promo banners)     │
+│  icons/{slug}.svg            (category icons)    │
 │  brand-electriz-logo.svg     (brand logo)        │
 └─────────────────────────────────────────────────┘
 ```
@@ -132,37 +134,38 @@ See [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) for the full token reference.
 ## Directory Structure
 
 ```
-electric-docs/
+electriz/
 ├── data/
 │   ├── design-tokens.json          # Design system tokens
 │   └── scrape/                     # All scraped data
-│       ├── category-tvs.json       # Category listing data (×14)
-│       ├── products/               # Individual product details (×2,321)
+│       ├── category-*.json          # Category listing data
+│       ├── products/               # Individual product detail files
 │       ├── products-index.json     # Master product index
 │       ├── size-variants.json      # TV size variant groupings
-│       ├── hub-*.json              # Hub page data (×3)
+│       ├── hub-*.json              # Hub page data
 │       ├── homepage.json           # Homepage content
 │       ├── pages/                  # Static page content
 │       └── seo/                    # SEO reference data
 ├── public/
 │   └── images/
-│       ├── products/{id}/          # Product images (37,309 files)
-│       ├── banners/                # Promotional banners (31 files)
-│       ├── icons/                  # Category icons (8 files)
+│       ├── products/{id}/          # Product images (WebP)
+│       ├── banners/                # Promotional banners
+│       ├── icons/                  # Category icons
 │       └── brand-electriz-logo.svg # Brand logo
-├── scripts/                        # Data pipeline scripts (17 files)
+├── scripts/                        # Data pipeline scripts
 ├── src/
 │   ├── app/                        # Next.js App Router pages
 │   ├── components/                 # React components
 │   │   ├── layout/                 # Header, Footer, Nav, etc.
 │   │   ├── category/               # Category listing components
 │   │   ├── product/                # Product detail components
+│   │   ├── basket/                 # Basket page components
 │   │   ├── checkout/               # Checkout step components
+│   │   ├── admin/                  # Admin dashboard components
 │   │   └── ui/                     # Shared UI components
 │   └── lib/                        # Data layer, types, state
-├── reference-screenshots/          # 18 visual reference images
+├── reference-screenshots/          # Visual reference images
 ├── docs/                           # Project documentation
 ├── CLAUDE.md                       # AI assistant instructions
-├── PROJECT_SPEC.md                 # Build specification
 └── README.md                       # Project overview
 ```

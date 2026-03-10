@@ -13,7 +13,7 @@ This creates a production-optimized build in `.next/`. Most pages are statically
 - Static pages: Homepage, category listings, help pages, footer pages
 - Dynamic pages: Product detail (generated on-demand via `[slug]` route), search
 - API routes: `/api/search` (server-side)
-- Shared JS: ~87 KB (First Load)
+- Shared JS: Check `npm run build` output for current First Load size
 
 ## Run Production
 
@@ -36,7 +36,7 @@ See `.env.example` for the template. No variables are required for local develop
 
 ### Static Assets
 
-All product images (37K files, ~1.7 GB) are in `public/images/`. In production, these should be served via a CDN or object storage with appropriate caching headers.
+All product images (thousands of WebP files) are in `public/images/`. In production, these should be served via a CDN or object storage with appropriate caching headers.
 
 ### Image Optimization
 
@@ -76,7 +76,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-Note: The `public/images/` directory is ~1.7 GB. Consider mounting it as a volume or serving from external storage.
+Note: The `public/images/` directory is large (thousands of product images). Consider mounting it as a volume or serving from external storage.
 
 ## CI/CD (Not Yet Configured)
 

@@ -6,7 +6,7 @@ Category pages live under `/tv-and-audio/[...category]`. The `[...category]` cat
 
 The routing algorithm in `src/lib/category-data.ts` resolves these slugs to product data through a 2-phase lookup.
 
-## The 14 Category Keys
+## Category Keys
 
 These are the direct keys in `categoryMap`. Each maps to a factory function that returns `CategoryData`:
 
@@ -95,7 +95,7 @@ Products are matched by checking if any keyword appears in `(product.name + prod
 
 ## Hub Pages
 
-Three parent categories have hub pages (with subcategory icons, brand carousel, help cards) instead of product listings:
+Some parent categories have hub pages (with subcategory icons, brand carousel, help cards) instead of product listings:
 
 | Slug | Hub Data File |
 |------|---------------|

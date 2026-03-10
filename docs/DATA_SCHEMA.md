@@ -57,6 +57,7 @@ interface Product {
     moreOffersCount?: number; // "X more offers" link count
   }>;
   energyRating?: string;    // EU energy label class (e.g., "A", "B", "C")
+  energyLabelUrl?: string;  // URL path to energy label image
   inStock: boolean;         // Stock availability
 }
 ```
@@ -86,16 +87,11 @@ interface FilterGroup {
      | "range"              // Price range slider
      | "rating"             // Star rating selector
      | "toggle";            // On/off toggle (handled separately in UI)
-  collapsed: boolean;       // Whether group starts collapsed
-  hasTooltip: boolean;      // Whether group has an info tooltip
-  options: FilterOption[];
-}
-
-interface FilterOption {
-  label: string;            // Display label (e.g., "Samsung", "£500 to £1000")
-  value: string;            // Filter value for URL params
-  count: number;            // Number of matching products
-  hasTooltip?: boolean;
+  isExpanded: boolean;      // Whether group starts expanded
+  options: Array<{
+    label: string;          // Display label (e.g., "Samsung", "£500 to £1000")
+    count: number;          // Number of matching products
+  }>;
 }
 ```
 
@@ -163,6 +159,7 @@ interface CategoryProduct {
   offers: string[];         // ⚠️ Array of strings (Product uses Array<{text, count}>)
   deliveryFree: boolean;
   energyRating?: string | null;
+  energyLabelUrl?: string | null;
 }
 ```
 
@@ -194,22 +191,28 @@ interface ProductDetail {
   badges: string[];
   offers: string[];
   deliveryFree: boolean;
+  energyRating?: string | null;
+  energyLabelUrl?: string | null;
   category: string;
   categorySlug: string;
   productId?: string;
 
   // Enriched fields (from scraped product JSON — may be undefined)
   images?: { gallery: string[]; thumbnails: string[]; video?: string };
-  keySpecs?: Array<{ icon: string; label: string }>;
-  sizeOptions?: Array<{ size: string; selected: boolean; url: string }>;
-  wallBracket?: { text: string; product: WallBracketProduct };
+  keySpecs?: KeySpec[];
+  sizeOptions?: SizeOption[];
+  wallBracket?: WallBracket;
   careAndRepair?: CareAndRepairPlan[];
+  careAndRepairBenefits?: string[];
   essentialServices?: EssentialService[];
   crossSellProducts?: CrossSellProduct[];
+  badgeImages?: BadgeInfo[];
+  awards?: AwardInfo[];
   specifications?: Record<string, Record<string, string>>;
-  description?: { main: string; features?: string[]; goodToKnow?: string[] };
+  description?: ProductDescription;
   deliveryInfo?: DeliveryInfo;
   bundleDeals?: BundleDeal[];
+  promotionalOffers?: Array<{ title: string; description: string; code?: string; terms?: string }>;
   whatsInTheBox?: string[];
   modelNumber?: string;
 }

@@ -20,7 +20,7 @@ Populated by `/map-site` (pipeline position 1), refined by later skills.
 
 ## Architecture
 
-- **Framework**: Next.js 14 App Router
+- **Framework**: Next.js 15 App Router
 - **Dev server port**: 3000
 - **Category route type**: `[...category]` catch-all
 - **Product route pattern**: `/products/[slug]`
@@ -32,11 +32,10 @@ Populated by `/map-site` (pipeline position 1), refined by later skills.
 - **Product detail directory**: `data/scrape/products/`
 - **Product index file**: `data/scrape/products-index.json`
 - **Design tokens file**: `data/design-tokens.json`
-- **Layout specs directory**: `data/scrape/layouts/`
 
 ## CDN Patterns (discovered by /download-images Step 2)
 
-- **Image CDN host**: i.media-electriz.com
+- **Image CDN host**: media.electriz.biz
 - **CDN path prefix**: electrizprod
 - **Legacy path prefix**: currysprod
 - **Known URL patterns**:
@@ -44,31 +43,32 @@ Populated by `/map-site` (pipeline position 1), refined by later skills.
   - With variant suffix: `{cdn-host}/{prefix}/{productId}_{variant}?$transform$&fmt=auto`
   - M-prefix color variant: `{cdn-host}/{prefix}/M{productId}_{color}?$transform$&fmt=auto`
   - M-prefix color+variant: `{cdn-host}/{prefix}/M{productId}_{color}_{variant}?$transform$&fmt=auto`
+- **M-prefix product count**: 33
 
 ## Data Stats (updated by /verify-coverage)
 
 - **Total categories**: 14
-- **Total products**: 2,294
-- **Total images**: 37,309
+- **Total products**: 2,321
+- **Total images**: 37,392
 
-## Category Mapping (from /map-site, verified by /verify-coverage)
+## Category Mapping (verified against categoryMap in category-data.ts, 2026-03-09)
 
-| Slug | Data File |
-| ---- | --------- |
-| tvs | televisions.json |
-| tv-accessories | tv-accessories.json |
-| soundbars | soundbars.json |
-| headphones | headphones.json |
-| wireless-and-bluetooth-speakers | speakers.json |
-| smart-speakers | smart-speakers.json |
-| turntables-and-record-players | turntables.json |
-| radios | radios.json |
-| hi-fi-systems | hifi.json |
-| projectors | projectors.json |
-| dvd-blu-ray-players | dvd-bluray.json |
-| tv-wall-brackets-and-stands | brackets.json |
-| media-streamers | streamers.json |
-| remote-controls | remotes.json |
+| categoryMap Key | Data File | Display Name |
+| --------------- | --------- | ------------ |
+| televisions/tvs | category-tvs.json | Televisions |
+| dvd-blu-ray-and-home-cinema | dvd-blu-ray.json | DVD, Blu-ray & Home Cinema |
+| dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/sound-bars | soundbars.json | Sound Bars |
+| speakers-and-hi-fi-systems | speakers-hifi.json | HiFi & Speakers |
+| tv-accessories | tv-accessories.json | TV Accessories |
+| digital-and-smart-tv | digital-smart-tv.json | Digital & Smart TV |
+| headphones/headphones | headphones.json | Headphones |
+| tv-accessories/tv-wall-brackets-and-stands/tv-wall-brackets | tv-wall-brackets.json | TV Wall Brackets |
+| tv-accessories/cables-and-accessories | cables-accessories.json | Cables & Accessories |
+| tv-accessories/remote-controls | remote-controls.json | Remote Controls |
+| tv-accessories/tv-aerials | tv-aerials.json | TV Aerials |
+| radios | radios.json | Radios |
+| dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players | blu-ray-dvd-players.json | Blu-ray & DVD Players |
+| dvd-blu-ray-and-home-cinema/home-cinema-systems-and-soundbars/home-cinema-systems | home-cinema-systems.json | Home Cinema Systems |
 
 ## Component Inventory (from /scaffold-project)
 
