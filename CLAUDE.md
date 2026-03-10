@@ -13,7 +13,7 @@ npm run facts      # Regenerate data/repo-facts.json only
 npm run audit      # Run doc audit only (needs repo-facts.json to exist)
 ```
 
-## Core Rules
+## Core rules
 
 1. **No external dependencies.** This is an independent MVP — zero external requests at runtime. All images are local: product images in `public/images/products/`, banners in `public/images/banners/`, icons in `public/images/icons/`. `src/lib/images.ts` maps scraped CDN URLs to local paths. Never add new external image sources.
 2. **Match the reference visually.** The design is cloned for fidelity, but all assets and data are self-contained. No dark mode, extra animations, or features the reference doesn't have. "Electriz" is a placeholder brand name.
@@ -21,7 +21,7 @@ npm run audit      # Run doc audit only (needs repo-facts.json to exist)
 4. **Real data only.** Content from `data/scrape/`, tokens from `data/design-tokens.json`. No placeholders, no hardcoded data.
 5. **Section-by-section.** One section at a time, compare against reference before moving on.
 
-## Two Layers of Every Fix
+## Two layers of every fix
 
 Every fix has two layers. **Update both in the same session.**
 
@@ -51,7 +51,7 @@ After every project fix, ask: **"Would a skill have caught this earlier? If not,
 5. **No hardcoded counts.** Never write "14 categories" or "2,321 products." Use "count from category index" or "all products in the data" — let the data speak for itself.
 6. **Validate after editing.** After any skill edit, run: `grep -rn 'electriz\|currys\|tv-and-audio\|electrizprod\|currysprod' .claude/commands/ --include='*.md'` — replace the grep terms with whatever the current project's site-specific terms are. Zero matches = pass.
 
-## Post-Edit Workflow (MANDATORY)
+## Post-edit workflow (MANDATORY)
 
 After every edit session, run in order:
 
@@ -73,13 +73,13 @@ A pre-commit hook also enforces step 2 — see `docs/GIT_HOOKS.md`. Install once
 - **No external URLs in `<img>` or `Image` src**: Every image source must resolve to a local `/images/...` path. If you find a component using a CDN URL in its `src`, download the asset locally and update the reference.
 - **Size-range URL routing**: Routes like `/tvs/24-31` or `/tvs/90-and-more` are numeric filter ranges, not category slugs or keywords. `findParentAndFilter()` in `category-data.ts` has dedicated regex detection for these patterns — it must run *before* the keyword/brand fallback, or the filter returns zero results.
 
-## Data Pipeline (at a glance)
+## Data pipeline (at a glance)
 
 Core sequence: scrape category pages → build categories → generate product details → build products index → download images → verify coverage. TV-specific scripts handle family grouping and size variants.
 
 All scripts in `scripts/`. Full pipeline detail + Firecrawl best practices: [docs/DATA_PIPELINE.md](docs/DATA_PIPELINE.md).
 
-## Key Paths
+## Key paths
 
 **App logic**
 
