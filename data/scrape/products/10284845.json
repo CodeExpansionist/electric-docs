@@ -260,28 +260,9 @@
         "price": 30,
         "estimatedDate": "Next day",
         "description": "Only valid on weekdays & Sunday, anytime delivery from 7am - 8pm."
-      },
-      {
-        "type": "Free In-store Collection",
-        "price": 0,
-        "estimatedDate": "As little as 1 hour",
-        "description": "Order online and drop in to collect your items from your chosen store."
       }
     ],
-    "collectionOptions": [
-      {
-        "type": "Free In-store Collection",
-        "price": 0,
-        "estimatedDate": "1 Hour",
-        "location": "Select stores near you."
-      },
-      {
-        "type": "Standard In-store Collection",
-        "price": 0,
-        "estimatedDate": "2 Days",
-        "location": "Select stores near you."
-      }
-    ]
+    "collectionOptions": []
   },
   "bundleDeals": [
     {

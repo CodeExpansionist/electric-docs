@@ -375,8 +375,7 @@
         "current": 9.99,
         "was": 19.99,
         "savings": 10,
-        "savingsPercent": 50,
-        "monthlyPayment": null
+        "savingsPercent": 50
       },
       "rating": {
         "average": 4.2,
@@ -405,8 +404,7 @@
         "current": 14.99,
         "was": 29.99,
         "savings": 15,
-        "savingsPercent": 50,
-        "monthlyPayment": null
+        "savingsPercent": 50
       },
       "rating": {
         "average": 4.5,
@@ -436,8 +434,7 @@
         "current": 99.99,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 4.05
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.5,
@@ -468,8 +465,7 @@
         "current": 39.99,
         "was": 79.99,
         "savings": 40,
-        "savingsPercent": 50,
-        "monthlyPayment": null
+        "savingsPercent": 50
       },
       "rating": {
         "average": 4.6,
@@ -499,8 +495,7 @@
         "current": 79.99,
         "was": 149,
         "savings": 69.01,
-        "savingsPercent": 46.27,
-        "monthlyPayment": null
+        "savingsPercent": 46.27
       },
       "rating": {
         "average": 4.6,
@@ -531,8 +526,7 @@
         "current": 49.99,
         "was": 99.99,
         "savings": 50,
-        "savingsPercent": 50,
-        "monthlyPayment": null
+        "savingsPercent": 50
       },
       "rating": {
         "average": 4.6,
@@ -561,8 +555,7 @@
         "current": 19.99,
         "was": 39.99,
         "savings": 20,
-        "savingsPercent": 50,
-        "monthlyPayment": null
+        "savingsPercent": 50
       },
       "rating": {
         "average": 4.5,
@@ -591,8 +584,7 @@
         "current": 59.99,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": null
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.3,
@@ -621,8 +613,7 @@
         "current": 169.99,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 6.88
+        "savingsPercent": null
       },
       "rating": {
         "average": 5,

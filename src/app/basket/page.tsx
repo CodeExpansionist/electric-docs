@@ -114,7 +114,7 @@ function BasketItemCard({
           {/* Delivery info — constrained to info area, not full width */}
           <div className="mt-4 border border-border rounded-md p-3">
             <p className="text-xs font-semibold text-text-primary mb-2">
-              You can choose your delivery or collection preferences at checkout
+              You can choose your delivery preferences at checkout
             </p>
             <div className="space-y-2">
               <div className="flex items-center gap-2">

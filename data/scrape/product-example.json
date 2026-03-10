@@ -13,15 +13,10 @@
     "itemNumber": "10282706",
     "productCode": "789497",
     "price": {
-      "current": 1599.00,
+      "current": 1599,
       "was": null,
       "savings": null,
-      "savingsPercent": null,
-      "monthlyPayment": {
-        "amount": 64.80,
-        "months": 36,
-        "interestFree": false
-      }
+      "savingsPercent": null
     },
     "rating": {
       "average": 4.8,
@@ -92,10 +87,6 @@
       {
         "type": "Epic Deal",
         "image": "https://media.electriz.biz/i/electrizprod/bwepicdealred-99118?fmt=auto"
-      },
-      {
-        "type": "Buy Now Pay Later 12 Months",
-        "image": "https://media.electriz.biz/i/electrizprod/buynowpaylatertwelvemonths-98295?fmt=auto"
       },
       {
         "type": "Free Gift",
@@ -176,37 +167,12 @@
       "details": "We'll price match against any other UK retailer, online or in-store. Exclusions (eg. ink) and conditions apply. Claim within 7 days.",
       "url": "https://www.electriz.co.uk/services/shopping-with-us/price-promise.html"
     },
-    "flexpay": {
-      "description": "Spread the cost with Currys flexpay",
-      "monthlyAmount": 64.80,
-      "months": 36,
-      "totalPayable": 2332.80,
-      "interestRate": "29.9%",
-      "apr": "29.9% APR representative (variable)",
-      "buyNowPayLater": [
-        {
-          "months": 6,
-          "settleBy": "01 September 2026",
-          "interestFree": true
-        },
-        {
-          "months": 9,
-          "settleBy": "01 December 2026",
-          "interestFree": true
-        },
-        {
-          "months": 12,
-          "settleBy": "01 March 2027",
-          "interestFree": true
-        }
-      ]
-    },
     "wallBracket": {
       "text": "Add a wall bracket now and Save £24.00",
       "product": {
         "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
         "price": 35.99,
-        "savings": 24.00,
+        "savings": 24,
         "separatePrice": 59.99,
         "image": "https://media.electriz.biz/i/electrizprod/10249239?$s-swatch$&fmt=auto",
         "badge": "Currys Recommends"
@@ -215,13 +181,13 @@
     "careAndRepair": [
       {
         "plan": "Monthly",
-        "price": 5.40,
+        "price": 5.4,
         "period": "a month",
-        "annualEquivalent": 64.80
+        "annualEquivalent": 64.8
       },
       {
         "plan": "5 Years",
-        "price": 189.00,
+        "price": 189,
         "period": "one-off",
         "savings": "Save £135.00 vs Monthly Plan",
         "mostPopular": true
@@ -239,24 +205,24 @@
     "essentialServices": [
       {
         "name": "Install TV to stand",
-        "price": 45.00
+        "price": 45
       },
       {
         "name": "Install TV to wall (bracket not included)",
-        "price": 135.00
+        "price": 135
       },
       {
         "name": "Recycle my old TV",
-        "price": 20.00
+        "price": 20
       }
     ],
     "crossSellProducts": [
       {
         "category": "Add a home cinema system or soundbar",
         "title": "SAMSUNG HW-Q600F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos",
-        "price": 499.00,
-        "wasPrice": 549.00,
-        "savings": 50.00,
+        "price": 499,
+        "wasPrice": 549,
+        "savings": 50,
         "rating": 4.9,
         "reviewCount": 20,
         "image": "https://media.electriz.biz/i/electrizprod/10282181?$s-swatch$&fmt=auto",
@@ -268,7 +234,7 @@
         "price": 9.99,
         "wasPrice": null,
         "savings": null,
-        "rating": 5.0,
+        "rating": 5,
         "reviewCount": 1,
         "image": "https://media.electriz.biz/i/electrizprod/10245806?$s-swatch$&fmt=auto",
         "badge": "Currys Recommends"
@@ -392,10 +358,6 @@
       "nextDayTimeSlot": {
         "description": "Choose a 4-hour time slot delivery",
         "price": 45
-      },
-      "collection": {
-        "description": "Order online, collect from store within an hour",
-        "price": 0
       },
       "returns": {
         "period": "30 days",

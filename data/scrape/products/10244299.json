@@ -72,10 +72,6 @@
     {
       "name": "Delivery",
       "price": 0
-    },
-    {
-      "name": "In-store collection",
-      "price": 0
     }
   ],
   "crossSellProducts": [

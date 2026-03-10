@@ -255,8 +255,7 @@
         "current": 249,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 10.09
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.5,
@@ -286,8 +285,7 @@
         "current": 449,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 18.19
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.8,
@@ -314,8 +312,7 @@
         "current": 799,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 32.38
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.8,
@@ -343,8 +340,7 @@
         "current": 449,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 18.19
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.8,
@@ -373,8 +369,7 @@
         "current": 349,
         "was": 449,
         "savings": 100,
-        "savingsPercent": 22.25,
-        "monthlyPayment": 14.14
+        "savingsPercent": 22.25
       },
       "rating": {
         "average": 4.6,
@@ -402,8 +397,7 @@
         "current": 429,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 17.38
+        "savingsPercent": null
       },
       "rating": {
         "average": 0,
@@ -432,8 +426,7 @@
         "current": 549,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 22.25
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.7,
@@ -465,8 +458,7 @@
         "current": 799,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 32.38
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.9,
@@ -494,8 +486,7 @@
         "current": 299,
         "was": 349,
         "savings": 50,
-        "savingsPercent": 14.34,
-        "monthlyPayment": 12.11
+        "savingsPercent": 14.34
       },
       "rating": {
         "average": 4.7,
@@ -522,8 +513,7 @@
         "current": 349,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 14.14
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.4,
@@ -552,8 +542,7 @@
         "current": 2499,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 101.28
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.3,
@@ -584,8 +573,7 @@
         "current": 299,
         "was": 349,
         "savings": 50,
-        "savingsPercent": 14.34,
-        "monthlyPayment": 12.11
+        "savingsPercent": 14.34
       },
       "rating": {
         "average": 4.7,
@@ -612,8 +600,7 @@
         "current": 699,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 28.32
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.7,
@@ -640,8 +627,7 @@
         "current": 999,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 40.48
+        "savingsPercent": null
       },
       "rating": {
         "average": 0,
@@ -672,8 +658,7 @@
         "current": 799,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 32.38
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.8,
@@ -701,8 +686,7 @@
         "current": 249,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 10.09
+        "savingsPercent": null
       },
       "rating": {
         "average": 4,
@@ -729,8 +713,7 @@
         "current": 799,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 32.38
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.9,
@@ -758,8 +741,7 @@
         "current": 329,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 13.33
+        "savingsPercent": null
       },
       "rating": {
         "average": 0,
@@ -787,8 +769,7 @@
         "current": 1199,
         "was": 1399,
         "savings": 200,
-        "savingsPercent": 14.34,
-        "monthlyPayment": 48.59
+        "savingsPercent": 14.34
       },
       "rating": {
         "average": 4.8,
@@ -821,8 +802,7 @@
         "current": 699,
         "was": null,
         "savings": null,
-        "savingsPercent": null,
-        "monthlyPayment": 28.32
+        "savingsPercent": null
       },
       "rating": {
         "average": 4.8,

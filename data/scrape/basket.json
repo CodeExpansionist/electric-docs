@@ -9,27 +9,52 @@
     "image": "product thumbnail",
     "title": "product name with link",
     "quantityDropdown": "1-10 options",
-    "price": { "current": "number", "was": "number if discounted", "savings": "number" },
+    "price": {
+      "current": "number",
+      "was": "number if discounted",
+      "savings": "number"
+    },
     "removeLink": "Remove item"
   },
   "careAndRepair": {
     "heading": "Care & Repair",
     "description": "Protect your product",
     "options": [
-      { "plan": "Monthly Plan", "price": "per month", "selected": false },
-      { "plan": "1 Year", "price": "one-time", "selected": false },
-      { "plan": "2 Year", "price": "one-time", "selected": false }
+      {
+        "plan": "Monthly Plan",
+        "price": "per month",
+        "selected": false
+      },
+      {
+        "plan": "1 Year",
+        "price": "one-time",
+        "selected": false
+      },
+      {
+        "plan": "2 Year",
+        "price": "one-time",
+        "selected": false
+      }
     ]
   },
   "additionalServices": [
-    { "type": "Installation", "description": "Professional installation", "price": "number", "checkbox": true },
-    { "type": "Recycling", "description": "Recycle your old product", "price": "number", "checkbox": true }
+    {
+      "type": "Installation",
+      "description": "Professional installation",
+      "price": "number",
+      "checkbox": true
+    },
+    {
+      "type": "Recycling",
+      "description": "Recycle your old product",
+      "price": "number",
+      "checkbox": true
+    }
   ],
   "orderSummary": {
     "subtotal": "number",
     "delivery": "number",
     "total": "number",
-    "flexpay": { "monthlyAmount": "number", "months": "number" },
     "promoCodeInput": true,
     "checkoutCta": "Continue to checkout"
   }

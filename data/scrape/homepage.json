@@ -4,23 +4,55 @@
     "url": "https://www.electriz.co.uk/store-finder"
   },
   "secondaryNav": [
-    { "text": "Help & Support", "url": "/help-and-support.html" },
-    { "text": "Track my order", "url": "/track-your-order" },
-    { "text": "Delivery", "url": "/services/delivery-installation/delivery-collection.html" },
-    { "text": "Returns", "url": "/services/shopping-with-us/returns-refunds.html" },
-    { "text": "Spread the cost", "url": "/services/ways-to-pay/flexible-credit.html" },
-    { "text": "Gift cards", "url": "/services/ways-to-pay/gift-cards.html" },
-    { "text": "TechTalk", "url": "/techtalk.html" },
-    { "text": "Business", "url": "https://business.electriz.co.uk/" }
+    {
+      "text": "Help & Support",
+      "url": "/help-and-support.html"
+    },
+    {
+      "text": "Track my order",
+      "url": "/track-your-order"
+    },
+    {
+      "text": "Delivery",
+      "url": "/services/delivery-installation/delivery-collection.html"
+    },
+    {
+      "text": "Returns",
+      "url": "/services/shopping-with-us/returns-refunds.html"
+    },
+    {
+      "text": "Gift cards",
+      "url": "/services/ways-to-pay/gift-cards.html"
+    },
+    {
+      "text": "TechTalk",
+      "url": "/techtalk.html"
+    },
+    {
+      "text": "Business",
+      "url": "https://business.electriz.co.uk/"
+    }
   ],
   "header": {
     "logoUrl": "https://www.electriz.co.uk/on/demandware.static/-/Sites-electrizpcworlduk-Library/default/dw12db0942/images/brand-electriz-logo.svg",
     "searchPlaceholder": "Search",
     "utilityIcons": [
-      { "label": "Stores", "icon": "stores" },
-      { "label": "Account", "icon": "account" },
-      { "label": "Saved items", "icon": "saved-items" },
-      { "label": "Basket", "icon": "basket" }
+      {
+        "label": "Stores",
+        "icon": "stores"
+      },
+      {
+        "label": "Account",
+        "icon": "account"
+      },
+      {
+        "label": "Saved items",
+        "icon": "saved-items"
+      },
+      {
+        "label": "Basket",
+        "icon": "basket"
+      }
     ]
   },
   "mainNav": [
@@ -118,11 +150,6 @@
       "icon": "recycling-2-svg",
       "text": "Recycle your old tech",
       "url": "/services/delivery-installation/recycling.html"
-    },
-    {
-      "icon": "calendar-svg",
-      "text": "Pay at your pace with Electriz flexpay",
-      "url": "/services/ways-to-pay/flexible-credit.html"
     }
   ],
   "heroCarousel": [
@@ -172,12 +199,31 @@
       "linkTitle": "iPad Air"
     }
   ],
-  "creditRepresentativeText": "Representative Example: 29.9% APR Representative (variable). 29.9% Interest rate (variable). Assumed credit limit: £1,200.",
   "shopDealsCategories": [
-    { "name": "Save £50 off when you trade-in any old tech", "url": "/deals-on-appliances/trade-in", "imageAlt": "Image of air fryer, coffee machine and vacuum cleaner. Save £50 off when you trade-in any old tech.", "imageUrl": null },
-    { "name": "Samsung Galaxy S26 Ultra", "url": "/deals-on-phones/samsung-galaxy-s26-ultra-deals", "imageAlt": "Image of Samsung Galaxy S26 Ultra plus Samsung logo", "imageUrl": null },
-    { "name": "Energy efficient appliances", "url": "/deals-on-appliances/mda-efficiency-campaign", "imageAlt": "Images of Samsung fridge freezer and LG washing machine.", "imageUrl": null },
-    { "name": "Trade-in TV offers", "url": "/deals-on-tv-and-audio/trade-in-tv-offers", "imageAlt": "Image of Hisense TV. Get up to £250 off when you trade-in any old TV", "imageUrl": null }
+    {
+      "name": "Save £50 off when you trade-in any old tech",
+      "url": "/deals-on-appliances/trade-in",
+      "imageAlt": "Image of air fryer, coffee machine and vacuum cleaner. Save £50 off when you trade-in any old tech.",
+      "imageUrl": null
+    },
+    {
+      "name": "Samsung Galaxy S26 Ultra",
+      "url": "/deals-on-phones/samsung-galaxy-s26-ultra-deals",
+      "imageAlt": "Image of Samsung Galaxy S26 Ultra plus Samsung logo",
+      "imageUrl": null
+    },
+    {
+      "name": "Energy efficient appliances",
+      "url": "/deals-on-appliances/mda-efficiency-campaign",
+      "imageAlt": "Images of Samsung fridge freezer and LG washing machine.",
+      "imageUrl": null
+    },
+    {
+      "name": "Trade-in TV offers",
+      "url": "/deals-on-tv-and-audio/trade-in-tv-offers",
+      "imageAlt": "Image of Hisense TV. Get up to £250 off when you trade-in any old TV",
+      "imageUrl": null
+    }
   ],
   "discoverOffers": [
     {
@@ -295,7 +341,7 @@
     {
       "name": "HP OmniBook 7 Aero 13.3\" Laptop - AMD Ryzen AI 7, 1 TB SSD, Silver",
       "productId": "10281524",
-      "price": 749.00,
+      "price": 749,
       "originalPrice": null,
       "savings": null,
       "rating": 4.7,
@@ -306,7 +352,7 @@
     {
       "name": "FITBIT Charge 6 Fitness Tracker - Obsidian, Silicone Strap, Universal",
       "productId": "10256705",
-      "price": 109.00,
+      "price": 109,
       "originalPrice": null,
       "savings": null,
       "rating": 4.5,
@@ -339,7 +385,7 @@
     {
       "name": "LOGITECH Combo Touch 10.9\" iPad (10th gen and A16) Keyboard Case - Grey",
       "productId": "10246521",
-      "price": 160.00,
+      "price": 160,
       "originalPrice": null,
       "savings": null,
       "rating": 4.8,
@@ -364,66 +410,166 @@
       {
         "heading": "Help & support",
         "links": [
-          { "text": "Contact us", "url": "/help-and-support/contact-us.html" },
-          { "text": "Stores", "url": "/store-finder" },
-          { "text": "TechTalk", "url": "/techtalk.html" },
-          { "text": "Price Promise", "url": "/services/shopping-with-us/price-promise.html" },
-          { "text": "Product reviews", "url": "/product-reviews" }
+          {
+            "text": "Contact us",
+            "url": "/help-and-support/contact-us.html"
+          },
+          {
+            "text": "Stores",
+            "url": "/store-finder"
+          },
+          {
+            "text": "TechTalk",
+            "url": "/techtalk.html"
+          },
+          {
+            "text": "Price Promise",
+            "url": "/services/shopping-with-us/price-promise.html"
+          },
+          {
+            "text": "Product reviews",
+            "url": "/product-reviews"
+          }
         ]
       },
       {
         "heading": "Services",
         "links": [
-          { "text": "Track my order", "url": "/track-your-order" },
-          { "text": "Delivery options", "url": "/services/delivery-installation/delivery-collection.html" },
-          { "text": "Order & collect", "url": "/services/delivery-installation/delivery-collection.html" },
-          { "text": "Returns & cancellations", "url": "/services/shopping-with-us/returns-refunds.html" },
-          { "text": "ShopLive", "url": "/services/shoplive.html" }
+          {
+            "text": "Track my order",
+            "url": "/track-your-order"
+          },
+          {
+            "text": "Delivery options",
+            "url": "/services/delivery-installation/delivery-collection.html"
+          },
+          {
+            "text": "Order & collect",
+            "url": "/services/delivery-installation/delivery-collection.html"
+          },
+          {
+            "text": "Returns & cancellations",
+            "url": "/services/shopping-with-us/returns-refunds.html"
+          },
+          {
+            "text": "ShopLive",
+            "url": "/services/shoplive.html"
+          }
         ]
       },
       {
         "heading": "Care Services",
         "links": [
-          { "text": "Care & Repair", "url": "/services/care-and-repair.html" },
-          { "text": "Instant Replacement", "url": "/services/care-and-repair/instant-replacement.html" },
-          { "text": "Mobile Insurance", "url": "/services/care-and-repair/mobile-insurance.html" },
-          { "text": "Tablet Insurance", "url": "/services/care-and-repair/tablet-insurance.html" }
+          {
+            "text": "Care & Repair",
+            "url": "/services/care-and-repair.html"
+          },
+          {
+            "text": "Instant Replacement",
+            "url": "/services/care-and-repair/instant-replacement.html"
+          },
+          {
+            "text": "Mobile Insurance",
+            "url": "/services/care-and-repair/mobile-insurance.html"
+          },
+          {
+            "text": "Tablet Insurance",
+            "url": "/services/care-and-repair/tablet-insurance.html"
+          }
         ]
       },
       {
         "heading": "Our websites",
         "links": [
-          { "text": "Electriz Business", "url": "https://business.electriz.co.uk/" },
-          { "text": "Electriz Ireland", "url": "https://www.electriz.ie/" },
-          { "text": "Partmaster", "url": "https://www.partmaster.co.uk/" },
-          { "text": "Carphone Warehouse", "url": "https://www.carphonewarehouse.com/" }
+          {
+            "text": "Electriz Business",
+            "url": "https://business.electriz.co.uk/"
+          },
+          {
+            "text": "Electriz Ireland",
+            "url": "https://www.electriz.ie/"
+          },
+          {
+            "text": "Partmaster",
+            "url": "https://www.partmaster.co.uk/"
+          },
+          {
+            "text": "Carphone Warehouse",
+            "url": "https://www.carphonewarehouse.com/"
+          }
         ]
       },
       {
         "heading": "About us",
         "links": [
-          { "text": "Leave review on Trustpilot", "url": "https://uk.trustpilot.com/review/www.electriz.co.uk" },
-          { "text": "Corporate site", "url": "https://www.electrizplc.com/" },
-          { "text": "Careers", "url": "https://www.electrizplc.com/careers/" },
-          { "text": "PR & media", "url": "https://www.electrizplc.com/news-media/" },
-          { "text": "Modern slavery statement", "url": "/modern-slavery-statement.html" },
-          { "text": "Corporate social responsibility", "url": "/corporate-social-responsibility.html" }
+          {
+            "text": "Leave review on Trustpilot",
+            "url": "https://uk.trustpilot.com/review/www.electriz.co.uk"
+          },
+          {
+            "text": "Corporate site",
+            "url": "https://www.electrizplc.com/"
+          },
+          {
+            "text": "Careers",
+            "url": "https://www.electrizplc.com/careers/"
+          },
+          {
+            "text": "PR & media",
+            "url": "https://www.electrizplc.com/news-media/"
+          },
+          {
+            "text": "Modern slavery statement",
+            "url": "/modern-slavery-statement.html"
+          },
+          {
+            "text": "Corporate social responsibility",
+            "url": "/corporate-social-responsibility.html"
+          }
         ]
       }
     ]
   },
   "subFooter": {
     "privacyLinks": [
-      { "text": "Privacy & cookies policy", "url": "/privacy-cookies-policy.html" },
-      { "text": "Terms & conditions", "url": "/terms-and-conditions.html" },
-      { "text": "Product recalls", "url": "/product-recalls.html" },
-      { "text": "Sitemap", "url": "/sitemap.html" }
+      {
+        "text": "Privacy & cookies policy",
+        "url": "/privacy-cookies-policy.html"
+      },
+      {
+        "text": "Terms & conditions",
+        "url": "/terms-and-conditions.html"
+      },
+      {
+        "text": "Product recalls",
+        "url": "/product-recalls.html"
+      },
+      {
+        "text": "Sitemap",
+        "url": "/sitemap.html"
+      }
     ],
     "socialIcons": [
-      { "platform": "Facebook", "url": "https://www.facebook.com/electriz", "icon": "facebook" },
-      { "platform": "X (Twitter)", "url": "https://twitter.com/curraborea", "icon": "x-twitter" },
-      { "platform": "Instagram", "url": "https://www.instagram.com/electriz/", "icon": "instagram" },
-      { "platform": "YouTube", "url": "https://www.youtube.com/electriz", "icon": "youtube" }
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/electriz",
+        "icon": "facebook"
+      },
+      {
+        "platform": "X (Twitter)",
+        "url": "https://twitter.com/curraborea",
+        "icon": "x-twitter"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/electriz/",
+        "icon": "instagram"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/electriz",
+        "icon": "youtube"
+      }
     ],
     "legalText": "Electriz plc registered in England & Wales. Registered number: 07105905. Registered office: 1 Portal Way, London, W3 6RS. VAT number: 927 2556 00."
   }
