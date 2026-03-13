@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": ".test-build",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/../*": ["./*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/lib/filter-utils.ts",
+    "src/lib/images.ts",
+    "src/lib/constants.ts",
+    "src/lib/category-data.ts",
+    "src/lib/types.ts"
+  ]
+}

@@ -103,4 +103,4 @@ All scripts in `scripts/`. Full pipeline detail + Firecrawl best practices: [doc
 - **Page backgrounds**: Content pages (category listings, product detail, hub pages) use `bg-surface` (`#F2F2F2`) as the full-page background with white cards for content. Homepage stays white. Header components: SecondaryNav and USPBar use `bg-surface`, Header and MainNav use `bg-white`.
 - **State**: React Context for basket/saved/orders. Checkout state is component-local.
 - **API**: `/api/search` — search results + autocomplete (used by search page).
-- **Git**: Commit per section `feat(section): add [page] [section-name]`. Don't commit without being asked.
+- **Git**: Commit per section `feat(section): add [page] [section-name]`. Auto-commit and push after every implementation per workspace rules.

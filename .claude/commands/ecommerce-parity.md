@@ -91,7 +91,7 @@ Check: `src/components/product/PricePanel.tsx` for the add-to-basket button comp
 - Remove button removes item from basket and updates totals
 - Save for later button moves item from basket to saved list
 - Empty state renders with "Browse products" link when basket is cleared
-- **Order summary** shows: subtotal, delivery cost (free over £40, otherwise £5), total
+- **Order summary** shows: subtotal, delivery cost (free over `{free-delivery-threshold}`, otherwise `{default-delivery-fee}` — values from `project-config.md`), total
 
 ---
 
@@ -131,7 +131,7 @@ Check: `src/components/product/PricePanel.tsx` for the add-to-basket button comp
 **File:** `src/app/checkout/page.tsx`
 
 - **No hardcoded product references** — search for any literal product names (e.g., "SAMSUNG", "UB00F"). The `CompletedDeliverySummary` must show actual basket item titles, not hardcoded strings.
-- **Order prefix** matches brand: `ELZ-` not `CUR-`
+- **Order prefix** matches brand (check `project-config.md` for the correct prefix — must NOT use the reference site's prefix)
 - Step navigation works: welcome → delivery → customer → payment
 - Edit button on completed steps re-opens that step with data preserved
 - Guest checkout works without sign-in
@@ -146,7 +146,7 @@ Check: `src/components/product/PricePanel.tsx` for the add-to-basket button comp
 **Files:** `src/app/checkout/payment/page.tsx`, `src/app/checkout/confirmation/page.tsx`
 
 - **No hardcoded fallback items** — if basket is empty, should not render fake items. Either redirect to `/basket` or show empty state.
-- **Order prefix** consistent: `ELZ-` not `CUR-`
+- **Order prefix** consistent with brand (from `project-config.md`)
 - Card type detection works (Visa starts 4, MC starts 5, Amex starts 3)
 - Input formatting works (card number auto-spacing, expiry MM/YY)
 - Order creation saves to orders context with: all basket items, delivery address, customer email, payment method, totals, promo code/discount (if applied)
@@ -166,7 +166,7 @@ Every page that displays or saves subtotal, delivery cost, promo discount, or to
 - **Checkout sidebar** (`CheckoutSidebar.tsx`) — must use `basket.subtotal`, `basket.deliveryCost`, `basket.total`
 - **Order creation** (both checkout and payment flows) — `subtotal`, `deliveryCost`, `total` saved to order must come from basket context values
 - **No hardcoded fallback amounts** — if basket is empty, redirect or show empty state. Never fall back to a dummy subtotal.
-- **Grep check:** Search for `items.reduce`, `> 40`, `>= 40`, `3.99`, `5.00` across `src/app/checkout/` and `src/components/checkout/` — any local total recalculation is a bug.
+- **Grep check:** Search for `items.reduce` and any hardcoded threshold/fee amounts (check `project-config.md` for the actual values to grep) across `src/app/checkout/` and `src/components/checkout/` — any local total recalculation is a bug.
 
 ---
 

@@ -18,6 +18,13 @@ Populated by `/map-site` (pipeline position 1), refined by later skills.
 - **Languages**: en-GB
 - **Currency symbol**: £
 
+## E-Commerce Config
+
+- **Order prefix**: ELZ-
+- **Default delivery fee**: £5
+- **Free delivery threshold**: £40
+- **Currency symbol**: £
+
 ## Architecture
 
 - **Framework**: Next.js 15 App Router

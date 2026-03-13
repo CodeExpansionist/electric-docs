@@ -53,7 +53,7 @@ Before scraping all categories, scrape ONE small category (e.g., whichever has t
 1. Scrape the listing page and examine the returned JSON structure
 2. Document actual field names: is it `url` or `productUrl`? `name` or `title`? `price` (flat number) or `price.current` (nested object)?
 3. Create a field-name mapping that normalizes all subsequent scrapes
-4. This prevents the 5+ crashes caused by assumed JSON structures on the Electric project
+4. This prevents crashes caused by assumed JSON structures — field names vary between sites
 
 **Normalization rules to apply at scrape time:**
 - `productUrl` → `url`
@@ -115,7 +115,7 @@ After scraping each category, verify completeness:
 4. Log per category: "{Category}: site says N products, we captured M (X%) — PASS/FAIL"
 5. **FAIL threshold:** Any category below 90% coverage blocks proceeding to Step 3
 
-This prevents the 4-round incremental scraping trap that consumed ~40% of total session time on the Electric project. Scrape exhaustively FIRST, validate SECOND, build THIRD.
+This prevents incremental scraping traps that consume disproportionate session time. Scrape exhaustively FIRST, validate SECOND, build THIRD.
 
 ### 2c. Scrape filter sidebars
 
@@ -240,7 +240,7 @@ Only use actions on retry — they add ~3s per call, making them expensive for b
   "bundleDeals": [],
   "whatsInTheBox": [],
   "awards": [],
-  "flexpay": {
+  "financeOption": {
     "monthlyAmount": 0,
     "months": 0,
     "totalPayable": 0,

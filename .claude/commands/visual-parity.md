@@ -775,34 +775,23 @@ Blocking issues: [count] (colors used in 10+ elements without tokens)
 
 ### Structural Comparison (Step 5b)
 
+One row per component × viewport × check (child count, element order, visibility, text labels, ARIA landmarks):
+
 | Component | Viewport | Check | Status | Details |
 |-----------|----------|-------|--------|---------|
-| header | 375px | child count | PASS/BLOCK | ref=X clone=Y |
-| header | 375px | element order | PASS/BLOCK | [details if mismatched] |
-| header | 375px | visibility | PASS/BLOCK | [details if mismatched] |
-| header | 375px | text labels | PASS/BLOCK | [details if mismatched] |
-| header | 1280px | child count | PASS/BLOCK | |
+| [component] | [viewport] | [check] | PASS/BLOCK | [details if mismatched] |
 | ... | ... | ... | ... | ... |
 
 Structural blocking issues: [count]
 
 ### Per-Component Breakdown
 
+One row per audited component. Use actual component names from the project:
+
 | Component Type | Colors | Typography | Spacing | Effects | States | Score | Verdict |
 |---------------|--------|-----------|---------|---------|--------|-------|---------|
-| Announcement/promo bar | X | X | X | X | N/A | X | PASS/REVIEW/FAIL |
-| Header | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Main navigation | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Hero/carousel | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| USP/trust bar | X | X | X | X | N/A | X | PASS/REVIEW/FAIL |
-| Category/deals grid | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Filter sidebar | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Product card | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Product gallery | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Price/purchase panel | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-| Footer | X | X | X | X | X | X | PASS/REVIEW/FAIL |
-
-**List the actual component names from the project.** The types above are examples.
+| [component] | X | X | X | X | X | X | PASS/REVIEW/FAIL |
+| ... | ... | ... | ... | ... | ... | ... | ... |
 
 ### All Mismatches (sorted by severity, then component)
 
@@ -813,16 +802,11 @@ Structural blocking issues: [count]
 
 ### Interactive States Audit
 
+One row per interactive element tested (from Step 8 element list):
+
 | Element | Location | Default | Hover | Focus | Active |
 |---------|----------|---------|-------|-------|--------|
-| Primary CTA | Hero | MATCH | [verdict] | [verdict] | SKIP |
-| Add to Basket | Price panel | MATCH | [verdict] | [verdict] | SKIP |
-| Product card link | Category | MATCH | [verdict] | [verdict] | SKIP |
-| Nav link | Header | MATCH | [verdict] | [verdict] | SKIP |
-| Filter checkbox | Sidebar | MATCH | [verdict] | [verdict] | SKIP |
-| Search input | Header | MATCH | [verdict] | [verdict] | SKIP |
-| Gallery thumbnail | Product | MATCH | [verdict] | [verdict] | SKIP |
-| Carousel arrow | Hero | MATCH | [verdict] | [verdict] | SKIP |
+| [element] | [page] | [verdict] | [verdict] | [verdict] | [verdict] |
 | ... | ... | ... | ... | ... | ... |
 
 ### Image Rendering
@@ -836,14 +820,7 @@ Structural blocking issues: [count]
 
 ### Screenshots Saved
 
-comparison-screenshots/visual-parity/
-├── ref-header-desktop.png / clone-header-desktop.png
-├── ref-hero-desktop.png / clone-hero-desktop.png
-├── ref-product-card-desktop.png / clone-product-card-desktop.png
-├── ref-price-panel-desktop.png / clone-price-panel-desktop.png
-├── ref-footer-desktop.png / clone-footer-desktop.png
-├── ref-header-mobile.png / clone-header-mobile.png
-└── ... (one pair per component per breakpoint)
+List all saved pairs: `comparison-screenshots/visual-parity/ref-{component}-{breakpoint}.png` / `clone-{component}-{breakpoint}.png`
 
 ### Fix Priority (MAJOR issues first)
 

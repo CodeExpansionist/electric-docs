@@ -344,43 +344,7 @@ This "desktop-first fix order" prevents mobile fixes from accidentally breaking 
 
 ### Step 10b — Carousel & grid item-count parity
 
-For every carousel or repeating grid identified on both the reference and clone:
-
-1. Open a Firecrawl browser session for EACH site
-2. At each of 7 viewports (375, 428, 640, 768, 1024, 1280, 1920), count visible items using `page.evaluate()`:
-
-```javascript
-// For slick carousels:
-const active = carousel.querySelectorAll('.slick-slide.slick-active').length;
-// For CSS grids:
-const cols = getComputedStyle(grid).gridTemplateColumns.split(' ').filter(v => v !== '').length;
-// For flex/overflow containers:
-const items = Array.from(container.children).filter(c => {
-  const r = c.getBoundingClientRect();
-  return r.width > 10 && r.left >= -5 && r.right <= window.innerWidth + 5;
-}).length;
-```
-
-3. Compare visible counts between reference and clone at EACH viewport
-4. **BLOCKING mismatch** if visible item count differs at ANY viewport:
-   - Reference shows 2 cards at 375px but clone shows 1 → BLOCK
-   - Reference shows 3 cards at 768px but clone shows 2 → BLOCK
-5. Also compare:
-   - Card aspect ratios (portrait vs landscape mismatch is BLOCKING)
-   - Navigation control visibility (arrows/dots present on reference but missing on clone)
-   - Card image orientation (landscape banner vs portrait promo card)
-
-Output a comparison table:
-
-```
-| Viewport | Reference Cards | Clone Cards | Match? |
-|----------|----------------|-------------|--------|
-| 375px    | 1              | 1           | YES    |
-| 640px    | 2              | 2           | YES    |
-| 768px    | 3              | 2           | **NO** |
-```
-
-Any **NO** in the table = BLOCKING issue that must be fixed before sign-off.
+**Delegate to `/carousel-parity`** which has the full methodology for counting visible items at all viewports. If `/carousel-parity` has already been run, review its report for BLOCKING issues. If not, run it now — any visible-count mismatch at any viewport is BLOCKING for this audit too.
 
 ### Step 10c — Listing page layout parity (MAJOR)
 
