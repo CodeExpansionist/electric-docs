@@ -9,6 +9,7 @@ import {
   type ReactNode,
 } from "react";
 import type { Product, Basket, BasketItem } from "./types";
+import { DEFAULT_DELIVERY_FEE, FREE_DELIVERY_THRESHOLD } from "./constants";
 
 type BasketAction =
   | { type: "ADD_ITEM"; product: Product }
@@ -31,7 +32,7 @@ function calculateTotals(items: BasketItem[], promoDiscount?: number): Pick<Bask
     (sum, item) => sum + item.product.price.current * item.quantity,
     0
   );
-  const deliveryCost = subtotal >= 40 ? 0 : 5;
+  const deliveryCost = subtotal >= FREE_DELIVERY_THRESHOLD ? 0 : DEFAULT_DELIVERY_FEE;
   const discount = promoDiscount || 0;
   return { subtotal, deliveryCost, total: Math.max(0, subtotal + deliveryCost - discount) };
 }

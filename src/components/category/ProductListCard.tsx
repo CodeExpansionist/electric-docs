@@ -1,9 +1,11 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import EnergyRatingBadge from "@/components/ui/EnergyRatingBadge";
 import { useSaved } from "@/lib/saved-context";
+import { PLACEHOLDER_IMAGE } from "@/lib/images";
 import type { Product } from "@/lib/types";
 
 interface ProductListCardProps {
@@ -116,6 +118,7 @@ export default function ProductListCard({
 }: ProductListCardProps) {
   const { addSaved, removeSaved, isSaved } = useSaved();
   const saved = productId ? isSaved(productId) : false;
+  const [imgSrc, setImgSrc] = useState(image || PLACEHOLDER_IMAGE);
 
   const handleSaveToggle = () => {
     if (!productId) return;
@@ -151,15 +154,15 @@ export default function ProductListCard({
         <div className="w-full sm:w-[140px] md:w-[160px] flex-shrink-0">
           <Link href={url} className="no-underline">
             <div className="aspect-square bg-white rounded-md flex items-center justify-center overflow-hidden">
-              {image ? (
-                <Image src={image} alt={title} width={160} height={160} className="object-contain p-2" unoptimized />
-              ) : (
-                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CDD8DF" strokeWidth="1">
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <circle cx="8.5" cy="8.5" r="1.5" />
-                  <path d="M21 15l-5-5L5 21" />
-                </svg>
-              )}
+              <Image
+                src={imgSrc}
+                alt={title}
+                width={160}
+                height={160}
+                className="object-contain p-2"
+                unoptimized
+                onError={() => setImgSrc(PLACEHOLDER_IMAGE)}
+              />
             </div>
           </Link>
           {/* Badges below image */}

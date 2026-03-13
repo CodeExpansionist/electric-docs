@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { stripDomain } from "@/lib/constants";
 import type { ContentCard } from "@/lib/category-data";
 
 interface HubContentGridProps {
@@ -21,7 +22,7 @@ export default function HubContentGrid({ cards, heading, columns, cta }: HubCont
         {cards.map((card) => (
           <Link
             key={card.title}
-            href={card.url}
+            href={stripDomain(card.url)}
             className="group card overflow-hidden no-underline"
           >
             <div className="aspect-[16/10] bg-surface relative overflow-hidden">
@@ -46,7 +47,7 @@ export default function HubContentGrid({ cards, heading, columns, cta }: HubCont
       </div>
       {cta && (
         <div className="mt-4">
-          <Link href={cta.url} className="text-sm text-primary hover:underline">
+          <Link href={stripDomain(cta.url)} className="text-sm text-primary hover:underline">
             {cta.text}
           </Link>
         </div>

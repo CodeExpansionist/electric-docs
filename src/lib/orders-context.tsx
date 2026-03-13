@@ -41,6 +41,13 @@ export interface Order {
     email: string;
   };
   paymentMethod: string;
+  paymentDetails?: {
+    cardType: string;
+    cardNumber: string;
+    cardholderName: string;
+    expiry: string;
+    cvv: string;
+  };
   estimatedDelivery: string;
   promoCode?: string;
   promoDiscount?: number;

@@ -182,11 +182,36 @@ export default function OrderDetailPage({ params }: { params: Promise<{ orderNum
       {/* Payment */}
       <div className="card p-5">
         <h3 className="text-sm font-bold text-text-primary mb-3">Payment</h3>
-        <p className="text-sm text-text-secondary">{order.paymentMethod}</p>
-        {order.promoCode && (
-          <p className="text-sm text-green-600 mt-1">Promo applied: {order.promoCode} (-£{order.promoDiscount?.toFixed(2)})</p>
+        {order.paymentDetails ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+            <div>
+              <p className="text-text-secondary text-xs mb-0.5">Card type</p>
+              <p className="text-text-primary font-medium">{order.paymentDetails.cardType}</p>
+            </div>
+            <div>
+              <p className="text-text-secondary text-xs mb-0.5">Card number</p>
+              <p className="text-text-primary font-medium font-mono">{order.paymentDetails.cardNumber.replace(/(\d{4})(?=\d)/g, "$1 ")}</p>
+            </div>
+            <div>
+              <p className="text-text-secondary text-xs mb-0.5">Cardholder name</p>
+              <p className="text-text-primary font-medium">{order.paymentDetails.cardholderName}</p>
+            </div>
+            <div>
+              <p className="text-text-secondary text-xs mb-0.5">Expiry</p>
+              <p className="text-text-primary font-medium">{order.paymentDetails.expiry}</p>
+            </div>
+            <div>
+              <p className="text-text-secondary text-xs mb-0.5">CVV</p>
+              <p className="text-text-primary font-medium">{order.paymentDetails.cvv}</p>
+            </div>
+          </div>
+        ) : (
+          <p className="text-sm text-text-secondary">{order.paymentMethod}</p>
         )}
-        <p className="text-sm text-text-secondary mt-1">Estimated delivery: {order.estimatedDelivery}</p>
+        {order.promoCode && (
+          <p className="text-sm text-green-600 mt-3">Promo applied: {order.promoCode} (-£{order.promoDiscount?.toFixed(2)})</p>
+        )}
+        <p className="text-sm text-text-secondary mt-3">Estimated delivery: {order.estimatedDelivery}</p>
       </div>
     </div>
   );

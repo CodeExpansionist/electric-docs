@@ -29,6 +29,8 @@ const HUB_FILES = [
 const ALL_FILES = LISTING_FILES.concat(HUB_FILES);
 
 const EXCLUDED_NAMES = ['Delivery & Collection', 'Delivery and Collection', 'Collect from store', 'Availability', 'OK'];
+// Reference brand names to detect contamination — update per project
+// (the clone should NOT contain the reference site's brand in filter labels)
 const REFERENCE_BRANDS = ['currys', 'curry'];
 
 let totalGroups = 0, totalOptions = 0, totalEmpty = 0, totalErrors = 0;

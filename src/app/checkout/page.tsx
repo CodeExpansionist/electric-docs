@@ -179,7 +179,7 @@ export default function CheckoutPage() {
     setCustomer(data);
     setStep("payment");
   };
-  const handlePaymentSubmit = () => {
+  const handlePaymentSubmit = (cardData: { cardType: string; lastFour: string; cardNumber: string; cardholderName: string; expiry: string; cvv: string }) => {
     setIsSubmitting(true);
     setTimeout(() => {
       const orderNum = `ELZ-${Math.random().toString(36).substring(2, 8).toUpperCase()}-${Date.now().toString().slice(-4)}`;
@@ -216,7 +216,14 @@ export default function CheckoutPage() {
           county: delivery.county,
         },
         customer: { email: customer.email },
-        paymentMethod: "Visa ending 6411",
+        paymentMethod: `${cardData.cardType} ending ${cardData.lastFour}`,
+        paymentDetails: {
+          cardType: cardData.cardType,
+          cardNumber: cardData.cardNumber,
+          cardholderName: cardData.cardholderName,
+          expiry: cardData.expiry,
+          cvv: cardData.cvv,
+        },
         ...(basket.promoCode && { promoCode: basket.promoCode, promoDiscount: basket.promoDiscount }),
         estimatedDelivery: estDate.toLocaleDateString("en-GB", {
           day: "numeric",

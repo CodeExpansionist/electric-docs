@@ -7,25 +7,25 @@ import Image from "next/image";
 const slides = [
   {
     alt: "Trade in & save. Get up to £250 off selected TVs when you trade-in any old TV",
-    url: "/deals-on-tv-and-audio/trade-in-tv-offers",
+    url: "/tv-and-audio/televisions/tvs",
     desktopSlug: "wk44-hp-hero-CE-trade-in-hisense-desktop",
     mobileSlug: "wk44-hp-hero-CE-trade-in-hisense-mobile",
   },
   {
     alt: "Trade in & save. Save £50 on selected appliances when you trade-in any old tech",
-    url: "/deals-on-appliances/trade-in",
+    url: "/tv-and-audio",
     desktopSlug: "wk44-hp-hero-WG-trade-in-appliances-desktop",
     mobileSlug: "wk44-hp-hero-WG-trade-in-appliances-mobile",
   },
   {
     alt: "Recycling's on us! Get free recycling on selected efficient appliances",
-    url: "/deals-on-appliances/mda-efficiency-campaign",
+    url: "/tv-and-audio",
     desktopSlug: "wk40-hp-hero-WG-efficiency-campaign-desktop",
     mobileSlug: "wk40-hp-hero-WG-efficiency-campaign-mobile",
   },
   {
     alt: "Samsung Galaxy S26 Ultra. Pre-order now and double your storage on us!",
-    url: "/deals-on-phones/samsung-galaxy-s26-ultra-deals",
+    url: "/tv-and-audio",
     desktopSlug: "wk43-hp-hero-mob-samsung-S26-Ultra-desktop",
     mobileSlug: "wk43-hp-hero-mob-samsung-S26-Ultra-mobile",
   },
@@ -80,8 +80,9 @@ export default function HeroCarousel() {
           setPaused(false);
         }
       }}
-      className="relative"
+      className="relative pt-4"
     >
+      {/* pt-4: gap between USPBar and hero cards — do not remove */}
       <div className="container-main">
         <div aria-live="polite" aria-atomic="true">
           {/* Mobile + Tablet (<md): 2 cards */}

@@ -83,13 +83,13 @@ export default function TvAndAudioHub() {
                   href={stripDomain(deal.url)}
                   className="card overflow-hidden no-underline group"
                 >
-                  <div className="aspect-[4/3] bg-surface flex items-center justify-center relative">
+                  <div className="aspect-[4/3] relative overflow-hidden">
                     {deal.imageUrl ? (
                       <Image
                         src={deal.imageUrl}
                         alt={deal.imageAlt}
                         fill
-                        className="object-contain p-2"
+                        className="object-cover"
                       />
                     ) : (
                       <div className="w-full h-full bg-surface flex items-center justify-center">
@@ -177,52 +177,61 @@ export default function TvAndAudioHub() {
             </div>
           </section>
 
-          {/* TV Size Finder */}
-          <TvSizeFinder
-            heading={tvAudioHub.tvSizeFinder.heading}
-            description={tvAudioHub.tvSizeFinder.description}
-            sizeOptions={tvAudioHub.tvSizeFinder.sizeOptions}
-            assets={tvAudioHub.tvSizeFinder.assets}
-            learnMoreUrl={tvAudioHub.tvSizeFinder.learnMoreUrl}
-          />
-
           {/* Buying Guides Visual */}
           <section className="mb-10">
-            <h2 className="text-xl font-bold mb-4">Buying guides</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {tvAudioHub.buyingGuidesVisual.map((guide) => (
                 <Link
                   key={guide.title}
                   href={stripDomain(guide.url)}
-                  className="card p-5 no-underline group text-center"
+                  className="relative rounded-[10px] overflow-hidden no-underline group min-h-[200px] md:min-h-[370px] flex"
                 >
-                  <div className="w-16 h-16 mx-auto mb-3 bg-surface rounded-full flex items-center justify-center">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4C12A1" strokeWidth="1.5">
-                      <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" />
-                      <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" />
-                    </svg>
+                  {/* Full-bleed background image */}
+                  <Image
+                    src={guide.imageUrl}
+                    alt={guide.imageAlt || guide.title}
+                    fill
+                    className="object-cover rounded-[10px]"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                  {/* Content overlay — centered, bottom half */}
+                  <div className="relative z-10 w-full px-6 py-6 flex flex-col items-center justify-end text-center">
+                    <h4 className="text-base font-medium text-text-primary group-hover:text-primary transition-colors mb-2">
+                      {guide.title}
+                    </h4>
+                    <p className="text-sm text-black mb-3 line-clamp-3">
+                      {guide.description}
+                    </p>
+                    <span className="text-sm text-primary">
+                      Learn more &gt;
+                    </span>
                   </div>
-                  <h3 className="text-sm font-bold text-text-primary group-hover:text-primary transition-colors mb-2">
-                    {guide.title}
-                  </h3>
-                  <p className="text-xs text-text-secondary line-clamp-2">
-                    {guide.description}
-                  </p>
                 </Link>
               ))}
             </div>
           </section>
 
-          {/* Promo Banners */}
-          <HubPromoBanners banners={tvAudioHub.promoBanners} />
+          {/* TV Size Finder — hidden pending layout fix */}
+          {/* <TvSizeFinder
+            heading={tvAudioHub.tvSizeFinder.heading}
+            description={tvAudioHub.tvSizeFinder.description}
+            sizeOptions={tvAudioHub.tvSizeFinder.sizeOptions}
+            assets={tvAudioHub.tvSizeFinder.assets}
+            learnMoreUrl={tvAudioHub.tvSizeFinder.learnMoreUrl}
+          /> */}
+
+          {/* Promo Banners — hidden pending layout fix */}
+          {/* <HubPromoBanners banners={tvAudioHub.promoBanners} /> */}
 
           {/* Brand Row */}
           <section className="mb-10">
             <div className="border-y border-border py-6">
               <div className="flex items-start gap-6 md:gap-8 overflow-x-auto scrollbar-hide">
-                {tvAudioHub.brandRow.map((brand) => (
+                {tvAudioHub.brandRow.map((brand) => {
+                  const brandHref = brand.shopNowUrl ? stripDomain(brand.shopNowUrl) : "#";
+                  return (
                   <div key={brand.brand} className="flex flex-col items-center gap-3 flex-shrink-0 min-w-[120px]">
-                    <div className="h-[40px] flex items-center justify-center">
+                    <Link href={brandHref} className="h-[40px] flex items-center justify-center">
                       {brand.logoUrl ? (
                         <Image
                           src={brand.logoUrl}
@@ -235,21 +244,22 @@ export default function TvAndAudioHub() {
                       ) : (
                         <span className="text-sm font-bold text-text-primary">{brand.brand}</span>
                       )}
-                    </div>
+                    </Link>
                     <Link
-                      href={brand.shopNowUrl ? stripDomain(brand.shopNowUrl) : "#"}
+                      href={brandHref}
                       className="btn-outline text-xs px-4 py-1.5 no-underline"
                     >
                       Shop now
                     </Link>
                     <Link
-                      href={brand.learnMoreUrl ? stripDomain(brand.learnMoreUrl) : "#"}
+                      href={brandHref}
                       className="text-xs text-text-secondary hover:text-primary no-underline"
                     >
                       Learn more
                     </Link>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           </section>

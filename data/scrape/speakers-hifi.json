@@ -17,7 +17,7 @@
       "type": "checkbox",
       "options": [
         {
-          "label": "AUDIO",
+          "label": "AUDIO PRO",
           "count": 55
         },
         {
@@ -25,7 +25,7 @@
           "count": 43
         },
         {
-          "label": "KANTO",
+          "label": "KANTO AUDIO",
           "count": 25
         },
         {
@@ -69,7 +69,7 @@
           "count": 12
         },
         {
-          "label": "HOUSE",
+          "label": "HOUSE OF MARLEY",
           "count": 12
         },
         {
@@ -125,7 +125,7 @@
           "count": 5
         },
         {
-          "label": "ALTEC",
+          "label": "ALTEC LANSING",
           "count": 5
         },
         {
@@ -149,7 +149,7 @@
           "count": 4
         },
         {
-          "label": "IN",
+          "label": "IN PHASE",
           "count": 4
         },
         {
@@ -157,7 +157,7 @@
           "count": 4
         },
         {
-          "label": "HAPPY",
+          "label": "HAPPY PLUGS",
           "count": 4
         },
         {
@@ -177,7 +177,7 @@
           "count": 3
         },
         {
-          "label": "FRESH",
+          "label": "FRESH N REBEL",
           "count": 3
         },
         {
@@ -213,7 +213,7 @@
           "count": 2
         },
         {
-          "label": "OUR",
+          "label": "OUR PURE PLANET",
           "count": 2
         },
         {
@@ -233,7 +233,7 @@
           "count": 1
         },
         {
-          "label": "GLOBAL",
+          "label": "GLOBAL GIZMOS",
           "count": 1
         },
         {

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { stripDomain } from "@/lib/constants";
 import type { HubBanner } from "@/lib/category-data";
 
 interface HubBannerCarouselProps {
@@ -65,7 +66,7 @@ export default function HubBannerCarousel({ banners }: HubBannerCarouselProps) {
             {banner.buttons.map((btn, i) => (
               <Link
                 key={i}
-                href={btn.url}
+                href={stripDomain(btn.url)}
                 className={`no-underline text-sm font-semibold px-5 py-2 rounded-full transition-colors ${
                   i === 0
                     ? "bg-white text-purple-900 hover:bg-gray-100"

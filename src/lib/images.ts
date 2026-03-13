@@ -10,6 +10,9 @@
  *   thumb_001.webp    - thumbnail variant 1
  */
 
+/** Fallback image for products with missing main.webp */
+export const PLACEHOLDER_IMAGE = "/images/placeholder-product.svg";
+
 /**
  * Convert an Electriz CDN image URL to a local path.
  * Falls back to the original URL if no local mapping can be derived.

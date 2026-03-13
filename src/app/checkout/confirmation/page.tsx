@@ -132,6 +132,20 @@ function ConfirmationContent() {
           </div>
         )}
 
+        {/* Payment method */}
+        {order && (
+          <div className="card p-6 mb-6">
+            <h2 className="text-base font-bold text-text-primary mb-3">Payment method</h2>
+            <div className="flex items-center gap-2 text-sm text-text-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <rect x="1" y="4" width="22" height="16" rx="2" />
+                <line x1="1" y1="10" x2="23" y2="10" />
+              </svg>
+              <span>{order.paymentMethod}</span>
+            </div>
+          </div>
+        )}
+
         {/* What happens next */}
         <div className="card p-6 mb-8">
           <h2 className="text-base font-bold text-text-primary mb-4">What happens next?</h2>

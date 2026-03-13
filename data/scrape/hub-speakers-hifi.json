@@ -88,7 +88,7 @@
       { "text": "Marshall wireless & bluetooth speakers", "url": "/tv-and-audio/speakers-and-hi-fi-systems/speakers/marshall/wireless-and-bluetooth-speakers" }
     ],
     "buyingGuides": [
-      { "text": "Audio buying guide", "url": "/buying-guides/audio-buying-guide.html" }
+      { "text": "Audio buying guide", "url": "/techtalk" }
     ]
   },
   "brandCarousel": [
@@ -203,7 +203,7 @@
   "helpCardsHeading": "Which speaker tech are you looking for?",
   "helpCardsCta": {
     "text": "Read our audio buying guide",
-    "url": "/buying-guides/audio-buying-guide.html"
+    "url": "/techtalk"
   },
   "serviceCards": [
     {

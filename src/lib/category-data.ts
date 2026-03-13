@@ -17,6 +17,22 @@ import hubTvAccessories from "@/../data/scrape/hub-tv-accessories.json";
 import hubDvdBluray from "@/../data/scrape/hub-dvd-blu-ray.json";
 import hubSpeakersHifi from "@/../data/scrape/hub-speakers-hifi.json";
 import { getListingImage } from "./images";
+import { doesProductMatchFilter } from "./filter-utils";
+
+/**
+ * Filter groups where doesProductMatchFilter() has reliable explicit handlers.
+ * For sub-category pages, only these groups have 0-count options removed.
+ * Groups NOT in this set keep all parent options (generic text fallback is
+ * too unreliable with our incomplete spec data).
+ */
+const RELIABLE_FILTER_GROUPS = new Set([
+  "Brand", "Price", "Customer Rating", "Type", "Screen Size",
+  "Screen technology", "TV Technology", "Resolution",
+  "Refresh rate", "Refresh Rate", "Number of HDMI Ports",
+  "Year", "Year of Release", "Smart platform", "Smart TV Platform",
+  "Energy rating", "Loved by Electriz", "Popular screen sizes",
+  "Guarantee", "VESA", "Max. weight",
+]);
 
 export interface CategoryProduct {
   name: string;
@@ -51,6 +67,8 @@ export interface CategoryData {
   bannerAlt?: string;
   filters: FilterGroup[];
   products: CategoryProduct[];
+  /** Pre-applied filters from URL (e.g., brand from /tvs/sony). */
+  preSelectedFilters?: Record<string, string[]>;
 }
 
 /** Raw shape of scraped category JSON before normalization. */
@@ -76,9 +94,14 @@ function mapScrapedData(data: RawCategoryJSON): CategoryData {
       ...f,
       // Rename "By Price" to "Price" and "By Brand" to "Brand" for consistency
       name: f.name.replace(/^By\s+/i, ""),
-      options: (f.options || []).filter(
-        (o) => !o.label.toLowerCase().includes("collect from store")
-      ),
+      options: (f.options || []).filter((o) => {
+        if (o.label.toLowerCase().includes("collect from store")) return false;
+        // Remove 5-star rating option (not shown on reference site)
+        if (f.name === "Customer Rating" && /^5\b/.test(o.label)) return false;
+        // Hide options with zero count
+        if (o.count <= 0) return false;
+        return true;
+      }),
     })) as FilterGroup[];
 
   /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -108,136 +131,23 @@ function mapScrapedData(data: RawCategoryJSON): CategoryData {
     };
   }) as CategoryProduct[];
 
-  // Recalculate filter option counts from actual product data
-  const correctedFilters = filters.map((group) => ({
-    ...group,
-    options: group.options.map((opt) => ({
-      ...opt,
-      count: countMatchingProducts(products, group.name, opt.label),
-    })).filter((opt) => opt.count > 0),
-  }));
+  // Use scraped filter counts as-is — they come directly from the reference
+  // site and represent the ground-truth options. The matching logic in
+  // filter-utils.ts handles actual product filtering when users click;
+  // counts here are display-only.
 
   return {
     categoryName: data.categoryName || "",
     categorySlug: data.categorySlug || "",
     breadcrumbs: data.breadcrumbs || [],
     totalProducts: products.length,
-    filters: correctedFilters,
+    filters,
     products,
   };
 }
 
 function countMatchingProducts(products: CategoryProduct[], groupName: string, label: string): number {
-  return products.filter((p) => {
-    if (groupName === "Brand") return p.brand.toLowerCase() === label.toLowerCase();
-
-    if (groupName === "Price") {
-      if (label.startsWith("Up to")) {
-        const max = parseFloat(label.replace(/[^0-9.]/g, ""));
-        return p.price.current > 0 && p.price.current <= max;
-      }
-      if (label.includes("and above") || label.includes("and over")) {
-        const min = parseFloat(label.replace(/[^0-9.]/g, ""));
-        return p.price.current >= min;
-      }
-      const parts = label.match(/£([\d,.]+)\s*(?:to|-)\s*£([\d,.]+)/);
-      if (parts) {
-        const min = parseFloat(parts[1].replace(",", ""));
-        const max = parseFloat(parts[2].replace(",", ""));
-        return p.price.current >= min && p.price.current <= max;
-      }
-      return false;
-    }
-
-    if (groupName === "Customer Rating") {
-      const stars = parseInt(label);
-      return p.rating.average >= stars;
-    }
-
-    if (groupName === "Screen Size") {
-      const sizeMatches = Array.from(p.name.matchAll(/\b(\d{2,3})(?:"|″|\s)/g));
-      const size = sizeMatches.map((m) => parseInt(m[1])).find((n) => n >= 20 && n <= 120);
-      if (!size) return false;
-      if (label.includes("or more")) {
-        const min = parseInt(label.match(/(\d+)/)?.[1] || "0");
-        return size >= min;
-      }
-      const rangeParts = label.match(/(\d+)[\s"]*\s*[-–]\s*(\d+)/);
-      if (rangeParts) return size >= parseInt(rangeParts[1]) && size <= parseInt(rangeParts[2]);
-      return false;
-    }
-
-    if (groupName === "Screen technology" || groupName === "TV Technology") {
-      if (label === "LED") return /\bLED\b/.test(p.name) && !/(OLED|QLED|Mini\s*LED)/i.test(p.name);
-      if (label === "QLED") return /QLED/i.test(p.name) && !/Neo\s*QLED/i.test(p.name);
-      if (label === "Mini LED") return /Mini\s*LED|Miniled/i.test(p.name);
-      return p.name.toLowerCase().includes(label.toLowerCase());
-    }
-
-    if (groupName === "Resolution") {
-      const name = p.name.toLowerCase();
-      if (label.includes("4K")) return name.includes("4k");
-      if (label.includes("Full HD") || label.includes("1080")) return name.includes("full hd") || name.includes("1080");
-      if (label.includes("HD Ready")) return name.includes("hd ready") || name.includes("720");
-      return name.includes(label.toLowerCase());
-    }
-
-    if (groupName === "Refresh rate" || groupName === "Refresh Rate") {
-      const text = p.specs.join(" ") + " " + p.name;
-      const hzMatch = label.match(/(\d+)\s*Hz/i);
-      if (!hzMatch) return false;
-      const hz = hzMatch[1];
-      return text.includes(hz + " Hz") || text.includes(hz + "Hz");
-    }
-
-    if (groupName === "Number of HDMI Ports") {
-      const specsText = p.specs.join(" ");
-      const hdmiMatch = specsText.match(/HDMI\s*\d*\.?\d*\s*x\s*(\d)/i);
-      if (!hdmiMatch) return false;
-      const fc = parseInt(label.match(/(\d)/)?.[1] || "0");
-      return parseInt(hdmiMatch[1]) === fc;
-    }
-
-    if (groupName === "Year" || groupName === "Year of Release") return p.name.includes(label);
-
-    if (groupName === "Smart platform" || groupName === "Smart TV Platform") {
-      return (p.name + " " + p.specs.join(" ")).toLowerCase().includes(label.toLowerCase());
-    }
-
-    if (groupName === "Energy rating") {
-      if (!p.energyRating) return false;
-      return p.energyRating.toUpperCase() === label.toUpperCase();
-    }
-
-    if (groupName === "Loved by Electriz") {
-      return p.badges.some((b) => b.toLowerCase().includes("loved by"));
-    }
-
-    if (groupName === "Popular screen sizes") {
-      const sizeMatches = Array.from(p.name.matchAll(/\b(\d{2,3})(?:"|″|\s)/g));
-      const size = sizeMatches.map((m) => parseInt(m[1])).find((n) => n >= 20 && n <= 120);
-      if (!size) return false;
-      if (label.includes("or more") || label.includes("and above")) {
-        const min = parseInt(label.match(/(\d+)/)?.[1] || "0");
-        return size >= min;
-      }
-      const rangeParts = label.match(/(\d+)[\s"]*\s*[-–]\s*(\d+)/);
-      if (rangeParts) return size >= parseInt(rangeParts[1]) && size <= parseInt(rangeParts[2]);
-      const exact = parseInt(label.match(/(\d+)/)?.[1] || "0");
-      if (exact) return size === exact;
-      return false;
-    }
-
-    if (groupName === "Guarantee") {
-      const specsText = p.specs.join(" ").toLowerCase();
-      return specsText.includes(label.toLowerCase());
-    }
-
-    // Generic text match — covers Type, Colour, Connections, Design, Features,
-    // Voice control, Sound enhancement, Tuner, Gaming, VESA, etc.
-    const searchText = (p.name + " " + p.specs.join(" ") + " " + p.badges.join(" ")).toLowerCase();
-    return searchText.includes(label.toLowerCase());
-  }).length;
+  return products.filter((p) => doesProductMatchFilter(p, groupName, label)).length;
 }
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
@@ -245,72 +155,72 @@ function countMatchingProducts(products: CategoryProduct[], groupName: string, l
 const categoryBanners: Record<string, { image: string; url: string; alt: string }> = {
   tvs: {
     image: "/images/banners/wk43-Banner-CE-Samsung-Your-Gift-Desktop.webp",
-    url: "/deals-on-tv-and-audio/deals-on-selected-samsung-tvs",
+    url: "/tv-and-audio/televisions/tvs",
     alt: "Shop selected Samsung TVs and claim up to £1000 of Samsung tech",
   },
   "dvd-blu-ray": {
     image: "/images/banners/wk43-Banner-CE-Samsung-Your-Gift-Desktop.webp",
-    url: "/deals-on-tv-and-audio/deals-on-selected-samsung-tvs",
+    url: "/tv-and-audio/televisions/dvd-blu-ray",
     alt: "Shop selected Samsung sound bars and save",
   },
   soundbars: {
     image: "/images/banners/wk43-Banner-CE-Samsung-Tech-Desktop.webp",
-    url: "/deals-on-tv-and-audio/samsung-dolby-soundbars-offers",
+    url: "/tv-and-audio/audio/soundbars",
     alt: "Shop selected Samsung soundbars now & claim up to £400 of Samsung tech of your choice! T&Cs apply",
   },
   "speakers-hifi": {
     image: "/images/banners/wk42-block-Free-Delivery-v1.webp",
-    url: "/deals-on-tv-and-audio/deals-on-speakers",
+    url: "/tv-and-audio/audio/speakers-hifi",
     alt: "Great deals on speakers & hi-fi",
   },
   "tv-accessories": {
     image: "/images/banners/wk42-block-Free-Delivery-v1.webp",
-    url: "/deals-on-tv-and-audio/free-delivery",
+    url: "/tv-and-audio/televisions/tv-accessories",
     alt: "Free delivery on selected TV accessories",
   },
   "digital-smart-tv": {
     image: "/images/banners/wk43-Banner-CE-Samsung-Your-Gift-Desktop.webp",
-    url: "/deals-on-tv-and-audio/deals-on-streaming",
+    url: "/tv-and-audio/televisions/digital-smart-tv",
     alt: "Great deals on Digital & Smart TV",
   },
   headphones: {
     image: "/images/banners/wk43-banner-samsung-buds4-pro-FAT-CAT-desktop.webp",
-    url: "/deals-on-tv-and-audio/samsung-galaxy-buds4-offers",
+    url: "/tv-and-audio/audio/headphones",
     alt: "Samsung Galaxy Buds4 Pro.",
   },
   "tv-wall-brackets": {
     image: "/images/banners/wk42-block-Free-Delivery-v1.webp",
-    url: "/deals-on-tv-and-audio/free-delivery",
+    url: "/tv-and-audio/televisions/tv-wall-brackets",
     alt: "Free delivery on selected TV wall brackets",
   },
   "cables-accessories": {
     image: "/images/banners/pdp-trade-in-header-desktop.webp",
-    url: "/services/ways-to-pay/trade-in.html",
+    url: "/tv-and-audio/televisions/cables-accessories",
     alt: "It pays to trade-in",
   },
   "remote-controls": {
     image: "/images/banners/pdp-trade-in-header-desktop.webp",
-    url: "/services/ways-to-pay/trade-in.html",
+    url: "/tv-and-audio/televisions/remote-controls",
     alt: "It pays to trade-in",
   },
   "tv-aerials": {
     image: "/images/banners/pdp-trade-in-header-desktop.webp",
-    url: "/services/ways-to-pay/trade-in.html",
+    url: "/tv-and-audio/televisions/tv-aerials",
     alt: "It pays to trade-in",
   },
   radios: {
     image: "/images/banners/wk42-block-Free-Delivery-v1.webp",
-    url: "/deals-on-tv-and-audio/deals-on-radios",
+    url: "/tv-and-audio/audio/radios",
     alt: "Great deals on radios",
   },
   "blu-ray-dvd-players": {
     image: "/images/banners/pdp-trade-in-header-desktop.webp",
-    url: "/services/ways-to-pay/trade-in.html",
+    url: "/tv-and-audio/televisions/blu-ray-dvd-players",
     alt: "It pays to trade-in",
   },
   "home-cinema-systems": {
     image: "/images/banners/wk43-Banner-CE-Samsung-Your-Gift-Desktop.webp",
-    url: "/deals-on-tv-and-audio/deals-on-selected-samsung-tvs",
+    url: "/tv-and-audio/audio/home-cinema-systems",
     alt: "Amazing deals on home cinema systems",
   },
 };
@@ -741,15 +651,24 @@ function findParentAndFilter(slugSegments: string[]): CategoryData | null {
     }
 
     if (filtered.length > 0) {
-      const recalcFilters = parentData.filters.map((group) => ({
+      // Use parent's scraped filters with selective 0-count hiding.
+      // Reliable groups (Brand, Price, Type, etc.) — hide options with 0 matches.
+      // Unreliable groups (Colour, Voice control, etc.) — keep all parent options
+      // because our spec data is too incomplete for accurate matching.
+      const parentFilters = parentData.filters.map((group) => ({
         ...group,
-        options: group.options
-          .map((opt) => ({
-            ...opt,
-            count: countMatchingProducts(filtered, group.name, opt.label),
-          }))
-          .filter((opt) => opt.count > 0),
+        options: RELIABLE_FILTER_GROUPS.has(group.name)
+          ? group.options.filter(
+              (opt) => countMatchingProducts(filtered, group.name, opt.label) > 0
+            )
+          : group.options,
       }));
+
+      // Build pre-selected filters from URL-based filtering
+      const preSelectedFilters: Record<string, string[]> = {};
+      if (matchingBrandProduct) {
+        preSelectedFilters.Brand = [matchingBrandProduct.brand];
+      }
 
       return {
         ...parentData,
@@ -758,7 +677,8 @@ function findParentAndFilter(slugSegments: string[]): CategoryData | null {
         breadcrumbs: [...parentData.breadcrumbs, { label: categoryName, href: "" }],
         products: filtered,
         totalProducts: filtered.length,
-        filters: recalcFilters,
+        filters: parentFilters,
+        preSelectedFilters: Object.keys(preSelectedFilters).length > 0 ? preSelectedFilters : undefined,
       };
     }
   }

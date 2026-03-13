@@ -1,0 +1,142 @@
+{
+  "extractedFrom": "https://www.currys.co.uk/tv-and-audio",
+  "extractedAt": "2026-03-11",
+  "viewport": "1280x900",
+
+  "buyingGuideCards": {
+    "layout": "slick-carousel, 3 visible at desktop",
+    "sectionWidth": 870,
+    "card": {
+      "width": 186,
+      "height": 370,
+      "slideWidth": 218,
+      "slidePadding": "0px 16px",
+      "borderRadius": "10px",
+      "imagePosition": "absolute",
+      "imageInset": "0px",
+      "imageObjectFit": "cover",
+      "imageBorderRadius": "10px"
+    },
+    "textContainer": {
+      "classes": "col-6 px-0 py-3 amp-brand-blocks-content",
+      "width": 154,
+      "padding": "16px 0px",
+      "position": "relative",
+      "zIndex": "1"
+    },
+    "heading": {
+      "tag": "h4",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "22.08px",
+      "color": "rgb(33, 48, 56)",
+      "marginBottom": "8px"
+    },
+    "description": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "21px",
+      "color": "rgb(0, 0, 0)"
+    },
+    "learnMore": {
+      "text": "Learn more >",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(76, 18, 161)",
+      "textDecoration": "none"
+    }
+  },
+
+  "tvSizeFinder": {
+    "layout": "isitetv.com iframe",
+    "wrapper": {
+      "classes": "w-full aspect-[9/16] sm:aspect-square lg:aspect-video relative bg-currys-pink-3",
+      "iframeWidth": 870,
+      "iframeHeight": 870,
+      "backgroundColor": "rgb(250, 245, 255)",
+      "tokenMatch": "lightPurple (#FAF5FF)"
+    },
+    "heading": {
+      "tag": "h2",
+      "text": "Find your perfect TV size",
+      "classes": "text-4xl my-4 max-lg:px-4 text-balance",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "color": "rgb(33, 48, 56)",
+      "lineHeight": "40px",
+      "textAlign": "center"
+    },
+    "subtitle": {
+      "tag": "h3",
+      "classes": "lg:text-xl max-lg:px-4 text-balance",
+      "strongText": "between your sofa and your TV",
+      "strongColor": "rgb(229, 1, 109)",
+      "strongTokenMatch": "badge (#E5006D)",
+      "strongFontWeight": "700",
+      "strongClasses": "text-currys-pink-1 text:xl lg:text-2xl font-bold font-CurrysSans"
+    },
+    "chooseText": {
+      "tag": "h3",
+      "text": "or Choose a TV size to see the best viewing distance:",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "strongText": "Choose a TV size",
+      "strongColor": "rgb(229, 1, 109)",
+      "strongFontWeight": "700"
+    },
+    "toggle": {
+      "width": 112,
+      "height": 50,
+      "backgroundColor": "rgb(255, 255, 255)",
+      "border": "2px solid rgb(76, 18, 161)",
+      "borderRadius": "rounded-full",
+      "padding": "p-2",
+      "selectedSpanClasses": "z-10 rounded-full px-3 pt-0.5 pb-1 text-white",
+      "slidingIndicator": "absolute h-[calc(100%-0.5em)] rounded-full w-[calc(50%-0.5em)] m-2 bg-currys-purple-1"
+    },
+    "distanceInput": {
+      "width": 160,
+      "height": 56,
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "border": "2px solid rgb(76, 18, 161)",
+      "borderRadius": "8px",
+      "textAlign": "center",
+      "color": "rgb(33, 48, 56)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "classes": "h-14 text-center rounded-lg z-20 border-2 border-currys-purple-1 bg-white"
+    },
+    "sizeCards": {
+      "count": 10,
+      "carousel": "Glide.js",
+      "cardWidth": 158,
+      "cardHeight": 182,
+      "padding": "8px (p-2)",
+      "borderRadius": "8px",
+      "backgroundColor": "rgb(250, 245, 255)",
+      "selectedBorder": "2px solid rgb(76, 18, 161)",
+      "unselectedBorder": "2px solid currys-pink-2/50 (oklab(0.902 0.049 -0.011 / 0.5))",
+      "imageContainer": "w-full aspect-square mix-blend-darken bg-cover",
+      "imageSize": "138x138",
+      "label": {
+        "tag": "p",
+        "fontSize": "16px (max-md:text-sm)",
+        "fontWeight": "400",
+        "color": "rgb(33, 48, 56)",
+        "textAlign": "center"
+      }
+    },
+    "arrows": {
+      "width": 39,
+      "height": 39,
+      "backgroundColor": "transparent",
+      "border": "none",
+      "ariaLabels": ["scroll back", "scroll forwards"]
+    },
+    "colors": {
+      "currys-pink-1": "rgb(229, 1, 109) → badge #E5006D",
+      "currys-purple-1": "rgb(76, 18, 161) → primary #4C12A1",
+      "currys-pink-3": "rgb(250, 245, 255) → lightPurple #FAF5FF"
+    }
+  }
+}

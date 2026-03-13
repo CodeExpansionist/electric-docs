@@ -74,7 +74,7 @@ export default function SponsoredProducts() {
   return (
     <section aria-labelledby="sponsored-products-heading" className="py-8">
       <div className="container-main">
-        <h2 id="sponsored-products-heading" className="text-xs uppercase tracking-wider text-text-muted mb-4 font-semibold">Sponsored products</h2>
+        <h2 id="sponsored-products-heading" className="text-base md:text-2xl font-bold text-text-primary text-center mb-6">Sponsored products</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4">
           {products.map((product) => (
             <Link

@@ -9,13 +9,13 @@ const offers = [
   {
     title: "Shop Microsoft Surface Laptops from \u00a3699",
     description: "Running on Snapdragon\u00ae X Series processors",
-    url: "/deals-on-computing/copilot-plus-pcs-powered-by-snapdragon-x-series",
+    url: "/tv-and-audio",
     image: "/images/banners/wk41-block-QC-RYPC-v1.webp",
   },
   {
     title: "Shop selected Samsung TVs & soundbars",
     description: "Claim up to \u00a31000 of Samsung tech. T&Cs apply",
-    url: "/deals-on-tv-and-audio/deals-on-selected-samsung-tvs",
+    url: "/tv-and-audio/televisions/tvs/samsung",
     image: "/images/banners/wk43-block-Samsung-Your-Gift-v1.webp",
   },
   {
@@ -27,37 +27,37 @@ const offers = [
   {
     title: "Shop selected 75\"+ TVs now",
     description: "Get free delivery. You\u2019re welcome!",
-    url: "/deals-on-tv-and-audio/free-delivery-on-selected-tvs",
+    url: "/tv-and-audio/televisions/tvs",
     image: "/images/banners/wk42-block-Free-Delivery-v1.webp",
   },
   {
     title: "Pre-order the Samsung Galaxy S26|S26+ now!",
     description: "Get double the storage on us. T&Cs apply\u2021",
-    url: "/deals-on-phones/samsung-galaxy-s26-and-s26-plus-deals",
+    url: "/tv-and-audio",
     image: "/images/banners/wk43-block-samsung-S26-Base.webp",
   },
   {
     title: "Pre-order the new Galaxy Book6 Pro",
     description: "Powered by Intel\u00ae Core\u2122 Ultra 7. Intro offer applied!",
-    url: "/deals-on-computing/samsung-galaxy-book6",
+    url: "/tv-and-audio",
     image: "/images/banners/wk43-block-samsung-book6-pro-laptop.webp",
   },
   {
     title: "Shop selected Samsung efficient appliances",
     description: "Free recycling & up to \u00a350 off marked prices!",
-    url: "/deals-on-appliances/mda-efficiency-campaign/samsung",
+    url: "/tv-and-audio",
     image: "/images/banners/wk40-block-Efficiency-campaign-Samsung-Generic.webp",
   },
   {
     title: "Pre-order the new Galaxy Buds4 Pro now!",
     description: "You\u2019ve got 100 days to return. T&Cs apply.",
-    url: "/deals-on-tv-and-audio/samsung-galaxy-buds4-offers",
+    url: "/tv-and-audio/headphones/headphones",
     image: "/images/banners/wk43-block-samsung-buds4-pro.webp",
   },
   {
     title: "Shop selected Hoover efficient appliances",
     description: "Get free recycling & up to \u00a350 off marked prices!",
-    url: "/deals-on-appliances/mda-efficiency-campaign/hoover",
+    url: "/tv-and-audio",
     image: "/images/banners/wk42-block-Efficiency-campaign-Hoover.webp",
   },
 ];

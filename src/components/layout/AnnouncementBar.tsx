@@ -20,12 +20,8 @@ function pad(n: number) {
 export default function AnnouncementBar() {
   const [visible, setVisible] = useState(true);
   const [paused, setPaused] = useState(false);
-  const [time, setTime] = useState<{ hours: number; minutes: number; seconds: number } | null>(null);
+  const [time, setTime] = useState(() => getTimeUntilMidnight());
   const barRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    setTime(getTimeUntilMidnight());
-  }, []);
 
   useEffect(() => {
     if (paused) return;
@@ -64,11 +60,9 @@ export default function AnnouncementBar() {
           role="timer"
         >
           Ends in{" "}
-          {time ? (
-            <span key={time.seconds} className="inline-block animate-[timer-flash_0.4s_ease-out]">
-              {pad(time.hours)}:{pad(time.minutes)}:{pad(time.seconds)}
-            </span>
-          ) : "--:--:--"}
+          <span key={time.seconds} className="inline-block animate-[timer-flash_0.4s_ease-out]">
+            {pad(time.hours)}:{pad(time.minutes)}:{pad(time.seconds)}
+          </span>
         </span>
         <button
           onClick={() => setVisible(false)}

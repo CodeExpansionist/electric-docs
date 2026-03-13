@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { stripDomain } from "@/lib/constants";
 import type { BrandCarouselItem } from "@/lib/category-data";
 
 interface HubBrandCarouselProps {
@@ -50,7 +51,7 @@ export default function HubBrandCarousel({ brands, heading }: HubBrandCarouselPr
               className="flex-shrink-0 w-[160px] border border-border rounded-lg bg-white p-4 flex flex-col items-center gap-3"
               style={{ scrollSnapAlign: "start" }}
             >
-              <Link href={brand.url} className="block w-full">
+              <Link href={stripDomain(brand.url)} className="block w-full">
                 <div className="w-full h-[60px] flex items-center justify-center">
                   <Image
                     src={brand.logoUrl}
@@ -66,7 +67,7 @@ export default function HubBrandCarousel({ brands, heading }: HubBrandCarouselPr
                 {brand.subcategoryLinks.map((link, i) => (
                   <Link
                     key={i}
-                    href={link.url}
+                    href={stripDomain(link.url)}
                     className="flex items-center justify-between text-[11px] text-text-secondary hover:text-primary no-underline px-2 py-1 rounded border border-border hover:border-primary/30 transition-colors"
                   >
                     <span className="truncate">{link.text}</span>

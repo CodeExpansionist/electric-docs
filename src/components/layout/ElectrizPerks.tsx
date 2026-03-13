@@ -11,8 +11,8 @@ export default function ElectrizPerks() {
         <Link
           href="/account"
           className="inline-flex items-center justify-center rounded-pill px-8 py-3
-                     border-2 border-white text-white font-semibold
-                     hover:bg-white hover:text-footer-bg transition-colors no-underline"
+                     border-2 border-primary text-primary bg-white font-semibold
+                     hover:bg-primary hover:text-white transition-colors no-underline"
         >
           Sign me up
         </Link>

@@ -94,6 +94,25 @@
       ]
     },
     {
+      "name": "Type",
+      "isExpanded": true,
+      "type": "checkbox",
+      "options": [
+        { "label": "Sound bars", "count": 126 },
+        { "label": "Bluetooth soundbars", "count": 113 },
+        { "label": "Wall mounted soundbars", "count": 74 },
+        { "label": "Dolby Atmos soundbars", "count": 70 },
+        { "label": "Wireless soundbars", "count": 66 },
+        { "label": "Soundbar subwoofers", "count": 22 },
+        { "label": "All in one soundbars", "count": 20 },
+        { "label": "5.1 surround sound soundbars", "count": 18 },
+        { "label": "AV separates", "count": 16 },
+        { "label": "Home cinema speakers", "count": 9 },
+        { "label": "Home cinema systems", "count": 6 },
+        { "label": "Wired soundbars", "count": 1 }
+      ]
+    },
+    {
       "name": "Premium audio technology",
       "isExpanded": true,
       "type": "checkbox",

@@ -105,15 +105,15 @@
     "buyingGuides": [
       {
         "text": "TV buying guide",
-        "url": "https://www.electriz.co.uk/buying-guides/tv-buying-guide.html"
+        "url": "/techtalk"
       },
       {
         "text": "Audio buying guide",
-        "url": "https://www.electriz.co.uk/buying-guides/audio-buying-guide.html"
+        "url": "/techtalk"
       },
       {
         "text": "Projector buying guide",
-        "url": "https://www.electriz.co.uk/buying-guides/projector-buying-guide.html"
+        "url": "/techtalk"
       }
     ],
     "newsAndReviews": [
@@ -191,26 +191,29 @@
     "description": "This is movie night done right. Filmmaker Mode turns off all the added effects, so you see the film exactly as the director meant it to be seen. Legendary film critic Mark Kermode breaks it down in this short video. If anyone knows what makes a film truly cinematic, it's him.",
     "ctaText": "Shop now",
     "ctaUrl": "https://www.electriz.co.uk/tv-and-audio/televisions/tvs?prefn1=searchFilter29&prefv1=2025&pmin=1000.0&pmax=30000.0",
-    "imageUrl": "/images/banners/tv-buying-guide-block-background.webp",
+    "imageUrl": "/images/banners/filmmaker-mode-poster.webp",
     "videoUrl": ""
   },
   "buyingGuidesVisual": [
     {
       "title": "Discover your perfect TV",
       "description": "Switching up your TV? Tune into our buying guide & turn over to your ideal model today.",
-      "url": "https://www.electriz.co.uk/buying-guides/tv-buying-guide.html",
+      "url": "/techtalk",
+      "imageUrl": "/images/banners/tv-buying-guide-block-background.webp",
       "imageAlt": "TV buying guide"
     },
     {
       "title": "Discover your perfect audio tech",
       "description": "Looking to make movie night amazing? Sound out your options with our buying guide & find incredible audio now.",
-      "url": "https://www.electriz.co.uk/buying-guides/audio-buying-guide.html",
+      "url": "/techtalk",
+      "imageUrl": "/images/banners/audio-buying-guide-block-background.webp",
       "imageAlt": "Audio buying guide"
     },
     {
       "title": "Discover your perfect projector",
       "description": "Wanna take movie night to the next level? Look to our buying guide to find the projector right for you.",
-      "url": "https://www.electriz.co.uk/buying-guides/projector-buying-guide.html",
+      "url": "/techtalk",
+      "imageUrl": "/images/banners/projector-buying-guide-block-background.webp",
       "imageAlt": "Projector buying guide"
     }
   ],
@@ -218,23 +221,30 @@
     "heading": "Find your perfect TV size",
     "description": "Enter the distance between your sofa and your TV to find the perfect screen size for you:",
     "sizeOptions": [
-      { "label": "24\" - 31\"", "url": "/tv-and-audio/televisions/tvs/24-31" },
-      { "label": "32\" - 38\"", "url": "/tv-and-audio/televisions/tvs/32-38" },
-      { "label": "39\" - 45\"", "url": "/tv-and-audio/televisions/tvs/39-45" },
-      { "label": "46\" - 54\"", "url": "/tv-and-audio/televisions/tvs/46-54" },
-      { "label": "55\" - 64\"", "url": "/tv-and-audio/televisions/tvs/55-64" },
-      { "label": "65\" - 74\"", "url": "/tv-and-audio/televisions/tvs/65-74" },
-      { "label": "75\" - 79\"", "url": "/tv-and-audio/televisions/tvs/75-79" },
-      { "label": "80\" - 84\"", "url": "/tv-and-audio/televisions/tvs/80-84" },
-      { "label": "85\" - 89\"", "url": "/tv-and-audio/televisions/tvs/85-89" },
-      { "label": "90\" or more", "url": "/tv-and-audio/televisions/tvs/90-and-more" }
+      { "label": "24\" - 31\"", "url": "/tv-and-audio/televisions/tvs/24-31", "image": "/images/tv-size-finder/tvs/24-31.png" },
+      { "label": "32\" - 38\"", "url": "/tv-and-audio/televisions/tvs/32-38", "image": "/images/tv-size-finder/tvs/32-38.png" },
+      { "label": "39\" - 45\"", "url": "/tv-and-audio/televisions/tvs/39-45", "image": "/images/tv-size-finder/tvs/39-45.png" },
+      { "label": "46\" - 54\"", "url": "/tv-and-audio/televisions/tvs/46-54", "image": "/images/tv-size-finder/tvs/46-54.png" },
+      { "label": "55\" - 64\"", "url": "/tv-and-audio/televisions/tvs/55-64", "image": "/images/tv-size-finder/tvs/55-64.png" },
+      { "label": "65\" - 74\"", "url": "/tv-and-audio/televisions/tvs/65-74", "image": "/images/tv-size-finder/tvs/65-74.png" },
+      { "label": "75\" - 79\"", "url": "/tv-and-audio/televisions/tvs/75-79", "image": "/images/tv-size-finder/tvs/75-79.png" },
+      { "label": "80\" - 84\"", "url": "/tv-and-audio/televisions/tvs/80-84", "image": "/images/tv-size-finder/tvs/80-84.png" },
+      { "label": "85\" - 89\"", "url": "/tv-and-audio/televisions/tvs/85-89", "image": "/images/tv-size-finder/tvs/85-89.png" },
+      { "label": "90\" or more", "url": "/tv-and-audio/televisions/tvs/90-and-more", "image": "/images/tv-size-finder/tvs/90-plus.png" }
     ],
     "assets": {
       "tvImage": "/images/tv-size-finder/tv.png",
       "cabinetImage": "/images/tv-size-finder/cabinet_small.png",
-      "sofaImage": "/images/tv-size-finder/sofa_small.png"
+      "cabinetMedium": "/images/tv-size-finder/cabinet_medium.png",
+      "cabinetLarge": "/images/tv-size-finder/cabinet_large.png",
+      "sofaImage": "/images/tv-size-finder/sofa_small.png",
+      "sofaMedium": "/images/tv-size-finder/sofa_medium.png",
+      "sofaLarge": "/images/tv-size-finder/sofa_large.png",
+      "rugLeft": "/images/tv-size-finder/rug-left.png",
+      "rugCenter": "/images/tv-size-finder/rug-center.png",
+      "rugRight": "/images/tv-size-finder/rug-right.png"
     },
-    "learnMoreUrl": "/buying-guides/tv-buying-guide.html"
+    "learnMoreUrl": "/techtalk"
   },
   "promoBanners": [
     {
