@@ -6,21 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useBasket } from "@/lib/basket-context";
 import { useOrders } from "@/lib/orders-context";
+import { luhnCheck, getCardType, formatCardNumber, formatExpiry } from "@/lib/payment-utils";
 import { Suspense } from "react";
-
-function luhnCheck(num: string): boolean {
-  const digits = num.replace(/\D/g, "").split("").reverse().map(Number);
-  let sum = 0;
-  for (let i = 0; i < digits.length; i++) {
-    let d = digits[i];
-    if (i % 2 === 1) {
-      d *= 2;
-      if (d > 9) d -= 9;
-    }
-    sum += d;
-  }
-  return sum % 10 === 0;
-}
 
 function CardIcon({ type }: { type: string }) {
   const h = 24;
@@ -79,42 +66,16 @@ function PaymentPageContent() {
   const [saveCard, setSaveCard] = useState(false);
 
   // Get delivery data from search params
-  const deliveryName = searchParams.get("name") || "Mr John Smith";
-  const deliveryAddress = searchParams.get("address") || "Flat 8, Brehon House, 17-19 Pratt Street";
-  const deliveryPostcode = searchParams.get("postcode") || "NW1 0AE";
-  const deliveryCity = searchParams.get("city") || "London";
-  const customerEmail = searchParams.get("email") || "john.smith@email.com";
+  const deliveryName = searchParams.get("name") || "";
+  const deliveryAddress = searchParams.get("address") || "";
+  const deliveryPostcode = searchParams.get("postcode") || "";
+  const deliveryCity = searchParams.get("city") || "";
+  const customerEmail = searchParams.get("email") || "";
 
   const subtotal = basket.subtotal;
   const deliveryCost = basket.deliveryCost;
   const promoDiscount = basket.promoDiscount || 0;
   const total = basket.total;
-
-  // Format card number with spaces
-  const formatCardNumber = (value: string) => {
-    const v = value.replace(/\D/g, "").slice(0, 16);
-    const parts = [];
-    for (let i = 0; i < v.length; i += 4) {
-      parts.push(v.slice(i, i + 4));
-    }
-    return parts.join(" ");
-  };
-
-  // Format expiry date
-  const formatExpiry = (value: string) => {
-    const v = value.replace(/\D/g, "").slice(0, 4);
-    if (v.length >= 2) return v.slice(0, 2) + "/" + v.slice(2);
-    return v;
-  };
-
-  // Detect card type from number
-  const getCardType = (num: string) => {
-    const clean = num.replace(/\D/g, "");
-    if (clean.startsWith("4")) return "Visa";
-    if (clean.startsWith("5") || clean.startsWith("2")) return "Mastercard";
-    if (clean.startsWith("3")) return "Amex";
-    return null;
-  };
 
   const cardType = getCardType(cardNumber);
 
@@ -184,10 +145,10 @@ function PaymentPageContent() {
         deliveryCost,
         total,
         delivery: {
-          title: "Mr",
-          firstName: "John",
-          lastName: "Smith",
-          phone: "07193190923",
+          title: deliveryName.split(" ")[0] || "",
+          firstName: deliveryName.split(" ").slice(1, -1).join(" ") || deliveryName.split(" ")[1] || "",
+          lastName: deliveryName.split(" ").slice(-1)[0] || "",
+          phone: "",
           postcode: deliveryPostcode,
           address1: deliveryAddress,
           address2: "",
@@ -358,7 +319,7 @@ function PaymentPageContent() {
 
               {/* Items */}
               <div className="space-y-3 mb-4 pb-4 border-b border-border">
-                {basket.items.length > 0 ? basket.items.map((item) => (
+                {basket.items.map((item) => (
                   <div key={item.product.id} className="flex gap-3">
                     <div className="w-14 h-14 bg-surface rounded border border-border flex items-center justify-center flex-shrink-0">
                       <Image
@@ -378,30 +339,7 @@ function PaymentPageContent() {
                       £{item.product.price.current.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
                     </p>
                   </div>
-                )) : (
-                  <>
-                    <div className="flex gap-3">
-                      <div className="w-14 h-14 bg-surface rounded border border-border flex items-center justify-center flex-shrink-0">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#999" strokeWidth="1.5"><rect x="2" y="7" width="20" height="15" rx="2" /><path d="M16 7V5a4 4 0 10-8 0v2" /></svg>
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="text-xs text-text-primary font-medium">SAMSUNG UB00F 50&quot; Crystal UHD 4K HDR Smart TV 2025</p>
-                        <p className="text-[11px] text-text-secondary mt-0.5">Qty: 1</p>
-                      </div>
-                      <p className="text-sm font-bold text-text-primary flex-shrink-0">£299.00</p>
-                    </div>
-                    <div className="flex gap-3">
-                      <div className="w-14 h-14 bg-surface rounded border border-border flex items-center justify-center flex-shrink-0">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#999" strokeWidth="1.5"><rect x="2" y="7" width="20" height="15" rx="2" /><path d="M16 7V5a4 4 0 10-8 0v2" /></svg>
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="text-xs text-text-primary font-medium">SONY BRAVIA 8A 55&quot; OLED 4K HDR AI Smart TV</p>
-                        <p className="text-[11px] text-text-secondary mt-0.5">Qty: 1</p>
-                      </div>
-                      <p className="text-sm font-bold text-text-primary flex-shrink-0">£1,399.00</p>
-                    </div>
-                  </>
-                )}
+                ))}
               </div>
 
               {/* Delivery info */}

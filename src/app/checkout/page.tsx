@@ -101,11 +101,15 @@ function StepIndicator({
   );
 }
 
-function CompletedDeliverySummary({ data, itemSummary }: { data: DeliveryData; itemSummary?: string }) {
+function CompletedDeliverySummary({ data, itemSummary, deliveryCost }: { data: DeliveryData; itemSummary?: string; deliveryCost?: number }) {
+  const estDate = new Date();
+  estDate.setDate(estDate.getDate() + 4);
+  const dateStr = estDate.toLocaleDateString("en-GB", { weekday: "short", day: "2-digit", month: "short" });
+  const costStr = deliveryCost === 0 ? "FREE" : `£${(deliveryCost ?? 0).toFixed(2)}`;
   return (
     <div className="card p-5 mt-2 mb-6">
       <p className="text-sm font-semibold text-text-primary mb-2">
-        Arriving Mon 02 Mar, All day 7am-8pm – £20.00
+        Arriving {dateStr}, All day 7am-8pm – {costStr}
       </p>
       <p className="text-xs text-text-secondary mb-3">
         {itemSummary || "Your order"}
@@ -270,6 +274,7 @@ export default function CheckoutPage() {
                   <CompletedDeliverySummary
                     data={delivery}
                     itemSummary={basket.items.map((item) => item.product.title).join(", ")}
+                    deliveryCost={basket.deliveryCost}
                   />
                 )}
                 {step === "delivery" && (

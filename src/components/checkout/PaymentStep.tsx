@@ -1,43 +1,8 @@
 "use client";
 
 import { useState } from "react";
-
-function luhnCheck(num: string): boolean {
-  const digits = num.replace(/\D/g, "").split("").reverse().map(Number);
-  let sum = 0;
-  for (let i = 0; i < digits.length; i++) {
-    let d = digits[i];
-    if (i % 2 === 1) {
-      d *= 2;
-      if (d > 9) d -= 9;
-    }
-    sum += d;
-  }
-  return sum % 10 === 0;
-}
-
-function getCardType(num: string) {
-  const clean = num.replace(/\D/g, "");
-  if (clean.startsWith("4")) return "Visa";
-  if (clean.startsWith("5") || clean.startsWith("2")) return "Mastercard";
-  if (clean.startsWith("3")) return "Amex";
-  return null;
-}
-
-function formatCardNumber(value: string) {
-  const v = value.replace(/\D/g, "").slice(0, 16);
-  const parts = [];
-  for (let i = 0; i < v.length; i += 4) {
-    parts.push(v.slice(i, i + 4));
-  }
-  return parts.join(" ");
-}
-
-function formatExpiry(value: string) {
-  const v = value.replace(/\D/g, "").slice(0, 4);
-  if (v.length >= 2) return v.slice(0, 2) + "/" + v.slice(2);
-  return v;
-}
+import { useBasket } from "@/lib/basket-context";
+import { luhnCheck, getCardType, formatCardNumber, formatExpiry } from "@/lib/payment-utils";
 
 export default function PaymentStep({
   onSubmit,
@@ -46,8 +11,10 @@ export default function PaymentStep({
   onSubmit: (cardData: { cardType: string; lastFour: string; cardNumber: string; cardholderName: string; expiry: string; cvv: string }) => void;
   isSubmitting: boolean;
 }) {
+  const { basket, applyPromo, removePromo } = useBasket();
   const [promoOpen, setPromoOpen] = useState(false);
   const [promoCode, setPromoCode] = useState("");
+  const [promoError, setPromoError] = useState("");
   const [cardNumber, setCardNumber] = useState("");
   const [cardName, setCardName] = useState("");
   const [cardExpiry, setCardExpiry] = useState("");
@@ -115,48 +82,64 @@ export default function PaymentStep({
   return (
     <div className="card p-6 mt-3">
       {/* Promo code section */}
-      <button
-        onClick={() => setPromoOpen(!promoOpen)}
-        className="flex items-center gap-2 text-sm text-text-primary mb-4 w-full"
-      >
-        <svg
-          width="16"
-          height="16"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="1.8"
-        >
-          <path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z" />
-          <line x1="7" y1="7" x2="7.01" y2="7" />
-        </svg>
-        <span>Add a discount/promo code or gift card</span>
-        <svg
-          width="14"
-          height="14"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          className={`ml-auto transition-transform ${promoOpen ? "rotate-180" : ""}`}
-        >
-          <path d="M6 9l6 6 6-6" />
-        </svg>
-      </button>
-
-      {promoOpen && (
-        <div className="flex gap-2 mb-6">
-          <input
-            type="text"
-            value={promoCode}
-            onChange={(e) => setPromoCode(e.target.value)}
-            placeholder="Enter code"
-            className="input-field flex-1"
-          />
-          <button className="btn-outline text-sm whitespace-nowrap">
-            Apply
-          </button>
+      {basket.promoCode ? (
+        <div className="flex items-center justify-between bg-green-50 border border-green-200 rounded-md px-3 py-2 mb-4">
+          <div>
+            <span className="text-xs font-semibold text-green-700">{basket.promoCode}</span>
+            <span className="text-xs text-green-600 ml-2">-£{(basket.promoDiscount || 0).toFixed(2)}</span>
+          </div>
+          <button onClick={removePromo} className="text-xs text-primary hover:underline">Remove</button>
         </div>
+      ) : (
+        <>
+          <button
+            onClick={() => setPromoOpen(!promoOpen)}
+            className="flex items-center gap-2 text-sm text-text-primary mb-4 w-full"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z" />
+              <line x1="7" y1="7" x2="7.01" y2="7" />
+            </svg>
+            <span>Add a discount/promo code or gift card</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={`ml-auto transition-transform ${promoOpen ? "rotate-180" : ""}`}>
+              <path d="M6 9l6 6 6-6" />
+            </svg>
+          </button>
+
+          {promoOpen && (
+            <div className="mb-6">
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={promoCode}
+                  onChange={(e) => { setPromoCode(e.target.value); setPromoError(""); }}
+                  placeholder="Enter code"
+                  className="input-field flex-1"
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                      const code = promoCode.trim().toUpperCase();
+                      const codes: Record<string, number> = { "1STTV50": 50, "SAVE10": 10 };
+                      if (codes[code]) { applyPromo(code, codes[code]); setPromoCode(""); setPromoOpen(false); setPromoError(""); }
+                      else setPromoError("Invalid promo code");
+                    }
+                  }}
+                />
+                <button
+                  className="btn-outline text-sm whitespace-nowrap"
+                  onClick={() => {
+                    const code = promoCode.trim().toUpperCase();
+                    const codes: Record<string, number> = { "1STTV50": 50, "SAVE10": 10 };
+                    if (codes[code]) { applyPromo(code, codes[code]); setPromoCode(""); setPromoOpen(false); setPromoError(""); }
+                    else setPromoError("Invalid promo code");
+                  }}
+                >
+                  Apply
+                </button>
+              </div>
+              {promoError && <p className="text-xs text-sale mt-1.5">{promoError}</p>}
+            </div>
+          )}
+        </>
       )}
 
       {/* Card details form */}

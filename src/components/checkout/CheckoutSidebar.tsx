@@ -44,10 +44,8 @@ export default function CheckoutSidebar() {
         </div>
         <div className="flex items-center justify-between">
           <span className="text-xs text-text-secondary">Delivery</span>
-          <span className="text-xs text-text-muted">
-            {basket.deliveryCost > 0
-              ? `£${basket.deliveryCost.toFixed(2)}`
-              : "—"}
+          <span className={`text-xs ${basket.deliveryCost === 0 ? "text-green-600 font-semibold" : "text-text-primary"}`}>
+            {basket.deliveryCost === 0 ? "FREE" : `£${basket.deliveryCost.toFixed(2)}`}
           </span>
         </div>
         {basket.promoDiscount && basket.promoDiscount > 0 && (
