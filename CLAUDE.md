@@ -98,6 +98,7 @@ After every edit session, run in order:
    - Restart and re-verify before reporting completion
 
 Never report completion until verification passes.
+Never kill the dev server without restarting it. After build and test steps, ALWAYS restart the dev server on port 3001 and re-verify the affected route before reporting completion. The user must be able to browse the site immediately after a fix is delivered.
 Never switch away from port 3001 unless explicitly instructed.
 Never revert unrelated changes.
 Never assume browser cache is the issue without backend evidence.

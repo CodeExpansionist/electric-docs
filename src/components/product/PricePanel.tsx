@@ -30,6 +30,7 @@ function AddToBasketButton({ onAddToBasket }: { onAddToBasket?: () => void }) {
   return (
     <button
       onClick={handleClick}
+      data-testid="add-to-basket"
       className={`w-full text-lg py-3.5 flex items-center justify-center gap-2 rounded-lg font-bold transition-colors ${
         added
           ? "bg-green-600 text-white"
@@ -91,7 +92,7 @@ export default function PricePanel({
       {/* Price */}
       <div className="mb-4">
         <div className="flex items-baseline gap-2 flex-wrap">
-          <span className="text-xl font-bold text-text-primary leading-8">
+          <span data-testid="product-price" className="text-xl font-bold text-text-primary leading-8">
             £{price.toLocaleString("en-GB", { minimumFractionDigits: 2 })}
           </span>
           {typeof savings === "number" && savings > 0 && (

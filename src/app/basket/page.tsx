@@ -20,7 +20,7 @@ function BasketItemCard({
   onSaveForLater: () => void;
 }) {
   return (
-    <div className="pb-6 mb-6">
+    <div data-testid="basket-item" className="pb-6 mb-6">
       <div className="flex flex-col sm:flex-row gap-4">
         {/* Product image — clickable, no border */}
         <Link href={`/products/${item.product.slug}`} className="w-[200px] flex-shrink-0 mx-auto sm:mx-0 block">

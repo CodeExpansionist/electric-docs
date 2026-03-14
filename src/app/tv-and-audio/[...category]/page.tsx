@@ -166,6 +166,7 @@ function CategoryListingInner() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 py-3 border-b border-border">
             <div className="flex items-center gap-4">
               <select
+                data-testid="sort-select"
                 value={sortBy}
                 onChange={(e) => { setSortBy(e.target.value); setPage(1); }}
                 className="border border-input-border rounded px-3 py-2 text-sm bg-white h-10"

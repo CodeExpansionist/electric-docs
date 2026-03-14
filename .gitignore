@@ -10,6 +10,8 @@
 /coverage
 /.test-build/
 /test-results/
+/playwright-report/
+/blob-report/
 
 # next.js
 /.next/
@@ -50,6 +52,9 @@ next-env.d.ts
 
 # comparison screenshots (temp audit artifacts)
 /comparison-screenshots/
+
+# parity audit artifacts (generated at runtime)
+/artifacts/
 
 # data backups
 data/scrape-backup-*.tar.gz

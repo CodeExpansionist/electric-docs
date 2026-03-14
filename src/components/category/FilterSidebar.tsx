@@ -57,7 +57,7 @@ function FilterGroupComponent({
   }
 
   return (
-    <div className="border-b border-border py-4">
+    <div data-testid="filter-group" className="border-b border-border py-4">
       <button
         onClick={() => setExpanded(!expanded)}
         className="flex items-center justify-between w-full text-left"

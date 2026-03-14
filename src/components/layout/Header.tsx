@@ -162,6 +162,7 @@ export default function Header() {
               <input
                 id="site-search"
                 type="text"
+                data-testid="search-input"
                 value={searchQuery}
                 onChange={handleInputChange}
                 onFocus={() => {
@@ -399,7 +400,7 @@ export default function Header() {
                 <path d="M9.009 9.54c.283 0 .512.223.512.5s-.23.5-.512.5H3.792a.152.152 0 00-.057.013c-.152.061-.259.318-.187.563l2.385 8.128c.048.166.154.254.243.254h11.648c.09 0 .195-.088.243-.254l2.385-8.128a.572.572 0 00.023-.16c0-.248-.143-.415-.267-.415h-5.204a.507.507 0 01-.513-.501c0-.277.23-.5.513-.5h5.204c.737 0 1.292.652 1.292 1.416 0 .148-.021.295-.062.436l-2.385 8.128c-.168.573-.654.98-1.23.98H6.177c-.575 0-1.06-.407-1.229-.98l-2.384-8.128c-.209-.71.117-1.496.779-1.765.143-.058.296-.088.45-.088h5.217zm8.502-5.884a.505.505 0 01.715-.015c.206.195.22.516.031.718L13.208 9.75c.057.143.088.298.088.46 0 .7-.58 1.267-1.296 1.267-.716 0-1.297-.567-1.297-1.266 0-.7.58-1.267 1.297-1.267.168 0 .328.031.475.088l5.036-5.377zM12 9.946a.268.268 0 00-.271.266c0 .146.121.264.271.264.15 0 .271-.118.271-.264A.268.268 0 0012 9.947z" fill="currentColor" fillRule="nonzero" />
               </svg>
               {itemCount > 0 && (
-                <span className="absolute -top-1.5 -right-2 bg-badge text-white text-[9px] font-bold rounded-full min-w-[16px] h-4 flex items-center justify-center px-1">
+                <span data-testid="basket-count" className="absolute -top-1.5 -right-2 bg-badge text-white text-[9px] font-bold rounded-full min-w-[16px] h-4 flex items-center justify-center px-1">
                   {itemCount}
                 </span>
               )}

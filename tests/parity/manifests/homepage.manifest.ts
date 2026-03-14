@@ -1,0 +1,151 @@
+import type { TemplateManifest } from "./types";
+
+export const homepageManifest: TemplateManifest = {
+  templateId: "homepage",
+  description:
+    "Homepage: AnnouncementBar, SecondaryNav, Header, MainNav, USPBar, HeroCarousel, ShopDeals, DiscoverOffers, BigBrandDeals, SponsoredProducts, ElectrizPerks, Footer, SubFooter",
+  testUrl: "/",
+  sections: [
+    {
+      id: "announcement-bar",
+      selector: '[class*="bg-primary"]',
+      fallbackSelectors: [
+        ".min-h-screen > div:first-child",
+        'div:has(> div > span:has-text("1STTV50"))',
+      ],
+      required: true,
+      order: 1,
+      viewport: "both",
+      currysEvidence: "01-homepage-hero.png",
+    },
+    {
+      id: "secondary-nav",
+      selector: 'nav[aria-label="Utility links"]',
+      required: true,
+      order: 2,
+      viewport: "desktop",
+    },
+    {
+      id: "header",
+      selector: "header",
+      required: true,
+      order: 3,
+      viewport: "both",
+      children: [
+        {
+          role: "search-input",
+          selector: '[data-testid="search-input"]',
+          required: true,
+        },
+        {
+          role: "basket-icon",
+          selector: 'a[href="/basket"]',
+          required: true,
+        },
+      ],
+    },
+    {
+      id: "main-nav",
+      selector: 'nav[aria-label="Main categories"]',
+      required: true,
+      order: 4,
+      viewport: "desktop",
+    },
+    {
+      id: "usp-bar",
+      selector: '[aria-label="Unique selling points"]',
+      required: true,
+      order: 5,
+      viewport: "desktop",
+      currysEvidence: "01-homepage-hero.png",
+    },
+    {
+      id: "hero-carousel",
+      selector: 'section[aria-roledescription="carousel"]',
+      required: true,
+      order: 6,
+      viewport: "both",
+      currysEvidence: "01-homepage-hero.png",
+      children: [
+        {
+          role: "next-button",
+          selector: 'button[aria-label="Next slide"]',
+          required: true,
+        },
+        {
+          role: "prev-button",
+          selector: 'button[aria-label="Previous slide"]',
+          required: true,
+        },
+        {
+          role: "slides",
+          selector: "a[class*='rounded-lg']",
+          required: true,
+          expectedCount: { min: 2 },
+        },
+      ],
+    },
+    {
+      id: "shop-deals",
+      selector: 'section[aria-labelledby="shop-deals-heading"]',
+      required: true,
+      order: 7,
+      viewport: "both",
+      currysEvidence: "02-homepage-offers.png",
+    },
+    {
+      id: "discover-offers",
+      selector: 'section[aria-labelledby="discover-offers-heading"]',
+      required: true,
+      order: 8,
+      viewport: "both",
+      currysEvidence: "02-homepage-offers.png",
+    },
+    {
+      id: "big-brand-deals",
+      selector: 'section[aria-labelledby="big-brand-deals-heading"]',
+      required: true,
+      order: 9,
+      viewport: "both",
+      currysEvidence: "02-homepage-offers.png",
+    },
+    {
+      id: "sponsored-products",
+      selector: 'section[aria-labelledby="sponsored-products-heading"]',
+      required: false,
+      order: 10,
+      viewport: "both",
+      currysEvidence: "03-homepage-products-footer.png",
+    },
+    {
+      id: "electriz-perks",
+      selector: "section.bg-footer-bg",
+      fallbackSelectors: [
+        'section:has(h2:text-is("Join Electriz Perks"))',
+        "main > section:last-of-type",
+      ],
+      required: false,
+      order: 11,
+      viewport: "both",
+    },
+    {
+      id: "footer",
+      selector: "footer",
+      required: true,
+      order: 12,
+      viewport: "both",
+      currysEvidence: "03-homepage-products-footer.png",
+    },
+    {
+      id: "sub-footer",
+      selector: ".bg-subfooter-bg",
+      fallbackSelectors: [
+        "footer + div",
+        'div:has(> div > p:has-text("Registered number"))',
+      ],
+      required: false,
+      order: 13,
+      viewport: "both",
+    },
+  ],
+};

@@ -5,7 +5,7 @@ import {
   useContext,
   useReducer,
   useEffect,
-  useRef,
+  useState,
   type ReactNode,
 } from "react";
 import type { Product, Basket, BasketItem } from "./types";
@@ -113,7 +113,7 @@ const BasketContext = createContext<BasketContextValue | null>(null);
 
 export function BasketProvider({ children }: { children: ReactNode }) {
   const [basket, dispatch] = useReducer(basketReducer, initialBasket);
-  const hydrated = useRef(false);
+  const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
     const saved = localStorage.getItem("electric-basket");
@@ -127,14 +127,14 @@ export function BasketProvider({ children }: { children: ReactNode }) {
         // Invalid localStorage data — start with empty basket
       }
     }
-    hydrated.current = true;
+    setIsHydrated(true);
   }, []);
 
   useEffect(() => {
-    if (hydrated.current) {
+    if (isHydrated) {
       localStorage.setItem("electric-basket", JSON.stringify(basket));
     }
-  }, [basket]);
+  }, [basket, isHydrated]);
 
   const itemCount = basket.items.reduce((sum, item) => sum + item.quantity, 0);
 

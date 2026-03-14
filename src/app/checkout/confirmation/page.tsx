@@ -33,7 +33,7 @@ function ConfirmationContent() {
           <div className="flex items-center justify-between mb-4">
             <div>
               <p className="text-xs text-text-secondary mb-1">Order number</p>
-              <p className="text-xl font-bold text-primary">{orderNumber}</p>
+              <p data-testid="order-number" className="text-xl font-bold text-primary">{orderNumber}</p>
             </div>
             <div className="text-right">
               <p className="text-xs text-text-secondary mb-1">Order date</p>
