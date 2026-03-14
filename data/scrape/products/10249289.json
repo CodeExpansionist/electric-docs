@@ -52,14 +52,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Batteries",
-      "title": "ENERGIZER Max AAA Alkaline Batteries - Pack of 8",
-      "price": 7,
-      "image": "https://media.electriz.biz/i/electrizprod/10267982?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [],
   "badges": [],
   "specifications": {},

@@ -66,16 +66,12 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Headphones",
-      "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black",
-      "price": 34.99,
-      "image": "https://media.electriz.biz/i/electrizprod/M10247634_black?$s-swatch$&fmt=auto"
-    },
-    {
       "category": "Cables",
-      "title": "SANDSTROM S35RCA23 RCA to 3.5 mm Audio Cable - 1.8 m",
-      "price": 10.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10236884?$s-swatch$&fmt=auto"
+      "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m",
+      "price": 6.99,
+      "rating": 5,
+      "reviewCount": 4,
+      "image": "/images/products/10234488/main.webp"
     }
   ],
   "offers": [],

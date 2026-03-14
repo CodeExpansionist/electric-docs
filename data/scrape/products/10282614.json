@@ -126,22 +126,33 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Sound Bar",
+      "category": "Sound System",
       "title": "SAMSUNG HW-B450F/XU 2.1 Wireless Sound Bar with DTS Virtual:X",
-      "price": 219,
-      "image": "https://media.electriz.biz/i/electrizprod/10282179?$s-swatch$&fmt=auto"
+      "price": 199,
+      "wasPrice": 219,
+      "savings": 20,
+      "rating": 5,
+      "reviewCount": 5,
+      "image": "/images/products/10282179/main.webp",
+      "badge": "Currys Recommends"
     },
     {
-      "category": "Extension Lead",
+      "category": "Cables & Adapters",
       "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
       "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
     },
     {
-      "category": "Screen Cleaner",
+      "category": "Cleaning Products",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
     }
   ],
   "offers": [
@@ -162,5 +173,17 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "SAMSUNG Q7F 43\"",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 368.97,
+      "savings": 98.01
+    }
+  ]
 }

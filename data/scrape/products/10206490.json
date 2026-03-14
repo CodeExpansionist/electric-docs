@@ -66,7 +66,18 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "GOJI 12 W Universal USB Plug Charger - White",
+      "price": 7.99,
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.4,
+      "reviewCount": 10,
+      "image": "/images/products/10240201/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -84,5 +95,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Headphones",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "GOJI GTCNCPM21 Wireless Bluetooth Noise-Cancelling Headphones - Black",
+        "GOJI 12 W Universal USB Plug Charger - White"
+      ],
+      "totalPrice": 67.98,
+      "savings": 2
+    }
+  ]
 }

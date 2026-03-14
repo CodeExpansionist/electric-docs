@@ -85,7 +85,40 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Cinema System / Soundbar",
+      "title": "SAMSUNG HW-B750F/XU 5.1 Wireless Sound Bar with DTS Virtual:X",
+      "price": 299,
+      "rating": 4.5,
+      "reviewCount": 2,
+      "image": "/images/products/10282234/main.webp"
+    },
+    {
+      "category": "Cable",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Soundbar",
+      "title": "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar",
+      "price": 99,
+      "rating": 4.5,
+      "reviewCount": 40,
+      "image": "/images/products/10282182/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -108,5 +141,17 @@
     "labelUrl": "/documents/energy-labels/10282642-label.pdf",
     "ficheUrl": "/documents/energy-labels/10282642-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG U8000F 75\"",
+        "SANDSTROM S150AVC20",
+        "SAMSUNG HW-B400F/XU"
+      ],
+      "totalPrice": 755.99,
+      "savings": 0
+    }
+  ]
 }

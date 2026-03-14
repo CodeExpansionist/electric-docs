@@ -48,7 +48,35 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Power Accessories",
+      "title": "LOGIK L6WAY2M18 6-Socket Extension Lead - 2 m",
+      "price": 17.99,
+      "rating": 4.8,
+      "reviewCount": 23,
+      "image": "/images/products/10175007/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "DURACELL Plus AA Alkaline Batteries - Pack of 12",
+      "price": 9.99,
+      "rating": 4.9,
+      "image": "/images/products/10230775/main.webp"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "ESSENTIALS CSAT2W15 Aerial Splitter",
+      "price": 5.99,
+      "image": "/images/products/10249241/main.webp"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "ESSENTIALS CSATPL15 Aerial Plugs - Pack of 2",
+      "price": 3.99,
+      "image": "/images/products/10249238/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -66,5 +94,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "ESSENTIALS CSATPL15 F Plug Adapters",
+        "DURACELL Plus AA Alkaline Batteries - Pack of 12"
+      ],
+      "totalPrice": 10.65,
+      "savings": 3.33
+    }
+  ]
 }

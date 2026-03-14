@@ -48,22 +48,30 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Cables",
+      "category": "Cables and accessories",
       "title": "LOGIK L2AERA15 Male Aerial Cable - 2 m",
       "price": 10.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10119436?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 133,
+      "image": "/images/products/10119436/main.webp"
     },
     {
-      "category": "Media",
+      "category": "Digital and smart TV",
       "title": "AMAZON Fire TV Stick HD with Alexa Voice Remote (2024)",
-      "price": 39.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10272322?$s-swatch$&fmt=auto"
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.7,
+      "reviewCount": 37,
+      "image": "/images/products/10272322/main.webp"
     },
     {
-      "category": "Cables",
+      "category": "Cables and accessories",
       "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
       "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
     }
   ],
   "offers": [
@@ -84,5 +92,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LOGIK LFMSKS16 Full Motion TV Bracket Starter Kit",
+        "DURACELL Plus AA Alkaline Batteries - Pack of 8"
+      ],
+      "totalPrice": 66.65,
+      "savings": 3.33
+    }
+  ]
 }

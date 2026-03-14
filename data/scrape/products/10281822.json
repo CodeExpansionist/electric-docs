@@ -85,7 +85,34 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "TCL Q75HK 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS:X",
+      "price": 349,
+      "wasPrice": 399,
+      "savings": 50,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "image": "/images/products/10271087/main.webp"
+    },
+    {
+      "category": "Cable Management",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -103,5 +130,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "TCL C7K 75\" QD-Mini LED 4K HDR Smart Google TV",
+        "ONE FOR ALL WM5620 Tilt 42-100\" TV Bracket"
+      ],
+      "totalPrice": 1149,
+      "savings": 0
+    }
+  ]
 }

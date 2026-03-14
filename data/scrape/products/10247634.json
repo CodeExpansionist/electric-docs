@@ -82,7 +82,18 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "BELKIN Braided USB-A to Micro USB Cable - 1 m, Black",
+      "price": 7.99,
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.8,
+      "reviewCount": 6,
+      "image": "/images/products/10207684/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {
@@ -133,5 +144,16 @@
     "electrizLiveProductId": "10247634",
     "scrapedAt": "2026-03-02"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "SONY WH-CH520L Wireless Bluetooth Headphones - Blue",
+        "BELKIN Braided USB-A to Micro USB Cable - 1 m, Black"
+      ],
+      "totalPrice": 42.98,
+      "savings": 2
+    }
+  ]
 }

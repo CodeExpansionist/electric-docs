@@ -57,10 +57,6 @@
     {
       "icon": "freely",
       "label": "Freely TV"
-    },
-    {
-      "icon": "dolby",
-      "label": "Dolby Vision"
     }
   ],
   "sizeOptions": [
@@ -133,22 +129,30 @@
   ],
   "crossSellProducts": [
     {
-      "category": "TV Accessories",
+      "category": "Soundbar",
       "title": "HISENSE HS2100 2.1 Wireless Compact Sound Bar with DTS Virtual:X",
-      "price": 99,
-      "image": "https://media.electriz.biz/i/electrizprod/10257243?$s-swatch$&fmt=auto"
+      "price": 84,
+      "wasPrice": 99,
+      "savings": 15,
+      "rating": 4.6,
+      "reviewCount": 143,
+      "image": "/images/products/10257243/main.webp"
     },
     {
-      "category": "Cables",
+      "category": "Extension Lead",
       "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
       "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
     },
     {
       "category": "Screen Cleaner",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "offers": [
@@ -157,11 +161,11 @@
   "badges": [
     {
       "type": "freely",
-      "image": "https://media.electriz.biz/i/electrizprod/freely_tv-66064.jpg?fmt=auto"
+      "image": "/images/icons/badge-freely-tv.jpg"
     },
     {
       "type": "dolby_vision",
-      "image": "https://media.electriz.biz/i/electrizprod/dolby_vision-70911.jpg?fmt=auto"
+      "image": "/images/icons/badge-dolby-vision.jpg"
     }
   ],
   "specifications": {},
@@ -178,5 +182,18 @@
     "standardDeliveryPrice": 20,
     "nextDayDeliveryPrice": 30
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "HISENSE A6Q 50\"",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 391.98,
+      "savings": 24
+    }
+  ]
 }

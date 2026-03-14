@@ -92,9 +92,19 @@
   "crossSellProducts": [
     {
       "category": "Cables",
-      "title": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI Cable - 1 m",
-      "price": 34.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10218648?$s-swatch$&fmt=auto"
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    },
+    {
+      "category": "Bass Module",
+      "title": "BOSE Bass Module 700 - White",
+      "price": 799,
+      "rating": 4.8,
+      "reviewCount": 73,
+      "image": "/images/products/10186716/main.webp"
     }
   ],
   "offers": [
@@ -103,7 +113,7 @@
   "badges": [
     {
       "type": "on-sale",
-      "image": "https://media.electriz.biz/i/electrizprod/onsale.png"
+      "image": ""
     }
   ],
   "specifications": {},

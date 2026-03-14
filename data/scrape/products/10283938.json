@@ -85,7 +85,37 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Currys Recommends",
+      "title": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs",
+      "price": 23.99,
+      "wasPrice": 59.99,
+      "savings": 36,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "image": "/images/products/10138717/main.webp",
+      "badge": "Buy together & save £16.00"
+    },
+    {
+      "category": "Currys Recommends",
+      "title": "HISENSE HS2100 2.1 Wireless Compact Sound Bar with DTS Virtual:X",
+      "price": 84,
+      "wasPrice": 99,
+      "savings": 15,
+      "rating": 4.6,
+      "reviewCount": 143,
+      "image": "/images/products/10257243/main.webp"
+    },
+    {
+      "category": "Currys Recommends",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Freely TV"
@@ -109,5 +139,16 @@
   "lastUpdated": "2026-03-06T15:49:44.753Z",
   "galleryImages": [
     "https://cdn.media.amplience.net/i/electrizprod/10283938?$l-large$&fmt=auto"
+  ],
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE A6Q 43\"",
+        "HISENSE HS2100 2.1 Wireless Compact Sound Bar"
+      ],
+      "totalPrice": 313,
+      "savings": 16
+    }
   ]
 }

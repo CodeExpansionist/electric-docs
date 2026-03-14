@@ -62,7 +62,44 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Bluetooth Speakers",
+      "title": "JVC XS-D629BM 2.0 Bluetooth Bookshelf Speakers - Walnut",
+      "price": 79.99,
+      "wasPrice": 99.99,
+      "savings": 20,
+      "rating": 4.7,
+      "reviewCount": 485,
+      "image": "/images/products/10189179/main.webp"
+    },
+    {
+      "category": "Sound Bars",
+      "title": "SONY HT-S20R 5.1 Sound Bar",
+      "price": 249,
+      "rating": 4.5,
+      "reviewCount": 226,
+      "image": "/images/products/10207764/main.webp"
+    },
+    {
+      "category": "Hi-Fi Systems",
+      "title": "DENON DM-41DAB Wireless Traditional Hi-Fi System - Black",
+      "price": 399,
+      "rating": 4.7,
+      "reviewCount": 798,
+      "image": "/images/products/10164499/main.webp"
+    },
+    {
+      "category": "TV Speakers",
+      "title": "BOSE TV Speaker",
+      "price": 199,
+      "wasPrice": 269,
+      "savings": 70,
+      "rating": 4.6,
+      "reviewCount": 502,
+      "image": "/images/products/10207493/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

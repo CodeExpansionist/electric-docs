@@ -60,7 +60,24 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L3HDMI21 High Speed HDMI Cable with Ethernet - 3 m",
+      "price": 15.99,
+      "rating": 4.9,
+      "reviewCount": 7,
+      "image": "/images/products/10221056/main.webp"
+    },
+    {
+      "category": "Cables and Adaptor",
+      "title": "D-LINE EU/CTULGEW/SW Cable Tidy Unit - Large, White",
+      "price": 15.99,
+      "rating": 4.8,
+      "reviewCount": 6,
+      "image": "/images/products/10254481/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

@@ -54,16 +54,20 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Cables and accessories",
-      "title": "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m",
-      "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/21948968?$s-swatch$&fmt=auto"
+      "category": "Cables and Accessories",
+      "title": "ESSENTIALS C1AER24 Male to Male Aerial Cable - 1 m",
+      "price": 14.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10249240/main.webp"
     },
     {
-      "category": "Cables and accessories",
+      "category": "Extension Leads",
       "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
       "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
     }
   ],
   "offers": [
@@ -85,5 +89,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SANDSTROM STM19 Tilt 32-47\" TV Bracket",
+        "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m"
+      ],
+      "totalPrice": 59.98,
+      "savings": 0
+    }
+  ]
 }

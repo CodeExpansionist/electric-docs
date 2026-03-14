@@ -80,7 +80,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "SONY WH-CH720N Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "price": 69.99,
+      "wasPrice": 74.99,
+      "savings": 5,
+      "rating": 4.5,
+      "reviewCount": 1982,
+      "image": "/images/products/10247673/main.webp"
+    },
+    {
+      "category": "Cables and accessories",
+      "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m",
+      "price": 6.99,
+      "rating": 5,
+      "reviewCount": 4,
+      "image": "/images/products/10234488/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -98,5 +117,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Speakers",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy Together and Save",
+      "items": [
+        "DENON DM-41DAB Wireless Traditional Hi-Fi System - Premium Silver",
+        "DENON DP-29F Belt Drive Turntable - Silver"
+      ],
+      "totalPrice": 548,
+      "savings": 0
+    }
+  ]
 }

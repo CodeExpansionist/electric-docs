@@ -56,7 +56,34 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and adaptors",
+      "title": "LOGIK Surge Protected 4-Socket Extension Lead with USB - 2 m",
+      "price": 16.99,
+      "rating": 4.7,
+      "reviewCount": 145,
+      "image": "/images/products/10271721/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cables",
+      "title": "LOGIK LRJ115M23 J11 ADSL Cable - 5 m",
+      "price": 8.99,
+      "rating": 4.2,
+      "reviewCount": 5,
+      "image": "/images/products/10234957/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -74,5 +101,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LOGIK Satellite F Plug Cable - 4 m",
+        "LOGIK LRJ115M23 J11 ADSL Cable - 5 m"
+      ],
+      "totalPrice": 18.98,
+      "savings": 0
+    }
+  ]
 }

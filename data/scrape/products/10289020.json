@@ -77,7 +77,28 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "image": "/images/products/10138717/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Power Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

@@ -68,14 +68,7 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Accessories",
-      "title": "SAMSUNG 45w USB-C Fast Charger & USB-C Cable",
-      "price": 31.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10271743?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],

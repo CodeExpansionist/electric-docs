@@ -76,7 +76,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S3HDM115 High Speed HDMI Cable with Ethernet - 3 m",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviewCount": 45,
+      "image": "/images/products/10132209/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -94,5 +103,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Speakers",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SONOS Five Wireless Multi-room Speaker - Black",
+        "SANDSTROM Black Series S3HDM115 High Speed HDMI Cable with Ethernet - 3 m"
+      ],
+      "totalPrice": 578.99,
+      "savings": 0
+    }
+  ]
 }

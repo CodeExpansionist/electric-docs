@@ -34,10 +34,6 @@
       "label": "Precise contrast & incredible brightness with Mini-LED"
     },
     {
-      "icon": "dolby",
-      "label": "Dolby Vision HDR inspired by cinema technology"
-    },
-    {
       "icon": "refresh",
       "label": "Refresh rate: 120 Hz"
     },
@@ -131,19 +127,35 @@
       "category": "Sound Bar",
       "title": "TCL Q75HK 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS:X",
       "price": 349,
-      "image": "https://media.electriz.biz/i/electrizprod/10271087?$s-swatch$&fmt=auto"
+      "wasPrice": 399,
+      "savings": 50,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "image": "/images/products/10271087/main.webp"
     },
     {
-      "category": "Extension Lead",
-      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
-      "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
+      "category": "Cable Management",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
     },
     {
       "category": "Screen Cleaner",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "TV Bracket",
+      "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 59.99,
+      "rating": 4.3,
+      "reviewCount": 12,
+      "image": "/images/products/10249239/main.webp"
     }
   ],
   "offers": [
@@ -164,5 +176,17 @@
     "standardDeliveryPrice": 20,
     "nextDayDeliveryPrice": 30
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "TCL C7K 85\" QD-Mini LED 4K HDR Smart Google TV - 85C7K",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 1542.98,
+      "savings": 24
+    }
+  ]
 }

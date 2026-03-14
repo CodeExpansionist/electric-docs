@@ -85,7 +85,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "SAMSUNG HW-Q800F/XU 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 699,
+      "rating": 4.8,
+      "reviewCount": 32,
+      "image": "/images/products/10282183/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -103,5 +120,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG The Terrace 75\" Neo QLED 4K Outdoor Smart TV - QE75LST7DA",
+        "SAMSUNG HW-Q800F/XU 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X"
+      ],
+      "totalPrice": 5258,
+      "savings": 0
+    }
+  ]
 }

@@ -85,7 +85,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Audio",
+      "title": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "price": 69,
+      "rating": 4.6,
+      "reviewCount": 271,
+      "image": "/images/products/10244299/main.webp"
+    },
+    {
+      "category": "Power",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     {
@@ -112,5 +137,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "TCL 55P8K 55\" Smart 4K Ultra HD HDR QLED TV",
+        "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket"
+      ],
+      "totalPrice": 458.99,
+      "savings": 70
+    }
+  ]
 }

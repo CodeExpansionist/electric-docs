@@ -77,22 +77,30 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "DVD Player",
+      "category": "DVD Players",
       "title": "SONY DVPSR760HB DVD Player",
       "price": 39,
-      "image": "https://media.electriz.biz/i/electrizprod/12872098?$s-swatch$&fmt=auto"
+      "rating": 4.6,
+      "reviewCount": 2877,
+      "image": "/images/products/12872098/main.webp"
     },
     {
-      "category": "Speaker",
+      "category": "Speakers",
       "title": "SONOS Roam 2 Portable Wireless Multi-room Speaker with Amazon Alexa - Black",
       "price": 179,
-      "image": "https://media.electriz.biz/i/electrizprod/10263677?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 324,
+      "image": "/images/products/10263677/main.webp"
     },
     {
-      "category": "Cable",
+      "category": "Cables",
       "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
       "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/21948996?$s-swatch$&fmt=auto"
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
     }
   ],
   "offers": [
@@ -113,5 +121,16 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "SONOS Ray Compact Sound Bar - Black",
+        "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m"
+      ],
+      "totalPrice": 210.99,
+      "savings": 3
+    }
+  ]
 }

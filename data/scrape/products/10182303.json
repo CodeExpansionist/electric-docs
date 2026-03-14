@@ -76,7 +76,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "JBL Tune 720BT Wireless Bluetooth Headphones - Black",
+      "price": 38,
+      "rating": 4.6,
+      "reviewCount": 243,
+      "image": "/images/products/10254754/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m",
+      "price": 6.99,
+      "rating": 5,
+      "reviewCount": 4,
+      "image": "/images/products/10234488/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -94,5 +111,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Speakers",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "PANASONIC SC-AKX710E-K Bluetooth Megasound Party Hi-Fi System - Black",
+        "SANDSTROM S3535C23 3.5 mm Aux Cable - 1.8 m"
+      ],
+      "totalPrice": 338.99,
+      "savings": 0
+    }
+  ]
 }

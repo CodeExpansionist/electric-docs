@@ -45,10 +45,6 @@
     {
       "icon": "freesat",
       "label": "Freesat"
-    },
-    {
-      "icon": "dolby",
-      "label": "Dolby Vision"
     }
   ],
   "sizeOptions": [
@@ -96,22 +92,30 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Sound Bar",
+      "category": "Soundbar",
       "title": "LG US60TR 5.1 Wireless Sound Bar",
       "price": 299,
-      "image": "https://media.electriz.biz/i/electrizprod/10262669?$s-swatch$&fmt=auto"
+      "wasPrice": 399,
+      "savings": 100,
+      "rating": 4.6,
+      "reviewCount": 83,
+      "image": "/images/products/10262669/main.webp"
     },
     {
-      "category": "Extension Lead",
+      "category": "Cable",
       "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
       "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
     },
     {
-      "category": "Screen Cleaner",
+      "category": "Cleaner",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "offers": [
@@ -142,5 +146,17 @@
     "standardDeliveryPrice": 20,
     "nextDayDeliveryPrice": 30
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "LG QNED86 65\" QNED evo AI Mini LED 4K HDR Smart TV 2025",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 992.98,
+      "savings": 274
+    }
+  ]
 }

@@ -85,7 +85,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "LG US60TR 5.1 Wireless Sound Bar",
+      "price": 299,
+      "wasPrice": 399,
+      "savings": 100,
+      "rating": 4.6,
+      "reviewCount": 83,
+      "image": "/images/products/10262669/main.webp"
+    },
+    {
+      "category": "Soundbar",
+      "title": "LG SQC1 2.1 Wireless Compact Sound Bar",
+      "price": 129.99,
+      "rating": 4.4,
+      "reviewCount": 89,
+      "image": "/images/products/10248390/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -103,5 +122,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG C5 77\" OLED evo AI 4K HDR Smart TV 2025 (OLED77C54LA)",
+        "PlayStation 5 Pro"
+      ],
+      "totalPrice": 3088,
+      "savings": 200
+    }
+  ]
 }

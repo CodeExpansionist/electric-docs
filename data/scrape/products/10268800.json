@@ -58,16 +58,12 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Headphones",
-      "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black",
-      "price": 34.99,
-      "image": "https://media.electriz.biz/i/electrizprod/M10247634_black?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Cables and accessories",
+      "category": "Cables",
       "title": "LOGIK L15SAC23 Audio Cable - 1.5 m",
       "price": 6.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10234489?$s-swatch$&fmt=auto"
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10234489/main.webp"
     }
   ],
   "offers": [

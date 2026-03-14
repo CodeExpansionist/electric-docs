@@ -58,14 +58,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Cables and accessories",
-      "title": "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m",
-      "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/21948968?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],

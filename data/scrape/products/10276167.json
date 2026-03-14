@@ -93,7 +93,37 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "SAMSUNG HW-QS700F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 599,
+      "wasPrice": 649,
+      "savings": 50,
+      "rating": 5,
+      "reviewCount": 8,
+      "image": "/images/products/10282184/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

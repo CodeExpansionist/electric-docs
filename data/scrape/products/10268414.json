@@ -79,7 +79,28 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 35.99,
+      "wasPrice": 59.99,
+      "savings": 24,
+      "rating": 4.3,
+      "reviewCount": 12,
+      "image": "/images/products/10249239/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [
     "Freely TV"
@@ -104,5 +125,16 @@
     "labelUrl": "/documents/energy-labels/10268414-label.pdf",
     "ficheUrl": "/documents/energy-labels/10268414-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "TCL 43PF650K Fire TV 43\"",
+        "SANDSTROM STM19 Tilt 32-47\" TV Bracket"
+      ],
+      "totalPrice": 242.99,
+      "savings": 56
+    }
+  ]
 }

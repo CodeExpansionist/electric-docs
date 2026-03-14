@@ -54,16 +54,24 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Cables & Accessories",
+      "category": "Cables and Accessories",
       "title": "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m",
       "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/21948968?$s-swatch$&fmt=auto"
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 45,
+      "image": "/images/products/21948968/main.webp"
     },
     {
-      "category": "Cables & Accessories",
+      "category": "Cable Management",
       "title": "SANDSTROM SCMS214 Cable Management Sleeve",
       "price": 6.39,
-      "image": "https://media.electriz.biz/i/electrizprod/10026189?$s-swatch$&fmt=auto"
+      "wasPrice": 7.99,
+      "savings": 3.6,
+      "rating": 4.1,
+      "reviewCount": 35,
+      "image": "/images/products/10026189/main.webp"
     }
   ],
   "offers": [
@@ -84,5 +92,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SANDSTROM Chevalet SCHEV19 880 mm TV stand with Bracket for 32-60\" TVs - Black & Brown",
+        "SANDSTROM SCMS214 Cable Management Sleeve"
+      ],
+      "totalPrice": 106.38,
+      "savings": 52.61
+    }
+  ]
 }

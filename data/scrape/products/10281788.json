@@ -89,7 +89,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Cinema System",
+      "title": "LG USC9S 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "price": 799,
+      "wasPrice": 999,
+      "savings": 200,
+      "rating": 4.6,
+      "reviewCount": 76,
+      "image": "/images/products/10248732/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [
     "Claim £150 cashback on this TV.+5 more offers"
   ],
@@ -109,5 +128,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG QNED82 86\" QNED AI 4K HDR Smart TV 2025 - 86QNED82A6B",
+        "SANDSTROM S150AVC20 Screen Cleaner"
+      ],
+      "totalPrice": 2007.98,
+      "savings": 0
+    }
+  ]
 }

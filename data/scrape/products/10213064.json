@@ -64,7 +64,24 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK LAEK19 Aerial Cable & Adapters Extension Kit - 15 m",
+      "price": 11.49,
+      "rating": 3.6,
+      "reviewCount": 39,
+      "image": "/images/products/10187488/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

@@ -75,7 +75,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Bracket",
+      "title": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "image": "/images/products/10138717/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    }
+  ],
   "offers": [
     "Save 20% on selected TV Accessories when bought with this TV. Use code SAVE20TVACCS.+1 more offers"
   ],
@@ -95,5 +114,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "TCL SF560 40\" QLED Full HD Smart Fire TV - 40SF560-UK",
+        "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs",
+        "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m"
+      ],
+      "totalPrice": 43.98,
+      "savings": 36
+    }
+  ]
 }

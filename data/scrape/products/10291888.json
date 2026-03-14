@@ -136,8 +136,28 @@
   "sizeVariants": [],
   "crossSellProducts": [
     {
-      "id": "10138717",
-      "name": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs"
+      "category": "Soundbars",
+      "title": "LG US20A 2.0 Compact Sound Bar",
+      "price": 79.99,
+      "rating": 4.8,
+      "reviewCount": 20,
+      "image": "/images/products/10282047/main.webp"
+    },
+    {
+      "category": "Cables & Adapters",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "careAndRepair": [
@@ -157,5 +177,16 @@
   },
   "category": "TVs",
   "title": "LG QNED70 43\" QNED AI 4K HDR Smart TV 2025 - 43QNED70A6A",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG QNED70 43\" QNED AI 4K HDR Smart TV 2025 - 43QNED70A6A",
+        "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs"
+      ],
+      "totalPrice": 352.99,
+      "savings": 86
+    }
+  ]
 }

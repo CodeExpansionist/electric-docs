@@ -60,7 +60,24 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Gold Series S2HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 2 m",
+      "price": 39.99,
+      "rating": 4.7,
+      "reviewCount": 32,
+      "image": "/images/products/10218583/main.webp"
+    },
+    {
+      "category": "Extension Leads",
+      "title": "LOGIK L6W4MUC23 Surge Protected 6-Socket Extension Lead with USB - 4 m",
+      "price": 28.99,
+      "rating": 4.7,
+      "reviewCount": 13,
+      "image": "/images/products/10239747/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

@@ -93,7 +93,37 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "SAMSUNG HW-Q600F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos",
+      "price": 499,
+      "wasPrice": 549,
+      "savings": 50,
+      "rating": 4.9,
+      "reviewCount": 20,
+      "image": "/images/products/10282181/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cable Management",
+      "title": "D-LINE EU/CTUSMLW/SW Cable Tidy Unit - Small, White",
+      "price": 9.99,
+      "rating": 4.8,
+      "reviewCount": 6,
+      "image": "/images/products/10255552/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [
     "Get £250 off this TV when you trade-in any old TV. Use TRADETV250 and select Recycling at checkout.+5 more offers"
   ],
@@ -113,5 +143,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG The Premiere SP-LPU9DSAXXXU Smart 4K Laser Projector - White",
+        "ONE FOR ALL WM5650 Full Motion 42-100\" TV Bracket"
+      ],
+      "totalPrice": 4588,
+      "savings": 0
+    }
+  ]
 }

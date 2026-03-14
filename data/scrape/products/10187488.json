@@ -48,7 +48,50 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L10AERK15 Aerial Cable with Splitter & Adapter - 10 m",
+      "price": 17.49,
+      "rating": 4,
+      "reviewCount": 27,
+      "image": "/images/products/10119437/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L4AERA15 Aerial Cable & Adapter - 4 m",
+      "price": 14.99,
+      "rating": 4.5,
+      "reviewCount": 69,
+      "image": "/images/products/10119448/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK LHDSW19 3-Port HDMI Switch",
+      "price": 29.99,
+      "rating": 4,
+      "reviewCount": 125,
+      "image": "/images/products/10185059/main.webp"
+    },
+    {
+      "category": "TV Brackets",
+      "title": "LOGIK LFM16 Fixed TV Bracket for up to 43\" TVs",
+      "price": 19.99,
+      "wasPrice": 39.99,
+      "savings": 20,
+      "rating": 4.5,
+      "reviewCount": 210,
+      "image": "/images/products/10138712/main.webp"
+    },
+    {
+      "category": "Extension Leads",
+      "title": "LOGIK Surge Protected 4-Socket Extension Lead with USB - 4 m",
+      "price": 23.99,
+      "rating": 4.7,
+      "reviewCount": 145,
+      "image": "/images/products/10239746/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -66,5 +109,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LOGIK LAEK19 Aerial Cable & Adapters Extension Kit - 15 m",
+        "LOGIK LCMK123 Cable Management Kit"
+      ],
+      "totalPrice": 21.48,
+      "savings": 0
+    }
+  ]
 }

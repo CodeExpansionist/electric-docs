@@ -50,20 +50,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Headphones",
-      "title": "JBL Tune Beam 2 Wireless Bluetooth Noise-Cancelling Earbuds - Black",
-      "price": 79.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10275479?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Cables and accessories",
-      "title": "SANDSTROM S35RCA23 RCA to 3.5 mm Audio Cable - 1.8 m",
-      "price": 10.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10236884?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get 20% off JBL accessories when bought with selected JBL party speaker. Use code JBLPA20."
   ],

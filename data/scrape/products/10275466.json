@@ -95,17 +95,29 @@
   ],
   "crossSellProducts": [
     {
-      "category": "accessories",
-      "title": "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black",
-      "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10278348?$s-swatch$&fmt=auto"
+      "category": "Chargers",
+      "title": "VELD VH30DW Super-Fast 30 W 2-port USB Wall Charger - White",
+      "price": 24.99,
+      "rating": 5,
+      "reviewCount": 3,
+      "image": "/images/products/10256233/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "BELKIN Braided USB-C to USB-A Cable - 1 m",
+      "price": 10.39,
+      "wasPrice": 12.99,
+      "savings": 2.6,
+      "rating": 4.7,
+      "reviewCount": 26,
+      "image": "/images/products/10206906/main.webp"
     }
   ],
   "offers": [],
   "badges": [
     {
-      "type": "Loved by Currys",
-      "image": "https://media.electriz.biz/i/electrizprod/loved_by_electriz-68562.jpg?fmt=auto"
+      "type": "Loved by Electriz",
+      "image": "/images/icons/badge-loved-by-electriz.jpg"
     }
   ],
   "specifications": {},

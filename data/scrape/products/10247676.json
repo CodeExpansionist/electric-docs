@@ -80,16 +80,22 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Charging Accessories",
+      "category": "Chargers",
       "title": "VELD VH30DW Super-Fast 30 W 2-port USB Wall Charger - White",
-      "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10256233?$s-swatch$&fmt=auto"
+      "price": 24.99,
+      "rating": 5,
+      "reviewCount": 3,
+      "image": "/images/products/10256233/main.webp"
     },
     {
       "category": "Power Banks",
-      "title": "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black",
-      "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10278348?$s-swatch$&fmt=auto"
+      "title": "BELKIN 20000 mAh Portable Power Bank - Blue",
+      "price": 19.99,
+      "wasPrice": 24.99,
+      "savings": 5,
+      "rating": 4.6,
+      "reviewCount": 369,
+      "image": "/images/products/10237646/main.webp"
     }
   ],
   "offers": [
@@ -98,7 +104,7 @@
   "badges": [
     {
       "type": "Best Seller",
-      "image": "https://media.electriz.biz/i/electrizprod/what_hifi_5_star-6658.jpg?fmt=auto"
+      "image": "/images/icons/award-what-hifi-5-star.jpg"
     }
   ],
   "specifications": {},

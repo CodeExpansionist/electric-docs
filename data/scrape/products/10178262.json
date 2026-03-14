@@ -60,7 +60,26 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Blu-ray and DVD Players",
+      "title": "PANASONIC DMP-BDT167EB Smart 3D Blu-ray & DVD Player",
+      "price": 79.99,
+      "rating": 4.6,
+      "reviewCount": 1023,
+      "image": "/images/products/10143726/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -78,5 +97,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Soundbars",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "PANASONIC SC-HTB208EBK 2.0 Wireless Compact Sound Bar",
+        "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m"
+      ],
+      "totalPrice": 51.98,
+      "savings": 23
+    }
+  ]
 }

@@ -31,7 +31,48 @@
     "nextDayDeliveryPrice": null
   },
   "sizeVariants": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Wall Mounts",
+      "title": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 36,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "image": "/images/products/10138717/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Adaptors",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Smart TV Devices",
+      "title": "AMAZON Fire TV Stick HD with Alexa Voice Remote (2024)",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.7,
+      "reviewCount": 37,
+      "image": "/images/products/10272322/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "careAndRepair": [],
   "offers": [],
   "badges": [],
@@ -39,5 +80,17 @@
   "category": "TVs",
   "_needsEnrichment": true,
   "title": "JVC LT-32C490 32\" HD Ready LED TV",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "JVC LT-32C490 32\" HD Ready LED TV",
+        "LOGIK LFS16 Fixed 10-26\" TV Bracket",
+        "SANDSTROM S150AVC20 Screen Cleaner"
+      ],
+      "totalPrice": 113.97,
+      "savings": 4
+    }
+  ]
 }

@@ -100,16 +100,22 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Accessories",
-      "title": "Sony DVPSR760HB DVD Player",
+      "category": "Blu-ray and DVD Players",
+      "title": "SONY DVPSR760HB DVD Player",
       "price": 39,
-      "image": "https://media.electriz.biz/i/electrizprod/12872098?$s-swatch$&fmt=auto"
+      "rating": 4.6,
+      "reviewCount": 2877,
+      "image": "/images/products/12872098/main.webp"
     },
     {
-      "category": "Cables & Accessories",
-      "title": "Sandstrom Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
       "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/21948996?$s-swatch$&fmt=auto"
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
     }
   ],
   "offers": [
@@ -135,5 +141,16 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "SONY HT-S20R 5.1 Sound Bar",
+        "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m"
+      ],
+      "totalPrice": 260.99,
+      "savings": 3
+    }
+  ]
 }

@@ -74,16 +74,14 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "media_player",
-      "title": "SONY DVPSR760HB DVD Player",
-      "price": 39,
-      "image": "https://media.electriz.biz/i/electrizprod/12872098?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "cables",
-      "title": "ESSENTIALS C2HDMI24 High Speed HDMI Cable - 2 m",
-      "price": 9.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10249243?$s-swatch$&fmt=auto"
+      "category": "Cables",
+      "title": "SANDSTROM AV Black Series Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.7,
+      "reviewCount": 67,
+      "image": "/images/products/21948996/main.webp"
     }
   ],
   "offers": [

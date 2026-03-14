@@ -91,16 +91,12 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Soundbars",
-      "title": "SONOS Era 100 Wireless Multi-room Speaker with Amazon Alexa - White",
-      "price": 199,
-      "image": "https://media.electriz.biz/i/electrizprod/10247701?$s-swatch$&fmt=auto"
-    },
-    {
       "category": "Cables",
-      "title": "SANDSTROM Gold Series S3HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 3 m",
-      "price": 49.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10218584?$s-swatch$&fmt=auto"
+      "title": "SANDSTROM Black Series S3HDM115 High Speed HDMI Cable with Ethernet - 3 m",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviewCount": 45,
+      "image": "/images/products/10132209/main.webp"
     }
   ],
   "offers": [

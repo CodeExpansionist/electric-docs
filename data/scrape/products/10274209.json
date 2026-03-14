@@ -89,7 +89,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Cinema System",
+      "title": "HISENSE HT Saturn 4.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 999,
+      "rating": 5,
+      "reviewCount": 3,
+      "image": "/images/products/10280628/main.webp"
+    }
+  ],
   "offers": [
     "Get £150 off this TV when you trade-in any old TV. Use TRADETV150 and select Recycling at checkout.+3 more offers"
   ],

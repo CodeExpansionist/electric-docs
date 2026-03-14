@@ -42,7 +42,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbars",
+      "title": "MAJORITY Bowfell 2.1 Compact Sound Bar",
+      "price": 43,
+      "rating": 4.8,
+      "reviewCount": 1135,
+      "image": "/images/products/10221218/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

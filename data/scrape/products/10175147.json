@@ -66,7 +66,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 14.99,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM SCMS214 Cable Management Sleeve",
+      "price": 7.99,
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.1,
+      "reviewCount": 35,
+      "image": "/images/products/10026189/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -84,5 +103,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "AVF 1000 mm TV Stand for up to 50\" TVs - Black & Chrome",
+        "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+        "SANDSTROM SCMS214 Cable Management Sleeve"
+      ],
+      "totalPrice": 21.98,
+      "savings": 2
+    }
+  ]
 }

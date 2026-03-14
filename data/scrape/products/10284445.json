@@ -85,7 +85,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Systems",
+      "title": "HISENSE AX5125H 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 249,
+      "rating": 4.8,
+      "reviewCount": 105,
+      "image": "/images/products/10262409/main.webp"
+    },
+    {
+      "category": "Cleaners",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [
     "Get 50% off selected soundbars when bought with any Hisense TV. Use code HSN50 at checkout.+2 more offers"
   ],

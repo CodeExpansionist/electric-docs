@@ -34,5 +34,23 @@
   "badges": [],
   "energyRating": null,
   "id": "10218141",
-  "title": "GROOV-E Traditional GV-PS833 Portable FM Boombox - Black"
+  "title": "GROOV-E Traditional GV-PS833 Portable FM Boombox - Black",
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "SONY MDR-ZX310APR Headphones - Red",
+      "price": 18.99,
+      "rating": 4.4,
+      "reviewCount": 1233,
+      "image": "/images/products/10160376/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "DURACELL Optimum AA Alkaline Batteries - Pack of 4",
+      "price": 4.99,
+      "rating": 4.6,
+      "reviewCount": 23,
+      "image": "/images/products/10230776/main.webp"
+    }
+  ]
 }

@@ -42,16 +42,20 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Cables",
+      "category": "Cables & Accessories",
       "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
       "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10132171?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
     },
     {
-      "category": "Cables",
+      "category": "Cables & Accessories",
       "title": "LOGIK L6WAY2M18 6-Socket Extension Lead - 2 m",
       "price": 17.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175007?$s-swatch$&fmt=auto"
+      "rating": 4.8,
+      "reviewCount": 23,
+      "image": "/images/products/10175007/main.webp"
     }
   ],
   "offers": [
@@ -73,5 +77,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LOGIK LFML16 Full Motion 32-50\" TV Bracket",
+        "LOGIK L6WAY2M18 6-Socket Extension Lead - 2 m"
+      ],
+      "totalPrice": 117.98,
+      "savings": 0
+    }
+  ]
 }

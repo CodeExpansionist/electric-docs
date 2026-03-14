@@ -34,5 +34,35 @@
   "badges": [],
   "energyRating": null,
   "id": "10202068",
-  "title": "GROOV-E Original Boombox GV-PS733 Portable FM/AM Boombox - Black"
+  "title": "GROOV-E Original Boombox GV-PS733 Portable FM/AM Boombox - Black",
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "SONY MDR-ZX310APB Headphones - Black",
+      "price": 18.99,
+      "rating": 4.4,
+      "reviewCount": 1233,
+      "image": "/images/products/10160376/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "DURACELL Optimum AA Alkaline Batteries - Pack of 8",
+      "price": 12.99,
+      "rating": 4.6,
+      "reviewCount": 23,
+      "image": "/images/products/10230763/main.webp"
+    }
+  ],
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "GROOV-E Original Boombox GV-PS733 Portable FM/AM Boombox - Black",
+        "SONY MDR-ZX310APB Headphones - Black",
+        "DURACELL Optimum AA Alkaline Batteries - Pack of 8"
+      ],
+      "totalPrice": 32.99,
+      "savings": 4
+    }
+  ]
 }

@@ -85,7 +85,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bars",
+      "title": "TCL Q75HK 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS:X",
+      "price": 349,
+      "wasPrice": 399,
+      "savings": 50,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "image": "/images/products/10271087/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -108,5 +127,16 @@
     "labelUrl": "/documents/energy-labels/10283951-label.pdf",
     "ficheUrl": "/documents/energy-labels/10283951-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "TCL C7K 65\"",
+        "SANDSTROM STL14 Tilt 42-75\" TV Bracket"
+      ],
+      "totalPrice": 858.99,
+      "savings": 90
+    }
+  ]
 }

@@ -64,7 +64,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "HDMI Cable",
+      "title": "LABGEAR HDM 20E/03 High Speed HDMI Cable with Ethernet - 20 m",
+      "price": 39.99,
+      "rating": 4.8,
+      "reviewCount": 6,
+      "image": "/images/products/10151192/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -82,5 +91,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LABGEAR HDM 15E/03 High Speed HDMI Cable with Ethernet - 15 m",
+        "LABGEAR HDM 20E/03 High Speed HDMI Cable with Ethernet - 20 m"
+      ],
+      "totalPrice": 74.98,
+      "savings": 5
+    }
+  ]
 }

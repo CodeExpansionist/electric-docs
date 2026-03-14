@@ -70,7 +70,18 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cable Management",
+      "title": "SANDSTROM SCMS214 Cable Management Sleeve",
+      "price": 7.99,
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.1,
+      "reviewCount": 35,
+      "image": "/images/products/10026189/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

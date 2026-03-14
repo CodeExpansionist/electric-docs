@@ -93,10 +93,29 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Systems",
+      "title": "LG US60TR 5.1 Wireless Sound Bar",
+      "price": 299,
+      "wasPrice": 399,
+      "savings": 100,
+      "rating": 4.6,
+      "reviewCount": 83,
+      "image": "/images/products/10262669/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
-    "Loved by Currys",
+    "Loved by Electriz",
     "Dolby Vision Atmos"
   ],
   "specifications": {
@@ -136,5 +155,17 @@
     "labelUrl": "/documents/energy-labels/10281782-label.pdf",
     "ficheUrl": "/documents/energy-labels/10281782-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "LG C5 48\"",
+        "SANDSTROM S150AVC20",
+        "SANDSTROM SELP24"
+      ],
+      "totalPrice": 1042.98,
+      "savings": 74
+    }
+  ]
 }

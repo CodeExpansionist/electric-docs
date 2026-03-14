@@ -105,5 +105,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "PHILIPS 50PUS7800/12 50\" Smart 4K Ultra HD HDR QLED TV",
+        "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket"
+      ],
+      "totalPrice": 278.99,
+      "savings": 180
+    }
+  ]
 }

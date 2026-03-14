@@ -89,7 +89,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "LG US40T 2.1 Wireless Sound Bar",
+      "price": 149,
+      "wasPrice": 199,
+      "savings": 50,
+      "rating": 4.7,
+      "reviewCount": 69,
+      "image": "/images/products/10262742/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Freesat"
@@ -132,5 +151,17 @@
     "labelUrl": "/documents/energy-labels/10282088-label.pdf",
     "ficheUrl": "/documents/energy-labels/10282088-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG NANO80 55\" NanoCell AI 4K HDR Smart TV 2025 - 55NANO80A6B",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 422.98,
+      "savings": 74
+    }
+  ]
 }

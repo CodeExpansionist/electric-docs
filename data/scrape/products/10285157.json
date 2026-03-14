@@ -69,7 +69,18 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Brackets",
+      "title": "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket",
+      "price": 14.99,
+      "wasPrice": 29.99,
+      "savings": 15,
+      "rating": 4.5,
+      "reviewCount": 132,
+      "image": "/images/products/10138716/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

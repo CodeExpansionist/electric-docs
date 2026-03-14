@@ -52,7 +52,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and accessories",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 14.99,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

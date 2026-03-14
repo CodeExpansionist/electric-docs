@@ -66,7 +66,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "ONE FOR ALL SV9601 1-Way TV Signal Booster",
+      "price": 18.99,
+      "rating": 3.9,
+      "reviewCount": 460,
+      "image": "/images/products/10135658/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -84,5 +93,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "TTAP Vantage 1200 mm TV Stand",
+        "ONE FOR ALL SV9601 1-Way TV Signal Booster"
+      ],
+      "totalPrice": 89.99,
+      "savings": 10
+    }
+  ]
 }

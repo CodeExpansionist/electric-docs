@@ -54,26 +54,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Batteries",
-      "title": "DURACELL Plus AA Alkaline Batteries - Pack of 8",
-      "price": 6.66,
-      "image": "https://media.electriz.biz/i/electrizprod/10230769?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Remote controls",
-      "title": "ONE FOR ALL Evolve URC7115 Universal Remote Control",
-      "price": 18.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10152868?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Cables & adaptors",
-      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
-      "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],

@@ -85,7 +85,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bar",
+      "title": "SAMSUNG HW-Q800F/XU 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 699,
+      "rating": 4.8,
+      "reviewCount": 32,
+      "image": "/images/products/10282183/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [
     "Get £250 off this TV when you trade-in any old TV. Use TRADETV250 and select Recycling at checkout.+6 more offers"
   ],
@@ -105,5 +130,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG S85F 77\" OLED 4K Vision AI Smart TV 2025 - QE77S85F",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar"
+      ],
+      "totalPrice": 1905.99,
+      "savings": 0
+    }
+  ]
 }

@@ -79,7 +79,34 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Wall Bracket",
+      "title": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "image": "/images/products/10138717/main.webp"
+    },
+    {
+      "category": "Soundbar",
+      "title": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "price": 69,
+      "rating": 4.6,
+      "reviewCount": 271,
+      "image": "/images/products/10244299/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK Surge Protected 4-Socket Extension Lead with USB - 2 m",
+      "price": 16.99,
+      "rating": 4.7,
+      "reviewCount": 145,
+      "image": "/images/products/10271721/main.webp"
+    }
+  ],
   "offers": [
     "Get 50% off selected soundbars when bought with any Hisense TV. Use code HSN50 at checkout.+2 more offers"
   ],

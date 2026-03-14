@@ -66,7 +66,22 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "LOGIK L2HDINT23 High Speed HDMI Cable - 2 m",
+      "price": 13.99,
+      "image": "/images/products/10234486/main.webp"
+    },
+    {
+      "category": "Remote Controls",
+      "title": "ONE FOR ALL Evolve 2 URC7125 Universal Remote Control",
+      "price": 18.99,
+      "rating": 4.3,
+      "reviewCount": 27,
+      "image": "/images/products/10152830/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -84,5 +99,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Digital & Smart TV",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "AMAZON Fire TV Cube 4K Ultra HD Streaming Media Player with Alexa (2022)",
+        "LOGIK L2HDINT23 High Speed HDMI Cable - 2 m"
+      ],
+      "totalPrice": 123.98,
+      "savings": 0
+    }
+  ]
 }

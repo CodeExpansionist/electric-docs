@@ -56,7 +56,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m",
+      "price": 6.99,
+      "rating": 5,
+      "reviewCount": 4,
+      "image": "/images/products/10234488/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -74,5 +83,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Soundbars",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "GROOV-E GV-SB01-BK 2.0 Portable Bluetooth Sound Bar - Black",
+        "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m"
+      ],
+      "totalPrice": 27.99,
+      "savings": 6.01
+    }
+  ]
 }

@@ -54,16 +54,7 @@
     ],
     "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__295919_2544.jpg?m=2544&r=1048&t=1"
   },
-  "keySpecs": [
-    {
-      "icon": "dolby",
-      "label": "Dolby Vision Atmos"
-    },
-    {
-      "icon": "loved",
-      "label": "Loved by Currys"
-    }
-  ],
+  "keySpecs": [],
   "sizeOptions": [
     {
       "size": "65\"",
@@ -109,16 +100,24 @@
   ],
   "crossSellProducts": [
     {
-      "category": "soundbar",
-      "title": "LG US70TR 5.1.1 Wireless Sound Bar with Dolby Atmos",
-      "price": 699,
-      "image": "https://media.electriz.biz/i/electrizprod/10262662?$s-swatch$&fmt=auto"
+      "category": "Add a home cinema system or soundbar",
+      "title": "LG USC9S 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "price": 799,
+      "wasPrice": 999,
+      "savings": 200,
+      "rating": 4.6,
+      "reviewCount": 76,
+      "image": "/images/products/10248732/main.webp",
+      "badge": "Currys Recommends"
     },
     {
-      "category": "screen cleaner",
+      "category": "Add Cleaning products",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
     }
   ],
   "offers": [
@@ -127,12 +126,12 @@
   ],
   "badges": [
     {
-      "type": "Best Buy",
-      "image": "https://media.flixcar.com/modular/static/inpage/9/images/loading.gif"
+      "type": "Dolby Vision Atmos",
+      "image": "/images/icons/badge-dolby-vision-atmos.jpg"
     },
     {
-      "type": "What Hi-Fi?",
-      "image": "https://media.flixcar.com/modular/static/inpage/9/images/loading.gif"
+      "type": "Loved by Electriz",
+      "image": "/images/icons/badge-loved-by-electriz.jpg"
     }
   ],
   "specifications": {},
@@ -150,5 +149,27 @@
     "standardDeliveryPrice": 20,
     "nextDayDeliveryPrice": 30
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG C5 65\" OLED evo AI 4K HDR Smart TV 2025 - OLED65C54LA",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+        "LG US60TR 5.1 Wireless Sound Bar"
+      ],
+      "totalPrice": 1933.99,
+      "savings": 224
+    }
+  ],
+  "awards": [
+    {
+      "name": "Which? Best Buy",
+      "image": ""
+    },
+    {
+      "name": "What Hi-Fi? 5 Star",
+      "image": "/images/icons/award-what-hifi-5-star.jpg"
+    }
+  ]
 }

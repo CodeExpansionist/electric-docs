@@ -70,7 +70,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Chargers",
+      "title": "VELD VH30DW Super-Fast 30 W 2-port USB Wall Charger - White",
+      "price": 24.99,
+      "rating": 5,
+      "reviewCount": 3,
+      "image": "/images/products/10256233/main.webp"
+    },
+    {
+      "category": "Power Banks",
+      "title": "BELKIN 10000 mAh Portable Power Bank - Black",
+      "price": 15.99,
+      "wasPrice": 19.99,
+      "savings": 4,
+      "rating": 4.6,
+      "reviewCount": 369,
+      "image": "/images/products/10220891/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

@@ -85,7 +85,35 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Cinema System/Soundbar",
+      "title": "HISENSE AX3120Q 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 399,
+      "rating": 4.9,
+      "reviewCount": 8,
+      "image": "/images/products/10280615/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cable/Adaptor",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [
     "Get 50% off selected soundbars when bought with any Hisense TV. Use code HSN50 at checkout.+2 more offers"
   ],
@@ -105,5 +133,18 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE 55A85NTUK 55\" Smart 4K Ultra HD HDR OLED TV with Amazon Alexa",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 901.98,
+      "savings": 34
+    }
+  ]
 }

@@ -74,7 +74,27 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM SCMS214 Cable Management Sleeve",
+      "price": 7.99,
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.1,
+      "reviewCount": 35,
+      "image": "/images/products/10026189/main.webp",
+      "badge": "Buy together & save £1.60"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -92,5 +112,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "AVF Chepstow 930 mm TV Stand with Mount for up to 65\" TVs - Oak",
+        "SANDSTROM SCMS214 Cable Management Sleeve"
+      ],
+      "totalPrice": 205.39,
+      "savings": 3.6
+    }
+  ]
 }

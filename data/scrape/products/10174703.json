@@ -56,7 +56,18 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "GOJI Lightning Cable - 3 m",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 3.4,
+      "reviewCount": 7,
+      "image": "/images/products/10197097/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -74,5 +85,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Headphones",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "GOJI Lites GLITVBT18 Wireless Bluetooth Headphones - Black",
+        "GOJI Lightning Cable - 3 m"
+      ],
+      "totalPrice": 36.98,
+      "savings": 3
+    }
+  ]
 }

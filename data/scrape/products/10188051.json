@@ -31,7 +31,66 @@
     "nextDayDeliveryPrice": null
   },
   "sizeVariants": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cleaning products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Mounts & brackets",
+      "title": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs",
+      "price": 23.99,
+      "wasPrice": 59.99,
+      "savings": 36,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "image": "/images/products/10138717/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cables & adaptors",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Digital TV",
+      "title": "AMAZON Fire TV Stick HD with Alexa Voice Remote (2024)",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.7,
+      "reviewCount": 37,
+      "image": "/images/products/10272322/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "TV Bracket",
+      "title": "LOGIK LFS16 Fixed 10-26\" TV Bracket",
+      "price": 9.99,
+      "wasPrice": 19.99,
+      "savings": 10,
+      "rating": 4.2,
+      "reviewCount": 37,
+      "image": "/images/products/10138713/main.webp"
+    },
+    {
+      "category": "Cables & adaptors",
+      "title": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 1 m",
+      "price": 34.99,
+      "rating": 4.7,
+      "reviewCount": 32,
+      "image": "/images/products/10218648/main.webp"
+    }
+  ],
   "careAndRepair": [],
   "offers": [],
   "badges": [],
@@ -39,5 +98,18 @@
   "category": "TVs",
   "_needsEnrichment": true,
   "title": "JVC LT-24C490 24\" HD Ready LED TV - Black",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "JVC LT-24C490 24\" HD Ready LED TV - Black",
+        "LOGIK LFS16 Fixed 10-26\" TV Bracket",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 1 m"
+      ],
+      "totalPrice": 168.96,
+      "savings": 14
+    }
+  ]
 }

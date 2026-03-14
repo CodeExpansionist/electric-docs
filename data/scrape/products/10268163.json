@@ -48,14 +48,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Batteries",
-      "title": "ENERGIZER Max Plus AAA Alkaline Batteries - Pack of 4",
-      "price": 5,
-      "image": "https://media.electriz.biz/i/electrizprod/10267981?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],

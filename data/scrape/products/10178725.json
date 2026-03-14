@@ -56,7 +56,24 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and accessories",
+      "title": "ESSENTIALS CSATPL15 Twist F Plug Adapters",
+      "price": 3.99,
+      "rating": 3.6,
+      "reviewCount": 8,
+      "image": "/images/products/10115760/main.webp"
+    },
+    {
+      "category": "Remote controls",
+      "title": "ONE FOR ALL Evolve 2 URC7125 Universal Remote Control",
+      "price": 18.99,
+      "rating": 4.3,
+      "reviewCount": 27,
+      "image": "/images/products/10152830/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -75,5 +92,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "Digital & Smart TV",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "MANHATTAN SX Freesat HD Set Top Box",
+        "ESSENTIALS CSATPL15 Twist F Plug Adapters"
+      ],
+      "totalPrice": 76.98,
+      "savings": 0
+    }
+  ]
 }

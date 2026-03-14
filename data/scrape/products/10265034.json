@@ -85,7 +85,37 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "SAMSUNG HW-Q600F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos",
+      "price": 499,
+      "wasPrice": 549,
+      "savings": 50,
+      "rating": 4.9,
+      "reviewCount": 20,
+      "image": "/images/products/10282181/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cable Management",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -108,5 +138,17 @@
     "labelUrl": "/documents/energy-labels/10265034-label.pdf",
     "ficheUrl": "/documents/energy-labels/10265034-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG UE98DU9000UXXU 98\" Smart 4K Ultra HD HDR LED TV with Bixby & Amazon Alexa",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar"
+      ],
+      "totalPrice": 1605.99,
+      "savings": 0
+    }
+  ]
 }

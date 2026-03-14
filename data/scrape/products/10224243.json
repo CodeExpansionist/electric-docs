@@ -70,7 +70,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Extension Leads",
+      "title": "LOGIK L6W4MUC23 Surge Protected 6-Socket Extension Lead with USB - 4 m",
+      "price": 28.99,
+      "rating": 4.7,
+      "reviewCount": 13,
+      "image": "/images/products/10239747/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

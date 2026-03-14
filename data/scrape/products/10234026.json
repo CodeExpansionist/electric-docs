@@ -46,20 +46,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Remote controls",
-      "title": "ONE FOR ALL Evolve 2 URC7125 Universal Remote Control",
-      "price": 18.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10152830?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Cables & adaptors",
-      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
-      "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],

@@ -76,10 +76,22 @@
   ],
   "crossSellProducts": [
     {
-      "category": "TV Accessories",
+      "category": "Cables and Accessories",
       "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
       "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10132171?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM SCMS214 Cable Management Sleeve",
+      "price": 6.39,
+      "wasPrice": 9.99,
+      "savings": 3.6,
+      "rating": 4.1,
+      "reviewCount": 35,
+      "image": "/images/products/10026189/main.webp"
     }
   ],
   "offers": [],
@@ -100,5 +112,16 @@
     "nextDayDeliveryPrice": 30
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "AVF Buckingham 1100 mm Oval TV Stand for up to 55\" TVs - Walnut",
+        "SANDSTROM SSBKIT20 Sound Bar Mount"
+      ],
+      "totalPrice": 209.79,
+      "savings": 7.2
+    }
+  ]
 }

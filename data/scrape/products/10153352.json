@@ -60,7 +60,14 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Batteries",
+      "title": "LOGIK LAAA1226 AAA Batteries - Pack of 12",
+      "price": 6.99,
+      "image": "/images/products/10289386/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

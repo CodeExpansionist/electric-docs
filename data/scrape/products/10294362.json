@@ -121,8 +121,20 @@
   "sizeVariants": [],
   "crossSellProducts": [
     {
-      "id": "10138717",
-      "name": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs"
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Wall Brackets",
+      "title": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "image": "/images/products/10138717/main.webp"
     }
   ],
   "careAndRepair": [
@@ -142,5 +154,16 @@
   },
   "category": "TVs",
   "title": "LG 43LR60006LA 43\" Smart Full HD HDR LED TV",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG 43LR60006LA 43\" Smart Full HD HDR LED TV",
+        "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs"
+      ],
+      "totalPrice": 203.98,
+      "savings": 16
+    }
+  ]
 }

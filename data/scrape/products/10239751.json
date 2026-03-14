@@ -52,16 +52,12 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "TV Accessories",
-      "title": "SANDSTROM Gold Series S3HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 3 m",
-      "price": 49.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10218584?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Cable & Accessories",
-      "title": "D-LINE Mini Cable Trunking 30 x 15 mm - 1m, White",
-      "price": 6.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10254600?$s-swatch$&fmt=auto"
+      "category": "Extension Leads",
+      "title": "LOGIK Surge Protected 4-Socket Extension Lead with USB - 4 m",
+      "price": 23.99,
+      "rating": 4.7,
+      "reviewCount": 145,
+      "image": "/images/products/10239746/main.webp"
     }
   ],
   "offers": [],

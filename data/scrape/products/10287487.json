@@ -95,26 +95,44 @@
   ],
   "crossSellProducts": [
     {
-      "name": "LOGIK LFML16 Full Motion 32-50\" TV Bracket",
-      "price": 59.99
+      "category": "Soundbars",
+      "title": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
+      "price": 179,
+      "wasPrice": 229,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 36,
+      "image": "/images/products/10280658/main.webp"
     },
     {
-      "name": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
-      "price": 179
+      "category": "Extension Leads",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "careAndRepair": [
     {
       "name": "Add Care & Repair Breakdown Support",
       "price": 2.5,
-      "description": "Breakdown support from \u00a32.50/month."
+      "description": "Breakdown support from £2.50/month."
     }
   ],
   "offers": [
     "Get 10% off marked price on this product with code TV10 at checkout."
   ],
   "badges": [
-    "Free standard delivery on orders over \u00a340"
+    "Free standard delivery on orders over £40"
   ],
   "energyRating": {
     "class": "E",
@@ -124,5 +142,18 @@
   "category": "TVs",
   "id": "10287487",
   "title": "HISENSE E7Q PRO 50\" QLED 4K HDR Smart TV with Freely - 50E7QTUK PRO",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "HISENSE E7Q PRO 50\" QLED 4K HDR Smart TV with Freely - 50E7QTUK PRO",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 561.98,
+      "savings": 74
+    }
+  ]
 }

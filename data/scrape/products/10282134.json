@@ -133,12 +133,22 @@
   "sizeVariants": [],
   "crossSellProducts": [
     {
-      "id": "10211694",
-      "name": "SANDSTROM S150AVC20 Screen Cleaner"
+      "category": "Home Cinema",
+      "title": "LG SQM1 2.0 Compact Sound Bar",
+      "price": 59.99,
+      "rating": 4.7,
+      "reviewCount": 38,
+      "image": "/images/products/10267031/main.webp",
+      "badge": "Currys Recommends"
     },
     {
-      "id": "10249239",
-      "name": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
     }
   ],
   "careAndRepair": [
@@ -158,5 +168,17 @@
   },
   "category": "TVs",
   "title": "LG NANO81A 43\" NanoCell AI 4K HDR Smart TV 2025 - 43NANO81A6A",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "LG NANO81A 43\"",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 322.98,
+      "savings": 24
+    }
+  ]
 }

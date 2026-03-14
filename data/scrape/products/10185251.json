@@ -64,7 +64,34 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    },
+    {
+      "category": "Bass Module",
+      "title": "BOSE Bass Module 700 - White",
+      "price": 799,
+      "rating": 4.8,
+      "reviewCount": 73,
+      "image": "/images/products/10185053/main.webp"
+    },
+    {
+      "category": "Bass Module",
+      "title": "BOSE Bass Module 500 - Black",
+      "price": 349,
+      "wasPrice": 449,
+      "savings": 100,
+      "rating": 4.6,
+      "reviewCount": 104,
+      "image": "/images/products/10185057/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -82,5 +109,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "DVD Blu-ray",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "BOSE Surround Speakers - White",
+        "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m"
+      ],
+      "totalPrice": 318.99,
+      "savings": 0
+    }
+  ]
 }

@@ -109,5 +109,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG QNED85 86\" QNED evo AI Mini LED 4K HDR Smart TV 2025 - 86QNED85A6C",
+        "SANDSTROM S150AVC20 Screen Cleaner"
+      ],
+      "totalPrice": 2066.99,
+      "savings": 0
+    }
+  ]
 }

@@ -46,14 +46,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Batteries",
-      "title": "DURACELL Plus AA Alkaline Batteries - Pack of 4",
-      "price": 4.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10230762?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],

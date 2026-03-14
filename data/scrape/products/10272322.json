@@ -50,10 +50,12 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Cables and Accessories",
-      "title": "LOGIK LHDMEX19 HDMI Adapter",
-      "price": 6.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10187486?$s-swatch$&fmt=auto"
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
     }
   ],
   "offers": [

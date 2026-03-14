@@ -138,22 +138,33 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Sound Systems",
-      "title": "SAMSUNG HW-S800D/XU 3.1.2 Wireless Sound Bar",
+      "category": "Add a home cinema system or soundbar",
+      "title": "SAMSUNG HW-S800D/XU 3.1.2 Wireless Sound Bar with Dolby Atmos, DTS Virtual:X & Amazon Alexa - Black",
       "price": 589,
-      "image": "https://media.electriz.biz/i/electrizprod/10263675?$s-swatch$&fmt=auto"
+      "wasPrice": 649,
+      "savings": 60,
+      "rating": 4.6,
+      "reviewCount": 53,
+      "image": "/images/products/10263675/main.webp",
+      "badge": "Currys Recommends"
     },
     {
-      "category": "Extension Leads",
-      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead",
+      "category": "Add a cable or adaptor",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
       "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10175000?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
     },
     {
-      "category": "Cleaning Products",
+      "category": "Add Cleaning products",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
     }
   ],
   "offers": [
@@ -162,11 +173,11 @@
   "badges": [
     {
       "type": "Recommended",
-      "image": "https://media.electriz.biz/i/electrizprod/trusted_reviews_badge_recommended-55868.jpg?fmt=auto"
+      "image": "/images/icons/award-trusted-reviews.jpg"
     },
     {
-      "type": "Loved by Currys",
-      "image": "https://media.electriz.biz/i/electrizprod/loved_by_electriz-68562.jpg?fmt=auto"
+      "type": "Loved by Electriz",
+      "image": "/images/icons/badge-loved-by-electriz.jpg"
     }
   ],
   "specifications": {},
@@ -185,5 +196,17 @@
     "standardDeliveryPrice": 20,
     "nextDayDeliveryPrice": 30
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG S90F 55\" OLED 4K Vision AI Smart TV 2025 - QE55S90F",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 1242.98,
+      "savings": 124
+    }
+  ]
 }

@@ -64,7 +64,18 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM SHDMAD119 HDMI to HDMI L-Shaped Adapter Set",
+      "price": 14.99,
+      "wasPrice": 16.99,
+      "savings": 2,
+      "rating": 4.7,
+      "reviewCount": 20,
+      "image": "/images/products/10187487/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -83,5 +94,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "Digital & Smart TV",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "ROKU Streaming Stick 4K",
+        "SANDSTROM SHDMAD119 HDMI to HDMI L-Shaped Adapter Set"
+      ],
+      "totalPrice": 64.98,
+      "savings": 0
+    }
+  ]
 }

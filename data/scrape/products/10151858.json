@@ -68,7 +68,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Batteries",
+      "title": "DURACELL Ultra AAAA Batteries - Pack of 2",
+      "price": 4.99,
+      "rating": 4.7,
+      "reviewCount": 54,
+      "image": "/images/products/10158065/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -86,5 +95,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "ONE FOR ALL Contour 8 URC1280 Universal Remote Control",
+        "ONE FOR ALL URC4910 Samsung Universal Remote Control"
+      ],
+      "totalPrice": 35.48,
+      "savings": 0
+    }
+  ]
 }

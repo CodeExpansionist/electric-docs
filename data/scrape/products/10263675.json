@@ -89,7 +89,18 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
+    }
+  ],
   "offers": [
     "Claim £200 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs.+2 more offers"
   ],
@@ -109,5 +120,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Soundbars",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG HW-S800D/XU 3.1.2 Wireless Sound Bar",
+        "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m"
+      ],
+      "totalPrice": 600.99,
+      "savings": 3
+    }
+  ]
 }

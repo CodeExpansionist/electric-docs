@@ -66,7 +66,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    },
+    {
+      "category": "Cables and Adapters",
+      "title": "ONE FOR ALL SV9601 1-Way TV Signal Booster",
+      "price": 18.99,
+      "rating": 3.9,
+      "reviewCount": 460,
+      "image": "/images/products/10135658/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

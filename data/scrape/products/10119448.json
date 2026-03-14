@@ -56,7 +56,24 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Remote Control",
+      "title": "ONE FOR ALL Essence TV URC1211 Universal Remote Control",
+      "price": 12.99,
+      "rating": 4.5,
+      "reviewCount": 10,
+      "image": "/images/products/10249289/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -74,5 +91,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "LOGIK L4AERA15 Aerial Cable & Adapter - 4 m",
+        "ONE FOR ALL Essence TV URC1211 Universal Remote Control"
+      ],
+      "totalPrice": 27.98,
+      "savings": 0
+    }
+  ]
 }

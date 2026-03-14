@@ -107,5 +107,17 @@
     "class": "E",
     "ficheUrl": "/documents/energy-labels/10282629-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG Q8F 85\" QLED 4K Vision AI Smart TV 2025 - QE85Q8F",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar"
+      ],
+      "totalPrice": 1605.99,
+      "savings": 0
+    }
+  ]
 }

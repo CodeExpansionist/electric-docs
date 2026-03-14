@@ -79,7 +79,28 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket",
+      "price": 8.99,
+      "wasPrice": 14.99,
+      "savings": 6,
+      "rating": 4.5,
+      "reviewCount": 132,
+      "image": "/images/products/10138716/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cables & Adaptors",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [
     "Freely TV"
@@ -104,5 +125,16 @@
     "labelUrl": "/documents/energy-labels/10283832-label.pdf",
     "ficheUrl": "/documents/energy-labels/10283832-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SHARP 1T-C32HD2725KB Roku TV 32\"",
+        "LOGIK LFS16 Fixed 10-26\" TV Bracket"
+      ],
+      "totalPrice": 135.98,
+      "savings": 24
+    }
+  ]
 }

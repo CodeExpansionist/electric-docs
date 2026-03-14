@@ -72,7 +72,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m",
+      "price": 6.99,
+      "rating": 5,
+      "reviewCount": 4,
+      "image": "/images/products/10234488/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -90,5 +99,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Speakers",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "MARSHALL Acton III Bluetooth Speaker - Black",
+        "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m"
+      ],
+      "totalPrice": 265.99,
+      "savings": 0
+    }
+  ]
 }

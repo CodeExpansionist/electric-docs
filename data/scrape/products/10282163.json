@@ -139,8 +139,28 @@
   "sizeVariants": [],
   "crossSellProducts": [
     {
-      "id": "10211694",
-      "name": "SANDSTROM S150AVC20 Screen Cleaner"
+      "category": "Soundbar",
+      "title": "LG US95TR 9.1.5 Wireless Sound Bar with Dolby Atmos, DTS:X & IMAX Enhanced",
+      "price": 1399,
+      "rating": 4.9,
+      "reviewCount": 24,
+      "image": "/images/products/10262748/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "careAndRepair": [
@@ -160,5 +180,16 @@
   },
   "category": "TVs",
   "title": "LG QNED86 100\" QNED evo AI Mini LED 4K HDR Smart TV 2025 - 100QNED86A6",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG QNED86 100\" QNED Evo AI Mini LED 4K HDR Smart TV 2025 - 100QNED86A6A",
+        "SANDSTROM S150AVC20 Screen Cleaner"
+      ],
+      "totalPrice": 3306.99,
+      "savings": 0
+    }
+  ]
 }

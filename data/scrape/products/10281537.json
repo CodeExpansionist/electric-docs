@@ -89,7 +89,34 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "SoundBar",
+      "title": "LG US60TR 5.1 Wireless Sound Bar",
+      "price": 299,
+      "wasPrice": 399,
+      "savings": 100,
+      "rating": 4.6,
+      "reviewCount": 83,
+      "image": "/images/products/10262669/main.webp"
+    },
+    {
+      "category": "Cleaning",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "TV Bracket",
+      "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 59.99,
+      "rating": 4.3,
+      "reviewCount": 12,
+      "image": "/images/products/10249239/main.webp"
+    }
+  ],
   "offers": [
     "Save 10% off marked price on this product. Just enter code TV10 at checkout.+4 more offers"
   ],
@@ -109,5 +136,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "LG QNED82 55\" QNED AI 4K HDR Smart TV 2025",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 592.98,
+      "savings": 174
+    }
+  ]
 }

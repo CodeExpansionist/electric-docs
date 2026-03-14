@@ -78,7 +78,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L2AERA15 Male Aerial Cable - 2 m",
+      "price": 10.99,
+      "rating": 4.7,
+      "reviewCount": 133,
+      "image": "/images/products/10119436/main.webp"
+    },
+    {
+      "category": "Extension Leads",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -96,5 +113,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "ONE FOR ALL WM6252 Full Motion 13-43\" TV Bracket",
+        "LOGIK L2AERA15 Male Aerial Cable - 2 m"
+      ],
+      "totalPrice": 80.98,
+      "savings": 0
+    }
+  ]
 }

@@ -48,7 +48,37 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Audio",
+      "title": "BOSE TV Speaker",
+      "price": 199,
+      "wasPrice": 269,
+      "savings": 70,
+      "rating": 4.6,
+      "reviewCount": 502,
+      "image": "/images/products/10207493/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cables & Adapters",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -66,5 +96,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "TCL T6C 55\" QLED 4K HDR Smart Fire TV with Freely - 55T6C-UK",
+        "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket"
+      ],
+      "totalPrice": 358.99,
+      "savings": 70
+    }
+  ]
 }

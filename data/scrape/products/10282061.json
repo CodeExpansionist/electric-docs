@@ -48,7 +48,35 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "TCL Q65H 5.1 Wireless Soundbar with Dolby Atmos & DTS:X",
+      "price": 299,
+      "rating": 4.9,
+      "reviewCount": 7,
+      "image": "/images/products/10286618/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Power Cords",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning Supplies",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -66,5 +94,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "TCL T6C 65\" QLED 4K HDR Smart Fire TV with Freely - 65T6C-UK",
+        "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket"
+      ],
+      "totalPrice": 478.99,
+      "savings": 100
+    }
+  ]
 }

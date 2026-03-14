@@ -31,7 +31,146 @@
     "nextDayDeliveryPrice": null
   },
   "sizeVariants": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "LEGO",
+      "title": "LEGO Botanicals 10347 Petite Sunny Bouquet Set",
+      "price": 19.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10291310/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Earbuds",
+      "title": "LAZERBUILT Rick & Morty Wireless Bluetooth Earbuds - Grey & Green",
+      "price": 6.97,
+      "image": "/images/products/10290968/main.webp"
+    },
+    {
+      "category": "Item Finder",
+      "title": "CHIPOLO CH-C19M-BE-R ONE Bluetooth Item Finder - Blue",
+      "price": 9.97,
+      "wasPrice": 24.99,
+      "savings": 15.02,
+      "rating": 4.6,
+      "reviewCount": 14,
+      "image": "/images/products/10266769/main.webp"
+    },
+    {
+      "category": "Cookbook",
+      "title": "QUARTO The Complete Air Fryer Cookbook",
+      "price": 20,
+      "image": "/images/products/10274332/main.webp"
+    },
+    {
+      "category": "Adapter",
+      "title": "MASTERPLUG SHADC-MP Shaver Adapter",
+      "price": 3.99,
+      "rating": 4.7,
+      "reviewCount": 120,
+      "image": "/images/products/10145121/main.webp"
+    },
+    {
+      "category": "Power Bank",
+      "title": "VELD VPB2065B 65 W Super-Fast 20,000 mAh Portable Laptop Power Bank - Black",
+      "price": 59.99,
+      "image": "/images/products/10283225/main.webp"
+    },
+    {
+      "category": "Dance Mat",
+      "title": "RED5 2 Player Retro Dance Mat",
+      "price": 47.99,
+      "rating": 2,
+      "reviewCount": 1,
+      "image": "/images/products/10290655/main.webp"
+    },
+    {
+      "category": "Item Finder",
+      "title": "CHIPOLO CH-C19M-BK-R ONE Bluetooth Item Finder - Black",
+      "price": 9.97,
+      "wasPrice": 24.99,
+      "savings": 15.02,
+      "rating": 5,
+      "reviewCount": 2,
+      "image": "/images/products/10266753/main.webp"
+    },
+    {
+      "category": "Earbuds",
+      "title": "LAZERBUILT Harry Potter Hogwarts Light-up Wireless Bluetooth Earbuds - White",
+      "price": 7.97,
+      "image": "/images/products/10290869/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L6WAY2M18 6-Socket Extension Lead - 2 m",
+      "price": 17.99,
+      "rating": 4.8,
+      "reviewCount": 23,
+      "image": "/images/products/10175007/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "DURACELL Plus AA Alkaline Batteries - Pack of 8",
+      "price": 9.99,
+      "rating": 4.8,
+      "reviewCount": 596,
+      "image": "/images/products/10230769/main.webp"
+    },
+    {
+      "category": "Charger",
+      "title": "VELD VH30DW Super-Fast 30 W 2-port USB Wall Charger - White",
+      "price": 24.99,
+      "rating": 5,
+      "reviewCount": 3,
+      "image": "/images/products/10256233/main.webp"
+    },
+    {
+      "category": "Camera",
+      "title": "EILI C511 Mini Digital Camera - Blue",
+      "price": 3.97,
+      "image": "/images/products/10288845/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "LOGIK LAA4817 AA Batteries - Pack of 48",
+      "price": 8.97,
+      "rating": 4.6,
+      "reviewCount": 27,
+      "image": "/images/products/10157467/main.webp"
+    },
+    {
+      "category": "Adapter",
+      "title": "MASTERPLUG TAVUK-MP Universal to UK Plug Adapter",
+      "price": 9.99,
+      "rating": 4.7,
+      "reviewCount": 95,
+      "image": "/images/products/10145117/main.webp"
+    },
+    {
+      "category": "Advent Calendar",
+      "title": "LOGIK AAdvent Calendar",
+      "price": 5,
+      "rating": 4.7,
+      "reviewCount": 7,
+      "image": "/images/products/10274302/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "DURACELL HR03/DX2400 Stay Charged AAA Rechargeable Batteries - Pack of 4",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 147,
+      "image": "/images/products/12635518/main.webp"
+    }
+  ],
   "careAndRepair": [],
   "offers": [],
   "badges": [],
@@ -39,5 +178,23 @@
   "category": "TVs",
   "_needsEnrichment": true,
   "title": "JVC LT-40CT350 40\" Smart Full HD LED TV with Freely",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LEGO Botanicals 10347 Petite Sunny Bouquet Set",
+        "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+        "LAZERBUILT Rick & Morty Wireless Bluetooth Earbuds - Grey & Green",
+        "CHIPOLO CH-C19M-BE-R ONE Bluetooth Item Finder - Blue",
+        "QUARTO The Complete Air Fryer Cookbook",
+        "MASTERPLUG SHADC-MP Shaver Adapter",
+        "VELD VPB2065B 65 W Super-Fast 20,000 mAh Portable Laptop Power Bank - Black",
+        "RED5 2 Player Retro Dance Mat",
+        "CHIPOLO CH-C19M-BK-R ONE Bluetooth Item Finder - Black"
+      ],
+      "totalPrice": 118.81,
+      "savings": 15.02
+    }
+  ]
 }

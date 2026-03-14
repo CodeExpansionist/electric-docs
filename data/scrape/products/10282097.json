@@ -85,7 +85,34 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bar",
+      "title": "LG US77TY 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "price": 599,
+      "wasPrice": 899,
+      "savings": 300,
+      "rating": 4.8,
+      "reviewCount": 5,
+      "image": "/images/products/10262666/main.webp"
+    },
+    {
+      "category": "Cable Management",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {
@@ -126,5 +153,17 @@
     "labelUrl": "/documents/energy-labels/10282097-label.pdf",
     "ficheUrl": "/documents/energy-labels/10282097-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "LG B5 48\" OLED AI 4K HDR Smart TV 2025 - OLED48B56LA",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 842.98,
+      "savings": 24
+    }
+  ]
 }

@@ -74,21 +74,25 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Accessories",
+      "category": "Cables",
       "title": "BELKIN Braided USB-A to Micro USB Cable - 1 m, Black",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10207684?$s-swatch$&fmt=auto"
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.8,
+      "reviewCount": 6,
+      "image": "/images/products/10207684/main.webp"
     }
   ],
   "offers": [],
   "badges": [
     {
       "type": "Award",
-      "image": "https://media.electriz.biz/i/electrizprod/award_tech_radar_4.5-28032.png?fmt=auto"
+      "image": "/images/icons/award-tech-radar.jpg"
     },
     {
       "type": "Award",
-      "image": "https://media.electriz.biz/i/electrizprod/what_hifi_5_star-6658.jpg?fmt=auto"
+      "image": "/images/icons/award-what-hifi-5-star.jpg"
     }
   ],
   "specifications": {},

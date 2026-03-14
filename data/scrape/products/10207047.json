@@ -50,16 +50,20 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Cables",
+      "category": "Cables and Accessories",
       "title": "LOGIK Satellite F Plug Cable - 4 m",
       "price": 9.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10119453?$s-swatch$&fmt=auto"
+      "rating": 4.6,
+      "reviewCount": 27,
+      "image": "/images/products/10119453/main.webp"
     },
     {
-      "category": "Remote controls",
+      "category": "Remote Controls",
       "title": "ONE FOR ALL Evolve URC7115 Universal Remote Control",
       "price": 18.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10152868?$s-swatch$&fmt=auto"
+      "rating": 4.6,
+      "reviewCount": 39,
+      "image": "/images/products/10152868/main.webp"
     }
   ],
   "offers": [
@@ -80,5 +84,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "Digital & Smart TV",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "FREESAT UHD-X Smart 4K Ultra HD Set Top Box",
+        "LOGIK Satellite F Plug Cable - 4 m"
+      ],
+      "totalPrice": 108.99,
+      "savings": 0
+    }
+  ]
 }

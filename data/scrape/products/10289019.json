@@ -48,7 +48,28 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Add a wall bracket",
+      "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 35.99,
+      "wasPrice": 59.99,
+      "savings": 24,
+      "rating": 4.3,
+      "reviewCount": 12,
+      "image": "/images/products/10249239/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Add a cable or adaptor",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -66,5 +87,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "TCL SF560 43\" QLED Full HD Smart Fire TV - 43SF560-UK",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 234.99,
+      "savings": 24
+    }
+  ]
 }

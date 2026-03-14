@@ -50,9 +50,36 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "productId": "10280615",
-      "name": "HISENSE AX3120Q 3.1.2 Wireless Sound Bar",
-      "price": 399
+      "category": "Soundbars",
+      "title": "HISENSE AX3120Q 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 399,
+      "rating": 4.9,
+      "reviewCount": 8,
+      "image": "/images/products/10280615/main.webp"
+    },
+    {
+      "category": "Cables & Adaptors",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Soundbars",
+      "title": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "price": 69,
+      "rating": 4.6,
+      "reviewCount": 271,
+      "image": "/images/products/10244299/main.webp"
     }
   ],
   "offers": [
@@ -81,5 +108,17 @@
     "https://cdn.media.amplience.net/i/electrizprod/10282785?$l-large$&fmt=auto",
     "https://cdn.media.amplience.net/i/electrizprod/10282785_001?$l-large$&fmt=auto",
     "https://cdn.media.amplience.net/i/electrizprod/10282785_002?$l-large$&fmt=auto"
+  ],
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE E7Q PRO 75\" QLED 4K HDR Smart TV with Freely - 75E7QTUK PRO",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar"
+      ],
+      "totalPrice": 975.99,
+      "savings": 0
+    }
   ]
 }

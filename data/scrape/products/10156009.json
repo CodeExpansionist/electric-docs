@@ -75,13 +75,17 @@
       "category": "Headphones",
       "title": "GOJI Lites GLITVBT18 Wireless Bluetooth Headphones - Black",
       "price": 24.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10174703?$s-swatch$&fmt=auto"
+      "rating": 4.2,
+      "reviewCount": 123,
+      "image": "/images/products/10174703/main.webp"
     },
     {
       "category": "Cables and accessories",
       "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m",
       "price": 6.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10234488?$s-swatch$&fmt=auto"
+      "rating": 5,
+      "reviewCount": 4,
+      "image": "/images/products/10234488/main.webp"
     }
   ],
   "offers": [
@@ -103,5 +107,17 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "JVC UX-D327B Wireless Traditional Hi-Fi System - Black",
+        "GOJI Lites GLITVBT18 Wireless Bluetooth Headphones - Black",
+        "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m"
+      ],
+      "totalPrice": 79,
+      "savings": 20
+    }
+  ]
 }

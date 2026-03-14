@@ -47,7 +47,25 @@
       "category": "Accessories",
       "title": "APPLE 20 W USB Type-C Power Adapter",
       "price": 19,
-      "image": "https://media.electriz.biz/i/electrizprod/10216759?$s-swatch$&fmt=auto"
+      "rating": 4.8,
+      "reviewCount": 476,
+      "image": "/images/products/10216759/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "APPLE Lightning to USB cable - 1 m",
+      "price": 19,
+      "rating": 4.6,
+      "reviewCount": 454,
+      "image": "/images/products/10182600/main.webp"
+    },
+    {
+      "category": "Adapters",
+      "title": "APPLE USB Type-C to 3.5 mm Headphone Jack Adapter",
+      "price": 8.99,
+      "rating": 4.2,
+      "reviewCount": 156,
+      "image": "/images/products/10185505/main.webp"
     }
   ],
   "offers": [],
@@ -66,5 +84,16 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "APPLE EarPods with Lightning Connector - White",
+        "APPLE 20 W USB Type-C Power Adapter"
+      ],
+      "totalPrice": 38,
+      "savings": 0
+    }
+  ]
 }

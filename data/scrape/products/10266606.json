@@ -82,7 +82,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Extension Leads",
+      "title": "LOGIK Surge Protected 4-Socket Extension Lead with USB - 4 m",
+      "price": 23.99,
+      "rating": 4.7,
+      "reviewCount": 145,
+      "image": "/images/products/10239746/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

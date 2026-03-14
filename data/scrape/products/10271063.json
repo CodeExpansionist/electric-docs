@@ -85,7 +85,18 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bar",
+      "title": "LG US60TR 5.1 Wireless Sound Bar",
+      "price": 299,
+      "wasPrice": 399,
+      "savings": 100,
+      "rating": 4.6,
+      "reviewCount": 83,
+      "image": "/images/products/10262669/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

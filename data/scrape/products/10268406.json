@@ -81,7 +81,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Cinema / Soundbar",
+      "title": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "price": 69,
+      "rating": 4.6,
+      "reviewCount": 271,
+      "image": "/images/products/10244299/main.webp"
+    },
+    {
+      "category": "Cable / Adaptor",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Dolby Atmos",
@@ -107,5 +132,16 @@
     "labelUrl": "/documents/energy-labels/10268406-label.pdf",
     "ficheUrl": "/documents/energy-labels/10268406-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy Together & Save",
+      "items": [
+        "TCL 55PF650K Fire TV 55\" Smart 4K Ultra HD HDR LED TV with Amazon Alexa",
+        "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket"
+      ],
+      "totalPrice": 318.99,
+      "savings": 70
+    }
+  ]
 }

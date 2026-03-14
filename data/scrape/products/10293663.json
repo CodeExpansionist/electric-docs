@@ -85,7 +85,68 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Toys",
+      "title": "LEGO Botanicals 10347 Petite Sunny Bouquet Set",
+      "price": 19.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10291310/main.webp"
+    },
+    {
+      "category": "Electricals",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Audio",
+      "title": "LAZERBUILT Rick & Morty Wireless Bluetooth Earbuds - Grey & Green",
+      "price": 6.97,
+      "image": "/images/products/10290968/main.webp"
+    },
+    {
+      "category": "Finders",
+      "title": "CHIPOLO CH-C19M-BE-R ONE Bluetooth Item Finder - Blue",
+      "price": 9.97,
+      "wasPrice": 24.99,
+      "savings": 15.02,
+      "rating": 4.6,
+      "reviewCount": 14,
+      "image": "/images/products/10266769/main.webp"
+    },
+    {
+      "category": "Cookbooks",
+      "title": "QUARTO The Complete Air Fryer Cookbook",
+      "price": 20,
+      "image": "/images/products/10274332/main.webp"
+    },
+    {
+      "category": "Adapters",
+      "title": "MASTERPLUG SHADC-MP Shaver Adapter",
+      "price": 3.99,
+      "rating": 4.7,
+      "reviewCount": 120,
+      "image": "/images/products/10145121/main.webp"
+    },
+    {
+      "category": "Power Banks",
+      "title": "VELD VPB2065B 65 W Super-Fast 20,000 mAh Portable Laptop Power Bank - Black",
+      "price": 59.99,
+      "image": "/images/products/10283225/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "DURACELL Plus AA Alkaline Batteries - Pack of 8",
+      "price": 9.99,
+      "rating": 4.8,
+      "reviewCount": 596,
+      "image": "/images/products/10230769/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Freely TV",

@@ -77,7 +77,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "LG US20A 2.0 Compact Sound Bar",
+      "price": 79.99,
+      "rating": 4.8,
+      "reviewCount": 20,
+      "image": "/images/products/10282047/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Dolby Atmos",
@@ -103,5 +128,16 @@
     "labelUrl": "/documents/energy-labels/10283436-label.pdf",
     "ficheUrl": "/documents/energy-labels/10283436-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "PHILIPS Ambilight 43PUS8000/05 43\" Smart 4K Ultra HD HDR LED TV",
+        "SANDSTROM STM19 Tilt 32-47\" TV Bracket"
+      ],
+      "totalPrice": 262.99,
+      "savings": 96
+    }
+  ]
 }

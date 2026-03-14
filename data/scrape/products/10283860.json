@@ -65,9 +65,30 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "productId": "10280658",
-      "name": "HISENSE AX5100Q 5.1 Sound Bar",
-      "price": 179
+      "category": "Soundbars",
+      "title": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
+      "price": 179,
+      "wasPrice": 229,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 36,
+      "image": "/images/products/10280658/main.webp"
+    },
+    {
+      "category": "Cable Management",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "offers": [
@@ -95,5 +116,17 @@
   "lastUpdated": "2026-03-06T15:49:44.753Z",
   "galleryImages": [
     "https://cdn.media.amplience.net/i/electrizprod/10283860?$l-large$&fmt=auto"
+  ],
+  "bundleDeals": [
+    {
+      "title": "Often bought together",
+      "items": [
+        "HISENSE A7Q 75\" QLED 4K Smart AI TV with Freely - 75A7QTUK",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar"
+      ],
+      "totalPrice": 925.99,
+      "savings": 0
+    }
   ]
 }

@@ -76,7 +76,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L15SAC23 Audio Cable - 1.5 m",
+      "price": 6.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10234489/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -94,5 +103,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Speakers",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "BOSE Portable Wireless Multi-room Home Speaker with Google Assistant & Amazon Alexa - Black",
+        "LOGIK L15SAC23 Audio Cable - 1.5 m"
+      ],
+      "totalPrice": 385.99,
+      "savings": 0
+    }
+  ]
 }

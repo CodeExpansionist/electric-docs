@@ -150,21 +150,29 @@
   "crossSellProducts": [
     {
       "category": "Add a home cinema system or soundbar",
-      "title": "LG S95TR 9.1.5 Wireless Sound Bar with Dolby Atmos",
-      "price": 999,
-      "image": "https://media.electriz.biz/i/electrizprod/10282441?$s-swatch$&fmt=auto"
+      "title": "LG USC9S 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "price": 799,
+      "wasPrice": 999,
+      "savings": 200,
+      "rating": 4.6,
+      "reviewCount": 76,
+      "image": "/images/products/10248732/main.webp"
     },
     {
       "category": "Add a cable or adaptor",
-      "title": "LOGIK LHDM19M25 Ultra High Speed HDMI Cable - 1.8 m",
-      "price": 14.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10248050?$s-swatch$&fmt=auto"
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
     },
     {
       "category": "Add Cleaning products",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "offers": [
@@ -174,7 +182,7 @@
   "badges": [
     {
       "type": "Epic Deal",
-      "image": "https://media.electriz.biz/i/electrizprod/bwepicdealred-99118?fmt=auto"
+      "image": "/images/icons/badge-epic-deal.png"
     }
   ],
   "awards": [
@@ -183,8 +191,8 @@
       "image": ""
     },
     {
-      "name": "Loved by Currys",
-      "image": "https://media.electriz.biz/i/electrizprod/loved_by_electriz-68562.jpg?fmt=auto"
+      "name": "Loved by Electriz",
+      "image": "/images/icons/badge-loved-by-electriz.jpg"
     }
   ],
   "specifications": {
@@ -232,5 +240,17 @@
     "standardDeliveryPrice": 20,
     "nextDayDeliveryPrice": 30
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG C5 55\" OLED evo AI 4K HDR Smart TV 2025 - OLED55C54LA",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 1242.98,
+      "savings": 224
+    }
+  ]
 }

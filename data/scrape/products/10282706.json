@@ -111,10 +111,33 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Cleaning Products",
+      "category": "Add a home cinema system or soundbar",
+      "title": "SAMSUNG HW-Q600F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos",
+      "price": 499,
+      "wasPrice": 549,
+      "savings": 50,
+      "rating": 4.9,
+      "reviewCount": 20,
+      "image": "/images/products/10282181/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Add a cable or adaptor",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Add Cleaning products",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$n-medium$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
     }
   ],
   "offers": [
@@ -122,12 +145,12 @@
   ],
   "badges": [
     {
-      "type": "Loved by Currys",
-      "image": "https://media.electriz.biz/i/electrizprod/loved_by_electriz-68562.jpg"
+      "type": "Loved by Electriz",
+      "image": "/images/icons/badge-loved-by-electriz.jpg"
     },
     {
       "type": "Award: Trusted Reviews Recommended",
-      "image": "https://media.electriz.biz/i/electrizprod/trusted_reviews_badge_recommended-55868.jpg"
+      "image": "/images/icons/award-trusted-reviews.jpg"
     }
   ],
   "specifications": {},
@@ -145,5 +168,17 @@
     "standardDeliveryPrice": 20,
     "nextDayDeliveryPrice": 30
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG S90F 65\" OLED 4K Vision AI Smart TV 2025 - QE65S90F",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 1642.98,
+      "savings": 24
+    }
+  ]
 }

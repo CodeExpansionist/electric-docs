@@ -78,7 +78,18 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "BELKIN Braided USB Type-C to USB Type-C Cable - 1 m, Black",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.3,
+      "reviewCount": 10,
+      "image": "/images/products/10206890/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

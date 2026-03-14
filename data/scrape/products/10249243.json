@@ -44,20 +44,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Cables and accessories",
-      "title": "CANON A4 Premium Black Label Paper - 500 Sheets",
-      "price": 7.19,
-      "image": "https://media.electriz.biz/i/electrizprod/10114701?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Cables and accessories",
-      "title": "SANDSTROM S150AVC20 Screen Cleaner",
-      "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [],
   "badges": [],
   "specifications": {},

@@ -82,7 +82,19 @@
       "category": "Cables",
       "title": "BELKIN Braided USB-A to Micro USB Cable - 1 m, Black",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10207684?$s-swatch$&fmt=auto"
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.8,
+      "reviewCount": 6,
+      "image": "/images/products/10207684/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "BELKIN Braided USB-C to USB-A Cable - 3 m, Black",
+      "price": 17.99,
+      "rating": 4.9,
+      "reviewCount": 12,
+      "image": "/images/products/10221596/main.webp"
     }
   ],
   "offers": [
@@ -106,5 +118,16 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "BOSE QuietComfort Ultra Wireless Bluetooth Noise-Cancelling Headphones - Black",
+        "BELKIN Braided USB-C to USB-A Cable - 3 m, Black"
+      ],
+      "totalPrice": 313.39,
+      "savings": 3.6
+    }
+  ]
 }

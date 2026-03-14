@@ -83,7 +83,35 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Audio",
+      "title": "JBL BAR 2.0 MK II Compact Sound Bar",
+      "price": 119,
+      "rating": 4.5,
+      "reviewCount": 101,
+      "image": "/images/products/10244365/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cables & Adaptors",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning Supplies",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [
     "Dolby Atmos",
@@ -111,5 +139,16 @@
     "labelUrl": "/documents/energy-labels/10283476-label.pdf",
     "ficheUrl": "/documents/energy-labels/10283476-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "PHILIPS Ambilight 50PUS8500/05 50\" Smart 4K Ultra HD HDR QLED TV",
+        "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket"
+      ],
+      "totalPrice": 398.99,
+      "savings": 110
+    }
+  ]
 }

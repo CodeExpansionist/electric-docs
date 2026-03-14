@@ -31,7 +31,48 @@
     "nextDayDeliveryPrice": null
   },
   "sizeVariants": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bar",
+      "title": "JVC TH-D625B 2.0 Compact Sound Bar",
+      "price": 49.99,
+      "wasPrice": 59.99,
+      "savings": 10,
+      "rating": 4.8,
+      "reviewCount": 4,
+      "image": "/images/products/10276273/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Streaming Device",
+      "title": "AMAZON Fire TV Stick HD with Alexa Voice Remote (2024)",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.7,
+      "reviewCount": 37,
+      "image": "/images/products/10272322/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "careAndRepair": [],
   "offers": [],
   "badges": [],
@@ -39,5 +80,16 @@
   "category": "TVs",
   "_needsEnrichment": true,
   "title": "JVC LT-43CR350 43\" Roku Smart Full HD LED TV with Freely",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "JVC LT-43CR350 43\"",
+        "SANDSTROM STM19 Tilt 32-47\" TV Bracket"
+      ],
+      "totalPrice": 212.99,
+      "savings": 86
+    }
+  ]
 }

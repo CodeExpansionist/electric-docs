@@ -70,7 +70,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -88,5 +97,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "AVF Eno 600 mm TV Stand with Bracket for up to 55\" TVs - Silver & White",
+        "AVF ESL822B 480 mm TV Bracket with AV Shelving for up to 60\" TVs - Black",
+        "LOGIK LCMK123 Cable Management Kit"
+      ],
+      "totalPrice": 239.98,
+      "savings": 19
+    }
+  ]
 }

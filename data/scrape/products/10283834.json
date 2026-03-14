@@ -81,7 +81,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "ONE FOR ALL WM4419 Fixed 32-65\" TV Bracket",
+      "price": 26.99,
+      "rating": 4.8,
+      "reviewCount": 12,
+      "image": "/images/products/10268945/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Freely TV"
@@ -106,5 +115,16 @@
     "labelUrl": "/documents/energy-labels/10283834-label.pdf",
     "ficheUrl": "/documents/energy-labels/10283834-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SHARP 4T-C43HJ4725K 43\" Smart 4K Ultra HD HDR LED TV",
+        "ONE FOR ALL WM4419 Fixed 32-65\" TV Bracket"
+      ],
+      "totalPrice": 215.99,
+      "savings": 0
+    }
+  ]
 }

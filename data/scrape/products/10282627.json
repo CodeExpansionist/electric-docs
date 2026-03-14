@@ -48,7 +48,34 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "SAMSUNG HW-QS700F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 599,
+      "wasPrice": 649,
+      "savings": 50,
+      "rating": 5,
+      "reviewCount": 8,
+      "image": "/images/products/10282184/main.webp"
+    },
+    {
+      "category": "Cable Management",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    },
+    {
+      "category": "Cleaning",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -66,5 +93,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG QN70F 75\" Neo QLED 4K Mini LED Vision AI Smart TV 2025 - QE75QN70F",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar"
+      ],
+      "totalPrice": 1405.99,
+      "savings": 0
+    }
+  ]
 }

@@ -88,21 +88,14 @@
       "price": 0
     }
   ],
-  "crossSellProducts": [
-    {
-      "category": "Cables",
-      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
-      "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/21948996?$n-medium$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],
   "badges": [
     {
       "type": "Best Seller",
-      "image": "https://media.electriz.biz/i/electrizprod/10238562?$l-large$&fmt=auto"
+      "image": ""
     }
   ],
   "specifications": {},

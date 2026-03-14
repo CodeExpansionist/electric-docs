@@ -88,10 +88,22 @@
   ],
   "crossSellProducts": [
     {
-      "name": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
-      "price": 35.99,
-      "image": "https://cdn.media.amplience.net/i/electrizprod/10249239?$s-swatch$&fmt=auto",
-      "url": ""
+      "category": "Soundbar",
+      "title": "HISENSE HS2100 2.1 Wireless Compact Sound Bar with DTS Virtual:X",
+      "price": 84,
+      "wasPrice": 99,
+      "savings": 15,
+      "rating": 4.6,
+      "reviewCount": 143,
+      "image": "/images/products/10257243/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "careAndRepair": [
@@ -116,5 +128,16 @@
   "category": "TVs",
   "id": "10283892",
   "title": "HISENSE A6Q 65\" LED 4K HDR Smart TV with Freely - 65A6QTUK",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE HS2100 2.1 Wireless Compact Sound Bar",
+        "SANDSTROM S150AVC20 Screen Cleaner"
+      ],
+      "totalPrice": 91.99,
+      "savings": 15
+    }
+  ]
 }

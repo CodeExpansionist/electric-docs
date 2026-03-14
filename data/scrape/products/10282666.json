@@ -113,10 +113,31 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Soundbar",
+      "category": "Sound Bar",
       "title": "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar",
       "price": 99,
-      "image": "https://media.electriz.biz/i/electrizprod/10282182?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 40,
+      "image": "/images/products/10282182/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
     }
   ],
   "offers": [
@@ -135,5 +156,16 @@
     "standardDeliveryPrice": 0,
     "nextDayDeliveryPrice": 5.99
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG U8000F 43\" Crystal UHD 4K HDR Smart TV 2025",
+        "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar"
+      ],
+      "totalPrice": 358,
+      "savings": 0
+    }
+  ]
 }

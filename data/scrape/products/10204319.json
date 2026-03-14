@@ -70,7 +70,19 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 4,
+      "image": "/images/products/10278348/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -88,5 +100,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Headphones",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SENNHEISER HD 450BT Wireless Bluetooth Noise-Cancelling Headphones - Black",
+        "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black"
+      ],
+      "totalPrice": 111.98,
+      "savings": 3
+    }
+  ]
 }

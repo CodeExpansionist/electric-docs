@@ -72,7 +72,26 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Chargers",
+      "title": "VELD Super-Fast 2-port USB Wall Charger",
+      "price": 24.99,
+      "rating": 4.5,
+      "reviewCount": 12,
+      "image": "/images/products/10256233/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "BELKIN BoostCharge USB Type-C to USB-A Cable - 1 m",
+      "price": 10.39,
+      "wasPrice": 12.99,
+      "savings": 2.6,
+      "rating": 4.6,
+      "reviewCount": 18,
+      "image": "/images/products/10206906/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

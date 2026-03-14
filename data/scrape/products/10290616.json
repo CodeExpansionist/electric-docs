@@ -63,15 +63,11 @@
   "crossSellProducts": [
     {
       "category": "Cables",
-      "title": "LOGIK Satellite F Plug Cable - 4 m",
-      "price": 9.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10119453?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Remote controls",
-      "title": "ONE FOR ALL Evolve URC7115 Universal Remote Control",
-      "price": 18.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10152868?$s-swatch$&fmt=auto"
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
     }
   ],
   "offers": [],

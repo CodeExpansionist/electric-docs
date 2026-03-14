@@ -85,7 +85,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Speakers",
+      "title": "SONOS Roam 2 Portable Wireless Multi-room Speaker with Amazon Alexa - Black",
+      "price": 179,
+      "rating": 4.7,
+      "reviewCount": 324,
+      "image": "/images/products/10263677/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

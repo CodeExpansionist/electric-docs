@@ -72,7 +72,14 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "SANDSTROM S35RCA23 RCA to 3.5 mm Audio Cable - 1.8 m",
+      "price": 10.99,
+      "image": "/images/products/10236884/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

@@ -66,7 +66,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "MARSHALL Monitor III Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "price": 299,
+      "rating": 4.7,
+      "reviewCount": 29,
+      "image": "/images/products/10268410/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -84,5 +93,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Speakers",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "AUDIO PRO Addon T3+ Portable Bluetooth Wireless Speaker - Black",
+        "MARSHALL Monitor III Wireless Bluetooth Noise-Cancelling Headphones - Black"
+      ],
+      "totalPrice": 398,
+      "savings": 50
+    }
+  ]
 }

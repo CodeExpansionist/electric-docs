@@ -96,16 +96,30 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Cables and accessories",
-      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
-      "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/21948996?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Blu-ray and DVD players",
+      "category": "DVD Players",
       "title": "SONY DVPSR760HB DVD Player",
       "price": 39,
-      "image": "https://media.electriz.biz/i/electrizprod/12872098?$s-swatch$&fmt=auto"
+      "rating": 4.6,
+      "reviewCount": 2877,
+      "image": "/images/products/12872098/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "offers": [

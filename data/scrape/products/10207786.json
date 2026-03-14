@@ -74,7 +74,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L3HDMI21 High Speed HDMI Cable with Ethernet - 3 m",
+      "price": 15.99,
+      "rating": 4.9,
+      "reviewCount": 7,
+      "image": "/images/products/10221056/main.webp"
+    },
+    {
+      "category": "Cable Management",
+      "title": "SANDSTROM SCMS214 Cable Management Sleeve",
+      "price": 7.99,
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.1,
+      "reviewCount": 35,
+      "image": "/images/products/10026189/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -92,5 +111,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SANUS HDpro Super Slim LL11-B2 Fixed 40-85\" TV Bracket",
+        "LOGIK L3HDMI21 High Speed HDMI Cable with Ethernet - 3 m",
+        "SANDSTROM SCMS214 Cable Management Sleeve"
+      ],
+      "totalPrice": 52.49,
+      "savings": 42.5
+    }
+  ]
 }

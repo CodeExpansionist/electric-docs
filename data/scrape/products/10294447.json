@@ -93,7 +93,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bar",
+      "title": "LG USG10TY 3.1 Wireless Sound Bar with Dolby Atmos",
+      "price": 999,
+      "rating": 4.6,
+      "reviewCount": 30,
+      "image": "/images/products/10262670/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {
@@ -142,5 +167,16 @@
     "class": "E",
     "labelUrl": "/documents/energy-labels/10294447-label.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG G5 83\" OLED evo AI 4K HDR Smart TV 2025 OLED83G54LW",
+        "PlayStation 5 Digital Edition"
+      ],
+      "totalPrice": 5728,
+      "savings": 200
+    }
+  ]
 }

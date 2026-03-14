@@ -50,14 +50,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Accessories",
-      "title": "BELKIN BoostCharge 10000 mAh Portable Power Bank - Black",
-      "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10278348?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [],
   "badges": [],
   "specifications": {},

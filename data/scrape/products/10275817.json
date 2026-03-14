@@ -31,7 +31,39 @@
     "nextDayDeliveryPrice": null
   },
   "sizeVariants": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket",
+      "price": 8.99,
+      "wasPrice": 14.99,
+      "savings": 6,
+      "rating": 4.5,
+      "reviewCount": 132,
+      "image": "/images/products/10138716/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Electrical Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "AMAZON Fire TV Stick 4K Select (2025) with Alexa Voice Remote",
+      "price": 25.99,
+      "wasPrice": 49.99,
+      "savings": 24,
+      "rating": 3.7,
+      "reviewCount": 20,
+      "image": "/images/products/10292571/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "careAndRepair": [],
   "offers": [],
   "badges": [],
@@ -39,5 +71,16 @@
   "category": "TVs",
   "_needsEnrichment": true,
   "title": "JVC LT-32CT150 32\" Smart HD Ready HDR LED TV",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "JVC LT-32CT150 32\" Smart HD Ready HDR LED TV",
+        "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket"
+      ],
+      "totalPrice": 128.98,
+      "savings": 6
+    }
+  ]
 }

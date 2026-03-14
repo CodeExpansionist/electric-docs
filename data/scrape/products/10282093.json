@@ -93,7 +93,34 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbars",
+      "title": "LG USC9S 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "price": 799,
+      "wasPrice": 999,
+      "savings": 200,
+      "rating": 4.6,
+      "reviewCount": 76,
+      "image": "/images/products/10248732/main.webp"
+    },
+    {
+      "category": "Cables and Adaptors",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Dolby Vision Atmos"
@@ -135,5 +162,17 @@
     "labelUrl": "/documents/energy-labels/10282093-label.pdf",
     "ficheUrl": "/documents/energy-labels/10282093-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG G5 65\" OLED evo AI 4K HDR Smart TV 2025 (Stand Version) - OLED65G56LS",
+        "LG USC9S 3.1.3 Wireless Sound Bar with Dolby Atmos",
+        "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m"
+      ],
+      "totalPrice": 2728,
+      "savings": 0
+    }
+  ]
 }

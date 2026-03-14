@@ -85,7 +85,62 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Televisions",
+      "title": "HISENSE A6Q 50\" LED 4K HDR Smart TV with Freely - 50A6QTUK",
+      "price": 279,
+      "rating": 4.8,
+      "reviewCount": 3959,
+      "image": "/images/products/10284267/main.webp"
+    },
+    {
+      "category": "Televisions",
+      "title": "HISENSE E6Q 43\" LED 4K HDR Smart TV with Freely - 43E6QTUK",
+      "price": 229,
+      "wasPrice": 239,
+      "savings": 10,
+      "rating": 4.8,
+      "reviewCount": 3959,
+      "image": "/images/products/10285478/main.webp"
+    },
+    {
+      "category": "Televisions",
+      "title": "HISENSE A7Q 50\" QLED 4K Smart AI TV with Freely - 50A7QTUK",
+      "price": 449,
+      "rating": 4.7,
+      "reviewCount": 339,
+      "image": "/images/products/10286693/main.webp"
+    },
+    {
+      "category": "Televisions",
+      "title": "HISENSE E7Q 50\" QLED 4K Smart AI TV with Freely - 50E7QTUK",
+      "price": 349,
+      "wasPrice": 399,
+      "savings": 50,
+      "rating": 4.8,
+      "reviewCount": 49,
+      "image": "/images/products/10286826/main.webp"
+    },
+    {
+      "category": "Televisions",
+      "title": "HISENSE U7Q 50\" Mini LED 4K 144Hz Smart AI TV with Freely - 50U7QTUK",
+      "price": 549,
+      "rating": 5,
+      "reviewCount": 12,
+      "image": "/images/products/10284445/main.webp"
+    },
+    {
+      "category": "Televisions",
+      "title": "HISENSE E7Q PRO 50\" QLED 4K HDR Smart TV with Freely - 50E7QTUK PRO",
+      "price": 449,
+      "wasPrice": 499,
+      "savings": 50,
+      "rating": 4.8,
+      "reviewCount": 934,
+      "image": "/images/products/10287487/main.webp"
+    }
+  ],
   "offers": [
     "Get 50% off selected soundbars when bought with any Hisense TV. Use code HSN50 at checkout.+2 more offers"
   ],

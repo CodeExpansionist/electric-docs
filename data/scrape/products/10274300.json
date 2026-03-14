@@ -93,7 +93,28 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "SAMSUNG HW-QS700F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 599,
+      "wasPrice": 649,
+      "savings": 50,
+      "rating": 5,
+      "reviewCount": 8,
+      "image": "/images/products/10282184/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cable Management",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [
     "Get £250 off this TV when you trade-in any old TV. Use TRADETV250 and select Recycling at checkout.+5 more offers"
   ],
@@ -113,5 +134,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG The Premiere SP-LPU7DSAXXXU Smart 4K Laser Projector - White",
+        "SANDSTROM Gold Series S3HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 3 m"
+      ],
+      "totalPrice": 2448.99,
+      "savings": 0
+    }
+  ]
 }

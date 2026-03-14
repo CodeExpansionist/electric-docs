@@ -62,7 +62,32 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "SONY WH-CH720N Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "price": 69.99,
+      "wasPrice": 74.99,
+      "savings": 5,
+      "rating": 4.5,
+      "reviewCount": 1982,
+      "image": "/images/products/10247673/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM S35RCA23 RCA to 3.5 mm Audio Cable - 1.8 m",
+      "price": 10.99,
+      "image": "/images/products/10236884/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM S3535C23 3.5 mm Aux Cable - 1.8 m",
+      "price": 9.99,
+      "rating": 4.2,
+      "reviewCount": 18,
+      "image": "/images/products/10236886/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -83,5 +108,16 @@
   "lastUpdated": "2026-03-06T15:49:44.753Z",
   "galleryImages": [
     "https://cdn.media.amplience.net/i/electrizprod/M10164499_black?$l-large$&fmt=auto"
+  ],
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "DENON DM-41DAB Wireless Traditional Hi-Fi System - Black",
+        "SANDSTROM S3535C23 3.5 mm Aux Cable - 1.8 m"
+      ],
+      "totalPrice": 408.99,
+      "savings": 0
+    }
   ]
 }

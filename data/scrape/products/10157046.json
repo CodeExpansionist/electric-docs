@@ -66,7 +66,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L6WAY2M18 6-Socket Extension Lead - 2 m",
+      "price": 17.99,
+      "rating": 4.8,
+      "reviewCount": 23,
+      "image": "/images/products/10175007/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

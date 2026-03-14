@@ -152,7 +152,34 @@
     "nextDayDeliveryPrice": null
   },
   "sizeVariants": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bars",
+      "title": "LG USC9S 3.1.3 Wireless Sound Bar with Dolby Atmos",
+      "price": 799,
+      "wasPrice": 999,
+      "savings": 200,
+      "rating": 4.6,
+      "reviewCount": 76,
+      "image": "/images/products/10248732/main.webp"
+    },
+    {
+      "category": "Power Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Accessories",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "careAndRepair": [
     {
       "type": "Care & Repair",
@@ -170,5 +197,16 @@
   },
   "category": "TVs",
   "title": "LG C5 77\" OLED evo AI 4K HDR Smart TV 2025 - OLED77C54LA",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG C5 77\" OLED evo AI 4K HDR Smart TV 2025 (OLED77C54LA)",
+        "PlayStation 5"
+      ],
+      "totalPrice": 2878,
+      "savings": 0
+    }
+  ]
 }

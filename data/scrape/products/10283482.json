@@ -85,7 +85,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Add a soundbar",
+      "title": "PHILIPS TAB8507/10 3.1 Wireless Sound Bar with Dolby Atmos",
+      "price": 299,
+      "rating": 4.3,
+      "reviewCount": 28,
+      "image": ""
+    },
+    {
+      "category": "Add a TV wall bracket",
+      "title": "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket",
+      "price": 49.99,
+      "rating": 4.7,
+      "reviewCount": 312,
+      "image": ""
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -108,5 +125,16 @@
     "labelUrl": "/documents/energy-labels/10283482-label.pdf",
     "ficheUrl": "/documents/energy-labels/10283482-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "Philips Ambilight 75PUS8808 75\" Smart 4K Ultra HD HDR LED TV",
+        "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket"
+      ],
+      "totalPrice": 1248,
+      "savings": 51.99
+    }
+  ]
 }

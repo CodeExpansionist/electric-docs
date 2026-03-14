@@ -85,7 +85,28 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Cinema System or Soundbar",
+      "title": "SAMSUNG HW-S60D/XU 5.0 All-in-One Sound Bar with Dolby Atmos, DTS Virtual:X & Amazon Alexa - Black",
+      "price": 389,
+      "wasPrice": 399,
+      "savings": 10,
+      "rating": 4.6,
+      "reviewCount": 200,
+      "image": "/images/products/10263880/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -108,5 +129,17 @@
     "labelUrl": "/documents/energy-labels/10282607-label.pdf",
     "ficheUrl": "/documents/energy-labels/10282607-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy Together and Save",
+      "items": [
+        "SAMSUNG Q7F 75\" QLED 4K Vision AI Smart TV 2025 - QE75Q7F",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar"
+      ],
+      "totalPrice": 955.99,
+      "savings": 0
+    }
+  ]
 }

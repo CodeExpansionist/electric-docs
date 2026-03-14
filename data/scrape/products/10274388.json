@@ -73,7 +73,88 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket",
+      "price": 14.99,
+      "wasPrice": 29.99,
+      "savings": 15,
+      "rating": 4.5,
+      "reviewCount": 132,
+      "image": "/images/products/10138716/main.webp"
+    },
+    {
+      "category": "Accessories",
+      "title": "LEGO Botanicals 10347 Petite Sunny Bouquet Set",
+      "price": 19.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10291310/main.webp"
+    },
+    {
+      "category": "Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Accessories",
+      "title": "LAZERBUILT Rick & Morty Wireless Bluetooth Earbuds - Grey & Green",
+      "price": 6.97,
+      "image": "/images/products/10290968/main.webp"
+    },
+    {
+      "category": "Accessories",
+      "title": "CHIPOLO CH-C19M-BE-R ONE Bluetooth Item Finder - Blue",
+      "price": 9.97,
+      "wasPrice": 24.99,
+      "savings": 15.02,
+      "rating": 4.6,
+      "reviewCount": 14,
+      "image": "/images/products/10266769/main.webp"
+    },
+    {
+      "category": "Accessories",
+      "title": "QUARTO The Complete Air Fryer Cookbook",
+      "price": 20,
+      "image": "/images/products/10274332/main.webp"
+    },
+    {
+      "category": "Accessories",
+      "title": "MASTERPLUG SHADC-MP Shaver Adapter",
+      "price": 3.99,
+      "rating": 4.7,
+      "reviewCount": 120,
+      "image": "/images/products/10145121/main.webp"
+    },
+    {
+      "category": "Accessories",
+      "title": "VELD VPB2065B 65 W Super-Fast 20,000 mAh Portable Laptop Power Bank - Black",
+      "price": 59.99,
+      "image": "/images/products/10283225/main.webp"
+    },
+    {
+      "category": "Accessories",
+      "title": "RED5 2 Player Retro Dance Mat",
+      "price": 47.99,
+      "rating": 2,
+      "reviewCount": 1,
+      "image": "/images/products/10290655/main.webp"
+    },
+    {
+      "category": "Accessories",
+      "title": "CHIPOLO CH-C19M-BK-R ONE Bluetooth Item Finder - Black",
+      "price": 9.97,
+      "wasPrice": 24.99,
+      "savings": 15.02,
+      "rating": 5,
+      "reviewCount": 2,
+      "image": "/images/products/10266753/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Freely TV"
@@ -128,5 +209,16 @@
   },
   "category": "TVs",
   "energyRating": "E",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LOGIK L32RHE25 Roku 32\" Smart HD Ready HDR LED TV",
+        "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket"
+      ],
+      "totalPrice": 128.98,
+      "savings": 61
+    }
+  ]
 }

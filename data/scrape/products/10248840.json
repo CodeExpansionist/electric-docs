@@ -85,7 +85,37 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bars",
+      "title": "SONY HT-A3000 3.1 All-in-One Sound Bar with Dolby Atmos",
+      "price": 448.89,
+      "wasPrice": 599,
+      "savings": 150.11,
+      "rating": 4.4,
+      "reviewCount": 454,
+      "image": "/images/products/10242949/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cables",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [
     "What HiFi 5 Star"
@@ -110,5 +140,17 @@
     "labelUrl": "/documents/energy-labels/10248840-label.pdf",
     "ficheUrl": "/documents/energy-labels/10248840-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SONY BRAVIA KD-75X85LU 75\" Smart 4K Ultra HD HDR LED TV with Google Assistant",
+        "SONY HT-SF150 2.0 Sound Bar",
+        "SANDSTROM S150AVC20 Screen Cleaner"
+      ],
+      "totalPrice": 1205.99,
+      "savings": 150.11
+    }
+  ]
 }

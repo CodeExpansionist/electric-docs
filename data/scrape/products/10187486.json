@@ -38,10 +38,36 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Cables & adaptors",
+      "category": "Cables and Accessories",
       "title": "LOGIK LCMK123 Cable Management Kit",
       "price": 9.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10245806?$s-swatch$&fmt=auto"
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK LHDSW19 3-Port HDMI Switch",
+      "price": 29.99,
+      "rating": 4,
+      "reviewCount": 125,
+      "image": "/images/products/10185059/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L10AERK15 Aerial Cable with Splitter & Adapter - 10 m",
+      "price": 17.49,
+      "rating": 4,
+      "reviewCount": 27,
+      "image": "/images/products/10119437/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK LAEK19 Aerial Cable & Adapters Extension Kit - 15 m",
+      "price": 11.49,
+      "rating": 3.6,
+      "reviewCount": 39,
+      "image": "/images/products/10187488/main.webp"
     }
   ],
   "offers": [
@@ -82,5 +108,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LOGIK LHDMEX19 HDMI Adapter",
+        "LOGIK LCMK123 Cable Management Kit"
+      ],
+      "totalPrice": 16.98,
+      "savings": 0
+    }
+  ]
 }

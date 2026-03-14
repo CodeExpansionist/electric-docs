@@ -85,7 +85,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "TCL Q65H 5.1 Wireless Soundbar with Dolby Atmos & DTS:X",
+      "price": 299,
+      "rating": 4.9,
+      "reviewCount": 7,
+      "image": "/images/products/10286618/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

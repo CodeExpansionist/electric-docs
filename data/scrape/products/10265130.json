@@ -113,5 +113,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "SAMSUNG The Serif QE50LS01DAUXXU 50\" Smart 4K Ultra HD HDR QLED TV with Bixby & Amazon Alexa - Cloud White",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 892.98,
+      "savings": 24
+    }
+  ]
 }

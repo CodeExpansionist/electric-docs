@@ -56,7 +56,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Power Cables",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -74,5 +83,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "DVD Blu-ray",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "PANASONIC DMR-EX97EB-K DVD Player with Freeview HD Recorder - 500 GB HDD",
+        "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m"
+      ],
+      "totalPrice": 298.99,
+      "savings": 0
+    }
+  ]
 }

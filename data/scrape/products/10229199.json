@@ -73,7 +73,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "DVD Players",
+      "title": "SONY DVPSR760HB DVD Player",
+      "price": 39,
+      "rating": 4.6,
+      "reviewCount": 2877,
+      "image": "/images/products/12872098/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    }
+  ],
   "offers": [
     "Save 50% on Sony Home Cinema Accessories when bought with any Sony soundbar+1 more offers"
   ],

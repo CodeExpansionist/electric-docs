@@ -85,7 +85,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Cinema System",
+      "title": "TCL Q75HK 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS:X",
+      "price": 349,
+      "wasPrice": 399,
+      "savings": 50,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "image": "/images/products/10271087/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -108,5 +127,17 @@
     "labelUrl": "/documents/energy-labels/10285851-label.pdf",
     "ficheUrl": "/documents/energy-labels/10285851-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "TCL 98P8K 98\" Smart 4K Ultra HD HDR QLED TV",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 1442.98,
+      "savings": 24
+    }
+  ]
 }

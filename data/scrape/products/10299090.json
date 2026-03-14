@@ -63,14 +63,7 @@
       "price": 31.99
     }
   ],
-  "crossSellProducts": [
-    {
-      "category": "Accessories",
-      "title": "SAMSUNG 45w USB-C Fast Charger & USB-C Cable",
-      "price": 31.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10271743?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get 30% off Samsung Galaxy Buds4 and Buds4 Pro When Bought With any new Samsung S26 mobile phone"
   ],

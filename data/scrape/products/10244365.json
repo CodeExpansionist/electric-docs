@@ -67,7 +67,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Blu-ray Players",
+      "title": "SONY DVPSR760HB DVD Player",
+      "price": 39,
+      "rating": 4.6,
+      "reviewCount": 2877,
+      "image": "/images/products/12872098/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
+    }
+  ],
   "offers": [
     "Get £20 off JBL BAR 2.0 MK II Compact Sound Bar when bought with any TV.+1 more offers"
   ],

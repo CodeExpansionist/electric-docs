@@ -52,10 +52,6 @@
   },
   "keySpecs": [
     {
-      "icon": "dolby",
-      "label": "Dolby Vision Atmos"
-    },
-    {
       "icon": "freely",
       "label": "Freely TV"
     }
@@ -92,16 +88,30 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Cleaning products",
-      "title": "SANDSTROM S150AVC20 Screen Cleaner",
-      "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Sound System",
+      "category": "Home Cinema System",
       "title": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
       "price": 179,
-      "image": "https://media.electriz.biz/i/electrizprod/10280658?$s-swatch$&fmt=auto"
+      "wasPrice": 229,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 36,
+      "image": "/images/products/10280658/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Sound Bar",
+      "title": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "price": 69,
+      "rating": 4.6,
+      "reviewCount": 271,
+      "image": "/images/products/10244299/main.webp"
     }
   ],
   "offers": [
@@ -110,11 +120,11 @@
   "badges": [
     {
       "type": "promo",
-      "image": "https://media.electriz.biz/i/electrizprod/bwepicdealred-99119?fmt=auto"
+      "image": "/images/icons/badge-epic-deal-alt.png"
     },
     {
       "type": "deal",
-      "image": "https://media.electriz.biz/i/electrizprod/tradesticker-93035?fmt=auto"
+      "image": "/images/icons/badge-trade-in.png"
     }
   ],
   "specifications": {},
@@ -133,5 +143,17 @@
     "standardDeliveryPrice": 20,
     "nextDayDeliveryPrice": 30
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE E7Q 75\" QLED 4K Smart AI TV with Freely - 75E7QTUK",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar"
+      ],
+      "totalPrice": 725.99,
+      "savings": 0
+    }
+  ]
 }

@@ -84,7 +84,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "LOGIK L15SAC23 Audio Cable - 1.5 m",
+      "price": 6.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10234489/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

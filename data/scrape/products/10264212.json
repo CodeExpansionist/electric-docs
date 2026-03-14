@@ -85,7 +85,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Optional Accessories",
+      "title": "HISENSE AX3120Q 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 399,
+      "rating": 4.9,
+      "reviewCount": 8,
+      "image": "/images/products/10280615/main.webp"
+    },
+    {
+      "category": "Optional Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Optional Accessories",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [
     "Get Free Delivery when you purchase this TV.+3 more offers"
   ],
@@ -105,5 +130,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE 75U8NQTUK 75\" Smart 4K Ultra HD HDR Mini LED TV with Amazon Alexa",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar"
+      ],
+      "totalPrice": 1275.99,
+      "savings": 0
+    }
+  ]
 }

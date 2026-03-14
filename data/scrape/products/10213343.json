@@ -78,7 +78,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Chargers",
+      "title": "VELD VH30DW Super-Fast 30 W 2-port USB Wall Charger - White",
+      "price": 24.99,
+      "rating": 5,
+      "reviewCount": 3,
+      "image": "/images/products/10256233/main.webp"
+    },
+    {
+      "category": "Power Banks",
+      "title": "BELKIN 20000 mAh Portable Power Bank - Black",
+      "price": 19.99,
+      "wasPrice": 24.99,
+      "savings": 5,
+      "rating": 4.6,
+      "reviewCount": 369,
+      "image": "/images/products/10238045/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -96,5 +115,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Headphones",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SKULLCANDY Crusher Evo Wireless Bluetooth Headphones - True Black",
+        "BELKIN 20000 mAh Portable Power Bank - Black"
+      ],
+      "totalPrice": 118.99,
+      "savings": 80
+    }
+  ]
 }

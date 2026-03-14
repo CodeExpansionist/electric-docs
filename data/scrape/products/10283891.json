@@ -85,7 +85,42 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Audio",
+      "title": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
+      "price": 179,
+      "wasPrice": 229,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 36,
+      "image": "/images/products/10280658/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Audio",
+      "title": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "price": 69,
+      "rating": 4.6,
+      "reviewCount": 271,
+      "image": "/images/products/10244299/main.webp"
+    },
+    {
+      "category": "Mounts & Brackets",
+      "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 59.99,
+      "rating": 4.3,
+      "reviewCount": 12,
+      "image": "/images/products/10249239/main.webp"
+    }
+  ],
   "offers": [
     "Get 50% off selected soundbars when bought with any Hisense TV. Use code HSN50 at checkout.+2 more offers"
   ],
@@ -105,5 +140,18 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE E7Q 65\" QLED 4K Smart AI TV with Freely - 65E7QTUK",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 611.98,
+      "savings": 124
+    }
+  ]
 }

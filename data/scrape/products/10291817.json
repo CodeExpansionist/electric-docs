@@ -85,7 +85,34 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "SONY BRAVIA Theatre Bar 60 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 449,
+      "wasPrice": 499,
+      "savings": 50,
+      "rating": 4.5,
+      "reviewCount": 22,
+      "image": "/images/products/10282356/main.webp"
+    },
+    {
+      "category": "Cable/Adaptor",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [
     "Get £250 off this TV when you trade-in any old TV. Use TRADETV250 and select Recycling at checkout.+4 more offers"
   ],
@@ -105,5 +132,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SONY BRAVIA 8A 77\" OLED 4K HDR AI Smart TV - K77XR8AB",
+        "SONY HT-SF150 2.0 Sound Bar",
+        "SANDSTROM S150AVC20 Screen Cleaner"
+      ],
+      "totalPrice": 2705.99,
+      "savings": 0
+    }
+  ]
 }

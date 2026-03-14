@@ -80,7 +80,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Chargers",
+      "title": "VELD VH30DW Super-Fast 30 W 2-port USB Wall Charger - White",
+      "price": 24.99,
+      "rating": 5,
+      "reviewCount": 3,
+      "image": "/images/products/10256233/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "BELKIN Braided Lightning to USB-A Cable - 1 m, White",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.8,
+      "reviewCount": 46,
+      "image": "/images/products/10206893/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -98,5 +117,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Headphones",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "BOSE QuietComfort Wireless Bluetooth Noise-Cancelling Headphones - White Smoke",
+        "BELKIN Braided Lightning to USB-A Cable - 1 m, White"
+      ],
+      "totalPrice": 240.99,
+      "savings": 73
+    }
+  ]
 }

@@ -75,7 +75,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Blu-ray Players",
+      "title": "PANASONIC DP-UB159EB 4K Ultra HD Blu-ray & DVD Player",
+      "price": 169,
+      "rating": 4.5,
+      "reviewCount": 235,
+      "image": "/images/products/10191562/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -93,5 +110,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Soundbars",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "PANASONIC SC-HTB150EBK 2.1 Wireless Compact Sound Bar - Black",
+        "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m"
+      ],
+      "totalPrice": 98.99,
+      "savings": 0
+    }
+  ]
 }

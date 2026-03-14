@@ -89,7 +89,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Audio",
+      "title": "LG US70TR 5.1.1 Wireless Sound Bar with Dolby Atmos",
+      "price": 699,
+      "rating": 4.8,
+      "reviewCount": 49,
+      "image": "/images/products/10262662/main.webp"
+    },
+    {
+      "category": "Cables & Adaptors",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {
@@ -129,5 +154,16 @@
     "labelUrl": "/documents/energy-labels/10282161-label.pdf",
     "ficheUrl": "/documents/energy-labels/10282161-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy Together and Save",
+      "items": [
+        "LG UA75 86\" LED 4K HDR Smart TV 2025 - 86UA75006LA",
+        "SANDSTROM S150AVC20 Screen Cleaner"
+      ],
+      "totalPrice": 906.99,
+      "savings": 0
+    }
+  ]
 }

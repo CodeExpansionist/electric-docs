@@ -85,7 +85,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bar",
+      "title": "LG SQC1 2.1 Wireless Compact Sound Bar",
+      "price": 129.99,
+      "rating": 4.4,
+      "reviewCount": 89,
+      "image": "/images/products/10248390/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {
@@ -126,5 +143,17 @@
     "labelUrl": "/documents/energy-labels/10281768-label.pdf",
     "ficheUrl": "/documents/energy-labels/10281768-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "LG B5 55\" OLED AI 4K HDR Smart TV 2025 - OLED55B56LA",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 1042.98,
+      "savings": 124
+    }
+  ]
 }

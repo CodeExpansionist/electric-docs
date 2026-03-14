@@ -75,7 +75,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "DVD Players",
+      "title": "SONY DVPSR170B DVD Player",
+      "price": 34.99,
+      "rating": 4.6,
+      "reviewCount": 274,
+      "image": "/images/products/12872098/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM AV Silver Series Digital Optical Cable - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 93,
+      "image": "/images/products/21948996/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -96,5 +113,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "Soundbars",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SONY HT-S40R 5.1 Sound Bar",
+        "SANDSTROM AV Silver Series Digital Optical Cable - 1 m"
+      ],
+      "totalPrice": 310.99,
+      "savings": 53
+    }
+  ]
 }

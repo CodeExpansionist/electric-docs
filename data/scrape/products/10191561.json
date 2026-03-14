@@ -77,14 +77,33 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Extension Leads",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Soundbars",
+      "title": "PANASONIC SC-HTB150EBK 2.1 Wireless Compact Sound Bar - Black",
+      "price": 79,
+      "wasPrice": 89,
+      "savings": 10,
+      "rating": 4.5,
+      "reviewCount": 46,
+      "image": "/images/products/10240681/main.webp"
+    }
+  ],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],
   "badges": [
     {
       "type": "Award",
-      "image": "https://media.electriz.biz/i/electrizprod/what_hifi_5_star-6658.jpg?fmt=auto"
+      "image": "/images/icons/award-what-hifi-5-star.jpg"
     }
   ],
   "specifications": {},

@@ -93,7 +93,36 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "SAMSUNG HW-S60D/XU 5.0 All-in-One Sound Bar",
+      "price": 389,
+      "wasPrice": 399,
+      "savings": 10,
+      "rating": 4.6,
+      "reviewCount": 200,
+      "image": "/images/products/10263880/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "TV Bracket",
+      "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 59.99,
+      "rating": 4.3,
+      "reviewCount": 12,
+      "image": "/images/products/10249239/main.webp"
+    }
+  ],
   "offers": [
     "Get £50 off this TV when you trade-in any old TV. Use TRADETV50 and select Recycling at checkout.+4 more offers"
   ],
@@ -113,5 +142,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "SAMSUNG The Serif QE43LS01DAUXXU 43\" Smart 4K Ultra HD HDR QLED TV with Bixby & Amazon Alexa - Cloud White",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 742.98,
+      "savings": 24
+    }
+  ]
 }

@@ -85,10 +85,43 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bar",
+      "title": "SAMSUNG HW-Q800F/XU 5.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 699,
+      "rating": 4.8,
+      "reviewCount": 32,
+      "image": "/images/products/10282183/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Sound Bar",
+      "title": "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar",
+      "price": 99,
+      "rating": 4.5,
+      "reviewCount": 40,
+      "image": "/images/products/10282182/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
-    "Loved by Currys"
+    "Loved by Electriz"
   ],
   "specifications": {},
   "description": {
@@ -110,5 +143,17 @@
     "labelUrl": "/documents/energy-labels/10284439-label.pdf",
     "ficheUrl": "/documents/energy-labels/10284439-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG S90F 83\" OLED 4K Vision AI Smart TV 2025 - QE83S90F",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar"
+      ],
+      "totalPrice": 3705.99,
+      "savings": 0
+    }
+  ]
 }

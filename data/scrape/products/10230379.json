@@ -86,15 +86,19 @@
   "crossSellProducts": [
     {
       "category": "Speakers",
-      "title": "SONOS Era 100 Wireless Multi-room Speaker with Amazon Alexa - White",
-      "price": 199,
-      "image": "https://media.electriz.biz/i/electrizprod/10247701?$s-swatch$&fmt=auto"
+      "title": "SONOS Roam 2 Portable Wireless Multi-room Speaker with Amazon Alexa - Black",
+      "price": 179,
+      "rating": 4.7,
+      "reviewCount": 324,
+      "image": "/images/products/10263677/main.webp"
     },
     {
-      "category": "Cables and accessories",
+      "category": "Cables",
       "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
       "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10132171?$s-swatch$&fmt=auto"
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
     }
   ],
   "offers": [
@@ -118,5 +122,16 @@
     "standardDeliveryPrice": 3.99,
     "nextDayDeliveryPrice": 5.99
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SONOS Beam (Gen 2) Compact Sound Bar with Dolby Atmos, Alexa & Google Assistant - Black",
+        "SONOS SUB Mini Wireless Subwoofer - Black"
+      ],
+      "totalPrice": 878,
+      "savings": 0
+    }
+  ]
 }

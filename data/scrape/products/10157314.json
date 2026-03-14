@@ -64,7 +64,24 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and accessories",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 14.99,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
+    },
+    {
+      "category": "Cables and accessories",
+      "title": "LOGIK Surge Protected 4-Socket Extension Lead with USB - 2 m",
+      "price": 16.99,
+      "rating": 4.7,
+      "reviewCount": 145,
+      "image": "/images/products/10271721/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

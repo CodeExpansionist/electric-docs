@@ -85,10 +85,37 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Currys Recommends",
+      "title": "LG US95TR 9.1.5 Wireless Sound Bar with Dolby Atmos",
+      "price": 1399,
+      "wasPrice": 1499,
+      "savings": 100,
+      "rating": 5,
+      "reviewCount": 24,
+      "image": "/images/products/10262748/main.webp"
+    },
+    {
+      "category": "Currys Recommends",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Currys Recommends",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
-    "Loved by Currys"
+    "Loved by Electriz"
   ],
   "specifications": {
     "Display": {
@@ -132,5 +159,16 @@
     "class": "F",
     "labelUrl": "/documents/energy-labels/10294457-label.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG C5 83\" OLED evo AI 4K HDR Smart TV 2025 (OLED83C54LA)",
+        "PlayStation 5"
+      ],
+      "totalPrice": 3878,
+      "savings": 400
+    }
+  ]
 }

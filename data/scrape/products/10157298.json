@@ -66,7 +66,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK LAEK19 Aerial Cable & Adapters Extension Kit - 15 m",
+      "price": 11.49,
+      "rating": 3.6,
+      "reviewCount": 39,
+      "image": "/images/products/10187488/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L6WAY4S18 6-Socket Extension Lead - 4 m",
+      "price": 24.99,
+      "rating": 4.7,
+      "reviewCount": 84,
+      "image": "/images/products/10175001/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

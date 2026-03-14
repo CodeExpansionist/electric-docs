@@ -81,7 +81,37 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Systems",
+      "title": "BOSE TV Speaker",
+      "price": 199,
+      "wasPrice": 269,
+      "savings": 70,
+      "rating": 4.6,
+      "reviewCount": 502,
+      "image": "/images/products/10207493/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cables and Adapters",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

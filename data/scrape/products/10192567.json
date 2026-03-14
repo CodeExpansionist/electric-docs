@@ -41,7 +41,9 @@
       "category": "Batteries",
       "title": "DURACELL Optimum AAA Alkaline Batteries - Pack of 4",
       "price": 4.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10230780?$s-swatch$&fmt=auto"
+      "rating": 5,
+      "reviewCount": 4,
+      "image": "/images/products/10230780/main.webp"
     }
   ],
   "offers": [
@@ -65,5 +67,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SKY SKY135 Sky-Q Voice Remote Control",
+        "DURACELL Optimum AAA Alkaline Batteries - Pack of 4"
+      ],
+      "totalPrice": 41.98,
+      "savings": 0
+    }
+  ]
 }

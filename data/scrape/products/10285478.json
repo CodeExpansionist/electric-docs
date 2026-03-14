@@ -59,9 +59,52 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "productId": "10257243",
-      "name": "HISENSE HS2100 2.1 Sound Bar",
-      "price": 84
+      "category": "Sound Bar",
+      "title": "HISENSE HS2100 2.1 Wireless Compact Sound Bar with DTS Virtual:X",
+      "price": 84,
+      "wasPrice": 99,
+      "savings": 15,
+      "rating": 4.6,
+      "reviewCount": 143,
+      "image": "/images/products/10257243/main.webp"
+    },
+    {
+      "category": "Television",
+      "title": "HISENSE E6Q 43\" LED 4K HDR Smart TV with Freely - 43E6QTUK",
+      "price": 229,
+      "wasPrice": 239,
+      "savings": 10,
+      "rating": 4.8,
+      "reviewCount": 3959,
+      "image": "/images/products/10285478/main.webp"
+    },
+    {
+      "category": "Television",
+      "title": "HISENSE A7Q 43\" QLED 4K Smart AI TV with Freely - 43A7QTUK",
+      "price": 399,
+      "rating": 4.7,
+      "reviewCount": 339,
+      "image": "/images/products/10283936/main.webp"
+    },
+    {
+      "category": "Television",
+      "title": "HISENSE E7Q 43\" QLED 4K Smart AI TV with Freely - 43E7QTUK",
+      "price": 299,
+      "wasPrice": 349,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 67,
+      "image": "/images/products/10284262/main.webp"
+    },
+    {
+      "category": "Television",
+      "title": "HISENSE A5Q 40\" QLED Full HD HDR Smart TV with Freely - 40A5QTUK",
+      "price": 249,
+      "wasPrice": 299,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 242,
+      "image": "/images/products/10283624/main.webp"
     }
   ],
   "offers": [
@@ -88,5 +131,16 @@
   "lastUpdated": "2026-03-06T15:49:44.753Z",
   "galleryImages": [
     "https://cdn.media.amplience.net/i/electrizprod/10285478?$l-large$&fmt=auto"
+  ],
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE E6Q 43\" LED 4K HDR Smart TV with Freely - 43E6QTUK",
+        "HISENSE HS2100 2.1 Wireless Compact Sound Bar with DTS Virtual:X"
+      ],
+      "totalPrice": 313,
+      "savings": 0
+    }
   ]
 }

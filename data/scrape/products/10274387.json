@@ -83,7 +83,27 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cleaning products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "TV Bracket",
+      "title": "SANDSTROM SFMGM18 Full Motion 32-55\" TV Bracket",
+      "price": 79.99,
+      "wasPrice": 149,
+      "savings": 69.01,
+      "rating": 4.6,
+      "reviewCount": 102,
+      "image": "/images/products/10174997/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Freely TV"
@@ -142,5 +162,17 @@
   },
   "category": "TVs",
   "energyRating": "E",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LOGIK L40RFE25 Roku 40\"",
+        "SANDSTROM SFMGM18 Full Motion 32-55\" TV Bracket",
+        "SANDSTROM S150AVC20 Screen Cleaner"
+      ],
+      "totalPrice": 215.97,
+      "savings": 32
+    }
+  ]
 }

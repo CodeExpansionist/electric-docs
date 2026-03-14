@@ -78,7 +78,42 @@
       "price": 649
     }
   ],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Soundbar",
+      "title": "HISENSE AX5100Q 5.1 Wireless Sound Bar with Dolby Atmos",
+      "price": 179,
+      "wasPrice": 229,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 36,
+      "image": "/images/products/10280658/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Soundbar",
+      "title": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "price": 69,
+      "rating": 4.6,
+      "reviewCount": 271,
+      "image": "/images/products/10244299/main.webp"
+    }
+  ],
   "careAndRepair": [
     {
       "name": "Breakdown support",
@@ -101,5 +136,17 @@
   "category": "TVs",
   "id": "10283887",
   "title": "HISENSE A6Q 75\" LED 4K HDR Smart TV with Freely - 75A6QTUK",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE A6Q 75\" LED 4K HDR Smart TV with Freely - 75A6QTUK",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar"
+      ],
+      "totalPrice": 725.99,
+      "savings": 0
+    }
+  ]
 }

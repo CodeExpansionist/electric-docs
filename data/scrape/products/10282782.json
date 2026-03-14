@@ -75,7 +75,32 @@
       "price": 1399
     }
   ],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Sound Bar",
+      "title": "HISENSE HS214 2.1 All-in-one Sound Bar",
+      "price": 69,
+      "rating": 4.6,
+      "reviewCount": 271,
+      "image": "/images/products/10244299/main.webp"
+    },
+    {
+      "category": "Cable Management Kit",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    },
+    {
+      "category": "Screen Cleaner",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "careAndRepair": [
     {
       "name": "Care & Repair",
@@ -98,5 +123,17 @@
   "category": "TVs",
   "id": "10282782",
   "title": "HISENSE E7Q PRO 85\" QLED 4K HDR Smart TV with Freely - 85E7QTUK PRO",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE E7Q PRO 85\" QLED 4K HDR Smart TV with Freely - 85E7QTUK PRO",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar"
+      ],
+      "totalPrice": 1475.99,
+      "savings": 0
+    }
+  ]
 }

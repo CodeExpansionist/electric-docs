@@ -85,7 +85,26 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Cinema System",
+      "title": "SAMSUNG HW-Q600F/XU 3.1.2 Wireless Sound Bar with Dolby Atmos",
+      "price": 499,
+      "wasPrice": 549,
+      "savings": 50,
+      "rating": 4.9,
+      "reviewCount": 20,
+      "image": "/images/products/10282181/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [
     "Get £50 off this TV when you trade-in any old TV. Use TRADETV50 and select Recycling at checkout.+4 more offers"
   ],
@@ -105,5 +124,17 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TVs",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG QN85F 55\" Neo QLED 4K Mini LED Vision AI Smart TV 2025 - QE55QN85F",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 972.98,
+      "savings": 144
+    }
+  ]
 }

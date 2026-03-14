@@ -74,7 +74,18 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cable Management",
+      "title": "SANDSTROM SCMS214 Cable Management Sleeve",
+      "price": 7.99,
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.1,
+      "reviewCount": 35,
+      "image": "/images/products/10026189/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -92,5 +103,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy Together and Save",
+      "items": [
+        "AVF SDCL900 900 mm TV Stand with Bracket for up to 65\" TVs - Black & Chrome",
+        "SANDSTROM SCMS214 Cable Management Sleeve"
+      ],
+      "totalPrice": 138.99,
+      "savings": 2
+    }
+  ]
 }

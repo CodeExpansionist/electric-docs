@@ -61,10 +61,32 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "TV Accessories",
+      "category": "Cables and Accessories",
       "title": "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m",
       "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/21948968?$s-swatch$&fmt=auto"
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 45,
+      "image": "/images/products/21948968/main.webp"
+    },
+    {
+      "category": "Digital and Smart TV",
+      "title": "AMAZON Fire TV Stick HD with Alexa Voice Remote (2024)",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.7,
+      "reviewCount": 37,
+      "image": "/images/products/10272322/main.webp"
+    },
+    {
+      "category": "Cables and Adapters",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
     }
   ],
   "offers": [
@@ -85,5 +107,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LOGIK LTPSKM18 Tilt TV Bracket for 26-55\" TVs & Power Starter Kit",
+        "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m"
+      ],
+      "totalPrice": 91.98,
+      "savings": 3
+    }
+  ]
 }

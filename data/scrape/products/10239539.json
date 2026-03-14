@@ -115,16 +115,41 @@
   "sizeVariants": [],
   "crossSellProducts": [
     {
-      "id": "10138713",
-      "name": "LOGIK LFS16 Fixed 10-26\" TV Bracket"
+      "category": "TV Accessories",
+      "title": "LOGIK LFMM16 Full Motion TV Bracket for up to 43\" TVs",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "image": "/images/products/10138717/main.webp",
+      "badge": "Currys Recommends"
     },
     {
-      "id": "10211694",
-      "name": "SANDSTROM S150AVC20 Screen Cleaner"
+      "category": "TV Accessories",
+      "title": "LOGIK LFS16 Fixed 10-26\" TV Bracket",
+      "price": 9.99,
+      "wasPrice": 19.99,
+      "savings": 10,
+      "rating": 4.2,
+      "reviewCount": 37,
+      "image": "/images/products/10138713/main.webp"
     },
     {
-      "id": "10218648",
-      "name": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 1 m"
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 1 m",
+      "price": 34.99,
+      "rating": 4.7,
+      "reviewCount": 32,
+      "image": "/images/products/10218648/main.webp"
     }
   ],
   "careAndRepair": [
@@ -142,5 +167,19 @@
   },
   "category": "TVs",
   "title": "LG 24TQ510S-PZ 24\" Smart HD Ready LED TV Monitor",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "LG 24TQ510S-PZ 24\"",
+        "LOGIK LFMM16",
+        "LOGIK LFS16",
+        "SANDSTROM S150AVC20",
+        "SANDSTROM Gold Series S1HDMI321"
+      ],
+      "totalPrice": 318.95,
+      "savings": 14
+    }
+  ]
 }

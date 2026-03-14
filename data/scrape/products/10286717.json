@@ -79,7 +79,57 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cleaning products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 79,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Wall Mounts",
+      "title": "SANDSTROM SFMS14 Full Motion 16 - 32\" TV Bracket",
+      "price": 17.99,
+      "wasPrice": 59.99,
+      "savings": 42,
+      "rating": 4.5,
+      "reviewCount": 259,
+      "image": "/images/products/21899166/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Sound Bars",
+      "title": "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar",
+      "price": 99,
+      "rating": 4.5,
+      "reviewCount": 40,
+      "image": "/images/products/10282182/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Extension Leads",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Streaming Devices",
+      "title": "AMAZON Fire TV Stick HD with Alexa Voice Remote (2024)",
+      "price": 23.99,
+      "wasPrice": 39.99,
+      "savings": 16,
+      "rating": 4.7,
+      "reviewCount": 37,
+      "image": "/images/products/10272322/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -102,5 +152,16 @@
     "labelUrl": "/documents/energy-labels/10286717-label.pdf",
     "ficheUrl": "/documents/energy-labels/10286717-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SAMSUNG UE32F6000FKXXU 32\" Smart Full HD HDR LED TV",
+        "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar"
+      ],
+      "totalPrice": 278,
+      "savings": 0
+    }
+  ]
 }

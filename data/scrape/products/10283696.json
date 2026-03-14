@@ -45,16 +45,7 @@
     ],
     "video": "https://flv.isitetv.com/media/video/2544/ol_video_img_url__295312_2544.jpg?m=2544&r=1048&t=1"
   },
-  "keySpecs": [
-    {
-      "icon": "dolby",
-      "label": "Dolby Vision Atmos"
-    },
-    {
-      "icon": "loved",
-      "label": "Loved by Currys"
-    }
-  ],
+  "keySpecs": [],
   "sizeOptions": [
     {
       "size": "55\"",
@@ -116,10 +107,20 @@
   ],
   "crossSellProducts": [
     {
-      "category": "Cleaning products",
+      "category": "Home Cinema System or Soundbar",
+      "title": "HISENSE AX3120Q 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 399,
+      "rating": 4.9,
+      "reviewCount": 8,
+      "image": "/images/products/10280615/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "offers": [
@@ -128,7 +129,7 @@
   "badges": [
     {
       "type": "offer",
-      "image": "https://media.electriz.biz/i/electrizprod/dolby_vision_atmos-59196.jpg?fmt=auto"
+      "image": "/images/icons/badge-dolby-vision-atmos.jpg"
     }
   ],
   "specifications": {},
@@ -146,5 +147,18 @@
     "standardDeliveryPrice": 20,
     "nextDayDeliveryPrice": 30
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "HISENSE U7Q PRO 55\" Mini LED 4K 165Hz Smart AI TV with Freely - 55U7QTUK PRO",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "HISENSE HS214 2.1 All-in-one Sound Bar",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 811.98,
+      "savings": 124
+    }
+  ]
 }

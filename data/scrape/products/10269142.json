@@ -56,14 +56,7 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Batteries",
-      "title": "DURACELL Plus 9V Alkaline Battery - Pack of 2",
-      "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10230844?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],

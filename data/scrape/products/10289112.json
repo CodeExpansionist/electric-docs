@@ -77,7 +77,34 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Mounts & Brackets",
+      "title": "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket",
+      "price": 49.99,
+      "wasPrice": 99.99,
+      "savings": 50,
+      "rating": 4.6,
+      "reviewCount": 333,
+      "image": "/images/products/21899164/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Dolby Vision Atmos",
@@ -103,5 +130,16 @@
     "labelUrl": "/documents/energy-labels/10289112-label.pdf",
     "ficheUrl": "/documents/energy-labels/10289112-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "PHILIPS The Xtra MLED950 65\" QD-Mini LED 4K HDR Ambilight Smart TV",
+        "SANDSTROM STL14 Tilt 42 - 75\" TV Bracket"
+      ],
+      "totalPrice": 1228.99,
+      "savings": 70
+    }
+  ]
 }

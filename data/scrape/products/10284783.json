@@ -48,7 +48,58 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "PHILIPS Ambilight 43PUS8000/05 43\" Smart 4K Ultra HD HDR LED TV",
+      "price": 239,
+      "wasPrice": 279,
+      "savings": 40,
+      "rating": 4.4,
+      "reviewCount": 68,
+      "image": "/images/products/10283436/main.webp"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "PHILIPS 43PUS7800/05 43\" Smart 4K Ultra HD HDR QLED TV",
+      "price": 239,
+      "wasPrice": 319,
+      "savings": 80,
+      "rating": 4.1,
+      "reviewCount": 37,
+      "image": "/images/products/10283434/main.webp"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "PHILIPS Ambilight 43PUS8500/05 43\" Smart 4K Ultra HD HDR QLED TV",
+      "price": 299,
+      "wasPrice": 369,
+      "savings": 70,
+      "rating": 4.8,
+      "reviewCount": 354,
+      "image": "/images/products/10283438/main.webp"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "PHILIPS Ambilight 32PFS6900/05 32\" Smart Full HD HDR LED TV",
+      "price": 189,
+      "wasPrice": 229,
+      "savings": 40,
+      "rating": 4.7,
+      "reviewCount": 7,
+      "image": "/images/products/10283424/main.webp"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "PHILIPS PUS7000 65\" LED 4K HDR Smart TV - 65PUS7000/05",
+      "price": 359,
+      "wasPrice": 499,
+      "savings": 140,
+      "rating": 4.1,
+      "reviewCount": 37,
+      "image": "/images/products/10284789/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

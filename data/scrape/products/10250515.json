@@ -60,20 +60,7 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [
-    {
-      "category": "Cables and accessories",
-      "title": "SANDSTROM Black Series S2AER114X Aerial Cable & Adapter - 2 m",
-      "price": 11.99,
-      "image": "https://media.electriz.biz/i/electrizprod/21948968?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "Remote controls",
-      "title": "ONE FOR ALL Essence TV URC1211 Universal Remote Control",
-      "price": 12.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10249289?$s-swatch$&fmt=auto"
-    }
-  ],
+  "crossSellProducts": [],
   "offers": [],
   "badges": [],
   "specifications": {},

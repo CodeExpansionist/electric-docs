@@ -74,7 +74,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L10AERK15 Aerial Cable with Splitter & Adapter - 10 m",
+      "price": 17.49,
+      "rating": 4,
+      "reviewCount": 27,
+      "image": "/images/products/10119437/main.webp"
+    },
+    {
+      "category": "Extension Leads",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -92,5 +109,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "AVF Lugano 800 mm Oval Pedestal TV Stand for 32-65\" TVs - White",
+        "LOGIK L10AERK15 Aerial Cable with Splitter & Adapter - 10 m"
+      ],
+      "totalPrice": 167.48,
+      "savings": 0
+    }
+  ]
 }

@@ -73,7 +73,17 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cleaning products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -92,5 +102,16 @@
   },
   "category": "TVs",
   "energyRating": "E",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SHARP 1T-C32HE2245KW 32\" Smart HD Ready HDR LED TV - White",
+        "LOGIK Surge Protected 4-Socket Extension Lead with USB - 2 m"
+      ],
+      "totalPrice": 16.99,
+      "savings": 0
+    }
+  ]
 }

@@ -66,10 +66,22 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Accessories",
-      "title": "BELKIN 10000 mAh Portable Power Bank - Black",
-      "price": 15.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10220891?$s-swatch$&fmt=auto"
+      "category": "Chargers",
+      "title": "VELD VH30DW Super-Fast 30 W 2-port USB Wall Charger - White",
+      "price": 24.99,
+      "rating": 5,
+      "reviewCount": 3,
+      "image": "/images/products/10256233/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "BELKIN Braided Lightning to USB-A Cable - 1 m, White",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.8,
+      "reviewCount": 46,
+      "image": "/images/products/10206893/main.webp"
     }
   ],
   "offers": [

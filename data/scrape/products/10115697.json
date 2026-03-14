@@ -52,7 +52,24 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV accessories",
+      "title": "LOGIK L6WAY2M18 6-Socket Extension Lead - 2 m",
+      "price": 17.99,
+      "rating": 4.8,
+      "reviewCount": 23,
+      "image": "/images/products/10175007/main.webp"
+    },
+    {
+      "category": "TV accessories",
+      "title": "GOJI USB Type-A to Micro USB 1m Cable - Black",
+      "price": 7.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10220955/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -70,5 +87,16 @@
     "standardDeliveryDays": "3-5"
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "ESSENTIALS C1SCT15 SCART Cable - 1 m",
+        "GOJI USB Type-A to Micro USB 1m Cable - Black"
+      ],
+      "totalPrice": 16.38,
+      "savings": 1.6
+    }
+  ]
 }

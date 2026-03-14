@@ -85,7 +85,34 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Sound Bars",
+      "title": "PANASONIC SC-HTB150EBK 2.1 Wireless Compact Sound Bar - Black",
+      "price": 79,
+      "wasPrice": 89,
+      "savings": 10,
+      "rating": 4.5,
+      "reviewCount": 46,
+      "image": "/images/products/10240681/main.webp"
+    },
+    {
+      "category": "TV Brackets",
+      "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
+      "price": 59.99,
+      "rating": 4.3,
+      "reviewCount": 12,
+      "image": "/images/products/10249239/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [
     "Award: HD Test Highly Recommended",
@@ -111,5 +138,18 @@
     "labelUrl": "/documents/energy-labels/10284459-label.pdf",
     "ficheUrl": "/documents/energy-labels/10284459-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "PANASONIC Z95B 65\" OLED 4K HDR Smart Fire TV with Freely - TV-65Z95BEB",
+        "SANDSTROM S150AVC20 Screen Cleaner",
+        "PANASONIC SC-HTB150EBK 2.1 Wireless Compact Sound Bar - Black",
+        "SANDSTROM SELP24 Fixed 43-75\" TV Bracket"
+      ],
+      "totalPrice": 2322.97,
+      "savings": 834
+    }
+  ]
 }

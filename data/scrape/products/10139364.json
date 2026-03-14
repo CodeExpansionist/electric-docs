@@ -56,7 +56,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Speakers",
+      "title": "PANASONIC SC-AKX320E-K Bluetooth Megasound Party Hi-Fi System - Black",
+      "price": 179,
+      "rating": 4.5,
+      "reviewCount": 319,
+      "image": "/images/products/10192758/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -74,5 +83,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "DVD Blu-ray",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "PANASONIC DMR-PWT655EB Smart 3D Blu-ray & DVD Player with Freeview Play Recorder - 1 TB HDD",
+        "PANASONIC SC-AKX320E-K Bluetooth Megasound Party Hi-Fi System - Black"
+      ],
+      "totalPrice": 538,
+      "savings": 0
+    }
+  ]
 }

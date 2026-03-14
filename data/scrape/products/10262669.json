@@ -78,16 +78,14 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "DVD Player",
-      "title": "SONY DVPSR760HB DVD Player",
-      "price": 39,
-      "image": "https://media.electriz.biz/i/electrizprod/12872098?$s-swatch$&fmt=auto"
-    },
-    {
-      "category": "HDMI Cable",
-      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
-      "price": 19.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10132171?$s-swatch$&fmt=auto"
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1OPT114X Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.5,
+      "reviewCount": 72,
+      "image": "/images/products/21948996/main.webp"
     }
   ],
   "offers": [

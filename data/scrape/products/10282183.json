@@ -93,7 +93,18 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "SANDSTROM AV Black Series Digital Optical Cable - 1 m",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.7,
+      "reviewCount": 67,
+      "image": "/images/products/21948996/main.webp"
+    }
+  ],
   "offers": [
     "Claim £200 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs.+2 more offers"
   ],

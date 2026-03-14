@@ -68,7 +68,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    },
+    {
+      "category": "Bass Module",
+      "title": "BOSE Bass Module 700 - White",
+      "price": 799,
+      "rating": 4.8,
+      "reviewCount": 73,
+      "image": "/images/products/10186716/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {
@@ -111,5 +128,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "Soundbars",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "BOSE Smart Ultra 5.1.2 Soundbar with Dolby Atmos & Amazon Alexa - White",
+        "BOSE Bass Module 700 - White"
+      ],
+      "totalPrice": 1698,
+      "savings": 0
+    }
+  ]
 }

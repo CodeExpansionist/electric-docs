@@ -46,16 +46,26 @@
   "essentialServices": [],
   "crossSellProducts": [
     {
-      "category": "Accessories",
-      "title": "APPLE AirTag Bluetooth Tracker",
-      "price": 20.75,
-      "image": "https://media.electriz.biz/i/electrizprod/10223699?$s-swatch$&fmt=auto"
+      "category": "Headphones",
+      "title": "APPLE AirPods 4 with Active Noise Cancellation - White",
+      "price": 169,
+      "rating": 4.7,
+      "reviewCount": 306,
+      "image": "/images/products/10270519/main.webp"
     },
     {
       "category": "Accessories",
-      "title": "APPLE AirPods 4 with Active Noise Cancellation - White",
-      "price": 169,
-      "image": "https://media.electriz.biz/i/electrizprod/10270519?$s-swatch$&fmt=auto"
+      "title": "APPLE AirTag (2nd Generation) Bluetooth Tracker",
+      "price": 29,
+      "image": "/images/products/10292973/main.webp"
+    },
+    {
+      "category": "Cables",
+      "title": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 1 m",
+      "price": 34.99,
+      "rating": 4.7,
+      "reviewCount": 32,
+      "image": "/images/products/10218648/main.webp"
     }
   ],
   "offers": [
@@ -80,5 +90,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "Digital & Smart TV",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "APPLE TV 4K (3rd generation) - 64 GB",
+        "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 1 m"
+      ],
+      "totalPrice": 173.99,
+      "savings": 0
+    }
+  ]
 }

@@ -31,7 +31,28 @@
     "nextDayDeliveryPrice": null
   },
   "sizeVariants": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Add a wall bracket",
+      "title": "SANDSTROM SFMS14 Full Motion 16 - 32\" TV Bracket",
+      "price": 17.99,
+      "wasPrice": 29.99,
+      "savings": 42,
+      "rating": 4.5,
+      "reviewCount": 259,
+      "image": "/images/products/21899166/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Add a cable or adaptor",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "careAndRepair": [],
   "offers": [],
   "badges": [],
@@ -39,5 +60,16 @@
   "category": "TVs",
   "_needsEnrichment": true,
   "title": "JVC LT-24CT150 24\" Smart HD Ready HDR LED TV",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "JVC LT-24CT150 24\" Smart HD Ready HDR LED TV",
+        "SANDSTROM SFMS14 Full Motion 16 - 32\" TV Bracket"
+      ],
+      "totalPrice": 137.98,
+      "savings": 12
+    }
+  ]
 }

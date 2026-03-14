@@ -53,13 +53,17 @@
       "category": "Cable Management",
       "title": "LOGIK LCMK123 Cable Management Kit",
       "price": 9.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10245806?$s-swatch$&fmt=auto"
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
     },
     {
       "category": "Screen Cleaner",
       "title": "SANDSTROM S150AVC20 Screen Cleaner",
       "price": 7.99,
-      "image": "https://media.electriz.biz/i/electrizprod/10211694?$s-swatch$&fmt=auto"
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
     }
   ],
   "offers": [
@@ -79,5 +83,16 @@
     "nextDayDeliveryPrice": 5.99
   },
   "category": "TV Accessories",
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together and save",
+      "items": [
+        "SANDSTROM Gold Series S2HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 2 m",
+        "LOGIK LCMK123 Cable Management Kit"
+      ],
+      "totalPrice": 49.98,
+      "savings": 0
+    }
+  ]
 }

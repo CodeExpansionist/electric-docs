@@ -81,7 +81,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Home Cinema System",
+      "title": "JBL BAR 2.0 MK II Compact Sound Bar",
+      "price": 119,
+      "rating": 4.5,
+      "reviewCount": 101,
+      "image": "/images/products/10244365/main.webp"
+    },
+    {
+      "category": "Cable or Adaptor",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
@@ -104,5 +129,16 @@
     "labelUrl": "/documents/energy-labels/10274027-label.pdf",
     "ficheUrl": "/documents/energy-labels/10274027-fiche.pdf"
   },
-  "lastUpdated": "2026-03-06T15:49:44.753Z"
+  "lastUpdated": "2026-03-06T15:49:44.753Z",
+  "bundleDeals": [
+    {
+      "title": "Buy together & save",
+      "items": [
+        "TOSHIBA Fire TV 70QF5D53DB 70\" 4K Ultra HD HDR QLED TV with Alexa",
+        "SANDSTROM SFML16 Full Motion Sliding 37-75\" TV Bracket"
+      ],
+      "totalPrice": 588.4,
+      "savings": 59.6
+    }
+  ]
 }
