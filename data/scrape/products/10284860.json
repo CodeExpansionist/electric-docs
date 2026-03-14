@@ -106,7 +106,7 @@
     "ficheUrl": "/documents/energy-labels/10284860-fiche.pdf"
   },
   "wallBracket": {
-    "text": "Add a wall bracket now and Save £24.00",
+    "text": "Add a wall bracket now and Save \u00a324.00",
     "product": {
       "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
       "price": 35.99,
@@ -168,16 +168,12 @@
     }
   ],
   "offers": [
-    "Get £100 off this TV when you trade-in any old TV. Use TRADETV100 and select Recycling at checkout."
+    "Get \u00a3100 off this TV when you trade-in any old TV. Use TRADETV100 and select Recycling at checkout."
   ],
   "badges": [
     {
       "type": "Recommended",
       "image": "/images/icons/award-trusted-reviews.jpg"
-    },
-    {
-      "type": "Loved by Electriz",
-      "image": "/images/icons/badge-loved-by-electriz.jpg"
     }
   ],
   "specifications": {},

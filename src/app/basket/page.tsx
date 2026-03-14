@@ -20,7 +20,7 @@ function BasketItemCard({
   onSaveForLater: () => void;
 }) {
   return (
-    <div className="border-b border-border pb-6 mb-6">
+    <div className="pb-6 mb-6">
       <div className="flex flex-col sm:flex-row gap-4">
         {/* Product image — clickable, no border */}
         <Link href={`/products/${item.product.slug}`} className="w-[200px] flex-shrink-0 mx-auto sm:mx-0 block">
@@ -73,7 +73,7 @@ function BasketItemCard({
                 </p>
               )}
               {item.product.price.savings && item.product.price.savings > 0 && (
-                <p className="text-xs text-sale font-semibold mt-0.5">
+                <p className="text-xs text-badge font-semibold mt-0.5">
                   Save £{item.product.price.savings.toFixed(2)}
                 </p>
               )}
@@ -183,7 +183,7 @@ function Installation({
   );
 
   return (
-    <div className="border-b border-border pb-6 mb-6 max-w-lg ml-auto">
+    <div className="pb-6 mb-6 sm:pl-[216px]">
       <h3 className="text-base font-bold text-text-primary mb-3 flex items-center gap-2">
         Installation
         <InfoTooltip text="Our professional installers will set up your TV so it's ready to watch. Installation is available for most TVs." />
@@ -199,7 +199,7 @@ function Installation({
         </div>
       </div>
 
-      <label className="flex items-center justify-between p-3 bg-[#FAFAFA] border border-[#E8E8E8] rounded-xl cursor-pointer hover:border-primary transition-colors mb-6">
+      <label className="flex items-center justify-between p-3 bg-light-purple border border-[#E8E8E8] rounded-xl cursor-pointer hover:border-primary transition-colors mb-6">
         <div className="flex items-center gap-3">
           <input
             type="checkbox"
@@ -224,7 +224,7 @@ function Installation({
         </div>
       </div>
 
-      <label className="flex items-center justify-between p-3 bg-[#FAFAFA] border border-[#E8E8E8] rounded-xl cursor-pointer hover:border-primary transition-colors">
+      <label className="flex items-center justify-between p-3 bg-light-purple border border-[#E8E8E8] rounded-xl cursor-pointer hover:border-primary transition-colors">
         <div className="flex items-center gap-3">
           <input
             type="checkbox"
@@ -256,7 +256,7 @@ function Recycling({
   );
 
   return (
-    <div className="pb-6 mb-6 max-w-lg ml-auto">
+    <div className="sm:pl-[216px]">
       <h3 className="text-base font-bold text-text-primary mb-3 flex items-center gap-2">
         Recycling
         <InfoTooltip text="We'll take away your old TV and packaging when we deliver your new one. All items are recycled responsibly." />
@@ -270,7 +270,7 @@ function Recycling({
         </div>
       </div>
 
-      <label className="flex items-center justify-between p-3 bg-[#FAFAFA] border border-[#E8E8E8] rounded-xl cursor-pointer hover:border-primary transition-colors">
+      <label className="flex items-center justify-between p-3 bg-light-purple border border-[#E8E8E8] rounded-xl cursor-pointer hover:border-primary transition-colors">
         <div className="flex items-center gap-3">
           <input
             type="checkbox"
@@ -315,7 +315,7 @@ function OrderSummary({
   onRemovePromo: () => void;
 }) {
   const [promoOpen, setPromoOpen] = useState(!appliedPromo);
-  const [promoCode, setPromoCode] = useState("");
+  const [promoCode, setPromoCode] = useState("1STTV50");
   const [promoError, setPromoError] = useState("");
 
   const handleApply = () => {
@@ -435,7 +435,7 @@ function OrderSummary({
 
       {/* Total savings */}
       {(totalSavings > 0 || (promoDiscount && promoDiscount > 0)) && (
-        <p className="text-xs font-bold text-sale text-right mb-4">
+        <p className="text-xs font-bold text-badge text-right mb-4">
           Total savings: £{(totalSavings + (promoDiscount || 0)).toFixed(2)}
         </p>
       )}
@@ -523,8 +523,9 @@ export default function BasketPage() {
     </div>
 
     <div className="container-main py-6">
-      <h1 className="text-xl font-bold text-text-primary mb-6">
-        Your basket ({itemCount} {itemCount === 1 ? "item" : "items"})
+      <h1 className="text-xl text-text-primary mb-6">
+        <span className="font-bold">Your basket</span>{" "}
+        <span className="font-normal text-text-secondary">({itemCount} {itemCount === 1 ? "item" : "items"})</span>
       </h1>
 
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">

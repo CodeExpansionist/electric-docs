@@ -44,27 +44,27 @@
       "type": "range",
       "options": [
         {
-          "label": "Up to £39.99",
+          "label": "Up to \u00a339.99",
           "count": 4
         },
         {
-          "label": "£40 to £59.99",
+          "label": "\u00a340 to \u00a359.99",
           "count": 10
         },
         {
-          "label": "£60 to £99.99",
+          "label": "\u00a360 to \u00a399.99",
           "count": 22
         },
         {
-          "label": "£100 to £499",
+          "label": "\u00a3100 to \u00a3499",
           "count": 71
         },
         {
-          "label": "£500 to £999",
+          "label": "\u00a3500 to \u00a3999",
           "count": 30
         },
         {
-          "label": "£1000 and over",
+          "label": "\u00a31000 and over",
           "count": 11
         }
       ]
@@ -805,7 +805,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £130 of Samsung tech when you buy this soundbar."
+        "Claim \u00a3130 of Samsung tech when you buy this soundbar."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -1160,7 +1160,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £130 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+        "Claim \u00a3130 of Samsung tech when you buy this soundbar, plus up to \u00a31,000 on selected Samsung TVs."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -1304,7 +1304,7 @@
       ],
       "badges": [],
       "offers": [
-        "Get £20 off JBL BAR 2."
+        "Get \u00a320 off JBL BAR 2."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -1458,7 +1458,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £200 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+        "Claim \u00a3200 of Samsung tech when you buy this soundbar, plus up to \u00a31,000 on selected Samsung TVs."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -1489,7 +1489,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £200 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+        "Claim \u00a3200 of Samsung tech when you buy this soundbar, plus up to \u00a31,000 on selected Samsung TVs."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -1673,7 +1673,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £130 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+        "Claim \u00a3130 of Samsung tech when you buy this soundbar, plus up to \u00a31,000 on selected Samsung TVs."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -1862,7 +1862,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £200 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+        "Claim \u00a3200 of Samsung tech when you buy this soundbar, plus up to \u00a31,000 on selected Samsung TVs."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -2245,7 +2245,7 @@
       ],
       "badges": [],
       "offers": [
-        "Get £50 off LG US40TR 4.1 Wireless Sound Bar when bought with any LG TV."
+        "Get \u00a350 off LG US40TR 4.1 Wireless Sound Bar when bought with any LG TV."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -2357,7 +2357,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £200 of Samsung tech when you buy this soundbar."
+        "Claim \u00a3200 of Samsung tech when you buy this soundbar."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -2698,7 +2698,7 @@
         "2 year guarantee",
         "**29.9% APR**",
         "**29.9%**",
-        "**£1,200**"
+        "**\u00a31,200**"
       ],
       "badges": [],
       "offers": [],
@@ -2758,7 +2758,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £130 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+        "Claim \u00a3130 of Samsung tech when you buy this soundbar, plus up to \u00a31,000 on selected Samsung TVs."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -3011,7 +3011,7 @@
       ],
       "badges": [],
       "offers": [
-        "Get £100 off the JBL BAR 500 MK2 5."
+        "Get \u00a3100 off the JBL BAR 500 MK2 5."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -3073,7 +3073,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £130 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+        "Claim \u00a3130 of Samsung tech when you buy this soundbar, plus up to \u00a31,000 on selected Samsung TVs."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -3104,7 +3104,7 @@
       ],
       "badges": [],
       "offers": [
-        "Get £150 off the JBL BAR 1000 MK2 7."
+        "Get \u00a3150 off the JBL BAR 1000 MK2 7."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -3844,7 +3844,7 @@
         "Pairs with Klipsch Flexus sound ecosystem",
         "**29.9% APR**",
         "**29.9%**",
-        "**£1,200**"
+        "**\u00a31,200**"
       ],
       "badges": [],
       "offers": [
@@ -4186,7 +4186,7 @@
       ],
       "badges": [],
       "offers": [
-        "Claim £300 of Samsung tech when you buy this soundbar, plus up to £1,000 on selected Samsung TVs."
+        "Claim \u00a3300 of Samsung tech when you buy this soundbar, plus up to \u00a31,000 on selected Samsung TVs."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -4335,7 +4335,7 @@
       ],
       "badges": [],
       "offers": [
-        "Get £70 off JBL BAR 300 Compact Sound Bar with Dolby Atmos when bought with any TV."
+        "Get \u00a370 off JBL BAR 300 Compact Sound Bar with Dolby Atmos when bought with any TV."
       ],
       "deliveryFree": true,
       "energyRating": null,
@@ -4343,7 +4343,7 @@
     },
     {
       "productId": "10294673",
-      "name": "DENON DHT-S218 All‑in‑One Sound Bar with Dolby Atmos - Black",
+      "name": "DENON DHT-S218 All\u2011in\u2011One Sound Bar with Dolby Atmos - Black",
       "brand": "Denon",
       "url": "/products/denon-dhts218-all%E2%80%91in%E2%80%91one-sound-bar-with-dolby-atmos-black-10294673.html",
       "imageUrl": "https://cdn.media.amplience.net/i/electrizprod/10294673?$g-small$&fmt=auto",

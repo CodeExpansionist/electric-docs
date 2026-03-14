@@ -89,6 +89,26 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
+  /* Always-visible thin scrollbar for filter sidebar */
+  .scrollbar-visible {
+    scrollbar-width: thin;
+    scrollbar-color: #ABB3B9 #F2F2F2;
+  }
+  .scrollbar-visible::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-visible::-webkit-scrollbar-track {
+    background: #F2F2F2;
+    border-radius: 3px;
+  }
+  .scrollbar-visible::-webkit-scrollbar-thumb {
+    background: #ABB3B9;
+    border-radius: 3px;
+  }
+  .scrollbar-visible::-webkit-scrollbar-thumb:hover {
+    background: #8B959C;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

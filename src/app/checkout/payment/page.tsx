@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useBasket } from "@/lib/basket-context";
 import { useOrders } from "@/lib/orders-context";
 import { luhnCheck, getCardType, formatCardNumber, formatExpiry } from "@/lib/payment-utils";
+import { getNextDeliveryDate, formatDeliveryDate } from "@/lib/delivery-date";
 import { Suspense } from "react";
 
 function CardIcon({ type }: { type: string }) {
@@ -123,8 +124,7 @@ function PaymentPageContent() {
     setIsSubmitting(true);
     setTimeout(() => {
       const orderNum = `ELZ-${Math.random().toString(36).substring(2, 8).toUpperCase()}-${Date.now().toString().slice(-4)}`;
-      const estDate = new Date();
-      estDate.setDate(estDate.getDate() + 4);
+      const estDate = getNextDeliveryDate();
 
       const lastFour = cardNumber.replace(/\D/g, "").slice(-4);
       const payMethod = `${cardType || "Card"} ending ${lastFour}`;
@@ -156,6 +156,15 @@ function PaymentPageContent() {
           county: "",
         },
         customer: { email: customerEmail },
+        billing: {
+          firstName: deliveryName.split(" ").slice(1, -1).join(" ") || deliveryName.split(" ")[1] || "",
+          lastName: deliveryName.split(" ").slice(-1)[0] || "",
+          address1: deliveryAddress,
+          address2: "",
+          city: deliveryCity,
+          postcode: deliveryPostcode,
+          phone: "",
+        },
         paymentMethod: payMethod,
         paymentDetails: {
           cardType: cardType || "Card",

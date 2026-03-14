@@ -49,12 +49,7 @@
     ],
     "video": "https://flv.isitetv.com/media/video/3157/ol_video_img_url__296688_3157.jpg?m=3157&r=1048&t=1"
   },
-  "keySpecs": [
-    {
-      "icon": "freely",
-      "label": "Freely: Stream live & on demand TV for free"
-    }
-  ],
+  "keySpecs": [],
   "sizeOptions": [
     {
       "size": "100\"",
@@ -116,7 +111,7 @@
     }
   ],
   "offers": [
-    "Get £100 off this TV when you trade-in any old TV. Use TRADETV100 and select Recycling at checkout."
+    "Get \u00a3100 off this TV when you trade-in any old TV. Use TRADETV100 and select Recycling at checkout."
   ],
   "badges": [
     {

@@ -20,6 +20,7 @@ export default function LayoutWrapper({
   const pathname = usePathname();
   const isAdmin = pathname.startsWith("/admin");
   const isCheckout = pathname.startsWith("/checkout");
+  const isProduct = pathname.startsWith("/products/");
 
   if (isAdmin) {
     return (
@@ -44,15 +45,15 @@ export default function LayoutWrapper({
   }
 
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <AnnouncementBar />
       <SecondaryNav />
       <Header />
       <MainNav />
-      <USPBar />
-      <main id="main-content">{children}</main>
+      {pathname === "/" && <USPBar />}
+      <main id="main-content" className="flex-1">{children}</main>
       <Footer />
       <SubFooter />
-    </>
+    </div>
   );
 }

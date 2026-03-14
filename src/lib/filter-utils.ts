@@ -6,7 +6,7 @@
  * Single source of truth — any filter logic change only needs to happen here.
  */
 
-import type { CategoryProduct } from "./category-data";
+import type { CategoryProduct, FilterGroup } from "./category-data";
 
 /** Helper: full text built from product name + specs + badges. */
 function fullText(product: CategoryProduct): string {
@@ -404,6 +404,38 @@ export function filterProducts(
   });
 
   return result;
+}
+
+/**
+ * Recalculate filter option counts using the cross-count pattern.
+ * For each filter group, counts are computed against products filtered
+ * by all active groups EXCEPT that group itself.
+ */
+export function recalculateFilterCounts(
+  filters: FilterGroup[],
+  allProducts: CategoryProduct[],
+  activeFilters: Record<string, string[]>
+): FilterGroup[] {
+  return filters.map((group) => {
+    const otherFilters: Record<string, string[]> = {};
+    for (const [key, vals] of Object.entries(activeFilters)) {
+      if (key === group.name) continue;
+      if (key.startsWith("_")) continue;
+      if (!vals?.length) continue;
+      otherFilters[key] = vals;
+    }
+    const baseProducts = filterProducts(allProducts, otherFilters);
+
+    return {
+      ...group,
+      options: group.options.map((option) => ({
+        ...option,
+        count: baseProducts.filter((p) =>
+          doesProductMatchFilter(p, group.name, option.label)
+        ).length,
+      })),
+    };
+  });
 }
 
 /**

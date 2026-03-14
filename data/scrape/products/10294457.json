@@ -43,7 +43,7 @@
   "keySpecs": [
     {
       "icon": "",
-      "label": "Advanced OLED α9 AI processor with AI Super Upscaling"
+      "label": "Advanced OLED \u03b19 AI processor with AI Super Upscaling"
     },
     {
       "icon": "",
@@ -114,9 +114,7 @@
     }
   ],
   "offers": [],
-  "badges": [
-    "Loved by Electriz"
-  ],
+  "badges": [],
   "specifications": {
     "Display": {
       "Screen size": "83\"",
@@ -132,7 +130,7 @@
       "Platform": "webOS"
     },
     "Processing": {
-      "Processor": "α9 AI Processor Gen8"
+      "Processor": "\u03b19 AI Processor Gen8"
     },
     "General": {
       "Screen size": "83\"",
@@ -140,7 +138,7 @@
     }
   },
   "description": {
-    "main": "Epic gaming meets cinematic brilliance. The LG C5 83\" OLED evo AI 4K HDR Smart TV paired with the PlayStation 5 delivers a premium entertainment bundle. The α9 AI processor enhances picture and audio quality, while Brightness Booster Ultimate ensures stunning visuals.",
+    "main": "Epic gaming meets cinematic brilliance. The LG C5 83\" OLED evo AI 4K HDR Smart TV paired with the PlayStation 5 delivers a premium entertainment bundle. The \u03b19 AI processor enhances picture and audio quality, while Brightness Booster Ultimate ensures stunning visuals.",
     "goodToKnow": [
       "Free standard delivery",
       "2 year guarantee included",

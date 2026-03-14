@@ -40,6 +40,15 @@ export interface Order {
   customer: {
     email: string;
   };
+  billing: {
+    firstName: string;
+    lastName: string;
+    address1: string;
+    address2: string;
+    city: string;
+    postcode: string;
+    phone: string;
+  };
   paymentMethod: string;
   paymentDetails?: {
     cardType: string;
@@ -55,6 +64,7 @@ export interface Order {
 
 interface OrdersContextValue {
   orders: Order[];
+  isHydrated: boolean;
   addOrder: (order: Order) => void;
   getOrder: (orderNumber: string) => Order | undefined;
   updateOrderStatus: (orderNumber: string, status: Order["status"]) => void;
@@ -64,6 +74,7 @@ const OrdersContext = createContext<OrdersContextValue | null>(null);
 
 export function OrdersProvider({ children }: { children: ReactNode }) {
   const [orders, setOrders] = useState<Order[]>([]);
+  const [isHydrated, setIsHydrated] = useState(false);
   const hydrated = useRef(false);
 
   useEffect(() => {
@@ -79,6 +90,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
       }
     }
     hydrated.current = true;
+    setIsHydrated(true);
   }, []);
 
   useEffect(() => {
@@ -102,7 +114,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <OrdersContext.Provider value={{ orders, addOrder, getOrder, updateOrderStatus }}>
+    <OrdersContext.Provider value={{ orders, isHydrated, addOrder, getOrder, updateOrderStatus }}>
       {children}
     </OrdersContext.Provider>
   );

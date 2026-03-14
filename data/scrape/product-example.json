@@ -95,7 +95,7 @@
     ],
     "awards": [
       {
-        "name": "Loved by Currys",
+        "name": "Loved by Electriz",
         "image": "https://media.electriz.biz/i/electrizprod/loved_by_electriz-68562.jpg?fmt=auto",
         "url": "https://www.electriz.co.uk/services/our-experts-love.html"
       },
@@ -155,8 +155,8 @@
       "collectionFree": true
     },
     "offers": [
-      "Get £150 off this TV when you trade-in any old TV. Use TRADETV150 and select Recycling at checkout.",
-      "Claim £300 of Samsung Tech when you buy this TV plus up to £200 on selected Samsung Soundbars.",
+      "Get \u00a3150 off this TV when you trade-in any old TV. Use TRADETV150 and select Recycling at checkout.",
+      "Claim \u00a3300 of Samsung Tech when you buy this TV plus up to \u00a3200 on selected Samsung Soundbars.",
       "Save 20% on selected TV Accessories when bought with this TV. Use code SAVE20TVACCS.",
       "Get 50% off selected Samsung Soundbars when bought with any Samsung TV. Use code Samsung50.",
       "Get 30% off selected Samsung Soundbars when bought with any Samsung TV. Use code Samsung30.",
@@ -168,7 +168,7 @@
       "url": "https://www.electriz.co.uk/services/shopping-with-us/price-promise.html"
     },
     "wallBracket": {
-      "text": "Add a wall bracket now and Save £24.00",
+      "text": "Add a wall bracket now and Save \u00a324.00",
       "product": {
         "title": "SANDSTROM SELP24 Fixed 43-75\" TV Bracket",
         "price": 35.99,
@@ -189,7 +189,7 @@
         "plan": "5 Years",
         "price": 189,
         "period": "one-off",
-        "savings": "Save £135.00 vs Monthly Plan",
+        "savings": "Save \u00a3135.00 vs Monthly Plan",
         "mostPopular": true
       }
     ],

@@ -80,6 +80,13 @@ const config: Config = {
           "0%": { opacity: "0.3" },
           "100%": { opacity: "1" },
         },
+        "fade-in": {
+          "0%": { opacity: "0", transform: "translateX(-50%) translateY(8px)" },
+          "100%": { opacity: "1", transform: "translateX(-50%) translateY(0)" },
+        },
+      },
+      animation: {
+        "fade-in": "fade-in 0.2s ease-out",
       },
     },
   },

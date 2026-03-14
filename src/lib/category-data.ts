@@ -69,6 +69,10 @@ export interface CategoryData {
   products: CategoryProduct[];
   /** Pre-applied filters from URL (e.g., brand from /tvs/sony). */
   preSelectedFilters?: Record<string, string[]>;
+  /** Full parent product set before URL-based filtering (for cross-count recalculation). */
+  unfilteredProducts?: CategoryProduct[];
+  /** Full parent filters before 0-count option removal (for cross-count recalculation). */
+  unfilteredFilters?: FilterGroup[];
 }
 
 /** Raw shape of scraped category JSON before normalization. */
@@ -679,6 +683,8 @@ function findParentAndFilter(slugSegments: string[]): CategoryData | null {
         totalProducts: filtered.length,
         filters: parentFilters,
         preSelectedFilters: Object.keys(preSelectedFilters).length > 0 ? preSelectedFilters : undefined,
+        unfilteredProducts: parentData.products,
+        unfilteredFilters: parentData.filters,
       };
     }
   }

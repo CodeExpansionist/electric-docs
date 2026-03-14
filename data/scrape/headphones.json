@@ -44,23 +44,23 @@
       "type": "range",
       "options": [
         {
-          "label": "Up to £39.99",
+          "label": "Up to \u00a339.99",
           "count": 334
         },
         {
-          "label": "£40 to £59.99",
+          "label": "\u00a340 to \u00a359.99",
           "count": 130
         },
         {
-          "label": "£60 to £99.99",
+          "label": "\u00a360 to \u00a399.99",
           "count": 131
         },
         {
-          "label": "£100 to £499",
+          "label": "\u00a3100 to \u00a3499",
           "count": 233
         },
         {
-          "label": "£500 to £999",
+          "label": "\u00a3500 to \u00a3999",
           "count": 2
         }
       ]
@@ -4038,7 +4038,7 @@
     },
     {
       "productId": "10288525",
-      "name": "SKULLCANDY Push 720 Open Ear Wireless Bluetooth Earbuds - Black",
+      "name": "SKULLCANDY Push\u00a0720 Open Ear Wireless Bluetooth Earbuds - Black",
       "brand": "Skullcandy",
       "url": "/products/skullcandy-push%C2%A0720-open-ear-wireless-bluetooth-earbuds-black-10288525.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10288525?$g-small$&fmt=auto",
@@ -9050,7 +9050,7 @@
     },
     {
       "productId": "10273370",
-      "name": "DYSON OnTrac™ Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "name": "DYSON OnTrac\u2122 Wireless Bluetooth Noise-Cancelling Headphones - Black",
       "brand": "DYSON",
       "url": "/products/dyson-ontrac-wireless-bluetooth-noisecancelling-headphones-black-10273370.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10273370?$g-small$&fmt=auto",
@@ -10517,7 +10517,7 @@
     },
     {
       "productId": "10267240",
-      "name": "DYSON OnTrac™ Wireless Bluetooth Noise-Cancelling Headphones - CNC Copper",
+      "name": "DYSON OnTrac\u2122 Wireless Bluetooth Noise-Cancelling Headphones - CNC Copper",
       "brand": "DYSON",
       "url": "/products/dyson-ontrac-wireless-bluetooth-noisecancelling-headphones-cnc-copper-10267240.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10267240?$g-small$&fmt=auto",
@@ -11232,7 +11232,7 @@
     },
     {
       "productId": "10267231",
-      "name": "DYSON OnTrac™ Wireless Bluetooth Noise-Cancelling Headphones - CNC Aluminium",
+      "name": "DYSON OnTrac\u2122 Wireless Bluetooth Noise-Cancelling Headphones - CNC Aluminium",
       "brand": "DYSON",
       "url": "/products/dyson-ontrac-wireless-bluetooth-noisecancelling-headphones-cnc-aluminium-10267231.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10267231?$g-small$&fmt=auto",
@@ -11485,7 +11485,7 @@
     },
     {
       "productId": "10288272",
-      "name": "AUDEZE LCD-S20 Headphones – Silver & Black",
+      "name": "AUDEZE LCD-S20 Headphones \u2013 Silver & Black",
       "brand": "AUDEZE",
       "url": "/products/audeze-lcds20-headphones-silver-and-black-10288272.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10288272?$g-small$&fmt=auto",
@@ -12092,7 +12092,7 @@
     },
     {
       "productId": "10268132",
-      "name": "DYSON OnTrac™ Outer Cap - Ceramic Blue, Pack of 2",
+      "name": "DYSON OnTrac\u2122 Outer Cap - Ceramic Blue, Pack of 2",
       "brand": "DYSON",
       "url": "/products/dyson-ontrac-outer-cap-ceramic-blue-pack-of-2-10268132.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10268132?$g-small$&fmt=auto",
@@ -14523,7 +14523,7 @@
     },
     {
       "productId": "10281658",
-      "name": "FRESH N REBEL  Code Fuse Wireless Bluetooth Headphones - Silky Sand",
+      "name": "FRESH N REBEL\u00a0 Code Fuse Wireless Bluetooth Headphones - Silky Sand",
       "brand": "FRESH",
       "url": "/products/fresh-n-rebel%C2%A0-code-fuse-wireless-bluetooth-headphones-silky-sand-10281658.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10281658?$g-small$&fmt=auto",
@@ -15238,7 +15238,7 @@
     },
     {
       "productId": "10268029",
-      "name": "DYSON OnTrac™ Ear Cushion - Oyster Pink, Pack of 2",
+      "name": "DYSON OnTrac\u2122 Ear Cushion - Oyster Pink, Pack of 2",
       "brand": "DYSON",
       "url": "/products/dyson-ontrac-ear-cushion-oyster-pink-pack-of-2-10268029.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10268029?$g-small$&fmt=auto",
@@ -15381,7 +15381,7 @@
     },
     {
       "productId": "10281659",
-      "name": "FRESH N REBEL  Code Fuse Wireless Bluetooth Headphones - Storm Grey",
+      "name": "FRESH N REBEL\u00a0 Code Fuse Wireless Bluetooth Headphones - Storm Grey",
       "brand": "FRESH",
       "url": "/products/fresh-n-rebel%C2%A0-code-fuse-wireless-bluetooth-headphones-storm-grey-10281659.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10281659?$g-small$&fmt=auto",
@@ -16524,7 +16524,7 @@
     },
     {
       "productId": "10268145",
-      "name": "DYSON OnTrac™ Ear Cushion - Dark Iron, Pack of 2",
+      "name": "DYSON OnTrac\u2122 Ear Cushion - Dark Iron, Pack of 2",
       "brand": "DYSON",
       "url": "/products/dyson-ontrac-ear-cushion-dark-iron-pack-of-2-10268145.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10268145?$g-small$&fmt=auto",
@@ -16580,7 +16580,7 @@
     },
     {
       "productId": "10281685",
-      "name": "FRESH N REBEL  Twins Fuse 3TW1300IG Wireless Bluetooth Earbuds - Ice Grey",
+      "name": "FRESH N REBEL\u00a0 Twins Fuse 3TW1300IG Wireless Bluetooth Earbuds - Ice Grey",
       "brand": "FRESH",
       "url": "/products/fresh-n-rebel%C2%A0-twins-fuse-3tw1300ig-wireless-bluetooth-earbuds-ice-grey-10281685.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10281685?$g-small$&fmt=auto",
@@ -22228,7 +22228,7 @@
     },
     {
       "productId": "10254737",
-      "name": "ASUS ROG Cetra Wireless Bluetooth Noise-Cancelling Earbuds – White",
+      "name": "ASUS ROG Cetra Wireless Bluetooth Noise-Cancelling Earbuds \u2013 White",
       "brand": "ASUS",
       "url": "/products/asus-rog-cetra-wireless-bluetooth-noisecancelling-earbuds-white-10254737.html",
       "imageUrl": "https://media.electriz.biz/i/electrizprod/10254737?$g-small$&fmt=auto",

@@ -10,6 +10,7 @@ import PaymentStep from "@/components/checkout/PaymentStep";
 import SignInModal from "@/components/checkout/SignInModal";
 import { useBasket } from "@/lib/basket-context";
 import { useOrders } from "@/lib/orders-context";
+import { getNextDeliveryDate, formatDeliveryDate } from "@/lib/delivery-date";
 
 export interface DeliveryData {
   title: string;
@@ -30,6 +31,13 @@ export interface CustomerData {
   useSameAddress: boolean;
   marketingEmail: boolean;
   marketingSms: boolean;
+  billingFirstName: string;
+  billingLastName: string;
+  billingAddress1: string;
+  billingAddress2: string;
+  billingCity: string;
+  billingPostcode: string;
+  billingPhone: string;
 }
 
 type CheckoutStep = "welcome" | "delivery" | "customer" | "payment" | "confirmation";
@@ -53,6 +61,13 @@ const emptyCustomer: CustomerData = {
   useSameAddress: true,
   marketingEmail: true,
   marketingSms: true,
+  billingFirstName: "",
+  billingLastName: "",
+  billingAddress1: "",
+  billingAddress2: "",
+  billingCity: "",
+  billingPostcode: "",
+  billingPhone: "",
 };
 
 function StepIndicator({
@@ -79,7 +94,7 @@ function StepIndicator({
           className={`w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-bold ${
             status === "active"
               ? "bg-primary text-white"
-              : "bg-gray-200 text-text-secondary"
+              : "bg-text-secondary text-white"
           }`}
         >
           {number}
@@ -92,25 +107,25 @@ function StepIndicator({
       >
         {label}
       </span>
-      {status === "completed" && onEdit && (
-        <button onClick={onEdit} className="text-sm text-primary ml-auto hover:underline">
-          Edit
-        </button>
-      )}
     </div>
   );
 }
 
-function CompletedDeliverySummary({ data, itemSummary, deliveryCost }: { data: DeliveryData; itemSummary?: string; deliveryCost?: number }) {
-  const estDate = new Date();
-  estDate.setDate(estDate.getDate() + 4);
-  const dateStr = estDate.toLocaleDateString("en-GB", { weekday: "short", day: "2-digit", month: "short" });
+function CompletedDeliverySummary({ data, itemSummary, deliveryCost, onEdit }: { data: DeliveryData; itemSummary?: string; deliveryCost?: number; onEdit?: () => void }) {
+  const dateStr = formatDeliveryDate(getNextDeliveryDate());
   const costStr = deliveryCost === 0 ? "FREE" : `£${(deliveryCost ?? 0).toFixed(2)}`;
   return (
     <div className="card p-5 mt-2 mb-6">
-      <p className="text-sm font-semibold text-text-primary mb-2">
-        Arriving {dateStr}, All day 7am-8pm – {costStr}
-      </p>
+      <div className="flex items-start justify-between mb-2">
+        <p className="text-sm font-semibold text-text-primary">
+          Arriving {dateStr}, All day 7am-8pm – {costStr}
+        </p>
+        {onEdit && (
+          <button onClick={onEdit} className="text-xs text-primary underline flex-shrink-0 ml-4">
+            Edit
+          </button>
+        )}
+      </div>
       <p className="text-xs text-text-secondary mb-3">
         {itemSummary || "Your order"}
       </p>
@@ -137,27 +152,40 @@ function CompletedDeliverySummary({ data, itemSummary, deliveryCost }: { data: D
 function CompletedCustomerSummary({
   delivery,
   customer,
+  onEdit,
 }: {
   delivery: DeliveryData;
   customer: CustomerData;
+  onEdit?: () => void;
 }) {
   return (
     <div className="card p-5 mt-2 mb-6">
-      <p className="text-sm font-semibold text-text-primary mb-1">Email</p>
+      <div className="flex items-start justify-between mb-1">
+        <p className="text-sm font-semibold text-text-primary">Email</p>
+        {onEdit && (
+          <button onClick={onEdit} className="text-xs text-primary underline flex-shrink-0 ml-4">
+            Edit
+          </button>
+        )}
+      </div>
       <p className="text-xs text-text-secondary mb-3">{customer.email}</p>
       <p className="text-sm font-semibold text-text-primary mb-1">Billing details</p>
       <div className="text-xs text-text-secondary space-y-0.5">
-        <p>
-          {delivery.title} {delivery.firstName} {delivery.lastName}
-        </p>
-        <p>
-          {delivery.address1}
-          {delivery.address2 ? `, ${delivery.address2}` : ""}
-        </p>
-        <p>
-          {delivery.city}, {delivery.postcode}
-        </p>
-        <p>{delivery.phone}</p>
+        {customer.useSameAddress ? (
+          <>
+            <p>{delivery.title} {delivery.firstName} {delivery.lastName}</p>
+            <p>{delivery.address1}{delivery.address2 ? `, ${delivery.address2}` : ""}</p>
+            <p>{delivery.city}, {delivery.postcode}</p>
+            <p>{delivery.phone}</p>
+          </>
+        ) : (
+          <>
+            <p>{customer.billingFirstName} {customer.billingLastName}</p>
+            <p>{customer.billingAddress1}{customer.billingAddress2 ? `, ${customer.billingAddress2}` : ""}</p>
+            <p>{customer.billingCity}, {customer.billingPostcode}</p>
+            <p>{customer.billingPhone}</p>
+          </>
+        )}
       </div>
     </div>
   );
@@ -188,11 +216,9 @@ export default function CheckoutPage() {
     setTimeout(() => {
       const orderNum = `ELZ-${Math.random().toString(36).substring(2, 8).toUpperCase()}-${Date.now().toString().slice(-4)}`;
 
-      // Calculate estimated delivery date (3-5 days from now)
-      const estDate = new Date();
-      estDate.setDate(estDate.getDate() + 4);
 
-      // Save order
+      const estDate = getNextDeliveryDate();
+
       addOrder({
         id: Date.now().toString(),
         orderNumber: orderNum,
@@ -220,6 +246,9 @@ export default function CheckoutPage() {
           county: delivery.county,
         },
         customer: { email: customer.email },
+        billing: customer.useSameAddress
+          ? { firstName: delivery.firstName, lastName: delivery.lastName, address1: delivery.address1, address2: delivery.address2, city: delivery.city, postcode: delivery.postcode, phone: delivery.phone }
+          : { firstName: customer.billingFirstName, lastName: customer.billingLastName, address1: customer.billingAddress1, address2: customer.billingAddress2, city: customer.billingCity, postcode: customer.billingPostcode, phone: customer.billingPhone },
         paymentMethod: `${cardData.cardType} ending ${cardData.lastFour}`,
         paymentDetails: {
           cardType: cardData.cardType,
@@ -239,14 +268,14 @@ export default function CheckoutPage() {
       clearBasket();
       setIsSubmitting(false);
       router.push(`/checkout/confirmation?order=${orderNum}`);
-    }, 2000);
+    }, 7000);
   };
 
   return (
     <div className="container-main py-6">
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
         {/* Left: Steps */}
-        <div className="flex-1 lg:max-w-[640px]">
+        <div className="flex-1 min-w-0">
           {/* Welcome */}
           {step === "welcome" && (
             <WelcomeStep onSignIn={handleSignIn} onGuest={handleGuest} />
@@ -275,6 +304,7 @@ export default function CheckoutPage() {
                     data={delivery}
                     itemSummary={basket.items.map((item) => item.product.title).join(", ")}
                     deliveryCost={basket.deliveryCost}
+                    onEdit={() => setStep("delivery")}
                   />
                 )}
                 {step === "delivery" && (
@@ -305,6 +335,7 @@ export default function CheckoutPage() {
                   <CompletedCustomerSummary
                     delivery={delivery}
                     customer={customer}
+                    onEdit={() => setStep("customer")}
                   />
                 )}
                 {step === "customer" && (
@@ -334,8 +365,8 @@ export default function CheckoutPage() {
           )}
         </div>
 
-        {/* Right: Sidebar */}
-        <div className="w-full lg:w-[300px] flex-shrink-0">
+        {/* Right: Sidebar — offset only when step headings are visible */}
+        <div className={`w-full lg:w-[300px] flex-shrink-0 ${step !== "welcome" ? "lg:pt-10" : ""}`}>
           <CheckoutSidebar />
         </div>
       </div>
@@ -344,8 +375,9 @@ export default function CheckoutPage() {
       {showSignIn && (
         <SignInModal
           onClose={() => setShowSignIn(false)}
-          onContinue={() => {
+          onContinue={(email) => {
             setShowSignIn(false);
+            setCustomer((c) => ({ ...c, email }));
             setStep("delivery");
           }}
           onGuest={() => {

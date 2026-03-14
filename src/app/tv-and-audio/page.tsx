@@ -264,19 +264,6 @@ export default function TvAndAudioHub() {
             </div>
           </section>
 
-          {/* SEO Content */}
-          <section className="mb-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {tvAudioHub.seoContent.columns.map((col: { heading: string; text: string }) => (
-                <div key={col.heading}>
-                  <h3 className="text-sm font-bold text-text-primary mb-2">{col.heading}</h3>
-                  <p className="text-xs text-text-secondary leading-relaxed line-clamp-6">
-                    {col.text}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
         </div>
       </div>
     </div>

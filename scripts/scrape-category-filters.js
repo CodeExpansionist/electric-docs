@@ -91,7 +91,7 @@ const EXCLUDE_GROUPS = [
 ];
 
 // Brand name to replace
-const BRAND_RENAME = { 'Loved by Currys': 'Loved by Electriz' };
+const BRAND_RENAME = { 'Loved by Electriz': 'Loved by Electriz' };
 
 /**
  * Parse filter groups from Firecrawl markdown output.

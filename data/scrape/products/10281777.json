@@ -79,7 +79,7 @@
   },
   "careAndRepair": [
     {
-      "plan": "Get breakdown support from £4.50/mo",
+      "plan": "Get breakdown support from \u00a34.50/mo",
       "price": 4.5,
       "period": "monthly"
     }
@@ -121,17 +121,13 @@
     }
   ],
   "offers": [
-    "Claim £150 cashback on this TV",
+    "Claim \u00a3150 cashback on this TV",
     "5 more offers"
   ],
   "badges": [
     {
       "type": "Dolby Vision Atmos",
       "image": "/images/icons/badge-dolby-vision-atmos.jpg"
-    },
-    {
-      "type": "Loved by Electriz",
-      "image": "/images/icons/badge-loved-by-electriz.jpg"
     }
   ],
   "specifications": {},

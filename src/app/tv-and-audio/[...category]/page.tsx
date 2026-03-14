@@ -8,7 +8,7 @@ import FilterSidebar from "@/components/category/FilterSidebar";
 import ProductListCard from "@/components/category/ProductListCard";
 import CategoryHub from "@/components/category/CategoryHub";
 import { getCategoryData, isHubCategory, getCategoryHubData } from "@/lib/category-data";
-import { filterProducts } from "@/lib/filter-utils";
+import { filterProducts, recalculateFilterCounts } from "@/lib/filter-utils";
 
 export default function CategoryPage() {
   const params = useParams();
@@ -42,12 +42,14 @@ function CategoryListingInner() {
   const [page, setPage] = useState(1);
   const [perPage, setPerPage] = useState(20);
 
-  const filters = categoryData?.filters || [];
+  // Use unfiltered parent data when available (brand/size-filtered pages),
+  // so unchecking a pre-selected filter restores the full product set
+  const filters = categoryData?.unfilteredFilters ?? categoryData?.filters ?? [];
+  const allProducts = categoryData?.unfilteredProducts ?? categoryData?.products ?? [];
 
   // Filter products based on active filters — uses shared logic from filter-utils.ts
   const filteredProducts = useMemo(() => {
-    const products = categoryData?.products || [];
-    const result = filterProducts(products, activeFilters);
+    const result = filterProducts(allProducts, activeFilters);
 
     // Sort — always push zero-price products to the bottom
     switch (sortBy) {
@@ -79,7 +81,12 @@ function CategoryListingInner() {
     }
 
     return result;
-  }, [categoryData, activeFilters, sortBy]);
+  }, [allProducts, activeFilters, sortBy]);
+
+  // Recalculate filter counts using cross-count pattern
+  const dynamicFilters = useMemo(() => {
+    return recalculateFilterCounts(filters, allProducts, activeFilters);
+  }, [filters, allProducts, activeFilters]);
 
   const totalPages = Math.ceil(filteredProducts.length / perPage);
   const safePage = Math.min(page, totalPages || 1);
@@ -148,7 +155,7 @@ function CategoryListingInner() {
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="hidden lg:block w-[240px] flex-shrink-0 sticky top-4 max-h-[calc(100vh-1rem)] overflow-y-auto">
           <FilterSidebar
-            filters={filters}
+            filters={dynamicFilters}
             activeFilters={activeFilters}
             onFilterChange={(f) => { setActiveFilters(f); setPage(1); }}
           />
@@ -183,7 +190,7 @@ function CategoryListingInner() {
             </div>
           </div>
           <div className="mb-4">
-            <span className="text-sm text-text-secondary">{totalProducts} Items</span>
+            <span className="text-sm text-text-secondary">{filteredProducts.length} Items</span>
           </div>
 
           {/* Active filter chips */}

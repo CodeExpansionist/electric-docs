@@ -4,6 +4,13 @@ import { useState } from "react";
 import { useBasket } from "@/lib/basket-context";
 import { luhnCheck, getCardType, formatCardNumber, formatExpiry } from "@/lib/payment-utils";
 
+const fieldClass = (hasError?: boolean) =>
+  `w-full rounded-sm border px-4 py-3 text-sm text-input-text placeholder:text-text-muted focus:border-primary focus:ring-0 transition-colors ${
+    hasError
+      ? "border-red-600 hover:border-2 hover:border-red-600 focus:border-2 focus:border-red-600"
+      : "border-input-border"
+  }`;
+
 export default function PaymentStep({
   onSubmit,
   isSubmitting,
@@ -12,8 +19,8 @@ export default function PaymentStep({
   isSubmitting: boolean;
 }) {
   const { basket, applyPromo, removePromo } = useBasket();
-  const [promoOpen, setPromoOpen] = useState(false);
-  const [promoCode, setPromoCode] = useState("");
+  const [promoOpen, setPromoOpen] = useState(true);
+  const [promoCode, setPromoCode] = useState("1STTV50");
   const [promoError, setPromoError] = useState("");
   const [cardNumber, setCardNumber] = useState("");
   const [cardName, setCardName] = useState("");
@@ -114,7 +121,7 @@ export default function PaymentStep({
                   value={promoCode}
                   onChange={(e) => { setPromoCode(e.target.value); setPromoError(""); }}
                   placeholder="Enter code"
-                  className="input-field flex-1"
+                  className={`${fieldClass()} flex-1`}
                   onKeyDown={(e) => {
                     if (e.key === "Enter") {
                       const code = promoCode.trim().toUpperCase();
@@ -142,24 +149,12 @@ export default function PaymentStep({
         </>
       )}
 
-      {/* Card details form */}
+      {/* Card form */}
       <div className="space-y-4">
-        <div className="flex items-center gap-2 mb-1">
-          <span className="text-sm font-semibold text-text-primary">Card details</span>
-          <div className="flex items-center gap-1 ml-auto">
-            {/* Visa */}
-            <span className="inline-flex items-center justify-center bg-[#1A1F71] rounded" style={{ width: 34, height: 22 }}>
-              <svg width="26" height="9" viewBox="0 0 60 20" fill="white"><path d="M23.4 1.2L15.7 18.8h-5L7.1 4.8c-.2-.8-.4-1.1-1-1.5C4.7 2.5 2.7 1.8.5 1.4l.1-.5h8.1c1 0 2 .7 2.2 2l2 10.6L18.5 1.2h4.9zm19.3 11.8c0-4.6-6.4-4.9-6.4-7 0-.6.6-1.3 1.9-1.5 2-.2 3.6.5 4.7 1.1l.8-3.8C42.5 1.3 41 .9 39.2.9c-4.6 0-7.8 2.4-7.8 5.9 0 2.6 2.3 4 4 4.8 1.8.9 2.4 1.4 2.4 2.2 0 1.2-1.4 1.7-2.8 1.7-2.3 0-3.7-.6-4.8-1.1l-.8 3.9c1.1.5 3.1.9 5.2.9 4.8 0 8-2.4 8-6.1zm12 5.8h4.4L55.2 1.2h-4.1c-.9 0-1.7.5-2 1.3L42.4 18.8h4.9l1-2.7h6l.5 2.7zm-5.2-6.4l2.5-6.8 1.4 6.8h-3.9zM30.3 1.2l-3.9 17.6h4.7l3.8-17.6h-4.6z"/></svg>
-            </span>
-            {/* Mastercard */}
-            <span className="inline-flex items-center justify-center bg-white rounded" style={{ width: 34, height: 22 }}>
-              <svg width="26" height="18" viewBox="0 0 48 32"><circle cx="18" cy="16" r="10" fill="#EB001B"/><circle cx="30" cy="16" r="10" fill="#F79E1B"/><path d="M24 8.4a10 10 0 010 15.2 10 10 0 010-15.2z" fill="#FF5F00"/></svg>
-            </span>
-            {/* Maestro */}
-            <span className="inline-flex items-center justify-center bg-white border border-gray-300 rounded" style={{ width: 34, height: 22 }}>
-              <svg width="26" height="18" viewBox="0 0 48 32"><circle cx="18" cy="16" r="10" fill="#0099DF"/><circle cx="30" cy="16" r="10" fill="#000"/><path d="M24 8.4a10 10 0 010 15.2 10 10 0 010-15.2z" fill="#00648A"/></svg>
-            </span>
-          </div>
+        <div className="flex justify-end gap-2 mb-1">
+          <img src="/images/icons/visa-logo.png" alt="Visa" className="h-[24px] w-auto" />
+          <img src="/images/icons/mastercard-logo.png" alt="Mastercard" className="h-[24px] w-auto" />
+          <img src="/images/icons/amex-logo.png" alt="American Express" className="h-[24px] w-auto" />
         </div>
 
         {/* Card Number */}
@@ -171,25 +166,13 @@ export default function PaymentStep({
               value={formatCardNumber(cardNumber)}
               onChange={(e) => { setCardNumber(e.target.value.replace(/\D/g, "").slice(0, 16)); clearError("cardNumber"); }}
               placeholder="0000 0000 0000 0000"
-              className={`input-field pr-16 ${errors.cardNumber ? "border-red-500" : ""}`}
+              className={`${fieldClass(!!errors.cardNumber)} pr-16`}
               maxLength={19}
             />
-            <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1">
-              {cardType === "Visa" && (
-                <span className="inline-flex items-center justify-center bg-[#1A1F71] rounded" style={{ width: 34, height: 22 }}>
-                  <svg width="26" height="9" viewBox="0 0 60 20" fill="white"><path d="M23.4 1.2L15.7 18.8h-5L7.1 4.8c-.2-.8-.4-1.1-1-1.5C4.7 2.5 2.7 1.8.5 1.4l.1-.5h8.1c1 0 2 .7 2.2 2l2 10.6L18.5 1.2h4.9zm19.3 11.8c0-4.6-6.4-4.9-6.4-7 0-.6.6-1.3 1.9-1.5 2-.2 3.6.5 4.7 1.1l.8-3.8C42.5 1.3 41 .9 39.2.9c-4.6 0-7.8 2.4-7.8 5.9 0 2.6 2.3 4 4 4.8 1.8.9 2.4 1.4 2.4 2.2 0 1.2-1.4 1.7-2.8 1.7-2.3 0-3.7-.6-4.8-1.1l-.8 3.9c1.1.5 3.1.9 5.2.9 4.8 0 8-2.4 8-6.1zm12 5.8h4.4L55.2 1.2h-4.1c-.9 0-1.7.5-2 1.3L42.4 18.8h4.9l1-2.7h6l.5 2.7zm-5.2-6.4l2.5-6.8 1.4 6.8h-3.9zM30.3 1.2l-3.9 17.6h4.7l3.8-17.6h-4.6z"/></svg>
-                </span>
-              )}
-              {cardType === "Mastercard" && (
-                <span className="inline-flex items-center justify-center bg-white rounded" style={{ width: 34, height: 22 }}>
-                  <svg width="26" height="18" viewBox="0 0 48 32"><circle cx="18" cy="16" r="10" fill="#EB001B"/><circle cx="30" cy="16" r="10" fill="#F79E1B"/><path d="M24 8.4a10 10 0 010 15.2 10 10 0 010-15.2z" fill="#FF5F00"/></svg>
-                </span>
-              )}
-              {cardType === "Amex" && (
-                <span className="inline-flex items-center justify-center bg-[#006FCF] rounded" style={{ width: 34, height: 22 }}>
-                  <svg width="26" height="10" viewBox="0 0 60 24" fill="white"><path d="M0 0h8.3L12 10.2 15.5 0h8.3v18.3L17.6 0h-7l-3.8 10.3L3 0H0v18.8L6.5 0zM25 0v18.8h6.2V0H25zm9.4 0l6.5 12.5V0h6.2v18.8H41L34.4 6.3v12.5h-6.2V0h6.2z"/><path d="M48 0h12v4h-7.5v3H60v4h-7.5v3.8H60v4H48V0z"/></svg>
-                </span>
-              )}
+            <div className="absolute right-3 top-1/2 -translate-y-1/2">
+              {cardType === "Visa" && <img src="/images/icons/visa-logo.png" alt="Visa" className="h-[22px] w-auto" />}
+              {cardType === "Mastercard" && <img src="/images/icons/mastercard-logo.png" alt="Mastercard" className="h-[22px] w-auto" />}
+              {cardType === "Amex" && <img src="/images/icons/amex-logo.png" alt="American Express" className="h-[22px] w-auto" />}
               {!cardType && (
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#999" strokeWidth="1.5">
                   <rect x="1" y="4" width="22" height="16" rx="2" />
@@ -209,7 +192,7 @@ export default function PaymentStep({
             value={cardName}
             onChange={(e) => { setCardName(e.target.value); clearError("cardName"); }}
             placeholder="J Smith"
-            className={`input-field ${errors.cardName ? "border-red-500" : ""}`}
+            className={fieldClass(!!errors.cardName)}
           />
           {errors.cardName && <p className="text-xs text-red-600 mt-1">{errors.cardName}</p>}
         </div>
@@ -223,7 +206,7 @@ export default function PaymentStep({
               value={formatExpiry(cardExpiry)}
               onChange={(e) => { setCardExpiry(e.target.value.replace(/\D/g, "").slice(0, 4)); clearError("cardExpiry"); }}
               placeholder="MM/YY"
-              className={`input-field ${errors.cardExpiry ? "border-red-500" : ""}`}
+              className={fieldClass(!!errors.cardExpiry)}
               maxLength={5}
             />
             {errors.cardExpiry && <p className="text-xs text-red-600 mt-1">{errors.cardExpiry}</p>}
@@ -242,7 +225,7 @@ export default function PaymentStep({
               value={cardCvv}
               onChange={(e) => { setCardCvv(e.target.value.replace(/\D/g, "").slice(0, 4)); clearError("cardCvv"); }}
               placeholder="123"
-              className={`input-field ${errors.cardCvv ? "border-red-500" : ""}`}
+              className={fieldClass(!!errors.cardCvv)}
               maxLength={4}
             />
             {errors.cardCvv && <p className="text-xs text-red-600 mt-1">{errors.cardCvv}</p>}

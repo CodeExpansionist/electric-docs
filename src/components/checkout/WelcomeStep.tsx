@@ -23,7 +23,7 @@ export default function WelcomeStep({
       {/* Step list */}
       <div className="space-y-5 pl-2">
         <div className="flex items-center gap-3">
-          <div className="w-7 h-7 rounded-full bg-gray-200 flex items-center justify-center text-sm font-bold text-text-secondary">
+          <div className="w-7 h-7 rounded-full bg-text-secondary flex items-center justify-center text-sm font-bold text-white">
             1
           </div>
           <span className="text-lg font-bold text-text-muted">
@@ -31,7 +31,7 @@ export default function WelcomeStep({
           </span>
         </div>
         <div className="flex items-center gap-3">
-          <div className="w-7 h-7 rounded-full bg-gray-200 flex items-center justify-center text-sm font-bold text-text-secondary">
+          <div className="w-7 h-7 rounded-full bg-text-secondary flex items-center justify-center text-sm font-bold text-white">
             2
           </div>
           <span className="text-lg font-bold text-text-muted">
@@ -39,7 +39,7 @@ export default function WelcomeStep({
           </span>
         </div>
         <div className="flex items-center gap-3">
-          <div className="w-7 h-7 rounded-full bg-gray-200 flex items-center justify-center text-sm font-bold text-text-secondary">
+          <div className="w-7 h-7 rounded-full bg-text-secondary flex items-center justify-center text-sm font-bold text-white">
             3
           </div>
           <span className="text-lg font-bold text-text-muted">

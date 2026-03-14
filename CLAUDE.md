@@ -5,7 +5,7 @@ Pixel-perfect clone of Electriz TV & Audio section (electriz.co.uk). Next.js 15 
 ## Commands
 
 ```bash
-npm run dev        # Dev server on localhost:3000 (clears .next first)
+npm run dev        # Dev server — use port 3001 (see post-edit workflow)
 npm run build      # Production build
 npm run lint       # ESLint check
 npm run preflight  # Regenerate repo-facts.json + audit docs for drift
@@ -53,15 +53,64 @@ After every project fix, ask: **"Would a skill have caught this earlier? If not,
 
 ## Post-edit workflow (MANDATORY)
 
+A task is not complete when code is written. It is complete only when the affected page is live and verified on http://localhost:3001.
+
 After every edit session, run in order:
 
-1. `npm run build` — verify build passes.
-2. If ANY of these changed during the session: `.md` files, `package.json`, `scripts/`, `.env.example`, `data/repo-facts.json` → run `npm run preflight`. Fix issues and rerun once if it fails.
-3. Kill dev server and restart (MUST be last step): `lsof -ti:3000 | xargs kill -9 2>/dev/null; rm -rf .next && npm run dev &`
+1. Verify whether `npm run build` is required:
+   - Required for final handoff
+   - Required if package/config/build-sensitive files changed
+   - Otherwise optional during iterative UI work
 
-Never report edits as complete until step 3 has run. If only `src/` component/styling/layout changes were made with no docs/scripts/data/package changes, skip step 2.
+2. If ANY of these changed during the session: `.md` files, `package.json`, `scripts/`, `.env.example`, `data/repo-facts.json` → run `npm run preflight`. Fix issues and rerun once if needed.
 
-A pre-commit hook also enforces step 2 — see `docs/GIT_HOOKS.md`. Install once with `bash scripts/install-git-hooks.sh`.
+3. Clear conflicting dev processes:
+   ```bash
+   lsof -ti:3001 | xargs kill -9 2>/dev/null
+   lsof -ti:3000 | xargs kill -9 2>/dev/null
+   ```
+
+4. Start the dev server on port 3001 and wait for readiness:
+   ```bash
+   PORT=3001 npx next dev &
+   ```
+   Do not proceed until the dev server is ready.
+
+5. Verify the exact changed route:
+   ```bash
+   curl -s -o /tmp/route_check.html -w "%{http_code}" --max-time 10 http://localhost:3001/<changed-route>
+   ```
+   Required:
+   - Status must be 200
+   - Response body must not contain known error markers, including:
+     - `Internal Server Error`
+     - `missing required error components`
+     - `"source":"server"`
+     - webpack/module/runtime crash strings
+   - Server logs must not show runtime / webpack / module / server errors for the request
+
+6. If the route hangs, fails, returns non-200, or shows runtime markers:
+   - Debug automatically
+   - If corruption is suspected, escalate with:
+     ```bash
+     rm -rf .next node_modules/.cache
+     ```
+   - Restart and re-verify before reporting completion
+
+Never report completion until verification passes.
+Never switch away from port 3001 unless explicitly instructed.
+Never revert unrelated changes.
+Never assume browser cache is the issue without backend evidence.
+Never change the port, server command, or environment assumptions mid-task.
+
+When reporting completion, always include:
+- Exact URL verified
+- HTTP status code received
+- Whether server logs were checked for errors
+- Whether stale processes were cleared
+- Confirmation that the page is ready to open
+
+If only `src/` component/styling/layout changes were made with no docs/scripts/data/package changes, skip step 2. A pre-commit hook also enforces step 2 — see `docs/GIT_HOOKS.md`. Install once with `bash scripts/install-git-hooks.sh`.
 
 ## Gotchas
 

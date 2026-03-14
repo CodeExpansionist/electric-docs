@@ -173,7 +173,7 @@ export default function FilterSidebar({ filters, onFilterChange, activeFilters =
   };
 
   return (
-    <aside className="w-[240px] flex-shrink-0 self-start sticky top-0 max-h-screen overflow-y-auto">
+    <aside className="w-[240px] flex-shrink-0 self-start sticky top-0 max-h-screen overflow-y-auto scrollbar-visible">
       <div className="card p-4">
         {/* Filters heading — sticky within sidebar scroll */}
         <div className="sticky top-0 bg-white z-10 pb-3 -mx-4 px-4 -mt-4 pt-4 border-b border-border mb-3">

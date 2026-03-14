@@ -460,7 +460,7 @@ function ProductPageContent({
       {/* Badges row (full width) */}
       {(product.badgeImages?.length || product.badges.length > 0) && (
         <div className="flex flex-wrap items-center gap-2 mb-3">
-          {product.badgeImages?.map((badge, i) => {
+          {product.badgeImages?.filter(b => !/loved by/i.test(b.type || "")).map((badge, i) => {
             const badgeType = badge.type || "";
             const isEpicDeal = badgeType.toLowerCase().includes("epic deal");
             if (badge.image && badge.image.startsWith("/")) {
@@ -490,7 +490,7 @@ function ProductPageContent({
             );
           })}
           {!product.badgeImages &&
-            product.badges.map((badge, i) => {
+            product.badges.filter(b => !/loved by/i.test(typeof b === "string" ? b : String(b))).map((badge, i) => {
               const badgeText =
                 typeof badge === "string" ? badge : String(badge);
               const isEpicDeal = badgeText.toLowerCase().includes("epic deal");
@@ -563,76 +563,7 @@ function ProductPageContent({
             </div>
           )}
 
-          {/* Key specs grid (below gallery) — filter out marketing badges */}
-          {(() => {
-            const badgeStyleIcons = new Set(["loved", "dolby", "freely"]);
-            const filteredKeySpecs = (product.keySpecs || []).filter(spec => {
-              if (badgeStyleIcons.has(spec.icon)) return false;
-              if (/loved by/i.test(spec.label)) return false;
-              return true;
-            });
-            return filteredKeySpecs.length > 0 ? (
-              <>
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5 pt-5 border-t border-border">
-                  {filteredKeySpecs.slice(0, 4).map((spec, i) => (
-                    <div key={i} className="text-center">
-                      <div className="w-10 h-10 mx-auto mb-2 bg-surface rounded-full flex items-center justify-center">
-                        <KeySpecIcon icon={spec.icon} index={i} />
-                      </div>
-                      <p className="text-[11px] text-text-secondary leading-tight">
-                        {spec.label}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-                {/* Additional spec bullets (from keySpecs overflow + category specs) */}
-                {(() => {
-                  const keySpecLabels = new Set(filteredKeySpecs.slice(0, 4).map(s => (s.label || "").toLowerCase()));
-                  const extraKeySpecs = filteredKeySpecs.slice(4).map(s => s.label);
-                  const extraCategorySpecs = product.specs.filter(s => !keySpecLabels.has(s.toLowerCase()));
-                  const allExtra = [...extraKeySpecs, ...extraCategorySpecs];
-                  if (allExtra.length === 0) return null;
-                  return (
-                    <div className="grid grid-cols-2 gap-x-6 gap-y-1.5 mt-4 pt-4 border-t border-border">
-                      {allExtra.map((spec, i) => (
-                        <div key={i} className="flex items-start gap-1.5">
-                          <span className="text-[11px] text-text-muted mt-0.5">•</span>
-                          <span className="text-[11px] text-text-secondary">{spec}</span>
-                        </div>
-                      ))}
-                    </div>
-                  );
-                })()}
-              </>
-            ) : null;
-          })() || (
-            product.specs.length > 0 && (
-              <>
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5 pt-5 border-t border-border">
-                  {product.specs.slice(0, 4).map((spec, i) => (
-                    <div key={i} className="text-center">
-                      <div className="w-10 h-10 mx-auto mb-2 bg-surface rounded-full flex items-center justify-center">
-                        <KeySpecIcon icon="" index={i} />
-                      </div>
-                      <p className="text-[11px] text-text-secondary leading-tight">{spec}</p>
-                    </div>
-                  ))}
-                </div>
-                {product.specs.length > 4 && (
-                  <div className="grid grid-cols-2 gap-x-6 gap-y-1.5 mt-4 pt-4 border-t border-border">
-                    {product.specs.slice(4).map((spec, i) => (
-                      <div key={i} className="flex items-start gap-1.5">
-                        <span className="text-[11px] text-text-muted mt-0.5">•</span>
-                        <span className="text-[11px] text-text-secondary">{spec}</span>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </>
-            )
-          )}
-
-          {/* Product highlights / features below specs */}
+          {/* Product highlights / features */}
           {product.description && (
             <div className="mt-5 pt-5 border-t border-border">
               {product.description.features && product.description.features.length > 0 && (
