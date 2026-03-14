@@ -7,7 +7,7 @@ const columns = [
   {
     heading: "Help & support",
     links: [
-      { text: "Contact us", url: "/contact-us" },
+      { text: "Contact us", url: "/help-and-support#contact" },
       { text: "TechTalk", url: "/techtalk" },
       { text: "Price Promise", url: "/services/price-promise" },
       { text: "Product reviews", url: "/product-reviews" },

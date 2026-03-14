@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Accordion from "@/components/ui/Accordion";
+import { useSignInModal } from "@/lib/signin-modal-context";
 
 /* ---------- Help Topics (I need help with...) ---------- */
 
@@ -538,6 +539,8 @@ const techSupportTopics = [
 /* ---------- Component ---------- */
 
 export default function HelpAndSupportPage() {
+  const { openSignInModal } = useSignInModal();
+
   return (
     <div className="bg-white">
       {/* Breadcrumbs */}
@@ -551,41 +554,45 @@ export default function HelpAndSupportPage() {
         </nav>
       </div>
 
-      {/* Green header banner */}
-      <div
-        className="relative w-full py-10 md:py-14"
-        style={{ backgroundColor: "#007D8A" }}
-      >
-        <div className="container-main relative z-10 text-center">
-          <h1 className="text-3xl md:text-[36px] font-bold text-white mb-3">
+      {/* Header banner — title only, contained width */}
+      <div className="container-main">
+        <div
+          className="w-full rounded-lg py-8 md:py-10 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/images/banners/help-support-hero.webp')" }}
+        >
+          <h1 className="text-3xl md:text-[36px] font-bold text-primary text-center">
             Help &amp; Support
           </h1>
-          <p className="text-base md:text-lg font-bold text-white mb-1">
-            Do you need help with a recent order?
-          </p>
-          <p className="text-sm text-white/80">
-            Select an option below or log in for help with a specific order
-          </p>
         </div>
       </div>
 
-      {/* Action cards */}
-      <div className="container-main -mt-8 relative z-20">
+      {/* Subheading — outside the banner */}
+      <div className="container-main text-center pt-8 pb-20">
+        <p className="text-base md:text-lg font-bold text-text-primary mb-1">
+          Do you need help with a recent order?
+        </p>
+        <p className="text-sm text-text-secondary">
+          Select an option below or log in for help with a specific order
+        </p>
+      </div>
+
+      {/* Action cards — icons straddle the top border */}
+      <div className="container-main relative">
         <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
           <Link
             href="/services/returns"
-            className="bg-white rounded-lg border border-border shadow-card flex flex-col items-center justify-center text-center p-6 no-underline hover:shadow-md transition-shadow"
+            className="bg-white rounded-lg border border-border shadow-card flex flex-col items-center text-center pt-10 pb-5 px-4 no-underline hover:shadow-md transition-shadow relative"
           >
-            <div className="w-14 h-14 mb-3 relative">
+            <div className="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14">
               <Image src="/images/icons/returns-purple-circle-svg.svg" alt="Return or cancel my order" width={56} height={56} className="object-contain" unoptimized />
             </div>
             <span className="text-sm font-bold text-text-primary leading-tight">Return or cancel my order</span>
           </Link>
           <Link
             href="/track-your-order"
-            className="bg-white rounded-lg border border-border shadow-card flex flex-col items-center justify-center text-center p-6 no-underline hover:shadow-md transition-shadow"
+            className="bg-white rounded-lg border border-border shadow-card flex flex-col items-center text-center pt-10 pb-5 px-4 no-underline hover:shadow-md transition-shadow relative"
           >
-            <div className="w-14 h-14 mb-3 relative">
+            <div className="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14">
               <Image src="/images/icons/delivery-purple-circle-svg.svg" alt="Track my order" width={56} height={56} className="object-contain" unoptimized />
             </div>
             <span className="text-sm font-bold text-text-primary leading-tight">Track my order</span>
@@ -598,9 +605,9 @@ export default function HelpAndSupportPage() {
         <p className="text-sm text-text-secondary mb-4">
           Log in or sign up to track &amp; get help with recent orders
         </p>
-        <Link href="#" className="btn-primary text-sm no-underline">
+        <button onClick={openSignInModal} className="btn-primary text-sm">
           Login or sign up
-        </Link>
+        </button>
       </div>
 
       {/* I need help with... section */}

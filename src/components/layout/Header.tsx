@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useBasket } from "@/lib/basket-context";
 import { useSaved } from "@/lib/saved-context";
+import { useSignInModal } from "@/lib/signin-modal-context";
 import { navLinks } from "./MainNav";
 
 interface Suggestion {
@@ -20,6 +21,7 @@ interface Suggestion {
 export default function Header() {
   const { itemCount } = useBasket();
   const { savedCount } = useSaved();
+  const { openSignInModal } = useSignInModal();
   const router = useRouter();
   const [showAccount, setShowAccount] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -336,18 +338,17 @@ export default function Header() {
                   Sign in to track orders, save items and more
                 </p>
 
-                <Link
-                  href="/account"
-                  className="btn-primary w-full text-sm text-center block mb-3 no-underline"
-                  onClick={() => setShowAccount(false)}
+                <button
+                  className="btn-primary w-full text-sm text-center block mb-3"
+                  onClick={() => { setShowAccount(false); openSignInModal(); }}
                 >
                   Sign in
-                </Link>
+                </button>
                 <p className="text-xs text-center text-text-secondary mb-4">
                   New customer?{" "}
-                  <Link href="/account" className="text-primary no-underline hover:underline" onClick={() => setShowAccount(false)}>
+                  <button className="text-primary hover:underline" onClick={() => { setShowAccount(false); openSignInModal(); }}>
                     Create an account
-                  </Link>
+                  </button>
                 </p>
 
                 <div className="border-t border-border pt-3 space-y-2">
@@ -361,16 +362,16 @@ export default function Header() {
             )}
           </div>
 
-          {/* Account link (mobile – no dropdown) */}
-          <Link
-            href="/account"
-            className="group flex md:hidden flex-col items-center gap-0.5 no-underline transition-colors"
+          {/* Account link (mobile – opens sign-in modal) */}
+          <button
+            onClick={openSignInModal}
+            className="group flex md:hidden flex-col items-center gap-0.5 transition-colors"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-icon group-hover:text-primary" aria-hidden="true">
               <path d="M8.936 12.517a.5.5 0 01.497.099c.59.525 1.55.827 2.582.822a.5.5 0 01.006 1c-1.142.007-2.232-.301-3.015-.881-2.575.985-4.278 3.025-4.485 5.442H19.48c-.214-2.496-2.024-4.59-4.742-5.536a.5.5 0 01.329-.945c3.279 1.141 5.434 3.814 5.434 6.982a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5c0-3.169 2.156-5.842 5.436-6.983zM11.982 4a4.088 4.088 0 014.086 4.09 4.087 4.087 0 11-8.172 0c0-2.259 1.83-4.09 4.086-4.09zm0 1a3.087 3.087 0 10.002 6.174A3.087 3.087 0 0011.982 5z" fill="currentColor" fillRule="nonzero" />
             </svg>
             <span className="text-sm font-normal text-text-primary group-hover:text-primary">Account</span>
-          </Link>
+          </button>
 
           {/* Saved */}
           <Link
