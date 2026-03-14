@@ -51,6 +51,7 @@ function getAllSearchProducts(): SearchResult[] {
           seen.add(key);
           allProducts.push({
             ...product,
+            name: product.name,
             category: cat.name,
             categorySlug: cat.slugs.join("/"),
           });

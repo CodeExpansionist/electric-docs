@@ -359,7 +359,7 @@ export function getProductBySlug(slug: string): ProductDetail | null {
 
       if (productUrl === targetPath || productUrl === targetPath + ".html") {
         const base: ProductDetail = {
-          name: (p.name || p.title || "").replace(/\\"/g, '"'),
+          name: p.name || p.title || "",
           brand: p.brand || "",
           price: {
             current: p.price?.current ?? (typeof p.price === "number" ? p.price : 0),

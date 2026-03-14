@@ -112,7 +112,7 @@ function mapScrapedData(data: RawCategoryJSON): CategoryData {
   const products = (data.products || []).map((p: any) => {
     const productId = p.productId || "";
     return {
-      name: p.name || p.title || "",
+      name: (p.name || p.title || "").replace(/\\"/g, '"'),
       brand: p.brand || "",
       price: {
         current: p.price?.current ?? (typeof p.price === "number" ? p.price : 0),
@@ -126,9 +126,9 @@ function mapScrapedData(data: RawCategoryJSON): CategoryData {
       url: stripDomain(p.url || p.productUrl || "#"),
       imageUrl: productId ? getListingImage(productId) : (p.imageUrl || null),
       productId,
-      specs: p.specs || [],
-      badges: p.badges || [],
-      offers: p.offers || [],
+      specs: (p.specs || []).map((s: string) => s.replace(/\\"/g, '"')),
+      badges: (p.badges || []).map((b: string) => b.replace(/\\"/g, '"')),
+      offers: (p.offers || []).map((o: string) => o.replace(/\\"/g, '"')),
       deliveryFree: p.deliveryFree ?? true,
       energyRating: p.energyRating || null,
       energyLabelUrl: null,
