@@ -543,9 +543,16 @@ export default function HelpAndSupportPage() {
 
       {/* Green header banner */}
       <div
-        className="relative w-full py-10 md:py-14"
+        className="relative w-full py-10 md:py-14 overflow-hidden"
         style={{ backgroundColor: "#007D8A" }}
       >
+        <Image
+          src="/images/banners/help-support-hero.webp"
+          alt=""
+          fill
+          className="object-cover object-center pointer-events-none"
+          priority
+        />
         <div className="container-main relative z-10 text-center">
           <h1 className="text-3xl md:text-[36px] font-bold text-white mb-3">
             Help &amp; Support
