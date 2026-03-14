@@ -318,20 +318,6 @@ const popularFAQs = [
     ),
   },
   {
-    title: "How can I contact Electriz?",
-    content: (
-      <div className="space-y-3">
-        <p>
-          You can reach our team by phone, post, or online. See our full contact details in the{" "}
-          <Link href="#contact" className="text-primary no-underline hover:underline">
-            How can I contact Electriz?
-          </Link>{" "}
-          section at the bottom of this page.
-        </p>
-      </div>
-    ),
-  },
-  {
     title: "Can you tell me if a product is in stock?",
     content: (
       <div className="space-y-3">
@@ -482,6 +468,30 @@ const popularFAQs = [
       </div>
     ),
   },
+  {
+    title: "How can I contact Electriz?",
+    content: (
+      <div className="space-y-3">
+        <p>You can reach our friendly team in several ways:</p>
+        <ul className="list-disc pl-5 space-y-2">
+          <li>
+            <strong>Call us</strong> &mdash; to place an order, call{" "}
+            <span className="font-bold">0330 678 1696</span>. For anything else,
+            call <span className="font-bold">0344 561 0000</span>.
+          </li>
+          <li>
+            <strong>Write to us</strong> &mdash; Electriz, PO Box 1687, Sheffield S2 5YA.
+          </li>
+          <li>
+            <strong>Online</strong> &mdash; visit our{" "}
+            <Link href="/contact-us" className="text-primary no-underline hover:underline">
+              Contact page
+            </Link>.
+          </li>
+        </ul>
+      </div>
+    ),
+  },
 ];
 
 /* ---------- 24/7 Tech Support ---------- */
@@ -543,16 +553,9 @@ export default function HelpAndSupportPage() {
 
       {/* Green header banner */}
       <div
-        className="relative w-full py-10 md:py-14 overflow-hidden"
+        className="relative w-full py-10 md:py-14"
         style={{ backgroundColor: "#007D8A" }}
       >
-        <Image
-          src="/images/banners/help-support-hero.webp"
-          alt=""
-          fill
-          className="object-cover object-center pointer-events-none"
-          priority
-        />
         <div className="container-main relative z-10 text-center">
           <h1 className="text-3xl md:text-[36px] font-bold text-white mb-3">
             Help &amp; Support
@@ -591,7 +594,7 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* Login prompt */}
-      <div className="container-main py-10 text-center">
+      <div className="container-main py-10 text-center border-b border-border">
         <p className="text-sm text-text-secondary mb-4">
           Log in or sign up to track &amp; get help with recent orders
         </p>
@@ -601,7 +604,7 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* I need help with... section */}
-      <div className="border-t border-border py-10">
+      <div className="border-b border-border py-10">
         <div className="container-main">
           <h2 className="text-xl font-bold text-text-primary mb-6">
             I need help with&hellip;
@@ -611,7 +614,7 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* Popular FAQs section */}
-      <div className="border-t border-border container-main py-10">
+      <div className="container-main py-10 border-b border-border">
         <h2 className="text-xl font-bold text-text-primary mb-6">
           Popular FAQs
         </h2>
@@ -619,7 +622,7 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* Complaints and questions */}
-      <div className="border-t border-border py-10">
+      <div className="border-b border-border py-10">
         <div className="container-main">
           <h2 className="text-xl font-bold text-text-primary mb-4">
             Complaints and questions
@@ -639,7 +642,7 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* 24/7 Tech Support */}
-      <div className="border-t border-border container-main py-10">
+      <div className="container-main py-10 border-b border-border">
         <h2 className="text-xl font-bold text-text-primary mb-6">
           I have a question about 24/7 Tech Support or Electriz Cloud Backup
         </h2>
@@ -647,11 +650,11 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* How can I contact Electriz? */}
-      <div id="contact" className="border-t border-border container-main py-10">
+      <div id="contact" className="container-main py-10">
         <h2 className="text-xl font-bold text-text-primary mb-6">
           How can I contact Electriz?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl">
           {/* Call us */}
           <div className="bg-white rounded-lg border border-border shadow-card p-6">
             <div className="w-10 h-10 mb-4 relative">
