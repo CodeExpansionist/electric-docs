@@ -359,7 +359,7 @@ export function getProductBySlug(slug: string): ProductDetail | null {
 
       if (productUrl === targetPath || productUrl === targetPath + ".html") {
         const base: ProductDetail = {
-          name: p.name || p.title || "",
+          name: (p.name || p.title || "").replace(/\\"/g, '"'),
           brand: p.brand || "",
           price: {
             current: p.price?.current ?? (typeof p.price === "number" ? p.price : 0),
@@ -418,7 +418,7 @@ export function getAllProducts(): ProductDetail[] {
       const productUrl = stripDomain(p.url || p.productUrl || "");
       const pid = p.productId || extractProductId(productUrl.replace("/products/", "") + ".html");
       products.push({
-        name: p.name || p.title || "",
+        name: (p.name || p.title || "").replace(/\\"/g, '"'),
         brand: p.brand || "",
         price: {
           current: p.price?.current ?? (typeof p.price === "number" ? p.price : 0),
