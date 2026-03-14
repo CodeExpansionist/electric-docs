@@ -27,6 +27,16 @@ const helpTopics = [
           </Link>
         </li>
         <li>
+          <Link href="/services/delivery" className="text-primary no-underline hover:underline block py-1">
+            Delivery &amp; collection
+          </Link>
+        </li>
+        <li>
+          <Link href="#" className="text-primary no-underline hover:underline block py-1">
+            Home installation
+          </Link>
+        </li>
+        <li>
           <Link href="#" className="text-primary no-underline hover:underline block py-1">
             Recycle my old tech
           </Link>
@@ -458,6 +468,30 @@ const popularFAQs = [
       </div>
     ),
   },
+  {
+    title: "How can I contact Electriz?",
+    content: (
+      <div className="space-y-3">
+        <p>You can reach our friendly team in several ways:</p>
+        <ul className="list-disc pl-5 space-y-2">
+          <li>
+            <strong>Call us</strong> &mdash; to place an order, call{" "}
+            <span className="font-bold">0330 678 1696</span>. For anything else,
+            call <span className="font-bold">0344 561 0000</span>.
+          </li>
+          <li>
+            <strong>Write to us</strong> &mdash; Electriz, PO Box 1687, Sheffield S2 5YA.
+          </li>
+          <li>
+            <strong>Online</strong> &mdash; visit our{" "}
+            <Link href="/contact-us" className="text-primary no-underline hover:underline">
+              Contact page
+            </Link>.
+          </li>
+        </ul>
+      </div>
+    ),
+  },
 ];
 
 /* ---------- 24/7 Tech Support ---------- */
@@ -560,7 +594,7 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* Login prompt */}
-      <div className="container-main py-10 text-center">
+      <div className="container-main py-10 text-center border-b border-border">
         <p className="text-sm text-text-secondary mb-4">
           Log in or sign up to track &amp; get help with recent orders
         </p>
@@ -570,7 +604,7 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* I need help with... section */}
-      <div className="bg-surface py-10">
+      <div className="border-b border-border py-10">
         <div className="container-main">
           <h2 className="text-xl font-bold text-text-primary mb-6">
             I need help with&hellip;
@@ -580,7 +614,7 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* Popular FAQs section */}
-      <div className="container-main py-10">
+      <div className="container-main py-10 border-b border-border">
         <h2 className="text-xl font-bold text-text-primary mb-6">
           Popular FAQs
         </h2>
@@ -588,7 +622,7 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* Complaints and questions */}
-      <div className="bg-surface py-10">
+      <div className="border-b border-border py-10">
         <div className="container-main">
           <h2 className="text-xl font-bold text-text-primary mb-4">
             Complaints and questions
@@ -608,55 +642,11 @@ export default function HelpAndSupportPage() {
       </div>
 
       {/* 24/7 Tech Support */}
-      <div className="container-main py-10">
+      <div className="container-main py-10 border-b border-border">
         <h2 className="text-xl font-bold text-text-primary mb-6">
           I have a question about 24/7 Tech Support or Electriz Cloud Backup
         </h2>
         <Accordion items={techSupportTopics} />
-      </div>
-
-      {/* Still have questions? */}
-      <div className="bg-surface py-10">
-        <div className="container-main">
-          <h2 className="text-xl font-bold text-text-primary mb-6">
-            Still have questions?
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Link href="#" className="bg-white rounded-lg border border-border shadow-card overflow-hidden no-underline hover:shadow-md transition-shadow block">
-              <div className="aspect-[16/10] relative">
-                <Image src="/images/help/buying-guides.webp" alt="Buying guides" fill className="object-cover" />
-              </div>
-              <div className="p-5">
-                <h3 className="text-base font-bold text-text-primary mb-2">Buying guides</h3>
-                <p className="text-sm text-text-secondary leading-relaxed">
-                  Shop smarter with our handy buying guides that make choosing your new tech easy.
-                </p>
-              </div>
-            </Link>
-            <Link href="#" className="bg-white rounded-lg border border-border shadow-card overflow-hidden no-underline hover:shadow-md transition-shadow block">
-              <div className="aspect-[16/10] relative">
-                <Image src="/images/help/manuals.webp" alt="Product and service manuals" fill className="object-cover" />
-              </div>
-              <div className="p-5">
-                <h3 className="text-base font-bold text-text-primary mb-2">Product and service manuals</h3>
-                <p className="text-sm text-text-secondary leading-relaxed">
-                  Browse our selection of product manuals that take the guesswork out of tech.
-                </p>
-              </div>
-            </Link>
-            <Link href="/techtalk" className="bg-white rounded-lg border border-border shadow-card overflow-hidden no-underline hover:shadow-md transition-shadow block">
-              <div className="aspect-[16/10] relative">
-                <Image src="/images/help/techtalk.webp" alt="TechTalk blog" fill className="object-cover" />
-              </div>
-              <div className="p-5">
-                <h3 className="text-base font-bold text-text-primary mb-2">TechTalk blog</h3>
-                <p className="text-sm text-text-secondary leading-relaxed">
-                  Get the latest tech reviews and inspiration from Electriz
-                </p>
-              </div>
-            </Link>
-          </div>
-        </div>
       </div>
 
       {/* How can I contact Electriz? */}
@@ -664,7 +654,7 @@ export default function HelpAndSupportPage() {
         <h2 className="text-xl font-bold text-text-primary mb-6">
           How can I contact Electriz?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl">
           {/* Call us */}
           <div className="bg-white rounded-lg border border-border shadow-card p-6">
             <div className="w-10 h-10 mb-4 relative">
@@ -693,25 +683,6 @@ export default function HelpAndSupportPage() {
                   <p>Sun: 9am to 6pm</p>
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/* ShopLive */}
-          <div className="bg-white rounded-lg border border-border shadow-card p-6">
-            <div className="w-10 h-10 mb-4 relative">
-              <Image src="/images/icons/chat-svg.svg" alt="ShopLive" width={40} height={40} className="object-contain" unoptimized />
-            </div>
-            <h3 className="text-base font-bold text-text-primary mb-3">ShopLive</h3>
-            <div className="text-sm text-text-secondary leading-relaxed">
-              <p>
-                Get advice before you buy. Start a video call with a tech expert now while you shop from your sofa.
-              </p>
-              <Link
-                href="/services/shoplive"
-                className="inline-block mt-3 text-primary font-semibold no-underline hover:underline"
-              >
-                Start a ShopLive session
-              </Link>
             </div>
           </div>
 

@@ -38,11 +38,15 @@ export default function Accordion({ items, defaultOpen }: AccordionProps) {
               <path d="M6 9l6 6 6-6" />
             </svg>
           </button>
-          {openIndex === i && (
+          <div
+            className={`overflow-hidden transition-all duration-300 ease-in-out ${
+              openIndex === i ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
+            }`}
+          >
             <div className="pb-4 text-sm text-text-secondary leading-relaxed">
               {item.content}
             </div>
-          )}
+          </div>
         </div>
       ))}
     </div>
