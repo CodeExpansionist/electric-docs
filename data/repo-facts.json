@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-13T11:08:50.208Z",
+  "generated": "2026-03-14T01:42:10.492Z",
   "versions": {
     "next": "15.5.12",
     "react": "18",
@@ -8,9 +8,9 @@
   },
   "counts": {
     "products": 2321,
-    "images": 37649,
+    "images": 37722,
     "categories": 14,
-    "scripts": 22,
+    "scripts": 25,
     "components": 53,
     "routes": 36
   },

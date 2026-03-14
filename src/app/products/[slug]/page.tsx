@@ -469,9 +469,9 @@ function ProductPageContent({
                   key={i}
                   src={badge.image}
                   alt={badgeType}
-                  width={80}
-                  height={24}
-                  className="h-6 w-auto object-contain"
+                  width={100}
+                  height={30}
+                  className="h-[30px] w-auto object-contain"
                   unoptimized
                 />
               );
