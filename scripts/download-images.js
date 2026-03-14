@@ -25,9 +25,12 @@ const args = process.argv.slice(2);
 const concurrency = parseInt((args.find(a => a.startsWith('--concurrency=')) || '').split('=')[1]) || 10;
 const skipGallery = args.includes('--skip-gallery');
 const mainOnly = args.includes('--main-only');
+const forceRedownload = args.includes('--force');
+const idsArg = args.find(a => a.startsWith('--ids='));
+const targetIds = idsArg ? idsArg.split('=')[1].split(',').filter(Boolean) : null;
 
 // CDN URL patterns
-const CDN_BASE = 'https://media.electriz.biz/i/electrizprod';
+const CDN_BASE = 'https://cdn.media.amplience.net/i/currysprod';
 
 function buildUrls(productId) {
   const urls = [];
@@ -137,8 +140,15 @@ async function downloadProductImages(productId) {
 
   // Check if large image already exists (skip fully-downloaded products)
   // Note: main.webp may exist from --main-only run; large.webp means full download was done
-  if (fs.existsSync(path.join(dir, 'large.webp'))) {
+  if (!forceRedownload && fs.existsSync(path.join(dir, 'large.webp'))) {
     return { productId, skipped: true };
+  }
+
+  // When forcing, delete existing images first
+  if (forceRedownload && fs.existsSync(dir)) {
+    for (const f of fs.readdirSync(dir)) {
+      if (f.endsWith('.webp')) fs.unlinkSync(path.join(dir, f));
+    }
   }
 
   fs.mkdirSync(dir, { recursive: true });
@@ -246,12 +256,23 @@ async function main() {
     }
   }
 
-  console.log(`Found ${productIds.size} products to download images for`);
+  // Filter to target IDs if specified
+  let ids = Array.from(productIds);
+  if (targetIds) {
+    ids = targetIds.filter(id => productIds.has(id));
+    console.log(`Targeting ${ids.length} of ${productIds.size} products (--ids filter)`);
+  } else {
+    console.log(`Found ${productIds.size} products to download images for`);
+  }
+
+  if (forceRedownload) {
+    console.log('  Force mode: re-downloading existing images');
+  }
 
   // Create base directory
   fs.mkdirSync(IMAGES_DIR, { recursive: true });
 
-  const result = await processQueue(Array.from(productIds), concurrency);
+  const result = await processQueue(ids, concurrency);
 
   console.log(`\nDone!`);
   console.log(`  Products processed: ${productIds.size}`);

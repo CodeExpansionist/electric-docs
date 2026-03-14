@@ -6,7 +6,7 @@ IDS_FILE="${1:-/tmp/missing-product-ids.txt}"
 START="${2:-0}"
 END="${3:-999999}"
 BASE_DIR="/Users/jamesharden/Gucci/donclaw/10/9. Electric/electriz/public/images/products"
-CDN="https://media.electriz.biz/i/electrizprod"
+CDN="https://cdn.media.amplience.net/i/currysprod"
 
 downloaded=0
 failed=0
