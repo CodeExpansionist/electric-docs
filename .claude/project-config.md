@@ -28,7 +28,7 @@ Populated by `/map-site` (pipeline position 1), refined by later skills.
 ## Architecture
 
 - **Framework**: Next.js 15 App Router
-- **Dev server port**: 3001
+- **Dev server port**: 3000
 - **Category route type**: `[...category]` catch-all
 - **Product route pattern**: `/products/[slug]`
 - **Category data module**: `src/lib/category-data.ts`

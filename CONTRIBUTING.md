@@ -15,7 +15,7 @@ bash scripts/install-git-hooks.sh  # Install pre-commit drift checks
 npm run dev
 ```
 
-Open [http://localhost:3001](http://localhost:3001).
+Open [http://localhost:3000](http://localhost:3000).
 
 ## Code Standards
 
@@ -68,7 +68,7 @@ Do not commit:
 Never delete `.next/` while the dev server is running. Kill the server first:
 
 ```bash
-lsof -ti:3001 | xargs kill -9
+lsof -ti:3000 | xargs kill -9
 rm -rf .next
 npm run dev
 ```
