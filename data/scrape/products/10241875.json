@@ -80,7 +80,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "SONY MDR-ZX310APB Headphones - Black",
+      "price": 18.99,
+      "rating": 4.4,
+      "reviewCount": 1233,
+      "image": "/images/products/10160376/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "ENERGIZER Max AA Alkaline Batteries - Pack of 8",
+      "price": 7,
+      "rating": 4.8,
+      "reviewCount": 220,
+      "image": "/images/products/10267967/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

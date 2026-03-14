@@ -44,7 +44,31 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    },
+    {
+      "category": "Streaming Devices",
+      "title": "Amazon Fire TV Stick with Alexa Voice Remote",
+      "price": 34.99,
+      "rating": 4.7,
+      "image": "/images/products/10272322/main.webp"
+    },
+    {
+      "category": "Power Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {

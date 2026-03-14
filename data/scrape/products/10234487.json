@@ -48,7 +48,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cleaning Products",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

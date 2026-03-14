@@ -79,7 +79,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Optional Accessories",
+      "title": "HISENSE AX3120Q 3.1.2 Wireless Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 399,
+      "rating": 4.9,
+      "reviewCount": 8,
+      "image": "/images/products/10280615/main.webp"
+    },
+    {
+      "category": "Optional Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Optional Accessories",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [
     "Get 50% off selected soundbars when bought with any Hisense TV. Use code HSN50 at checkout.+2 more offers"
   ],

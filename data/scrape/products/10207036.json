@@ -68,7 +68,24 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK Satellite F Plug Cable - 4 m",
+      "price": 9.99,
+      "rating": 4.6,
+      "reviewCount": 27,
+      "image": "/images/products/10119453/main.webp"
+    },
+    {
+      "category": "Remote Controls",
+      "title": "ONE FOR ALL Evolve URC7115 Universal Remote Control",
+      "price": 18.99,
+      "rating": 4.6,
+      "reviewCount": 39,
+      "image": "/images/products/10152868/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

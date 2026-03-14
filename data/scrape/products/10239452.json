@@ -35,5 +35,22 @@
   "energyRating": null,
   "id": "10239452",
   "title": "GROOV-E Roma GV-CR03 DAB/FM Clock Radio - Black",
-  "crossSellProducts": []
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "SONY MDR-ZX310APB Headphones - Black",
+      "price": 18.99,
+      "rating": 4.4,
+      "reviewCount": 1233,
+      "image": "/images/products/10160376/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "DURACELL Optimum AA Alkaline Batteries - Pack of 8",
+      "price": 12.99,
+      "rating": 4.6,
+      "reviewCount": 23,
+      "image": "/images/products/10230763/main.webp"
+    }
+  ]
 }

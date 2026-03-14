@@ -88,7 +88,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "MARSHALL Monitor III Wireless Bluetooth Noise-Cancelling Headphones - Black",
+      "price": 299,
+      "rating": 4.7,
+      "reviewCount": 29,
+      "image": "/images/products/10268410/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

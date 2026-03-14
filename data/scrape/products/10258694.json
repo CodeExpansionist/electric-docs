@@ -50,7 +50,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Power Cables",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

@@ -58,7 +58,24 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and accessories",
+      "title": "ESSENTIALS CSATPL15 Twist F Plug Adapters",
+      "price": 3.99,
+      "rating": 3.6,
+      "reviewCount": 8,
+      "image": "/images/products/10115760/main.webp"
+    },
+    {
+      "category": "Remote controls",
+      "title": "ONE FOR ALL Evolve 2 URC7125 Universal Remote Control",
+      "price": 18.99,
+      "rating": 4.3,
+      "reviewCount": 27,
+      "image": "/images/products/10152830/main.webp"
+    }
+  ],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],

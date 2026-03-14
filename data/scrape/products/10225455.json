@@ -52,7 +52,27 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S1HDM115 High Speed HDMI Cable with Ethernet - 1 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 35,
+      "image": "/images/products/10132171/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM SCMS214 Cable Management Sleeve",
+      "price": 7.99,
+      "wasPrice": 9.99,
+      "savings": 2,
+      "rating": 4.1,
+      "reviewCount": 35,
+      "image": "/images/products/10026189/main.webp",
+      "badge": "Buy together & save £1.60"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

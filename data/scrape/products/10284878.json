@@ -48,7 +48,59 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "TV Accessories",
+      "title": "LOGIK LTM13 Tilt 26 - 37\" TV Bracket",
+      "price": 14.99,
+      "wasPrice": 24.99,
+      "savings": 10,
+      "rating": 4.4,
+      "reviewCount": 71,
+      "image": "/images/products/21163649/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "TV Accessories",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp"
+    },
+    {
+      "category": "Bluetooth Earbuds",
+      "title": "LAZERBUILT Rick & Morty Wireless Bluetooth Earbuds - Grey & Green",
+      "price": 6.97,
+      "image": "/images/products/10290968/main.webp"
+    },
+    {
+      "category": "Bluetooth Item Finder",
+      "title": "CHIPOLO CH-C19M-BE-R ONE Bluetooth Item Finder - Blue",
+      "price": 9.97,
+      "wasPrice": 24.99,
+      "savings": 15.02,
+      "rating": 4.6,
+      "reviewCount": 14,
+      "image": "/images/products/10266769/main.webp"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L6WAY2M18 6-Socket Extension Lead - 2 m",
+      "price": 17.99,
+      "rating": 4.8,
+      "reviewCount": 23,
+      "image": "/images/products/10175007/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "DURACELL Plus AA Alkaline Batteries - Pack of 8",
+      "price": 9.99,
+      "rating": 4.8,
+      "reviewCount": 596,
+      "image": "/images/products/10230769/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

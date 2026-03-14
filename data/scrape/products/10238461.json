@@ -85,7 +85,32 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Audio",
+      "title": "SONY HT-S2000 3.1 All-in-One Sound Bar with Dolby Atmos & DTS Virtual:X",
+      "price": 399,
+      "rating": 4.4,
+      "reviewCount": 454,
+      "image": "/images/products/10250527/main.webp"
+    },
+    {
+      "category": "Cables & Accessories",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    },
+    {
+      "category": "Cleaning",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    }
+  ],
   "offers": [
     "Save 50% on selected Sony Home Cinema Equipment when bought with this Sony TV+1 more offers"
   ],

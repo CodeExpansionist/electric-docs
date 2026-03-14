@@ -78,7 +78,16 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables and Accessories",
+      "title": "SANDSTROM Black Series S3HDM115 High Speed HDMI Cable with Ethernet - 3 m",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviewCount": 45,
+      "image": "/images/products/10132209/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

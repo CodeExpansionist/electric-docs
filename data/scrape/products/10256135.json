@@ -58,7 +58,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black",
+      "price": 34.99,
+      "rating": 4.7,
+      "reviewCount": 305,
+      "image": "/images/products/10247634/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L35RCA23 RCA to 3.5 mm Audio Cable - 1.5 m",
+      "price": 6.99,
+      "rating": 5,
+      "reviewCount": 4,
+      "image": "/images/products/10234488/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

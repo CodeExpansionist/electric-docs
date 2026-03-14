@@ -66,7 +66,24 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "SONY MDR-ZX310APB Headphones - Black",
+      "price": 18.99,
+      "rating": 4.4,
+      "reviewCount": 1233,
+      "image": "/images/products/10160376/main.webp"
+    },
+    {
+      "category": "Cables and Accessories",
+      "title": "LOGIK L15RCA223 2x RCA Cable - 1.5 m",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 3,
+      "image": "/images/products/10234487/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

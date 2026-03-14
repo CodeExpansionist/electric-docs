@@ -39,5 +39,14 @@
   "energyRating": null,
   "id": "10249267",
   "title": "ONE FOR ALL URC1917 Universal Remote Control",
-  "crossSellProducts": []
+  "crossSellProducts": [
+    {
+      "category": "Batteries",
+      "title": "DURACELL Ultra AAAA Batteries - Pack of 2",
+      "price": 4.99,
+      "rating": 4.7,
+      "reviewCount": 54,
+      "image": "/images/products/10158065/main.webp"
+    }
+  ]
 }

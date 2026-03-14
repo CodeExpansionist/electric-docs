@@ -38,5 +38,14 @@
   "energyRating": null,
   "id": "10276655",
   "title": "LABGEAR HDM 20E Speed HDMI Cable with Ethernet - 20 m",
-  "crossSellProducts": []
+  "crossSellProducts": [
+    {
+      "category": "HDMI Cable",
+      "title": "LABGEAR HDM 20E/03 High Speed HDMI Cable with Ethernet - 20 m",
+      "price": 39.99,
+      "rating": 4.8,
+      "reviewCount": 6,
+      "image": "/images/products/10151192/main.webp"
+    }
+  ]
 }

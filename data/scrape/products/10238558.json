@@ -68,7 +68,18 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "BELKIN Dual USB-A 24 W Mains Charger - White",
+      "price": 14.39,
+      "wasPrice": 17.99,
+      "savings": 3.6,
+      "rating": 4.8,
+      "reviewCount": 27,
+      "image": "/images/products/10206966/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {

@@ -21,5 +21,49 @@
   "energyRating": "G",
   "source": "listing-only",
   "id": "10283642",
-  "title": "SAMSUNG U8000F 75\" Crystal UHD 4K HDR Smart TV 2025"
+  "title": "SAMSUNG U8000F 75\" Crystal UHD 4K HDR Smart TV 2025",
+  "crossSellProducts": [
+    {
+      "category": "Currys Recommends",
+      "title": "SAMSUNG HW-B400F/XU 2.0 All-in-One Sound Bar",
+      "price": 99,
+      "rating": 4.5,
+      "reviewCount": 40,
+      "image": "/images/products/10282182/main.webp"
+    },
+    {
+      "category": "Currys Recommends",
+      "title": "LOGIK LCMK123 Cable Management Kit",
+      "price": 9.99,
+      "rating": 5,
+      "reviewCount": 1,
+      "image": "/images/products/10245806/main.webp"
+    },
+    {
+      "category": "Currys Recommends",
+      "title": "SANDSTROM S150AVC20 Screen Cleaner",
+      "price": 7.99,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "image": "/images/products/10211694/main.webp"
+    },
+    {
+      "category": "Often bought together",
+      "title": "LOGIK LFS16 Fixed 10-26\" TV Bracket",
+      "price": 9.99,
+      "wasPrice": 19.99,
+      "savings": 10,
+      "rating": 4.2,
+      "reviewCount": 37,
+      "image": "/images/products/10138713/main.webp"
+    },
+    {
+      "category": "Often bought together",
+      "title": "SANDSTROM Gold Series S1HDMI321 Ultra High Speed HDMI 2.1 Cable with Ethernet - 1 m",
+      "price": 34.99,
+      "rating": 4.7,
+      "reviewCount": 32,
+      "image": "/images/products/10218648/main.webp"
+    }
+  ]
 }

@@ -46,7 +46,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Batteries",
+      "title": "DURACELL Ultra AAAA Batteries - Pack of 2",
+      "price": 4.99,
+      "rating": 4.7,
+      "reviewCount": 54,
+      "image": "/images/products/10158065/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {

@@ -35,5 +35,24 @@
   "energyRating": null,
   "id": "10246329",
   "title": "LOGIK L2DAB23 Portable DAB+/FM Radio - Black",
-  "crossSellProducts": []
+  "crossSellProducts": [
+    {
+      "category": "Headphones",
+      "title": "SONY MDR-ZX310APL Headphones - Blue",
+      "price": 18.99,
+      "rating": 4.4,
+      "reviewCount": 1233,
+      "image": "/images/products/10160376/main.webp"
+    },
+    {
+      "category": "Batteries",
+      "title": "DURACELL Plus AA Alkaline Batteries - Pack of 8",
+      "price": 6.66,
+      "wasPrice": 9.99,
+      "savings": 3.33,
+      "rating": 4.8,
+      "reviewCount": 596,
+      "image": "/images/products/10230769/main.webp"
+    }
+  ]
 }

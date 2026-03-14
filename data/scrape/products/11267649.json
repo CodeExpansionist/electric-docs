@@ -30,7 +30,16 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Batteries",
+      "title": "DURACELL Optimum AAA Alkaline Batteries - Pack of 4",
+      "price": 4.99,
+      "rating": 5,
+      "reviewCount": 4,
+      "image": "/images/products/10230780/main.webp"
+    }
+  ],
   "offers": [
     "Get up to 2 months of Apple Music, Apple Fitness+ and Apple Arcade with this product."
   ],

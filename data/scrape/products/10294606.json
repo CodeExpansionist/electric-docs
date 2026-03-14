@@ -81,7 +81,39 @@
     }
   ],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Bracket",
+      "title": "LOGIK LCS16 Tilt & Swivel 13-32\" TV Bracket",
+      "price": 8.99,
+      "wasPrice": 29.99,
+      "savings": 21,
+      "rating": 4.5,
+      "reviewCount": 132,
+      "image": "/images/products/10138716/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Extension Lead",
+      "title": "LOGIK L4WAY2M18 4-Socket Extension Lead - 2 m",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviewCount": 23,
+      "image": "/images/products/10175000/main.webp",
+      "badge": "Currys Recommends"
+    },
+    {
+      "category": "Streaming Device",
+      "title": "AMAZON Fire TV Stick 4K Select (2025) with Alexa Voice Remote",
+      "price": 25.99,
+      "wasPrice": 49.99,
+      "savings": 24,
+      "rating": 3.7,
+      "reviewCount": 20,
+      "image": "/images/products/10292571/main.webp",
+      "badge": "Currys Recommends"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

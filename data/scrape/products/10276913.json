@@ -76,7 +76,18 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Accessories",
+      "title": "BELKIN Braided USB Type-C Cable - 1 m, White",
+      "price": 11.99,
+      "wasPrice": 14.99,
+      "savings": 3,
+      "rating": 4.3,
+      "reviewCount": 10,
+      "image": "/images/products/10254663/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},

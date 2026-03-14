@@ -50,7 +50,34 @@
   ],
   "careAndRepair": [],
   "essentialServices": [],
-  "crossSellProducts": [],
+  "crossSellProducts": [
+    {
+      "category": "Cables",
+      "title": "BELKIN Braided USB-C to USB-A Cable - 1 m",
+      "price": 10.39,
+      "wasPrice": 12.99,
+      "savings": 2.6,
+      "rating": 4.7,
+      "reviewCount": 26,
+      "image": "/images/products/10206906/main.webp"
+    },
+    {
+      "category": "Headphones",
+      "title": "SONY WH-CH520B Wireless Bluetooth Headphones - Black",
+      "price": 34.99,
+      "rating": 4.7,
+      "reviewCount": 305,
+      "image": "/images/products/10247634/main.webp"
+    },
+    {
+      "category": "Earphones",
+      "title": "SONY IER-EX15C USB-C Earphones - Black",
+      "price": 19.99,
+      "rating": 4.4,
+      "reviewCount": 8,
+      "image": "/images/products/10291756/main.webp"
+    }
+  ],
   "offers": [],
   "badges": [],
   "specifications": {},
