@@ -192,7 +192,7 @@ function toLargeImage(imageUrl: string | null, productId?: string): string | nul
 }
 
 function extractProductId(slug: string): string | undefined {
-  const match = slug.match(/(\d{6,})\.html$/);
+  const match = slug.match(/(\d{6,})(?:\.html)?$/);
   return match ? match[1] : undefined;
 }
 
@@ -251,9 +251,19 @@ function mergeScrapedData(base: ProductDetail, scraped: any): ProductDetail {
     merged.essentialServices = scraped.essentialServices;
   }
 
-  // Cross-sell products
+  // Cross-sell products — normalize image paths and coerce old sparse format
   if (scraped.crossSellProducts?.length > 0) {
-    merged.crossSellProducts = scraped.crossSellProducts;
+    merged.crossSellProducts = scraped.crossSellProducts.map((item: any) => ({
+      category: item.category || "Accessories",
+      title: item.title || item.name || "",
+      price: typeof item.price === "number" ? item.price : 0,
+      wasPrice: item.wasPrice ?? null,
+      savings: item.savings ?? null,
+      rating: item.rating ?? undefined,
+      reviewCount: item.reviewCount ?? undefined,
+      image: item.image?.startsWith("/images/") ? item.image : toLocalImage(item.image || ""),
+      badge: item.badge || undefined,
+    }));
   }
 
   // Offers (prefer scraped if more detailed)
@@ -346,7 +356,7 @@ export function getProductBySlug(slug: string): ProductDetail | null {
     for (const p of products) {
       const productUrl = stripDomain(p.url || p.productUrl || "");
 
-      if (productUrl === targetPath) {
+      if (productUrl === targetPath || productUrl === targetPath + ".html") {
         const base: ProductDetail = {
           name: p.name || p.title || "",
           brand: p.brand || "",

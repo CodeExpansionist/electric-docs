@@ -396,7 +396,7 @@ function ProductPageContent({
   };
 
   return (
-    <div className="bg-surface min-h-screen">
+    <div className="bg-white min-h-screen">
       {/* Add to basket toast */}
       {showToast && (
         <div className="fixed top-4 right-4 z-50 bg-white border border-border rounded-lg shadow-lg p-4 flex items-center gap-3 animate-in fade-in slide-in-from-top-2">
@@ -461,12 +461,14 @@ function ProductPageContent({
       {(product.badgeImages?.length || product.badges.length > 0) && (
         <div className="flex flex-wrap items-center gap-2 mb-3">
           {product.badgeImages?.map((badge, i) => {
-            if (badge.image) {
+            const badgeType = badge.type || "";
+            const isEpicDeal = badgeType.toLowerCase().includes("epic deal");
+            if (badge.image && badge.image.startsWith("/")) {
               return (
                 <Image
                   key={i}
                   src={badge.image}
-                  alt={badge.type || ""}
+                  alt={badgeType}
                   width={80}
                   height={24}
                   className="h-6 w-auto object-contain"
@@ -474,8 +476,6 @@ function ProductPageContent({
                 />
               );
             }
-            const badgeType = badge.type || "";
-            const isEpicDeal = badgeType.toLowerCase().includes("epic deal");
             return (
               <span
                 key={i}
@@ -514,18 +514,27 @@ function ProductPageContent({
       {product.awards && product.awards.length > 0 && (
         <div className="flex flex-wrap items-center gap-3 mb-4">
           {product.awards
-            .filter((a) => a.image && !a.image.includes("loading.gif"))
-            .map((award, i) => (
-              <Image
-                key={i}
-                src={award.image}
-                alt={award.name}
-                width={60}
-                height={40}
-                className="h-8 w-auto object-contain"
-                unoptimized
-              />
-            ))}
+            .filter((a) => a.name)
+            .map((award, i) =>
+              award.image && award.image.startsWith("/") ? (
+                <Image
+                  key={i}
+                  src={award.image}
+                  alt={award.name}
+                  width={60}
+                  height={40}
+                  className="h-8 w-auto object-contain"
+                  unoptimized
+                />
+              ) : (
+                <span
+                  key={i}
+                  className="text-[11px] px-2.5 py-1 rounded-sm font-medium border border-border text-text-primary"
+                >
+                  {award.name}
+                </span>
+              )
+            )}
         </div>
       )}
 
@@ -554,41 +563,49 @@ function ProductPageContent({
             </div>
           )}
 
-          {/* Key specs grid (below gallery) */}
-          {product.keySpecs && product.keySpecs.length > 0 ? (
-            <>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5 pt-5 border-t border-border">
-                {product.keySpecs.slice(0, 4).map((spec, i) => (
-                  <div key={i} className="text-center">
-                    <div className="w-10 h-10 mx-auto mb-2 bg-surface rounded-full flex items-center justify-center">
-                      <KeySpecIcon icon={spec.icon} index={i} />
-                    </div>
-                    <p className="text-[11px] text-text-secondary leading-tight">
-                      {spec.label}
-                    </p>
-                  </div>
-                ))}
-              </div>
-              {/* Additional spec bullets (from keySpecs overflow + category specs) */}
-              {(() => {
-                const keySpecLabels = new Set(product.keySpecs!.slice(0, 4).map(s => (s.label || "").toLowerCase()));
-                const extraKeySpecs = product.keySpecs!.slice(4).map(s => s.label);
-                const extraCategorySpecs = product.specs.filter(s => !keySpecLabels.has(s.toLowerCase()));
-                const allExtra = [...extraKeySpecs, ...extraCategorySpecs];
-                if (allExtra.length === 0) return null;
-                return (
-                  <div className="grid grid-cols-2 gap-x-6 gap-y-1.5 mt-4 pt-4 border-t border-border">
-                    {allExtra.map((spec, i) => (
-                      <div key={i} className="flex items-start gap-1.5">
-                        <span className="text-[11px] text-text-muted mt-0.5">•</span>
-                        <span className="text-[11px] text-text-secondary">{spec}</span>
+          {/* Key specs grid (below gallery) — filter out marketing badges */}
+          {(() => {
+            const badgeStyleIcons = new Set(["loved", "dolby", "freely"]);
+            const filteredKeySpecs = (product.keySpecs || []).filter(spec => {
+              if (badgeStyleIcons.has(spec.icon)) return false;
+              if (/loved by/i.test(spec.label)) return false;
+              return true;
+            });
+            return filteredKeySpecs.length > 0 ? (
+              <>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5 pt-5 border-t border-border">
+                  {filteredKeySpecs.slice(0, 4).map((spec, i) => (
+                    <div key={i} className="text-center">
+                      <div className="w-10 h-10 mx-auto mb-2 bg-surface rounded-full flex items-center justify-center">
+                        <KeySpecIcon icon={spec.icon} index={i} />
                       </div>
-                    ))}
-                  </div>
-                );
-              })()}
-            </>
-          ) : (
+                      <p className="text-[11px] text-text-secondary leading-tight">
+                        {spec.label}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+                {/* Additional spec bullets (from keySpecs overflow + category specs) */}
+                {(() => {
+                  const keySpecLabels = new Set(filteredKeySpecs.slice(0, 4).map(s => (s.label || "").toLowerCase()));
+                  const extraKeySpecs = filteredKeySpecs.slice(4).map(s => s.label);
+                  const extraCategorySpecs = product.specs.filter(s => !keySpecLabels.has(s.toLowerCase()));
+                  const allExtra = [...extraKeySpecs, ...extraCategorySpecs];
+                  if (allExtra.length === 0) return null;
+                  return (
+                    <div className="grid grid-cols-2 gap-x-6 gap-y-1.5 mt-4 pt-4 border-t border-border">
+                      {allExtra.map((spec, i) => (
+                        <div key={i} className="flex items-start gap-1.5">
+                          <span className="text-[11px] text-text-muted mt-0.5">•</span>
+                          <span className="text-[11px] text-text-secondary">{spec}</span>
+                        </div>
+                      ))}
+                    </div>
+                  );
+                })()}
+              </>
+            ) : null;
+          })() || (
             product.specs.length > 0 && (
               <>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5 pt-5 border-t border-border">
@@ -645,7 +662,7 @@ function ProductPageContent({
         </div>
 
         {/* ── RIGHT COLUMN: Price panel (40%) ── */}
-        <div className="w-full lg:w-[40%] min-w-0">
+        <div className="w-full lg:w-[40%] min-w-0 bg-surface rounded-lg p-5">
           <PricePanel
             price={product.price.current}
             wasPrice={product.price.was}
@@ -771,7 +788,7 @@ function ProductPageContent({
 
           {/* Cross-sell products */}
           {product.crossSellProducts && product.crossSellProducts.length > 0 && (
-            <div className="mt-4">
+            <div className="border-t border-border pt-4 mt-4">
               <CrossSellProducts products={product.crossSellProducts} />
             </div>
           )}

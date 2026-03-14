@@ -81,7 +81,7 @@ export default function CrossSellProducts({
   if (products.length === 0) return null;
 
   return (
-    <div className="mb-6">
+    <div className="mb-2">
       <h3 className="text-base font-bold text-primary mb-4">
         What you&apos;ll need to make it even better
       </h3>
