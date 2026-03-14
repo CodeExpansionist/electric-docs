@@ -605,6 +605,7 @@ function ProductPageContent({
               slug: "",
               price: product.price.current,
               selected: s.selected,
+              available: false,
             }))}
             energyRating={product.energyRating}
             energyLabelUrl={product.energyLabelUrl}

@@ -117,6 +117,7 @@ export interface SizeVariant {
   slug: string;
   price: number;
   selected: boolean;
+  available: boolean;
 }
 
 export interface ProductDetail {
@@ -463,6 +464,7 @@ export function getSizeVariants(productId: string): SizeVariant[] {
       slug: v.slug || "",
       price: v.price || 0,
       selected: v.productId === productId,
+      available: v.available ?? Boolean(v.slug && v.productId),
     }));
   }
 

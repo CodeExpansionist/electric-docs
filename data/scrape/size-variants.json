@@ -1,50 +1,2567 @@
 {
   "variantGroups": [
     {
+      "family": "JVC LT-32CR250 Roku TV Smart HD Ready HDR LED TV",
+      "variants": [
+        {
+          "size": "32\"",
+          "productId": "10274389",
+          "slug": "jvc-lt32cr250-roku-tv-32-smart-hd-ready-hdr-led-tv-10274389.html",
+          "price": 119,
+          "available": true
+        },
+        {
+          "size": "40\"",
+          "productId": "",
+          "slug": "",
+          "price": 119,
+          "available": false
+        },
+        {
+          "size": "43\"",
+          "productId": "",
+          "slug": "",
+          "price": 119,
+          "available": false
+        }
+      ]
+    },
+    {
+      "family": "LG C5 OLED evo AI 4K HDR Smart TV 2025",
+      "variants": [
+        {
+          "size": "42\"",
+          "productId": "10281538",
+          "slug": "lg-c5-42-oled-evo-ai-4k-hdr-smart-tv-2025-oled42c54la-10281538.html",
+          "price": 949,
+          "available": true
+        },
+        {
+          "size": "48\"",
+          "productId": "10281782",
+          "slug": "lg-c5-48-oled-evo-ai-4k-hdr-smart-tv-2025-oled48c54la-10281782.html",
+          "price": 1049,
+          "available": true
+        },
+        {
+          "size": "55\"",
+          "productId": "10281549",
+          "slug": "lg-c5-55-oled-evo-ai-4k-hdr-smart-tv-2025-oled55c54la-10281549.html",
+          "price": 1299,
+          "available": true
+        },
+        {
+          "size": "65\"",
+          "productId": "10281777",
+          "slug": "lg-c5-65-oled-evo-ai-4k-hdr-smart-tv-2025-oled65c54la-10281777.html",
+          "price": 1699,
+          "available": true
+        },
+        {
+          "size": "77\"",
+          "productId": "10281779",
+          "slug": "lg-c5-77-oled-evo-ai-4k-hdr-smart-tv-2025-oled77c54la-10281779.html",
+          "price": 2699,
+          "available": true
+        },
+        {
+          "size": "83\"",
+          "productId": "10282101",
+          "slug": "lg-c5-83-oled-evo-ai-4k-hdr-smart-tv-2025-oled83c54la-10282101.html",
+          "price": 3599,
+          "available": true
+        }
+      ]
+    },
+    {
+      "family": "LG QNED86 QNED evo AI Mini LED 4K HDR Smart TV 2025",
+      "variants": [
+        {
+          "size": "65\"",
+          "productId": "10281767",
+          "slug": "lg-qned86-65-qned-evo-ai-mini-led-4k-hdr-smart-tv-2025-65qned86a6a-10281767.html",
+          "price": 949,
+          "available": true
+        },
+        {
+          "size": "75\"",
+          "productId": "10282096",
+          "slug": "lg-m5-65-oled-evo-ai-4k-hdr-true-wireless-smart-tv-2025-oled65m59la-10282096.html",
+          "price": 2599,
+          "available": true
+        }
+      ]
+    },
+    {
+      "family": "LG B5 OLED AI 4K HDR Smart TV 2025",
+      "variants": [
+        {
+          "size": "48\"",
+          "productId": "10282097",
+          "slug": "lg-b5-48-oled-ai-4k-hdr-smart-tv-2025-oled48b56la-10282097.html",
+          "price": 849,
+          "available": true
+        },
+        {
+          "size": "55\"",
+          "productId": "10281768",
+          "slug": "lg-b5-55-oled-ai-4k-hdr-smart-tv-2025-oled55b56la-10281768.html",
+          "price": 1099,
+          "available": true
+        },
+        {
+          "size": "65\"",
+          "productId": "10281772",
+          "slug": "lg-b5-65-oled-ai-4k-hdr-smart-tv-2025-oled65b56la-10281772.html",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "size": "77\"",
+          "productId": "10281774",
+          "slug": "lg-b5-77-oled-ai-4k-hdr-smart-tv-2025-oled77b56la-10281774.html",
+          "price": 1999.99,
+          "available": true
+        },
+        {
+          "size": "83\"",
+          "productId": "10282099",
+          "slug": "lg-b5-83-oled-ai-4k-hdr-smart-tv-2025-oled83b56la-10282099.html",
+          "price": 2999.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "family": "LG G5 OLED evo AI 4K HDR Smart TV 2025 (Stand Version)",
+      "variants": [
+        {
+          "size": "48\"",
+          "productId": "10281558",
+          "slug": "lg-g5-48-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled48g56ls-10281558.html",
+          "price": 1249,
+          "available": true
+        },
+        {
+          "size": "55\"",
+          "productId": "10282094",
+          "slug": "lg-g5-55-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled55g56ls-10282094.html",
+          "price": 1899,
+          "available": true
+        },
+        {
+          "size": "65\"",
+          "productId": "10282093",
+          "slug": "lg-g5-65-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled65g56ls-10282093.html",
+          "price": 2599,
+          "available": true
+        }
+      ]
+    },
+    {
+      "family": "SAMSUNG Q7F QLED 4K Vision AI Smart TV 2025",
+      "variants": [
+        {
+          "size": "43\"",
+          "productId": "10282614",
+          "slug": "samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html",
+          "price": 324.99,
+          "available": true
+        },
+        {
+          "size": "50\"",
+          "productId": "10282619",
+          "slug": "samsung-q7f-50-qled-4k-vision-ai-smart-tv-2025-qe50q7f-10282619.html",
+          "price": 389,
+          "available": true
+        },
+        {
+          "size": "55\"",
+          "productId": "10282631",
+          "slug": "samsung-q7f-55-qled-4k-vision-ai-smart-tv-2025-qe55q7f-10282631.html",
+          "price": 429,
+          "available": true
+        },
+        {
+          "size": "65\"",
+          "productId": "10282636",
+          "slug": "samsung-q7f-65-qled-4k-vision-ai-smart-tv-2025-qe65q7f-10282636.html",
+          "price": 629,
+          "available": true
+        },
+        {
+          "size": "75\"",
+          "productId": "10282607",
+          "slug": "samsung-q7f-75-qled-4k-vision-ai-smart-tv-2025-qe75q7f-10282607.html",
+          "price": 849,
+          "available": true
+        },
+        {
+          "size": "85\"",
+          "productId": "10282635",
+          "slug": "samsung-q7f-85-qled-4k-vision-ai-smart-tv-2025-qe85q7f-10282635.html",
+          "price": 1149,
+          "available": true
+        }
+      ]
+    },
+    {
+      "family": "SAMSUNG Q8F QLED 4K Vision AI Smart TV 2025",
+      "variants": [
+        {
+          "size": "55\"",
+          "productId": "10282628",
+          "slug": "samsung-q8f-55-qled-4k-vision-ai-smart-tv-2025-qe55q8f-10282628.html",
+          "price": 549,
+          "available": true
+        },
+        {
+          "size": "65\"",
+          "productId": "10282622",
+          "slug": "samsung-q8f-65-qled-4k-vision-ai-smart-tv-2025-qe65q8f-10282622.html",
+          "price": 749,
+          "available": true
+        }
+      ]
+    },
+    {
+      "family": "SAMSUNG U8000F Crystal UHD 4K HDR Smart TV 2025",
+      "variants": [
+        {
+          "size": "43\"",
+          "productId": "10282666",
+          "slug": "samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html",
+          "price": 259,
+          "available": true
+        },
+        {
+          "size": "50\"",
+          "productId": "10284845",
+          "slug": "samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
+          "price": 299,
+          "available": true
+        },
+        {
+          "size": "55\"",
+          "productId": "10282703",
+          "slug": "samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html",
+          "price": 349,
+          "available": true
+        },
+        {
+          "size": "65\"",
+          "productId": "10282803",
+          "slug": "samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+          "price": 469,
+          "available": true
+        },
+        {
+          "size": "75\"",
+          "productId": "10283642",
+          "slug": "samsung-u8000f-75-crystal-uhd-4k-hdr-smart-tv-2025-ue75u8000f-10283642.html",
+          "price": 649,
+          "available": true
+        },
+        {
+          "size": "85\"",
+          "productId": "10282771",
+          "slug": "samsung-u8000f-85-crystal-uhd-4k-hdr-smart-tv-2025-ue85u8000f-10282771.html",
+          "price": 899,
+          "available": true
+        }
+      ]
+    },
+    {
       "family": "SAMSUNG S90F OLED 4K Vision AI Smart TV 2025",
       "variants": [
+        {
+          "size": "42\"",
+          "productId": "10288291",
+          "slug": "samsung-s90f-42-oled-4k-vision-ai-smart-tv-2025-qe42s90f-10288291.html",
+          "price": 899,
+          "available": true
+        },
+        {
+          "size": "48\"",
+          "productId": "10288298",
+          "slug": "samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10288298.html",
+          "price": 999,
+          "available": true
+        },
         {
           "size": "55\"",
           "productId": "10284860",
           "slug": "samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html",
-          "price": 1199
+          "price": 1199,
+          "available": true
         },
         {
           "size": "65\"",
           "productId": "10282706",
           "slug": "samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
-          "price": 1599
+          "price": 1599,
+          "available": true
+        },
+        {
+          "size": "77\"",
+          "productId": "10284799",
+          "slug": "samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284799.html",
+          "price": 2499,
+          "available": true
+        },
+        {
+          "size": "83\"",
+          "productId": "10284439",
+          "slug": "samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284439.html",
+          "price": 3599,
+          "available": true
+        }
+      ]
+    },
+    {
+      "family": "HISENSE U7Q PRO Mini LED 4K 165Hz Smart AI TV with Freely",
+      "variants": [
+        {
+          "size": "55\"",
+          "productId": "10283696",
+          "slug": "hisense-u7q-pro-55-mini-led-4k-165hz-smart-ai-tv-with-freely-55u7qtuk-pro-10283696.html",
+          "price": 699,
+          "available": true
+        },
+        {
+          "size": "65\"",
+          "productId": "10282794",
+          "slug": "hisense-u7q-pro-65-mini-led-4k-165hz-smart-ai-tv-with-freely-65u7qtuk-pro-10282794.html",
+          "price": 899,
+          "available": true
+        },
+        {
+          "size": "75\"",
+          "productId": "10284293",
+          "slug": "hisense-u7q-pro-75-mini-led-4k-165hz-smart-ai-tv-with-freely-75u7qtuk-pro-10284293.html",
+          "price": 1199,
+          "available": true
+        },
+        {
+          "size": "85\"",
+          "productId": "10283976",
+          "slug": "hisense-u7q-pro-85-mini-led-4k-165hz-smart-ai-tv-with-freely-85u7qtuk-pro-10283976.html",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "size": "100\"",
+          "productId": "10284341",
+          "slug": "hisense-u7q-pro-100-mini-led-4k-165hz-smart-ai-tv-with-freely-100u7qtuk-pro-10284341.html",
+          "price": 2499,
+          "available": true
+        }
+      ]
+    },
+    {
+      "family": "TCL C7K QD-Mini LED 4K HDR Smart Google TV",
+      "variants": [
+        {
+          "size": "55\"",
+          "productId": "10281841",
+          "slug": "tcl-c7k-55-qdmini-led-4k-hdr-smart-google-tv-55c7k-10281841.html",
+          "price": 699,
+          "available": true
+        },
+        {
+          "size": "65\"",
+          "productId": "10283951",
+          "slug": "tcl-c7k-65-qdmini-led-4k-hdr-smart-google-tv-65c7k-10283951.html",
+          "price": 829,
+          "available": true
+        },
+        {
+          "size": "75\"",
+          "productId": "10281822",
+          "slug": "tcl-c7k-75-qdmini-led-4k-hdr-smart-google-tv-75c7k-10281822.html",
+          "price": 1149,
+          "available": true
+        },
+        {
+          "size": "85\"",
+          "productId": "10283894",
+          "slug": "tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "size": "98\"",
+          "productId": "10285853",
+          "slug": "tcl-c7k-98-qdmini-led-4k-hdr-smart-google-tv-98c7k-10285853.html",
+          "price": 2299,
+          "available": true
+        },
+        {
+          "size": "115\"",
+          "productId": "10286240",
+          "slug": "tcl-c7k-115-qdmini-led-4k-hdr-smart-google-tv-115c7kuk-10286240.html",
+          "price": 7499,
+          "available": true
+        }
+      ]
+    },
+    {
+      "family": "HISENSE A6Q LED 4K HDR Smart TV with Freely",
+      "variants": [
+        {
+          "size": "43\"",
+          "productId": "10283938",
+          "slug": "hisense-a6q-43-led-4k-hdr-smart-tv-with-freely-43a6qtuk-10283938.html",
+          "price": 239,
+          "available": true
+        },
+        {
+          "size": "50\"",
+          "productId": "10284267",
+          "slug": "hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10284267.html",
+          "price": 249,
+          "available": true
+        },
+        {
+          "size": "55\"",
+          "productId": "10283886",
+          "slug": "hisense-a6q-55-led-4k-hdr-smart-tv-with-freely-55a6qtuk-10283886.html",
+          "price": 329,
+          "available": true
+        },
+        {
+          "size": "58\"",
+          "productId": "10285232",
+          "slug": "hisense-a6q-58-led-4k-hdr-smart-tv-with-freely-58a6qtuk-10285232.html",
+          "price": 379,
+          "available": true
+        },
+        {
+          "size": "65\"",
+          "productId": "10283892",
+          "slug": "hisense-a6q-65-led-4k-hdr-smart-tv-with-freely-65a6qtuk-10283892.html",
+          "price": 449,
+          "available": true
+        },
+        {
+          "size": "75\"",
+          "productId": "10283887",
+          "slug": "hisense-a6q-75-led-4k-hdr-smart-tv-with-freely-75a6qtuk-10283887.html",
+          "price": 649,
+          "available": true
         }
       ]
     }
   ],
   "productToVariants": {
+    "10274389": [
+      {
+        "size": "32\"",
+        "productId": "10274389",
+        "slug": "jvc-lt32cr250-roku-tv-32-smart-hd-ready-hdr-led-tv-10274389.html",
+        "price": 119,
+        "available": true
+      },
+      {
+        "size": "40\"",
+        "productId": "",
+        "slug": "",
+        "price": 119,
+        "available": false
+      },
+      {
+        "size": "43\"",
+        "productId": "",
+        "slug": "",
+        "price": 119,
+        "available": false
+      }
+    ],
+    "10281538": [
+      {
+        "size": "42\"",
+        "productId": "10281538",
+        "slug": "lg-c5-42-oled-evo-ai-4k-hdr-smart-tv-2025-oled42c54la-10281538.html",
+        "price": 949,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10281782",
+        "slug": "lg-c5-48-oled-evo-ai-4k-hdr-smart-tv-2025-oled48c54la-10281782.html",
+        "price": 1049,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281549",
+        "slug": "lg-c5-55-oled-evo-ai-4k-hdr-smart-tv-2025-oled55c54la-10281549.html",
+        "price": 1299,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281777",
+        "slug": "lg-c5-65-oled-evo-ai-4k-hdr-smart-tv-2025-oled65c54la-10281777.html",
+        "price": 1699,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281779",
+        "slug": "lg-c5-77-oled-evo-ai-4k-hdr-smart-tv-2025-oled77c54la-10281779.html",
+        "price": 2699,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282101",
+        "slug": "lg-c5-83-oled-evo-ai-4k-hdr-smart-tv-2025-oled83c54la-10282101.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10281549": [
+      {
+        "size": "42\"",
+        "productId": "10281538",
+        "slug": "lg-c5-42-oled-evo-ai-4k-hdr-smart-tv-2025-oled42c54la-10281538.html",
+        "price": 949,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10281782",
+        "slug": "lg-c5-48-oled-evo-ai-4k-hdr-smart-tv-2025-oled48c54la-10281782.html",
+        "price": 1049,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281549",
+        "slug": "lg-c5-55-oled-evo-ai-4k-hdr-smart-tv-2025-oled55c54la-10281549.html",
+        "price": 1299,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281777",
+        "slug": "lg-c5-65-oled-evo-ai-4k-hdr-smart-tv-2025-oled65c54la-10281777.html",
+        "price": 1699,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281779",
+        "slug": "lg-c5-77-oled-evo-ai-4k-hdr-smart-tv-2025-oled77c54la-10281779.html",
+        "price": 2699,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282101",
+        "slug": "lg-c5-83-oled-evo-ai-4k-hdr-smart-tv-2025-oled83c54la-10282101.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10281558": [
+      {
+        "size": "48\"",
+        "productId": "10281558",
+        "slug": "lg-g5-48-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled48g56ls-10281558.html",
+        "price": 1249,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282094",
+        "slug": "lg-g5-55-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled55g56ls-10282094.html",
+        "price": 1899,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282093",
+        "slug": "lg-g5-65-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled65g56ls-10282093.html",
+        "price": 2599,
+        "available": true
+      }
+    ],
+    "10281767": [
+      {
+        "size": "65\"",
+        "productId": "10281767",
+        "slug": "lg-qned86-65-qned-evo-ai-mini-led-4k-hdr-smart-tv-2025-65qned86a6a-10281767.html",
+        "price": 949,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10282096",
+        "slug": "lg-m5-65-oled-evo-ai-4k-hdr-true-wireless-smart-tv-2025-oled65m59la-10282096.html",
+        "price": 2599,
+        "available": true
+      }
+    ],
+    "10281768": [
+      {
+        "size": "48\"",
+        "productId": "10282097",
+        "slug": "lg-b5-48-oled-ai-4k-hdr-smart-tv-2025-oled48b56la-10282097.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281768",
+        "slug": "lg-b5-55-oled-ai-4k-hdr-smart-tv-2025-oled55b56la-10281768.html",
+        "price": 1099,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281772",
+        "slug": "lg-b5-65-oled-ai-4k-hdr-smart-tv-2025-oled65b56la-10281772.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281774",
+        "slug": "lg-b5-77-oled-ai-4k-hdr-smart-tv-2025-oled77b56la-10281774.html",
+        "price": 1999.99,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282099",
+        "slug": "lg-b5-83-oled-ai-4k-hdr-smart-tv-2025-oled83b56la-10282099.html",
+        "price": 2999.99,
+        "available": true
+      }
+    ],
+    "10281772": [
+      {
+        "size": "48\"",
+        "productId": "10282097",
+        "slug": "lg-b5-48-oled-ai-4k-hdr-smart-tv-2025-oled48b56la-10282097.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281768",
+        "slug": "lg-b5-55-oled-ai-4k-hdr-smart-tv-2025-oled55b56la-10281768.html",
+        "price": 1099,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281772",
+        "slug": "lg-b5-65-oled-ai-4k-hdr-smart-tv-2025-oled65b56la-10281772.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281774",
+        "slug": "lg-b5-77-oled-ai-4k-hdr-smart-tv-2025-oled77b56la-10281774.html",
+        "price": 1999.99,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282099",
+        "slug": "lg-b5-83-oled-ai-4k-hdr-smart-tv-2025-oled83b56la-10282099.html",
+        "price": 2999.99,
+        "available": true
+      }
+    ],
+    "10281774": [
+      {
+        "size": "48\"",
+        "productId": "10282097",
+        "slug": "lg-b5-48-oled-ai-4k-hdr-smart-tv-2025-oled48b56la-10282097.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281768",
+        "slug": "lg-b5-55-oled-ai-4k-hdr-smart-tv-2025-oled55b56la-10281768.html",
+        "price": 1099,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281772",
+        "slug": "lg-b5-65-oled-ai-4k-hdr-smart-tv-2025-oled65b56la-10281772.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281774",
+        "slug": "lg-b5-77-oled-ai-4k-hdr-smart-tv-2025-oled77b56la-10281774.html",
+        "price": 1999.99,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282099",
+        "slug": "lg-b5-83-oled-ai-4k-hdr-smart-tv-2025-oled83b56la-10282099.html",
+        "price": 2999.99,
+        "available": true
+      }
+    ],
+    "10281777": [
+      {
+        "size": "42\"",
+        "productId": "10281538",
+        "slug": "lg-c5-42-oled-evo-ai-4k-hdr-smart-tv-2025-oled42c54la-10281538.html",
+        "price": 949,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10281782",
+        "slug": "lg-c5-48-oled-evo-ai-4k-hdr-smart-tv-2025-oled48c54la-10281782.html",
+        "price": 1049,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281549",
+        "slug": "lg-c5-55-oled-evo-ai-4k-hdr-smart-tv-2025-oled55c54la-10281549.html",
+        "price": 1299,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281777",
+        "slug": "lg-c5-65-oled-evo-ai-4k-hdr-smart-tv-2025-oled65c54la-10281777.html",
+        "price": 1699,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281779",
+        "slug": "lg-c5-77-oled-evo-ai-4k-hdr-smart-tv-2025-oled77c54la-10281779.html",
+        "price": 2699,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282101",
+        "slug": "lg-c5-83-oled-evo-ai-4k-hdr-smart-tv-2025-oled83c54la-10282101.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10281779": [
+      {
+        "size": "42\"",
+        "productId": "10281538",
+        "slug": "lg-c5-42-oled-evo-ai-4k-hdr-smart-tv-2025-oled42c54la-10281538.html",
+        "price": 949,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10281782",
+        "slug": "lg-c5-48-oled-evo-ai-4k-hdr-smart-tv-2025-oled48c54la-10281782.html",
+        "price": 1049,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281549",
+        "slug": "lg-c5-55-oled-evo-ai-4k-hdr-smart-tv-2025-oled55c54la-10281549.html",
+        "price": 1299,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281777",
+        "slug": "lg-c5-65-oled-evo-ai-4k-hdr-smart-tv-2025-oled65c54la-10281777.html",
+        "price": 1699,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281779",
+        "slug": "lg-c5-77-oled-evo-ai-4k-hdr-smart-tv-2025-oled77c54la-10281779.html",
+        "price": 2699,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282101",
+        "slug": "lg-c5-83-oled-evo-ai-4k-hdr-smart-tv-2025-oled83c54la-10282101.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10281782": [
+      {
+        "size": "42\"",
+        "productId": "10281538",
+        "slug": "lg-c5-42-oled-evo-ai-4k-hdr-smart-tv-2025-oled42c54la-10281538.html",
+        "price": 949,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10281782",
+        "slug": "lg-c5-48-oled-evo-ai-4k-hdr-smart-tv-2025-oled48c54la-10281782.html",
+        "price": 1049,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281549",
+        "slug": "lg-c5-55-oled-evo-ai-4k-hdr-smart-tv-2025-oled55c54la-10281549.html",
+        "price": 1299,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281777",
+        "slug": "lg-c5-65-oled-evo-ai-4k-hdr-smart-tv-2025-oled65c54la-10281777.html",
+        "price": 1699,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281779",
+        "slug": "lg-c5-77-oled-evo-ai-4k-hdr-smart-tv-2025-oled77c54la-10281779.html",
+        "price": 2699,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282101",
+        "slug": "lg-c5-83-oled-evo-ai-4k-hdr-smart-tv-2025-oled83c54la-10282101.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10281822": [
+      {
+        "size": "55\"",
+        "productId": "10281841",
+        "slug": "tcl-c7k-55-qdmini-led-4k-hdr-smart-google-tv-55c7k-10281841.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283951",
+        "slug": "tcl-c7k-65-qdmini-led-4k-hdr-smart-google-tv-65c7k-10283951.html",
+        "price": 829,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10281822",
+        "slug": "tcl-c7k-75-qdmini-led-4k-hdr-smart-google-tv-75c7k-10281822.html",
+        "price": 1149,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283894",
+        "slug": "tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "98\"",
+        "productId": "10285853",
+        "slug": "tcl-c7k-98-qdmini-led-4k-hdr-smart-google-tv-98c7k-10285853.html",
+        "price": 2299,
+        "available": true
+      },
+      {
+        "size": "115\"",
+        "productId": "10286240",
+        "slug": "tcl-c7k-115-qdmini-led-4k-hdr-smart-google-tv-115c7kuk-10286240.html",
+        "price": 7499,
+        "available": true
+      }
+    ],
+    "10281841": [
+      {
+        "size": "55\"",
+        "productId": "10281841",
+        "slug": "tcl-c7k-55-qdmini-led-4k-hdr-smart-google-tv-55c7k-10281841.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283951",
+        "slug": "tcl-c7k-65-qdmini-led-4k-hdr-smart-google-tv-65c7k-10283951.html",
+        "price": 829,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10281822",
+        "slug": "tcl-c7k-75-qdmini-led-4k-hdr-smart-google-tv-75c7k-10281822.html",
+        "price": 1149,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283894",
+        "slug": "tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "98\"",
+        "productId": "10285853",
+        "slug": "tcl-c7k-98-qdmini-led-4k-hdr-smart-google-tv-98c7k-10285853.html",
+        "price": 2299,
+        "available": true
+      },
+      {
+        "size": "115\"",
+        "productId": "10286240",
+        "slug": "tcl-c7k-115-qdmini-led-4k-hdr-smart-google-tv-115c7kuk-10286240.html",
+        "price": 7499,
+        "available": true
+      }
+    ],
+    "10282093": [
+      {
+        "size": "48\"",
+        "productId": "10281558",
+        "slug": "lg-g5-48-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled48g56ls-10281558.html",
+        "price": 1249,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282094",
+        "slug": "lg-g5-55-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled55g56ls-10282094.html",
+        "price": 1899,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282093",
+        "slug": "lg-g5-65-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled65g56ls-10282093.html",
+        "price": 2599,
+        "available": true
+      }
+    ],
+    "10282094": [
+      {
+        "size": "48\"",
+        "productId": "10281558",
+        "slug": "lg-g5-48-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled48g56ls-10281558.html",
+        "price": 1249,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282094",
+        "slug": "lg-g5-55-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled55g56ls-10282094.html",
+        "price": 1899,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282093",
+        "slug": "lg-g5-65-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled65g56ls-10282093.html",
+        "price": 2599,
+        "available": true
+      }
+    ],
+    "10282096": [
+      {
+        "size": "65\"",
+        "productId": "10281767",
+        "slug": "lg-qned86-65-qned-evo-ai-mini-led-4k-hdr-smart-tv-2025-65qned86a6a-10281767.html",
+        "price": 949,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10282096",
+        "slug": "lg-m5-65-oled-evo-ai-4k-hdr-true-wireless-smart-tv-2025-oled65m59la-10282096.html",
+        "price": 2599,
+        "available": true
+      }
+    ],
+    "10282097": [
+      {
+        "size": "48\"",
+        "productId": "10282097",
+        "slug": "lg-b5-48-oled-ai-4k-hdr-smart-tv-2025-oled48b56la-10282097.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281768",
+        "slug": "lg-b5-55-oled-ai-4k-hdr-smart-tv-2025-oled55b56la-10281768.html",
+        "price": 1099,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281772",
+        "slug": "lg-b5-65-oled-ai-4k-hdr-smart-tv-2025-oled65b56la-10281772.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281774",
+        "slug": "lg-b5-77-oled-ai-4k-hdr-smart-tv-2025-oled77b56la-10281774.html",
+        "price": 1999.99,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282099",
+        "slug": "lg-b5-83-oled-ai-4k-hdr-smart-tv-2025-oled83b56la-10282099.html",
+        "price": 2999.99,
+        "available": true
+      }
+    ],
+    "10282099": [
+      {
+        "size": "48\"",
+        "productId": "10282097",
+        "slug": "lg-b5-48-oled-ai-4k-hdr-smart-tv-2025-oled48b56la-10282097.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281768",
+        "slug": "lg-b5-55-oled-ai-4k-hdr-smart-tv-2025-oled55b56la-10281768.html",
+        "price": 1099,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281772",
+        "slug": "lg-b5-65-oled-ai-4k-hdr-smart-tv-2025-oled65b56la-10281772.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281774",
+        "slug": "lg-b5-77-oled-ai-4k-hdr-smart-tv-2025-oled77b56la-10281774.html",
+        "price": 1999.99,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282099",
+        "slug": "lg-b5-83-oled-ai-4k-hdr-smart-tv-2025-oled83b56la-10282099.html",
+        "price": 2999.99,
+        "available": true
+      }
+    ],
+    "10282101": [
+      {
+        "size": "42\"",
+        "productId": "10281538",
+        "slug": "lg-c5-42-oled-evo-ai-4k-hdr-smart-tv-2025-oled42c54la-10281538.html",
+        "price": 949,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10281782",
+        "slug": "lg-c5-48-oled-evo-ai-4k-hdr-smart-tv-2025-oled48c54la-10281782.html",
+        "price": 1049,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10281549",
+        "slug": "lg-c5-55-oled-evo-ai-4k-hdr-smart-tv-2025-oled55c54la-10281549.html",
+        "price": 1299,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10281777",
+        "slug": "lg-c5-65-oled-evo-ai-4k-hdr-smart-tv-2025-oled65c54la-10281777.html",
+        "price": 1699,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10281779",
+        "slug": "lg-c5-77-oled-evo-ai-4k-hdr-smart-tv-2025-oled77c54la-10281779.html",
+        "price": 2699,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10282101",
+        "slug": "lg-c5-83-oled-evo-ai-4k-hdr-smart-tv-2025-oled83c54la-10282101.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10282607": [
+      {
+        "size": "43\"",
+        "productId": "10282614",
+        "slug": "samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html",
+        "price": 324.99,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10282619",
+        "slug": "samsung-q7f-50-qled-4k-vision-ai-smart-tv-2025-qe50q7f-10282619.html",
+        "price": 389,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282631",
+        "slug": "samsung-q7f-55-qled-4k-vision-ai-smart-tv-2025-qe55q7f-10282631.html",
+        "price": 429,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282636",
+        "slug": "samsung-q7f-65-qled-4k-vision-ai-smart-tv-2025-qe65q7f-10282636.html",
+        "price": 629,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10282607",
+        "slug": "samsung-q7f-75-qled-4k-vision-ai-smart-tv-2025-qe75q7f-10282607.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282635",
+        "slug": "samsung-q7f-85-qled-4k-vision-ai-smart-tv-2025-qe85q7f-10282635.html",
+        "price": 1149,
+        "available": true
+      }
+    ],
+    "10282614": [
+      {
+        "size": "43\"",
+        "productId": "10282614",
+        "slug": "samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html",
+        "price": 324.99,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10282619",
+        "slug": "samsung-q7f-50-qled-4k-vision-ai-smart-tv-2025-qe50q7f-10282619.html",
+        "price": 389,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282631",
+        "slug": "samsung-q7f-55-qled-4k-vision-ai-smart-tv-2025-qe55q7f-10282631.html",
+        "price": 429,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282636",
+        "slug": "samsung-q7f-65-qled-4k-vision-ai-smart-tv-2025-qe65q7f-10282636.html",
+        "price": 629,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10282607",
+        "slug": "samsung-q7f-75-qled-4k-vision-ai-smart-tv-2025-qe75q7f-10282607.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282635",
+        "slug": "samsung-q7f-85-qled-4k-vision-ai-smart-tv-2025-qe85q7f-10282635.html",
+        "price": 1149,
+        "available": true
+      }
+    ],
+    "10282619": [
+      {
+        "size": "43\"",
+        "productId": "10282614",
+        "slug": "samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html",
+        "price": 324.99,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10282619",
+        "slug": "samsung-q7f-50-qled-4k-vision-ai-smart-tv-2025-qe50q7f-10282619.html",
+        "price": 389,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282631",
+        "slug": "samsung-q7f-55-qled-4k-vision-ai-smart-tv-2025-qe55q7f-10282631.html",
+        "price": 429,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282636",
+        "slug": "samsung-q7f-65-qled-4k-vision-ai-smart-tv-2025-qe65q7f-10282636.html",
+        "price": 629,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10282607",
+        "slug": "samsung-q7f-75-qled-4k-vision-ai-smart-tv-2025-qe75q7f-10282607.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282635",
+        "slug": "samsung-q7f-85-qled-4k-vision-ai-smart-tv-2025-qe85q7f-10282635.html",
+        "price": 1149,
+        "available": true
+      }
+    ],
+    "10282622": [
+      {
+        "size": "55\"",
+        "productId": "10282628",
+        "slug": "samsung-q8f-55-qled-4k-vision-ai-smart-tv-2025-qe55q8f-10282628.html",
+        "price": 549,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282622",
+        "slug": "samsung-q8f-65-qled-4k-vision-ai-smart-tv-2025-qe65q8f-10282622.html",
+        "price": 749,
+        "available": true
+      }
+    ],
+    "10282628": [
+      {
+        "size": "55\"",
+        "productId": "10282628",
+        "slug": "samsung-q8f-55-qled-4k-vision-ai-smart-tv-2025-qe55q8f-10282628.html",
+        "price": 549,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282622",
+        "slug": "samsung-q8f-65-qled-4k-vision-ai-smart-tv-2025-qe65q8f-10282622.html",
+        "price": 749,
+        "available": true
+      }
+    ],
+    "10282631": [
+      {
+        "size": "43\"",
+        "productId": "10282614",
+        "slug": "samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html",
+        "price": 324.99,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10282619",
+        "slug": "samsung-q7f-50-qled-4k-vision-ai-smart-tv-2025-qe50q7f-10282619.html",
+        "price": 389,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282631",
+        "slug": "samsung-q7f-55-qled-4k-vision-ai-smart-tv-2025-qe55q7f-10282631.html",
+        "price": 429,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282636",
+        "slug": "samsung-q7f-65-qled-4k-vision-ai-smart-tv-2025-qe65q7f-10282636.html",
+        "price": 629,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10282607",
+        "slug": "samsung-q7f-75-qled-4k-vision-ai-smart-tv-2025-qe75q7f-10282607.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282635",
+        "slug": "samsung-q7f-85-qled-4k-vision-ai-smart-tv-2025-qe85q7f-10282635.html",
+        "price": 1149,
+        "available": true
+      }
+    ],
+    "10282635": [
+      {
+        "size": "43\"",
+        "productId": "10282614",
+        "slug": "samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html",
+        "price": 324.99,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10282619",
+        "slug": "samsung-q7f-50-qled-4k-vision-ai-smart-tv-2025-qe50q7f-10282619.html",
+        "price": 389,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282631",
+        "slug": "samsung-q7f-55-qled-4k-vision-ai-smart-tv-2025-qe55q7f-10282631.html",
+        "price": 429,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282636",
+        "slug": "samsung-q7f-65-qled-4k-vision-ai-smart-tv-2025-qe65q7f-10282636.html",
+        "price": 629,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10282607",
+        "slug": "samsung-q7f-75-qled-4k-vision-ai-smart-tv-2025-qe75q7f-10282607.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282635",
+        "slug": "samsung-q7f-85-qled-4k-vision-ai-smart-tv-2025-qe85q7f-10282635.html",
+        "price": 1149,
+        "available": true
+      }
+    ],
+    "10282636": [
+      {
+        "size": "43\"",
+        "productId": "10282614",
+        "slug": "samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html",
+        "price": 324.99,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10282619",
+        "slug": "samsung-q7f-50-qled-4k-vision-ai-smart-tv-2025-qe50q7f-10282619.html",
+        "price": 389,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282631",
+        "slug": "samsung-q7f-55-qled-4k-vision-ai-smart-tv-2025-qe55q7f-10282631.html",
+        "price": 429,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282636",
+        "slug": "samsung-q7f-65-qled-4k-vision-ai-smart-tv-2025-qe65q7f-10282636.html",
+        "price": 629,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10282607",
+        "slug": "samsung-q7f-75-qled-4k-vision-ai-smart-tv-2025-qe75q7f-10282607.html",
+        "price": 849,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282635",
+        "slug": "samsung-q7f-85-qled-4k-vision-ai-smart-tv-2025-qe85q7f-10282635.html",
+        "price": 1149,
+        "available": true
+      }
+    ],
+    "10282666": [
+      {
+        "size": "43\"",
+        "productId": "10282666",
+        "slug": "samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html",
+        "price": 259,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284845",
+        "slug": "samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
+        "price": 299,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282703",
+        "slug": "samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html",
+        "price": 349,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282803",
+        "slug": "samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+        "price": 469,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283642",
+        "slug": "samsung-u8000f-75-crystal-uhd-4k-hdr-smart-tv-2025-ue75u8000f-10283642.html",
+        "price": 649,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282771",
+        "slug": "samsung-u8000f-85-crystal-uhd-4k-hdr-smart-tv-2025-ue85u8000f-10282771.html",
+        "price": 899,
+        "available": true
+      }
+    ],
+    "10282703": [
+      {
+        "size": "43\"",
+        "productId": "10282666",
+        "slug": "samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html",
+        "price": 259,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284845",
+        "slug": "samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
+        "price": 299,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282703",
+        "slug": "samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html",
+        "price": 349,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282803",
+        "slug": "samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+        "price": 469,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283642",
+        "slug": "samsung-u8000f-75-crystal-uhd-4k-hdr-smart-tv-2025-ue75u8000f-10283642.html",
+        "price": 649,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282771",
+        "slug": "samsung-u8000f-85-crystal-uhd-4k-hdr-smart-tv-2025-ue85u8000f-10282771.html",
+        "price": 899,
+        "available": true
+      }
+    ],
     "10282706": [
+      {
+        "size": "42\"",
+        "productId": "10288291",
+        "slug": "samsung-s90f-42-oled-4k-vision-ai-smart-tv-2025-qe42s90f-10288291.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10288298",
+        "slug": "samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10288298.html",
+        "price": 999,
+        "available": true
+      },
       {
         "size": "55\"",
         "productId": "10284860",
         "slug": "samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html",
-        "price": 1199
+        "price": 1199,
+        "available": true
       },
       {
         "size": "65\"",
         "productId": "10282706",
         "slug": "samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
-        "price": 1599
+        "price": 1599,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10284799",
+        "slug": "samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284799.html",
+        "price": 2499,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10284439",
+        "slug": "samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284439.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10282771": [
+      {
+        "size": "43\"",
+        "productId": "10282666",
+        "slug": "samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html",
+        "price": 259,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284845",
+        "slug": "samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
+        "price": 299,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282703",
+        "slug": "samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html",
+        "price": 349,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282803",
+        "slug": "samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+        "price": 469,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283642",
+        "slug": "samsung-u8000f-75-crystal-uhd-4k-hdr-smart-tv-2025-ue75u8000f-10283642.html",
+        "price": 649,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282771",
+        "slug": "samsung-u8000f-85-crystal-uhd-4k-hdr-smart-tv-2025-ue85u8000f-10282771.html",
+        "price": 899,
+        "available": true
+      }
+    ],
+    "10282794": [
+      {
+        "size": "55\"",
+        "productId": "10283696",
+        "slug": "hisense-u7q-pro-55-mini-led-4k-165hz-smart-ai-tv-with-freely-55u7qtuk-pro-10283696.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282794",
+        "slug": "hisense-u7q-pro-65-mini-led-4k-165hz-smart-ai-tv-with-freely-65u7qtuk-pro-10282794.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10284293",
+        "slug": "hisense-u7q-pro-75-mini-led-4k-165hz-smart-ai-tv-with-freely-75u7qtuk-pro-10284293.html",
+        "price": 1199,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283976",
+        "slug": "hisense-u7q-pro-85-mini-led-4k-165hz-smart-ai-tv-with-freely-85u7qtuk-pro-10283976.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "100\"",
+        "productId": "10284341",
+        "slug": "hisense-u7q-pro-100-mini-led-4k-165hz-smart-ai-tv-with-freely-100u7qtuk-pro-10284341.html",
+        "price": 2499,
+        "available": true
+      }
+    ],
+    "10282803": [
+      {
+        "size": "43\"",
+        "productId": "10282666",
+        "slug": "samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html",
+        "price": 259,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284845",
+        "slug": "samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
+        "price": 299,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282703",
+        "slug": "samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html",
+        "price": 349,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282803",
+        "slug": "samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+        "price": 469,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283642",
+        "slug": "samsung-u8000f-75-crystal-uhd-4k-hdr-smart-tv-2025-ue75u8000f-10283642.html",
+        "price": 649,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282771",
+        "slug": "samsung-u8000f-85-crystal-uhd-4k-hdr-smart-tv-2025-ue85u8000f-10282771.html",
+        "price": 899,
+        "available": true
+      }
+    ],
+    "10283642": [
+      {
+        "size": "43\"",
+        "productId": "10282666",
+        "slug": "samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html",
+        "price": 259,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284845",
+        "slug": "samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
+        "price": 299,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282703",
+        "slug": "samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html",
+        "price": 349,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282803",
+        "slug": "samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+        "price": 469,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283642",
+        "slug": "samsung-u8000f-75-crystal-uhd-4k-hdr-smart-tv-2025-ue75u8000f-10283642.html",
+        "price": 649,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282771",
+        "slug": "samsung-u8000f-85-crystal-uhd-4k-hdr-smart-tv-2025-ue85u8000f-10282771.html",
+        "price": 899,
+        "available": true
+      }
+    ],
+    "10283696": [
+      {
+        "size": "55\"",
+        "productId": "10283696",
+        "slug": "hisense-u7q-pro-55-mini-led-4k-165hz-smart-ai-tv-with-freely-55u7qtuk-pro-10283696.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282794",
+        "slug": "hisense-u7q-pro-65-mini-led-4k-165hz-smart-ai-tv-with-freely-65u7qtuk-pro-10282794.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10284293",
+        "slug": "hisense-u7q-pro-75-mini-led-4k-165hz-smart-ai-tv-with-freely-75u7qtuk-pro-10284293.html",
+        "price": 1199,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283976",
+        "slug": "hisense-u7q-pro-85-mini-led-4k-165hz-smart-ai-tv-with-freely-85u7qtuk-pro-10283976.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "100\"",
+        "productId": "10284341",
+        "slug": "hisense-u7q-pro-100-mini-led-4k-165hz-smart-ai-tv-with-freely-100u7qtuk-pro-10284341.html",
+        "price": 2499,
+        "available": true
+      }
+    ],
+    "10283886": [
+      {
+        "size": "43\"",
+        "productId": "10283938",
+        "slug": "hisense-a6q-43-led-4k-hdr-smart-tv-with-freely-43a6qtuk-10283938.html",
+        "price": 239,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284267",
+        "slug": "hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10284267.html",
+        "price": 249,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10283886",
+        "slug": "hisense-a6q-55-led-4k-hdr-smart-tv-with-freely-55a6qtuk-10283886.html",
+        "price": 329,
+        "available": true
+      },
+      {
+        "size": "58\"",
+        "productId": "10285232",
+        "slug": "hisense-a6q-58-led-4k-hdr-smart-tv-with-freely-58a6qtuk-10285232.html",
+        "price": 379,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283892",
+        "slug": "hisense-a6q-65-led-4k-hdr-smart-tv-with-freely-65a6qtuk-10283892.html",
+        "price": 449,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283887",
+        "slug": "hisense-a6q-75-led-4k-hdr-smart-tv-with-freely-75a6qtuk-10283887.html",
+        "price": 649,
+        "available": true
+      }
+    ],
+    "10283887": [
+      {
+        "size": "43\"",
+        "productId": "10283938",
+        "slug": "hisense-a6q-43-led-4k-hdr-smart-tv-with-freely-43a6qtuk-10283938.html",
+        "price": 239,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284267",
+        "slug": "hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10284267.html",
+        "price": 249,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10283886",
+        "slug": "hisense-a6q-55-led-4k-hdr-smart-tv-with-freely-55a6qtuk-10283886.html",
+        "price": 329,
+        "available": true
+      },
+      {
+        "size": "58\"",
+        "productId": "10285232",
+        "slug": "hisense-a6q-58-led-4k-hdr-smart-tv-with-freely-58a6qtuk-10285232.html",
+        "price": 379,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283892",
+        "slug": "hisense-a6q-65-led-4k-hdr-smart-tv-with-freely-65a6qtuk-10283892.html",
+        "price": 449,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283887",
+        "slug": "hisense-a6q-75-led-4k-hdr-smart-tv-with-freely-75a6qtuk-10283887.html",
+        "price": 649,
+        "available": true
+      }
+    ],
+    "10283892": [
+      {
+        "size": "43\"",
+        "productId": "10283938",
+        "slug": "hisense-a6q-43-led-4k-hdr-smart-tv-with-freely-43a6qtuk-10283938.html",
+        "price": 239,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284267",
+        "slug": "hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10284267.html",
+        "price": 249,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10283886",
+        "slug": "hisense-a6q-55-led-4k-hdr-smart-tv-with-freely-55a6qtuk-10283886.html",
+        "price": 329,
+        "available": true
+      },
+      {
+        "size": "58\"",
+        "productId": "10285232",
+        "slug": "hisense-a6q-58-led-4k-hdr-smart-tv-with-freely-58a6qtuk-10285232.html",
+        "price": 379,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283892",
+        "slug": "hisense-a6q-65-led-4k-hdr-smart-tv-with-freely-65a6qtuk-10283892.html",
+        "price": 449,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283887",
+        "slug": "hisense-a6q-75-led-4k-hdr-smart-tv-with-freely-75a6qtuk-10283887.html",
+        "price": 649,
+        "available": true
+      }
+    ],
+    "10283894": [
+      {
+        "size": "55\"",
+        "productId": "10281841",
+        "slug": "tcl-c7k-55-qdmini-led-4k-hdr-smart-google-tv-55c7k-10281841.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283951",
+        "slug": "tcl-c7k-65-qdmini-led-4k-hdr-smart-google-tv-65c7k-10283951.html",
+        "price": 829,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10281822",
+        "slug": "tcl-c7k-75-qdmini-led-4k-hdr-smart-google-tv-75c7k-10281822.html",
+        "price": 1149,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283894",
+        "slug": "tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "98\"",
+        "productId": "10285853",
+        "slug": "tcl-c7k-98-qdmini-led-4k-hdr-smart-google-tv-98c7k-10285853.html",
+        "price": 2299,
+        "available": true
+      },
+      {
+        "size": "115\"",
+        "productId": "10286240",
+        "slug": "tcl-c7k-115-qdmini-led-4k-hdr-smart-google-tv-115c7kuk-10286240.html",
+        "price": 7499,
+        "available": true
+      }
+    ],
+    "10283938": [
+      {
+        "size": "43\"",
+        "productId": "10283938",
+        "slug": "hisense-a6q-43-led-4k-hdr-smart-tv-with-freely-43a6qtuk-10283938.html",
+        "price": 239,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284267",
+        "slug": "hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10284267.html",
+        "price": 249,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10283886",
+        "slug": "hisense-a6q-55-led-4k-hdr-smart-tv-with-freely-55a6qtuk-10283886.html",
+        "price": 329,
+        "available": true
+      },
+      {
+        "size": "58\"",
+        "productId": "10285232",
+        "slug": "hisense-a6q-58-led-4k-hdr-smart-tv-with-freely-58a6qtuk-10285232.html",
+        "price": 379,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283892",
+        "slug": "hisense-a6q-65-led-4k-hdr-smart-tv-with-freely-65a6qtuk-10283892.html",
+        "price": 449,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283887",
+        "slug": "hisense-a6q-75-led-4k-hdr-smart-tv-with-freely-75a6qtuk-10283887.html",
+        "price": 649,
+        "available": true
+      }
+    ],
+    "10283951": [
+      {
+        "size": "55\"",
+        "productId": "10281841",
+        "slug": "tcl-c7k-55-qdmini-led-4k-hdr-smart-google-tv-55c7k-10281841.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283951",
+        "slug": "tcl-c7k-65-qdmini-led-4k-hdr-smart-google-tv-65c7k-10283951.html",
+        "price": 829,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10281822",
+        "slug": "tcl-c7k-75-qdmini-led-4k-hdr-smart-google-tv-75c7k-10281822.html",
+        "price": 1149,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283894",
+        "slug": "tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "98\"",
+        "productId": "10285853",
+        "slug": "tcl-c7k-98-qdmini-led-4k-hdr-smart-google-tv-98c7k-10285853.html",
+        "price": 2299,
+        "available": true
+      },
+      {
+        "size": "115\"",
+        "productId": "10286240",
+        "slug": "tcl-c7k-115-qdmini-led-4k-hdr-smart-google-tv-115c7kuk-10286240.html",
+        "price": 7499,
+        "available": true
+      }
+    ],
+    "10283976": [
+      {
+        "size": "55\"",
+        "productId": "10283696",
+        "slug": "hisense-u7q-pro-55-mini-led-4k-165hz-smart-ai-tv-with-freely-55u7qtuk-pro-10283696.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282794",
+        "slug": "hisense-u7q-pro-65-mini-led-4k-165hz-smart-ai-tv-with-freely-65u7qtuk-pro-10282794.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10284293",
+        "slug": "hisense-u7q-pro-75-mini-led-4k-165hz-smart-ai-tv-with-freely-75u7qtuk-pro-10284293.html",
+        "price": 1199,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283976",
+        "slug": "hisense-u7q-pro-85-mini-led-4k-165hz-smart-ai-tv-with-freely-85u7qtuk-pro-10283976.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "100\"",
+        "productId": "10284341",
+        "slug": "hisense-u7q-pro-100-mini-led-4k-165hz-smart-ai-tv-with-freely-100u7qtuk-pro-10284341.html",
+        "price": 2499,
+        "available": true
+      }
+    ],
+    "10284267": [
+      {
+        "size": "43\"",
+        "productId": "10283938",
+        "slug": "hisense-a6q-43-led-4k-hdr-smart-tv-with-freely-43a6qtuk-10283938.html",
+        "price": 239,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284267",
+        "slug": "hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10284267.html",
+        "price": 249,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10283886",
+        "slug": "hisense-a6q-55-led-4k-hdr-smart-tv-with-freely-55a6qtuk-10283886.html",
+        "price": 329,
+        "available": true
+      },
+      {
+        "size": "58\"",
+        "productId": "10285232",
+        "slug": "hisense-a6q-58-led-4k-hdr-smart-tv-with-freely-58a6qtuk-10285232.html",
+        "price": 379,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283892",
+        "slug": "hisense-a6q-65-led-4k-hdr-smart-tv-with-freely-65a6qtuk-10283892.html",
+        "price": 449,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283887",
+        "slug": "hisense-a6q-75-led-4k-hdr-smart-tv-with-freely-75a6qtuk-10283887.html",
+        "price": 649,
+        "available": true
+      }
+    ],
+    "10284293": [
+      {
+        "size": "55\"",
+        "productId": "10283696",
+        "slug": "hisense-u7q-pro-55-mini-led-4k-165hz-smart-ai-tv-with-freely-55u7qtuk-pro-10283696.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282794",
+        "slug": "hisense-u7q-pro-65-mini-led-4k-165hz-smart-ai-tv-with-freely-65u7qtuk-pro-10282794.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10284293",
+        "slug": "hisense-u7q-pro-75-mini-led-4k-165hz-smart-ai-tv-with-freely-75u7qtuk-pro-10284293.html",
+        "price": 1199,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283976",
+        "slug": "hisense-u7q-pro-85-mini-led-4k-165hz-smart-ai-tv-with-freely-85u7qtuk-pro-10283976.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "100\"",
+        "productId": "10284341",
+        "slug": "hisense-u7q-pro-100-mini-led-4k-165hz-smart-ai-tv-with-freely-100u7qtuk-pro-10284341.html",
+        "price": 2499,
+        "available": true
+      }
+    ],
+    "10284341": [
+      {
+        "size": "55\"",
+        "productId": "10283696",
+        "slug": "hisense-u7q-pro-55-mini-led-4k-165hz-smart-ai-tv-with-freely-55u7qtuk-pro-10283696.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282794",
+        "slug": "hisense-u7q-pro-65-mini-led-4k-165hz-smart-ai-tv-with-freely-65u7qtuk-pro-10282794.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10284293",
+        "slug": "hisense-u7q-pro-75-mini-led-4k-165hz-smart-ai-tv-with-freely-75u7qtuk-pro-10284293.html",
+        "price": 1199,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283976",
+        "slug": "hisense-u7q-pro-85-mini-led-4k-165hz-smart-ai-tv-with-freely-85u7qtuk-pro-10283976.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "100\"",
+        "productId": "10284341",
+        "slug": "hisense-u7q-pro-100-mini-led-4k-165hz-smart-ai-tv-with-freely-100u7qtuk-pro-10284341.html",
+        "price": 2499,
+        "available": true
+      }
+    ],
+    "10284439": [
+      {
+        "size": "42\"",
+        "productId": "10288291",
+        "slug": "samsung-s90f-42-oled-4k-vision-ai-smart-tv-2025-qe42s90f-10288291.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10288298",
+        "slug": "samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10288298.html",
+        "price": 999,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10284860",
+        "slug": "samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html",
+        "price": 1199,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282706",
+        "slug": "samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
+        "price": 1599,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10284799",
+        "slug": "samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284799.html",
+        "price": 2499,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10284439",
+        "slug": "samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284439.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10284799": [
+      {
+        "size": "42\"",
+        "productId": "10288291",
+        "slug": "samsung-s90f-42-oled-4k-vision-ai-smart-tv-2025-qe42s90f-10288291.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10288298",
+        "slug": "samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10288298.html",
+        "price": 999,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10284860",
+        "slug": "samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html",
+        "price": 1199,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282706",
+        "slug": "samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
+        "price": 1599,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10284799",
+        "slug": "samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284799.html",
+        "price": 2499,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10284439",
+        "slug": "samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284439.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10284845": [
+      {
+        "size": "43\"",
+        "productId": "10282666",
+        "slug": "samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html",
+        "price": 259,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284845",
+        "slug": "samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
+        "price": 299,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10282703",
+        "slug": "samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html",
+        "price": 349,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282803",
+        "slug": "samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+        "price": 469,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283642",
+        "slug": "samsung-u8000f-75-crystal-uhd-4k-hdr-smart-tv-2025-ue75u8000f-10283642.html",
+        "price": 649,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10282771",
+        "slug": "samsung-u8000f-85-crystal-uhd-4k-hdr-smart-tv-2025-ue85u8000f-10282771.html",
+        "price": 899,
+        "available": true
       }
     ],
     "10284860": [
       {
+        "size": "42\"",
+        "productId": "10288291",
+        "slug": "samsung-s90f-42-oled-4k-vision-ai-smart-tv-2025-qe42s90f-10288291.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10288298",
+        "slug": "samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10288298.html",
+        "price": 999,
+        "available": true
+      },
+      {
         "size": "55\"",
         "productId": "10284860",
         "slug": "samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html",
-        "price": 1199
+        "price": 1199,
+        "available": true
       },
       {
         "size": "65\"",
         "productId": "10282706",
         "slug": "samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
-        "price": 1599
+        "price": 1599,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10284799",
+        "slug": "samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284799.html",
+        "price": 2499,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10284439",
+        "slug": "samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284439.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10285232": [
+      {
+        "size": "43\"",
+        "productId": "10283938",
+        "slug": "hisense-a6q-43-led-4k-hdr-smart-tv-with-freely-43a6qtuk-10283938.html",
+        "price": 239,
+        "available": true
+      },
+      {
+        "size": "50\"",
+        "productId": "10284267",
+        "slug": "hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10284267.html",
+        "price": 249,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10283886",
+        "slug": "hisense-a6q-55-led-4k-hdr-smart-tv-with-freely-55a6qtuk-10283886.html",
+        "price": 329,
+        "available": true
+      },
+      {
+        "size": "58\"",
+        "productId": "10285232",
+        "slug": "hisense-a6q-58-led-4k-hdr-smart-tv-with-freely-58a6qtuk-10285232.html",
+        "price": 379,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283892",
+        "slug": "hisense-a6q-65-led-4k-hdr-smart-tv-with-freely-65a6qtuk-10283892.html",
+        "price": 449,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10283887",
+        "slug": "hisense-a6q-75-led-4k-hdr-smart-tv-with-freely-75a6qtuk-10283887.html",
+        "price": 649,
+        "available": true
+      }
+    ],
+    "10285853": [
+      {
+        "size": "55\"",
+        "productId": "10281841",
+        "slug": "tcl-c7k-55-qdmini-led-4k-hdr-smart-google-tv-55c7k-10281841.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283951",
+        "slug": "tcl-c7k-65-qdmini-led-4k-hdr-smart-google-tv-65c7k-10283951.html",
+        "price": 829,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10281822",
+        "slug": "tcl-c7k-75-qdmini-led-4k-hdr-smart-google-tv-75c7k-10281822.html",
+        "price": 1149,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283894",
+        "slug": "tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "98\"",
+        "productId": "10285853",
+        "slug": "tcl-c7k-98-qdmini-led-4k-hdr-smart-google-tv-98c7k-10285853.html",
+        "price": 2299,
+        "available": true
+      },
+      {
+        "size": "115\"",
+        "productId": "10286240",
+        "slug": "tcl-c7k-115-qdmini-led-4k-hdr-smart-google-tv-115c7kuk-10286240.html",
+        "price": 7499,
+        "available": true
+      }
+    ],
+    "10286240": [
+      {
+        "size": "55\"",
+        "productId": "10281841",
+        "slug": "tcl-c7k-55-qdmini-led-4k-hdr-smart-google-tv-55c7k-10281841.html",
+        "price": 699,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10283951",
+        "slug": "tcl-c7k-65-qdmini-led-4k-hdr-smart-google-tv-65c7k-10283951.html",
+        "price": 829,
+        "available": true
+      },
+      {
+        "size": "75\"",
+        "productId": "10281822",
+        "slug": "tcl-c7k-75-qdmini-led-4k-hdr-smart-google-tv-75c7k-10281822.html",
+        "price": 1149,
+        "available": true
+      },
+      {
+        "size": "85\"",
+        "productId": "10283894",
+        "slug": "tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+        "price": 1499,
+        "available": true
+      },
+      {
+        "size": "98\"",
+        "productId": "10285853",
+        "slug": "tcl-c7k-98-qdmini-led-4k-hdr-smart-google-tv-98c7k-10285853.html",
+        "price": 2299,
+        "available": true
+      },
+      {
+        "size": "115\"",
+        "productId": "10286240",
+        "slug": "tcl-c7k-115-qdmini-led-4k-hdr-smart-google-tv-115c7kuk-10286240.html",
+        "price": 7499,
+        "available": true
+      }
+    ],
+    "10288291": [
+      {
+        "size": "42\"",
+        "productId": "10288291",
+        "slug": "samsung-s90f-42-oled-4k-vision-ai-smart-tv-2025-qe42s90f-10288291.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10288298",
+        "slug": "samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10288298.html",
+        "price": 999,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10284860",
+        "slug": "samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html",
+        "price": 1199,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282706",
+        "slug": "samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
+        "price": 1599,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10284799",
+        "slug": "samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284799.html",
+        "price": 2499,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10284439",
+        "slug": "samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284439.html",
+        "price": 3599,
+        "available": true
+      }
+    ],
+    "10288298": [
+      {
+        "size": "42\"",
+        "productId": "10288291",
+        "slug": "samsung-s90f-42-oled-4k-vision-ai-smart-tv-2025-qe42s90f-10288291.html",
+        "price": 899,
+        "available": true
+      },
+      {
+        "size": "48\"",
+        "productId": "10288298",
+        "slug": "samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10288298.html",
+        "price": 999,
+        "available": true
+      },
+      {
+        "size": "55\"",
+        "productId": "10284860",
+        "slug": "samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html",
+        "price": 1199,
+        "available": true
+      },
+      {
+        "size": "65\"",
+        "productId": "10282706",
+        "slug": "samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
+        "price": 1599,
+        "available": true
+      },
+      {
+        "size": "77\"",
+        "productId": "10284799",
+        "slug": "samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284799.html",
+        "price": 2499,
+        "available": true
+      },
+      {
+        "size": "83\"",
+        "productId": "10284439",
+        "slug": "samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284439.html",
+        "price": 3599,
+        "available": true
       }
     ]
   }

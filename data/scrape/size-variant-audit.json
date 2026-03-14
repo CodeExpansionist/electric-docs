@@ -1,0 +1,793 @@
+{
+  "summary": {
+    "totalFamilies": 12,
+    "byStatus": {
+      "Complete": 11,
+      "Partially Complete": 1,
+      "Data Mismatch": 0,
+      "Needs Enrichment": 0
+    },
+    "totalGaps": 2,
+    "gapsByAction": {
+      "leave-unavailable": 2
+    }
+  },
+  "families": [
+    {
+      "family": "JVC LT-32CR250 Roku TV Smart HD Ready HDR LED TV",
+      "brand": "JVC",
+      "status": "Partially Complete",
+      "sourceProducts": [
+        "10274389"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "32\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10274389",
+          "resolvedSlug": "jvc-lt32cr250-roku-tv-32-smart-hd-ready-hdr-led-tv-10274389.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "40\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": null,
+          "resolvedSlug": null,
+          "inCategoryData": false,
+          "available": false,
+          "anomaly": "hash-url",
+          "gapAction": "leave-unavailable"
+        },
+        {
+          "size": "43\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": null,
+          "resolvedSlug": null,
+          "inCategoryData": false,
+          "available": false,
+          "anomaly": "hash-url",
+          "gapAction": "leave-unavailable"
+        }
+      ],
+      "gaps": [
+        {
+          "size": "40\"",
+          "cause": "hash URL placeholder — no matching product in category data",
+          "action": "leave-unavailable"
+        },
+        {
+          "size": "43\"",
+          "cause": "hash URL placeholder — no matching product in category data",
+          "action": "leave-unavailable"
+        }
+      ]
+    },
+    {
+      "family": "LG C5 OLED evo AI 4K HDR Smart TV 2025",
+      "brand": "LG",
+      "status": "Complete",
+      "sourceProducts": [
+        "10281549"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "42\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281538",
+          "resolvedSlug": "lg-c5-42-oled-evo-ai-4k-hdr-smart-tv-2025-oled42c54la-10281538.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "48\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281782",
+          "resolvedSlug": "lg-c5-48-oled-evo-ai-4k-hdr-smart-tv-2025-oled48c54la-10281782.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "55\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281549",
+          "resolvedSlug": "lg-c5-55-oled-evo-ai-4k-hdr-smart-tv-2025-oled55c54la-10281549.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281777",
+          "resolvedSlug": "lg-c5-65-oled-evo-ai-4k-hdr-smart-tv-2025-oled65c54la-10281777.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "77\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281779",
+          "resolvedSlug": "lg-c5-77-oled-evo-ai-4k-hdr-smart-tv-2025-oled77c54la-10281779.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "83\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282101",
+          "resolvedSlug": "lg-c5-83-oled-evo-ai-4k-hdr-smart-tv-2025-oled83c54la-10282101.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "LG QNED86 QNED evo AI Mini LED 4K HDR Smart TV 2025",
+      "brand": "LG",
+      "status": "Complete",
+      "sourceProducts": [
+        "10281767"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "65\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/lg-qned86-65-qned-evo-ai-mini-led-4k-hdr-smart-tv-2025-65qned86a6a-10281767.html",
+          "extractedId": "10281767",
+          "resolvedId": "10281767",
+          "resolvedSlug": "lg-qned86-65-qned-evo-ai-mini-led-4k-hdr-smart-tv-2025-65qned86a6a-10281767.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "75\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/lg-qned86-75-qned-evo-ai-mini-led-4k-hdr-smart-tv-2025-75qned86a6a-10282096.html",
+          "extractedId": "10282096",
+          "resolvedId": "10282096",
+          "resolvedSlug": "lg-m5-65-oled-evo-ai-4k-hdr-true-wireless-smart-tv-2025-oled65m59la-10282096.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "LG B5 OLED AI 4K HDR Smart TV 2025",
+      "brand": "LG",
+      "status": "Complete",
+      "sourceProducts": [
+        "10281774"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "48\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282097",
+          "resolvedSlug": "lg-b5-48-oled-ai-4k-hdr-smart-tv-2025-oled48b56la-10282097.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "55\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281768",
+          "resolvedSlug": "lg-b5-55-oled-ai-4k-hdr-smart-tv-2025-oled55b56la-10281768.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281772",
+          "resolvedSlug": "lg-b5-65-oled-ai-4k-hdr-smart-tv-2025-oled65b56la-10281772.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "77\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/lg-b5-77-oled-ai-4k-hdr-smart-tv-2025-oled77b56la-10281774.html",
+          "extractedId": "10281774",
+          "resolvedId": "10281774",
+          "resolvedSlug": "lg-b5-77-oled-ai-4k-hdr-smart-tv-2025-oled77b56la-10281774.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "83\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282099",
+          "resolvedSlug": "lg-b5-83-oled-ai-4k-hdr-smart-tv-2025-oled83b56la-10282099.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "LG G5 OLED evo AI 4K HDR Smart TV 2025 (Stand Version)",
+      "brand": "LG",
+      "status": "Complete",
+      "sourceProducts": [
+        "10282094"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "48\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281558",
+          "resolvedSlug": "lg-g5-48-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled48g56ls-10281558.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "55\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/lg-g5-55-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled55g56ls-10282094.html",
+          "extractedId": "10282094",
+          "resolvedId": "10282094",
+          "resolvedSlug": "lg-g5-55-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled55g56ls-10282094.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282093",
+          "resolvedSlug": "lg-g5-65-oled-evo-ai-4k-hdr-smart-tv-2025-stand-version-oled65g56ls-10282093.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "SAMSUNG Q7F QLED 4K Vision AI Smart TV 2025",
+      "brand": "SAMSUNG",
+      "status": "Complete",
+      "sourceProducts": [
+        "10282614"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "43\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html",
+          "extractedId": "10282614",
+          "resolvedId": "10282614",
+          "resolvedSlug": "samsung-q7f-43-qled-4k-vision-ai-smart-tv-2025-qe43q7f-10282614.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "50\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282619",
+          "resolvedSlug": "samsung-q7f-50-qled-4k-vision-ai-smart-tv-2025-qe50q7f-10282619.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "55\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282631",
+          "resolvedSlug": "samsung-q7f-55-qled-4k-vision-ai-smart-tv-2025-qe55q7f-10282631.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282636",
+          "resolvedSlug": "samsung-q7f-65-qled-4k-vision-ai-smart-tv-2025-qe65q7f-10282636.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "75\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282607",
+          "resolvedSlug": "samsung-q7f-75-qled-4k-vision-ai-smart-tv-2025-qe75q7f-10282607.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "85\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282635",
+          "resolvedSlug": "samsung-q7f-85-qled-4k-vision-ai-smart-tv-2025-qe85q7f-10282635.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "SAMSUNG Q8F QLED 4K Vision AI Smart TV 2025",
+      "brand": "SAMSUNG",
+      "status": "Complete",
+      "sourceProducts": [
+        "10282628"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "55\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/samsung-q8f-55-qled-4k-vision-ai-smart-tv-2025-qe55q8f-10282628.html",
+          "extractedId": "10282628",
+          "resolvedId": "10282628",
+          "resolvedSlug": "samsung-q8f-55-qled-4k-vision-ai-smart-tv-2025-qe55q8f-10282628.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282622",
+          "resolvedSlug": "samsung-q8f-65-qled-4k-vision-ai-smart-tv-2025-qe65q8f-10282622.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "SAMSUNG U8000F Crystal UHD 4K HDR Smart TV 2025",
+      "brand": "SAMSUNG",
+      "status": "Complete",
+      "sourceProducts": [
+        "10282666"
+      ],
+      "reciprocalLinks": [
+        "10282666 <-> 10282803"
+      ],
+      "sizes": [
+        {
+          "size": "43\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html",
+          "extractedId": "10282666",
+          "resolvedId": "10282666",
+          "resolvedSlug": "samsung-u8000f-43-crystal-uhd-4k-hdr-smart-tv-2025-ue43u8000f-10282666.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "50\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
+          "extractedId": "10284845",
+          "resolvedId": "10284845",
+          "resolvedSlug": "samsung-u8000f-50-crystal-uhd-4k-hdr-smart-tv-2025-ue50u8000f-10284845.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "55\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html",
+          "extractedId": "10282703",
+          "resolvedId": "10282703",
+          "resolvedSlug": "samsung-u8000f-55-crystal-uhd-4k-hdr-smart-tv-2025-ue55u8000f-10282703.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+          "extractedId": "10282803",
+          "resolvedId": "10282803",
+          "resolvedSlug": "samsung-u8000f-65-crystal-uhd-4k-hdr-smart-tv-2025-ue65u8000f-10282803.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "75\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10283642",
+          "resolvedSlug": "samsung-u8000f-75-crystal-uhd-4k-hdr-smart-tv-2025-ue75u8000f-10283642.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "85\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10282771",
+          "resolvedSlug": "samsung-u8000f-85-crystal-uhd-4k-hdr-smart-tv-2025-ue85u8000f-10282771.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "SAMSUNG S90F OLED 4K Vision AI Smart TV 2025",
+      "brand": "SAMSUNG",
+      "status": "Complete",
+      "sourceProducts": [
+        "10282706",
+        "10284860"
+      ],
+      "reciprocalLinks": [
+        "10284860 <-> 10282706"
+      ],
+      "sizes": [
+        {
+          "size": "42\"",
+          "scrapedUrl": "/products/samsung-s90f-42-led-4k-vision-ai-smart-tv-2025-qe42s90f-10282704.html",
+          "extractedId": "10282704",
+          "resolvedId": "10288291",
+          "resolvedSlug": "samsung-s90f-42-oled-4k-vision-ai-smart-tv-2025-qe42s90f-10288291.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "missing-product-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "48\"",
+          "scrapedUrl": "/products/samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10284860.html",
+          "extractedId": "10284860",
+          "resolvedId": "10288298",
+          "resolvedSlug": "samsung-s90f-48-oled-4k-vision-ai-smart-tv-2025-qe48s90f-10288298.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "self-reference-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "55\"",
+          "scrapedUrl": "/products/samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html",
+          "extractedId": "10284860",
+          "resolvedId": "10284860",
+          "resolvedSlug": "samsung-s90f-55-oled-4k-vision-ai-smart-tv-2025-qe55s90f-10284860.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "/products/samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
+          "extractedId": "10282706",
+          "resolvedId": "10282706",
+          "resolvedSlug": "samsung-s90f-65-oled-4k-vision-ai-smart-tv-2025-qe65s90f-10282706.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "77\"",
+          "scrapedUrl": "/products/samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284860.html",
+          "extractedId": "10284860",
+          "resolvedId": "10284799",
+          "resolvedSlug": "samsung-s90f-77-oled-4k-vision-ai-smart-tv-2025-qe77s90f-10284799.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "self-reference-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "83\"",
+          "scrapedUrl": "/products/samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284860.html",
+          "extractedId": "10284860",
+          "resolvedId": "10284439",
+          "resolvedSlug": "samsung-s90f-83-oled-4k-vision-ai-smart-tv-2025-qe83s90f-10284439.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "self-reference-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "HISENSE U7Q PRO Mini LED 4K 165Hz Smart AI TV with Freely",
+      "brand": "HISENSE",
+      "status": "Complete",
+      "sourceProducts": [
+        "10283696"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "55\"",
+          "scrapedUrl": "/products/hisense-u7q-pro-55-mini-led-4k-165hz-smart-ai-tv-with-freely-55u7qtuk-pro-10283696.html",
+          "extractedId": "10283696",
+          "resolvedId": "10283696",
+          "resolvedSlug": "hisense-u7q-pro-55-mini-led-4k-165hz-smart-ai-tv-with-freely-55u7qtuk-pro-10283696.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "/products/hisense-u7q-pro-65-mini-led-4k-165hz-smart-ai-tv-with-freely-65u7qtuk-pro-10282794.html",
+          "extractedId": "10282794",
+          "resolvedId": "10282794",
+          "resolvedSlug": "hisense-u7q-pro-65-mini-led-4k-165hz-smart-ai-tv-with-freely-65u7qtuk-pro-10282794.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "75\"",
+          "scrapedUrl": "/products/hisense-u7q-pro-75-mini-led-4k-165hz-smart-ai-tv-with-freely-75u7qtuk-pro-10283696.html",
+          "extractedId": "10283696",
+          "resolvedId": "10284293",
+          "resolvedSlug": "hisense-u7q-pro-75-mini-led-4k-165hz-smart-ai-tv-with-freely-75u7qtuk-pro-10284293.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "self-reference-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "85\"",
+          "scrapedUrl": "/products/hisense-u7q-pro-85-mini-led-4k-165hz-smart-ai-tv-with-freely-85u7qtuk-pro-10283696.html",
+          "extractedId": "10283696",
+          "resolvedId": "10283976",
+          "resolvedSlug": "hisense-u7q-pro-85-mini-led-4k-165hz-smart-ai-tv-with-freely-85u7qtuk-pro-10283976.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "self-reference-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "100\"",
+          "scrapedUrl": "/products/hisense-u7q-pro-100-mini-led-4k-165hz-smart-ai-tv-with-freely-100u7qtuk-pro-10283696.html",
+          "extractedId": "10283696",
+          "resolvedId": "10284341",
+          "resolvedSlug": "hisense-u7q-pro-100-mini-led-4k-165hz-smart-ai-tv-with-freely-100u7qtuk-pro-10284341.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "self-reference-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "TCL C7K QD-Mini LED 4K HDR Smart Google TV",
+      "brand": "TCL",
+      "status": "Complete",
+      "sourceProducts": [
+        "10283894"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "55\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281841",
+          "resolvedSlug": "tcl-c7k-55-qdmini-led-4k-hdr-smart-google-tv-55c7k-10281841.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10283951",
+          "resolvedSlug": "tcl-c7k-65-qdmini-led-4k-hdr-smart-google-tv-65c7k-10283951.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "75\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10281822",
+          "resolvedSlug": "tcl-c7k-75-qdmini-led-4k-hdr-smart-google-tv-75c7k-10281822.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "85\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+          "extractedId": "10283894",
+          "resolvedId": "10283894",
+          "resolvedSlug": "tcl-c7k-85-qdmini-led-4k-hdr-smart-google-tv-85c7k-10283894.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "98\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10285853",
+          "resolvedSlug": "tcl-c7k-98-qdmini-led-4k-hdr-smart-google-tv-98c7k-10285853.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "115\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10286240",
+          "resolvedSlug": "tcl-c7k-115-qdmini-led-4k-hdr-smart-google-tv-115c7kuk-10286240.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "family": "HISENSE A6Q LED 4K HDR Smart TV with Freely",
+      "brand": "HISENSE",
+      "status": "Complete",
+      "sourceProducts": [
+        "10284267"
+      ],
+      "reciprocalLinks": [],
+      "sizes": [
+        {
+          "size": "43\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10283938",
+          "resolvedSlug": "hisense-a6q-43-led-4k-hdr-smart-tv-with-freely-43a6qtuk-10283938.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "50\"",
+          "scrapedUrl": "https://www.electriz.co.uk/products/hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10284267.html",
+          "extractedId": "10284267",
+          "resolvedId": "10284267",
+          "resolvedSlug": "hisense-a6q-50-led-4k-hdr-smart-tv-with-freely-50a6qtuk-10284267.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": null,
+          "gapAction": null
+        },
+        {
+          "size": "55\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10283886",
+          "resolvedSlug": "hisense-a6q-55-led-4k-hdr-smart-tv-with-freely-55a6qtuk-10283886.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "58\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10285232",
+          "resolvedSlug": "hisense-a6q-58-led-4k-hdr-smart-tv-with-freely-58a6qtuk-10285232.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "65\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10283892",
+          "resolvedSlug": "hisense-a6q-65-led-4k-hdr-smart-tv-with-freely-65a6qtuk-10283892.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        },
+        {
+          "size": "75\"",
+          "scrapedUrl": "#",
+          "extractedId": "",
+          "resolvedId": "10283887",
+          "resolvedSlug": "hisense-a6q-75-led-4k-hdr-smart-tv-with-freely-75a6qtuk-10283887.html",
+          "inCategoryData": true,
+          "available": true,
+          "anomaly": "hash-url-recovered",
+          "gapAction": null
+        }
+      ],
+      "gaps": []
+    }
+  ]
+}

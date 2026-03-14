@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import type { WallBracket, SizeVariant } from "@/lib/product-data";
@@ -84,7 +83,6 @@ export default function PricePanel({
   wallBracket,
   onAddToBasket,
 }: PricePanelProps) {
-  const router = useRouter();
   const [showAllOffers, setShowAllOffers] = useState(false);
   const visibleOffers = showAllOffers ? offers : offers.slice(0, 2);
 
@@ -155,35 +153,82 @@ export default function PricePanel({
         </div>
       )}
 
-      {/* Size selector */}
+      {/* Size selector — circular TV-icon selectors (Currys parity) */}
       {sizeVariants.length > 0 && (
         <div className="mb-4">
           <p className="text-sm font-semibold mb-2">
             Screen Size:{" "}
             <span>{sizeVariants.find((s) => s.selected)?.size}</span>
           </p>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2.5">
             {sizeVariants.map((variant) => {
-              const isAvailable = Boolean(variant.slug && variant.productId);
+              const isAvailable = variant.available ?? Boolean(variant.slug && variant.productId);
+              const isSelected = variant.selected;
+
+              const circle = (
+                <div className="flex flex-col items-center gap-1">
+                  <div
+                    className={`w-[60px] h-[60px] rounded-full flex items-center justify-center transition-colors ${
+                      isSelected
+                        ? "border-[3px] border-primary bg-light-purple"
+                        : isAvailable
+                          ? "border border-border bg-white hover:border-primary"
+                          : "border border-border/50 bg-white opacity-50"
+                    }`}
+                  >
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke={isSelected ? "#4C12A1" : isAvailable ? "#213038" : "#696969"}
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <rect x="2" y="3" width="20" height="13" rx="1.5" />
+                      <line x1="12" y1="16" x2="12" y2="19" />
+                      <line x1="8" y1="19" x2="16" y2="19" />
+                    </svg>
+                  </div>
+                  <span
+                    className={`text-[13px] ${
+                      isSelected
+                        ? "font-semibold text-primary"
+                        : isAvailable
+                          ? "text-text-primary"
+                          : "text-text-muted"
+                    }`}
+                  >
+                    {variant.size}
+                  </span>
+                </div>
+              );
+
+              if (isSelected) {
+                return (
+                  <span key={variant.size} aria-current="true">
+                    {circle}
+                  </span>
+                );
+              }
+
+              if (!isAvailable) {
+                return (
+                  <span key={variant.size} className="cursor-not-allowed" aria-disabled="true">
+                    {circle}
+                  </span>
+                );
+              }
+
               return (
-                <button
+                <Link
                   key={variant.size}
-                  disabled={!isAvailable && !variant.selected}
-                  onClick={() => {
-                    if (!variant.selected && isAvailable) {
-                      router.push(`/products/${variant.slug}`);
-                    }
-                  }}
-                  className={`px-4 py-2 rounded-md text-sm border transition-colors ${
-                    variant.selected
-                      ? "border-primary border-2 bg-primary/5 text-primary font-semibold"
-                      : isAvailable
-                        ? "border-border text-text-primary hover:border-primary cursor-pointer"
-                        : "border-border/50 text-text-muted cursor-not-allowed opacity-50"
-                  }`}
+                  href={`/products/${variant.slug}`}
+                  className="no-underline focus-visible:ring-2 focus-visible:ring-primary focus-visible:rounded-full"
                 >
-                  {variant.size}
-                </button>
+                  {circle}
+                </Link>
               );
             })}
           </div>
