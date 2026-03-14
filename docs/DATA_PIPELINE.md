@@ -1,5 +1,22 @@
 # Data Pipeline
 
+> **Authority:** Reference — code-level truth is `scripts/`. This document explains the pipeline order and when to re-run.
+
+## Current Data State
+
+> Last updated: 2026-03-14 (source: `data/repo-facts.json`)
+
+| Metric | Value |
+| --- | --- |
+| Total products | 2,321 |
+| Total categories | 14 |
+| Total images | 37,740+ |
+| Product detail coverage | 99.9% (2,318 of 2,321 have scraped detail files) |
+| Products missing `main.webp` | 4 (see [KNOWN_ISSUES.md](KNOWN_ISSUES.md)) |
+| Last full pipeline run | 2026-03-09 |
+
+To refresh these numbers, run `npm run facts` and check `data/repo-facts.json`.
+
 ## Overview
 
 The data pipeline scrapes product data from the live Electriz website, normalizes it, downloads images, and builds the static JSON files that power the application. All scripts live in `scripts/` and are run manually with Node.js.

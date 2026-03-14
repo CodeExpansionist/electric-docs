@@ -1,6 +1,6 @@
-# Electric — Project Specification
+# Visual Reference Map
 
-> **Historical note:** This was the original build specification. The project is now fully built. Scrape instructions, data models, and build order have been removed — they are superseded by [DATA_PIPELINE.md](DATA_PIPELINE.md), [DATA_SCHEMA.md](DATA_SCHEMA.md), and the skill library in `.claude/commands/`. What remains below is the screenshot reference map and page inventory, which are still actively used for visual verification.
+> **Authority:** Reference — code-level truth is `reference-screenshots/`. This document maps screenshots to pages and sections for visual verification.
 
 ## Reference Screenshots
 

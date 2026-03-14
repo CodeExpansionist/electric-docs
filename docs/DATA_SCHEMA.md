@@ -1,5 +1,7 @@
 # Data Schema
 
+> **Authority:** Reference — code-level truth is `src/lib/types.ts`. This document explains the type system and data flow.
+
 ## Overview
 
 The application uses two sets of TypeScript interfaces:

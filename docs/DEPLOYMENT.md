@@ -1,5 +1,7 @@
 # Deployment
 
+> **Authority:** Governance — this document defines the intended deployment configuration. Currently contains templates and recommendations; update when deployment infrastructure is built.
+
 ## Build
 
 ```bash

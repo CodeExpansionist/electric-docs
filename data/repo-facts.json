@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-14T13:27:19.343Z",
+  "generated": "2026-03-14T18:50:44.931Z",
   "versions": {
     "next": "15.5.12",
     "react": "18",
@@ -8,14 +8,14 @@
   },
   "counts": {
     "products": 2321,
-    "images": 38012,
+    "images": 38013,
     "categories": 14,
-    "scripts": 25,
+    "scripts": 26,
     "components": 53,
     "routes": 36
   },
   "packageScripts": {
-    "dev": "rm -rf .next && next dev -p 3000",
+    "dev": "rm -rf .next && next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -23,7 +23,22 @@
     "facts": "node scripts/generate-repo-facts.js",
     "audit": "node scripts/audit-docs.js",
     "preflight": "npm run facts && npm run audit",
-    "test": "npx tsc -p tsconfig.test.json && node --test tests/*.test.mjs"
+    "test": "vitest run",
+    "test:unit": "vitest run --project unit",
+    "test:component": "vitest run --project component",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test --project=chromium",
+    "test:parity": "playwright test --project=parity --grep @parity",
+    "test:parity:regression": "playwright test --project=parity --grep @regression-visual",
+    "test:parity:update": "playwright test --project=parity --grep @regression-visual --update-snapshots",
+    "test:parity:report": "playwright test --project=parity --grep @parity && cat artifacts/parity/reports/parity-report.md",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @smoke|@regression",
+    "test:all": "npm run test && npm run test:e2e",
+    "test:ci": "npm run test:coverage && npm run test:e2e"
   },
   "envVars": {
     "documented": [
