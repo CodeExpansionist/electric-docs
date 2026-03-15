@@ -7,7 +7,7 @@ const ShopDeals = dynamic(() => import("@/components/layout/ShopDeals"));
 const DiscoverOffers = dynamic(() => import("@/components/layout/DiscoverOffers"));
 const BigBrandDeals = dynamic(() => import("@/components/layout/BigBrandDeals"));
 const SponsoredProducts = dynamic(() => import("@/components/layout/SponsoredProducts"));
-const ElectrizPerks = dynamic(() => import("@/components/layout/ElectrizPerks"));
+
 
 const homepageJsonLd = {
   "@context": "https://schema.org",
@@ -53,9 +53,6 @@ export default function Home() {
       </Suspense>
       <Suspense>
         <SponsoredProducts />
-      </Suspense>
-      <Suspense>
-        <ElectrizPerks />
       </Suspense>
     </>
   );

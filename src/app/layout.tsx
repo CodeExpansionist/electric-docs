@@ -4,6 +4,7 @@ import { BasketProvider } from "@/lib/basket-context";
 import { SavedProvider } from "@/lib/saved-context";
 import { OrdersProvider } from "@/lib/orders-context";
 import { SignInModalProvider } from "@/lib/signin-modal-context";
+import { UserProvider } from "@/lib/user-context";
 import LayoutWrapper from "@/components/layout/LayoutWrapper";
 import SignInModal from "@/components/auth/SignInModal";
 import { SITE_URL } from "@/lib/constants";
@@ -69,10 +70,12 @@ export default function RootLayout({
         <BasketProvider>
           <SavedProvider>
             <OrdersProvider>
-              <SignInModalProvider>
-                <LayoutWrapper>{children}</LayoutWrapper>
-                <SignInModal />
-              </SignInModalProvider>
+              <UserProvider>
+                <SignInModalProvider>
+                  <LayoutWrapper>{children}</LayoutWrapper>
+                  <SignInModal />
+                </SignInModalProvider>
+              </UserProvider>
             </OrdersProvider>
           </SavedProvider>
         </BasketProvider>

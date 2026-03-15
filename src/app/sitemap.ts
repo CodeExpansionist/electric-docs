@@ -137,12 +137,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.2,
     },
     {
-      url: `${SITE_URL}/product-recalls`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
       url: `${SITE_URL}/site-map`,
       lastModified: now,
       changeFrequency: "monthly",

@@ -98,16 +98,20 @@ export interface BasketItem {
   quantity: number;
 }
 
+export type DeliveryMethod = "standard" | "next-day" | "next-day-weekday-slot" | "next-day-weekend" | "next-day-weekend-slot";
+
 /**
  * Shopping basket state.
- * `deliveryCost` is £0 when subtotal >= £40, otherwise £4.99.
- * Calculated by `calculateTotals()` in basket-context.tsx.
+ * `deliveryCost` depends on deliveryMethod and subtotal.
+ * Standard: FREE over £40, £3.99 under £40.
+ * Next-day options: £5.99 / £9.99 / £6.99 / £10.99.
  */
 export interface Basket {
   items: BasketItem[];
   subtotal: number;
   deliveryCost: number;
   total: number;
+  deliveryMethod: DeliveryMethod;
   promoCode?: string;
   promoDiscount?: number;
 }

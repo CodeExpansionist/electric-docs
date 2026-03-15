@@ -42,6 +42,7 @@ const config: Config = {
         "offer-pink": tokens.colors.offerPink,
         "gallery-overlay": tokens.colors.galleryOverlay,
         "footer-secondary": tokens.colors.footerSecondary,
+        error: "#CC0000",
       },
       fontFamily: {
         heading: ["Electriz Sans Headline", "ElectrizSans-Regular", "sans-serif"],

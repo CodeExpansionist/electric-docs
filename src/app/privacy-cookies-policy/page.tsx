@@ -8,7 +8,6 @@ const tocSections = [
   { id: "how-long", label: "How long we keep your information" },
   { id: "your-rights", label: "Your rights" },
   { id: "marketing", label: "How to stop marketing" },
-  { id: "cookies-policy", label: "Our Cookies Policy" },
   { id: "contact-us", label: "Contact us" },
 ];
 
@@ -137,9 +136,9 @@ export default function PrivacyCookiesPolicyPage() {
               pages you visit, products you view, and searches you make. We use
               cookies and similar technologies to collect this information.
               Please see our{" "}
-              <a href="#cookies-policy" className="text-primary hover:underline">
+              <Link href="/cookies-policy" className="text-primary hover:underline">
                 Cookie Policy
-              </a>{" "}
+              </Link>{" "}
               for more details.
             </p>
 
@@ -442,116 +441,14 @@ export default function PrivacyCookiesPolicyPage() {
             </ul>
             <p>
               To stop online marketing through cookies, please see our{" "}
-              <a href="#cookies-policy" className="text-primary hover:underline">
+              <Link href="/cookies-policy" className="text-primary hover:underline">
                 Cookie Policy
-              </a>{" "}
-              below.
+              </Link>
+              .
             </p>
             <p>
               Please note that even if you opt out of marketing, we will still
               send you important service messages about your orders and account.
-            </p>
-          </div>
-        </section>
-
-        {/* ========== COOKIES POLICY ========== */}
-        <section id="cookies-policy" className="mb-10 scroll-mt-24">
-          <h2 className="text-xl font-bold text-text-primary mb-4">
-            Our Cookies Policy
-          </h2>
-          <div className="prose max-w-none text-sm text-text-secondary space-y-4">
-            <p>
-              This policy explains what cookies are and why we collect them. It
-              also explains the information cookies store.
-            </p>
-
-            <h3 className="text-base font-bold text-text-primary mt-6">
-              What are cookies?
-            </h3>
-            <p>
-              Cookies are small data files which are placed on your computer or
-              other devices (such as smartphones or tablets) as you browse our
-              website. They are used to remember your preferences, understand
-              how you use our site, and improve your experience.
-            </p>
-            <p>
-              Cookies are either First Party, meaning they are placed directly
-              by Electriz, or Third Party cookies, which are placed by external
-              services we use on our website.
-            </p>
-            <p>Cookies are also either session or persistent:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                <strong className="text-text-primary">Session cookies</strong>{" "}
-                &mdash; these are temporary cookies that are deleted when you
-                close your browser.
-              </li>
-              <li>
-                <strong className="text-text-primary">
-                  Persistent cookies
-                </strong>{" "}
-                &mdash; these remain on your device for a set period or until
-                you delete them.
-              </li>
-            </ul>
-
-            <h3 className="text-base font-bold text-text-primary mt-6">
-              What kind of cookies do we use?
-            </h3>
-
-            <h4 className="text-sm font-bold text-text-primary mt-4">
-              Essential cookies
-            </h4>
-            <p>
-              These cookies are necessary for the website to function properly.
-              They enable core features such as security, basket management, and
-              account authentication. Without these cookies, services you have
-              asked for cannot be provided.
-            </p>
-
-            <h4 className="text-sm font-bold text-text-primary mt-4">
-              Analytics cookies
-            </h4>
-            <p>
-              These cookies help us understand how visitors interact with our
-              website by collecting and reporting information anonymously. This
-              helps us improve our website and the experience we offer.
-            </p>
-
-            <h4 className="text-sm font-bold text-text-primary mt-4">
-              Functional cookies
-            </h4>
-            <p>
-              These cookies enable enhanced functionality and personalisation,
-              such as remembering your preferences and settings. They may be set
-              by us or by third-party providers whose services we have added to
-              our pages.
-            </p>
-
-            <h4 className="text-sm font-bold text-text-primary mt-4">
-              Marketing cookies
-            </h4>
-            <p>
-              These cookies are used to track visitors across websites. They are
-              used to display adverts that are relevant and engaging for
-              individual users. They also limit the number of times you see an
-              advert and help us measure the effectiveness of our advertising
-              campaigns.
-            </p>
-
-            <h3 className="text-base font-bold text-text-primary mt-6">
-              Managing your cookie preferences
-            </h3>
-            <p>
-              When you first visit our website you will be presented with a
-              cookie banner where you can accept all cookies, allow required
-              cookies only, or customise your preferences.
-            </p>
-            <p>
-              You can change your cookie preferences at any time through your
-              browser settings. Most browsers allow you to refuse or delete
-              cookies. Please note that if you disable cookies, some parts of
-              our website may not function properly.
             </p>
           </div>
         </section>

@@ -8,6 +8,7 @@ import MainNav from "./MainNav";
 import USPBar from "./USPBar";
 import Footer from "./Footer";
 import SubFooter from "./SubFooter";
+import ElectrizPerks from "./ElectrizPerks";
 import CheckoutHeader from "./CheckoutHeader";
 import AdminSidebar from "@/components/admin/AdminSidebar";
 import AdminHeader from "@/components/admin/AdminHeader";
@@ -52,6 +53,7 @@ export default function LayoutWrapper({
       <MainNav />
       {pathname === "/" && <USPBar />}
       <main id="main-content" className="flex-1">{children}</main>
+      <ElectrizPerks />
       <Footer />
       <SubFooter />
     </div>

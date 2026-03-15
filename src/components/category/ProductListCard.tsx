@@ -270,7 +270,7 @@ export default function ProductListCard({
       </div>
 
       {/* Bottom row: Save for later */}
-      <div className="flex items-center justify-end mt-3 pt-3 border-t border-border">
+      <div className="flex items-center justify-end mt-3">
         <button
           onClick={handleSaveToggle}
           className="flex items-center gap-1.5 text-xs text-primary hover:underline"

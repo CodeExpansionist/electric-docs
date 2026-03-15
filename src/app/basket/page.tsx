@@ -131,7 +131,7 @@ function BasketItemCard({
                   <circle cx="12" cy="12" r="10" />
                   <path d="M12 6v6l4 2" />
                 </svg>
-                <span className="text-xs text-text-secondary">Next day delivery available, order by 8pm</span>
+                <span className="text-xs text-text-secondary">Next day delivery available, order by 9pm</span>
               </div>
             </div>
           </div>

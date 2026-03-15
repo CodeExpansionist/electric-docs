@@ -16,21 +16,23 @@ export default function Accordion({ items, defaultOpen }: AccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(defaultOpen ?? null);
 
   return (
-    <div className="divide-y divide-border border-t border-b border-border">
+    <div className="space-y-3">
       {items.map((item, i) => (
-        <div key={item.title}>
+        <div key={item.title} className="border border-border rounded-md bg-white">
           <button
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
-            className="w-full flex items-center justify-between py-4 px-0 text-left text-sm font-bold text-text-primary hover:text-primary transition-colors"
+            className="w-full flex items-center justify-between py-4 px-5 text-left text-sm font-bold text-text-primary hover:text-primary transition-colors"
           >
             <span>{item.title}</span>
             <svg
-              width="16"
-              height="16"
+              width="18"
+              height="18"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
               strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className={`transition-transform flex-shrink-0 ml-4 ${
                 openIndex === i ? "rotate-180" : ""
               }`}
@@ -43,7 +45,7 @@ export default function Accordion({ items, defaultOpen }: AccordionProps) {
               openIndex === i ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
             }`}
           >
-            <div className="pb-4 text-sm text-text-secondary leading-relaxed">
+            <div className="pb-4 px-5 text-sm text-text-secondary leading-relaxed">
               {item.content}
             </div>
           </div>

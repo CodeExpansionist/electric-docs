@@ -8,8 +8,14 @@
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
-/** Delivery cost when order is below free delivery threshold */
-export const DEFAULT_DELIVERY_FEE = 5;
+/** Standard delivery cost when order is below free delivery threshold */
+export const DEFAULT_DELIVERY_FEE = 3.99;
+
+/** Next-day delivery pricing */
+export const NEXT_DAY_ALL_DAY = 5.99;
+export const NEXT_DAY_WEEKDAY_SLOT = 9.99;
+export const NEXT_DAY_WEEKEND_ALL_DAY = 6.99;
+export const NEXT_DAY_WEEKEND_SLOT = 10.99;
 
 /** Order subtotal at or above which delivery is free */
 export const FREE_DELIVERY_THRESHOLD = 40;

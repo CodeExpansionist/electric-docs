@@ -90,36 +90,6 @@ const smallItemsNextDay: DeliveryTable = {
   ],
 };
 
-const largeItemsStandard: DeliveryTable = {
-  title: "Standard delivery - Get it in 4 working days*",
-  rows: [
-    {
-      label: "All-day 7am-8pm",
-      price: "From \u00A320",
-    },
-    {
-      label: "Choose a time slot",
-      price: "From \u00A335",
-    },
-  ],
-};
-
-const largeItemsNextDay: DeliveryTable = {
-  title: "Next-day delivery - Get it next day, 7 days a week*",
-  rows: [
-    {
-      label: "All-day 7am-8pm",
-      sublabel: "Order by 7pm",
-      price: "From \u00A330",
-    },
-    {
-      label: "Choose a time slot",
-      sublabel: "Order by 7pm",
-      price: "From \u00A345",
-    },
-  ],
-};
-
 const faqItems = [
   {
     title: "How can I speak to someone about my Electriz order?",
@@ -152,9 +122,15 @@ const faqItems = [
     content: (
       <div>
         <p>
-          You can track your order using our online tracker. If your order is
-          late or you have concerns, please contact our customer service team
-          with your order number and we\u2019ll investigate for you.
+          You can track your order using our{" "}
+          <Link href="/track-your-order" className="text-primary underline hover:text-primary-dark">
+            online tracker
+          </Link>
+          . If your order is late or you have concerns, please{" "}
+          <Link href="/contact-us" className="text-primary underline hover:text-primary-dark">
+            contact our customer service team
+          </Link>
+          {" "}with your order number and we\u2019ll investigate for you.
         </p>
       </div>
     ),
@@ -204,7 +180,7 @@ export default function DeliveryPage() {
         </nav>
       </div>
 
-      {/* Green header banner */}
+      {/* Hero banner */}
       <div className="bg-announcement w-full">
         <div className="container-main py-8">
           <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">
@@ -257,16 +233,7 @@ export default function DeliveryPage() {
             Delivery
           </h2>
 
-          {/* Small items */}
           <div className="mb-8">
-            <h3 className="text-lg font-bold text-text-primary mb-2">
-              Small items
-            </h3>
-            <p className="text-sm text-text-secondary mb-4 max-w-3xl">
-              What do we mean by small? Just about everything but the kitchen
-              sink! Doesn&apos;t include major kitchen &amp; laundry appliances,
-              and TVs over 43&quot;.
-            </p>
             <PriceTable
               title={smallItemsStandard.title}
               rows={smallItemsStandard.rows}
@@ -277,30 +244,12 @@ export default function DeliveryPage() {
             />
           </div>
 
-          {/* Large items */}
-          <div className="mb-8">
-            <h3 className="text-lg font-bold text-text-primary mb-2">
-              Large items
-            </h3>
-            <p className="text-sm text-text-secondary mb-4 max-w-3xl">
-              We&apos;re talking about the big stuff! Major appliances like
-              dishwashers, washing machines, fridge freezers, and TVs over
-              43&quot;.
-            </p>
-            <PriceTable
-              title={largeItemsStandard.title}
-              rows={largeItemsStandard.rows}
-            />
-            <PriceTable
-              title={largeItemsNextDay.title}
-              rows={largeItemsNextDay.rows}
-            />
+          <div className="text-xs text-text-secondary space-y-2 mt-4 text-center">
+            <p>Your delivery courier will let you know once your order is dispatched.</p>
+            <p>Deliveries are between 8am &amp; 8pm.</p>
+            <p>*We don&apos;t deliver on bank holidays.</p>
+            <p>Sometimes, because of things like bad weather, your delivery may be delayed.</p>
           </div>
-
-          <p className="text-xs text-text-secondary">
-            *Delivery times are estimates and may vary depending on your
-            location and product availability.
-          </p>
         </section>
 
         {/* FAQs section */}
@@ -311,15 +260,6 @@ export default function DeliveryPage() {
           <Accordion items={faqItems} />
         </section>
 
-        {/* Back link */}
-        <div className="border-t border-border pt-6 mb-8">
-          <Link
-            href="/"
-            className="text-sm text-primary no-underline hover:underline"
-          >
-            &larr; Back to homepage
-          </Link>
-        </div>
       </div>
     </div>
   );

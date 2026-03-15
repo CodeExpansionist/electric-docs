@@ -5,28 +5,43 @@ import Link from "next/link";
 
 const columns = [
   {
-    heading: "Help & support",
+    heading: "Customer support",
     links: [
+      { text: "Help & Support", url: "/help-and-support" },
       { text: "Contact us", url: "/help-and-support#contact" },
-      { text: "TechTalk", url: "/techtalk" },
+      { text: "Track my order", url: "/track-your-order" },
+      { text: "Returns & cancellations", url: "/services/returns" },
+      { text: "Delivery options", url: "/services/delivery" },
+    ],
+  },
+  {
+    heading: "Shopping with us",
+    links: [
+      { text: "Brands", url: "/brands" },
+      { text: "Promotions", url: "/promotions" },
       { text: "Price Promise", url: "/services/price-promise" },
       { text: "Product reviews", url: "/product-reviews" },
+      { text: "Basket", url: "/basket" },
     ],
   },
   {
-    heading: "Services",
+    heading: "Your account",
     links: [
-      { text: "Track my order", url: "/track-your-order" },
-      { text: "Delivery options", url: "/services/delivery" },
-      { text: "Returns & cancellations", url: "/services/returns" },
-      { text: "ShopLive", url: "/services/shoplive" },
+      { text: "Account", url: "/account" },
+      { text: "Your orders", url: "/account" },
+      { text: "Saved items", url: "/saved" },
+      { text: "TechTalk", url: "/techtalk" },
     ],
   },
   {
-    heading: "Care Services",
+    heading: "About Electriz",
     links: [
-      { text: "Instant Replacement", url: "/services/instant-replacement" },
-      { text: "Tablet Insurance", url: "/services/tablet-insurance" },
+      { text: "About us", url: "/about-us" },
+      { text: "Careers", url: "/careers" },
+      { text: "Recycling & WEEE", url: "/recycling" },
+      { text: "Modern Slavery Statement", url: "/modern-slavery-statement" },
+      { text: "Security & Privacy", url: "/security-and-privacy" },
+      { text: "Accessibility", url: "/accessibility" },
     ],
   },
 ];
@@ -43,7 +58,7 @@ export default function Footer() {
   return (
     <footer className="bg-footer-bg text-white">
       <div className="container-main py-8 md:py-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-0 md:gap-8">
           {columns.map((col) => (
             <div key={col.heading} className="border-b border-white md:border-0">
               {/* Mobile: clickable accordion header */}

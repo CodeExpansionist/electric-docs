@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -12,7 +12,6 @@ import type { Product } from "@/lib/types";
 import ProductGallery from "@/components/product/ProductGallery";
 import PricePanel from "@/components/product/PricePanel";
 import ProductSpecs from "@/components/product/ProductSpecs";
-import CareAndRepair from "@/components/product/CareAndRepair";
 import EssentialServices from "@/components/product/EssentialServices";
 import CrossSellProducts from "@/components/product/CrossSellProducts";
 import BuyTogetherBundle from "@/components/product/BuyTogetherBundle";
@@ -93,10 +92,130 @@ function StarRating({ rating, count }: { rating: number; count: number }) {
       </span>
       <Link
         href="#reviews"
-        className="text-sm text-primary no-underline hover:underline"
+        className="text-sm text-text-primary underline"
       >
-        ({count} reviews)
+        {count} reviews
       </Link>
+    </div>
+  );
+}
+
+function ShareButton({ productName }: { productName: string }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+    if (open) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [open]);
+
+  const pageUrl = typeof window !== "undefined" ? window.location.href : "";
+  const encodedUrl = encodeURIComponent(pageUrl);
+  const encodedTitle = encodeURIComponent(productName);
+
+  const shareOptions = [
+    {
+      label: "Facebook",
+      href: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="#1877F2">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+        </svg>
+      ),
+    },
+    {
+      label: "Twitter",
+      href: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="#000">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+        </svg>
+      ),
+    },
+    {
+      label: "Email",
+      href: `mailto:?subject=${encodedTitle}&body=Check out this product: ${encodedUrl}`,
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#333" strokeWidth="1.8">
+          <rect x="2" y="4" width="20" height="16" rx="2" />
+          <path d="M22 4L12 13 2 4" />
+        </svg>
+      ),
+    },
+    {
+      label: "Pinterest",
+      href: `https://pinterest.com/pin/create/button/?url=${encodedUrl}&description=${encodedTitle}`,
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="#E60023">
+          <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
+        </svg>
+      ),
+    },
+    {
+      label: "Copy link",
+      href: "#",
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#333" strokeWidth="1.8">
+          <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" />
+          <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" />
+        </svg>
+      ),
+    },
+  ];
+
+  const [copied, setCopied] = useState(false);
+
+  const handleClick = (option: typeof shareOptions[0]) => {
+    if (option.label === "Copy link") {
+      navigator.clipboard.writeText(pageUrl);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+      return;
+    }
+    if (option.label === "Email") {
+      window.location.href = option.href;
+    } else {
+      window.open(option.href, "_blank", "noopener,noreferrer,width=600,height=400");
+    }
+    setOpen(false);
+  };
+
+  return (
+    <div className="relative" ref={ref}>
+      <button
+        onClick={() => setOpen(!open)}
+        className="flex items-center gap-1.5 py-2.5 text-sm text-primary hover:underline"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+          <circle cx="18" cy="5" r="3" />
+          <circle cx="6" cy="12" r="3" />
+          <circle cx="18" cy="19" r="3" />
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+        </svg>
+        Share
+      </button>
+      {open && (
+        <div className="absolute right-0 bottom-full mb-2 bg-white rounded-md shadow-lg border border-border py-2 w-48 z-50">
+          {shareOptions.map((option) => (
+            <button
+              key={option.label}
+              onClick={() => handleClick(option)}
+              className="flex items-center gap-3 w-full px-4 py-2.5 text-sm text-text-primary hover:bg-surface transition-colors text-left"
+            >
+              {option.icon}
+              {option.label === "Copy link" && copied ? "Copied!" : option.label}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -444,105 +563,105 @@ function ProductPageContent({
         ))}
       </nav>
 
-      {/* Product title (full width, above the two-column grid) */}
-      <h1 className="text-2xl font-bold text-text-primary mb-3 leading-7">
-        {product.name}
-      </h1>
-
-      {/* Star rating (full width) */}
-      <div className="mb-3">
-        <StarRating
-          rating={product.rating.average}
-          count={product.rating.count}
-        />
-      </div>
-
-      {/* Badges row (full width) */}
-      {(product.badgeImages?.length || product.badges.length > 0) && (
-        <div className="flex flex-wrap items-center gap-2 mb-3">
-          {product.badgeImages?.filter(b => !/loved by/i.test(b.type || "")).map((badge, i) => {
-            const badgeType = badge.type || "";
-            const isEpicDeal = badgeType.toLowerCase().includes("epic deal");
-            if (badge.image && badge.image.startsWith("/")) {
-              return (
-                <Image
-                  key={i}
-                  src={badge.image}
-                  alt={badgeType}
-                  width={100}
-                  height={30}
-                  className="h-[30px] w-auto object-contain"
-                  unoptimized
-                />
-              );
-            }
-            return (
-              <span
-                key={i}
-                className={`text-[11px] px-2.5 py-1 rounded-sm font-medium ${
-                  isEpicDeal
-                    ? "bg-sale text-white"
-                    : "border border-border text-text-primary"
-                }`}
-              >
-                {badgeType}
-              </span>
-            );
-          })}
-          {!product.badgeImages &&
-            product.badges.filter(b => !/loved by/i.test(typeof b === "string" ? b : String(b))).map((badge, i) => {
-              const badgeText =
-                typeof badge === "string" ? badge : String(badge);
-              const isEpicDeal = badgeText.toLowerCase().includes("epic deal");
-              return (
-                <span
-                  key={i}
-                  className={`text-[11px] px-2.5 py-1 rounded-sm font-medium ${
-                    isEpicDeal
-                      ? "bg-sale text-white"
-                      : "border border-border text-text-primary"
-                  }`}
-                >
-                  {badgeText}
-                </span>
-              );
-            })}
-        </div>
-      )}
-
-      {/* Awards row (full width) */}
-      {product.awards && product.awards.length > 0 && (
-        <div className="flex flex-wrap items-center gap-3 mb-4">
-          {product.awards
-            .filter((a) => a.name)
-            .map((award, i) =>
-              award.image && award.image.startsWith("/") ? (
-                <Image
-                  key={i}
-                  src={award.image}
-                  alt={award.name}
-                  width={60}
-                  height={40}
-                  className="h-8 w-auto object-contain"
-                  unoptimized
-                />
-              ) : (
-                <span
-                  key={i}
-                  className="text-[11px] px-2.5 py-1 rounded-sm font-medium border border-border text-text-primary"
-                >
-                  {award.name}
-                </span>
-              )
-            )}
-        </div>
-      )}
-
-      {/* ═══ Two-column layout: Gallery (60%) + Price panel (40%) ═══ */}
+      {/* ═══ Two-column layout: Left (60%) + Price panel (40%) ═══ */}
       <div className="flex flex-col lg:flex-row lg:items-start gap-5 mb-8">
-        {/* ── LEFT COLUMN: Gallery + Key Specs (60%) ── */}
+        {/* ── LEFT COLUMN: Title, Rating, Badges, Gallery + Key Specs (60%) ── */}
         <div className="w-full lg:w-[60%] min-w-0">
+          {/* Product title */}
+          <h1 className="text-2xl font-bold text-text-primary mb-3 leading-7">
+            {product.name}
+          </h1>
+
+          {/* Star rating */}
+          <div className="mb-3">
+            <StarRating
+              rating={product.rating.average}
+              count={product.rating.count}
+            />
+          </div>
+
+          {/* Badges row */}
+          {(product.badgeImages?.length || product.badges.length > 0) && (
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              {product.badgeImages?.filter(b => !/loved by/i.test(b.type || "")).map((badge, i) => {
+                const badgeType = badge.type || "";
+                const isEpicDeal = badgeType.toLowerCase().includes("epic deal");
+                if (badge.image && badge.image.startsWith("/")) {
+                  return (
+                    <Image
+                      key={i}
+                      src={badge.image}
+                      alt={badgeType}
+                      width={100}
+                      height={30}
+                      className="h-[30px] w-auto object-contain"
+                      unoptimized
+                    />
+                  );
+                }
+                return (
+                  <span
+                    key={i}
+                    className={`text-[11px] px-2.5 py-1 rounded-sm font-medium ${
+                      isEpicDeal
+                        ? "bg-sale text-white"
+                        : "border border-border text-text-primary"
+                    }`}
+                  >
+                    {badgeType}
+                  </span>
+                );
+              })}
+              {!product.badgeImages &&
+                product.badges.filter(b => !/loved by/i.test(typeof b === "string" ? b : String(b))).map((badge, i) => {
+                  const badgeText =
+                    typeof badge === "string" ? badge : String(badge);
+                  const isEpicDeal = badgeText.toLowerCase().includes("epic deal");
+                  return (
+                    <span
+                      key={i}
+                      className={`text-[11px] px-2.5 py-1 rounded-sm font-medium ${
+                        isEpicDeal
+                          ? "bg-sale text-white"
+                          : "border border-border text-text-primary"
+                      }`}
+                    >
+                      {badgeText}
+                    </span>
+                  );
+                })}
+            </div>
+          )}
+
+          {/* Awards row */}
+          {product.awards && product.awards.length > 0 && (
+            <div className="flex flex-wrap items-center gap-3 mb-4">
+              {product.awards
+                .filter((a) => a.name)
+                .map((award, i) =>
+                  award.image && award.image.startsWith("/") ? (
+                    <Image
+                      key={i}
+                      src={award.image}
+                      alt={award.name}
+                      width={60}
+                      height={40}
+                      className="h-8 w-auto object-contain"
+                      unoptimized
+                    />
+                  ) : (
+                    <span
+                      key={i}
+                      className="text-[11px] px-2.5 py-1 rounded-sm font-medium border border-border text-text-primary"
+                    >
+                      {award.name}
+                    </span>
+                  )
+                )}
+            </div>
+          )}
           {/* Product image / Gallery */}
+          <div className="lg:sticky lg:top-4 lg:self-start">
           {hasGallery ? (
             <ProductGallery
               images={product.images!.gallery}
@@ -562,6 +681,7 @@ function ProductPageContent({
               />
             </div>
           )}
+          </div>
 
           {/* Product highlights / features */}
           {product.description && (
@@ -593,7 +713,7 @@ function ProductPageContent({
         </div>
 
         {/* ── RIGHT COLUMN: Price panel (40%) ── */}
-        <div className="w-full lg:w-[40%] min-w-0 bg-surface rounded-lg p-5">
+        <div className="w-full lg:w-[40%] min-w-0 bg-[#f9f9f9] rounded-lg p-5">
           <PricePanel
             price={product.price.current}
             wasPrice={product.price.was}
@@ -631,96 +751,85 @@ function ProductPageContent({
               </svg>
               {saved ? "Saved" : "Save for later"}
             </button>
-            <button className="flex items-center gap-2 py-2.5 text-sm text-primary hover:underline">
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.8"
-              >
-                <circle cx="18" cy="5" r="3" />
-                <circle cx="6" cy="12" r="3" />
-                <circle cx="18" cy="19" r="3" />
-                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
-                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
-              </svg>
-              Share
-            </button>
+            <ShareButton productName={product.name} />
           </div>
 
-          {/* Delivery (inline in right column) */}
-          <div className="border-t border-border pt-4 mt-2">
-            <div className="mb-4">
-              <h3 className="text-sm font-bold mb-2 flex items-center gap-2">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-                  <rect x="1" y="3" width="15" height="13" rx="2" />
-                  <path d="M16 8h4l3 3v5h-7V8z" />
-                  <circle cx="5.5" cy="18.5" r="2.5" />
-                  <circle cx="18.5" cy="18.5" r="2.5" />
+          {/* Delivery card */}
+          <div className="bg-white rounded-[7px] p-4 mt-4">
+            <div className="flex items-start gap-4">
+              {/* Van icon column */}
+              <div className="flex-shrink-0 mt-0.5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                  <path fillRule="evenodd" clipRule="evenodd" d="M19.2 5.333c.957 0 1.733.776 1.733 1.733V8H25.6a5.067 5.067 0 0 1 5.06 4.806l.006.26V21.6c0 .957-.776 1.733-1.733 1.733H28a3.333 3.333 0 0 1-6.667 0H10.4a3.333 3.333 0 0 1-6.667 0h-.667A1.733 1.733 0 0 1 1.333 21.6V10.4A5.067 5.067 0 0 1 6.4 5.333h12.8zm5.489 16a1.997 1.997 0 0 1 1.977 2 2 2 0 1 1-2.022-2h.045zm4.244.667h-1.21a3.334 3.334 0 0 0-6.113 0H10.122a3.334 3.334 0 0 0-6.112 0h-.944a.4.4 0 0 1-.4-.4V10.4A3.733 3.733 0 0 1 6.4 6.666h12.8c.22 0 .4.18.4.4V19.466a.667.667 0 1 0 1.333 0V9.333H25.6a3.733 3.733 0 0 1 3.733 3.733V21.6a.4.4 0 0 1-.4.4zm-22.801-.436a2 2 0 1 0 .957-.23l-.023-.001h-.022a1.997 1.997 0 0 0-.912.231z" fill="#328636"/>
+                  <path opacity=".25" fillRule="evenodd" clipRule="evenodd" d="M20.933 7.066c0-.957-.776-1.733-1.733-1.733H6.4A5.067 5.067 0 0 0 1.333 10.4v11.2c0 .957.776 1.733 1.733 1.733h.667a3.333 3.333 0 0 0 6.667 0h10.933a3.333 3.333 0 0 0 6.667 0h.933c.957 0 1.733-.776 1.733-1.733v-8.534l-.006-.26A5.067 5.067 0 0 0 25.6 8h-4.667v-.934z" fill="#328636"/>
                 </svg>
-                Delivery
-              </h3>
-              {product.deliveryInfo ? (
-                <>
-                  <p className="text-xs text-text-secondary">
-                    <span className="font-semibold text-text-primary">Next day delivery</span>{" "}
-                    from £{product.deliveryInfo.nextDayDeliveryPrice || 50} (order by 7pm)
-                  </p>
-                  <p className="text-xs text-text-secondary mt-1">
-                    Standard delivery:{" "}
-                    {product.deliveryInfo.freeDelivery ? (
-                      <span className="font-semibold text-text-primary">FREE</span>
-                    ) : (
-                      `£${product.deliveryInfo.standardDeliveryPrice || 20}.00`
-                    )}
-                  </p>
-                  <p className="text-xs text-text-secondary mt-1">✓ Choose your delivery day (Monday-Sunday)</p>
-                  <p className="text-xs text-text-secondary mt-1">✓ Morning, afternoon and evening slots</p>
-                </>
-              ) : product.deliveryFree ? (
-                <>
-                  <p className="text-xs text-text-secondary">
-                    <span className="font-semibold text-text-primary">Next day delivery</span>{" "}
-                    from £50 (order by 7pm)
-                  </p>
-                  <p className="text-xs text-text-secondary mt-1">
-                    Standard delivery: <span className="font-semibold text-text-primary">FREE</span>
-                  </p>
-                  <p className="text-xs text-text-secondary mt-1">✓ Choose your delivery day (Monday-Sunday)</p>
-                  <p className="text-xs text-text-secondary mt-1">✓ Morning, afternoon and evening slots</p>
-                </>
-              ) : (
-                <>
-                  <p className="text-xs text-text-secondary">Standard delivery from £20.00</p>
-                  <p className="text-xs text-text-secondary mt-1">Next day from £30.00</p>
-                </>
-              )}
-              <p className="text-xs text-primary mt-2 hover:underline cursor-pointer">Check delivery for your area</p>
+              </div>
+              {/* Text column */}
+              <div className="flex-1 min-w-0">
+                {product.deliveryInfo ? (
+                  <>
+                    <p className="text-sm text-[#213038]">
+                      <span className="font-bold">Next day delivery</span>{" "}
+                      from £{product.deliveryInfo.nextDayDeliveryPrice || 30} (order by 7pm)
+                    </p>
+                    <p className="text-sm text-[#213038] mt-1">
+                      Standard delivery:{" "}
+                      {product.deliveryInfo.freeDelivery ? (
+                        <span className="font-bold">FREE</span>
+                      ) : (
+                        `£${product.deliveryInfo.standardDeliveryPrice || 20}`
+                      )}
+                    </p>
+                    <p className="text-sm text-[#213038] mt-1.5 flex items-center gap-2">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#328636" strokeWidth="2.5" className="flex-shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
+                      Choose your delivery day (Monday-Sunday)
+                    </p>
+                    <p className="text-sm text-[#213038] mt-1 flex items-center gap-2">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#328636" strokeWidth="2.5" className="flex-shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
+                      Morning, afternoon and evening slots
+                    </p>
+                  </>
+                ) : product.deliveryFree ? (
+                  <>
+                    <p className="text-sm text-[#213038]">
+                      <span className="font-bold">Next day delivery</span>{" "}
+                      from £30 (order by 7pm)
+                    </p>
+                    <p className="text-sm text-[#213038] mt-1">
+                      Standard delivery: <span className="font-bold">FREE</span>
+                    </p>
+                    <p className="text-sm text-[#213038] mt-1.5 flex items-center gap-2">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#328636" strokeWidth="2.5" className="flex-shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
+                      Choose your delivery day (Monday-Sunday)
+                    </p>
+                    <p className="text-sm text-[#213038] mt-1 flex items-center gap-2">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#328636" strokeWidth="2.5" className="flex-shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
+                      Morning, afternoon and evening slots
+                    </p>
+                  </>
+                ) : (
+                  <>
+                    <p className="text-sm text-[#213038]">
+                      <span className="font-bold">Next day delivery</span> from £30 (order by 7pm)
+                    </p>
+                    <p className="text-sm text-[#213038] mt-1">Standard delivery: £20</p>
+                  </>
+                )}
+                <p className="text-sm text-[#213038] underline mt-2 cursor-pointer">Check delivery for your area</p>
+              </div>
             </div>
           </div>
-
-          {/* Care & Repair */}
-          {product.careAndRepair && product.careAndRepair.length > 0 && (
-            <div className="border-t border-border pt-4 mt-4">
-              <CareAndRepair
-                plans={product.careAndRepair}
-                benefits={product.careAndRepairBenefits}
-              />
-            </div>
-          )}
 
           {/* Essential Services */}
           {product.essentialServices && product.essentialServices.length > 0 && (
-            <div className="mt-4">
+            <div className="bg-white rounded-lg p-4 mt-4">
               <EssentialServices services={product.essentialServices} />
             </div>
           )}
 
           {/* Cross-sell products */}
           {product.crossSellProducts && product.crossSellProducts.length > 0 && (
-            <div className="border-t border-border pt-4 mt-4">
+            <div className="bg-light-purple rounded-[10px] p-5 mt-4 -mx-5 -mb-5">
               <CrossSellProducts products={product.crossSellProducts} />
             </div>
           )}

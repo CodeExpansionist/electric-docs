@@ -251,6 +251,17 @@ function mergeScrapedData(base: ProductDetail, scraped: any): ProductDetail {
   if (scraped.essentialServices?.length > 0) {
     merged.essentialServices = scraped.essentialServices;
   }
+  // Default essential services for TVs if none scraped
+  if (!merged.essentialServices || merged.essentialServices.length === 0) {
+    const cat = (merged.category || "").toLowerCase();
+    if (cat.includes("tv") || cat.includes("television")) {
+      merged.essentialServices = [
+        { name: "Install TV to stand", price: 45 },
+        { name: "Install TV to wall (bracket not included)", price: 135 },
+        { name: "Recycle my old TV", price: 20 },
+      ];
+    }
+  }
 
   // Cross-sell products — normalize image paths and coerce old sparse format
   if (scraped.crossSellProducts?.length > 0) {

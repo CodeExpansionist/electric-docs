@@ -1,6 +1,6 @@
 /**
  * Next-day delivery date calculation.
- * Cut-off: 6 PM UK time. No Sunday deliveries.
+ * Cut-off: 9 PM UK time. No Sunday deliveries.
  */
 
 function getUKHour(): { hour: number; dayOfWeek: number } {
@@ -15,8 +15,8 @@ export function getNextDeliveryDate(): Date {
   const now = new Date();
   const { hour } = getUKHour();
 
-  // Before 6 PM → next day; after 6 PM → day after next
-  const daysToAdd = hour < 18 ? 1 : 2;
+  // Before 9 PM → next day; after 9 PM → day after next
+  const daysToAdd = hour < 21 ? 1 : 2;
 
   const delivery = new Date(now);
   delivery.setDate(delivery.getDate() + daysToAdd);

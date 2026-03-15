@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { useBasket } from "@/lib/basket-context";
 import { useSaved } from "@/lib/saved-context";
 import { useSignInModal } from "@/lib/signin-modal-context";
+import { useUser } from "@/lib/user-context";
 import { navLinks } from "./MainNav";
 
 interface Suggestion {
@@ -22,6 +23,7 @@ export default function Header() {
   const { itemCount } = useBasket();
   const { savedCount } = useSaved();
   const { openSignInModal } = useSignInModal();
+  const { user, isSignedIn, signOut } = useUser();
   const router = useRouter();
   const [showAccount, setShowAccount] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -318,7 +320,7 @@ export default function Header() {
             }}
           >
             <button
-              onClick={() => setShowAccount(!showAccount)}
+              onClick={() => isSignedIn ? setShowAccount(!showAccount) : openSignInModal()}
               aria-expanded={showAccount}
               aria-haspopup="true"
               aria-controls="account-menu"
@@ -333,23 +335,33 @@ export default function Header() {
             {/* Account dropdown */}
             {showAccount && (
               <div id="account-menu" className="absolute right-0 top-full mt-2 w-[280px] bg-white rounded-lg border border-border shadow-lg z-50 p-5">
-                <h3 className="text-base font-bold text-text-primary mb-1">My Account</h3>
-                <p className="text-xs text-text-secondary mb-4">
-                  Sign in to track orders, save items and more
-                </p>
-
-                <button
-                  className="btn-primary w-full text-sm text-center block mb-3"
-                  onClick={() => { setShowAccount(false); openSignInModal(); }}
-                >
-                  Sign in
-                </button>
-                <p className="text-xs text-center text-text-secondary mb-4">
-                  New customer?{" "}
-                  <button className="text-primary hover:underline" onClick={() => { setShowAccount(false); openSignInModal(); }}>
-                    Create an account
-                  </button>
-                </p>
+                {isSignedIn ? (
+                  <>
+                    <h3 className="text-base font-bold text-text-primary mb-1">
+                      {user?.firstName ? `Hi, ${user.firstName}` : "My Account"}
+                    </h3>
+                    <p className="text-xs text-text-secondary mb-4">{user?.email}</p>
+                  </>
+                ) : (
+                  <>
+                    <h3 className="text-base font-bold text-text-primary mb-1">My Account</h3>
+                    <p className="text-xs text-text-secondary mb-4">
+                      Sign in to track orders, save items and more
+                    </p>
+                    <button
+                      className="btn-primary w-full text-sm text-center block mb-3"
+                      onClick={() => { setShowAccount(false); openSignInModal(); }}
+                    >
+                      Sign in
+                    </button>
+                    <p className="text-xs text-center text-text-secondary mb-4">
+                      New customer?{" "}
+                      <button className="text-primary hover:underline" onClick={() => { setShowAccount(false); openSignInModal(); }}>
+                        Create an account
+                      </button>
+                    </p>
+                  </>
+                )}
 
                 <div className="border-t border-border pt-3 space-y-2">
                   <DropdownLink href="/account" label="My orders" icon="orders" onClick={() => setShowAccount(false)} />
@@ -357,14 +369,29 @@ export default function Header() {
                   <DropdownLink href="/saved" label="Saved items" icon="saved" onClick={() => setShowAccount(false)} />
                   <DropdownLink href="/track-your-order" label="Track my order" icon="track" onClick={() => setShowAccount(false)} />
                   <DropdownLink href="/services/returns" label="Returns" icon="returns" onClick={() => setShowAccount(false)} />
+                  {isSignedIn && (
+                    <button
+                      onClick={() => { setShowAccount(false); signOut(); }}
+                      className="flex items-center gap-3 py-2 text-sm text-text-primary hover:text-primary transition-colors w-full"
+                    >
+                      <span className="text-text-secondary" aria-hidden="true">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                          <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4" />
+                          <polyline points="16 17 21 12 16 7" />
+                          <line x1="21" y1="12" x2="9" y2="12" />
+                        </svg>
+                      </span>
+                      Sign out
+                    </button>
+                  )}
                 </div>
               </div>
             )}
           </div>
 
-          {/* Account link (mobile – opens sign-in modal) */}
+          {/* Account link (mobile – opens sign-in modal or navigates to account) */}
           <button
-            onClick={openSignInModal}
+            onClick={() => isSignedIn ? router.push("/account") : openSignInModal()}
             className="group flex md:hidden flex-col items-center gap-0.5 transition-colors"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-icon group-hover:text-primary" aria-hidden="true">

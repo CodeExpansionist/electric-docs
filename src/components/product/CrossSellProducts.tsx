@@ -1,12 +1,48 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import type { CrossSellProduct } from "@/lib/product-data";
+import { useBasket } from "@/lib/basket-context";
+import type { Product } from "@/lib/types";
 
 interface CrossSellProductsProps {
   products: CrossSellProduct[];
+}
+
+/** Convert a CrossSellProduct to a basket-compatible Product. */
+function toBasketProduct(cp: CrossSellProduct): Product {
+  const id = `cross-sell-${cp.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`;
+  return {
+    id,
+    slug: id,
+    title: cp.title,
+    brand: "",
+    category: cp.category,
+    subcategory: "",
+    price: {
+      current: cp.price,
+      was: cp.wasPrice ?? undefined,
+      savings: cp.savings ?? undefined,
+    },
+    images: {
+      main: cp.image || "",
+      gallery: [],
+      thumbnail: cp.image || "",
+    },
+    rating: {
+      average: cp.rating ?? 0,
+      count: cp.reviewCount ?? 0,
+    },
+    specs: {},
+    keySpecs: [],
+    description: "",
+    deliveryInfo: { freeDelivery: false, estimatedDate: "" },
+    badges: cp.badge ? [cp.badge] : [],
+    tags: [],
+    offers: [],
+    inStock: true,
+  };
 }
 
 function ProductImage({
@@ -59,8 +95,8 @@ function StarRatingSmall({ rating }: { rating: number }) {
         {[1, 2, 3, 4, 5].map((star) => (
           <svg
             key={star}
-            width="10"
-            height="10"
+            width="13"
+            height="14"
             viewBox="0 0 24 24"
             fill={star <= Math.round(rating) ? "#E8A317" : "#E0E0E0"}
           >
@@ -68,8 +104,8 @@ function StarRatingSmall({ rating }: { rating: number }) {
           </svg>
         ))}
       </div>
-      <span className="text-[10px] text-text-secondary">
-        {rating.toFixed(1)}
+      <span className="text-xs text-[#e5006d] font-normal">
+        {rating.toFixed(1)}/5
       </span>
     </div>
   );
@@ -78,66 +114,120 @@ function StarRatingSmall({ rating }: { rating: number }) {
 export default function CrossSellProducts({
   products,
 }: CrossSellProductsProps) {
+  const { basket, addItem, removeItem } = useBasket();
+
+  // Determine which cross-sell products are currently in the basket
+  const isInBasket = useCallback(
+    (cp: CrossSellProduct) => {
+      const id = toBasketProduct(cp).id;
+      return basket.items.some((item) => item.product.id === id);
+    },
+    [basket.items]
+  );
+
+  const handleToggle = useCallback(
+    (cp: CrossSellProduct) => {
+      const bp = toBasketProduct(cp);
+      if (basket.items.some((item) => item.product.id === bp.id)) {
+        removeItem(bp.id);
+      } else {
+        addItem(bp);
+      }
+    },
+    [basket.items, addItem, removeItem]
+  );
+
   if (products.length === 0) return null;
 
   return (
     <div className="mb-2">
-      <h3 className="text-base font-bold text-primary mb-4">
-        What you&apos;ll need to make it even better
+      <h3 className="text-[20px] font-normal text-primary text-center mb-4 leading-[22px]">
+        What you&apos;ll need to make it{" "}
+        <span className="text-[#e5006d]">even better</span>
       </h3>
       <div className="space-y-4">
-        {products.map((product) => (
-          <div key={product.title} className="border border-border rounded-lg p-4">
-            {/* Category header with checkbox */}
-            <div className="flex items-center gap-2 mb-3">
-              <input type="checkbox" className="w-4 h-4 accent-primary rounded" />
-              <span className="text-xs font-semibold text-text-primary">
-                {product.category}
-              </span>
-            </div>
+        {products.map((product) => {
+          const checked = isInBasket(product);
+          return (
+            <div key={product.title} className="bg-white rounded-lg p-4">
+              {/* Category header with checkbox */}
+              <div
+                className="flex items-center gap-2 mb-3 cursor-pointer select-none"
+                onClick={() => handleToggle(product)}
+                role="checkbox"
+                aria-checked={checked}
+                tabIndex={0}
+                onKeyDown={(e) => {
+                  if (e.key === " " || e.key === "Enter") {
+                    e.preventDefault();
+                    handleToggle(product);
+                  }
+                }}
+              >
+                <div
+                  className={`w-6 h-6 flex-shrink-0 border rounded-[6px] flex items-center justify-center transition-colors ${
+                    checked
+                      ? "bg-[#7B2D8E] border-[#7B2D8E]"
+                      : "bg-white border-[#56707a]"
+                  }`}
+                >
+                  {checked && (
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                      <path
+                        d="M2.5 7L5.5 10L11.5 4"
+                        stroke="white"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  )}
+                </div>
+                <span className="text-sm font-normal text-[#213038]">
+                  {product.category}
+                </span>
+              </div>
 
-            {/* Product details */}
-            <div className="flex gap-3 ml-6">
-              <ProductImage src={product.image} alt={product.title} />
-              <div className="flex-1 min-w-0">
-                <p className="text-xs text-text-primary font-medium line-clamp-2 mb-1">
-                  {product.title}
-                </p>
-                {typeof product.rating === "number" && product.rating > 0 && (
-                  <div className="flex items-center gap-1 mb-1">
-                    <StarRatingSmall rating={product.rating} />
-                    {typeof product.reviewCount === "number" && product.reviewCount > 0 && (
-                      <span className="text-[10px] text-text-secondary">
-                        {product.reviewCount} reviews
+              {/* Product details */}
+              <div className="flex gap-3 ml-8">
+                <ProductImage src={product.image} alt={product.title} />
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm text-[#213038] font-normal line-clamp-2 mb-1">
+                    {product.title}
+                  </p>
+                  {typeof product.rating === "number" && product.rating > 0 && (
+                    <div className="flex items-center gap-1 mb-1">
+                      <StarRatingSmall rating={product.rating} />
+                      {typeof product.reviewCount === "number" && product.reviewCount > 0 && (
+                        <span className="text-xs text-[#213038]">
+                          {product.reviewCount} reviews
+                        </span>
+                      )}
+                    </div>
+                  )}
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-bold text-[#213038]">
+                      £{(product.price ?? 0).toFixed(2)}
+                    </span>
+                    {typeof product.wasPrice === "number" && product.wasPrice > 0 && (
+                      <span className="text-xs text-text-muted line-through">
+                        £{product.wasPrice.toFixed(2)}
+                      </span>
+                    )}
+                    {typeof product.savings === "number" && product.savings > 0 && (
+                      <span className="text-xs text-sale font-semibold">
+                        Save £{product.savings.toFixed(2)}
                       </span>
                     )}
                   </div>
-                )}
-                <div className="flex items-center gap-2">
-                  <span className="text-sm font-bold text-text-primary">
-                    £{(product.price ?? 0).toFixed(2)}
-                  </span>
-                  {typeof product.wasPrice === "number" && product.wasPrice > 0 && (
-                    <span className="text-[10px] text-text-muted line-through">
-                      £{product.wasPrice.toFixed(2)}
-                    </span>
-                  )}
-                  {typeof product.savings === "number" && product.savings > 0 && (
-                    <span className="text-[10px] text-sale font-semibold">
-                      Save £{product.savings.toFixed(2)}
-                    </span>
-                  )}
+                  <button className="text-xs text-[#222] underline mt-1">
+                    Select alternative
+                  </button>
                 </div>
-                <Link
-                  href="#"
-                  className="text-xs text-primary mt-1 inline-block"
-                >
-                  Select alternative
-                </Link>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

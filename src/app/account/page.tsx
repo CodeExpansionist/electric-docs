@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useOrders, type Order } from "@/lib/orders-context";
 import { useBasket } from "@/lib/basket-context";
+import { useUser } from "@/lib/user-context";
 import { luhnCheck, getCardType, formatCardNumber, formatExpiry } from "@/lib/payment-utils";
 
 interface SavedCard {
@@ -204,10 +205,14 @@ function OrderCard({ order }: { order: Order }) {
 type AccountTab = "overview" | "orders" | "details" | "addresses" | "payment";
 
 export default function AccountPage() {
+  const { user, isSignedIn, signIn, signOut } = useUser();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [isSignedIn, setIsSignedIn] = useState(true);
   const [showCreate, setShowCreate] = useState(false);
+  const [regFirst, setRegFirst] = useState("");
+  const [regLast, setRegLast] = useState("");
+  const [regEmail, setRegEmail] = useState("");
+  const [regPassword, setRegPassword] = useState("");
   const [activeTab, setActiveTab] = useState<AccountTab>("overview");
   const { orders, isHydrated } = useOrders();
   const [toast, setToast] = useState<string | null>(null);
@@ -224,6 +229,11 @@ export default function AccountPage() {
   const [addrErrors, setAddrErrors] = useState<Record<string, string>>({});
   const [editingAddressId, setEditingAddressId] = useState<string | null>(null);
 
+  // Show create-account form if navigated with #register hash
+  useEffect(() => {
+    if (window.location.hash === "#register") setShowCreate(true);
+  }, []);
+
   // Load saved cards and addresses from localStorage
   useEffect(() => {
     const stored = localStorage.getItem("electric-saved-cards");
@@ -236,12 +246,14 @@ export default function AccountPage() {
     }
   }, []);
 
-  // Derive user data from most recent order (must be before address/card helpers)
+  // Derive user data from context first, then fall back to most recent order
   const latestOrder = orders[0];
-  const userName = latestOrder
-    ? { first: latestOrder.delivery.firstName, last: latestOrder.delivery.lastName }
-    : { first: "", last: "" };
-  const userEmail = latestOrder?.customer?.email || "";
+  const userName = user?.firstName
+    ? { first: user.firstName, last: user.lastName }
+    : latestOrder
+      ? { first: latestOrder.delivery.firstName, last: latestOrder.delivery.lastName }
+      : { first: "", last: "" };
+  const userEmail = user?.email || latestOrder?.customer?.email || "";
   const userPhone = latestOrder?.delivery?.phone || "";
   const lastPayment = latestOrder?.paymentMethod || "";
 
@@ -441,7 +453,7 @@ export default function AccountPage() {
 
   const handleSignIn = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSignedIn(true);
+    signIn(email);
   };
 
   if (isSignedIn) {
@@ -461,7 +473,7 @@ export default function AccountPage() {
                 Welcome back{userName.first ? `, ${userName.first}` : ""}
               </p>
             </div>
-            <button onClick={() => setIsSignedIn(false)} className="text-sm text-primary hover:underline">Sign out</button>
+            <button onClick={signOut} className="text-sm text-primary hover:underline">Sign out</button>
           </div>
 
           {/* Tab navigation */}
@@ -956,13 +968,13 @@ export default function AccountPage() {
             <h1 className="text-2xl font-bold text-text-primary text-center mb-2">Create an account</h1>
             <p className="text-sm text-text-secondary text-center mb-8">Join us to track orders, save items and earn Perks</p>
 
-            <form onSubmit={(e) => { e.preventDefault(); setIsSignedIn(true); }} className="space-y-4">
+            <form onSubmit={(e) => { e.preventDefault(); signIn(regEmail, regFirst, regLast); }} className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
-                <div><label className="text-sm font-bold text-text-primary mb-1 block">First name</label><input type="text" placeholder="First name" className={fieldClass} required /></div>
-                <div><label className="text-sm font-bold text-text-primary mb-1 block">Last name</label><input type="text" placeholder="Last name" className={fieldClass} required /></div>
+                <div><label className="text-sm font-bold text-text-primary mb-1 block">First name</label><input type="text" value={regFirst} onChange={(e) => setRegFirst(e.target.value)} placeholder="First name" className={fieldClass} required /></div>
+                <div><label className="text-sm font-bold text-text-primary mb-1 block">Last name</label><input type="text" value={regLast} onChange={(e) => setRegLast(e.target.value)} placeholder="Last name" className={fieldClass} required /></div>
               </div>
-              <div><label className="text-sm font-bold text-text-primary mb-1 block">Email address</label><input type="email" placeholder="Enter your email" className={fieldClass} required /></div>
-              <div><label className="text-sm font-bold text-text-primary mb-1 block">Password</label><input type="password" placeholder="Create a password" className={fieldClass} required /><p className="text-xs text-text-secondary mt-1">Must be at least 8 characters</p></div>
+              <div><label className="text-sm font-bold text-text-primary mb-1 block">Email address</label><input type="email" value={regEmail} onChange={(e) => setRegEmail(e.target.value)} placeholder="Enter your email" className={fieldClass} required /></div>
+              <div><label className="text-sm font-bold text-text-primary mb-1 block">Password</label><input type="password" value={regPassword} onChange={(e) => setRegPassword(e.target.value)} placeholder="Create a password" className={fieldClass} required /><p className="text-xs text-text-secondary mt-1">Must be at least 8 characters</p></div>
               <div className="flex items-start gap-2"><input type="checkbox" className="mt-1 accent-primary" /><span className="text-xs text-text-secondary">I&apos;d like to hear about offers, promotions and new products via email</span></div>
               <button type="submit" className="btn-primary w-full text-sm">Create account</button>
             </form>

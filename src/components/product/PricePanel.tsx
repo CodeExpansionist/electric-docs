@@ -171,7 +171,7 @@ export default function PricePanel({
                   <div
                     className={`w-[60px] h-[60px] rounded-full flex items-center justify-center transition-colors ${
                       isSelected
-                        ? "border-[3px] border-primary bg-light-purple"
+                        ? "border-[3px] border-primary bg-white"
                         : isAvailable
                           ? "border border-border bg-white hover:border-primary"
                           : "border border-border/50 bg-white opacity-50"
@@ -238,7 +238,7 @@ export default function PricePanel({
 
       {/* Wall bracket upsell */}
       {wallBracket && (
-        <div className="border border-border rounded-[5px] p-4 mb-4">
+        <div className="bg-white border border-border rounded-[5px] p-4 mb-4">
           <p className="text-xs text-text-primary mb-2">
             {wallBracket.text.split("Save")[0]}
             {wallBracket.product.savings > 0 && (

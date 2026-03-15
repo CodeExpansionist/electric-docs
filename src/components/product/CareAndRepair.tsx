@@ -14,7 +14,7 @@ export default function CareAndRepair({ plans, benefits }: CareAndRepairProps) {
   if (plans.length === 0) return null;
 
   return (
-    <div className="border border-border rounded-lg p-4 mb-4">
+    <div className="mb-4">
       <h3 className="text-sm font-bold text-text-primary mb-1 flex items-center gap-2">
         <svg
           width="18"

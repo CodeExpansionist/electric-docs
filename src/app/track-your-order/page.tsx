@@ -2,13 +2,17 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { useSignInModal } from "@/lib/signin-modal-context";
 
 export default function TrackYourOrder() {
+  const { openSignInModal } = useSignInModal();
   const [orderNumber, setOrderNumber] = useState("");
   const [email, setEmail] = useState("");
+  const [showError, setShowError] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    setShowError(true);
   };
 
   return (
@@ -26,7 +30,7 @@ export default function TrackYourOrder() {
       </nav>
 
       {/* Page content */}
-      <div className="max-w-lg mx-auto">
+      <div className="max-w-md mx-auto">
         {/* Title */}
         <h1 className="text-2xl font-bold text-text-primary mb-4">
           Track my order
@@ -39,14 +43,14 @@ export default function TrackYourOrder() {
         </p>
 
         {/* Sign in button */}
-        <div className="max-w-md mx-auto mb-6">
-          <Link href="#" className="btn-primary w-full no-underline text-center">
+        <div className="mb-6">
+          <button onClick={openSignInModal} className="btn-primary w-full">
             Sign in
-          </Link>
+          </button>
         </div>
 
         {/* OR divider */}
-        <div className="flex items-center gap-4 mb-6 max-w-md mx-auto">
+        <div className="flex items-center gap-4 mb-6">
           <hr className="flex-1 border-border" />
           <span className="text-text-secondary text-sm">OR</span>
           <hr className="flex-1 border-border" />
@@ -59,8 +63,22 @@ export default function TrackYourOrder() {
           start a return.
         </p>
 
+        {/* Error message */}
+        {showError && (
+          <div className="mb-6 border-2 border-error rounded-lg p-4 flex items-center gap-3">
+            <div className="flex-shrink-0 w-8 h-8 bg-error rounded-full flex items-center justify-center">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round">
+                <path d="M18 6L6 18M6 6l12 12" />
+              </svg>
+            </div>
+            <p className="text-sm text-text-primary">
+              Sorry this order number or email address does not match our records.
+            </p>
+          </div>
+        )}
+
         {/* Form */}
-        <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-4">
           {/* Order number */}
           <div>
             <label
@@ -74,13 +92,9 @@ export default function TrackYourOrder() {
               type="text"
               placeholder="e.g. CUR1234567809"
               value={orderNumber}
-              onChange={(e) => setOrderNumber(e.target.value)}
-              className="input-field"
+              onChange={(e) => { setOrderNumber(e.target.value); setShowError(false); }}
+              className="w-full rounded-md border border-input-border px-4 py-3 text-sm text-input-text focus:border-primary focus:ring-0 transition-colors"
             />
-            <p className="text-xs text-text-secondary mt-1">
-              This is a 13-digit number, found in your confirmation email or on
-              your receipt. It starts with CUR.
-            </p>
           </div>
 
           {/* Email address */}
@@ -94,13 +108,11 @@ export default function TrackYourOrder() {
             <input
               id="email"
               type="email"
+              placeholder="The email address used to place your order"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="input-field"
+              onChange={(e) => { setEmail(e.target.value); setShowError(false); }}
+              className="w-full rounded-md border border-input-border px-4 py-3 text-sm text-input-text focus:border-primary focus:ring-0 transition-colors"
             />
-            <p className="text-xs text-text-secondary mt-1">
-              The email address used to place your order
-            </p>
           </div>
 
           {/* Submit button */}
@@ -109,32 +121,6 @@ export default function TrackYourOrder() {
           </button>
         </form>
 
-        {/* Info box */}
-        <div className="bg-surface rounded-lg p-4 border border-border mt-8 flex items-start gap-3">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            className="w-5 h-5 text-text-secondary flex-shrink-0 mt-0.5"
-          >
-            <path
-              fillRule="evenodd"
-              d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z"
-              clipRule="evenodd"
-            />
-          </svg>
-          <p className="text-xs text-text-secondary leading-relaxed">
-            If you bought your item in-store, and your receipt shows only an
-            order number starting with 74, please go{" "}
-            <Link
-              href="#"
-              className="text-primary underline hover:text-primary-dark"
-            >
-              here
-            </Link>{" "}
-            to track your order.
-          </p>
-        </div>
       </div>
     </div>
   );

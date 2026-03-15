@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const privacyLinks = [
-  { text: "Privacy & cookies policy", url: "/privacy-cookies-policy" },
+  { text: "Privacy policy", url: "/privacy-cookies-policy" },
+  { text: "Cookies policy", url: "/cookies-policy" },
   { text: "Terms & conditions", url: "/terms-and-conditions" },
-  { text: "Product recalls", url: "/product-recalls" },
   { text: "Sitemap", url: "/site-map" },
 ];
 

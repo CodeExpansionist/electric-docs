@@ -17,15 +17,7 @@ const sections: SitemapSection[] = [
       { text: "Delivery options", href: "/services/delivery" },
       { text: "Returns & cancellations", href: "/services/returns" },
       { text: "Gift cards", href: "/services/gift-cards" },
-      { text: "ShopLive", href: "/services/shoplive" },
       { text: "Price Promise", href: "/services/price-promise" },
-    ],
-  },
-  {
-    heading: "Care Services",
-    links: [
-      { text: "Instant Replacement", href: "/services/instant-replacement" },
-      { text: "Tablet Insurance", href: "/services/tablet-insurance" },
     ],
   },
   {
@@ -40,7 +32,6 @@ const sections: SitemapSection[] = [
     links: [
       { text: "Privacy & cookies", href: "/privacy-cookies-policy" },
       { text: "Terms & conditions", href: "/terms-and-conditions" },
-      { text: "Product recalls", href: "/product-recalls" },
     ],
   },
   {

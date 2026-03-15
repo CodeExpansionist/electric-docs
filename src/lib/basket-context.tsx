@@ -8,8 +8,15 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import type { Product, Basket, BasketItem } from "./types";
-import { DEFAULT_DELIVERY_FEE, FREE_DELIVERY_THRESHOLD } from "./constants";
+import type { Product, Basket, BasketItem, DeliveryMethod } from "./types";
+import {
+  DEFAULT_DELIVERY_FEE,
+  FREE_DELIVERY_THRESHOLD,
+  NEXT_DAY_ALL_DAY,
+  NEXT_DAY_WEEKDAY_SLOT,
+  NEXT_DAY_WEEKEND_ALL_DAY,
+  NEXT_DAY_WEEKEND_SLOT,
+} from "./constants";
 
 type BasketAction =
   | { type: "ADD_ITEM"; product: Product }
@@ -17,6 +24,7 @@ type BasketAction =
   | { type: "UPDATE_QUANTITY"; productId: string; quantity: number }
   | { type: "APPLY_PROMO"; code: string; discount: number }
   | { type: "REMOVE_PROMO" }
+  | { type: "SET_DELIVERY_METHOD"; method: DeliveryMethod }
   | { type: "CLEAR_BASKET" }
   | { type: "HYDRATE"; basket: Basket };
 
@@ -25,19 +33,38 @@ const initialBasket: Basket = {
   subtotal: 0,
   deliveryCost: 0,
   total: 0,
+  deliveryMethod: "standard",
 };
 
-function calculateTotals(items: BasketItem[], promoDiscount?: number): Pick<Basket, "subtotal" | "total" | "deliveryCost"> {
+function getDeliveryCost(subtotal: number, method: DeliveryMethod): number {
+  switch (method) {
+    case "standard":
+      return subtotal >= FREE_DELIVERY_THRESHOLD ? 0 : DEFAULT_DELIVERY_FEE;
+    case "next-day":
+      return NEXT_DAY_ALL_DAY;
+    case "next-day-weekday-slot":
+      return NEXT_DAY_WEEKDAY_SLOT;
+    case "next-day-weekend":
+      return NEXT_DAY_WEEKEND_ALL_DAY;
+    case "next-day-weekend-slot":
+      return NEXT_DAY_WEEKEND_SLOT;
+    default:
+      return subtotal >= FREE_DELIVERY_THRESHOLD ? 0 : DEFAULT_DELIVERY_FEE;
+  }
+}
+
+function calculateTotals(items: BasketItem[], method: DeliveryMethod, promoDiscount?: number): Pick<Basket, "subtotal" | "total" | "deliveryCost"> {
   const subtotal = items.reduce(
     (sum, item) => sum + item.product.price.current * item.quantity,
     0
   );
-  const deliveryCost = subtotal >= FREE_DELIVERY_THRESHOLD ? 0 : DEFAULT_DELIVERY_FEE;
+  const deliveryCost = getDeliveryCost(subtotal, method);
   const discount = promoDiscount || 0;
   return { subtotal, deliveryCost, total: Math.max(0, subtotal + deliveryCost - discount) };
 }
 
 function basketReducer(state: Basket, action: BasketAction): Basket {
+  const method = state.deliveryMethod || "standard";
   switch (action.type) {
     case "ADD_ITEM": {
       const existing = state.items.find(
@@ -50,27 +77,35 @@ function basketReducer(state: Basket, action: BasketAction): Basket {
               : item
           )
         : [...state.items, { product: action.product, quantity: 1 }];
-      return { ...state, items, ...calculateTotals(items, state.promoDiscount) };
+      return { ...state, items, ...calculateTotals(items, method, state.promoDiscount) };
     }
     case "REMOVE_ITEM": {
       const items = state.items.filter(
         (item) => item.product.id !== action.productId
       );
-      return { ...state, items, ...calculateTotals(items, state.promoDiscount) };
+      return { ...state, items, ...calculateTotals(items, method, state.promoDiscount) };
     }
     case "UPDATE_QUANTITY": {
       if (action.quantity <= 0) {
         const items = state.items.filter(
           (item) => item.product.id !== action.productId
         );
-        return { ...state, items, ...calculateTotals(items, state.promoDiscount) };
+        return { ...state, items, ...calculateTotals(items, method, state.promoDiscount) };
       }
       const items = state.items.map((item) =>
         item.product.id === action.productId
           ? { ...item, quantity: action.quantity }
           : item
       );
-      return { ...state, items, ...calculateTotals(items, state.promoDiscount) };
+      return { ...state, items, ...calculateTotals(items, method, state.promoDiscount) };
+    }
+    case "SET_DELIVERY_METHOD": {
+      const newMethod = action.method;
+      return {
+        ...state,
+        deliveryMethod: newMethod,
+        ...calculateTotals(state.items, newMethod, state.promoDiscount),
+      };
     }
     case "APPLY_PROMO": {
       const discount = action.discount;
@@ -78,7 +113,7 @@ function basketReducer(state: Basket, action: BasketAction): Basket {
         ...state,
         promoCode: action.code,
         promoDiscount: discount,
-        ...calculateTotals(state.items, discount),
+        ...calculateTotals(state.items, method, discount),
       };
     }
     case "REMOVE_PROMO": {
@@ -86,7 +121,7 @@ function basketReducer(state: Basket, action: BasketAction): Basket {
         ...state,
         promoCode: undefined,
         promoDiscount: undefined,
-        ...calculateTotals(state.items),
+        ...calculateTotals(state.items, method),
       };
     }
     case "CLEAR_BASKET":
@@ -103,6 +138,7 @@ interface BasketContextValue {
   addItem: (product: Product) => void;
   removeItem: (productId: string) => void;
   updateQuantity: (productId: string, quantity: number) => void;
+  setDeliveryMethod: (method: DeliveryMethod) => void;
   applyPromo: (code: string, discount: number) => void;
   removePromo: () => void;
   clearBasket: () => void;
@@ -146,6 +182,8 @@ export function BasketProvider({ children }: { children: ReactNode }) {
         removeItem: (productId) => dispatch({ type: "REMOVE_ITEM", productId }),
         updateQuantity: (productId, quantity) =>
           dispatch({ type: "UPDATE_QUANTITY", productId, quantity }),
+        setDeliveryMethod: (method) =>
+          dispatch({ type: "SET_DELIVERY_METHOD", method }),
         applyPromo: (code, discount) =>
           dispatch({ type: "APPLY_PROMO", code, discount }),
         removePromo: () => dispatch({ type: "REMOVE_PROMO" }),

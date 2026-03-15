@@ -3,6 +3,25 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #C4C4C4 #F2F2F2;
+  }
+  html::-webkit-scrollbar {
+    width: 10px;
+  }
+  html::-webkit-scrollbar-track {
+    background: #F2F2F2;
+  }
+  html::-webkit-scrollbar-thumb {
+    background: #C4C4C4;
+    border-radius: 5px;
+  }
+  html::-webkit-scrollbar-thumb:hover {
+    background: #A0A0A0;
+  }
+
   body {
     @apply text-text-primary bg-white font-body text-base;
     -webkit-font-smoothing: antialiased;

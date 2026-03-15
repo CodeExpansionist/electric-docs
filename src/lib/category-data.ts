@@ -241,7 +241,7 @@ const categoryMap: Record<string, () => CategoryData> = {
       breadcrumbs: [
         { label: "Home", href: "/" },
         { label: "TV & Audio", href: "/tv-and-audio" },
-        { label: "All TVs", href: "" },
+        { label: "All Televisions", href: "" },
       ],
       totalProducts: data.products.length,
       bannerImage: banner.image,
