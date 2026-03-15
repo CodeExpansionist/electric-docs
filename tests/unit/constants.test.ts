@@ -24,8 +24,8 @@ describe("stripDomain", () => {
 });
 
 describe("delivery constants", () => {
-  it("DEFAULT_DELIVERY_FEE is 5", () => {
-    expect(DEFAULT_DELIVERY_FEE).toBe(5);
+  it("DEFAULT_DELIVERY_FEE is 3.99", () => {
+    expect(DEFAULT_DELIVERY_FEE).toBe(3.99);
   });
 
   it("FREE_DELIVERY_THRESHOLD is 40", () => {

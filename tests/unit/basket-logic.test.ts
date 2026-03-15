@@ -95,9 +95,9 @@ describe("basket calculation logic", () => {
 
     it("handles promo with delivery fee", () => {
       const result = calculateTotals([{ price: 30, quantity: 1 }], 10);
-      // subtotal: 30, delivery: 5 (below threshold), promo: 10
-      // total: 30 + 5 - 10 = 25
-      expect(result.total).toBe(25);
+      // subtotal: 30, delivery: 3.99 (below threshold), promo: 10
+      // total: 30 + 3.99 - 10 = 23.99
+      expect(result.total).toBeCloseTo(23.99);
     });
   });
 });
